@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
-
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
