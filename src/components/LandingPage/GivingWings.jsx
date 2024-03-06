@@ -121,8 +121,8 @@ const GivingWings = () => {
                         </Slider>
                     </div>
                     <div className="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center">
-                        <div className=" grid grid-cols-2">
-                            <div className='border-b-2 border-r-2 p-3'>
+                        <div className="w-full grid grid-cols-2">
+                            <div className='border-b-2 border-r-2 p-5 flex flex-col justify-center'>
                                 <p className="text-4xl mb-3 ">
                                     3,000
                                 </p>
@@ -133,7 +133,7 @@ const GivingWings = () => {
                                     Every Year
                                 </p>
                             </div>
-                            <div className='border-b-2 p-3'>
+                            <div className='border-b-2 p-5 flex flex-col justify-center'>
                                 <p className="text-4xl mb-3">
                                     45 LPA
                                 </p>
@@ -144,7 +144,7 @@ const GivingWings = () => {
                                     Offered
                                 </p>
                             </div>
-                            <div className=' border-r-2 p-3'>
+                            <div className=' border-r-2 p-5 flex flex-col justify-center'>
                                 <p className="text-4xl mb-3">
                                     350
                                 </p>
@@ -155,7 +155,7 @@ const GivingWings = () => {
                                     Visit Per year
                                 </p>
                             </div>
-                            <div className='p-3'>
+                            <div className='p-5 flex flex-col justify-center'>
                                 <p className="text-4xl mb-3">
                                     12000
                                 </p>
