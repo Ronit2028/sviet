@@ -1,10 +1,13 @@
 import React from 'react'
 
+import placementBackdrop from '@/assets/LandingPage/placementBackdrop.jpg'
+
 const PlacementOverview = () => {
     return (
         <div className='w-full mx-auto flex flex-wrap'>
-            <div className='w-full md:w-1/2 bg-[#00112d] text-white py-10'>
-                <div className="w-10/12 mx-auto p-6">
+            <div className='w-full md:w-1/2 text-white ' style={{ backgroundImage: `url(${placementBackdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+               <div className="bg-[#00112df2] w-full h-full py-10">
+               <div className="w-10/12 mx-auto p-6">
                     <div>
                         <p className="text-4xl mb-6">
                             Placement Overview
@@ -71,6 +74,7 @@ const PlacementOverview = () => {
                     </div>
                     <button className='bg-[#fea700] text-white text-lg py-1 px-2 rounded-sm my-6'>Apply Now</button>
                 </div>
+               </div>
 
             </div>
             <div className='w-full md:w-1/2 bg-[#00112d] text-white grid grid-cols-1 md:grid-cols-2'>

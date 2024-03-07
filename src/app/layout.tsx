@@ -4,6 +4,10 @@ import "./globals.css";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import '@fortawesome/fontawesome-free/css/all.css'
+
+import Footer from "@/components/Globals/Footer"
+
 const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -18,7 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      <Footer/>
+      </body>
     </html>
   );
 }

@@ -1,8 +1,11 @@
 import React from 'react'
 
+import backdrop from '@/assets/LandingPage/backdrop.jpg'
+
 const Header = () => {
     return (
-        <div className='h-auto md:h-[100vh] bg-black text-white flex items-center'>
+        <div className='h-auto md:h-[100vh] text-white flex items-center' style={{backgroundImage:`url(${backdrop.src})`, backgroundSize:"cover", backgroundRepeat:"no-repeat", backgroundPosition:"center center"}}>
+            <div className='w-full h-full  flex items-center bg-[#00000095]'>
             <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                 <div className='w-full md:w-1/2'>
                     <p className='text-5xl w-4/5 mb-3 pb-3'>
@@ -149,6 +152,7 @@ const Header = () => {
                         </form>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )
