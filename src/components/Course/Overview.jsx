@@ -4,28 +4,28 @@ const Overview = () => {
     return (
         <div className='w-10/12 mx-auto flex flex-wrap py-10'>
             <div className="w-full md:w-3/5 pr-auto md:pr-12">
-                <div className='mb-6'>
-                    <p className="text-3xl font-medium mb-6">Program Overview</p>
+                <div className='mb-6 pb-3'>
+                    <p className="text-3xl font-medium mb-6 pb-2">Program Overview</p>
                     <p className='text-md text-justify'>
                         One of the most important components of development in the many commercial, technological, and administrative organisations is now computer science. Information gathering in computer science exposes users to a wide range of trends' capabilities. A four-year bachelor's degree programme in Computer Science & Engineering is offered by the Department of Computer Engineering at the Faculty of Engineering. The curriculum is purposefully created to give students a solid foundation in the subject, as well as analysis and in-depth knowledge. The department is outfitted with computer facilities and laboratories that enable students to be engaged on a personal level and in the real-time processing of the technological processes involved in order to expose them to in-depth.
                     </p>
                 </div>
                 <div>
-                    <p className="text-3xl font-medium mb-6">Program's Major Tracks</p>
-                    <div className='grid grid-cols-2 pb-6'>
-                        <p className="text-lg font-medium border-l-4 border-[#fea700] pl-2 mb-6">
+                    <p className="text-3xl font-medium mb-3 pb-2">Program's Major Tracks</p>
+                    <div className='grid grid-cols-2 pb-6 gap-x-4'>
+                        <p className="text-xl font-medium border-l-4 border-[#fea700] pl-3 bg-gray-100 my-4 py-2">
                             Data Science
                         </p>
-                        <p className="text-lg font-medium border-l-4 border-[#fea700] pl-2 mb-6">
+                        <p className="text-xl font-medium border-l-4 border-[#fea700] pl-3 bg-gray-100 my-4 py-2">
                             Software Development
                         </p>
-                        <p className="text-lg font-medium border-l-4 border-[#fea700] pl-2 mb-6">
+                        <p className="text-xl font-medium border-l-4 border-[#fea700] pl-3 bg-gray-100 my-4 py-2">
                             Machine Learning
                         </p>
-                        <p className="text-lg font-medium border-l-4 border-[#fea700] pl-2 mb-6">
+                        <p className="text-xl font-medium border-l-4 border-[#fea700] pl-3 bg-gray-100 my-4 py-2">
                             Cloud Computing
                         </p>
-                        <p className="text-lg font-medium border-l-4 border-[#fea700] pl-2 mb-6">
+                        <p className="text-xl font-medium border-l-4 border-[#fea700] pl-3 bg-gray-100 my-4 py-2">
                             Networking
                         </p>
                     </div>
