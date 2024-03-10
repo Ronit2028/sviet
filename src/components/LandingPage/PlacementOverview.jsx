@@ -5,7 +5,7 @@ import placementBackdrop from '@/assets/LandingPage/placementBackdrop.jpg'
 const PlacementOverview = () => {
     return (
         <div className='w-full mx-auto flex flex-wrap'>
-            <div className='w-full md:w-1/2 text-white ' style={{ backgroundImage: `url(${placementBackdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+            <div className='w-full lg:w-1/2 text-white ' style={{ backgroundImage: `url(${placementBackdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                <div className="bg-[#00112df2] w-full h-full py-10">
                <div className="w-10/12 mx-auto p-6">
                     <div>
@@ -77,9 +77,9 @@ const PlacementOverview = () => {
                </div>
 
             </div>
-            <div className='w-full md:w-1/2 bg-[#00112d] text-white grid grid-cols-1 md:grid-cols-2'>
+            <div className='w-full lg:w-1/2 bg-[#00112d] text-white grid grid-cols-1 md:grid-cols-2'>
                 <div className='bg-[#fea700] h-[50vh] md:h-[auto]' style={{ backgroundImage: 'url(https://sviet.ac.in/wp-content/uploads/2024/02/Moon.png)', backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-                    <div className='flex items-end h-full w-full bg-gradient-to-t' style={{ background: 'linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))' }}>
+                    <div className='flex items-end h-[50vh] lg:h-full w-full bg-gradient-to-t' style={{ background: 'linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))' }}>
                         <div className='w-2/3 text-white flex flex-col justify-end p-5'>
                             <p className='text-3xl font-medium'>
                                 Moon Mandal
@@ -109,7 +109,7 @@ const PlacementOverview = () => {
                     </div>
                 </div>
                 <div className='bg-[#fea700] h-[50vh] md:h-[auto]' style={{ backgroundImage: 'url(https://sviet.ac.in/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-20-at-5.50.14-AM.jpeg)', backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-                    <div className='flex items-end h-full w-full bg-gradient-to-t' style={{ background: 'linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))' }}>
+                    <div className='flex items-end h-[50vh] lg:h-full w-full bg-gradient-to-t' style={{ background: 'linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))' }}>
                         <div className='w-2/3 text-white flex flex-col justify-end p-5'>
                             <p className='text-3xl font-medium'>
                                 Moon Mandal
