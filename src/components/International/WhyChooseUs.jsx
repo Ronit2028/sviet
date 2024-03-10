@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
 
     // Settings for React Slick Carousel
     const settings = {
-        infinite:false,
+        infinite:true,
         dots: true,
         autoplay: true,
         arrows: false,
