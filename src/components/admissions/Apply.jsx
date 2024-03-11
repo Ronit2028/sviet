@@ -5,7 +5,7 @@ import { MdEngineering } from "react-icons/md";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { BsGearFill } from 'react-icons/bs'; // For B.Tech
+
 import { BsFillGearFill } from 'react-icons/bs'; // For M.Tech
 import { FaCapsules } from 'react-icons/fa'; // For Pharmacy
 import { FaUtensils } from 'react-icons/fa'; // For Hospitality & Catering
@@ -77,7 +77,7 @@ const Apply = () => {
         "Mechanical Engineering",
         "Civil Engineering"
       ],
-      icon: <BsGearFill className="text-[60px] text-[#fea700]" />
+      icon: <MdEngineering className="text-[70px] text-[#fea700]" />
     },
     {
       id: 2,
@@ -112,7 +112,7 @@ const Apply = () => {
         "Master of Hotel Management & Catering Technology",
         "Bachelor of Vocational Hotel Management"
       ],
-      icon: <FaUtensils className="text-[60px] text-[#fea700]" />
+      icon: <FaUtensils className="text-[70px] text-[#fea700]" />
     },
     {
       id: 5,
@@ -124,7 +124,7 @@ const Apply = () => {
         "Master of Education",
         "Master of Arts in Education"
       ],
-      icon: <FaChalkboardTeacher className="text-[60px] text-[#fea700]" />
+      icon: <FaChalkboardTeacher className="text-[70px] text-[#fea700]" />
     },
     {
       id: 6,
@@ -135,7 +135,7 @@ const Apply = () => {
         "Master of Computer Application",
         "Post Graduation Diploma in Computer Application"
       ],
-      icon: <FaDesktop className="text-[60px] text-[#fea700]" />
+      icon: <FaDesktop className="text-[70px] text-[#fea700]" />
     },
     {
       id: 7,
@@ -147,7 +147,7 @@ const Apply = () => {
         "Master of Commerce",
         "Master in Business Administration"
       ],
-      icon: <FaBusinessTime className="text-[60px] text-[#fea700]" />
+      icon: <FaBusinessTime className="text-[70px] text-[#fea700]" />
     },
     {
       id: 8,
@@ -163,7 +163,7 @@ const Apply = () => {
         "M.Sc Anesthesia and Operation Technology",
         "Diploma in Medical Lab Technology"
       ],
-      icon: <FaClinicMedical className="text-[60px] text-[#fea700]" />
+      icon: <FaClinicMedical className="text-[70px] text-[#fea700]" />
     },
     {
       id: 9,
@@ -175,14 +175,14 @@ const Apply = () => {
         "M.Sc Physics",
         "M.Sc Chemistry"
       ],
-      icon: <FaFlask className="text-[60px] text-[#fea700]" />
+      icon: <FaFlask className="text-[70px] text-[#fea700]" />
     },
     {
       id: 10,
       name: "Law",
       desc: "Pursue justice and knowledge",
       courses: ["LL. B", "BA. LLB"],
-      icon: <FaBalanceScale className="text-[60px] text-[#fea700]" />
+      icon: <FaBalanceScale className="text-[70px] text-[#fea700]" />
     },
     {
       id: 11,
@@ -194,14 +194,14 @@ const Apply = () => {
         "Mechanical Engineering",
         "Civil Engineering"
       ],
-      icon: <FaTools className="text-[60px] text-[#fea700]" />
+      icon: <FaTools className="text-[70px] text-[#fea700]" />
     },
     {
       id: 12,
       name: "ITI",
       desc: "Master a skilled trade",
       courses: ["Welder", "Plumber", "COPA"],
-      icon: <FaHammer className="text-[60px] text-[#fea700]" />
+      icon: <FaHammer className="text-[70px] text-[#fea700]" />
     },
   ];
 
