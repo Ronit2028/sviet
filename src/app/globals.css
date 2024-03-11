@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 
+.slid:hover .slide{
+    transform: translateX(-10px);
+}

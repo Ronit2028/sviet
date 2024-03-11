@@ -18,7 +18,7 @@ const Header = () => {
                 <div className='w-full md:w-1/2 flex items-center justify-center py-4 md:relative md:top-[200px]'>
                     <div className="max-w-lg mx-auto bg-[#fea700] rounded-lg">
                         <h2 className="text-2xl font-semibold text-center p-6 text-black">Apply Today for SVIET Programs</h2>
-                        <form className='bg-white w-full h-full p-6 rounded-lg'>
+                        <form className='bg-white w-full h-full p-6 rounded-lg shadow-lg '>
                             <div className=''>
                                 <div className="mb-4">
                                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">Enter your Name:</label>
@@ -72,7 +72,7 @@ const Header = () => {
                                     {/* You can add a dropdown list for cities here if needed */}
                                 </div>
                             </div>
-                            <div className=''>
+                            <div className='flex flex-wrap gap-4'>
                                 <div className="mb-4">
                                     <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="interestedProgram">Choose Your Interested Program:</label>
                                     <input
