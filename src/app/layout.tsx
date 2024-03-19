@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import '@fortawesome/fontawesome-free/css/all.css'
 
-import Nav from "@/components/Globals/Nav"
+import ComplexNavbar from '@/components/Globals/ComplexNavbar'
 import Footer from "@/components/Globals/Footer"
 
 const inter = Raleway({ subsets: ["latin"] });
@@ -23,8 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Nav/>
-      <body className={inter.className}>{children}
+     
+      <body className={inter.className}>
+      <ComplexNavbar/>
+        {children}
 
       <Footer/>
       </body>
