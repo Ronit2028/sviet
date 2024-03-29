@@ -24,12 +24,12 @@ export default function MulCharts() {
         setNav2(sliderRef2);
     }, []);
     return (
-        <div className="slider-container w-4/5 container m-auto">
+        <div className="slider-container md:w-4/5 container m-auto">
             <h2></h2>
             <h4></h4>
             <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)} >
                 <div >
-                    <div className="w-1/2 m-auto ">
+                    <div className="md:w-1/2 m-auto ">
                         <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
                         <Bar
                             data={{
@@ -78,7 +78,7 @@ export default function MulCharts() {
 
                 </div>
                 <div>
-                    <div className="w-1/2 m-auto ">
+                    <div className="md:w-1/2 m-auto ">
                         <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
                         <Bar
                             data={{
@@ -126,7 +126,7 @@ export default function MulCharts() {
                     </div>
                 </div>
                 <div>
-                    <div className="w-1/2 m-auto ">
+                    <div className="md:w-1/2 m-auto ">
                         <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
                         <Bar
                             data={{
@@ -225,15 +225,16 @@ export default function MulCharts() {
             </Slider>
             <h4></h4>
             <Slider
+            className=""
                 asNavFor={nav1}
                 ref={slider => (sliderRef2 = slider)}
                 slidesToShow={3}
                 swipeToSlide={true}
                 focusOnSelect={true}
             >
-                <div >
-                    <div className="w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                <div className="" >
+                    <div className="md:w-1/2 m-auto ">
+                        <h1 className="text-sm md:text-xl md:font-medium text-center py-8">Companies recruittting at SVIET</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
@@ -278,8 +279,8 @@ export default function MulCharts() {
 
                 </div>
                 <div >
-                    <div className="w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                    <div className="md:w-1/2 m-auto ">
+                        <h1 className="text-sm md:text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
@@ -324,8 +325,8 @@ export default function MulCharts() {
 
                 </div>
                 <div >
-                    <div className="w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                    <div className="md:w-1/2 m-auto ">
+                        <h1 className="text-sm md:text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
@@ -370,8 +371,8 @@ export default function MulCharts() {
 
                 </div>
                 <div >
-                    <div className="w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                    <div className="md:w-1/2 m-auto ">
+                        <h1 className="text-sm md:text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],

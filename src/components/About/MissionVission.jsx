@@ -7,11 +7,11 @@ const MissionVission = () => {
     <>
       <div className="container md:w-4/5 px-5 mx-auto py-12 flex">
       <div class="md:w-1/2 flex flex-col align-middle  justify-center">
-          <div class="flex mb-5 items-center">
+          <div class="flex mb-2 md:mb-5 items-center">
             <span class="border-l-2 border-[#ff9602] h-6 mr-3"></span>
             <h1 class="text-lg font-bold">OUR PHILOSPHY</h1>
           </div>
-          <h1 class="text-lg md:text-3xl font-semibold mb-8  ">Our principles and   <h1 className='text-[#016db6] text-3xl md:text-7xl py-3 '> convictions</h1></h1>
+          <h1 class="text-lg md:text-3xl font-semibold mb-8  ">Our principles and   <h1 className='text-[#016db6] text-4xl md:text-7xl md:py-3 '> convictions</h1></h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
         </div>
         <div className="w-1/2 h-96 hidden md:block"> <Image className='' src={img} /></div>
@@ -20,7 +20,7 @@ const MissionVission = () => {
       <div className="container md:w-4/5 px-5 md:px-0 mx-auto pb-24">
       
         <div className="md:flex items-center md:pt-7  ">
-          <div className="md:w-1/3 h-full flex justify-center pb-7 md:pb-0 "><h1 className='md:text-5xl text-2xl  font-semibold'> MISSION</h1></div>
+          <div className="md:w-1/3 h-full flex justify-center pb-7 md:pb-0 "><h1 className='md:text-5xl text-2xl font-semibold'> MISSION</h1></div>
           <div className="md:w-2/3">
 
             <div class="container px-5 mx-auto flex flex-wrap">
@@ -102,7 +102,7 @@ const MissionVission = () => {
       <div className="container md:w-4/5 px-5 md:px-0 mx-auto pb-24">
         
 
-        <div className="md:flex flex flex-col-reverse items-center justify-center ">
+        <div className="md:flex-row flex flex-col-reverse items-center justify-center ">
         <div className="md:w-2/3">
 
           <div class="container  mx-auto flex flex-wrap">
@@ -179,7 +179,7 @@ const MissionVission = () => {
           </div>    
 
           </div>
-          <div className="md:w-1/3 h-full flex justify-center  "><h1 className='md:text-5xl text-2xl py-4 font-semibold text-center'> VISION</h1></div>
+          <div className="md:w-1/3 h-full flex justify-center  "><h1 className='md:text-5xl text-2xl  font-semibold text-center'> VISION</h1></div>
        
         </div>
       </div>

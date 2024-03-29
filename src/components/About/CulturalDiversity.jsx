@@ -7,14 +7,14 @@ const CulturalDiversity = () => {
   return (
     <>
    
-  <div class="container  py-24 mx-auto flex flex-wrap">
+  <div class="container py-10 md:py-24 mx-auto px-5 flex flex-wrap">
     <div class="flex flex-wrap  mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
     <div class=" flex flex-col align-middle  justify-center">
-                <div class="flex mb-5 items-center">
+                <div class="flex md:mb-5 items-center">
                     <span class="border-l-2 border-[#ff9602] h-6 mr-3"></span>
-                    <h1 class="text-lg font-bold">CULTURE</h1>
+                    <h1 class="md:text-lg  text-sm font-bold">CULTURE</h1>
                 </div>
-                <h1 class="text-5xl font-semibold mb-8  "><h1 className='text-[#ff9602] text-7xl py-3 '> Cultural</h1> Nexus Institute</h1>
+                <h1 class="md:text-5xl text-2xl font-semibold mb-8  "><h1 className='text-[#ff9602] text-4xl md:text-7xl d:py-3 '> Cultural</h1> Nexus Institute</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
             </div>
    
