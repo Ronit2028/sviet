@@ -10,6 +10,8 @@ import ManagementDesk from '../../components/About/ManagementDesk'
 import CampusExpirience from '../../components/About/CampusExpirience'
 import AboutHeader from '../../components/About/AboutHeader'
 import MissionVission from '../../components/About/MissionVission'
+import HistoryMaking from '../../components/About/HistoryMaking  '
+
 
 const page = () => {
   return (
@@ -19,12 +21,13 @@ const page = () => {
     <CampusExpirience/>
     <MissionVission/>
   <Charts/>
-  {/* <MulitilpleCharts/> */}
-  {/* <LeadingCompanies/> */}
+  <MulitilpleCharts/>
+  <LeadingCompanies/>
+  <HistoryMaking/>
   {/* <SvietAtGlance/> */}
-  {/* <CulturalDiversity/> */}
-  {/* < ManagementDesk/> */}
-  {/* <Infra/> */}
+  <CulturalDiversity/>
+  < ManagementDesk/>
+  <Infra/>
     </>
     )
 }
