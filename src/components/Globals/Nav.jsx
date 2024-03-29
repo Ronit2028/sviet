@@ -799,7 +799,7 @@ export function ComplexNavbar() {
   }, []);
 
   return (
-    <Navbar className="mx-auto p-2 lg:pl-6" fullWidth={true}>
+    <Navbar className="mx-auto p-2 lg:pl-6 text-gray-800" fullWidth={true}>
       <div className="relative mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"

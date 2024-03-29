@@ -10,7 +10,7 @@ const LeadingCompanies = () => {
 
     return (
         <div className=' md:flex justify-end h-3/4 py-12'>
-            <div className="flex container justify-center px-5 py-10 md:py-24 ">
+            <div className="flex container justify-center  py-10 md:py-24 ">
                 <div className="md:w-1/2 flex flex-col align-middle pr-7 justify-center">
                     <div className="flex mb-5 items-center">
                         <span className="border-l-2 border-[#ff9602] h-6 mr-3"></span>
