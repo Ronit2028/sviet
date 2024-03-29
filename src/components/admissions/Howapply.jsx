@@ -30,8 +30,8 @@ const Howapply = () => {
     
   return (
     <div className='w-full h-[max-content] md:flex justify-center items-center py-10'>
-        <div className='md:w-[40%] p-4'>
-            <div className='w-[90%] flex relative justify-between items-center'>
+        <div className='md:w-[40%] sm:text-start text-center p-4'>
+            <div className='w-[100%] flex relative justify-between items-center'>
                 <div className='absolute top-[20px] w-[90%] left-5 z-[-1] bg-gray-500 h-[2px]'></div>
                 <div className=''>
                     <button onClick={()=>{setIndex(0)}} className=" flex cursor-pointer focus:bg-[#fea700] focus:text-white justify-center items-center rounded-[50%] w-[44px] h-[44px] text-[#999999] bg-[#d5d5d5]" ><FaCheck /></button>
@@ -52,11 +52,11 @@ const Howapply = () => {
                 <button className='bg-[#fea700]  cursor-pointer text-white p-2 rounded-md text-lg mt-8'>Apply Now</button>
             </div>
         </div>
-        <div className='md:w-[45%] flex flex-wrap justify-center gap-[30px] items-center'>
-            <div className='shadow-md w-[200px] h-[300px]' style={{backgroundImage:`url(${img.src})`, backgroundSize:'cover' , backgroundPosition:'center center'}}></div>
-            <div className='shadow-md w-[200px] h-[300px]' style={{backgroundImage:`url(${imgg.src})`, backgroundSize:'cover' , backgroundPosition:'center center'}}></div>
-            <div className='shadow-md w-[200px] h-[300px]' style={{backgroundImage:`url(${imggg.src})`, backgroundSize:'cover' , backgroundPosition:'center center'}}></div>
-            <div className='shadow-md w-[200px] h-[300px]' style={{backgroundImage:`url(${imgggg.src})`, backgroundSize:'cover' , backgroundPosition:'center center'}}></div>
+        <div className='md:w-[43%] grid sm:grid-cols-2 grid-cols-1 place-items-center gap-[10px] items-center'>
+            <div className='shadow-md w-[90%] h-[300px] col-span-1' style={{backgroundImage:`url(${img.src})`, backgroundSize:'cover' , backgroundPosition:'center center'}}></div>
+            <div className='shadow-md w-[90%] h-[300px] col-span-1' style={{backgroundImage:`url(${imgg.src})`, backgroundSize:'cover' , backgroundPosition:'center center'}}></div>
+            <div className='shadow-md w-[90%] h-[300px] col-span-1' style={{backgroundImage:`url(${imggg.src})`, backgroundSize:'cover' , backgroundPosition:'center top'}}></div>
+            <div className='shadow-md w-[90%] h-[300px] col-span-1' style={{backgroundImage:`url(${imgggg.src})`, backgroundSize:'cover' , backgroundPosition:'center center'}}></div>
         </div>
     </div>
   )

@@ -148,20 +148,21 @@ const Scholarship = () => {
           </div>
         </div>
       </div>
-      <div className="xl:w-7/12 flex flex-wrap gap-[20px] justify-center items-center mt-2 mx-1">
+      <div className="xl:w-7/12 flex flex-wrap gap-[20px] 2xl:pt-[30px] justify-center items-center mt-2 mx-1">
         <Slider {...settings} className="w-[90%]">
         {
           scholarships.map((scholarship,index)=>{
             return (
-            <div  key={index} >
-               <div className="w-[200px] mx-auto h-[300px] rounded-md">
+            <div  className=" 2xl:mb-[100px]"  key={index} >
+               <div className="w-[220px] mx-auto h-[300px] rounded-md">
               <div className="bg-[#fea700] h-[70px] rounded-md">
+              
                 <p className="text-white font-semibold text-md pt-2 ps-3">
                 {scholarship.type}
                 </p>
               </div>
               <div
-                className="w-full h-[50px] rounded-t-md mt-[-5px]"
+                className="w-full h-[80px] rounded-t-md mt-[-5px]"
                 style={{
                   backgroundImage: `url(${category.src})`,
                   backgroundSize: "cover",

@@ -77,7 +77,7 @@ const Apply = () => {
         "Mechanical Engineering",
         "Civil Engineering"
       ],
-      icon: <MdEngineering className="text-[70px] text-[#fea700]" />
+      icon: <MdEngineering className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 2,
@@ -88,7 +88,7 @@ const Apply = () => {
         "Electronics & Communication Engineering",
         "Mechanical Engineering"
       ],
-      icon: <BsFillGearFill className="text-[60px] text-[#fea700]" />
+      icon: <BsFillGearFill className="text-[60px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 3,
@@ -100,7 +100,7 @@ const Apply = () => {
         "Doctor of Pharmacy",
         "Diploma in Pharmacy"
       ],
-      icon: <FaCapsules className="text-[60px] text-[#fea700]" />
+      icon: <FaCapsules className="text-[60px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 4,
@@ -112,7 +112,7 @@ const Apply = () => {
         "Master of Hotel Management & Catering Technology",
         "Bachelor of Vocational Hotel Management"
       ],
-      icon: <FaUtensils className="text-[70px] text-[#fea700]" />
+      icon: <FaUtensils className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 5,
@@ -124,7 +124,7 @@ const Apply = () => {
         "Master of Education",
         "Master of Arts in Education"
       ],
-      icon: <FaChalkboardTeacher className="text-[70px] text-[#fea700]" />
+      icon: <FaChalkboardTeacher className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 6,
@@ -135,7 +135,7 @@ const Apply = () => {
         "Master of Computer Application",
         "Post Graduation Diploma in Computer Application"
       ],
-      icon: <FaDesktop className="text-[70px] text-[#fea700]" />
+      icon: <FaDesktop className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 7,
@@ -147,7 +147,7 @@ const Apply = () => {
         "Master of Commerce",
         "Master in Business Administration"
       ],
-      icon: <FaBusinessTime className="text-[70px] text-[#fea700]" />
+      icon: <FaBusinessTime className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 8,
@@ -163,7 +163,7 @@ const Apply = () => {
         "M.Sc Anesthesia and Operation Technology",
         "Diploma in Medical Lab Technology"
       ],
-      icon: <FaClinicMedical className="text-[70px] text-[#fea700]" />
+      icon: <FaClinicMedical className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 9,
@@ -175,14 +175,14 @@ const Apply = () => {
         "M.Sc Physics",
         "M.Sc Chemistry"
       ],
-      icon: <FaFlask className="text-[70px] text-[#fea700]" />
+      icon: <FaFlask className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 10,
       name: "Law",
       desc: "Pursue justice and knowledge",
       courses: ["LL. B", "BA. LLB"],
-      icon: <FaBalanceScale className="text-[70px] text-[#fea700]" />
+      icon: <FaBalanceScale className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 11,
@@ -194,28 +194,28 @@ const Apply = () => {
         "Mechanical Engineering",
         "Civil Engineering"
       ],
-      icon: <FaTools className="text-[70px] text-[#fea700]" />
+      icon: <FaTools className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
     {
       id: 12,
       name: "ITI",
       desc: "Master a skilled trade",
       courses: ["Welder", "Plumber", "COPA"],
-      icon: <FaHammer className="text-[70px] text-[#fea700]" />
+      icon: <FaHammer className="text-[70px] hover:text-[#ffff] text-[#fea700]" />
     },
   ];
 
   return (
     <div className="w-full h-[max-content] pb-16 ">
-      <div className="lg:ms-[100px] lg:mt-[50px] md:ms-[20px] md:mt-[20px]  p-4">
-        <h2>SVIET Admission</h2>
-        <h2 className="p-2 bg-[#fea700] text-wrap w-[max-content] lg:text-4xl md:text-3xl  text-2xl font-semibold text-white">
+      <div className=" xl:ms-[120px] lg:ms-[70px] lg:mt-[50px] md:ms-[20px] md:mt-[20px]  p-4">
+        <h2 className=" xl:text-xl lg:text-sm ">SVIET Admission</h2>
+        <h2 className="p-2 bg-[rgb(254,167,0)] text-wrap w-[max-content] xl:text-5xl  md:text-2xl  text-2xl font-semibold text-white">
           Industry Specializations
         </h2>
-        <h3 className="mt-2 bg-gray-200 md:w-[max-content] p-1 px-2">
+        <h3 className="mt-2 bg-gray-200 xl:text-lg md:w-[max-content] p-1 px-2">
           Our Industry Centric Programs Specializations
         </h3>
-        <p className=" mt-2 ms-1 lg:w-[500px] md:w-[400px] text-sm">
+        <p className=" mt-2 ms-1 xl:w-[700px] lg:w-[400px] text-sm md:w-[400px] xl:text-xl">
           <span className="font-bold">
             Become the leader You want to be with our Industry Centric Programs.
           </span>
@@ -227,19 +227,20 @@ const Apply = () => {
         </p>
       </div>
       <div className=" mt-2 pt-16 m-1 ">
-        <Slider {...settings} className="w-[92%] h-[340px]">
+        <Slider {...settings} className="w-[90%] h-[340px]">
           
          {
           programe.map((program) =>{
             return(
-              <div key={program.id} className="md:ms-[50px]  h-[320px]">
-            <div className="w-[280px] slid relative h-[320px] mx-auto flex justify-center items-center border overflow-hidden border-[#fea700]">
-              <div className="w-[280px] slide absolute h-[320px] translate-x-[-270px] hover:translate-x-[-10px] transition-all ease-in flex justify-center items-center bg-[#fea700]">
+              <div key={program.id} className="md:ms-[26px]  h-[320px]">
+            <div className=" sm:w-[320px] hover:bg-[rgb(254,167,0)] lg:w-[380px] lg:h-[320px] shadow-xl w-[280px] h-[220px] slid relative sm:h-[260px] mx-auto flex justify-center items-center border overflow-hidden ">
+              <div className="sm:w-[320px] w-[280px] h-[220px]  slide absolute sm:h-[260px] translate-x-[-370px] hover:translate-x-[-10px] transition-all ease-in-out flex justify-start items-center bg-[#ffff]">
                   <div className="flex flex-col flex-wrap  ">
+                  <h3 className="text-2xl ms-[40px] underline font-bold">Our Courses</h3>
                   {
                     program.courses.map((item,index) => {
                       return (
-                        <p key={index} className="text-white ms-5 text-[14px] mt-2 ">{item}</p>
+                        <p key={index} className="text-black   font-bold ms-[40px] sm:text-[118x] text-[14px] mt-2 ">{item}</p>
                       )
                       })
                   }
@@ -251,7 +252,7 @@ const Apply = () => {
               <h2 className="text-xl font-semibold  mt-2">
               {program.name}
               </h2>
-              <p className="text-sm text-center font-medium ms-2 mt-2">
+              <p className="text-sm text-center hover:text-white font-medium ms-2 mt-2">
              {program.desc}
               </p>
               </div>

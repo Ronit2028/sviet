@@ -5,7 +5,7 @@ const Svgoi = () => {
     <div className="w-full h-[max-content] gap-[50px] flex flex-wrap justify-center items-center py-10 mt-10 px-4">
       <div className="md:w-[40%] flex justify-center items-center">
        <div className="">
-       <h2 className="text-5xl font-semibold">
+       <h2 className="text-4xl font-semibold">
           With SVGOI, see the world of possibilities
         </h2>
         <p className="mt-5 font-semibold text-gray-600">
@@ -37,7 +37,7 @@ const Svgoi = () => {
       </div>
       <div className="md:w-[40%] sm:mt-5 flex justify-center items-center">
       <div>
-      <h2 className="text-5xl font-semibold">
+      <h2 className="text-4xl font-semibold">
       Top Notch Placements
         </h2>
         <p className="mt-5 font-semibold text-gray-600">
