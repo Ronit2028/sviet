@@ -66,16 +66,16 @@ const Charts = () => {
 
     return (
         <div className='bg-gray-100'>
-        <div class="flex container w-4/5 m-auto justify-center p-5 py-24 ">
-            <div class="w-1/2 flex flex-col align-middle pr-7 justify-center">
+        <div class="md:flex container md:w-4/5 m-auto justify-center p-5 py-24 ">
+            <div class="md:w-1/2 flex flex-col align-middle pr-7 justify-center">
                 <div class="flex mb-5 items-center">
                     <span class="border-l-2 border-[#ff9602] h-6 mr-3"></span>
-                    <h1 class="text-lg font-bold">COMPANIES</h1>
+                    <h1 class="md:text-lg font-bold">COMPANIES</h1>
                 </div>
                 <h1 class="text-5xl font-semibold mb-8  ">Top Companies Hiring at <h1 className='text-[#016db6] text-7xl py-3 '> SVIET</h1></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
             </div>
-            <div class="w-1/2">
+            <div class="md:w-1/2 w-full h-96 md:h-auto my-12 md:my-0 flex justify-center md:block">
                 {/* <!-- Add your chart component here --> */}
                 <PolarArea data={data} options={options}></PolarArea>
             </div>

@@ -8,25 +8,23 @@ import Infra from '../../components/About/Infra'
 import AboutUs from '../../components/About/AboutUs'
 import ManagementDesk from '../../components/About/ManagementDesk'
 import CampusExpirience from '../../components/About/CampusExpirience'
-
-
-
-
-
-
+import AboutHeader from '../../components/About/AboutHeader'
+import MissionVission from '../../components/About/MissionVission'
 
 const page = () => {
   return (
     <>
+    <AboutHeader/>
     <AboutUs/>
-    {/* <CampusExpirience/> */}
+    <CampusExpirience/>
+    <MissionVission/>
   <Charts/>
-  <MulitilpleCharts/>
-  <LeadingCompanies/>
-  <SvietAtGlance/>
-  <CulturalDiversity/>
-  < ManagementDesk/>
-  <Infra/>
+  {/* <MulitilpleCharts/> */}
+  {/* <LeadingCompanies/> */}
+  {/* <SvietAtGlance/> */}
+  {/* <CulturalDiversity/> */}
+  {/* < ManagementDesk/> */}
+  {/* <Infra/> */}
     </>
     )
 }
