@@ -6,16 +6,15 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const EventCard = ({ index, imageSrc, description }) => (
-    <div className={`event-card rounded-lg py-3 flex ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-        <img src={imageSrc} alt="Event" className="w-1/2 mr-4 rounded-lg" />
-        <div className="w-1/2 flex items-center p-4">
-
-            <p className="text-white text-lg border-l-4 pl-4 border-[#fea700]">{description}</p>
+    <div className={`event-card  w-full rounded-lg md:py-8 flex flex-wrap ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
+        <img src={imageSrc} alt="Event" className=" w-full md:w-1/2 rounded-lg" />
+        <div className="w-full py-3 md:w-1/2 flex items-center md:p-4">
+            <p className="text-white text-sm md:text-lg border-l-4 pl-4 border-[#fea700]">{description}</p>
         </div>
     </div>
 );
 
-
+// 3
 const EventCarousel = () => {
     const events = [
         {
@@ -42,7 +41,7 @@ const EventCarousel = () => {
     ];
 
     const settings = {
-        autoplay:true,
+        autoplay: true,
         dots: true,
         infinite: true,
         speed: 500,
@@ -51,24 +50,35 @@ const EventCarousel = () => {
         vertical: true,
         verticalSwiping: true,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 720, // Adjust breakpoint as needed
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    vertical: false,
+                    verticalSwiping: false,
+                },
+            },
+        ],
     };
 
     return (
-        <div className="w-full h-auto md:h-[80vh] flex justify-center items-center bg-[#00112d] text-white py-10">
-            <div className="w-10/12 py-6 flex">
+        <div className="w-full h-auto md:h-[80vh] flex justify-center items-center bg-[#00112d] text-white py-10 overflow-hidden">
+            <div className="w-10/12 py-6 flex flex-col md:flex-row">
                 <div className="w-full md:w-2/3">
-                    <Slider {...settings} className="w-full py-6">
+                    <Slider {...settings} className="w-full py-8 md:py-12">
                         {events.map((event, index) => (
                             <EventCard key={index} index={index} imageSrc={event.imageSrc} description={event.description} />
                         ))}
                     </Slider>
                 </div>
-                <div className="text-start w-full md:w-1/3 flex flex-col justify-center p-6">
-                    <h1 className="text-4xl font-normal mb-4">Events & Happenings</h1>
-                    <p className="text-xl pb-4  font-semibold">
+                <div className="text-start w-full md:w-1/3 flex flex-col  lg:pl-16 justify-center  md:p-6">
+                    <h1 className="lg:text-5xl  text-3xl font-normal mb-4">Events & Happenings</h1>
+                    <p className="text-xl pb-4 font-semibold">
                         Immerse Yourself in a Vibrant Tapestry of Campus Life, Where Every Moment Counts!
                     </p>
-                    <p className=" mb-4">
+                    <p className="mb-4">
                         Our events showcase the spirit of innovation, collaboration, and excellence, nurturing talents
                         and fostering growth in a dynamic learning environment.
                     </p>

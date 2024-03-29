@@ -9,6 +9,8 @@ import placement from '@/assets/LandingPage/recruit.jpg'
 import placement2 from '@/assets/LandingPage/placement.jpg'
 import placement3 from '@/assets/LandingPage/achievement.jpg'
 
+import { Typography } from '@material-tailwind/react';
+
 
 const Unlock = () => {
     const sectionData = [
@@ -49,11 +51,25 @@ const Unlock = () => {
     return (
         <div className='w-10/12 mx-auto py-10 my-5'>
             <p className="text-4xl text-medium w-full md:w-1/2 mx-auto text-start md:text-center pb-3 mb-3 pt-5">
-                Unlocking Opportunities at SVIET, <br /> Empowering Students, Building Futures
+               
             </p>
             <p className='text-lg text-medium w-full md:w-1/2 mx-auto text-start md:text-center pb-3 mb-3'>
-                Our colourful campus has a rich culturally cooperative learning atmosphere that attracts students from all over the country and from all over the world.
-            </p>
+                  </p>
+
+            
+            <Typography
+                color="blue-gray"
+                className="text-center mb-4 !text-2xl font-bold lg:!text-4xl" style={{fontFamily:'Raleway'}}
+            >
+                 Unlocking Opportunities at SVIET, <br /> Empowering Students, Building Futures
+            </Typography>
+            <Typography
+                variant="lead"
+                className="text-center !text-gray-500 w-full md:w-1/2 mx-auto mb-5 pb-5" style={{fontFamily:'Raleway'}}
+            >
+                 Our colourful campus has a rich culturally cooperative learning atmosphere that attracts students from all over the country and from all over the world.
+         
+            </Typography>
 
 
             <div className='mt-5'>
@@ -61,10 +77,10 @@ const Unlock = () => {
 
                     {sectionData.map((section, index) => (
                         <div key={index} className="w-10/12 mx-auto rounded-md shadow-md text-white">
-                            <div  className='rounded-md mx-auto md:h-[50vh] h-auto' style={{ backgroundImage: `url(${section.img.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                            <div className='rounded-md mx-auto md:h-[50vh] h-auto' style={{ backgroundImage: `url(${section.img.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                                 <div className='bg-[#00000050] w-full h-full flex flex-col justify-end p-6'>
-                                <h2 className='text-4xl mb-4'>{section.heading}</h2>
-                                <p className='text-md w-1/2 mb-2'>{section.subheading}</p>
+                                    <h2 className='text-4xl mb-4'>{section.heading}</h2>
+                                    <p className='text-md w-1/2 mb-2'>{section.subheading}</p>
                                 </div>
 
                             </div>

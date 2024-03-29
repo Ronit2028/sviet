@@ -23,13 +23,13 @@ const ChartYourPath = () => {
   ];
   return (
     <div style={{backgroundImage:`url(${success.src})`, backgroundSize:"cover", backgroundPosition:"center center"}}>
-      <div className='bg-[#00112ded] h-auto lg:h-[100vh] text-white py-10 lg:mt-[-200px] md:mt-auto flex items-end'>
-        <div className="w-10/12 mx-auto py-10 ">
-          <p className='text-4xl'>
-            Be Future Ready
+      <div className='bg-[#00112ded] h-auto lg:h-[100vh] text-white py-10 lg:mt-[-200px] md:mt-auto flex items-center'>
+        <div className="w-10/12 mx-auto ">
+          <p className='text-4xl font-semibold'>
+            Be <span className='text-[#fea700]'>Future Ready</span>
           </p>
           <div className='flex flex-wrap justify-between'>
-            <p className='text-4xl mt-2'>
+            <p className='text-4xl mt-2 font-semibold'>
 
               Chart Your Path To Success To SVIET
 

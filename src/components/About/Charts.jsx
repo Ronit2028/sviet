@@ -1,0 +1,87 @@
+"use client"
+import React from 'react'
+import { Chart as ChartJS } from 'chart.js/auto';
+import { Bar, PolarArea, Doughnut, Line } from 'react-chartjs-2';
+
+const Charts = () => {
+    const data = {
+        labels: [
+            'Accentrue',
+            'Google',
+            'IBM',
+            'Meta',
+            'Infosys',
+            'Accentrue',
+            'Google',
+            'IBM',
+            'Meta',
+            'Infosys',
+        ],
+        datasets: [
+            {
+                label: 'No. of Placements',
+                data: [10, 11, 12, 7, 9, 5, 12, 4, 3, 12, 2],
+                backgroundColor: [
+                    'rgb(25, 99, 132)',
+                    'rgb(75, 192, 192)',
+                    'rgb(255, 205, 86)',
+                    'rgb(20, 203, 207)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 99, 132)',
+                    'rgb(175, 192, 192)',
+                    'rgb(29, 205, 86)',
+                    'rgb(201, 203, 207)',
+                    'rgb(54, 162, 235)',
+                ],
+                hoverBackgroundColor: ['rgb(256, 256 , 256)'],
+            },
+        ],
+    };
+
+    const options = {
+
+        responsive: true,
+        scales: {
+            r: {
+                pointLabels: {
+                    display: true,
+                    centerPointLabels: true,
+                    font: {
+                        size: 18
+                    }
+                }
+            }
+        },
+        plugins: {
+            legend: {
+                position: 'bottom',
+            },
+            title: {
+                display: true,
+                text: 'Chart.js Polar Area Chart With Centered Point Labels'
+            }
+        }
+
+    };
+
+    return (
+        <div className='bg-gray-100'>
+        <div class="flex container w-4/5 m-auto justify-center p-5 py-24 ">
+            <div class="w-1/2 flex flex-col align-middle pr-7 justify-center">
+                <div class="flex mb-5 items-center">
+                    <span class="border-l-2 border-[#ff9602] h-6 mr-3"></span>
+                    <h1 class="text-lg font-bold">COMPANIES</h1>
+                </div>
+                <h1 class="text-5xl font-semibold mb-8  ">Top Companies Hiring at <h1 className='text-[#016db6] text-7xl py-3 '> SVIET</h1></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
+            </div>
+            <div class="w-1/2">
+                {/* <!-- Add your chart component here --> */}
+                <PolarArea data={data} options={options}></PolarArea>
+            </div>
+        </div>
+        </div>
+    );
+};
+
+export default Charts;

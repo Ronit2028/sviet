@@ -9,7 +9,7 @@ const PlacementOverview = () => {
                <div className="bg-[#00112df2] w-full h-full py-10">
                <div className="w-10/12 mx-auto p-6">
                     <div>
-                        <p className="text-4xl mb-6">
+                        <p className="text-4xl mb-6 font-semibold">
                             Placement Overview
                         </p>
                         <p className="text-sm my-6">

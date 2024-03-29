@@ -1,50 +1,97 @@
-import React from 'react'
+"use client"
 
-const Testimonials = () => {
+import {
+    Card,
+    CardBody,
+    Typography,
+    CardHeader,
+    Avatar,
+} from "@material-tailwind/react";
+
+
+
+function TestimonialCard({
+    img,
+    client,
+    title,
+    clientInfo,
+}) {
     return (
-        <div className='w-10/12 mx-auto flex flex-wrap py-10'>
-            <div className="w-full py-10">
-                <p className="text-4xl text-center w-2/3 mx-auto mb-6">
-                    Listen to the Resonance of Achievement -
-                    Explore Further Accounts from Our Distinguished Alumni!
-                </p>
-                <p className="text-lg text-center mb-6 pb-6">
-                    Uncover the inspiring narratives and significant perspectives shared by our successful graduates.
-                </p>
-            </div>
-            <div className="w-full md:w-1/2 h-[50vh] flex items-end text-white" style={{ backgroundImage: `url(https://sviet.ac.in/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-02-at-12.21.29-AM-1.jpeg)`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-                <div className='p-6 w-full h-full flex items-end' style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0))' }}>
-                    <div className='w-full'>
-                        <p className="text-4xl">
-                            Aman Pushkar
-                        </p>
-                        <div className='flex justify-between w-full'>
-                            <p className="text-xl">
-                                Escalon
-                            </p>
-                            <div className='flex gap-2'>
-                                <button className='bg-[#fea700] text-white rounded-md h-7 w-7'><i className='fa fa-arrow-left'></i></button>
-                                <button className='bg-[#fea700] text-white rounded-md h-7 w-7'><i className='fa fa-arrow-right'></i></button>
-                            </div>
+        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6">
+            <CardHeader color="transparent" floated={false} shadow={false}>
+                <Typography
+                    color="blue-gray"
+                    className="lg:mb-20 mb-4 text-2xl font-bold"
+                >
+                    &quot;{title}&quot;
+                </Typography>
+            </CardHeader>
+            <CardBody className="px-4 py-0 flex flex-wrap-reverse gap-x-6 justify-between items-center">
+                <div>
+                    <div className="flex gap-3">
+                        <Avatar src="https://sviet.ac.in/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-04-at-5.52.34-AM.jpeg" />
+                        <div>
+                            <Typography variant="h6" color="blue-gray">
+                                {client}
+                            </Typography>
+
+                            <Typography
+                                variant="paragraph"
+                                className="font-normal !text-gray-500"
+                            >
+                                {clientInfo}
+                            </Typography>
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div className="w-full md:w-1/2 bg-gray-100">
-                <div className="p-6 h-full">
-
-                    <div className='flex flex-col justify-center h-full'>
-                        <i className='text-5xl text-center pb-6 fa fa-quote-left'>
-                        </i>
-                        <p className="text-2xl ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maiores corporis tenetur nobis pariatur tempore reprehenderit necessitatibus commodi ipsam porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nostrum?
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+                <img src={img} className="max-w-[8rem]" alt={client} />
+            </CardBody>
+        </Card>
+    );
 }
 
-export default Testimonials
+const testimonials = [
+    {
+        title:
+            "The team went above and beyond to ensure my issue was resolved quickly and efficiently. Truly outstanding!",
+        client: "Jessica Devis",
+        clientInfo: "Full Stack Developer @Netflix",
+        img: "https://sviet.ac.in/wp-content/uploads/2020/07/Tata.jpg",
+    },
+    {
+        title:
+            "It have broadened my horizons and helped me advance my career. The community is incredibly supportive.",
+        client: "Marcell Glock",
+        clientInfo: "Graphic Designer, @Coinbase",
+        img: "https://sviet.ac.in/wp-content/uploads/2020/07/Hero.jpg",
+    },
+];
+
+export function TestimonialSection16() {
+    return (
+        <section className="px-8 py-10 lg:py-28">
+            <div className="w-10/12 mx-auto">
+                <Typography
+                    variant="h2"
+                    color="blue-gray"
+                    className="mb-4 !text-2xl lg:!text-4xl"
+                >
+                    Our Students Speak
+                </Typography>
+                <Typography
+                    variant="lead"
+                    className="max-w-3xl !text-gray-500 mb-10 lg:mb-20"
+                >
+                    Our Reviews Speak for us
+                </Typography>
+                <div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
+                    {testimonials.map((props, key) => (
+                        <TestimonialCard key={key} {...props} />
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default TestimonialSection16;
