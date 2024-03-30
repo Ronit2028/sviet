@@ -3,7 +3,7 @@ import React from 'react'
 const Overview = () => {
     return (
         <div className='py-12 my-10 w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5'>
-            <div className="py-10 w-full flex flex-col justify-center">
+            <div className="py-12 w-full flex flex-col justify-center">
                 <p className="text-4xl pb-3 mb-3 font-semibold">
                     <span className="text-[#fea700]">
                         Discover  </span> the

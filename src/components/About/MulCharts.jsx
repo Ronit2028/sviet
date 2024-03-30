@@ -1,4 +1,7 @@
 "use client"
+
+
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -9,7 +12,7 @@ import { Chart as ChartJS } from 'chart.js/auto';
 import { Bar } from 'react-chartjs-2';
 
 export default function MulCharts() {
-    
+
 
     const [nav1, setNav1] = useState(null);
     const [nav2, setNav2] = useState(null);
@@ -225,7 +228,7 @@ export default function MulCharts() {
             </Slider>
             <h4></h4>
             <Slider
-            className=""
+                className=""
                 asNavFor={nav1}
                 ref={slider => (sliderRef2 = slider)}
                 slidesToShow={3}

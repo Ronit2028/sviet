@@ -11,7 +11,7 @@ const MissionVission = () => {
             <span class="border-l-2 border-[#ff9602] h-6 mr-3"></span>
             <h1 class="text-lg font-bold">OUR PHILOSPHY</h1>
           </div>
-          <h1 class="text-lg md:text-3xl font-semibold mb-8  ">Our principles and   <h1 className='text-[#016db6] text-4xl md:text-7xl md:py-3 '> convictions</h1></h1>
+          <h1 class="text-lg md:text-3xl font-semibold mb-8  ">Our principles and   <span className='text-[#016db6] text-4xl md:text-7xl md:py-3 block'> convictions</span></h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
         </div>
         <div className="w-1/2 h-96 hidden md:block"> <Image className='' src={img} /></div>

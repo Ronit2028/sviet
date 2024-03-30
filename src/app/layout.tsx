@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import '@fortawesome/fontawesome-free/css/all.css'
 
-import {ComplexNavbar} from "@/components/Globals/Nav"
+import { ComplexNavbar } from "@/components/Globals/Nav"
 import Footer from "@/components/Globals/Footer"
 
 const inter = Raleway({ subsets: ["latin"] });

@@ -124,14 +124,14 @@ const GivingWings = () => {
                     <Typography
                         color="blue-gray"
                         className="mb-4 !text-2xl font-bold lg:!text-4xl"
-                        style={{fontFamily:'Raleway'}}
+               
                     >
                        Giving Wings To Your Career
                     </Typography>
                     <Typography
                         variant="lead"
                         className=" !text-gray-500"
-                        style={{fontFamily:'Raleway'}}
+                     
                     >
                        A Place Where We Nuture, Grow, Explore & Learn from The Best
                     </Typography>

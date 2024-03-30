@@ -63,7 +63,7 @@ export default function MulCharts() {
                         <h1 className="text-sm md:text-lg font-bold">OUR FLAG BEARERS</h1>
                     </div>
                     <h1 className="text-2xl md:text-4xl font-semibold ">From the 
-                        <h1 className='text-[#ff9602] text-2xl md:text-5xl md:py-2 '> Desk of Management</h1></h1>
+                        <span className='text-[#ff9602] text-2xl md:text-5xl md:py-2 '> Desk of Management</span></h1>
                 </div>
 
     <div className="slider-container md:w-4/5 container m-auto">

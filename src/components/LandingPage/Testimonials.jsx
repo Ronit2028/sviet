@@ -1,5 +1,9 @@
 "use client"
 
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import {
     Card,
     CardBody,
@@ -8,8 +12,6 @@ import {
     Avatar,
 } from "@material-tailwind/react";
 
-
-
 function TestimonialCard({
     img,
     client,
@@ -17,7 +19,7 @@ function TestimonialCard({
     clientInfo,
 }) {
     return (
-        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6">
+        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 w-[95%]">
             <CardHeader color="transparent" floated={false} shadow={false}>
                 <Typography
                     color="blue-gray"
@@ -29,7 +31,7 @@ function TestimonialCard({
             <CardBody className="px-4 py-0 flex flex-wrap-reverse gap-x-6 justify-between items-center">
                 <div>
                     <div className="flex gap-3">
-                        <Avatar src="https://sviet.ac.in/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-04-at-5.52.34-AM.jpeg" />
+                        <Avatar src={img} className="h-12 w-12 rounded-full"/>
                         <div>
                             <Typography variant="h6" color="blue-gray">
                                 {client}
@@ -67,7 +69,15 @@ const testimonials = [
     },
 ];
 
-export function TestimonialSection16() {
+export function TestimonialSectionCarousel() {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1
+    };
+
     return (
         <section className="px-8 py-10 lg:py-28">
             <div className="w-10/12 mx-auto">
@@ -82,16 +92,16 @@ export function TestimonialSection16() {
                     variant="lead"
                     className="max-w-3xl !text-gray-500 mb-10 lg:mb-20"
                 >
-                    Our Reviews Speak for us
+                    Our Reviews Speak for Us
                 </Typography>
-                <div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
+                <Slider {...settings}>
                     {testimonials.map((props, key) => (
                         <TestimonialCard key={key} {...props} />
                     ))}
-                </div>
+                </Slider>
             </div>
         </section>
     );
 }
 
-export default TestimonialSection16;
+export default TestimonialSectionCarousel;

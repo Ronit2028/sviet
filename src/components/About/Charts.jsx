@@ -1,4 +1,5 @@
 "use client"
+
 import React from 'react'
 import { Chart as ChartJS } from 'chart.js/auto';
 import { Bar, PolarArea, Doughnut, Line } from 'react-chartjs-2';
@@ -66,20 +67,20 @@ const Charts = () => {
 
     return (
         <div className='bg-gray-100'>
-        <div class="md:flex container md:w-4/5 m-auto justify-center p-5 py-12 md:py-24 ">
-            <div class="md:w-1/2 flex flex-col align-middle pr-7 justify-center">
-                <div class="flex mb-5 items-center">
-                    <span class="border-l-2 border-[#ff9602] h-6 mr-3"></span>
-                    <h1 class="md:text-lg font-bold">COMPANIES</h1>
+            <div className="md:flex container md:w-4/5 m-auto justify-center p-5 py-12 md:py-24 ">
+                <div className="md:w-1/2 flex flex-col align-middle pr-7 justify-center">
+                    <div className="flex mb-5 items-center">
+                        <span className="border-l-2 border-[#ff9602] h-6 mr-3"></span>
+                        <p className="md:text-lg font-bold">COMPANIES</p>
+                    </div>
+                    <p className="md:text-5xl text-2xl font-semibold mb-8  ">Top Companies Hiring at <span className='text-[#016db6] text-3xl md:text-7xl py-3 block'> SVIET</span></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
                 </div>
-                <h1 class="md:text-5xl text-2xl font-semibold mb-8  ">Top Companies Hiring at <h1 className='text-[#016db6] text-3xl md:text-7xl py-3 '> SVIET</h1></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
+                <div className="md:w-1/2 w-full h-scr md:h-auto my-12 md:my-0 flex justify-center md:block">
+                    {/* <!-- Add your chart component here --> */}
+                    <PolarArea data={data} options={options}></PolarArea>
+                </div>
             </div>
-            <div class="md:w-1/2 w-full h-scr md:h-auto my-12 md:my-0 flex justify-center md:block">
-                {/* <!-- Add your chart component here --> */}
-                <PolarArea data={data} options={options}></PolarArea>
-            </div>
-        </div>
         </div>
     );
 };

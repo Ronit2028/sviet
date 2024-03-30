@@ -59,13 +59,13 @@ const Unlock = () => {
             
             <Typography
                 color="blue-gray"
-                className="text-center mb-4 !text-2xl font-bold lg:!text-4xl" style={{fontFamily:'Raleway'}}
+                className="text-center mb-4 !text-2xl font-bold lg:!text-4xl"
             >
                  Unlocking Opportunities at SVIET, <br /> Empowering Students, Building Futures
             </Typography>
             <Typography
                 variant="lead"
-                className="text-center !text-gray-500 w-full md:w-1/2 mx-auto mb-5 pb-5" style={{fontFamily:'Raleway'}}
+                className="text-center !text-gray-500 w-full md:w-1/2 mx-auto mb-5 pb-5" 
             >
                  Our colourful campus has a rich culturally cooperative learning atmosphere that attracts students from all over the country and from all over the world.
          

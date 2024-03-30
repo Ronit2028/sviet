@@ -13,21 +13,19 @@ import MissionVission from '../../components/About/MissionVission'
 
 const page = () => {
   return (
-    <>
-    <AboutHeader/>
-    <AboutUs/>
-    <CampusExpirience/>
-    <MissionVission/>
-  <Charts/>
-  <MulitilpleCharts/>
-  <LeadingCompanies/>
- 
-
-  <CulturalDiversity/>
-  < ManagementDesk/>
-  <Infra/>
-    </>
-    )
+    <main>
+      <AboutHeader />
+      <AboutUs />
+      <CampusExpirience />
+      <MissionVission />
+      <Charts />
+      <MulitilpleCharts />
+      <LeadingCompanies />
+      <CulturalDiversity />
+      < ManagementDesk />
+      <Infra />
+    </main>
+  )
 }
 
 export default page
