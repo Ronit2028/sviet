@@ -7,7 +7,7 @@ import Unlock from '@/components/LandingPage/Unlock'
 import Courses from '@/components/admissions/Courses'
 import ApplicationProcess from '@/components/admissions/ApplicationProcess'
 import ChartYourPath from '@/components/LandingPage/ChartYourPath'
-
+import SvietAdmissionsGuidelines from '@/components/admissions/SvietAdmissionsGuidelines'
 const page = () => {
   return (
     <div>
@@ -17,6 +17,7 @@ const page = () => {
       <Courses/>
       <Unlock/>
       <ChartYourPath/>
+      <SvietAdmissionsGuidelines/>
     </div>
   )
 }

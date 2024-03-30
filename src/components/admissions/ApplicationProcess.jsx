@@ -33,14 +33,14 @@ const ApplicationProcess = () => {
           <Typography
             color="blue-gray"
             className="mb-4 !text-2xl font-bold lg:!text-4xl"
-            style={{ fontFamily: 'Raleway' }}
+        
           >
             Admission Procedure
           </Typography>
           <Typography
             variant="lead"
             className=" !text-gray-500"
-            style={{ fontFamily: 'Raleway' }}
+      
           >
             Simplified and Comprehensive
           </Typography>
