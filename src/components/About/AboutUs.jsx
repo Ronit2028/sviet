@@ -9,7 +9,7 @@ const AboutUs = () => {
 
     <section class="bg-white ">
     <div class="gap-16   items-center py-8 px-5 mx-auto container md:w-4/5  lg:grid lg:grid-cols-2 lg:py-28 lg:px-6">
-        <div class="font-light  text-gray-900 sm:text-lg dark:text-gray-400">
+        <div class="font-light  text-gray-900 sm:text-lg ">
         <div class="flex md:mb-5 items-center md:justify-start justify-center">
                     <span class="md:border-l-2 border-[#ff9602] h-6 mr-3"></span>
                     <h1 class="text-sm md:text-lg font-bold">ABOUT</h1>

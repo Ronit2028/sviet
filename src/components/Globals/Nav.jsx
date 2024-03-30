@@ -840,7 +840,7 @@ export function ComplexNavbar() {
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
         <div className="lg:w-2/12 flex justify-end">
-          <Button className="border-2 xl:mr-16 bg-blue-gray-800 lg:p-3 lg:text-lg  hover:bg-blue-gray-900 text-gray-100" size="sm" variant="text">
+          <Button className="border-2 xl:mr-16  bg-gray-800 lg:p-3 lg:text-lg   text-gray-100" size="sm" variant="text">
             <span>Apply Now</span>
           </Button></div>
         {/* <ProfileMenu /> */}
