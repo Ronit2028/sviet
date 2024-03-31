@@ -5,7 +5,7 @@ import bannerImage from '@/assets/LandingPage/bannerImage.jpg'
 const CampusExpirience = () => {
   return (
     <div>
-      <div className="w-full  text-white" style={{ backgroundImage: `url(${bannerImage.src})`, backgroundSize: "cover", backgroundAttachment: "fixed", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+      <div className="w-full text-white" style={{ backgroundImage: `url(${bannerImage.src})`, backgroundSize: "cover", backgroundAttachment: "fixed", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
         <div className='  rounded-md flex flex-col justify-center w-full h-full bg-[#000000e3]'>
           <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">

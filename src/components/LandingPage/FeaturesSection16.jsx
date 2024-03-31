@@ -10,7 +10,7 @@ import image from '@/assets/LandingPage/Chandigarh/peace.png'
 
 export function FeatureSection16() {
   return (
-    <section className="lg:py-28 py-10 px-8">
+    <section className="lg:py-28 py-10 px-8 bg-gray-100/50">
       <div className="container mx-auto mb-10 text-center lg:mb-20">
         <Typography
           color="blue-gray"
@@ -33,8 +33,9 @@ export function FeatureSection16() {
       </div>
       <div className="mb-8 container mx-auto grid lg:gap-x-8 gap-y-8 grid-cols-1 lg:grid-cols-3">
         <Card
-          className="col-span-1 bg-gray-100/50 overflow-hidden"
+          className="col-span-1 bg-white overflow-hidden"
           shadow={false}
+
         >
           <CardBody className="text-center">
             <Typography
@@ -55,7 +56,7 @@ export function FeatureSection16() {
           </CardBody>
         </Card>
         <Card
-          className="col-span-2 bg-gray-100/50 overflow-hidden"
+          className="col-span-2 bg-white overflow-hidden"
           shadow={false}
         >
           <CardBody className="text-center">
@@ -79,7 +80,7 @@ export function FeatureSection16() {
       </div>
       <div className="container mx-auto grid lg:gap-x-8 gap-y-8 grid-cols-1 lg:grid-cols-3">
         <Card
-          className="col-span-2 bg-gray-100/50 overflow-hidden"
+          className="col-span-2 bg-white overflow-hidden"
           shadow={false}
         >
           <CardBody className="text-center">
@@ -100,7 +101,7 @@ export function FeatureSection16() {
             />
           </CardBody>
         </Card>
-        <Card className="col-span-1 bg-gray-100/50" shadow={false}>
+        <Card className="col-span-1 bg-white" shadow={false}>
           <CardBody className="text-center">
             <Typography
               variant="h4"

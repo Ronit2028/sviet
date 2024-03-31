@@ -1,6 +1,17 @@
 "use client"
 
 import React from "react";
+
+
+import about from '@/assets/Globals/About.jpg'
+import programs from '@/assets/Globals/Programs.jpg'
+import admission from '@/assets/Globals/Admissions.jpg'
+import placement from '@/assets/Globals/placement.jpg'
+import international from '@/assets/Globals/international.jpg'
+import contact from '@/assets/Globals/contact.jpg'
+
+
+
 import {
   Navbar,
   MobileNav,
@@ -36,6 +47,7 @@ import {
 
 import logo from '@/assets/Brand/Logo.webp'
 import Image from "next/image";
+import card from "@material-tailwind/react/theme/components/card";
 
 
 // profile menu component
@@ -142,70 +154,74 @@ const navListMenuItems = [
 
 const navListAboutItems = [
   {
-    title: "ye h about ",
+    title: "What Is SVGOI",
     description:
-      "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
+      "We are committed to providing quality education and holistic development to our students, we strive to create an environment conducive to learning and innovation.",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Our Flag Bearers",
     description:
-      "Learn how to use @material-tailwind/react, packed with rich components for React.",
+      "They are dedicated professionals who are passionate about shaping the future of our students.",
   },
   {
-    title: "Material Tailwind PRO",
+    title: "Our Vision and Mission",
     description:
-      "A complete set of UI Elements for building faster websites in less time.",
+      "Our vision is to be a global leader in education, research, and innovation.",
   },
 ];
+
+
+
 const navListProgramsItems = [
   {
-    title: "ye h pirogram ",
+    title: "Undergraduate Programs",
     description:
-      "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
+      "Explore our wide range of undergraduate programs designed to equip students with the knowledge and skills necessary for their chosen career paths",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Postgraduate Programs",
     description:
-      "Learn how to use @material-tailwind/react, packed with rich components for React.",
+      "Discover our postgraduate programs that offer advanced study opportunities for students looking to deepen their expertise and pursue specialized careers.",
   },
   {
-    title: "Material Tailwind PRO",
+    title: "Diploma and Certificate Courses",
     description:
-      "A complete set of UI Elements for building faster websites in less time.",
+      "Enroll in our diploma and certificate courses to gain practical skills and enhance your professional credentials.",
   },
 ];
+
 const navListPlacementsItems = [
   {
-    title: "ye h palcements ",
+    title: "Placement Opportunities",
     description:
-      "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
+      "Discover the various placement opportunities available to students at our institution.",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Internship Programs",
     description:
-      "Learn how to use @material-tailwind/react, packed with rich components for React.",
+      "Explore our internship programs designed to provide students with hands-on experience in their respective fields.",
   },
   {
-    title: "Material Tailwind PRO",
+    title: "Career Guidance",
     description:
-      "A complete set of UI Elements for building faster websites in less time.",
+      "Get access to career guidance and counseling services to help you make informed decisions about your future.",
   },
 ];
 const navListAdmissionsItems = [
   {
-    title: "ye h Admissions ",
+    title: "Admission Process",
     description:
-      "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
+      "Learn about our admission process and how to apply for admission to our institution.",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Eligibility Criteria",
     description:
-      "Learn how to use @material-tailwind/react, packed with rich components for React.",
+      "Understand the eligibility criteria for admission to our various programs. ",
   },
   {
-    title: "Material Tailwind PRO",
+    title: "Scholarships and Financial Aid",
     description:
-      "A complete set of UI Elements for building faster websites in less time.",
+      "Explore our scholarships and financial aid options available to support students in pursuing their education. ",
   },
 ];
 const navListCampusLifeItems = [
@@ -227,36 +243,36 @@ const navListCampusLifeItems = [
 ];
 const navListInternationalItems = [
   {
-    title: "ye h International ",
+    title: "Study Abroad Programs",
     description:
-      "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
+      "Explore our study abroad programs that offer opportunities for students to gain international exposure and experience different cultures. ",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Exchange Programs",
     description:
-      "Learn how to use @material-tailwind/react, packed with rich components for React.",
+      "Participate in our exchange programs and spend a semester or academic year studying at one of our partner institutions abroad.",
   },
   {
-    title: "Material Tailwind PRO",
+    title: "International Students Support",
     description:
-      "A complete set of UI Elements for building faster websites in less time.",
+      "Receive dedicated support services tailored to the needs of international students.",
   },
 ];
 const navLisContactItems = [
   {
-    title: "ye h palcements ",
+    title: "General Inquiries",
     description:
-      "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
+      "For general inquiries and information about our institution, please feel free to contact us.",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Admissions Office",
     description:
-      "Learn how to use @material-tailwind/react, packed with rich components for React.",
+      "Contact our admissions office for inquiries related to admissions, application procedures, eligibility criteria, and more.",
   },
   {
-    title: "Material Tailwind PRO",
+    title: "Placement Cell",
     description:
-      "A complete set of UI Elements for building faster websites in less time.",
+      "Connect with our placement cell for inquiries regarding placement opportunities, internships, career guidance, and industry collaborations. ",
   },
 ];
 
@@ -329,6 +345,7 @@ function NavListAbout() {
           {description}
         </Typography>
       </MenuItem>
+      
     </a>
   ));
 
@@ -355,7 +372,7 @@ function NavListAbout() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
+            <img src={about.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -411,7 +428,7 @@ function NavListPrograms() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
+            <img src={programs.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -425,6 +442,7 @@ function NavListPrograms() {
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
       </ul>
+     
     </React.Fragment>
   );
 }
@@ -467,7 +485,7 @@ function NavListPlacements() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
+             <img src={placement.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -523,7 +541,7 @@ function NavListAdmission() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
+             <img src={admission.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -579,7 +597,7 @@ function NavListCampus() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
+            <img src={international.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -599,7 +617,7 @@ function NavListCampus() {
 function NavListInternaltional() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const renderItems = navListAdmissionsItems.map(({ title, description }) => (
+  const renderItems = navListInternationalItems.map(({ title, description }) => (
     <a href="/international" key={title}>
       <MenuItem>
         <Typography variant="h6" color="blue-gray" className="mb-1">
@@ -635,7 +653,7 @@ function NavListInternaltional() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
+            <img src={international.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -655,7 +673,7 @@ function NavListInternaltional() {
 function NavListContact() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const renderItems = navListAdmissionsItems.map(({ title, description }) => (
+  const renderItems = navLisContactItems.map(({ title, description }) => (
     <a href="/contact-us" key={title}>
       <MenuItem>
         <Typography variant="h6" color="blue-gray" className="mb-1">
@@ -691,7 +709,7 @@ function NavListContact() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
+             <img src={contact.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -731,11 +749,6 @@ const navListItems = [
     path: "/admissions"
   },
   {
-    label: "Campus Life",
-    icon: GlobeAltIcon,
-    path: "/campus-life"
-  },
-  {
     label: "International",
     icon: GlobeAltIcon,
     path: "/international"
@@ -762,7 +775,7 @@ function NavList() {
         <NavListPrograms />
         <NavListPlacements />
         <NavListAdmission />
-        <NavListCampus />
+        {/* <NavListCampus /> */}
         < NavListInternaltional />
         <NavListContact />
       </div>
