@@ -9,7 +9,7 @@ import admission from '@/assets/Globals/Admissions.jpg'
 import placement from '@/assets/Globals/placement.jpg'
 import international from '@/assets/Globals/international.jpg'
 import contact from '@/assets/Globals/contact.jpg'
-
+import initiatives from '@/assets/Globals/Initiatives.jpg'
 
 
 import {
@@ -226,19 +226,16 @@ const navListAdmissionsItems = [
 ];
 const navListCampusLifeItems = [
   {
-    title: "ye h Campus Life ",
+    title: "The Uniques ",
     description:
-      "Learn how to use @material-tailwind/html, packed with rich components and widgets.",
+      "A Community of students realizing the dream of Corporate in College and working on real-life projects at ground-zero",
+    link:"/uniques",
   },
   {
-    title: "@material-tailwind/react",
+    title: "Super 60",
     description:
-      "Learn how to use @material-tailwind/react, packed with rich components for React.",
-  },
-  {
-    title: "Material Tailwind PRO",
-    description:
-      "A complete set of UI Elements for building faster websites in less time.",
+      "A Batch of 60 students getting free of cost technical training and soft skill training and real time work experience in their college days",
+    link:"/super-sixty"
   },
 ];
 const navListInternationalItems = [
@@ -561,8 +558,8 @@ function NavListAdmission() {
 function NavListCampus() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const renderItems = navListAdmissionsItems.map(({ title, description }) => (
-    <a href="/campus-life" key={title}>
+  const renderItems = navListCampusLifeItems.map(({ title, description, link }) => (
+    <a href={link} key={title}>
       <MenuItem>
         <Typography variant="h6" color="blue-gray" className="mb-1">
           {title}
@@ -581,7 +578,7 @@ function NavListCampus() {
           <Typography as="a" href="#" variant="small" className="font-normal text-md">
             <MenuItem className="hidden items-center gap-2 font-medium text-blue-gray-900 lg:flex lg:rounded-full">
               <TrophyIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-              Campus Life{" "}
+              Our Initiatives{" "}
               <ChevronDownIcon
                 strokeWidth={2}
                 className={`h-3 w-3 transition-transform ${isMenuOpen ? "rotate-180" : ""
@@ -597,7 +594,7 @@ function NavListCampus() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <img src={international.src} alt="" srcset="" />
+            <img src={initiatives.src} alt="" srcset="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -606,7 +603,7 @@ function NavListCampus() {
       </Menu>
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
         <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Campus Life{" "}
+       Our Initiatives{" "}
       </MenuItem>
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
@@ -754,6 +751,11 @@ const navListItems = [
     path: "/international"
   },
   {
+    label: "Our Initiatives",
+    icon: PowerIcon,
+    path: "/international"
+  },
+  {
     label: "Contact Us",
     icon: PhoneIcon,
     path: '/contact-us'
@@ -775,7 +777,7 @@ function NavList() {
         <NavListPrograms />
         <NavListPlacements />
         <NavListAdmission />
-        {/* <NavListCampus /> */}
+        <NavListCampus />
         < NavListInternaltional />
         <NavListContact />
       </div>

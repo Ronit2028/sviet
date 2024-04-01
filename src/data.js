@@ -66,7 +66,6 @@ const data = [
                 "image": "https://img.freepik.com/free-photo/people-studying-peacefully-library_23-2148844711.jpg?t=st=1709908245~exp=1709911845~hmac=fb0cdcf87b36b97400930ea70a82927b208aadfd5d43e825a170d09fe86ae0d7&w=996"
             }
         ]
-
     },
     {
         "id": 2,
@@ -617,7 +616,79 @@ const data = [
                 "image": "https://img.freepik.com/free-photo/traffic-engineer-analyze-road-traffic-data_1150-21841.jpg"
             }
         ]
-    }
+    },
+    {
+        "id": 17,
+        "course_name": "Pharmacy",
+        "header": {
+            "title": "Doctor of Pharmacy (Pharm.D)",
+            "subtitle": "EMPOWERING THE FUTURE OF PHARMACY",
+            "background_image": "@/assets/Programs/backdrop.jpg"
+        },
+        "program_name": "Pharm.D",
+        "program_description": "The Doctor of Pharmacy program is a research oriented study of various significant areas of pharmacy which are designed to provide an in-depth and comprehensive understanding of these areas. The Faculty of Pharmacy offers a six year Doctorate Degree program in Pharmacy which seeks to impart within the students a specialised research based understanding of pharmaceutical medicine and explore other avenues in the field. The scope of this program includes the purpose of diagnosing the various causes of diseases and the manner and methods through which they can be treated. Beyond merely the treatment protocols and procedure, the field of pharmacy also explores various forms of practical research which can be utilised as a way of eradicating disease causing virus and curbing their spread for the welfare of humanity. As a way of providing the highest form of practical training to the students, the Faculty of Pharmacy is equipped with state of the art facilities and laboratories for research and novel innovations. The program provides a comprehensive approach to the study of pharmacy which provides a platform for the students and faculties to innovate and patent novel treatment modalities. The program goes on to develop and nurture the research skills and abilities of the students as a way of producing a reliable and credible knowledge base in the scope of pharmacy.",
+        "fees": "145,000 per year",
+        "duration": "6 Years",
+        "major_tracks": [
+            "Process Control",
+            "Manufacturing",
+            "Quality Control",
+            "Medical Representative",
+            "Retail/Wholesale Pharmacy Outlet",
+        ],
+        "program_outcomes": [
+            {
+                "title": "Drug Inspector",
+                "desc": "Ensure compliance with pharmaceutical regulations and standards to protect public health.",
+                "image": "https://example.com/drug_inspector_image.jpg"
+            },
+            {
+                "title": "Academicians",
+                "desc": "Contribute to the academic field by teaching and conducting research in pharmacy.",
+                "image": "https://example.com/academicians_image.jpg"
+            },
+            {
+                "title": "Retail Pharmacist",
+                "desc": "Dispense medications and provide pharmaceutical care to patients in retail settings.",
+                "image": "https://example.com/retail_pharmacist_image.jpg"
+            },
+            {
+                "title": "Medical Writer",
+                "desc": "Communicate scientific and medical information through writing for various audiences.",
+                "image": "https://example.com/medical_writer_image.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "All those candidates who have passed 10+2 examination from a board recognized or established by Central/State Government through a legislation with Physics and Chemistry as compulsory subjects along with Mathematics or Biology subject. OR All those candidates who have passed D.Pharm. course from an institution approved by the Pharmacy Council of India under section 12 of The Pharmacy Act."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
+            "approved_by": "PCI & AICTE"
+        },
+        "labs": [
+            {
+                "title": "Research Lab",
+                "description": "Conduct research activities related to pharmaceuticals.",
+                "image": "https://example.com/research_lab_image.jpg"
+            },
+            {
+                "title": "Practical Lab",
+                "description": "Engage in hands-on practical experiments and learning.",
+                "image": "https://example.com/practical_lab_image.jpg"
+            },
+            {
+                "title": "QA Lab",
+                "description": "Perform quality assurance tests and analysis.",
+                "image": "https://example.com/qa_lab_image.jpg"
+            },
+            {
+                "title": "Pharma Chemistry Lab",
+                "description": "Study pharmaceutical chemistry and its applications.",
+                "image": "https://example.com/pharma_chemistry_lab_image.jpg"
+            }
+        ]
+    },
+
 ]
 
 export default data
