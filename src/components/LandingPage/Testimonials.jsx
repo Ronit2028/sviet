@@ -20,16 +20,16 @@ function TestimonialCard({
     studentImage,
 }) {
     return (
-        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 w-[95%] h-[50vh] lg:h-[30vh]">
+        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 w-[95%] h-[30vh] lg:h-[30vh] flex flex-col justify-between">
             <CardHeader color="transparent" floated={false} shadow={false}>
                 <Typography
                     color="blue-gray"
-                    className="lg:mb-20 mb-4 text-2xl font-bold"
+                    className="lg:mb-20 mb-4 text-md lg:text-2xl font-bold"
                 >
                     &quot;{title}&quot;
                 </Typography>
             </CardHeader>
-            <CardBody className="px-4 py-0 flex flex-wrap-reverse gap-x-6 justify-between">
+            <CardBody className="px-2 lg:px-4 py-0 flex flex-wrap-reverse gap-x-6 justify-between">
                 <div>
                     <div className="flex gap-3">
                         <Avatar src={studentImage} className="h-12 w-12 rounded-full" />
@@ -93,7 +93,18 @@ export function TestimonialSectionCarousel() {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 720, // Adjust breakpoint as needed
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    vertical: false,
+                    verticalSwiping: false,
+                },
+            },
+        ],
     };
 
     return (

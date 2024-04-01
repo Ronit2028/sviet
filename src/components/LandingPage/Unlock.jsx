@@ -76,11 +76,11 @@ const Unlock = () => {
                 <Slider {...settings}>
 
                     {sectionData.map((section, index) => (
-                        <div key={index} className="w-10/12 mx-auto rounded-md shadow-md text-white">
+                        <div key={index} className=" w-10/12 mx-auto rounded-md shadow-md text-white">
                             <div className='rounded-md mx-auto md:h-[50vh] h-auto' style={{ backgroundImage: `url(${section.img.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-                                <div className='bg-[#00000050] w-full h-full flex flex-col justify-end p-6'>
+                                <div className='bg-[#00000077] w-full h-full flex flex-col justify-end p-6 py-12'>
                                     <h2 className='text-4xl mb-4'>{section.heading}</h2>
-                                    <p className='text-md w-1/2 mb-2'>{section.subheading}</p>
+                                    <p className='text-sm lg:text-md w-full lg:w-1/2 mb-2'>{section.subheading}</p>
                                 </div>
 
                             </div>

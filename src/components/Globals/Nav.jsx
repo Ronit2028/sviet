@@ -845,18 +845,22 @@ export function ComplexNavbar() {
           </div>
         </div>
 
+       
+        <div className="lg:w-2/12 flex justify-end">
+         
         <IconButton
           size="sm"
           color="blue-gray"
           variant="text"
           onClick={toggleIsNavOpen}
-          className="ml-auto mr-2 lg:hidden"
+          className="ml-auto mr-2 lg:hidden flex items-center justify-center"
+      
         >
-          <Bars2Icon className="h-6 w-6" />
+          <Bars2Icon className="h-6 w-6 m-auto" />
         </IconButton>
-        <div className="lg:w-2/12 flex justify-end">
           <Button className="border-2 xl:mr-16  bg-gray-800 lg:p-3 lg:text-lg   text-gray-100" size="sm" variant="text">
             <span>Apply Now</span>
+         
           </Button></div>
         {/* <ProfileMenu /> */}
       </div>

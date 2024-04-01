@@ -62,13 +62,13 @@ const EventCarousel = () => {
     };
 
     return (
-        <div className="w-full h-auto md:h-[80vh] flex justify-center items-center bg-[#00112d] text-white py-10 overflow-hidden">
-            <div className="w-10/12 py-6 flex flex-col md:flex-row">
-                <div className="w-full md:w-2/3">
+        <div className="w-full h-auto md:h-[100vh] flex justify-center items-center bg-[#00112d] text-white py-10 overflow-hidden">
+            <div className="w-10/12 py-6 flex flex-col flex-wrap-reverse md:flex-row">
+                <div className="w-full lg:w-2/3">
                     <Slider {...settings} className="w-full py-8 md:py-12]">
                         {events.map((event, index) => (
                             <div key={index} className="w-[95%] mx-auto px-2 h-full">
-                                <div className="event-card rounded-md shadow-md bg-white text-[#00112d] h-[53vh]">
+                                <div className="event-card rounded-md shadow-md bg-white text-[#00112d] h-[60vh]">
                                     <div className="image-section h-[35vh]" style={{ backgroundImage: `url(${event.imageSrc})`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
 
                                     </div>
@@ -93,7 +93,7 @@ const EventCarousel = () => {
                         ))}
                     </Slider>
                 </div>
-                <div className="text-start w-full md:w-1/3 flex flex-col  lg:pl-16 justify-center  md:p-6">
+                <div className="text-start w-full lg:w-1/3 flex flex-col  lg:pl-16 justify-center  md:p-6">
                     <h1 className="lg:text-5xl  text-3xl font-normal mb-4">Events & Happenings</h1>
                     <p className="text-xl pb-4 font-semibold">
                         Immerse Yourself in a Vibrant Tapestry of Campus Life, Where Every Moment Counts!
