@@ -825,18 +825,18 @@ export function ComplexNavbar() {
         </Typography>
         <div className="flex flex-col md:w-8/12  ">
 
-          <div class="hidden lg:flex justify-end w-full border-b-2 py-3">
-            <div class="w-1/3 flex items-center  justify-end gap-2">
+          <div className="hidden lg:flex justify-end w-full border-b-2 py-3">
+            <div className="w-1/3 flex items-center  justify-end gap-2">
               <span className="text-sm font-semibold">Get Social:</span>
-              <i class="fab fa-facebook mx-1"></i>
-              <i class="fab fa-instagram mx-1"></i>
-              <i class="fab fa-linkedin mx-1"></i>
-              <i class="fab fa-twitter mx-1"></i>
+              <i className="fab fa-facebook mx-1"></i>
+              <i className="fab fa-instagram mx-1"></i>
+              <i className="fab fa-linkedin mx-1"></i>
+              <i className="fab fa-twitter mx-1"></i>
             </div>
-            <div class="w-1/3 flex items-center text-sm font-semibold justify-end gap-2 pr-6"><span className="text-sm font-semibold">Get Connected:</span>
-              <i class="fab fa-whatsapp mx-1"></i>
-              <span class="mx-1">360&#xb0;</span>
-              <i class="far fa-compass mx-1"></i>
+            <div className="w-1/3 flex items-center text-sm font-semibold justify-end gap-2 pr-6"><span className="text-sm font-semibold">Get Connected:</span>
+              <i className="fab fa-whatsapp mx-1"></i>
+              <span className="mx-1">360&#xb0;</span>
+              <i className="far fa-compass mx-1"></i>
             </div>
           </div>
 

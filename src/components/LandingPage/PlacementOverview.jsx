@@ -108,8 +108,8 @@ const PlacementOverview = () => {
             </div>
             <div className='w-full lg:w-1/2 bg-[#00112d] text-white grid grid-cols-1 md:grid-cols-2'>
                 
-                {placements.map((placement)=>(
-                <div className='bg-[#fea700] h-[50vh] md:h-[auto]' style={{ backgroundImage: `url(${placement.backgroundImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                {placements.map((placement, index)=>(
+                <div key={index} className='bg-[#fea700] h-[50vh] md:h-[auto]' style={{ backgroundImage: `url(${placement.backgroundImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                     <div className='flex items-end h-[50vh] lg:h-full w-full bg-gradient-to-t' style={{ background: 'linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))' }}>
                         <div className='w-2/3 text-white flex flex-col justify-end p-5'>
                             <p className='text-3xl font-medium'>

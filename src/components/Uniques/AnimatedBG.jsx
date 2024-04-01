@@ -3,8 +3,8 @@ import "./bg.css";
 import "../../app/globals.css"
 const AnimatedBG = () => {
   return (
-	<div class="area h-full">
-			<ul class="circles">
+	<div className="area h-full">
+			<ul className="circles">
 				<li></li>
 				<li></li>
 				<li></li>
