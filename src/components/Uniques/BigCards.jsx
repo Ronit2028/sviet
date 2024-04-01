@@ -3,6 +3,7 @@ import img from '../../assets/LandingPage/success.jpg';
 import img1 from '../../assets/LandingPage/placement.jpg';
 import img2 from '../../assets/LandingPage/achievement.jpg';
 import AnimatedBG from './AnimatedBG';
+import Image from 'next/image';
 
 const BigCards = () => {
   const cardData = [
@@ -59,7 +60,7 @@ const BigCards = () => {
             {cardData.map((card, index) => (
               <div className={`md:p-2 p-1 w-full ${((index+1) % 3 === 0 && (index+1) !=6) || ((index+1) % 4 === 0 && index!=0) ? 'lg:w-1/2' : 'lg:w-1/4'}`} key={index}>
               <div className="h-full border-2 border-gray-200/50 hover:border-red-800/50 border-opacity-60 rounded-lg overflow-hidden">
-                <img className="lg:h-60 md:h-36 w-full object-cover object-center" src={card.imageSrc} alt={card.title} />
+                <Image className="lg:h-60 md:h-36 w-full object-cover object-center" src={card.imageSrc} alt={card.title} />
                 <div className="p-6">
                   <h2 className="tracking-widest text-sm title-font font-bold text-rose-800 mb-1">{card.category}</h2>
                   <h1 className="title-font text-md font-medium text-white mb-3">{card.title}</h1>

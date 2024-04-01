@@ -4,10 +4,12 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Image from 'next/image';
+
 
 const EventCard = ({ index, imageSrc, description }) => (
     <div className={`event-card  w-full rounded-lg md:py-8 flex flex-wrap ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-        <img src={imageSrc} alt="Event" className=" w-full md:w-1/2 rounded-lg" />
+        <Image src={imageSrc} alt="Event" className=" w-full md:w-1/2 rounded-lg" />
         <div className="w-full py-3 md:w-1/2 flex items-center md:p-4">
             <p className="text-white text-sm md:text-lg border-l-4 pl-4 border-[#fea700]">{description}</p>
         </div>

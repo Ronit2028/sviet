@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Director = () => {
     return (
@@ -14,7 +15,7 @@ const Director = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>
-                        <img src="https://sviet.ac.in/wp-content/uploads/2022/03/sssssw.png" alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
+                        <Image src="https://sviet.ac.in/wp-content/uploads/2022/03/sssssw.png" alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
                     </div>
 
                 </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import img from '../../assets/LandingPage/achievement.jpg';
+import Image from 'next/image';
 
 const sectionData = [
   {
@@ -27,7 +28,7 @@ const Fifth = () => {
     <>
       <section className="text-gray-600 body-font overflow-hidden">
         <div className="container grid grid-cols-1 lg:grid-cols-2 px-5 py-24 mx-auto">
-          <img alt="ecommerce" className="w-full mx-auto flex flex-wrap object-cover object-center h-full rounded" src={"https://media.licdn.com/dms/image/D5622AQHraSIqkLWjnQ/feedshare-shrink_2048_1536/0/1711447844360?e=1714608000&v=beta&t=6MoB9mu92teH4n3FkSFzsb22ZmJ5GN6gHshj4qRgz6E"} />
+          <Image alt="ecommerce" className="w-full mx-auto flex flex-wrap object-cover object-center h-full rounded" src={"https://media.licdn.com/dms/image/D5622AQHraSIqkLWjnQ/feedshare-shrink_2048_1536/0/1711447844360?e=1714608000&v=beta&t=6MoB9mu92teH4n3FkSFzsb22ZmJ5GN6gHshj4qRgz6E"} />
           <div className="w-full  lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <div className="divide-y-2 divide-gray-100">
               {sectionData.map((section, index) => (
