@@ -9,7 +9,7 @@ import './style.css'
 const HeroSection = () => {
   return (
     <>
-      <section class="bg-gradient-to-t from-slate-900 to-slate-50 " style={{ backgroundImage: `url(https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/DSC05771.JPG)`, backgroundSize: 'cover', backgroundPosition:"center bottom", backgroundAttachment:"" }}>
+      <section class="bg-gradient-to-t from-slate-900 to-slate-50 " style={{ backgroundImage: `url(https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/DSC05771.JPG)`, backgroundSize: 'cover', backgroundPosition: "center bottom", backgroundAttachment: "" }}>
 
 
         <div className=" inset-0 opacity-100 bg-gradient-to-t from-black via-gray-800/25 to-transparent ">
@@ -41,7 +41,7 @@ const HeroSection = () => {
             <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 class="sm:text-3xl lg:text-6xl text-2xl  title-font leading-10  mb-5 text-white">OUR CAPABILITIES</h1>
               <div class="h-1 w-20 bg-red-700 rounded">
-               
+
               </div>
             </div>
             <p class="lg:w-1/2 w-full leading-relaxed text-white">The Uniques Batch offers an exceptional development course aimed at transforming you into a skilled business consultant and entrepreneur. Founded in 2022 with 14 initial students, this program imparts various valuable skills that empower you to confidently navigate today's competitive landscape</p>
@@ -50,7 +50,7 @@ const HeroSection = () => {
         </div>
 
         <div class=" mx-auto   grid grid-cols-1 lg:grid-cols-2 container gap-8">
-        <div className="w-full">
+          <div className="w-full">
             <h1 class="sm:text-3xl lg:text-4xl text-2xl  title-font leading-10  mb-5 text-white">Who We Are</h1>
             <p>TheUniques is an educational platform which is available to everyone, everywhere. We wish to uplift the educational standards of not only our city or country but globally. Join us in this noble to cause to make education reach to those in need of it.</p>
           </div>
@@ -63,7 +63,7 @@ const HeroSection = () => {
               <img src={logo.src} alt="" srcset="" className='w-8/12 lg:w-1/2 mx-auto' />
             </div>
           </div>
-          
+
 
         </div>
 
