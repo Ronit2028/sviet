@@ -41,8 +41,8 @@ const ChartYourPath = () => {
 
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 py-5 gap-6'>
-            {chartYourPathContent.map(data => (
-              <div className='pr-3'>
+            {chartYourPathContent.map(data,index => (
+              <div key={index}  className='pr-3'>
                 <p className='text-2xl mb-5'>
                   {data.title}
                 </p>
