@@ -57,10 +57,10 @@ const HeroSection = () => {
           <div className="w-full">
             <div className='object-cover h-64  w-full '>
               {/* <Image src={"https://media.licdn.com/dms/image/D5622AQE7KzQRgxcOvA/feedshare-shrink_1280/0/1710743265409?e=1714608000&v=beta&t=D55te23vSRpY1QSEWoMtUyhiUIf9uiG4-NGHjcWaoYI"} width={"100%"}></Image> */}
-              {/* <img src="https://media.licdn.com/dms/image/D560BAQHwiKTm5zUDvg/company-logo_200_200/0/1706952273698?e=1720051200&v=beta&t=ArpeBXZYTtjN5L3CfmsmTXNlTTBMMQGatHWmDqxiJMQ" alt="" srcset="" className='object-contain'/> 
+              {/* <img src="https://media.licdn.com/dms/image/D560BAQHwiKTm5zUDvg/company-logo_200_200/0/1706952273698?e=1720051200&v=beta&t=ArpeBXZYTtjN5L3CfmsmTXNlTTBMMQGatHWmDqxiJMQ" alt="" srcSet="" className='object-contain'/> 
                style={{backgroundImage:`url(https://media.licdn.com/dms/image/D563DAQElVKylzXuAyw/image-scale_191_1128/0/1707037425814/theuniquesofflicial_cover?e=1712566800&v=beta&t=SabV3l6AyHf2juagVk_8xmMzgs1x6ttO6y1N_HlhCAk)`, backgroundSize:"cover", backgroundPosition:"center center"}}
               */}
-              <img src={logo.src} alt="" srcset="" className='w-8/12 lg:w-1/2 mx-auto' />
+              <img src={logo.src} alt="" srcSet="" className='w-8/12 lg:w-1/2 mx-auto' />
             </div>
           </div>
 

@@ -369,7 +369,7 @@ function NavListAbout() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <img src={about.src} alt="" srcset="" />
+            <img src={about.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -425,7 +425,7 @@ function NavListPrograms() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <img src={programs.src} alt="" srcset="" />
+            <img src={programs.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -482,7 +482,7 @@ function NavListPlacements() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-             <img src={placement.src} alt="" srcset="" />
+             <img src={placement.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -538,7 +538,7 @@ function NavListAdmission() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-             <img src={admission.src} alt="" srcset="" />
+             <img src={admission.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -594,7 +594,7 @@ function NavListCampus() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <img src={initiatives.src} alt="" srcset="" />
+            <img src={initiatives.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -650,7 +650,7 @@ function NavListInternaltional() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-            <img src={international.src} alt="" srcset="" />
+            <img src={international.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -706,7 +706,7 @@ function NavListContact() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-             <img src={contact.src} alt="" srcset="" />
+             <img src={contact.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}

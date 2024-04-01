@@ -120,7 +120,7 @@ const PlacementOverview = () => {
                             </p>
                         </div>
                         <div className='w-1/3'>
-                            <img src={placement.companyLogo} alt="" className='p-5' srcset="" width="100%" />
+                            <img src={placement.companyLogo} alt="" className='p-5' srcSet="" width="100%" />
                         </div>
                     </div>
                 </div>  
