@@ -17,7 +17,7 @@ const Achievement = () => {
         </div>
       </div>
       <div className="w-full md:w-1/2 hidden md:block">
-        <img src="https://mitwpu.edu.in/uploads/placement/6385ff49097d91669726025.jpg" alt="" srcset="" width={"100%"} className='rounded-md'/>
+        <img src="https://media.licdn.com/dms/image/D4D22AQHRnJD7yH8OnA/feedshare-shrink_2048_1536/0/1697104133139?e=1714608000&v=beta&t=tghNYnoxP65AJtvVB8xzR9kQo63m6wkFdwfRREnsaiM" alt="" srcset="" width={"100%"} className='rounded-md'/>
       </div>
     </div>
   )

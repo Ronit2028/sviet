@@ -26,8 +26,8 @@ const Usps = () => {
     },
   ]
   return (
-    <div className='flex flex-col justify-center w-10/12 mx-auto h-auto md:h-[100vh] py-12'>
-      <div className='pb-6'>
+    <div className='grid grid-cols-1 lg:grid-cols-2 w-10/12 mx-auto gap-8 h-auto py-12'>
+      <div className='pb-6 flex flex-col justify-center '>
         <p className="text-3xl font-medium pb-3 mb-3">
           Overview
         </p>
@@ -39,11 +39,11 @@ const Usps = () => {
           Super60 is a special batch of 30 to 60 students, chosen every year from the first year students of CSE Branch, in order to make them ready to face challenges beyond their prescribed curriculum. They are provided with enriched learning modules based on their potential and put through rigorous academic as well as co and extra curricular activities included reasoning, Quantative skills, Communication Skills, Personality developmnent and over & above latest softwares and manufacturing techniques as latest trend, so that these students can make the best version of themselves and assure 100% placement in the campus placement drive.
         </p>
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-6'>
 
         {super60Batch.map((usp, index) => (
-          <div className='rounded-md shadow-md my-3 p-4 lg:p-8 hover:bg-[#fea700] hover:text-white transition hover:shadow-lg'>
-              <p className="text-xl font-medium mb-4 ">
+          <div className={`rounded-md shadow-md my-3 p-4 lg:p-8 transition hover:shadow-lg py-12 ${((index) === 1) || ((index===2)) ? 'bg-[#fea700] text-white' : ''}`}>
+              <p className="text-xl font-semibold mb-4">
                 {usp.title}
               </p>
               <p className='text-sm text-justify'>

@@ -1,8 +1,10 @@
 import React from 'react'
 
+import groupPhoto from '@/assets/super-sixty/IMG_9332-scaled.webp'
+
 const Header = () => {
   return (
-    <div className='h-auto md:h-[80vh]'>
+    <div className='h-auto md:h-[80vh]' style={{backgroundImage:`url(${groupPhoto.src})`, backgroundSize:"cover", backgroundPosition:"center center"}}>
       <div className='py-12 flex flex-col justify-center h-full w-full bg-[#0000009f] text-white'>
         <div className="w-10/12 mx-auto">
           <p className="text-4xl font-medium pb-3 mb-3">

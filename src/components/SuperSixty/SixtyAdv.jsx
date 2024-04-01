@@ -8,26 +8,26 @@ import 'slick-carousel/slick/slick-theme.css';
 const SixtyAdv = () => {
   const reasons = [
     {
-      title: "Orientation Program",
-      description: "Explore your academic interests with a wide range of undergraduate and postgraduate programs to choose from",
-      img: "https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg"
+      title: "Specialized Curriculum",
+      description: "The Super 60 Batch offers a specialized curriculum tailored to nurture and develop the talents of high-performing students.",
+      img: "https://media.licdn.com/dms/image/D5622AQETz9OJpgGVxg/feedshare-shrink_1280/0/1711544471819?e=1714608000&v=beta&t=lfHm9DOo2nGSq4b0v5OVzINHquEBigAyBtt6D0Rq0OY"
     },
     {
-      title: "Academic Accomplishment",
-      description: "Explore your academic interests with a wide range of undergraduate and postgraduate programs to choose from.",
-      img: "https://sviet.org.in/wp-content/uploads/IMG_1545-scaled-1.jpg"
+      title: "Exclusive Mentorship",
+      description: "Students in the Super 60 Batch receive exclusive mentorship from top faculty members and industry experts, providing personalized guidance and support.",
+      img: "https://media.licdn.com/dms/image/D5622AQEy3qR8fcm0DQ/feedshare-shrink_2048_1536/0/1710241348417?e=1714608000&v=beta&t=IIz-2THOtDBUeARGRSulJRELm9CAm7Dd8mrbDnNKKP8"
     },
     {
-      title: "Scholarship Programs Available",
-      description: "We offer financial aid opportunities to deserving students, making a quality education accessible.",
-      img: "https://sviet.org.in/wp-content/uploads/IMG_1074-scaled-1.jpg"
+      title: "Internship Opportunities",
+      description: "Super 60 students gain priority access to coveted internship opportunities with leading companies, enhancing their practical skills and industry experience.",
+      img: "https://media.licdn.com/dms/image/D5622AQFXeS2BULDI1w/feedshare-shrink_1280/0/1706596179363?e=1714608000&v=beta&t=AC2AR6UHla_lU8iu-16ZHvKvH0CR9nM_dQQTl992m-M",
     },
     {
-      title: "Awards & Renowned Rankings",
-      description: "Recognized for our excellence, we consistently receive prestigious awards and rank highly in national/regional college rankings.",
-      img: "https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg"
+      title: "Career Development Programs",
+      description: "The Super 60 Batch offers specialized career development programs designed to equip students with the skills and knowledge needed to excel in their chosen fields.",
+      img: "https://media.licdn.com/dms/image/D4D22AQG7W77Uudum7w/feedshare-shrink_2048_1536/0/1697104141024?e=1714608000&v=beta&t=tzujD0EfIbxyPGJNO8qdjvoYyJmHbS7ENjmMeFO15qw"
     }
-  ];
+];
 
   // Settings for React Slick Carousel
   const settings = {

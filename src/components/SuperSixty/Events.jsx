@@ -8,41 +8,23 @@ import 'slick-carousel/slick/slick-theme.css';
 const Events = () => {
   const collegeInformation = [
     {
-      date: "31 Feb 2025",
-      category: "Research",
-      img: "https://sviet.ac.in/wp-content/uploads/2021/05/2ss-700x400.png",
-      description: "Students leading the search for knowledge with highly equipped research facilities at the campus. More than 100 research articles published at national and international stages."
+      date: "25 March 2024",
+      category: "Induction Program",
+      img: "https://media.licdn.com/dms/image/D5622AQFuwMjQ8Tc0Cw/feedshare-shrink_1280/0/1711019536091?e=1714608000&v=beta&t=sz-hUpLgJjkCRve5bg88103FAA17Ujt7GPHgHt9vG5U",
+      description: " Welcome to the Super 60 Batch of 2023! 🚀 Congratulations on embarking on this incredible journey with us. Get ready to explore, learn, and grow together. Your dedication and enthusiasm inspire us all."
     },
     {
-      date: "31 Feb 2025",
-      category: "Project Based Learning",
-      img: "https://sviet.ac.in/wp-content/uploads/2021/05/5s-700x400.png",
-      description: "Investigate and respond to authentic & complex challenges and go beyond learning with project-based learning while experiencing enriching experiences."
+      date: "28 March 2024",
+      category: "Industrail Visit",
+      img: "https://media.licdn.com/dms/image/D5622AQFbZL9Iz5UEfg/feedshare-shrink_1280/0/1711277144011?e=1714608000&v=beta&t=k4ax4w9JtXrBiZ0HYc3HrPFaRPoa3MhyKnltYMgbfWU",
+      description: "Delighted to share the remarkable industrial visit of our Super 60 students to Grazitti Interactive. Witness their journey of discovery and enlightenment as they delve into contemporary industry practices! "
     },
     {
-      date: "31 Feb 2025",
-      category: "Sporting Excellence",
-      img: "https://sviet.ac.in/wp-content/uploads/2021/05/6s-700x400.png",
-      description: "Compete and achieve excellence with passion under the excellent sporting environment. More than 30 sports tournament participations happening over the Year."
+      date: "19 March 2024",
+      category: "Seminar",
+      img: "https://media.licdn.com/dms/image/D5622AQHYu5mOWmAVcA/feedshare-shrink_800/0/1710602470039?e=1714608000&v=beta&t=213GXEBJjbtB4orra96TpwvnHltXO1w84-fIlpYOqG4",
+      description: "The expert lecture on AI methodologies with Mr. Vishal Gahrotra from PRIMUS SOFTWARE CORPORATION was a game-changer. Participants from Super 60, TheUniques, MCA, and BCA | Batch 2021-23 gained valuable insights into the latest AI techniques, ensuring they stay at the forefront of the tech landscape."
     },
-    {
-      date: "31 Feb 2025",
-      category: "Startups",
-      img: "https://sviet.ac.in/wp-content/uploads/2022/07/fsfssfsf.jpg",
-      description: "Incubation environment for innovative student entrepreneurship, more than 15 successful companies have started their journey at SVGOI."
-    },
-    {
-      date: "31 Feb 2025",
-      category: "Global Exposure",
-      img: "https://sviet.ac.in/wp-content/uploads/2022/07/fsdsdds.jpg",
-      description: "International tie-ups with more than 25 colleges from 7 countries with students from more than 10 countries studying on campus."
-    },
-    {
-      date: "31 Feb 2025",
-      category: "Super 60 Batch",
-      img: "https://sviet.ac.in/wp-content/uploads/2022/04/sgfddf.jpg",
-      description: "There is a special batch of 30 to 60 Students in each branch which is called SUPER-60 in CSE, ALLIED-30 group in Civil, and so on. These Students assured 100% placement in the campus placement drive."
-    }
   ];
   const placementDriveInformation = [
     {
