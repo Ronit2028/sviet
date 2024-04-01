@@ -41,8 +41,8 @@ const Usps = () => {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-6'>
 
-        {super60Batch.map((usp, index) => (
-          <div className={`rounded-md shadow-md my-3 p-4 lg:p-8 transition hover:shadow-lg py-12 ${((index) === 1) || ((index===2)) ? 'bg-[#fea700] text-white' : ''}`}>
+        {super60Batch.map((key, usp, index) => (
+          <div className={`rounded-md shadow-md my-3 p-4 lg:p-8 transition hover:shadow-lg py-12 ${((index) === 1) || ((index===2)) ? 'bg-[#fea700] text-white' : ''} ${console.log(key)} `} >
               <p className="text-xl font-semibold mb-4">
                 {usp.title}
               </p>
