@@ -67,7 +67,7 @@ const EventCarousel = () => {
                 <div className="w-full md:w-2/3">
                     <Slider {...settings} className="w-full py-8 md:py-12]">
                         {events.map((event, index) => (
-                            <div className="w-[95%] mx-auto px-2 h-full">
+                            <div key={index} className="w-[95%] mx-auto px-2 h-full">
                                 <div className="event-card rounded-md shadow-md bg-white text-[#00112d] h-[53vh]">
                                     <div className="image-section h-[35vh]" style={{ backgroundImage: `url(${event.imageSrc})`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
 
