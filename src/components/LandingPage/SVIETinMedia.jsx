@@ -18,24 +18,24 @@ const SVIETinMedia = () => {
             </div>
             <div className="w-full ">
                 <div className="event-card rounded-md shadow-md">
-                    <div className="image-section h-[30vh]" style={{backgroundImage:`url(https://sviet.ac.in/wp-content/uploads/2023/06/IMG_0201-1024x683.jpg)`, backgroundSize:"cover", backgroundPosition:"center bottom", backgroundRepeat:"no-repeat"}}>
+                    <div className="image-section h-[40vh]" style={{backgroundImage:`url(https://media.licdn.com/dms/image/D5622AQG9N5MX7IwGSw/feedshare-shrink_2048_1536/0/1711190034649?e=1714608000&v=beta&t=ZJeC8VG0beXNZ7HILu03bao2vOUXJWNMcGwycTSBR4g)`, backgroundSize:"cover", backgroundPosition:"center bottom", backgroundRepeat:"no-repeat"}}>
 
                     </div>
                     <div className="text-section p-6">
                         <div>
                             <p className="text-xl font-semibold ">
-                                SVIET Event News Heading
+                                Global Future Summit 2024
                             </p>
                             <p className='text-md pb-6'>
-                                Event Type
+                                Industrialist & HR Panel Discssion and Ideathon
                             </p>
                             <p className='text-sm pb-6'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nulla deleniti, veritatis mollitia dolor quidem incidunt suscipit dolore nostrum inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam at id adipisci nesciunt ratione dolorum exercitationem natus, delectus laboriosam quos!
-                            </p>
+                            Global Futures Summit 2024 Grabs Media Spotlight!
+Keep your eyes peeled for ongoing media reports from the Global Futures Summit 2024! There's always something new on the horizon. Join SVIET and be part of the change!      </p>
                         </div>
                         <div className='flex justify-between'>
                             <p className="text-sm font-semibold text-[#fea700]">
-                                Some Random Date
+                                March 28, 2024
                             </p>
                             <button className='rounded-md bg-[#fea700] text-white p-2 h-7 w-7 flex justify-center items-center'><i className='fa fa-arrow-right'></i></button>
                         </div>

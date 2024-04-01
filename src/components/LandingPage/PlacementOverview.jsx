@@ -13,21 +13,21 @@ const PlacementOverview = () => {
         },
         {
             backgroundImage:'https://sviet.ac.in/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-02-at-12.21.29-AM-1.jpeg',
-            name: 'Moon Mandal',
-            role: 'Graduate Engineer Trainee',
-            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2024/02/jio-white-removebg-preview.png'
+            name: 'Yash Khandalwal',
+            role: 'System Engineer',
+            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2022/01/info.png'
         },
         {
             backgroundImage: 'https://sviet.ac.in/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-20-at-5.50.14-AM.jpeg',
-            name: 'Moon Mandal',
-            role: 'Graduate Engineer Trainee',
-            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2024/02/jio-white-removebg-preview.png'
+            name: 'Prince Kumar',
+            role: 'Project Engineer',
+            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2024/01/image-removebg-preview-17.png'
         },
         {
             backgroundImage: 'https://sviet.ac.in/wp-content/uploads/2023/12/Arjun-katoch-scaled-e1703863008510.jpg',
-            name: 'Moon Mandal',
-            role: 'Graduate Engineer Trainee',
-            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2024/02/jio-white-removebg-preview.png'
+            name: 'Amit Gautam',
+            role: 'Software Developer',
+            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2022/01/uu.png'
         }
     ];
 

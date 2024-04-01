@@ -31,7 +31,7 @@ const WhyChooseUs = () => {
 
     // Settings for React Slick Carousel
     const settings = {
-        infinite:true,
+        infinite: true,
         dots: true,
         autoplay: true,
         arrows: false,
@@ -66,25 +66,27 @@ const WhyChooseUs = () => {
                     </p>
 
                     {/* React Slick Carousel */}
-                    <Slider {...settings}>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-12">
                         {reasons.map((reason, index) => (
-                            <div key={index} className='mt-6 h-[45vh] lg:h-[50vh] flex items-center p-3'>
-                                <div className="bg-white flex flex-col justify-center h-full rounded-md text-[#00112d] p-6">
-                                    <div className='flex items-center justify-center p-5 w-20 h-20 rounded-full text-3xl bg-[#00112d] text-white'>
+                            <div key={index} className='w-full flex p-3'>
+                                <div className="bg-white flex items-center h-full rounded-md text-[#00112d] p-8 w-full">
+                                    <div className='flex flex-shrink-0 bg-gray-100 text-[#fea700] items-center justify-center p-5 w-20 h-20 rounded-md text-3xl'>
                                         <i className={reason.iconClass}></i>
                                     </div>
                                     <div className="ml-3">
-                                        <h3 className='text-2xl font-meium py-4'>{reason.title}</h3>
-                                        <p>{reason.description}</p>
+                                        <h3 className='text-2xl font-medium pb-2'>{reason.title}</h3>
+                                        <p className='text-sm'>{reason.description}</p>
                                     </div>
                                 </div>
                             </div>
                         ))}
-                    </Slider>
+                    </div>
+
                     <div className='flex justify-end gap-2'>
                         <button className='bg-[#fea700] h-7 w-7 rounded-md'><i className='fa fa-arrow-left'></i></button>
                         <button className='bg-[#fea700] h-7 w-7 rounded-md'><i className='fa fa-arrow-right'></i></button>
-                  
+
                     </div>
                 </div>
             </div>

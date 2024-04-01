@@ -73,7 +73,7 @@ export function FeatureSection16() {
             <img
               src={image.src}
               alt="laptop"
-              className="w-full lg:h-[380px] md:h-[300px] h-[220px] lg:translate-y-16 translate-y-10 object-fit object-center"
+              className="w-full lg:h-[380px] md:h-[300px] h-[220px] lg:translate-y-16 translate-y-10 object-contain object-center"
             />
           </CardBody>
         </Card>
@@ -97,7 +97,7 @@ export function FeatureSection16() {
             <img
               src={cultural.src}
               alt="laptop"
-              className="w-full xl:h-[355px] lg:h-[380px] md:h-[300px] h-[180px] lg:translate-y-6 translate-y-10 object-contain object-top"
+              className="w-full xl:h-[355px] lg:h-[380px] md:h-[300px] h-[180px] lg:translate-y-6 translate-y-10 object-contain object-center"
             />
           </CardBody>
         </Card>
@@ -113,10 +113,10 @@ export function FeatureSection16() {
             <Typography className="text-center max-w-xs mx-auto text-base font-normal leading-7 !text-gray-500">
               Tap into Chandigarh's thriving job market across industries such as IT, Biotechnology, and Pharmaceuticals.
             </Typography>
-           
+
             <div className="flex justify-between items-end mt-[144px]">
               <div className="flex gap-2">
-                
+
                 <Typography
                   as="a"
                   href="#"
@@ -131,12 +131,12 @@ export function FeatureSection16() {
                 color="blue-gray"
                 className="text-xs font-bold cursor-pointer"
               >
-         
+
               </Typography>
               <img
-                  src={hand.src}
-                  alt="logo"
-                />
+                src={hand.src}
+                alt="logo"
+              />
             </div>
           </CardBody>
         </Card>

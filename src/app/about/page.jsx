@@ -19,8 +19,8 @@ const page = () => {
       <CampusExpirience />
       <MissionVission />
       <Charts />
-      <MulitilpleCharts />
       <LeadingCompanies />
+      <MulitilpleCharts />
       <CulturalDiversity />
       < ManagementDesk />
       <Infra />

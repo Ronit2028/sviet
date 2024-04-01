@@ -9,7 +9,7 @@ import Tracker from '@/components/Placement/Tracker'
 import EventCarousel from '@/components/LandingPage/EventCarousel'
 import IndustrailExposure from "@/components/Placement/IndustrialExposure"
 import Testimonials from '@/components/LandingPage/Testimonials'
-
+import MulitilpleCharts from '../../components/About/MulitipleCharts'
 const page = () => {
   return (
     <div>
@@ -19,7 +19,7 @@ const page = () => {
       <Department />
       <VisionMission />
       <EventCarousel />
-      <Tracker />
+     <MulitilpleCharts/>
       <IndustrailExposure/>
       <Testimonials/>
     </div>

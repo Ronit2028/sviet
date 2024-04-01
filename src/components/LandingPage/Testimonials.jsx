@@ -17,9 +17,10 @@ function TestimonialCard({
     client,
     title,
     clientInfo,
+    studentImage,
 }) {
     return (
-        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 w-[95%]">
+        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 w-[95%] h-[50vh] lg:h-[30vh]">
             <CardHeader color="transparent" floated={false} shadow={false}>
                 <Typography
                     color="blue-gray"
@@ -28,10 +29,10 @@ function TestimonialCard({
                     &quot;{title}&quot;
                 </Typography>
             </CardHeader>
-            <CardBody className="px-4 py-0 flex flex-wrap-reverse gap-x-6 justify-between items-center">
+            <CardBody className="px-4 py-0 flex flex-wrap-reverse gap-x-6 justify-between">
                 <div>
                     <div className="flex gap-3">
-                        <Avatar src={img} className="h-12 w-12 rounded-full"/>
+                        <Avatar src={studentImage} className="h-12 w-12 rounded-full" />
                         <div>
                             <Typography variant="h6" color="blue-gray">
                                 {client}
@@ -46,7 +47,7 @@ function TestimonialCard({
                         </div>
                     </div>
                 </div>
-                <img src={img} className="max-w-[8rem]" alt={client} />
+                <img src={img} className="max-h-[4rem] max-w-[8rem]" alt={client} />
             </CardBody>
         </Card>
     );
@@ -55,20 +56,37 @@ function TestimonialCard({
 const testimonials = [
     {
         title:
-            "The team went above and beyond to ensure my issue was resolved quickly and efficiently. Truly outstanding!",
-        client: "Jessica Devis",
-        clientInfo: "Full Stack Developer @Netflix",
+            "Great learning experience and the college provided me with the opportunities needed. Truly outstanding! and really really thankful for the support",
+        client: "Gaurav Sharma",
+        clientInfo: "SDE",
         img: "https://sviet.ac.in/wp-content/uploads/2020/07/Tata.jpg",
+        studentImage: "https://sviet.ac.in/wp-content/uploads/2021/04/pexels-rahul-shah-888956-scaled.jpg"
     },
     {
         title:
-            "It have broadened my horizons and helped me advance my career. The community is incredibly supportive.",
-        client: "Marcell Glock",
-        clientInfo: "Graphic Designer, @Coinbase",
-        img: "https://sviet.ac.in/wp-content/uploads/2020/07/Hero.jpg",
+            "It have broadened my horizons and helped me advance my career. The college and management is incredibly supportive towards their students and also providing great learning experience for all",
+        client: "Yash Khandelwal",
+        clientInfo: "System Engineer",
+        img: "https://sviet.ac.in/wp-content/uploads/2022/01/info.png",
+        studentImage:'https://sviet.ac.in/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-02-at-12.21.29-AM-1.jpeg',
+    },
+    {
+        title:
+            "The program provided me with the skills and knowledge needed to excel in the field of software development. Highly recommended!",
+        client: "Adarsh Kumar",
+        clientInfo: "Software Engineer",
+        img: "https://sviet.ac.in/wp-content/uploads/2020/07/First-Lady.jpg",
+        studentImage: "https://sviet.ac.in/wp-content/uploads/2021/04/dsdsd-6.png",
+    },
+    {
+        title:
+            "The instructors are top-notch and the curriculum is well-structured. I feel well-prepared for my career in data science.",
+        client: "Admit Gautam",
+        clientInfo: "Software Developer",
+        img: "https://sviet.ac.in/wp-content/uploads/2022/01/uu.png",
+        studentImage: "https://sviet.ac.in/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-20-at-5.51.29-AM.jpeg"
     },
 ];
-
 export function TestimonialSectionCarousel() {
     const settings = {
         dots: true,

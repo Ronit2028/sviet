@@ -74,7 +74,7 @@ const Charts = () => {
                         <p className="md:text-lg font-bold">COMPANIES</p>
                     </div>
                     <p className="md:text-5xl text-2xl font-semibold mb-8  ">Top Companies Hiring at <span className='text-[#016db6] text-3xl md:text-7xl py-3 block'> SVIET</span></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, accusantium exercitationem! Tenetur exercitationem tempora esse nostrum odio totam id laborum, nesciunt autem impedit accusamus nam itaque! Harum tempore enim quod.</p>
+                    <p>We at SVIET feel extremely privileged to have been able to provide manpower resources to drive the country growth engine. The cell is headed by Director – CRC & PFC and has independent staff consisting of TPOs faculty and students placement coordinators drawn from various departments of SVGOI. We ensure that students receive the best of placement offers.</p>
                 </div>
                 <div className="md:w-1/2 w-full h-scr md:h-auto my-12 md:my-0 flex justify-center md:block">
                     {/* <!-- Add your chart component here --> */}
