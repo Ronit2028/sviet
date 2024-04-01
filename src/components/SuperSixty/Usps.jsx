@@ -9,18 +9,21 @@ import 'slick-carousel/slick/slick-theme.css';
 const Usps = () => {
   const super60Batch = [
     {
+      key:1,
       title: "Tailored Enrichment Modules",
       desc: "The Super 60 Batch offers specially curated learning modules designed to unleash the potential of each student. From advanced technical skills to soft skills development, every aspect is meticulously crafted to enhance their capabilities."
     },
     {
+      key:2,
       title: "Rigorous Academic and Extracurricular Activities",
       desc: "Beyond the conventional curriculum, students in the Super 60 Batch engage in rigorous academic challenges and a wide array of extracurricular activities. This holistic approach ensures a well-rounded development."
     },
-    {
+    {key:3,
       title: "Focused Skill Enhancement",
       desc: "Students undergo intensive training in reasoning, quantitative skills, communication skills, and personality development. These focused sessions equip them with the essential skills required to thrive in today's competitive world."
     },
     {
+      key:4,
       title: "Exposure to Latest Technologies",
       desc: "The Super 60 Batch stays ahead of the curve by immersing students in the latest software and manufacturing techniques. This exposure prepares them to adapt to the evolving technological landscape with ease."
     },

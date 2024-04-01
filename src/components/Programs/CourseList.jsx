@@ -156,7 +156,7 @@ const CourseList = () => {
                     Our Institutions
                 </p>
                 {
-                    swamiVivekanandInstitutes.map(name => (
+                    swamiVivekanandInstitutes.map((key,name) => (
                         <p className='text-xl my-3 py-3'>
                             {name.name}
                         </p>
@@ -176,7 +176,7 @@ const CourseList = () => {
                                 >
                                 <option value="" className='p-2 border-b-2 '>All Categories</option>
                                 {/* Populate options with unique categories */}
-                                {educationPrograms.map(program => (
+                                {educationPrograms.map(key,program => (
                                     <option key={program.category} className='p-2 border-b-2 ' value={program.category}>{program.category}</option>
                                 ))}
                             </select>
