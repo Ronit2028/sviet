@@ -7,7 +7,7 @@ import Labs from '@/components/Course/Labs';
 import PlacementOverview from '@/components/LandingPage/PlacementOverview';
 import Events from "@/components/Course/Events";
 
-import data from '@/data'; // Import the data
+import data from '@/data/data'; // Import the data
 
 
 import backdrop from '@/assets/Programs/backdrop.jpg';

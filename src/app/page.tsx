@@ -10,7 +10,7 @@ import FeaturesSection16 from '@/components/LandingPage/FeaturesSection16'
 export default function Home() {
   return(
     
-    <div>
+    <main>
       <Header/>
       <GivingWings/>
       <PlacementOverview/>
@@ -20,6 +20,6 @@ export default function Home() {
       <EventCarousel/>
       <Testimonials/>
       <FeaturesSection16/>
-    </div>
+    </main>
   )
 }
