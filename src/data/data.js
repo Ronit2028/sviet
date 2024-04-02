@@ -400,7 +400,8 @@ const data = [
         "header": {
             "title": "Master in Computer Science & Engineering",
             "subtitle": "IGNITE INNOVATION AND RESEARCH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "@/assets/Courses/MTech/example.jpg"
+            
         },
         "program_name": "M.Tech in Computer Science and Engineering",
         "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
@@ -417,7 +418,7 @@ const data = [
             {
                 "title": "Web Developer",
                 "desc": "Become proficient in web development technologies such as HTML, CSS, JavaScript, and various frameworks like React and Angular.",
-                "image": "https://example.com/web_developer_image.jpg"
+                "image": "@/assets/Courses/MTech/example.jpg"
             },
             {
                 "title": "Network Engineer",
@@ -427,7 +428,7 @@ const data = [
             {
                 "title": "Web Developer",
                 "desc": "Become proficient in web development technologies such as HTML, CSS, JavaScript, and various frameworks like React and Angular.",
-                "image": "https://example.com/web_developer_image.jpg"
+                "image": "https://img.freepik.com/free-photo/portrait-school-girl-with-book-city_23-2148199220.jpg?t=st=1712051419~exp=1712055019~hmac=37ab86af75756b5c2f108ecdb2a5736bfc18b64a32501d3b026d4be371ca50d1&w=900"
             },
             {
                 "title": "Network Engineer",
@@ -976,8 +977,20 @@ const data = [
         ],
         "eligibility_criteria": {
             "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
-        }
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Practical Exposure: Hands-on training in pharmaceutical practices.",
+            "Industry Internship: Gain real-world experience through industry internships.",
+            "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
+            "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
+        ]
     },
+    
     {
         "id": 14,
         "course_name": "Pharmacy",
@@ -1017,6 +1030,13 @@ const data = [
                 "desc": "Provide pharmaceutical care to patients in clinical settings.",
                 "image": "https://example.com/clinical_pharmacist_image.jpg"
             }
+        ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Cutting-Edge Curriculum: Stay updated with the latest advancements in pharmaceutics.",
+            "Hands-On Learning: Practical training in pharmaceutical research and technology.",
+            "Industry Immersion: Internship opportunities with leading pharmaceutical companies.",
+            "Career Development: Guidance and support for career advancement in the pharmaceutical industry."
         ],
         "eligibility_criteria": {
             "eligibility": "All those candidates who have passed the Bachelor in Pharmacy from an Institution affiliated to a recognized University with at least 50% marks (40% in case of candidate belonging to SC/ST category) shall be eligible to apply."
@@ -1089,6 +1109,13 @@ const data = [
                 "image": "https://example.com/retail_wholesale_pharmacist_image.jpg"
             }
         ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Practical Training: Hands-on experience in pharmaceutical operations.",
+            "Industry Exposure: Internship opportunities in retail and hospital pharmacy settings.",
+            "Skill Development: Enhance skills in drug dispensing and patient care.",
+            "Career Opportunities: Pathways to employment in various pharmacy sectors."
+        ],
         "eligibility_criteria": {
             "eligibility": "Candidate shall have passed 10+2 examination conducted by the respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and Physics, Chemistry, Mathematics (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
         },
@@ -1159,6 +1186,15 @@ const data = [
                 "desc": "Communicate scientific and medical information through writing for various audiences.",
                 "image": "https://example.com/medical_writer_image.jpg"
             }
+        ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Research-oriented study with comprehensive understanding",
+            "State-of-the-art facilities and laboratories for practical training and research",
+            "In-depth exploration of pharmaceutical medicine and disease treatment",
+            "Development and nurturing of research skills",
+            "Contribution to the academic field through teaching and research",
+            "Practical training in retail pharmacy settings"
         ],
         "eligibility_criteria": {
             "eligibility": "All those candidates who have passed 10+2 examination from a board recognized or established by Central/State Government through a legislation with Physics and Chemistry as compulsory subjects along with Mathematics or Biology subject. OR All those candidates who have passed D.Pharm. course from an institution approved by the Pharmacy Council of India under section 12 of The Pharmacy Act."
@@ -1231,6 +1267,14 @@ const data = [
                 "image": "https://example.com/hospitality_consultant_image.jpg"
             }
         ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Combination of theoretical knowledge and practical training",
+            "Mandatory internships and industry-based training",
+            "Comprehensive curriculum covering various aspects of hospitality management",
+            "Hands-on experience in real-world hospitality situations",
+            "Opportunities for career advancement in the hospitality industry"
+        ],
         "eligibility_criteria": {
             "eligibility": "To be eligible for the B.H.M.C.T. program, candidates must meet the following criteria: Completion of 10+2 from a recognized board. Minimum aggregate marks of 45%. English as a mandatory subject. The age limit is up to 22 years."
         },
@@ -1297,6 +1341,15 @@ const data = [
                 "image": "https://example.com/food_beverage_manager_image.jpg"
             }
         ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Two-year postgraduate degree focusing on hospitality management",
+            "Enhancement of professional management tactics",
+            "Inculcation of entrepreneurship skills",
+            "Preparation for managerial positions in the hospitality industry",
+            "Hands-on experience in managing various hospitality operations",
+            "Opportunities for career advancement and entrepreneurship"
+        ],
         "eligibility_criteria": {
             "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
         },
@@ -1357,6 +1410,15 @@ const data = [
                 "desc": "Develop entrepreneurial skills to start and manage your own hospitality business, such as hotels, restaurants, or catering services.",
                 "image": "https://example.com/entrepreneur_image.jpg"
             }
+        ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Three-year job-oriented vocational training program",
+            "Imparts skills and knowledge related to hotel management",
+            "Covers various important topics such as housekeeping, accounting, and business management",
+            "Includes a six-month internship at a reputed hotel",
+            "Develops leadership, managerial, and communication skills",
+            "Prepares students for careers as hospitality managers, event coordinators, and entrepreneurs"
         ],
         "eligibility_criteria": {
             "eligibility": "Candidates seeking admission to the B.Voc in Hotel Management course can check the eligibility criteria provided below.\n\n- They must have completed 12th from Arts, Science or Commerce from any recognized Institution.\n- Candidates will also have to satisfy the minimum percentage decided by the college.\n- They can visit the official website of the college to know all about the eligibility criteria for B. Voc."
@@ -1419,6 +1481,7 @@ const data = [
                 "image": "https://example.com/food_consultant_image.jpg"
             }
         ],
+        
         "eligibility_criteria": {
             "eligibility": "Candidates who have completed 12th from Arts, Science or Commerce from any recognized institution"
         },
@@ -1443,6 +1506,16 @@ const data = [
                 "image": "https://example.com/community_nutrition_lab_image.jpg"
             }
         ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Three-year undergraduate program focusing on nutrition and dietetics",
+            "Comprehensive curriculum covering food science, human physiology, and nutrition counseling",
+            "Practical training in meal planning and food service management",
+            "Preparation for careers as nutritionists, dieticians, and food consultants",
+            "Opportunities for employment in healthcare settings, research institutions, and community organizations",
+            "Focus on promoting health and preventing diseases through nutrition"
+        ],
+    
     },
     {
         "id": 21,
@@ -1486,6 +1559,15 @@ const data = [
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
         },
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Graduate degree focusing on business and management skills",
+            "Comprehensive curriculum covering accounting, finance, marketing, and operations management",
+            "Specialized courses in areas such as entrepreneurship and international business",
+            "Preparation for management positions in finance, consulting, marketing, healthcare, and technology sectors",
+            "Opportunities to start own businesses or pursue entrepreneurial ventures",
+            "Versatile and valuable credential for a wide range of career opportunities"
+        ],
         "labs": [],
     },
     {
@@ -1533,7 +1615,17 @@ const data = [
         "eligibility_criteria": {
             "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
         },
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Professional undergraduate program in Business Management",
+            "Covers management and business principles",
+            "Emphasizes practical experience through internships, case studies, and projects",
+            "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
+            "Opportunities to work in various industries and sectors",
+            "Three-year duration with a focus on practical learning"
+        ],
         "labs": []
+
     },
     {
         "id": 23,
@@ -1555,6 +1647,7 @@ const data = [
             "Supply Chain Management",
             "Tourism Management"
         ],
+       
         "program_outcomes": [
             {
                 "title": "Marketing Manager",
@@ -1572,6 +1665,15 @@ const data = [
                 "title": "Human Resource Manager",
                 "desc": "Manage human resources and personnel within organizations."
             }
+        ],
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Professional undergraduate program in Business Management",
+            "Covers management and business principles",
+            "Emphasizes practical experience through internships, case studies, and projects",
+            "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
+            "Opportunities to work in various industries and sectors",
+            "Three-year duration with a focus on practical learning"
         ],
         "affiliation": {
             "affiliated_to": "SVFTM",
@@ -1624,6 +1726,15 @@ const data = [
             "affiliated_to": "SVFTM",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Postgraduate course focusing on accounting expertise",
+            "Duration of 2 years divided into 4 semesters",
+            "Prepares students for better future prospects in accounting and commerce",
+            "Professional skills development for better placement opportunities",
+            "Multiple career paths including BFSI sector, teaching, further studies, corporate jobs, and government opportunities",
+            "Emphasis on in-depth knowledge and practical application"
+        ],
         "labs": []
     },
     {
@@ -1664,6 +1775,7 @@ const data = [
                 "image": "https://example.com/educator_image.jpg"
             }
         ],
+     
         "eligibility_criteria": {
             "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
         },
