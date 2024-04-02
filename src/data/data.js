@@ -401,7 +401,7 @@ const data = [
             "title": "Master in Computer Science & Engineering",
             "subtitle": "IGNITE INNOVATION AND RESEARCH",
             "background_image": "@/assets/Courses/MTech/example.jpg"
-            
+
         },
         "program_name": "M.Tech in Computer Science and Engineering",
         "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
@@ -990,7 +990,7 @@ const data = [
             "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
         ]
     },
-    
+
     {
         "id": 14,
         "course_name": "Pharmacy",
@@ -1481,7 +1481,7 @@ const data = [
                 "image": "https://example.com/food_consultant_image.jpg"
             }
         ],
-        
+
         "eligibility_criteria": {
             "eligibility": "Candidates who have completed 12th from Arts, Science or Commerce from any recognized institution"
         },
@@ -1515,7 +1515,7 @@ const data = [
             "Opportunities for employment in healthcare settings, research institutions, and community organizations",
             "Focus on promoting health and preventing diseases through nutrition"
         ],
-    
+
     },
     {
         "id": 21,
@@ -1647,7 +1647,7 @@ const data = [
             "Supply Chain Management",
             "Tourism Management"
         ],
-       
+
         "program_outcomes": [
             {
                 "title": "Marketing Manager",
@@ -1775,7 +1775,7 @@ const data = [
                 "image": "https://example.com/educator_image.jpg"
             }
         ],
-     
+
         "eligibility_criteria": {
             "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
         },
@@ -2326,7 +2326,7 @@ const data = [
     },
     {
         "id": 36,
-        "course_name": "Bachelor of Arts + Bachelor of Law",
+        "course_name": "Law",
         "header": {
             "title": "BACHELOR OF ARTS + BACHELOR OF LAW",
             "subtitle": "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
@@ -2383,7 +2383,7 @@ const data = [
     },
     {
         "id": 37,
-        "course_name": "M.Sc",
+        "course_name": "Basic Science",
         "header": {
             "title": "MASTER OF SCIENCE IN CHEMISTRY",
             "subtitle": "EXPLORING THE FUNDAMENTALS OF CHEMISTRY",
@@ -2434,7 +2434,7 @@ const data = [
     },
     {
         "id": 38,
-        "course_name": "M.Sc",
+        "course_name": "Basic Science",
         "header": {
             "title": "MASTER OF SCIENCE IN MATHEMATICS",
             "subtitle": "EXPLORING THE WORLD OF MATHEMATICAL SCIENCES",
@@ -2486,7 +2486,7 @@ const data = [
     },
     {
         "id": 39,
-        "course_name": "M.Sc",
+        "course_name": "Basic Science",
         "header": {
             "title": "MASTER OF SCIENCE IN PHYSICS",
             "subtitle": "EXPLORING THE FRONTIERS OF PHYSICS",
@@ -2538,7 +2538,7 @@ const data = [
     },
     {
         "id": 40,
-        "course_name": "B.Sc",
+        "course_name": "Basic Science",
         "header": {
             "title": "BACHELOR OF SCIENCE IN NON-MEDICAL",
             "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
@@ -2593,153 +2593,402 @@ const data = [
         "labs": []
     },
     {
-        "id": 41,
-        "course_name": "M.Ed",
+        "id": 45,
+        "course_name": "Computer Applications",
         "header": {
-          "title": "Master of Education",
-          "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
-          "background_image": "@/assets/Programs/backdrop.jpg"
+            "title": "Master of Computer Application",
+            "subtitle": "SHAPING FUTURE TECH LEADERS",
+            "background_image": "@/assets/Programs/mca_backdrop.jpg"
         },
-        "program_name": "Master of Education",
-        "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
-        "fees": "27,500 INR Per Semester",
+        "program_name": "MCA",
+        "program_description": "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
+        "fees": "32,000 INR Per Semester",
         "duration": "2 Years (Semester System)",
         "major_tracks": [
-          "Educational Theory",
-          "Counselling",
-          "Leadership",
-          "Training and Internship"
+            "Data Science",
+            "Software Development",
+            "Machine Learning",
+            "Cloud Computing",
+            "Networking"
         ],
-        "program_outcomes": [],
+        "program_outcomes": [
+            {
+                "title": "Data Scientist",
+                "desc": "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
+                "image": "@/assets/Courses/MCA/data_scientist.jpg"
+            },
+            {
+                "title": "Software Developer",
+                "desc": "Develop expertise in software development using modern programming languages and frameworks.",
+                "image": "@/assets/Courses/MCA/software_developer.jpg"
+            },
+            {
+                "title": "Cloud Engineer",
+                "desc": "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
+                "image": "@/assets/Courses/MCA/cloud_engineer.jpg"
+            },
+            {
+                "title": "Network Administrator",
+                "desc": "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
+                "image": "@/assets/Courses/MCA/network_administrator.jpg"
+            },
+            {
+                "title": "Database Administrator",
+                "desc": "Acquire skills in database management to efficiently store, retrieve, and manage large volumes of data.",
+                "image": "@/assets/Courses/MCA/database_administrator.jpg"
+            },
+            {
+                "id": 41,
+                "course_name": "M.Ed",
+                "header": {
+                    "title": "Master of Education",
+                    "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
+                    "background_image": "@/assets/Programs/backdrop.jpg"
+                },
+                "program_name": "Master of Education",
+                "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
+                "fees": "27,500 INR Per Semester",
+                "duration": "2 Years (Semester System)",
+                "major_tracks": [
+                    "Educational Theory",
+                    "Counselling",
+                    "Leadership",
+                    "Training and Internship"
+                ],
+                "program_outcomes": [],
+                "eligibility_criteria": {
+                    "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
+                },
+                "affiliation": {
+                    "affiliated_to": "IKGPTU, Jalandhar",
+                    "approved_by": "AICTE"
+                },
+                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+                "program_highlights": [
+                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+                    "5000+ Offer Letters",
+                    "250+ Companies Visited Every Year",
+                    "43 Lakh Highest Package",
+                    "25000+ Global Alumni Reach"
+                ],
+                "labs": []
+            },
+            {
+                "id": 42,
+                "course_name": "M.A. in Education",
+                "header": {
+                    "title": "Master of Arts in Education",
+                    "subtitle": "SHAPING THE FUTURE OF EDUCATION",
+                    "background_image": "@/assets/Programs/backdrop.jpg"
+                },
+                "program_name": "Master of Arts in Education",
+                "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
+                "fees": "15,000 INR Per Semester",
+                "duration": "2 Years (Semester System)",
+                "major_tracks": [
+                    "Theoretical Instruction",
+                    "Counselling",
+                    "Curriculum",
+                    "Educational Technology"
+                ],
+                "program_outcomes": [],
+                "eligibility_criteria": {
+                    "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+                },
+                "affiliation": {
+                    "affiliated_to": "IKGPTU, Jalandhar",
+                    "approved_by": "AICTE"
+                },
+                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+                "program_highlights": [
+                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+                    "5000+ Offer Letters",
+                    "250+ Companies Visited Every Year",
+                    "43 Lakh Highest Package",
+                    "25000+ Global Alumni Reach"
+                ],
+                "labs": []
+            },
+            {
+                "id": 43,
+                "course_name": "B.Ed",
+                "header": {
+                    "title": "Bachelor of Education",
+                    "subtitle": "SHAPING FUTURE EDUCATORS",
+                    "background_image": "@/assets/Programs/backdrop.jpg"
+                },
+                "program_name": "Bachelor of Education",
+                "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
+                "fees": "32,500 INR Per Semester",
+                "duration": "2 Years (Semester System)",
+                "major_tracks": [
+                    "Theory",
+                    "Research",
+                    "Leadership",
+                    "Training and Internship"
+                ],
+                "program_outcomes": [],
+                "eligibility_criteria": {
+                    "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
+                },
+                "affiliation": {
+                    "affiliated_to": "IKGPTU, Jalandhar",
+                    "approved_by": "AICTE"
+                },
+                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+                "program_highlights": [
+                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+                    "5000+ Offer Letters",
+                    "250+ Companies Visited Every Year",
+                    "43 Lakh Highest Package",
+                    "25000+ Global Alumni Reach"
+                ],
+                "labs": []
+            },
+            {
+                "id": 44,
+                "course_name": "B.A.",
+                "header": {
+                    "title": "Bachelor of Arts",
+                    "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
+                    "background_image": "@/assets/Programs/backdrop.jpg"
+                },
+                "program_name": "Bachelor of Arts",
+                "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
+                "fees": "15,000 INR Per Semester",
+                "duration": "3 Years (Semester System)",
+                "major_tracks": [
+                    "Social Sciences",
+                    "Literature",
+                    "Science & Philosophy",
+                    "Psychology"
+                ],
+                "program_outcomes": [],
+                "eligibility_criteria": {
+                    "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+                },
+                "affiliation": {
+                    "affiliated_to": "IKGPTU, Jalandhar",
+                    "approved_by": "AICTE"
+                },
+                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+                "program_highlights": [
+                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+                    "5000+ Offer Letters",
+                    "250+ Companies Visited Every Year",
+                    "43 Lakh Highest Package",
+                    "25000+ Global Alumni Reach"
+                ],
+                "labs": []
+            }
+        ],
         "eligibility_criteria": {
-          "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
+            "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category"
         },
         "affiliation": {
-          "affiliated_to": "IKGPTU, Jalandhar",
-          "approved_by": "AICTE"
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
-          "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-          "5000+ Offer Letters",
-          "250+ Companies Visited Every Year",
-          "43 Lakh Highest Package",
-          "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-      },
-      {
-        "id": 42,
-        "course_name": "M.A. in Education",
+            "Hands-on learning through case studies and projects",
+            "State-of-the-art labs with cutting-edge technology",
+            "Six-month industry internship for real-world experience",
+            "National and international immersion programs",
+            "Dedicated industry-academia partnerships for internship and placement opportunities",
+            "Essential skill development through workshops",
+            "On-campus incubator for entrepreneurial opportunities",
+            "Renowned faculty and industry guest speakers",
+            "In-demand skills in data science, software development, cloud computing, networking, and database management"
+        ]
+    },
+    {
+        "id": 46,
+        "course_name": "Computer Applications",
         "header": {
-          "title": "Master of Arts in Education",
-          "subtitle": "SHAPING THE FUTURE OF EDUCATION",
-          "background_image": "@/assets/Programs/backdrop.jpg"
+            "title": "Bachelor of Computer Application",
+            "subtitle": "UNLOCK YOUR POTENTIAL IN IT",
+            "background_image": "@/assets/Programs/bca_backdrop.jpg"
         },
-        "program_name": "Master of Arts in Education",
-        "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
-        "fees": "15,000 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-          "Theoretical Instruction",
-          "Counselling",
-          "Curriculum",
-          "Educational Technology"
-        ],
-        "program_outcomes": [],
-        "eligibility_criteria": {
-          "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-        },
-        "affiliation": {
-          "affiliated_to": "IKGPTU, Jalandhar",
-          "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-          "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-          "5000+ Offer Letters",
-          "250+ Companies Visited Every Year",
-          "43 Lakh Highest Package",
-          "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-      },
-      {
-        "id": 43,
-        "course_name": "B.Ed",
-        "header": {
-          "title": "Bachelor of Education",
-          "subtitle": "SHAPING FUTURE EDUCATORS",
-          "background_image": "@/assets/Programs/backdrop.jpg"
-        },
-        "program_name": "Bachelor of Education",
-        "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
-        "fees": "32,500 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-          "Theory",
-          "Research",
-          "Leadership",
-          "Training and Internship"
-        ],
-        "program_outcomes": [],
-        "eligibility_criteria": {
-          "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
-        },
-        "affiliation": {
-          "affiliated_to": "IKGPTU, Jalandhar",
-          "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-          "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-          "5000+ Offer Letters",
-          "250+ Companies Visited Every Year",
-          "43 Lakh Highest Package",
-          "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-      },
-      {
-        "id": 44,
-        "course_name": "B.A.",
-        "header": {
-          "title": "Bachelor of Arts",
-          "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
-          "background_image": "@/assets/Programs/backdrop.jpg"
-        },
-        "program_name": "Bachelor of Arts",
-        "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
-        "fees": "15,000 INR Per Semester",
+        "program_name": "BCA",
+        "program_description": "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
+        "fees": "Rs. 22000/- INR per semester",
         "duration": "3 Years (Semester System)",
         "major_tracks": [
-          "Social Sciences",
-          "Literature",
-          "Science & Philosophy",
-          "Psychology"
+            "Software Development",
+            "Web Development",
+            "Database Administration",
+            "Network Engineering"
         ],
-        "program_outcomes": [],
+        "program_outcomes": [
+            {
+                "title": "Software Developer",
+                "desc": "Become proficient in software development using various programming languages and tools.",
+                "image": "https://example.com/software_developer_image.jpg"
+            },
+            {
+                "title": "Web Developer",
+                "desc": "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
+                "image": "https://example.com/web_developer_image.jpg"
+            },
+            {
+                "title": "Database Administrator",
+                "desc": "Learn database design, implementation, and management techniques.",
+                "image": "https://example.com/database_administrator_image.jpg"
+            },
+            {
+                "title": "Network Engineer",
+                "desc": "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
+                "image": "https://example.com/network_engineer_image.jpg"
+            }
+        ],
         "eligibility_criteria": {
-          "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+            "eligibility": "10+2 with at least 45% and for reserved category minimum 40%"
         },
         "affiliation": {
-          "affiliated_to": "IKGPTU, Jalandhar",
-          "approved_by": "AICTE"
+            "affiliated_to": ["Punjabi University, Patiala", "MRSPTU, Bathinda", "IKGPTU, Jalandhar"],
+            "approved_by": "AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
-          "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-          "5000+ Offer Letters",
-          "250+ Companies Visited Every Year",
-          "43 Lakh Highest Package",
-          "25000+ Global Alumni Reach"
+            "Learn by Doing: Hands-on learning through case studies and projects.",
+            "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
+            "Industry Ready: Six-month industry internship for real-world experience.",
+            "Global Exposure: National and international immersion programs.",
+            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
+            "Beyond Academics: Essential skill development through workshops.",
+            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
+            "Expert Learning: Renowned faculty and industry guest speakers.",
+            "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more."
+        ]
+    },
+    {
+        "id": 47,
+        "course_name": "Computer Applications",
+        "header": {
+            "title": "Post Graduate Diploma in Computer Applications",
+            "subtitle": "UNLEASH YOUR POTENTIAL IN IT",
+            "background_image": "@/assets/Programs/pgdca_backdrop.jpg"
+        },
+        "program_name": "PGDCA",
+        "program_description": "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
+        "fees": "Rs. 12000/- INR per semester",
+        "duration": "1 Year (Semester System)",
+        "major_tracks": [
+            "Software Engineer",
+            "Computer Programmer & Analyst",
+            "Interface Engineer",
+            "Java Developer",
+            "Project Manager",
+            "Information Security Analyst",
+            "IT Consultant"
         ],
-        "labs": []
-      }
-      
-      
-      
-    
+        "program_outcomes": [
+            {
+                "title": "Software Engineer",
+                "desc": "Acquire skills to design and develop software applications according to industry standards.",
+                "image": "https://example.com/software_engineer_image.jpg"
+            },
+            {
+                "title": "Computer Programmer & Analyst",
+                "desc": "Learn programming languages and analytical techniques to develop efficient computer programs.",
+                "image": "https://example.com/computer_programmer_image.jpg"
+            },
+            {
+                "title": "Information Security Analyst",
+                "desc": "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
+                "image": "https://example.com/information_security_analyst_image.jpg"
+            },
+            {
+                "title": "IT Consultant",
+                "desc": "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
+                "image": "https://example.com/it_consultant_image.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Graduation in any discipline with at least 50% and for reserved category minimum 45%"
+        },
+        "affiliation": {
+            "affiliated_to": "Any recognized university",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Practical Oriented Curriculum: Emphasis on hands-on learning and real-world projects.",
+            "Industry-Relevant Skills: Develop skills and knowledge demanded by the IT industry.",
+            "Experienced Faculty: Learn from experienced faculty members and industry experts.",
+            "Internship Opportunities: Gain practical experience through internships in reputed organizations.",
+            "Career Support: Access to career guidance and placement assistance.",
+            "Flexible Learning: Convenient class timings and online resources for flexible learning."
+        ],
+    },
+    {
+        "id": 48,
+        "course_name": "Computer Applications",
+        "header": {
+            "title": "Bachelor of Science in Information Technology",
+            "subtitle": "BUILDING THE FUTURE OF IT",
+            "background_image": "@/assets/Programs/bsc_it_backdrop.jpg"
+        },
+        "program_name": "B.Sc Information Technology",
+        "program_description": "B.Sc. IT (Bachelor of Science in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+        "fees": "20,000 INR per semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Software Development",
+            "Database Management",
+            "Network Administration",
+            "Cybersecurity",
+            "Web Development"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Software Developer",
+                "desc": "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
+                "image": "https://example.com/software_developer_image.jpg"
+            },
+            {
+                "title": "Database Administrator",
+                "desc": "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
+                "image": "https://example.com/database_administrator_image.jpg"
+            },
+            {
+                "title": "Network Administrator",
+                "desc": "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
+                "image": "https://example.com/network_administrator_image.jpg"
+            },
+            {
+                "title": "Cybersecurity Specialist",
+                "desc": "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
+                "image": "https://example.com/cybersecurity_specialist_image.jpg"
+            },
+            {
+                "title": "Web Developer",
+                "desc": "Master the development of dynamic and interactive websites and web applications using front-end and back-end technologies.",
+                "image": "https://example.com/web_developer_image.jpg"
+            }
+        ],
+        "program_highlights": [
+            "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
+            "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
+            "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
+            "Expert Faculty: Learn from experienced faculty members and industry experts.",
+            "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
+            "Flexible Learning: Convenient class timings and online resources for flexible learning."
+        ],
+        "eligibility_criteria": {
+            "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application."
+    },
+
+
+
+
 ]
 
 export default data  
