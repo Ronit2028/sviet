@@ -22,23 +22,23 @@ const data = [
             {
                 "title": "Web Developer",
                 "desc": "Become proficient in web development technologies such as HTML, CSS, JavaScript, and various frameworks like React and Angular.",
-                "image": "https://example.com/web_developer_image.jpg"
+                "image": "../Courses/BTech/cse/web.jpg"
             },
             {
                 "title": "Network Engineer",
                 "desc": "Learn about network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
-                "image": "https://example.com/network_engineer_image.jpg"
+                "image": "../Courses/BTech/cse/network.jpg"
             },
             {
                 "title": "Database Administrator",
                 "desc": "There are many career options for B.Tech CSE graduates as database administrators. Some of the most popular ones include working in IT companies, banks, other financial institutions, government organizations, and even in the healthcare sector.",
-                "image": "@/assets/Courses/BTech/database.jpg"
+                "image": "../Courses/BTech/cse/data.jpg"
 
             },
             {
                 "title": "System Administrator",
                 "desc": "Along with your academics in B. Tech CSE, you can also build a great career as a system administrator. It can be a very rewarding job, and a demanding one too.",
-                "image": "https://example.com/network_engineer_image.jpg"
+                "image": "../Courses/BTech/cse/system.jpg"
 
             }
         ],
@@ -102,23 +102,23 @@ const data = [
             {
                 "title": "Power Systems Engineer",
                 "desc": "Specialize in designing, analyzing, and managing power generation, transmission, and distribution systems.",
-                "image": "@/assets/Programs/backdrop.jpg"
+                "image": "../Courses/BTech/ee/power.jpg"
             },
             {
                 "title": "Electronics Engineer",
                 "desc": "Become proficient in designing and troubleshooting electronic circuits and devices.",
-                "image": "https://example.com/electronics_engineer_image.jpg"
+                "image": "../Courses/BTech/ee/electronics.jpg"
             },
             {
-                "title": "Power Systems Engineer",
-                "desc": "Specialize in designing, analyzing, and managing power generation, transmission, and distribution systems.",
-                "image": "https://example.com/power_systems_engineer_image.jpg"
-            },
-            {
-                "title": "Electronics Engineer",
-                "desc": "Become proficient in designing and troubleshooting electronic circuits and devices.",
-                "image": "https://example.com/electronics_engineer_image.jpg"
-            }
+                "title": "Project Manager",
+                "desc": "With experience and additional management skills, B.Tech EE graduates can take up project management roles. They oversee and coordinate engineering projects, manage teams, budgets, and timelines to ensure successful project completion.",
+                "image": "../Courses/BTech/ee/project.jpg"
+              },
+              {
+                "title": "Consulting Engineer",
+                "desc": "Consulting engineers provide expert advice and solutions to clients on various electrical engineering projects. They work on a wide range of projects, including infrastructure development, energy management, and system optimization.",
+                "image": "../Courses/BTech/ee/conslt.png"
+              }
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
@@ -180,23 +180,23 @@ const data = [
             {
                 "title": "Mechanical Engineer",
                 "desc": "Develop expertise in designing, analyzing, and manufacturing mechanical systems and components.",
-                "image": "https://example.com/mechanical_engineer_image.jpg"
+                "image": "../Courses/BTech/me/mec.png"
             },
             {
                 "title": "Product Design Engineer",
                 "desc": "Specialize in creating innovative and functional designs for mechanical products and systems.",
-                "image": "https://example.com/product_design_engineer_image.jpg"
+                "image": "../Courses/BTech/me/prd.png"
             },
             {
-                "title": "Mechanical Engineer",
-                "desc": "Develop expertise in designing, analyzing, and manufacturing mechanical systems and components.",
-                "image": "https://example.com/mechanical_engineer_image.jpg"
-            },
+                "title": "Manufacturing Engineer",
+                "desc": "Focus on optimizing production processes, reducing costs, and ensuring product quality in various industries.",
+                "image": "../Courses/BTech/me/image.png"
+              },
             {
-                "title": "Product Design Engineer",
-                "desc": "Specialize in creating innovative and functional designs for mechanical products and systems.",
-                "image": "https://example.com/product_design_engineer_image.jpg"
-            }
+                "title": "Quality Engineer",
+                "desc": "Maintain product quality and adherence to standards through the development and implementation of quality control processes and inspections.",
+                "image": "../Courses/BTech/me/quality.png"
+              }
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
