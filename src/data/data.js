@@ -28,6 +28,18 @@ const data = [
                 "title": "Network Engineer",
                 "desc": "Learn about network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
                 "image": "https://example.com/network_engineer_image.jpg"
+            },
+            {
+                "title": "Database Administrator",
+                "desc": "There are many career options for B.Tech CSE graduates as database administrators. Some of the most popular ones include working in IT companies, banks, other financial institutions, government organizations, and even in the healthcare sector.",
+                "image": "https://example.com/network_engineer_image.jpg"
+
+            },
+            {
+                "title": "System Administrator",
+                "desc": "Along with your academics in B. Tech CSE, you can also build a great career as a system administrator. It can be a very rewarding job, and a demanding one too.",
+                "image": "https://example.com/network_engineer_image.jpg"
+
             }
         ],
         "eligibility_criteria": {
