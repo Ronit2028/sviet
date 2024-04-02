@@ -16,12 +16,12 @@ const Overview = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/M5nNS8EQ9OA?si=7d-ZCNhwV_XdgAx_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/0Uj5juV2Ik0?si=bfyzejRiGcCLnwWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen
                             className='rounded-md shadow-md'
                         ></iframe>
                     </div>
                     <div>
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/M5nNS8EQ9OA?si=7d-ZCNhwV_XdgAx_" title="YouTube video player" frameborder="0"
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/9Nb9t09ea0w?si=kos-JSWKk-xke59b" title="YouTube video player" frameborder="0"
                             className='rounded-md shadow-md' allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>

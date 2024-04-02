@@ -7,8 +7,8 @@ import img2 from "@/assets/CampusLife/audi.JPG"
 import "slick-carousel/slick/slick.css";
 import Slider from "react-slick";
 import ImageGrid from "@/components/CampusLife/ImageGrid"
-import Data from "@/assets/CampusLife/filterResponse"
-import Card from "@/components/CampusLife/Card"
+// import Data from "@/assets/CampusLife/filterResponse"
+// import Card from "@/components/CampusLife/Card"
 import FilterCard from "@/components/CampusLife/FiterCard"
 import "slick-carousel/slick/slick-theme.css";
 const page = () => {
@@ -218,10 +218,10 @@ const page = () => {
             <div className="rounded-md shadow-md w-[100%] h-[300px] border-[1px] border-slate-300"></div>
             <div className="rounded-md shadow-md w-[100%] h-[300px] border-[1px] border-slate-300"></div>
             <div className="rounded-md shadow-md w-[100%] h-[300px] border-[1px] border-slate-300"></div> */}
-           <FilterCard/>
+           {/* <FilterCard/> */}
             </div>
             <div>
-              <ImageGrid/>
+              {/* <ImageGrid/> */}
             </div>
         </div>
       </div>
