@@ -79,7 +79,6 @@ const VisionMission = () => {
                     <div className='flex justify-end gap-2'>
                         <button className='bg-[#fea700] h-7 w-7 rounded-md'><i className='fa fa-arrow-left'></i></button>
                         <button className='bg-[#fea700] h-7 w-7 rounded-md'><i className='fa fa-arrow-right'></i></button>
-
                     </div>
                 </div>
             </div>
