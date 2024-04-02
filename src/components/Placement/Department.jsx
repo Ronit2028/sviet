@@ -1,5 +1,5 @@
 import React from 'react'
-
+import sir from '@/assets/Programs/sir.jpg'
 const Department = () => {
     return (
         <div className='py-12 w-10/12 mx-auto'>
@@ -14,7 +14,7 @@ const Department = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>
-                        <img src="https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg" alt="" srcset="" width={"100%"} className='rounded-md shadow-md' />
+                        <img src={sir.src} alt="" srcset="" className='rounded-md shadow-md object-cover ' />
                     </div>
 
                 </div>
