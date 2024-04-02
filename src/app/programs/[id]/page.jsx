@@ -42,12 +42,12 @@ const Page = ({ params }) => {
         eligibilityCriteria={eligibility_criteria}
       />
       <Eligibility
-  eligibilityCriteria={courseData.eligibility_criteria.eligibility}
-  affiliation={courseData.affiliation}
-  modeOfAdmission={courseData.mode_of_admission}
-  programOutcomes={program_outcomes}
-/>
-<Highlights programHighlights={program_highlights} />
+        eligibilityCriteria={courseData.eligibility_criteria.eligibility}
+        affiliation={courseData.affiliation}
+        modeOfAdmission={courseData.mode_of_admission}
+        programOutcomes={program_outcomes}
+      />
+      <Highlights programHighlights={program_highlights} />
       <Labs />
       <PlacementOverview />
       <Events />

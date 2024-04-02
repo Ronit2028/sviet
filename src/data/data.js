@@ -32,7 +32,7 @@ const data = [
             {
                 "title": "Database Administrator",
                 "desc": "There are many career options for B.Tech CSE graduates as database administrators. Some of the most popular ones include working in IT companies, banks, other financial institutions, government organizations, and even in the healthcare sector.",
-                "image": "https://example.com/network_engineer_image.jpg"
+                "image": "@/assets/Courses/BTech/database.jpg"
 
             },
             {
@@ -102,7 +102,7 @@ const data = [
             {
                 "title": "Power Systems Engineer",
                 "desc": "Specialize in designing, analyzing, and managing power generation, transmission, and distribution systems.",
-                "image": "https://example.com/power_systems_engineer_image.jpg"
+                "image": "@/assets/Programs/backdrop.jpg"
             },
             {
                 "title": "Electronics Engineer",
@@ -1783,6 +1783,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on learning through laboratory experiments.",
+            "Advanced research opportunities in biochemistry.",
+            "Clinical exposure in top medical institutions.",
+            "Internship in renowned diagnostic centers.",
+            "Professional development workshops."
+        ],
         "labs": []
     },
     {
@@ -1830,6 +1838,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on training in anesthesia techniques.",
+            "Simulation exercises for emergency scenarios.",
+            "Clinical rotations in leading hospitals.",
+            "Internship in operation theatre management.",
+            "Workshops on patient safety and care."
+        ],
         "labs": []
     },
     {
@@ -1872,6 +1888,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Practical training in radiographic techniques.",
+            "Hands-on experience with imaging equipment.",
+            "Clinical rotations in radiology departments.",
+            "Internship in diagnostic imaging centers.",
+            "Workshops on radiation safety and protection."
+        ],
         "labs": []
     },
     {
@@ -1914,6 +1938,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on training in operation theatre management.",
+            "Simulation exercises for emergency scenarios.",
+            "Clinical rotations in top hospitals.",
+            "Internship in operation theatre settings.",
+            "Workshops on healthcare ethics and regulations."
+        ],
         "labs": []
     },
     {
@@ -1963,6 +1995,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Practical training in vision examination techniques.",
+            "Clinical rotations in eye clinics.",
+            "Internship in ophthalmology departments.",
+            "Workshops on advanced vision diagnostics.",
+            "Hands-on experience with ophthalmic equipment."
+        ],
         "labs": []
     },
     {
@@ -2000,6 +2040,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on training in anesthesia administration.",
+            "Simulation exercises for emergency anesthesia scenarios.",
+            "Clinical rotations in operation theatres.",
+            "Internship in anesthesia departments.",
+            "Workshops on patient monitoring techniques."
+        ],
         "labs": []
     },
     {
@@ -2043,6 +2091,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Extensive hands-on training in laboratory techniques.",
+            "Practical experience in real healthcare settings.",
+            "Advanced research opportunities in medical laboratories.",
+            "Internship placements in leading hospitals and diagnostic centers.",
+            "Specialized workshops on emerging trends in laboratory science."
+        ],
         "labs": []
     },
     {
@@ -2098,6 +2154,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on training with state-of-the-art laboratory equipment.",
+            "Practical experience in various clinical settings.",
+            "Industry-relevant curriculum designed by experts.",
+            "Internship opportunities in leading healthcare institutions.",
+            "Career guidance and placement support services."
+        ],
         "labs": []
     },
     {
@@ -2144,6 +2208,14 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Comprehensive training in cardiac diagnostic procedures.",
+            "Hands-on experience with advanced cardiac technology.",
+            "Clinical rotations in specialized cardiac care units.",
+            "Internship opportunities in leading cardiology departments.",
+            "Career development workshops and seminars."
+        ],
         "labs": []
     },
     {
@@ -2190,6 +2262,13 @@ const data = [
             "affiliated_to": "Swami Vivekanand Paramedical College",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Comprehensive curriculum covering anatomy, physiology, biomechanics, and exercise therapy",
+            "Clinical experience through internships and practical training",
+            "Specialization tracks in orthopedic, sports, neurological, and stroke rehabilitation",
+            "Prepares graduates for careers in hospitals, private clinics, sports organizations, and research institutions"
+        ],
         "labs": []
     },
     {
@@ -2236,6 +2315,13 @@ const data = [
             "affiliated_to": "Swami Vivekanand College of Law",
             "approved_by": "Punjabi University, Patiala"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Comprehensive understanding of legal theories and principles",
+            "Practical training through moot court competitions, parliamentary debates, and legal aid clinics",
+            "Preparation for careers as corporate lawyers, legal advisors, and cyber law specialists",
+            "Faculty led by highly trained legal experts"
+        ],
         "labs": []
     },
     {
@@ -2286,6 +2372,13 @@ const data = [
             "affiliated_to": "Swami Vivekanand College of Law",
             "approved_by": "Punjabi University, Patiala"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Five-year integrated program combining arts and law education",
+            "Exposure to arts subjects such as Political Science, Economics, and International Relations",
+            "Preparation for legal careers with comprehensive understanding of legal theories and practical training",
+            "Faculty led by highly trained legal experts"
+        ],
         "labs": []
     },
     {
@@ -2330,6 +2423,13 @@ const data = [
             "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Wide range of courses covering various branches of chemistry",
+            "Opportunity to participate in extensive seminar programs and projects",
+            "Expert faculty from Pure and Applied Chemistry domain",
+            "Development of problem-solving skills through practical experience"
+        ],
         "labs": []
     },
     {
@@ -2374,6 +2474,14 @@ const data = [
             "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Comprehensive study of various branches of mathematics",
+            "Guidance from expert faculty in advanced topics",
+            "Engagement in research projects and seminars",
+            "Development of problem-solving skills through practical applications"
+        ]
+        ,
         "labs": []
     },
     {
@@ -2419,6 +2527,13 @@ const data = [
             "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Preparation for research careers in academia or industry",
+            "Emphasis on theoretical understanding and experimental proficiency",
+            "Engagement in advanced topics and techniques",
+            "Development of research skills for academic and industrial pursuits"
+        ],
         "labs": []
     },
     {
@@ -2468,6 +2583,13 @@ const data = [
             "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Specialized study of computer applications and services",
+            "Emphasis on technological implementation of computer systems",
+            "Opportunities for research and practical applications",
+            "Development of problem-solving and analysis skills"
+        ],
         "labs": []
     }
 ]
