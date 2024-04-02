@@ -2,6 +2,13 @@
 
 import React from "react";
 import category from "@/assets/admissions/category.jpg";
+import merit from "@/assets/admissions/meritscholarship.png";
+import defence from "@/assets/admissions/indian-flag1.jpg";
+import sport from "@/assets/admissions/Sports-Scholarship-in-India-2022-23-min.jpg";
+import weak from "@/assets/admissions/weak.jpg";
+import single from "@/assets/admissions/single.jpg";
+import defencePerson from "@/assets/admissions/dee.jpg";
+import state from "@/assets/admissions/national-scholarships-portal.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -39,49 +46,49 @@ const Scholarship = () => {
       type: "Academic merit based scholarship",
       eligibility_criteria: "10+2 pass with min. 50% marks",
       selection_process: "Entrance Exam followed by Personal Interview",
-      image: category
+      image: merit
     },
     {
       type: "Sports scholarship",
       eligibility_criteria: "10+2 pass with min. 50% marks",
       selection_process: "Entrance Exam followed by Personal Interview",
-      image: category
+      image: sport
     },
     {
       type: "Defence scholarship",
       eligibility_criteria: "10+2 pass with min. 50% marks",
       selection_process: "Entrance Exam followed by Personal Interview",
-      image: category
+      image: defence
     },
     {
       type: "Economically Weaker Section Scholarship",
       eligibility_criteria: "10+2 pass with min. 60% marks, family income less than INR 6LPA",
       selection_process: "Personal Interview",
-      image: category
+      image: weak
     },
     {
       type: "Represented at State Level Scholarship",
       eligibility_criteria: "10+2 pass with min. 50% marks, represented at state level",
       selection_process: "Personal Interview",
-      image: category
+      image: state
     },
     {
       type: "Child of Defence Personnel Scholarship",
       eligibility_criteria: "10+2 pass with min. 60% marks",
       selection_process: "Personal Interview",
-      image: category
+      image: defencePerson
     },
     {
       type: "Defence scholarship",
       eligibility_criteria: "10+2 pass with min. 60% marks, child of Defence Personnel",
       selection_process: "Personal Interview",
-      image: category
+      image: defence
     },
     {
       type: "Single Girl Child Scholarship",
       eligibility_criteria: "10+2 pass with min. 60% marks, child of Defence Personnel, Single Girl Child Certificate",
       selection_process: "Personal Interview",
-      image: category
+      image: single
     }
   ];
   return (

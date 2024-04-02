@@ -64,7 +64,7 @@ const SVIETAdmissionGuidelines = () => {
                         {academicProfileOpen && (
                             <div className="pl-4">
                                 <p>- Provide marks obtained in the qualifying examination & last attended school.</p>
-                                <p>- Upload marks of the qualifying national entrance tests / Maharashtra CET / MIT-WPU CET along with documents within 15 days of the results being announced. Candidates who fail to do so will not be considered for admissions.</p>
+                                <p>- Upload marks of the qualifying national entrance tests / SVIET-EEE / SVGOI EEE along with documents within 15 days of the results being announced. Candidates who fail to do so will not be considered for admissions.</p>
                             </div>
                         )}
                     </div>
@@ -79,7 +79,7 @@ const SVIETAdmissionGuidelines = () => {
                         </button>
                         {uploadDocumentsOpen && (
                             <div className="pl-4">
-                                <p>- Candidates must upload scanned copies of the required documents in the MIT-WPU admission portal.</p>
+                                <p>- Candidates must upload scanned copies of the required documents in the Sviet.ac.in admission portal.</p>
                             </div>
                         )}
                     </div>

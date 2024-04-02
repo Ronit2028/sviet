@@ -14,17 +14,17 @@ const Courses = () => {
     const collegeInformation = [
         {
             category: "Undergraduate Programs",
-            img: "https://sviet.ac.in/wp-content/uploads/2021/05/2ss-700x400.png",
+            img: "https://sviet.ac.in/wp-content/uploads/2022/07/fsfssfsf.jpg",
             // description: "Students leading the search for knowledge with highly equipped research facilities at the campus. More than 100 research articles published at national and international stages."
         },
         {
             category: "Postgraduate Programs",
-            img: "https://sviet.ac.in/wp-content/uploads/2021/05/5s-700x400.png",
+            img: "https://www.nimrindia.com/images/courses/postgraduate-program.jpg",
             // description: "Investigate and respond to authentic & complex challenges and go beyond learning with project-based learning while experiencing enriching experiences."
         },
         {
             category: "Diploma Programs",
-            img: "https://sviet.ac.in/wp-content/uploads/2021/05/6s-700x400.png",
+            img: "https://www.simplilearn.com/ice9/free_resources_article_thumb/The_Ultimate_Guide_To_Diploma_Courses.jpg",
             // description: "Compete and achieve excellence with passion under the excellent sporting environment. More than 30 sports tournament participations happening over the Year."
         },
     ];

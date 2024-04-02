@@ -5,18 +5,19 @@ import { ChevronRightIcon } from '@heroicons/react/24/solid';
 import { Card, CardBody, Typography, Avatar } from "@material-tailwind/react";
 const ApplicationProcess = () => {
   const steps = [
-    "Apply online on admissions.mitwpu.edu.in and submit registration form",
-    "Receive Login ID and Password (Auto redirect to Student Dashboard)",
-    "Fill Application Form (Pay application form Fees - Rs.1500)",
-    "Receive entrance test link for MIT-WPU CET (Date will reflect on Student Dashboard / Website)",
-    "Appear for entrance test",
-    "Check Merit List (Dates/Results notified on Dashboard)",
-    "Receive Provisional Offer Letter upon successful selection Number",
-    "Complete fee payment (1st Instalment)",
-    "Verification (Payment/Personal/Education/Documents)",
-    "Receive Final Offer Letter and Offer Guide with student PRN number",
-    "Submit original documents",
-    "Welcome to MIT-WPU!"
+    "Visit sviet.ac.in and complete the online application form for admission.",
+    "Upon submission, you will receive a confirmation email containing your unique Application ID.",
+    "Prepare for and appear in the SVIET-EEE (Entrance Exam Eligibility Test-cum-Scholarship Exam)",
+    "Check the SVIET website or your email for the announcement of SVIET-EEE results and your name on the merit list",
+    " Shortlisted candidates will undergo an English language proficiency test.",
+    "Participate in group discussions or personal interviews to assess interpersonal skills and subject knowledge.",
+    " Depending on the course, additional tests may be conducted to assess specific skills.",
+    "Carry all original mark sheets and essential credentials for verification",
+    "Upon successful completion of tests and interviews, receive a provisional offer letter from SVIET.",
+    "Complete the fee payment as per instructions in the offer letter.",
+    "Receive the final offer letter along with a unique Student PRN.",
+    "Submit all original documents as per the requirements mentioned in the offer letter.",
+    "Welcome to SVIET! to begin your academic journey."
   ];
 
   return (

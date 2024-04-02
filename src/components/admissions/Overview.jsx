@@ -19,7 +19,7 @@ const Overview = () => {
             </div>
             <div className="w-full ">
                 <div className="event-card rounded-md shadow-md">
-                    <div className="image-section h-[30vh]" style={{ backgroundImage: `url(https://sviet.ac.in/wp-content/uploads/2023/06/IMG_0201-1024x683.jpg)`, backgroundSize: "cover", backgroundPosition: "center bottom", backgroundRepeat: "no-repeat" }}>
+                    <div className="image-section h-[30vh]" style={{ backgroundImage: `url(https://sviet.ac.in/wp-content/uploads/2022/03/tseg.jpg)`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat" }}>
 
                     </div>
                     <div className="text-section p-6">
