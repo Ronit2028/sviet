@@ -8,11 +8,11 @@ const Footer = () => {
                     {/* Logo and Address section */}
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-8 md:mb-0 pr-10 border-r border-gray-400">
                         <div className="logo mt-4">
-                            <img src="https://sviet.org.in/wp-content/uploads/2023/04/SVIET-Logo-Dark.png" alt="" className='pb-5 border-b-[0.5px] mb-5' />
+                            <img src="https://sviet.org.in/wp-content/uploads/2023/04/SVIET-Logo-Dark.png" alt="" className='pb-5 border-b-[0.5px] text-sm mb-5' />
                         </div>
                         <div className="address">
                             <div className="locate mb-4 text-sm font-extralight">- LOCATE US</div>
-                            {/* <div className="uni-name text-lg mt-5 mb-4">Swami Vivekanand Institute of Engineering and Technology</div> */}
+                            <div className="uni-name text-lg mt-5 mb-4">Swami Vivekanand Institute of Engineering and Technology</div>
                             <div className="uni-address text-sm font-light mb-2">Village- Ramnagar Near Banur, Tehsil- Rajpura, District- Patiala</div>
                         </div>
                         <div className="uni-contact ext-sm font-light mb-2">
@@ -25,7 +25,7 @@ const Footer = () => {
                             <p>tpo@sviet.ac.in</p>
                             <p>hr@sviet.ac.in</p>
                         </div>
-                       
+
                     </div>
                     {/* Admissions section */}
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-8 md:mt-2 p-6 border-r border-gray-400">
@@ -36,7 +36,7 @@ const Footer = () => {
                             <li><a href="#">SVGOI in your town</a></li>
                             <li><a href="#">E-Brochure</a></li>
                             <li><a href="#">How to Apply</a></li>
-                            <li><a href="#">SVIET – ITI</a></li>
+                            <li><a href="#">SVIET - ITI</a></li>
                             <li><a href="#">Ideathon</a></li>
                             <li><a href="#">Techathon</a></li>
                         </ul>
@@ -62,7 +62,7 @@ const Footer = () => {
                         <ul className="leading-loose text-sm font-light">
                             <li><a href="#">NCC Registration</a></li>
                             <li><a href="#">SVGOI Advantages</a></li>
-                            <li><a href="#">Contact–us</a></li>
+                            <li><a href="#">Contact-us</a></li>
                             <li><a href="#">Scholarship</a></li>
                             <li><a href="#">Refund Policy</a></li>
                             <li><a href="#">ERP APP</a></li>
