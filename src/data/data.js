@@ -258,23 +258,23 @@ const data = [
             {
                 "title": "Civil Engineer",
                 "desc": "Acquire skills to design and oversee the construction of infrastructure projects such as buildings, roads, and bridges.",
-                "image": "https://example.com/civil_engineer_image.jpg"
+                "image": "../Courses/BTech/civil/civil.png"
             },
             {
                 "title": "Construction Manager",
                 "desc": "Learn to plan, budget, and supervise construction projects from inception to completion.",
-                "image": "https://example.com/construction_manager_image.jpg"
+                "image": "../Courses/BTech/civil/construction.png"
             },
             {
-                "title": "Civil Engineer",
-                "desc": "Acquire skills to design and oversee the construction of infrastructure projects such as buildings, roads, and bridges.",
-                "image": "https://example.com/civil_engineer_image.jpg"
-            },
-            {
-                "title": "Construction Manager",
-                "desc": "Learn to plan, budget, and supervise construction projects from inception to completion.",
-                "image": "https://example.com/construction_manager_image.jpg"
-            }
+                "title": "Transportation Engineer",
+                "desc": "Plan, design, and operate transportation systems, optimizing traffic flow, improving safety, and enhancing transportation infrastructure.",
+                "image": "../Courses/BTech/civil/transport.png"
+              },
+              {
+                "title": "Environmental Engineer",
+                "desc": "Work on projects related to environmental sustainability, pollution control, and resource management, designing and implementing solutions to mitigate environmental impact.",
+                "image": "../Courses/BTech/civil/environment.png"
+              },
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
@@ -339,23 +339,23 @@ const data = [
             {
                 "title": "Electronics Engineer",
                 "desc": "Specialize in the design, development, and maintenance of electronic systems and devices.",
-                "image": "https://example.com/electronics_engineer_image.jpg"
+                "image": "../Courses/BTech/ece/electronic.jpg"
             },
             {
                 "title": "Communication Systems Engineer",
                 "desc": "Acquire expertise in designing and optimizing communication networks and systems.",
-                "image": "https://example.com/communication_systems_engineer_image.jpg"
+                "image": "../Courses/BTech/ece/Communication.jpg"
             },
             {
-                "title": "Electronics Engineer",
-                "desc": "Specialize in the design, development, and maintenance of electronic systems and devices.",
-                "image": "https://example.com/electronics_engineer_image.jpg"
-            },
-            {
-                "title": "Communication Systems Engineer",
-                "desc": "Acquire expertise in designing and optimizing communication networks and systems.",
-                "image": "https://example.com/communication_systems_engineer_image.jpg"
-            }
+                "title": "Embedded Systems Engineer",
+                "desc": "Design and develop embedded systems, computer systems integrated into other devices or products like medical devices, automobiles, and industrial equipment.",
+                "image": "../Courses/BTech/ece/Embe.jpg"
+              },
+              {
+                "title": "Signal Processing Engineer",
+                "desc": "Analyze and manipulate digital signals to extract relevant information, commonly used in fields such as telecommunications, audio/video processing, and image processing.",
+                "image": "../Courses/BTech/ece/signal.jpg"
+              }
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
@@ -650,22 +650,22 @@ const data = [
             {
                 "title": "Network Administrator",
                 "desc": "Develop skills to manage and maintain computer networks and ensure their smooth operation.",
-                "image": "https://example.com/network_administrator_image.jpg"
+                "image": "../Courses/diploma/cse/netwok.jpg"
             },
             {
                 "title": "Database Administrator",
                 "desc": "Master techniques for designing, implementing, and managing databases to ensure data integrity and availability.",
-                "image": "https://example.com/database_administrator_image.jpg"
+                "image": "../Courses/diploma/cse/database.jpg"
             },
             {
                 "title": "System Analyst",
                 "desc": "Learn to analyze and design computer systems to meet the needs of organizations and improve efficiency.",
-                "image": "https://example.com/system_analyst_image.jpg"
+                "image": "../Courses/diploma/cse/system.jpg"
             },
             {
                 "title": "Software Developer",
                 "desc": "Acquire programming skills to design, develop, and maintain software applications for various platforms and purposes.",
-                "image": "https://example.com/software_developer_image.jpg"
+                "image": "../Courses/diploma/cse/Software.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -725,22 +725,22 @@ const data = [
             {
                 "title": "Electrical Engineer",
                 "desc": "Master the skills to design and analyze electrical circuits, systems, and devices.",
-                "image": "https://example.com/electrical_engineer_image.jpg"
+                "image": "../Courses/diploma/ee/elect.jpg"
             },
             {
                 "title": "Power Systems Engineer",
                 "desc": "Specialize in the generation, transmission, and distribution of electrical power.",
-                "image": "https://example.com/power_systems_engineer_image.jpg"
+                "image": "../Courses/diploma/ee/power.jpg"
             },
             {
                 "title": "Control Systems Engineer",
                 "desc": "Develop expertise in designing and implementing control systems for various applications.",
-                "image": "https://example.com/control_systems_engineer_image.jpg"
+                "image": "../Courses/diploma/ee/control.jpg"
             },
             {
                 "title": "Electronics Engineer",
                 "desc": "Learn to design and analyze electronic circuits and systems.",
-                "image": "https://example.com/electronics_engineer_image.jpg"
+                "image": "../Courses/diploma/ee/electro.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -799,17 +799,17 @@ const data = [
             {
                 "title": "Mechanical Technician",
                 "desc": "Develop skills to assist in the design, analysis, and maintenance of mechanical systems.",
-                "image": "https://example.com/mechanical_technician_image.jpg"
+                "image": "../Courses/diploma/me/mechanical.jpg"
             },
             {
                 "title": "Design Assistant",
                 "desc": "Learn to support mechanical engineers in designing and developing mechanical components and systems.",
-                "image": "https://example.com/design_assistant_image.jpg"
+                "image": "../Courses/diploma/me/design.jpg"
             },
             {
                 "title": "Quality Control Inspector",
                 "desc": "Master techniques to inspect and ensure the quality and performance of mechanical products.",
-                "image": "https://example.com/quality_control_inspector_image.jpg"
+                "image": "../Courses/diploma/me/quality.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -868,17 +868,17 @@ const data = [
             {
                 "title": "Civil Engineering Technician",
                 "desc": "Develop skills to assist in the planning, design, and construction of civil engineering projects.",
-                "image": "https://example.com/civil_engineering_technician_image.jpg"
+                "image": "../Courses/diploma/civil/civil.jpg"
             },
             {
                 "title": "Surveying Assistant",
                 "desc": "Learn to conduct surveys and collect data for civil engineering projects.",
-                "image": "https://example.com/surveying_assistant_image.jpg"
+                "image": "../Courses/diploma/civil/survey.jpg"
             },
             {
                 "title": "Construction Supervisor",
                 "desc": "Master techniques to supervise and manage construction activities on civil engineering sites.",
-                "image": "https://example.com/construction_supervisor_image.jpg"
+                "image": "../Courses/diploma/civil/construction.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -935,22 +935,22 @@ const data = [
             {
                 "title": "R&D Scientist",
                 "desc": "Conduct research and development activities in pharmaceuticals.",
-                "image": "https://example.com/r&d_scientist_image.jpg"
+                "image": "../Courses/pharmacy/pharm/rd.jpg"
             },
             {
                 "title": "Drug Inspector",
                 "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
-                "image": "https://example.com/drug_inspector_image.jpg"
+                "image": "../Courses/pharmacy/pharm/drug.jpg"
             },
             {
                 "title": "Quality Assurance",
                 "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
-                "image": "https://example.com/quality_assurance_image.jpg"
+                "image": "../Courses/pharmacy/pharm/qua.jpg"
             },
             {
                 "title": "Pharmacist",
                 "desc": "Dispense medications and provide patient education on drug usage and side effects.",
-                "image": "https://example.com/pharmacist_image.jpg"
+                "image": "../Courses/pharmacy/pharm/pharma.jpg"
             }
         ],
         "labs": [
@@ -1013,22 +1013,22 @@ const data = [
             {
                 "title": "Pharmaceutical Research Professional",
                 "desc": "Conduct research and development in the field of pharmaceutics.",
-                "image": "https://example.com/pharmaceutical_research_professional_image.jpg"
+                "image": "../Courses/pharmacy/Mpharma/research.jpg"
             },
             {
                 "title": "Technology Analyst",
                 "desc": "Analyze and implement new technologies in pharmaceutical manufacturing.",
-                "image": "https://example.com/technology_analyst_image.jpg"
+                "image": "../Courses/pharmacy/Mpharma/tech.jpg"
             },
             {
                 "title": "Pharma Corporate Executive & Entrepreneur",
                 "desc": "Lead pharmaceutical companies or start own ventures in the pharmaceutical industry.",
-                "image": "https://example.com/pharma_corporate_executive_entrepreneur_image.jpg"
+                "image": "../Courses/pharmacy/Mpharma/corporate.jpg"
             },
             {
                 "title": "Clinical Pharmacist",
                 "desc": "Provide pharmaceutical care to patients in clinical settings.",
-                "image": "https://example.com/clinical_pharmacist_image.jpg"
+                "image": "../Courses/pharmacy/Mpharma/clinical.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -1091,22 +1091,22 @@ const data = [
             {
                 "title": "Pharmacy Technician",
                 "desc": "Assist pharmacists in dispensing medications and managing pharmacy operations.",
-                "image": "https://example.com/pharmacy_technician_image.jpg"
+                "image": "../Courses/pharmacy/diploma/technician.jpg"
             },
             {
                 "title": "Drug Store Manager",
                 "desc": "Oversee the day-to-day operations of a pharmacy, including inventory management and customer service.",
-                "image": "https://example.com/drug_store_manager_image.jpg"
+                "image": "../Courses/pharmacy/diploma/store.jpg"
             },
             {
                 "title": "Hospital Pharmacist",
                 "desc": "Provide pharmaceutical care to patients in hospital settings, including dispensing medications and monitoring drug therapy.",
-                "image": "https://example.com/hospital_pharmacist_image.jpg"
+                "image": "../Courses/pharmacy/diploma/hospital.jpg"
             },
             {
                 "title": "Retail/Wholesale Pharmacist",
                 "desc": "Manage retail or wholesale pharmacy operations, including dispensing medications and counseling patients.",
-                "image": "https://example.com/retail_wholesale_pharmacist_image.jpg"
+                "image": "../Courses/pharmacy/diploma/retail.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -1169,22 +1169,22 @@ const data = [
             {
                 "title": "Drug Inspector",
                 "desc": "Ensure compliance with pharmaceutical regulations and standards to protect public health.",
-                "image": "https://example.com/drug_inspector_image.jpg"
+                "image": "../Courses/pharmacy/pharmD/inspector.jpg"
             },
             {
                 "title": "Academicians",
                 "desc": "Contribute to the academic field by teaching and conducting research in pharmacy.",
-                "image": "https://example.com/academicians_image.jpg"
+                "image": "../Courses/pharmacy/pharmD/academic.jpg"
             },
             {
                 "title": "Retail Pharmacist",
                 "desc": "Dispense medications and provide pharmaceutical care to patients in retail settings.",
-                "image": "https://example.com/retail_pharmacist_image.jpg"
+                "image": "../Courses/pharmacy/pharmD/retails.jpg"
             },
             {
                 "title": "Medical Writer",
                 "desc": "Communicate scientific and medical information through writing for various audiences.",
-                "image": "https://example.com/medical_writer_image.jpg"
+                "image": "../Courses/pharmacy/pharmD/writer.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -1249,22 +1249,22 @@ const data = [
             {
                 "title": "Hotel Manager",
                 "desc": "Manage the operations and staff of hotels and other lodging establishments.",
-                "image": "https://example.com/hotel_manager_image.jpg"
+                "image": "../Courses/HM/catering/manager.jpg"
             },
             {
                 "title": "Chef",
                 "desc": "Plan menus, prepare and cook food, and oversee kitchen operations in restaurants and hotels.",
-                "image": "https://example.com/chef_image.jpg"
+                "image": "../Courses/HM/catering/chef.jpg"
             },
             {
                 "title": "Food and Beverage Manager",
                 "desc": "Manage the food and beverage service in hotels, restaurants, and other hospitality establishments.",
-                "image": "https://example.com/food_and_beverage_manager_image.jpg"
+                "image": "../Courses/HM/catering/food.jpg"
             },
             {
                 "title": "Hospitality Consultant",
                 "desc": "Provide expert advice and guidance to hospitality businesses to improve their operations and guest experiences.",
-                "image": "https://example.com/hospitality_consultant_image.jpg"
+                "image": "../Courses/HM/catering/hospitality.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -1328,17 +1328,17 @@ const data = [
             {
                 "title": "Hospitality Manager",
                 "desc": "Develop skills to manage and oversee various operations within the hospitality industry.",
-                "image": "https://example.com/hospitality_manager_image.jpg"
+                "image": "../Courses/HM/mhmct/man.jpg"
             },
             {
                 "title": "Event Planner",
                 "desc": "Learn to plan and execute events, conferences, and functions within the hospitality sector.",
-                "image": "https://example.com/event_planner_image.jpg"
+                "image": "../Courses/HM/mhmct/event.jpg"
             },
             {
                 "title": "Food and Beverage Manager",
                 "desc": "Master the management of food and beverage operations in hotels, restaurants, and other hospitality establishments.",
-                "image": "https://example.com/food_beverage_manager_image.jpg"
+                "image": "../Courses/HM/mhmct/food.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -1398,17 +1398,17 @@ const data = [
             {
                 "title": "Hospitality Manager",
                 "desc": "Acquire skills to manage various aspects of hospitality operations including front desk, housekeeping, food and beverage, and guest services.",
-                "image": "https://example.com/hospitality_manager_image.jpg"
+                "image": "../Courses/HM/BVoc/hospitality.jpg"
             },
             {
                 "title": "Event Coordinator",
                 "desc": "Learn to plan, organize, and coordinate events such as conferences, weddings, and banquets in the hospitality industry.",
-                "image": "https://example.com/event_coordinator_image.jpg"
+                "image": "../Courses/HM/BVoc/coordinator.jpg"
             },
             {
                 "title": "Entrepreneur",
                 "desc": "Develop entrepreneurial skills to start and manage your own hospitality business, such as hotels, restaurants, or catering services.",
-                "image": "https://example.com/entrepreneur_image.jpg"
+                "image": "../Courses/HM/BVoc/entrepreneur.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -1468,17 +1468,17 @@ const data = [
             {
                 "title": "Nutritionist",
                 "desc": "Develop expertise in designing and implementing nutrition plans to promote health and prevent diseases.",
-                "image": "https://example.com/nutritionist_image.jpg"
+                "image": "../Courses/HM/Bsc/nutri.jpg"
             },
             {
                 "title": "Dietician",
                 "desc": "Acquire skills to assess dietary needs, plan personalized meal programs, and provide nutritional counseling to clients.",
-                "image": "https://example.com/dietician_image.jpg"
+                "image": "../Courses/HM/Bsc/diet.jpg"
             },
             {
                 "title": "Food Consultant",
                 "desc": "Become proficient in advising individuals, families, and organizations on healthy eating habits, food safety, and nutrition regulations.",
-                "image": "https://example.com/food_consultant_image.jpg"
+                "image": "../Courses/HM/Bsc/food.jpg"
             }
         ],
 
@@ -1537,19 +1537,23 @@ const data = [
         "program_outcomes": [
             {
                 "title": "Marketing Manager",
-                "desc": "Lead marketing initiatives and strategies for organizations."
+                "desc": "Lead marketing initiatives and strategies for organizations.",
+                "image": "../Courses/Business/MBA/marketing.jpg"
             },
             {
                 "title": "Operations Manager",
-                "desc": "Oversee and manage day-to-day operations of businesses."
+                "desc": "Oversee and manage day-to-day operations of businesses.",
+                "image": "../Courses/Business/MBA/operations.jpg"
             },
             {
                 "title": "Entrepreneur",
-                "desc": "Start and manage their own business ventures."
+                "desc": "Start and manage their own business ventures.",
+                "image": "../Courses/Business/MBA/entrepreneur.jpg"
             },
             {
                 "title": "Human Resource Manager",
-                "desc": "Manage human resources and personnel within organizations."
+                "desc": "Manage human resources and personnel within organizations.",
+                "image": "../Courses/Business/MBA/human.jpg"
             }
         ],
         "affiliation": {
@@ -1593,19 +1597,23 @@ const data = [
         "program_outcomes": [
             {
                 "title": "Marketing Manager",
-                "desc": "Lead marketing initiatives and strategies for organizations."
+                "desc": "Lead marketing initiatives and strategies for organizations.",
+                "image": "../Courses/Business/MBA/marketing.jpg"
             },
             {
                 "title": "Operations Manager",
-                "desc": "Oversee and manage day-to-day operations of businesses."
+                "desc": "Oversee and manage day-to-day operations of businesses.",
+                "image": "../Courses/Business/MBA/operations.jpg"
             },
             {
                 "title": "Entrepreneur",
-                "desc": "Start and manage their own business ventures."
+                "desc": "Start and manage their own business ventures.",
+                "image": "../Courses/Business/MBA/entrepreneur.jpg"
             },
             {
                 "title": "Human Resource Manager",
-                "desc": "Manage human resources and personnel within organizations."
+                "desc": "Manage human resources and personnel within organizations.",
+                "image": "../Courses/Business/MBA/human.jpg"
             }
         ],
         "affiliation": {
@@ -1651,19 +1659,23 @@ const data = [
         "program_outcomes": [
             {
                 "title": "Marketing Manager",
-                "desc": "Lead marketing initiatives and strategies for organizations."
+                "desc": "Develop and implement marketing strategies to promote products or services and drive business growth.",
+                "image": "../Courses/Business/BBA/maN.jpg"
             },
             {
                 "title": "Operations Manager",
-                "desc": "Oversee and manage day-to-day operations of businesses."
+                "desc": "Ensure efficient operation of business processes, including production, supply chain management, and resource allocation.",
+                "image": "../Courses/Business/BBA/operation.jpg"
             },
             {
                 "title": "Entrepreneur",
-                "desc": "Start and manage their own business ventures."
+                "desc": "Initiate, organize, and manage business ventures, taking innovative ideas from conception to execution.",
+                "image": "../Courses/Business/BBA/enter.jpg"
             },
             {
                 "title": "Human Resource Manager",
-                "desc": "Manage human resources and personnel within organizations."
+                "desc": "Oversee recruitment, training, and employee relations, ensuring organizational policies and procedures are followed.",
+                "image": "../Courses/Business/MBA/human.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
