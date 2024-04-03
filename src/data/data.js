@@ -1716,19 +1716,23 @@ const data = [
         "program_outcomes": [
             {
                 "title": "Advanced Accounting Expert",
-                "desc": "Develop expertise in advanced accounting principles and practices."
+                "desc": "Develop expertise in advanced accounting principles and practices.",
+                "image": "../Courses/Business/commerce/advance.jpg"
             },
             {
                 "title": "Finance Specialist",
-                "desc": "Gain specialized knowledge in finance and financial management."
+                "desc": "Gain specialized knowledge in finance and financial management.",
+                "image": "../Courses/Business/commerce/finance.jpg"
             },
             {
                 "title": "Commerce Educator",
-                "desc": "Prepare for a career in teaching commerce subjects at educational institutions."
+                "desc": "Prepare for a career in teaching commerce subjects at educational institutions.",
+                "image": "../Courses/Business/commerce/commerec.jpg"
             },
             {
                 "title": "Corporate Professional",
-                "desc": "Explore various corporate job opportunities in accounting, finance, and related fields."
+                "desc": "Explore various corporate job opportunities in accounting, finance, and related fields.",
+                "image": "../Courses/Business/commerce/corporate.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -1769,22 +1773,22 @@ const data = [
             {
                 "title": "Clinical Scientist",
                 "desc": "Develop advanced skills in medical laboratory science and become leaders in the field as clinical scientists.",
-                "image": "https://example.com/clinical_scientist_image.jpg"
+                "image": "../Courses/paramedical/MLS/clinic.jpg"
             },
             {
                 "title": "Researcher",
                 "desc": "Conduct research in medical laboratory science and contribute to advancements in healthcare.",
-                "image": "https://example.com/researcher_image.jpg"
+                "image": "../Courses/paramedical/MLS/research.jpg"
             },
             {
                 "title": "Educator",
                 "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
-                "image": "https://example.com/educator_image.jpg"
+                "image": "../Courses/paramedical/MLS/educator.jpg"
             },
             {
-                "title": "Educator",
-                "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
-                "image": "https://example.com/educator_image.jpg"
+                "title": "Paramedical Professional",
+                "desc": "Provide essential support in medical settings, assisting healthcare professionals in patient care and emergency response.",
+                "image": "../Courses/paramedical/MLS/professional.jpg"
             }
         ],
 
@@ -1825,22 +1829,22 @@ const data = [
             {
                 "title": "Experienced Anesthesiologist",
                 "desc": "Acquire advanced skills to function effectively as an experienced anesthesiologist.",
-                "image": "https://example.com/experienced_anesthesiologist_image.jpg"
+                "image": "../Courses/paramedical/Anesthesia/experience.jpg"
             },
             {
                 "title": "Operation Theatre Expert",
                 "desc": "Master the techniques and procedures involved in operation theatre management.",
-                "image": "https://example.com/operation_theatre_expert_image.jpg"
+                "image": "../Courses/paramedical/Anesthesia/operation.jpg"
             },
             {
                 "title": "Emergency Response Specialist",
                 "desc": "Develop the ability to handle emergency situations in operation theatres with efficiency and precision.",
-                "image": "https://example.com/emergency_response_specialist_image.jpg"
+                "image": "../Courses/paramedical/Anesthesia/emergency.jpg"
             },
             {
-                "title": "Emergency Response Specialist",
-                "desc": "Develop the ability to handle emergency situations in operation theatres with efficiency and precision.",
-                "image": "https://example.com/emergency_response_specialist_image.jpg"
+                "title": "Anesthesia and Operation Theatre Technologist",
+                "desc": "Gain expertise in anesthesia administration and operation theatre technology to support medical procedures effectively.",
+                "image": "../Courses/paramedical/Anesthesia/technologist.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -1880,17 +1884,17 @@ const data = [
             {
                 "title": "Radiology Technician",
                 "desc": "Acquire skills to perform radiological procedures and operate imaging equipment.",
-                "image": "https://example.com/radiology_technician_image.jpg"
+                "image": "../Courses/paramedical/radiology/technician.jpg"
             },
             {
                 "title": "Imaging Specialist",
                 "desc": "Specialize in various imaging modalities such as X-ray, Sonography, CT Scan, and MRI.",
-                "image": "https://example.com/imaging_specialist_image.jpg"
+                "image": "../Courses/paramedical/radiology/image.jpg"
             },
             {
                 "title": "Researcher in Radio Imaging Technology",
                 "desc": "Conduct research in the field of radio imaging technology and contribute to advancements in the field.",
-                "image": "https://example.com/researcher_in_radio_imaging_technology_image.jpg"
+                "image": "../Courses/paramedical/radiology/research.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -1930,17 +1934,17 @@ const data = [
             {
                 "title": "Operation Theatre Technician",
                 "desc": "Gain technical skills to assist in operation theaters and handle equipment.",
-                "image": "https://example.com/operation_theatre_technician_image.jpg"
+                "image": "../Courses/paramedical/OT/technician.jpg"
             },
             {
                 "title": "Operation Theatre Manager",
                 "desc": "Develop management skills to oversee operation theater activities and handle emergency situations.",
-                "image": "https://example.com/operation_theatre_manager_image.jpg"
+                "image": "../Courses/paramedical/OT/manager.jpg"
             },
             {
                 "title": "Researcher in Operation Theatre Technology",
                 "desc": "Conduct research in operation theater technology and contribute to advancements in the field.",
-                "image": "https://example.com/researcher_in_operation_theatre_technology_image.jpg"
+                "image": "../Courses/paramedical/OT/research.jpg"
             }
         ],
         "eligibility_criteria": {
