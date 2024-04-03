@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
+import img from './Ach.jpeg'
 const Achievement = () => {
   return (
     <div className='w-full py-12 flex flex-wrap'>
@@ -18,7 +19,7 @@ const Achievement = () => {
         </div>
       </div>
       <div className="w-full md:w-1/2 hidden md:block">
-        <Image src="https://media.licdn.com/dms/image/D4D22AQHRnJD7yH8OnA/feedshare-shrink_2048_1536/0/1697104133139?e=1714608000&v=beta&t=tghNYnoxP65AJtvVB8xzR9kQo63m6wkFdwfRREnsaiM" alt="" srcSet="" width={"100%"} className='rounded-md'/>
+        <Image src={img} alt="" srcSet="" className='rounded-md w-full'/>
       </div>
     </div>
   )
