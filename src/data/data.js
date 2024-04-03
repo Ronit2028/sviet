@@ -65,17 +65,17 @@ const data = [
             {
                 "title": "Networking Lab",
                 "description": "Explore networking concepts and protocols in a hands-on environment.",
-                "image": "https://img.freepik.com/free-photo/young-network-engineers-with-laptop-medium-shot_23-2148323445.jpg?t=st=1709908001~exp=1709911601~hmac=c3d4450ba5e76647c7841ce135b6fbdb86aed47eb4b18651e453b02b19ab2492&w=996"
+                "image": "../Courses/BTech/cse/lab/networking.jpg"
             },
             {
                 "title": "Database Management Lab",
                 "description": "Practice database design, implementation, and management techniques.",
-                "image": "https://img.freepik.com/free-photo/woman-crouching-near-special-equipment-smiling-camera_259150-60337.jpg?t=st=1709908169~exp=1709911769~hmac=6c8239fe2d3b141575ca7e84fe52830cd11903713222d9c5df9e9c50142a0d2d&w=996"
+                "image": "../Courses/BTech/cse/lab/database.jpg"
             },
             {
                 "title": "Software Development Lab",
                 "description": "Develop and test software applications using industry-standard tools and methodologies.",
-                "image": "https://img.freepik.com/free-photo/people-studying-peacefully-library_23-2148844711.jpg?t=st=1709908245~exp=1709911845~hmac=fb0cdcf87b36b97400930ea70a82927b208aadfd5d43e825a170d09fe86ae0d7&w=996"
+                "image": "../Courses/BTech/cse/lab/development.jpg"
             }
         ]
     },
@@ -143,17 +143,17 @@ const data = [
             {
                 "title": "Power Systems Lab",
                 "description": "Explore power systems concepts and applications in a hands-on environment.",
-                "image": "https://img.freepik.com/free-photo/electrical-engineer-working-on-computer-medium-shot_23-2148323657.jpg"
+                "image": "../Courses/BTech/ee/lab/Power.jpg"
             },
             {
                 "title": "Electronics Lab",
                 "description": "Practice electronic circuit design, analysis, and testing using industry-standard equipment.",
-                "image": "https://img.freepik.com/free-photo/hands-working-printed-circuit-board_23-2148330498.jpg"
+                "image": "../Courses/BTech/ee/lab/Electronics.jpg"
             },
             {
                 "title": "Renewable Energy Lab",
                 "description": "Experiment with renewable energy sources and technologies such as solar, wind, and hydroelectric power.",
-                "image": "https://img.freepik.com/free-photo/solar-panel-hands-against-sunset-backdrop_1303-16532.jpg"
+                "image": "../Courses/BTech/ee/lab/energy.jpg"
             }
         ]
     },
@@ -221,17 +221,17 @@ const data = [
             {
                 "title": "Thermodynamics Lab",
                 "description": "Experiment with thermodynamic principles and study heat transfer phenomena.",
-                "image": "https://img.freepik.com/free-photo/hand-turning-wheel-regulator_1150-16788.jpg"
+                "image": "../Courses/BTech/me/lab/thermo.jpg"
             },
             {
                 "title": "Machine Design Lab",
                 "description": "Apply engineering design principles to create and analyze machine components.",
-                "image": "https://img.freepik.com/free-photo/hands-working-blueprints_1150-13373.jpg"
+                "image": "../Courses/BTech/me/lab/machine.jpg"
             },
             {
                 "title": "Robotics Lab",
                 "description": "Design and program robotic systems to perform various tasks and operations.",
-                "image": "https://img.freepik.com/free-photo/robotic-arm-modern-assembly-line-manufacturing_39422-9616.jpg"
+                "image": "../Courses/BTech/me/lab/robotics.jpg"
             }
         ]
     },
@@ -299,17 +299,17 @@ const data = [
             {
                 "title": "Structural Engineering Lab",
                 "description": "Experiment with structural analysis and design of buildings and bridges.",
-                "image": "https://img.freepik.com/free-photo/engineer-working-construction-site_1150-16148.jpg"
+                "image": "../Courses/BTech/civil/lab/structural.jpg"
             },
             {
                 "title": "Geotechnical Engineering Lab",
                 "description": "Study soil properties and behavior to design foundations and earth structures.",
-                "image": "https://img.freepik.com/free-photo/worker-testing-soil-construction-site_53876-66999.jpg"
+                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
             },
             {
                 "title": "Environmental Engineering Lab",
                 "description": "Analyze water and air quality, and design solutions for environmental protection.",
-                "image": "https://img.freepik.com/free-photo/young-engineers-testing-soil-geological-landscape_1253-1579.jpg"
+                "image": "../Courses/BTech/civil/lab/environmental.jpg"
             }
         ]
     },
@@ -380,17 +380,17 @@ const data = [
             {
                 "title": "Electronics Lab",
                 "description": "Design, build, and test electronic circuits and systems.",
-                "image": "https://img.freepik.com/free-photo/hands-working-printed-circuit-board_23-2148330498.jpg"
+                "image": "../Courses/BTech/ece/lab/electron.jpg"
             },
             {
                 "title": "Communication Systems Lab",
                 "description": "Experiment with communication principles and technologies.",
-                "image": "https://img.freepik.com/free-photo/group-multi-ethnic-engineers-working-construction-site_1150-16150.jpg"
+                "image": "../Courses/BTech/civil/lab/system.jpg"
             },
             {
                 "title": "Signal Processing Lab",
                 "description": "Analyze and process signals using software and hardware tools.",
-                "image": "https://img.freepik.com/free-photo/electronic-equipment-test_1150-12202.jpg"
+                "image": "../Courses/BTech/civil/lab/process.jpg"
             }
         ]
     },
@@ -458,17 +458,17 @@ const data = [
             {
                 "title": "Networking Lab",
                 "description": "Explore networking concepts and protocols in a hands-on environment.",
-                "image": "https://img.freepik.com/free-photo/young-network-engineers-with-laptop-medium-shot_23-2148323445.jpg?t=st=1709908001~exp=1709911601~hmac=c3d4450ba5e76647c7841ce135b6fbdb86aed47eb4b18651e453b02b19ab2492&w=996"
+                "image": "../Courses/BTech/cse/lab/networking.jpg"
             },
             {
                 "title": "Database Management Lab",
                 "description": "Practice database design, implementation, and management techniques.",
-                "image": "https://img.freepik.com/free-photo/woman-crouching-near-special-equipment-smiling-camera_259150-60337.jpg?t=st=1709908169~exp=1709911769~hmac=6c8239fe2d3b141575ca7e84fe52830cd11903713222d9c5df9e9c50142a0d2d&w=996"
+                "image": "../Courses/BTech/cse/lab/database.jpg"
             },
             {
                 "title": "Software Development Lab",
                 "description": "Develop and test software applications using industry-standard tools and methodologies.",
-                "image": "https://img.freepik.com/free-photo/people-studying-peacefully-library_23-2148844711.jpg?t=st=1709908245~exp=1709911845~hmac=fb0cdcf87b36b97400930ea70a82927b208aadfd5d43e825a170d09fe86ae0d7&w=996"
+                "image": "../Courses/BTech/cse/lab/development.jpg"
             }
         ]
     },
@@ -533,17 +533,17 @@ const data = [
             {
                 "title": "Digital Signal Processing Lab",
                 "description": "Experiment with digital signal processing techniques and algorithms.",
-                "image": "https://img.freepik.com/free-photo/group-engineers-meeting-planning-construction-project_1150-31779.jpg"
+                "image": "../Courses/BTech/ece/lab/signal.jpg"
             },
             {
                 "title": "Microelectronics Lab",
                 "description": "Design and fabricate microelectronic devices and circuits.",
-                "image": "https://img.freepik.com/free-photo/man-soldering-electronics-circuit-board_1339-49303.jpg"
+                "image": "../Courses/BTech/ece/lab/process.jpg"
             },
             {
                 "title": "VLSI Design Lab",
                 "description": "Design and simulate Very Large Scale Integration (VLSI) circuits.",
-                "image": "https://img.freepik.com/free-photo/technician-holding-chip-hand_1368-41733.jpg"
+                "image": "../Courses/BTech/ece/lab/electron.jpg"
             }
         ]
     },
@@ -612,17 +612,17 @@ const data = [
             {
                 "title": "Structural Engineering Lab",
                 "description": "Experiment with structural elements and systems to understand their behavior and performance.",
-                "image": "https://img.freepik.com/free-photo/structural-engineer-inspect-reinforced-concrete-structure_1150-20462.jpg"
+                "image": "../Courses/BTech/civil/lab/structural.jpg"
             },
             {
                 "title": "Geotechnical Engineering Lab",
                 "description": "Study soil properties and behavior to assess the stability and bearing capacity of foundations.",
-                "image": "https://img.freepik.com/free-photo/professional-engineer-working-soil-boring-test_1150-35822.jpg"
+                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
             },
             {
                 "title": "Transportation Engineering Lab",
                 "description": "Analyze traffic flow, design road networks, and evaluate transportation systems.",
-                "image": "https://img.freepik.com/free-photo/traffic-engineer-analyze-road-traffic-data_1150-21841.jpg"
+                "image": "../Courses/BTech/civil/lab/transport.jpg"
             }
         ]
     },
@@ -686,17 +686,17 @@ const data = [
             {
                 "title": "Networking Lab",
                 "description": "Explore networking concepts and protocols in a hands-on environment.",
-                "image": "https://img.freepik.com/free-photo/young-network-engineers-with-laptop-medium-shot_23-2148323445.jpg?t=st=1709908001~exp=1709911601~hmac=c3d4450ba5e76647c7841ce135b6fbdb86aed47eb4b18651e453b02b19ab2492&w=996"
+                "image": "../Courses/BTech/cse/lab/networking.jpg"
             },
             {
                 "title": "Database Management Lab",
                 "description": "Practice database design, implementation, and management techniques.",
-                "image": "https://img.freepik.com/free-photo/woman-crouching-near-special-equipment-smiling-camera_259150-60337.jpg?t=st=1709908169~exp=1709911769~hmac=6c8239fe2d3b141575ca7e84fe52830cd11903713222d9c5df9e9c50142a0d2d&w=996"
+                "image": "../Courses/BTech/cse/lab/database.jpg"
             },
             {
                 "title": "Software Development Lab",
                 "description": "Develop and test software applications using industry-standard tools and methodologies.",
-                "image": "https://img.freepik.com/free-photo/people-studying-peacefully-library_23-2148844711.jpg?t=st=1709908245~exp=1709911845~hmac=fb0cdcf87b36b97400930ea70a82927b208aadfd5d43e825a170d09fe86ae0d7&w=996"
+                "image": "../Courses/BTech/cse/lab/development.jpg"
             }
         ]
     },
@@ -761,17 +761,17 @@ const data = [
             {
                 "title": "Power Systems Lab",
                 "description": "Explore power systems concepts and applications in a hands-on environment.",
-                "image": "https://img.freepik.com/free-photo/electrical-engineer-working-on-computer-medium-shot_23-2148323657.jpg"
+                "image": "../Courses/BTech/ee/lab/Power.jpg"
             },
             {
                 "title": "Electronics Lab",
                 "description": "Practice electronic circuit design, analysis, and testing using industry-standard equipment.",
-                "image": "https://img.freepik.com/free-photo/hands-working-printed-circuit-board_23-2148330498.jpg"
+                "image": "../Courses/BTech/ee/lab/Electronics.jpg"
             },
             {
                 "title": "Renewable Energy Lab",
                 "description": "Experiment with renewable energy sources and technologies such as solar, wind, and hydroelectric power.",
-                "image": "https://img.freepik.com/free-photo/solar-panel-hands-against-sunset-backdrop_1303-16532.jpg"
+                "image": "../Courses/BTech/ee/lab/energy.jpg"
             }
         ]
     },
@@ -830,17 +830,17 @@ const data = [
             {
                 "title": "Thermodynamics Lab",
                 "description": "Experiment with thermodynamic principles and study heat transfer phenomena.",
-                "image": "https://img.freepik.com/free-photo/hand-turning-wheel-regulator_1150-16788.jpg"
+                "image": "../Courses/BTech/me/lab/thermo.jpg"
             },
             {
                 "title": "Machine Design Lab",
                 "description": "Apply engineering design principles to create and analyze machine components.",
-                "image": "https://img.freepik.com/free-photo/hands-working-blueprints_1150-13373.jpg"
+                "image": "../Courses/BTech/me/lab/machine.jpg"
             },
             {
                 "title": "Robotics Lab",
                 "description": "Design and program robotic systems to perform various tasks and operations.",
-                "image": "https://img.freepik.com/free-photo/robotic-arm-modern-assembly-line-manufacturing_39422-9616.jpg"
+                "image": "../Courses/BTech/me/lab/robotics.jpg"
             }
         ]
     },
@@ -899,17 +899,17 @@ const data = [
             {
                 "title": "Structural Engineering Lab",
                 "description": "Experiment with structural analysis and design of buildings and bridges.",
-                "image": "https://img.freepik.com/free-photo/engineer-working-construction-site_1150-16148.jpg"
+                "image": "../Courses/BTech/civil/lab/structural.jpg"
             },
             {
                 "title": "Geotechnical Engineering Lab",
                 "description": "Study soil properties and behavior to design foundations and earth structures.",
-                "image": "https://img.freepik.com/free-photo/worker-testing-soil-construction-site_53876-66999.jpg"
+                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
             },
             {
                 "title": "Environmental Engineering Lab",
                 "description": "Analyze water and air quality, and design solutions for environmental protection.",
-                "image": "https://img.freepik.com/free-photo/young-engineers-testing-soil-geological-landscape_1253-1579.jpg"
+                "image": "../Courses/BTech/civil/lab/environmental.jpg"
             }
         ]
     },
@@ -957,22 +957,22 @@ const data = [
             {
                 "title": "Research Lab",
                 "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "https://example.com/research_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
             },
             {
                 "title": "Practical Lab",
                 "description": "Engage in hands-on practical experiments and learning.",
-                "image": "https://example.com/practical_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
             },
             {
                 "title": "QA Lab",
                 "description": "Perform quality assurance tests and analysis.",
-                "image": "https://example.com/qa_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
             },
             {
                 "title": "Pharma Chemistry Lab",
                 "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "https://example.com/pharma_chemistry_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -1049,22 +1049,22 @@ const data = [
             {
                 "title": "Research Lab",
                 "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "https://example.com/research_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
             },
             {
                 "title": "Practical Lab",
                 "description": "Engage in hands-on practical experiments and learning.",
-                "image": "https://example.com/practical_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
             },
             {
                 "title": "QA Lab",
                 "description": "Perform quality assurance tests and analysis.",
-                "image": "https://example.com/qa_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
             },
             {
                 "title": "Pharma Chemistry Lab",
                 "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "https://example.com/pharma_chemistry_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
             }
         ]
     },
@@ -1127,22 +1127,22 @@ const data = [
             {
                 "title": "Research Lab",
                 "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "https://example.com/research_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
             },
             {
                 "title": "Practical Lab",
                 "description": "Engage in hands-on practical experiments and learning.",
-                "image": "https://example.com/practical_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
             },
             {
                 "title": "QA Lab",
                 "description": "Perform quality assurance tests and analysis.",
-                "image": "https://example.com/qa_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
             },
             {
                 "title": "Pharma Chemistry Lab",
                 "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "https://example.com/pharma_chemistry_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
             }
         ]
     },
@@ -1207,22 +1207,22 @@ const data = [
             {
                 "title": "Research Lab",
                 "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "https://example.com/research_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
             },
             {
                 "title": "Practical Lab",
                 "description": "Engage in hands-on practical experiments and learning.",
-                "image": "https://example.com/practical_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
             },
             {
                 "title": "QA Lab",
                 "description": "Perform quality assurance tests and analysis.",
-                "image": "https://example.com/qa_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
             },
             {
                 "title": "Pharma Chemistry Lab",
                 "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "https://example.com/pharma_chemistry_lab_image.jpg"
+                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
             }
         ]
     },
@@ -1286,22 +1286,22 @@ const data = [
             {
                 "title": "Quantity Training Kitchen",
                 "description": "Practice culinary skills and techniques in a simulated kitchen environment.",
-                "image": "https://example.com/quantity_training_kitchen_image.jpg"
+                "image": "../Courses/HM/catering/lab/kitchen.jpg"
             },
             {
                 "title": "Bakery",
                 "description": "Learn to bake a variety of breads, pastries, and desserts.",
-                "image": "https://example.com/bakery_image.jpg"
+                "image": "../Courses/HM/catering/lab/bakery.jpg"
             },
             {
                 "title": "Front Office Labs",
                 "description": "Gain practical experience in hotel front office operations, including check-in, check-out, and guest services.",
-                "image": "https://example.com/front_office_labs_image.jpg"
+                "image": "../Courses/HM/catering/lab/office.jpg"
             },
             {
                 "title": "Training Restaurant",
                 "description": "Practice food and beverage service in a restaurant setting.",
-                "image": "https://example.com/training_restaurant_image.jpg"
+                "image": "../Courses/HM/catering/lab/training.jpg"
             }
         ],
     },
@@ -1361,17 +1361,17 @@ const data = [
             {
                 "title": "Hospitality Management Lab",
                 "description": "Gain hands-on experience in managing various aspects of hospitality operations.",
-                "image": "https://example.com/hospitality_management_lab_image.jpg"
+                "image": "../Courses/HM/mhmct/lab/management.jpg"
             },
             {
                 "title": "Culinary Arts Lab",
                 "description": "Practice culinary skills and techniques in a professional kitchen environment.",
-                "image": "https://example.com/culinary_arts_lab_image.jpg"
+                "image": "../Courses/HM/mhmct/lab/arts.jpg"
             },
             {
                 "title": "Event Planning Lab",
                 "description": "Plan and organize events, conferences, and functions to develop event management skills.",
-                "image": "https://example.com/event_planning_lab_image.jpg"
+                "image": "../Courses/HM/mhmct/lab/planning.jpg"
             }
         ],
     },
@@ -1431,17 +1431,17 @@ const data = [
             {
                 "title": "Hospitality Management Lab",
                 "description": "Practice managing various aspects of hospitality operations in a simulated hotel environment.",
-                "image": "https://example.com/hospitality_management_lab_image.jpg"
+                "image": "../Courses/HM/mhmct/lab/management.jpg"
             },
             {
                 "title": "Culinary Arts Lab",
                 "description": "Learn culinary techniques and practice cooking skills in a professional kitchen setting.",
-                "image": "https://example.com/culinary_arts_lab_image.jpg"
+                "image": "../Courses/HM/mhmct/lab/arts.jpg"
             },
             {
                 "title": "Event Planning Lab",
                 "description": "Plan and organize events such as conferences, weddings, and banquets in a simulated setting.",
-                "image": "https://example.com/event_planning_lab_image.jpg"
+                "image": "../Courses/HM/mhmct/lab/planning.jpg"
             }
         ],
     },
@@ -1493,17 +1493,17 @@ const data = [
             {
                 "title": "Nutrition Assessment Lab",
                 "description": "Learn techniques for assessing dietary intake, body composition, and nutritional status of individuals.",
-                "image": "https://example.com/nutrition_assessment_lab_image.jpg"
+                "image": "../Courses/HM/Bsc/lab/nutrition.jpg"
             },
             {
                 "title": "Food Science Lab",
                 "description": "Explore the properties of food ingredients, food processing techniques, and food preservation methods.",
-                "image": "https://example.com/food_science_lab_image.jpg"
+                "image": "../Courses/HM/Bsc/lab/science.jpg"
             },
             {
                 "title": "Community Nutrition Lab",
                 "description": "Gain practical experience in planning and implementing community-based nutrition programs and interventions.",
-                "image": "https://example.com/community_nutrition_lab_image.jpg"
+                "image": "../Courses/HM/Bsc/lab/community.jpg"
             }
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
