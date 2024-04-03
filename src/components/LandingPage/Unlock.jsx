@@ -5,9 +5,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import placement from '@/assets/LandingPage/recruit.jpg'
-import placement2 from '@/assets/LandingPage/placement.jpg'
-import placement3 from '@/assets/LandingPage/achievement.jpg'
+import placement from '@/assets/LandingPage/Unlock/DSC00510.jpg'
+import placement2 from '@/assets/LandingPage/Unlock/DSC00544.jpg'
+import placement3 from '@/assets/LandingPage/Unlock/DSC00769.jpg'
+import placement4 from '@/assets/LandingPage/Unlock/DSC00913.jpg'
 
 import { Typography } from '@material-tailwind/react';
 
@@ -33,11 +34,10 @@ const Unlock = () => {
             img: placement3
         },
         {
-            heading: "Super 60 Batch",
-            subheading: "The Super 60 Batch represents the best and brightest students at SVIET. Comprising 30 to 60 students in each branch, the Super 60 Batch is known for its academic excellence, leadership qualities, and innovation. Members of this elite group receive special mentoring and support to enhance their skills and prepare them for successful careers in their chosen fields.",
+            heading: "Our Initiatives",
+            subheading: "TheUniques, Super 60 Batch represents the best and brightest students at SVIET. Comprising 30 to 60 students in each branch, known for its academic excellence, leadership qualities, and innovation. Members of this elite group receive special mentoring and support to enhance their skills and prepare them for successful careers in their chosen fields.",
             description: "READ MORE",
-            img: "https://sviet.ac.in/wp-content/uploads/2022/04/sgfddf.jpg"
-        }
+            img: placement4  }
     ];
 
     const settings = {

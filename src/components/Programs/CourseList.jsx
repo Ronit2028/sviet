@@ -114,7 +114,7 @@ const CourseList = () => {
     // ];
 
     const educationPrograms = data.map((singleData, key) => ({
-        index:key,
+        index: key,
         category: singleData.course_name,
         programs: [{
             name: singleData.program_name,
