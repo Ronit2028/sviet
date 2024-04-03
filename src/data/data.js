@@ -269,12 +269,12 @@ const data = [
                 "title": "Transportation Engineer",
                 "desc": "Plan, design, and operate transportation systems, optimizing traffic flow, improving safety, and enhancing transportation infrastructure.",
                 "image": "../Courses/BTech/civil/transport.png"
-              },
-              {
+            },
+            {
                 "title": "Environmental Engineer",
                 "desc": "Work on projects related to environmental sustainability, pollution control, and resource management, designing and implementing solutions to mitigate environmental impact.",
                 "image": "../Courses/BTech/civil/environment.png"
-              },
+            },
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
@@ -350,12 +350,12 @@ const data = [
                 "title": "Embedded Systems Engineer",
                 "desc": "Design and develop embedded systems, computer systems integrated into other devices or products like medical devices, automobiles, and industrial equipment.",
                 "image": "../Courses/BTech/ece/Embe.jpg"
-              },
-              {
+            },
+            {
                 "title": "Signal Processing Engineer",
                 "desc": "Analyze and manipulate digital signals to extract relevant information, commonly used in fields such as telecommunications, audio/video processing, and image processing.",
                 "image": "../Courses/BTech/ece/signal.jpg"
-              }
+            }
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
@@ -1987,22 +1987,22 @@ const data = [
             {
                 "title": "Optician",
                 "desc": "Acquire skills to dispense eyeglasses and contact lenses according to prescriptions.",
-                "image": "https://example.com/optician_image.jpg"
+                "image": "../Courses/paramedical/Optometry/optician.jpg"
             },
             {
                 "title": "Optometrist",
                 "desc": "Learn to conduct eye examinations and diagnose vision problems.",
-                "image": "https://example.com/optometrist_image.jpg"
+                "image": "../Courses/paramedical/Optometry/optometrist.jpg"
             },
             {
                 "title": "Refractionist",
                 "desc": "Develop expertise in determining the refractive errors of the eye.",
-                "image": "https://example.com/refractionist_image.jpg"
+                "image": "../Courses/paramedical/Optometry/refractionist.jpg"
             },
             {
                 "title": "Ophthalmic Assistant",
                 "desc": "Assist ophthalmologists in providing patient care and conducting eye examinations.",
-                "image": "https://example.com/ophthalmic_assistant_image.jpg"
+                "image": "../Courses/paramedical/Optometry/assistant.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -2042,12 +2042,12 @@ const data = [
             {
                 "title": "Operation Theatre Assistant",
                 "desc": "Acquire skills to assist surgeons and nurses in operation theatre procedures.",
-                "image": "https://example.com/operation_theatre_assistant_image.jpg"
+                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
             },
             {
                 "title": "Anesthesia Technician",
                 "desc": "Learn to assist anesthesiologists in administering anesthesia and monitoring patients during surgical procedures.",
-                "image": "https://example.com/anesthesia_technician_image.jpg"
+                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
             },
         ],
         "eligibility_criteria": {
@@ -2088,17 +2088,17 @@ const data = [
             {
                 "title": "Laboratory Scientist",
                 "desc": "Gain expertise in performing laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
-                "image": "https://example.com/laboratory_scientist_image.jpg"
+                "image": "../Courses/paramedical/Lab/scientist.avif"
             },
             {
                 "title": "Managerial Supervisor",
                 "desc": "Develop leadership and management skills to oversee laboratory operations and supervise laboratory staff.",
-                "image": "https://example.com/managerial_supervisor_image.jpg"
+                "image": "../Courses/paramedical/Lab/supervisor.jpg"
             },
             {
                 "title": "Teacher",
                 "desc": "Acquire teaching skills to educate future generations of laboratory scientists.",
-                "image": "https://example.com/teacher_image.jpg"
+                "image": "../Courses/paramedical/Lab/teacher.avif"
             }
         ],
         "eligibility_criteria": {
@@ -2141,28 +2141,23 @@ const data = [
             {
                 "title": "Medical Lab Technician",
                 "desc": "Perform clinical laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
-                "image": "https://example.com/medical_lab_technician_image.jpg"
+                "image": "../Courses/paramedical/DMLT/technician.jpg"
             },
             {
                 "title": "Technologist",
                 "desc": "Operate advanced laboratory equipment and ensure accurate and timely reporting of laboratory test results.",
-                "image": "https://example.com/technologist_image.jpg"
+                "image": "../Courses/paramedical/DMLT/technologist.avif"
             },
             {
                 "title": "Lab Information System Analyst",
                 "desc": "Analyze and manage laboratory information systems to ensure efficient workflow and data accuracy.",
-                "image": "https://example.com/lab_information_system_analyst_image.jpg"
+                "image": "../Courses/paramedical/DMLT/analyst.jpg"
             },
             {
                 "title": "Healthcare Administrator",
                 "desc": "Oversee and coordinate laboratory operations within healthcare facilities to ensure quality patient care.",
-                "image": "https://example.com/healthcare_administrator_image.jpg"
+                "image": "../Courses/paramedical/DMLT/healthcare.jpg"
             },
-            {
-                "title": "Hospital Outreach Assistant Coordinator",
-                "desc": "Assist in outreach programs and coordinate laboratory services between hospitals and other healthcare facilities.",
-                "image": "https://example.com/hospital_outreach_assistant_coordinator_image.jpg"
-            }
         ],
         "eligibility_criteria": {
             "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
@@ -2205,17 +2200,17 @@ const data = [
             {
                 "title": "ECG Technician",
                 "desc": "Perform electrocardiograms (ECGs) to monitor heart activity and assist in diagnosing cardiac conditions.",
-                "image": "@/assets/Programs/ECG_Technician.jpg"
+                "image": "../Courses/paramedical/Cardiac/ecg.jpg"
             },
             {
                 "title": "Cardiac Rehabilitation Specialist",
                 "desc": "Design and implement rehabilitation programs for patients recovering from cardiac events or surgeries.",
-                "image": "@/assets/Programs/Cardiac_Rehabilitation_Specialist.jpg"
+                "image": "../Courses/paramedical/Cardiac/cardiac.avif"
             },
             {
                 "title": "Medical Sales Representative",
                 "desc": "Promote and sell medical devices and equipment related to cardiac care to healthcare facilities.",
-                "image": "@/assets/Programs/Medical_Sales_Representative.jpg"
+                "image": "../Courses/paramedical/Cardiac/sales.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -2257,19 +2252,23 @@ const data = [
         "program_outcomes": [
             {
                 "title": "Physiotherapist",
-                "desc": "Assess, diagnose, and treat individuals with musculoskeletal, neurological, and cardiopulmonary conditions to improve their mobility and overall well-being."
+                "desc": "Assess, diagnose, and treat individuals with musculoskeletal, neurological, and cardiopulmonary conditions to improve their mobility and overall well-being.",
+                "image": "../Courses/paramedical/Physiotherapy/physio.jpg"
             },
             {
                 "title": "Sports Physiotherapist",
-                "desc": "Provide specialized physiotherapy services to athletes and individuals involved in sports activities to prevent injuries and optimize performance."
+                "desc": "Provide specialized physiotherapy services to athletes and individuals involved in sports activities to prevent injuries and optimize performance.",
+                "image": "../Courses/paramedical/Physiotherapy/sports.avif"
             },
             {
                 "title": "Orthopedic Therapist",
-                "desc": "Focus on the assessment and treatment of orthopedic conditions and injuries affecting the musculoskeletal system, including fractures, joint disorders, and post-surgical rehabilitation."
+                "desc": "Focus on the assessment and treatment of orthopedic conditions and injuries affecting the musculoskeletal system, including fractures, joint disorders, and post-surgical rehabilitation.",
+                "image": "../Courses/paramedical/Physiotherapy/orthopedic.jpg"
             },
             {
                 "title": "Neurological Therapist",
-                "desc": "Work with patients who have neurological disorders or injuries, such as stroke, traumatic brain injury, spinal cord injury, or multiple sclerosis, to improve movement, function, and quality of life."
+                "desc": "Work with patients who have neurological disorders or injuries, such as stroke, traumatic brain injury, spinal cord injury, or multiple sclerosis, to improve movement, function, and quality of life.",
+                "image": "../Courses/paramedical/Physiotherapy/neuro.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -2310,19 +2309,23 @@ const data = [
         "program_outcomes": [
             {
                 "title": "Legal Advisor",
-                "desc": "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters."
+                "desc": "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
+                "image": "../Courses/Law/Bachelors/advisor.jpg"
             },
             {
                 "title": "Cyber Law Specialist",
-                "desc": "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce."
+                "desc": "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
+                "image": "../Courses/Law/Bachelors/cyberl.jpg"
             },
             {
                 "title": "Legal Analyst",
-                "desc": "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making."
+                "desc": "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
+                "image": "../Courses/Law/Bachelors/analyst.jpg"
             },
             {
                 "title": "Litigation Attorney",
-                "desc": "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests."
+                "desc": "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
+                "image": "../Courses/Law/Bachelors/attorney.avif"
             }
         ],
         "eligibility_criteria": {
@@ -2364,22 +2367,22 @@ const data = [
             {
                 "title": "Legal Advisor",
                 "desc": "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
-                "image": "@/assets/Programs/legal_advisor.jpg"
+                "image": "../Courses/Law/Bachelors/advisor.jpg"
             },
             {
                 "title": "Cyber Law Specialist",
                 "desc": "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
-                "image": "@/assets/Programs/cyber_law_specialist.jpg"
+                "image": "../Courses/Law/Bachelors/cyberl.jpg"
             },
             {
                 "title": "Legal Analyst",
                 "desc": "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
-                "image": "@/assets/Programs/legal_analyst.jpg"
+                "image": "../Courses/Law/Bachelors/analyst.jpg"
             },
             {
                 "title": "Litigation Attorney",
                 "desc": "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
-                "image": "@/assets/Programs/litigation_attorney.jpg"
+                "image": "../Courses/Law/Bachelors/attorney.avif"
             }
         ],
         "eligibility_criteria": {
@@ -2420,17 +2423,17 @@ const data = [
             {
                 "title": "Expertise in Various Chemistry Disciplines",
                 "desc": "Develop expertise in areas such as Inorganic Chemistry, Organic Chemistry, Medicinal Chemistry, and Supramolecular Chemistry.",
-                "image": "@/assets/Programs/chemistry_expertise.jpg"
+                "image": "../Courses/Science/Chemistry/expertise.jpg"
             },
             {
                 "title": "Thorough Understanding of Chemical Fundamentals",
                 "desc": "Gain a deep understanding of the fundamental principles and experimental concepts of Chemistry.",
-                "image": "@/assets/Programs/chemical_fundamentals.jpg"
+                "image": "../Courses/Science/Chemistry/chemical.jpg"
             },
             {
                 "title": "Participation in Seminars and Projects",
                 "desc": "Engage in an extensive seminar programme and participate in a variety of projects to gain practical experience.",
-                "image": "@/assets/Programs/seminar_participation.jpg"
+                "image": "../Courses/Science/Chemistry/seminars.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -2471,17 +2474,17 @@ const data = [
             {
                 "title": "Expertise in Various Mathematical Disciplines",
                 "desc": "Develop expertise in Pure Mathematics, Applied Mathematics, Mathematical Modeling, and Computational Mathematics.",
-                "image": "@/assets/Programs/maths_expertise.jpg"
+                "image": "../Courses/Science/Maths/expertise.avif"
             },
             {
                 "title": "Advanced Problem-Solving Skills",
                 "desc": "Enhance problem-solving abilities through rigorous mathematical training and practice.",
-                "image": "@/assets/Programs/problem_solving.jpg"
+                "image": "../Courses/Science/Maths/solving.jpg"
             },
             {
                 "title": "Research and Practical Application",
                 "desc": "Engage in research projects, seminars, and practical applications to explore the diverse applications of mathematics.",
-                "image": "@/assets/Programs/research_practical.jpg"
+                "image": "../Courses/Science/Maths/research.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -2524,17 +2527,17 @@ const data = [
             {
                 "title": "Advanced Theoretical Knowledge",
                 "desc": "Develop advanced theoretical knowledge in various areas of physics.",
-                "image": "@/assets/Programs/physics_theory.jpg"
+                "image": "../Courses/Science/Physics/theory.avif"
             },
             {
                 "title": "Proficiency in Experimentation",
                 "desc": "Acquire proficiency in experimental techniques to explore theoretical and experimental aspects of physics.",
-                "image": "@/assets/Programs/physics_experiment.jpg"
+                "image": "../Courses/Science/Physics/experiments.jpg"
             },
             {
                 "title": "Research Skills",
                 "desc": "Develop research skills to pursue further academic achievements and tackle complex problems in industrial fields.",
-                "image": "@/assets/Programs/research_skills.jpg"
+                "image": "../Courses/Science/Physics/research.avif"
             }
         ],
         "eligibility_criteria": {
@@ -2575,22 +2578,22 @@ const data = [
             {
                 "title": "Application Development Skills",
                 "desc": "Develop skills in application development for computer systems.",
-                "image": "@/assets/Programs/application_development.jpg"
+                "image": "../Courses/Science/Non-Medical/app.jpg"
             },
             {
                 "title": "Computer Operations Proficiency",
                 "desc": "Gain proficiency in computer operations and system management.",
-                "image": "@/assets/Programs/computer_operations.jpg"
+                "image": "../Courses/Science/Non-Medical/operations.avif"
             },
             {
                 "title": "Problem-solving Abilities",
                 "desc": "Enhance problem-solving abilities through mathematical and scientific principles.",
-                "image": "@/assets/Programs/problem_solving.jpg"
+                "image": "../Courses/Science/Non-Medical/problem.jpg"
             },
             {
                 "title": "Research and Analysis Skills",
                 "desc": "Acquire research and analysis skills for exploring advancements in computer applications.",
-                "image": "@/assets/Programs/research_analysis.jpg"
+                "image": "../Courses/Science/Non-Medical/research.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -2654,6 +2657,7 @@ const data = [
                 "desc": "Acquire skills in database management to efficiently store, retrieve, and manage large volumes of data.",
                 "image": "@/assets/Courses/MCA/database_administrator.jpg"
             },
+
             {
                 "id": 41,
                 "course_name": "M.Ed",
@@ -2817,8 +2821,9 @@ const data = [
             "On-campus incubator for entrepreneurial opportunities",
             "Renowned faculty and industry guest speakers",
             "In-demand skills in data science, software development, cloud computing, networking, and database management"
-        ]
+        ],
     },
+
     {
         "id": 46,
         "course_name": "Computer Applications",
