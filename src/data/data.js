@@ -113,12 +113,12 @@ const data = [
                 "title": "Project Manager",
                 "desc": "With experience and additional management skills, B.Tech EE graduates can take up project management roles. They oversee and coordinate engineering projects, manage teams, budgets, and timelines to ensure successful project completion.",
                 "image": "../Courses/BTech/ee/project.jpg"
-              },
-              {
+            },
+            {
                 "title": "Consulting Engineer",
                 "desc": "Consulting engineers provide expert advice and solutions to clients on various electrical engineering projects. They work on a wide range of projects, including infrastructure development, energy management, and system optimization.",
                 "image": "../Courses/BTech/ee/conslt.png"
-              }
+            }
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
@@ -191,12 +191,12 @@ const data = [
                 "title": "Manufacturing Engineer",
                 "desc": "Focus on optimizing production processes, reducing costs, and ensuring product quality in various industries.",
                 "image": "../Courses/BTech/me/image.png"
-              },
+            },
             {
                 "title": "Quality Engineer",
                 "desc": "Maintain product quality and adherence to standards through the development and implementation of quality control processes and inspections.",
                 "image": "../Courses/BTech/me/quality.png"
-              }
+            }
         ],
         "eligibility_criteria": {
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
@@ -416,26 +416,27 @@ const data = [
         ],
         "program_outcomes": [
             {
-                "title": "Web Developer",
-                "desc": "Become proficient in web development technologies such as HTML, CSS, JavaScript, and various frameworks like React and Angular.",
-                "image": "@/assets/Courses/MTech/example.jpg"
+                "title": "Data Scientist",
+                "desc": "M.Tech CSE graduates specializing in artificial intelligence (AI) can work as AI engineers, developing AI-based systems, algorithms, and models for various applications.",
+                "image": "../Courses/MTech/cse/data.jpg"
             },
             {
-                "title": "Network Engineer",
-                "desc": "Learn about network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
-                "image": "https://example.com/network_engineer_image.jpg"
+                "title": "Intelligence Engineer",
+                "desc": "Graduates can pursue research roles, working in research organizations, universities, or corporate R&D labs, contributing to advancements in computer science and engineering through innovative research.",
+                "image": "../Courses/MTech/cse/intelligence.avif"
             },
             {
-                "title": "Web Developer",
-                "desc": "Become proficient in web development technologies such as HTML, CSS, JavaScript, and various frameworks like React and Angular.",
-                "image": "https://img.freepik.com/free-photo/portrait-school-girl-with-book-city_23-2148199220.jpg?t=st=1712051419~exp=1712055019~hmac=37ab86af75756b5c2f108ecdb2a5736bfc18b64a32501d3b026d4be371ca50d1&w=900"
+                "title": "Research Scientist",
+                "desc": "With their strong technical skills and domain knowledge, M.Tech CSE graduates can work as technology consultants, providing expert advice and solutions to businesses on implementing and optimizing technology systems.",
+                "image": "../Courses/MTech/cse/research.jpg"
             },
             {
-                "title": "Network Engineer",
-                "desc": "Learn about network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
-                "image": "https://example.com/network_engineer_image.jpg"
+                "title": "Cybersecurity Analyst",
+                "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
+                "image": "../Courses/Mtech/cse/cybersecurity.avif"
             }
         ],
+
         "eligibility_criteria": {
             "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
         },
@@ -493,25 +494,25 @@ const data = [
         ],
         "program_outcomes": [
             {
-                "title": "Electronics & Communication Engineer",
-                "desc": "Master the skills to design and develop advanced electronic and communication systems.",
-                "image": "https://example.com/electronics_communication_engineer_image.jpg"
-            },
-            {
                 "title": "Research Scientist",
-                "desc": "Conduct innovative research in electronics and communication engineering to drive technological advancements.",
-                "image": "https://example.com/research_scientist_image.jpg"
+                "desc": "With your technical expertise and management skills, you can take up roles as a project manager. You would be responsible for leading and coordinating teams, managing budgets and timelines, and ensuring the successful execution of projects in the electronics and communication domain.",
+                "image": "../Courses/MTech/ee/research.jpg"
             },
             {
-                "title": "Electronics & Communication Engineer",
-                "desc": "Master the skills to design and develop advanced electronic and communication systems.",
-                "image": "https://example.com/electronics_communication_engineer_image.jpg"
+                "title": "Electronics Engineer",
+                "desc": "You can work as an electronics engineer, designing, developing, and testing electronic components, devices, and systems. This can include working on circuit design, PCB layout, embedded systems, and product development.",
+                "image": "../Courses/MTech/ee/electronics.jpg"
             },
             {
-                "title": "Research Scientist",
-                "desc": "Conduct innovative research in electronics and communication engineering to drive technological advancements.",
-                "image": "https://example.com/research_scientist_image.jpg"
-            }
+                "title": "Communication Engineer",
+                "desc": "With expertise in communication systems, you can work on designing and implementing wireless and wired communication networks, protocols, and technologies. This can involve working with telecommunications companies, network providers, or in the research and development of communication systems.",
+                "image": "../Courses/MTech/ee/comms.jpg"
+            },
+            {
+                "title": "VLSI Design Engineer",
+                "desc": "Very Large-Scale Integration (VLSI) design engineers are responsible for designing and testing integrated circuits and chips. You can work in the semiconductor industry, designing and optimizing complex digital and analog integrated circuits.",
+                "image": "../Courses/MTech/ee/vlsi.jpg"
+            },
         ],
         "eligibility_criteria": {
             "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
