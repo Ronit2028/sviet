@@ -1971,7 +1971,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN OPTOMETRY",
             "subtitle": "VISIONARY HEALTHCARE PROFESSIONALS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/Optometry/header.avif"
         },
         "program_name": "Bachelor of Science in Optometry",
         "program_description": "B.Sc Optometry is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. It focuses on the science of vision and eye equipment. Students interested in healthcare professions involving examination, diagnosis, treatment, and management of eye diseases can opt for this program. The aim is to teach students about eye equipment such as lenses and spectacles. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has state-of-the-art infrastructure with modern equipment and laboratories, ranked as the best in North India. The paramedical college also boasts the highest placement rate in North India. Graduates of B.Sc Optometry can pursue careers as Opticians, Optometrists, Refractionists, and Ophthalmic Assistants.",
@@ -2028,7 +2028,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN ANESTHESIA AND OPERATION THEATRE TECHNOLOGY",
             "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/Anasthesia/header.avif"
         },
         "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
         "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
@@ -2073,7 +2073,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN MEDICAL LABORATORY SCIENCE",
             "subtitle": "PREPARING HEALTHCARE LABORATORY PROFESSIONALS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/Lab/header.avif"
         },
         "program_name": "Bachelor of Science in Medical Laboratory Science",
         "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
@@ -2124,7 +2124,7 @@ const data = [
         "header": {
             "title": "DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY",
             "subtitle": "TRAINING SKILLED LAB TECHNICIANS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/DMLT/header.avif"
         },
         "program_name": "Diploma in Medical Laboratory Technology",
         "program_description": "Diploma in Medical Laboratory Technology is a 3-year program designed to impart experiential learning to students to develop the desired workforce to combat the ever-increasing demand for medical lab technicians in the healthcare sector. The program is designed with specific inputs from industry experts, based on the latest technologies available and in practice, for individuals interested in entering the field of clinical laboratory science. It covers all aspects of clinical lab analysis including analysis of body matter, Hematology, Biochemistry, Pathology, Microbiology, Serology, and Blood Banking, etc. Students will also learn operations of advanced lab equipment used for providing various laboratory test reports. Diploma holders in medical lab technology would typically be recruited as medical lab technicians, technologists, lab information system analysts, healthcare administrators, and hospital outreach assistant coordinators.",
@@ -2182,7 +2182,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
             "subtitle": "CHART YOUR PATH TO SUCCESS IN CARDIAC CARE",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/Cardiac/header.avif"
         },
         "program_name": "BSc in Cardiac Care Technology",
         "program_description": "The Bachelor of Science (BSc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
@@ -2236,7 +2236,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN PHYSIOTHERAPY",
             "subtitle": "ENHANCING MOBILITY AND WELL-BEING",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/Physiotherapy/header.avif"
         },
         "program_name": "BSc in Physiotherapy",
         "program_description": "B.Sc Physiotherapy is an undergraduate degree program that focuses on the study of human movement, physical rehabilitation, and the prevention and treatment of physical impairments. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to assess, diagnose, and treat various musculoskeletal, neurological, and cardiopulmonary conditions. During the course, students learn about anatomy, physiology, biomechanics, exercise therapy, electrotherapy, and manual therapy techniques. They also gain clinical experience through internships and practical training, where they work under the supervision of experienced physiotherapists in hospitals, rehabilitation centers, sports clinics, and other healthcare settings. The goal of a B.Sc Physiotherapy program is to train professionals who can help individuals improve their mobility, manage pain, regain function, and enhance their overall well-being. Graduates can pursue careers as physiotherapists in hospitals, private clinics, sports organizations, and research institutions. They play a crucial role in promoting physical health, preventing injuries, and aiding in the recovery of patients with physical disabilities or limitations.",
@@ -2293,7 +2293,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF LAW",
             "subtitle": "DELIVERING JUSTICE FOR A BETTER SOCIETY",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Law/Bachelors/header.avif"
         },
         "program_name": "Bachelor of Law",
         "program_description": "The Bachelor of Law program produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty of Law endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. For students to pursue this three year unitary program, they need to have pursued a graduation in any of the related fields of study. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting, and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained and skilled faculties as well as expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
@@ -2350,7 +2350,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF ARTS + BACHELOR OF LAW",
             "subtitle": "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Law/LLB/header.avif"
         },
         "program_name": "Bachelor of Arts + Bachelor of Law",
         "program_description": "The Bachelor of Arts + Bachelor of Law is a five-year law program which seeks to develop the student's understanding of Arts related subjects while pursuing law. The Faculty of Law produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. While pursuing this program, students will be exposed to various aspects of the Field of Arts while at the same time studying law. They will study arts fundamentals such as Political Science, Economics and International Relations, amongst others. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained skilled faculties and expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
@@ -2407,7 +2407,7 @@ const data = [
         "header": {
             "title": "MASTER OF SCIENCE IN CHEMISTRY",
             "subtitle": "EXPLORING THE FUNDAMENTALS OF CHEMISTRY",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Science/Chemistry/header.avif"
         },
         "program_name": "Master of Science (M.Sc.) in Chemistry",
         "program_description": "Master of Science (M.Sc.) in Chemistry offers a wide range of courses including Inorganic Chemistry, Organic Chemistry, Medicinal Chemistry, Supramolecular Chemistry, etc. Experts from Pure and Applied Chemistry domain will teach the courses, and students will develop a thorough understanding of fundamentals and experimental concepts of Chemistry. There will be opportunity for the students to participate in an extensive and varied seminar programme and gain experience in a large variety of projects.",
@@ -2458,7 +2458,7 @@ const data = [
         "header": {
             "title": "MASTER OF SCIENCE IN MATHEMATICS",
             "subtitle": "EXPLORING THE WORLD OF MATHEMATICAL SCIENCES",
-            "background_image": "@/assets/Programs/maths_backdrop.jpg"
+            "background_image": "../Courses/Science/Maths/header.avif"
         },
         "program_name": "Master of Science (M.Sc.) in Mathematics",
         "program_description": "Master of Science (M.Sc.) in Mathematics offers a comprehensive study of various branches of mathematics including Pure Mathematics, Applied Mathematics, Mathematical Modeling, and Computational Mathematics. The program is designed to provide students with a deep understanding of mathematical theories, methods, and applications. Expert faculty members guide students through advanced topics and help them develop problem-solving skills. Students have the opportunity to engage in research projects, seminars, and practical applications to explore the diverse applications of mathematics in various fields.",
@@ -2510,7 +2510,7 @@ const data = [
         "header": {
             "title": "MASTER OF SCIENCE IN PHYSICS",
             "subtitle": "EXPLORING THE FRONTIERS OF PHYSICS",
-            "background_image": "@/assets/Programs/physics_backdrop.jpg"
+            "background_image": "../Courses/Science/Physics/header.avif"
         },
         "program_name": "Master of Science (M.Sc.) in Physics",
         "program_description": "The Master of Science (M.Sc.) in Physics program is designed to prepare students for a research career in academia or industry by introducing advanced ideas and techniques applicable in various research areas. Emphasis is placed on developing a deep understanding of physics principles and concepts, along with proficiency in experimentation to explore both theoretical and experimental dimensions of physics. The program aims to equip students with high-level theoretical knowledge to tackle complex problems in industrial fields and pursue further academic achievements through research.",
@@ -2562,7 +2562,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN NON-MEDICAL",
             "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
-            "background_image": "@/assets/Programs/non_medical_backdrop.jpg"
+            "background_image": "../Courses/Science/Non-Medical/header.avif"
         },
         "program_name": "B.Sc. in Non-Medical",
         "program_description": "The Bachelor of Science (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
@@ -2620,7 +2620,7 @@ const data = [
         "header": {
             "title": "Master of Education",
             "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Education/Masters/teaching.avif"
         },
         "program_name": "Master of Education",
         "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
@@ -2678,7 +2678,7 @@ const data = [
         "header": {
             "title": "Master of Arts in Education",
             "subtitle": "SHAPING THE FUTURE OF EDUCATION",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Education/Arts/mastery.avif"
         },
         "program_name": "Master of Arts in Education",
         "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
@@ -2735,7 +2735,7 @@ const data = [
         "header": {
             "title": "Bachelor of Education",
             "subtitle": "SHAPING FUTURE EDUCATORS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Education/Bachelor/expertise.avif"
         },
         "program_name": "Bachelor of Education",
         "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
@@ -2792,7 +2792,7 @@ const data = [
         "header": {
             "title": "Bachelor of Arts",
             "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Education/BA/comms.avif"
         },
         "program_name": "Bachelor of Arts",
         "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
@@ -2841,7 +2841,7 @@ const data = [
             "43 Lakh Highest Package",
             "25000+ Global Alumni Reach"
         ],
-        "labs": {}
+        "labs": []
     },
     {
         "id": 45,
@@ -2849,7 +2849,7 @@ const data = [
         "header": {
             "title": "Master of Computer Application",
             "subtitle": "SHAPING FUTURE TECH LEADERS",
-            "background_image": "@/assets/Programs/mca_backdrop.jpg"
+            "background_image": "../Courses/ComputerApp/MCA/cloud.avif"
         },
         "program_name": "MCA",
         "program_description": "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
@@ -2897,6 +2897,7 @@ const data = [
             "Opportunities for research and practical applications",
             "Development of problem-solving and analysis skills"
         ],
+        "labs": []
     },
     {
         "id": 46,
@@ -2904,7 +2905,7 @@ const data = [
         "header": {
             "title": "Bachelor of Computer Application",
             "subtitle": "UNLOCK YOUR POTENTIAL IN IT",
-            "background_image": "@/assets/Programs/bca_backdrop.jpg"
+            "background_image": "../Courses/ComputerApp/MCA/software.avif"
         },
         "program_name": "BCA",
         "program_description": "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
@@ -2956,7 +2957,8 @@ const data = [
             "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
             "Expert Learning: Renowned faculty and industry guest speakers.",
             "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more."
-        ]
+        ],
+        "labs": []
     },
     {
         "id": 47,
@@ -2964,7 +2966,7 @@ const data = [
         "header": {
             "title": "Post Graduate Diploma in Computer Applications",
             "subtitle": "UNLEASH YOUR POTENTIAL IN IT",
-            "background_image": "@/assets/Programs/pgdca_backdrop.jpg"
+            "background_image": "../Courses/BTech/cse/data.jpg"
         },
         "program_name": "PGDCA",
         "program_description": "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
@@ -3017,6 +3019,7 @@ const data = [
             "Career Support: Access to career guidance and placement assistance.",
             "Flexible Learning: Convenient class timings and online resources for flexible learning."
         ],
+        "labs": []
     },
     {
         "id": 48,
@@ -3024,7 +3027,7 @@ const data = [
         "header": {
             "title": "Bachelor of Science in Information Technology",
             "subtitle": "BUILDING THE FUTURE OF IT",
-            "background_image": "@/assets/Programs/bsc_it_backdrop.jpg"
+            "background_image": "../Courses/ComputerApp/BscIt/data.avif"
         },
         "program_name": "B.Sc Information Technology",
         "program_description": "B.Sc. IT (Bachelor of Science in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
@@ -3074,7 +3077,8 @@ const data = [
             "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application."
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "labs": []
     },
 
 
