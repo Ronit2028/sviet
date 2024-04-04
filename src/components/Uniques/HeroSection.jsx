@@ -8,11 +8,11 @@ import Image from 'next/image'
 import './style.css'
 const HeroSection = () => {
   return (
-    <>
+    <div className='w-full overflow-hidden text-justify'>
       <section className="bg-gradient-to-t from-slate-900 to-slate-50 " style={{ backgroundImage: `url(https://res.cloudinary.com/startup-grind/image/upload/c_limit,dpr_2,f_auto,g_center,h_1440,q_auto:good,w_2048/v1/gcs/platform-data-goog/event_wrapup/DSC05771.JPG)`, backgroundSize: 'cover', backgroundPosition: "center bottom", backgroundAttachment: "" }}>
 
 
-        <div className=" inset-0 opacity-100 bg-gradient-to-t from-black via-gray-800/25 to-transparent ">
+        <div className=" inset-0 opacity-100 bg-gradient-to-t from-black via-gray-800/25 ">
 
           <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-9 lg:px-12">
             <div className="h-44 w-[2px]  relative mx-auto overflow-hidden">
@@ -33,10 +33,8 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-      <div className="bg-black">
-        <AnimatedBG /></div>
-      <section className="text-white pb-24   body-font ">
-        <div className="container px-5 py-24 mx-auto">
+      <section className="text-white pb-24  body-font bg-black">
+        <div className="w-10/12 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20">
             <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="sm:text-3xl lg:text-6xl text-2xl  title-font leading-10  mb-5 text-white">OUR CAPABILITIES</h1>
@@ -49,14 +47,14 @@ const HeroSection = () => {
 
         </div>
 
-        <div className=" mx-auto   grid grid-cols-1 lg:grid-cols-2 container gap-8">
+        <div className="w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="w-full">
             <h1 className="sm:text-3xl lg:text-4xl text-2xl  title-font leading-10  mb-5 text-white">Who We Are</h1>
             <p>TheUniques is an educational platform which is available to everyone, everywhere. We wish to uplift the educational standards of not only our city or country but globally. Join us in this noble to cause to make education reach to those in need of it.</p>
           </div>
           <div className="w-full">
             <div className='object-cover h-64  w-full '>
-              <Image src={logo} alt="" srcSet="" className='w-8/12 lg:w-1/2 mx-auto' />
+              <Image src={logo} alt="" srcSet="" className='w-10/12 lg:w-1/2 mx-auto mt-24' />
             </div>
           </div>
 
@@ -68,7 +66,7 @@ const HeroSection = () => {
 
 
 
-    </>
+    </div>
   )
 }
 
