@@ -8,6 +8,7 @@ import SixtyAdv from '@/components/SuperSixty/SixtyAdv'
 import Timeline from '@/components/SuperSixty/Timeline'
 import Usps from '@/components/SuperSixty/Usps'
 import Testimonials from '@/components/LandingPage/Testimonials'
+import Alumini from '../../components/SuperSixty/Alumini'
 const page = () => {
     return (
         <div>
@@ -18,6 +19,7 @@ const page = () => {
             <SixtyAdv />
             <Achievement />
             <Timeline/>
+            <Alumini/>
             <Testimonials/>
         </div>
     )
