@@ -25,7 +25,7 @@ const Header = () => {
         speed: 500,
         autoplay: true,
     };
-
+    console.log("Hello")
     const sectionData = [
         <div key={0} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
             <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
