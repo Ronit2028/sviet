@@ -119,7 +119,7 @@ const GivingWings = () => {
     };
 
     return (
-        <div className='py-6 h-auto lg:h-[100vh] items-center bg-gray-100'>
+        <div className='py-6 h-auto lg:h-[120vh] flex items-center bg-gray-100'>
             <div className='w-10/12 mx-auto'>
                 <div className='mt-7'>
                     <Typography
@@ -149,7 +149,7 @@ const GivingWings = () => {
                         <Slider {...settings}>
                             {collegeInformation.map((info, index) => (
                                 <div key={index} className='h-full'>
-                                    <div className="border rounded-md h-[40vh] " style={{ backgroundImage: `url(${info.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                                    <div className="border rounded-md h-[50vh] " style={{ backgroundImage: `url(${info.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                                         <div className="w-full h-full bg-[#00000048] flex flex-col justify-between text-white p-5 ">
                                             <h2 className="text-xl font-semibold">{info.category}</h2>
                                             <p className="mt-2 text-lg font-semibold">{info.description}</p>

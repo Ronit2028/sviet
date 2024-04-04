@@ -20,18 +20,18 @@ function TestimonialCard({
     studentImage,
 }) {
     return (
-        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 w-[95%] h-[30vh] lg:h-[30vh] flex flex-col justify-between">
-            <CardHeader color="transparent" floated={false} shadow={false}>
+        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 py-6 w-[95%] h-[40vh] lg:h-[40vh] flex flex-col justify-between">
+            <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'> 
                 <Typography
                     color="blue-gray"
-                    className="lg:mb-20 mb-4 text-md lg:text-2xl font-bold"
+                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto"
                 >
                     &quot;{title}&quot;
                 </Typography>
             </CardHeader>
-            <CardBody className="px-2 lg:px-4 py-0 flex flex-wrap-reverse gap-x-6 justify-between">
+            <CardBody className="px-2 lg:px-4 py-0 flex flex-wrap gap-x-6 justify-between">
                 <div>
-                    <div className="flex gap-3">
+                <div className="flex flex-wrap gap-3">
                         <Avatar src={studentImage} className="h-12 w-12 rounded-full" />
                         <div>
                             <Typography variant="h6" color="blue-gray">
@@ -47,7 +47,7 @@ function TestimonialCard({
                         </div>
                     </div>
                 </div>
-                <img src={img} className="max-h-[4rem] max-w-[8rem]" alt={client} />
+                {/* <img src={img} className="max-h-[4rem] max-w-[8rem]" alt={client} /> */}
             </CardBody>
         </Card>
     );
@@ -123,9 +123,9 @@ export function TestimonialSectionCarousel() {
                 >
                     Our Reviews Speak for Us
                 </Typography>
-                <Slider {...settings}>
+                <Slider {...settings} className="py-12">
                     {testimonials.map((props, key) => (
-                        <TestimonialCard key={key} {...props} />
+                        <TestimonialCard key={key} {...props}/>
                     ))}
                 </Slider>
             </div>

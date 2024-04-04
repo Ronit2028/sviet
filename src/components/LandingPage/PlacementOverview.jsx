@@ -34,7 +34,7 @@ const PlacementOverview = () => {
 
     return (
         <div className='w-full mx-auto flex flex-wrap'>
-            <div className='w-full lg:w-1/2 text-white ' style={{ backgroundImage: `url(${placementBackdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+            <div className='w-full lg:w-1/2 text-white ' style={{ backgroundImage: `url(${placementBackdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center left", backgroundAttachment:"fixed" }}>
                 <div className="bg-[#00112df2] w-full h-full py-10">
                     <div className="w-10/12 mx-auto p-6">
                         <div>
