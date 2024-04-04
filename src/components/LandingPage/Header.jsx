@@ -20,10 +20,10 @@ const Header = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        controls:false,
-        dots:false,
+        controls: false,
+        dots: false,
         speed: 500,
-        autoplay:true,
+        autoplay: true,
     };
 
     const sectionData = [
@@ -182,34 +182,39 @@ const Header = () => {
             <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
-                        <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3'>
-                            Shaping Future Leaders in Engineering & Technology (Since 2004)
+                        <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3 font-bold'>
+                            Stepping Into A New Year With New Possibilities and Boundless Potential
                         </p>
                         <p className='text-md lg:text-xl font-semibold mt-3 mb-3 pb-3'>
-                            Ranked NIRF 104 (2021). Impeccable placements with 200+ companies. A legacy of excellence in Engineering & Technology education. Recognized by NIRF for its quality programs.
+
+                            Welcome to the beginning of a journey filled with promise and opportunity. As we step into a new year, we embrace the chance to transform our aspirations into reality.
                         </p>
                         <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
                     </div>
-                 
+
                 </div>
             </div>
         </div>,
         <div key={2} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop3.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-        <div className='w-full h-full py-12 flex items-center bg-[#00000095]'>
-            <div className='w-10/12 mx-auto flex flex-wrap items-center'>
-                <div className='w-full md:w-1/2 py-12'>
-                    <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3'>
-                        Shaping Future Leaders in Engineering & Technology (Since 2004)
-                    </p>
-                    <p className='text-md lg:text-xl font-semibold mt-3 mb-3 pb-3'>
-                        Ranked NIRF 104 (2021). Impeccable placements with 200+ companies. A legacy of excellence in Engineering & Technology education. Recognized by NIRF for its quality programs.
-                    </p>
-                    <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
+            <div className='w-full h-full py-12 flex items-center bg-[#00000095]'>
+                <div className='w-10/12 mx-auto flex flex-wrap items-center'>
+                    <div className='w-full md:w-1/2 py-12'>
+                        <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3 font-bold'>
+                            A Realm of Education That Accomplishes Your Infinite Careeer Dreams
+                        </p>
+                        <p className='text-md lg:text-xl font-semibold mt-3 mb-3 pb-3'>
+
+
+
+                            Education is the key to unlocking the doors of opportunity. Your journey starts here.</p>
+
+
+                        <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
+                    </div>
+
                 </div>
-             
             </div>
         </div>
-    </div>
     ]
 
     return (
