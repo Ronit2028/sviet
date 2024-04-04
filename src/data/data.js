@@ -5,7 +5,7 @@ const data = [
         "header": {
             "title": "Computer Science & Engineering",
             "subtitle": "PROGRAMMING FOR FUTURE, TODAY",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/BTech/cse/CSEheader.jpg"
         },
         "program_name": "B.Tech Computer Science Engineering",
         "program_description": "One of the most important components of development in the many commercial, technological, and administrative organisations is now computer science. Information gathering in computer science exposes users to a wide range of trends' capabilities. A four-year bachelor's degree programme in Computer Science & Engineering is offered by the Department of Computer Engineering at the Faculty of Engineering. The curriculum is purposefully created to give students a solid foundation in the subject, as well as analysis and in-depth knowledge. The department is outfitted with computer facilities and laboratories that enable students to be engaged on a personal level and in the real-time processing of the technological processes involved in order to expose them to in-depth.",
@@ -85,7 +85,7 @@ const data = [
         "header": {
             "title": "Electrical Engineering",
             "subtitle": "POWER UP YOUR POTENTIAL WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/BTech/ee/EEheader.jpg"
         },
         "program_name": "B.Tech Electrical Engineering",
         "program_description": "B.Tech EE stands for Bachelor of Technology in Electrical Engineering. It is an undergraduate engineering program that focuses on the study of electrical systems, devices, and power generation, transmission, and distribution. B.Tech EE curriculum typically includes subjects such as circuit theory, power systems, control systems, electronics, electromagnetics, digital systems, and communication systems. Students pursuing B.Tech EE gain a strong foundation in electrical engineering principles, mathematical analysis, and problem-solving skills. They learn to design and analyze electrical circuits, develop control systems, and understand the generation and distribution of electrical power. Overall, B.Tech EE equips students with the knowledge and skills to contribute to the design, development, and management of electrical systems, making them valuable professionals in the field of electrical engineering.",
@@ -163,7 +163,7 @@ const data = [
         "header": {
             "title": "Mechanical Engineering",
             "subtitle": "GEAR UP YOUR SUCCESS WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/BTech/me/MEheader.jpg"
         },
         "program_name": "B.Tech Mechanical Engineering",
         "program_description": "B.Tech ME refers to Bachelor of Technology in Mechanical Engineering. It is an undergraduate degree program that focuses on the study of various aspects of mechanical systems, their design, manufacturing, and operation. Students pursuing B.Tech ME gain a comprehensive understanding of core engineering principles, mathematics, and physics, along with specialized knowledge in areas such as thermodynamics, fluid mechanics, materials science, mechanics, and machine design. The program equips students with the skills required to design, analyze, and develop mechanical systems, ranging from engines and machinery to power plants and robotics. It emphasizes problem-solving, critical thinking, and hands-on experience through laboratory work, projects, and internships. Students learn how to apply engineering principles to address real-world challenges, optimize performance, and enhance efficiency. Throughout the B.Tech ME program, students also develop strong computational and analytical skills, using software tools and simulations to model and analyze mechanical systems. They gain practical knowledge through workshops, industrial visits, and industry collaborations, fostering a deeper understanding of industry practices and standards Overall, B.Tech ME provides a solid foundation in mechanical engineering principles and prepares students for a wide range of career opportunities in the dynamic field of engineering and technology.",
@@ -241,7 +241,7 @@ const data = [
         "header": {
             "title": "Civil Engineering",
             "subtitle": "BUILDING A BRIGHT FUTURE WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/BTech/civil/CivilHeader.jpg"
         },
         "program_name": "B.Tech Civil Engineering",
         "program_description": "B.Tech Civil Engineering is an undergraduate degree program that focuses on the study of designing, constructing, and maintaining physical infrastructure such as buildings, roads, bridges, dams, and water supply systems. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to plan, analyze, and execute civil engineering projects. During the course, students learn about various aspects of civil engineering, including structural analysis, construction materials, geotechnical engineering, transportation engineering, environmental engineering, and hydraulic engineering. They also gain hands-on experience through practical sessions, laboratory work, and site visits. The goal of a B.Tech Civil Engineering program is to train professionals who can contribute to the development and maintenance of sustainable and resilient infrastructure. Graduates can pursue careers in government agencies, engineering firms, construction companies, research institutions, and consulting firms. They play a vital role in designing safe and efficient structures, managing construction projects, ensuring compliance with regulations, and implementing innovative solutions for infrastructure development.Choose to Join the Elite League of Tech Visionaries",
@@ -319,7 +319,7 @@ const data = [
         "header": {
             "title": " Electronics & Communication Engineering",
             "subtitle": "EXPERIENCE EXCELLENCE IN TECHNOLOGY WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/BTech/ece/Header.jpg"
         },
         "program_name": "B.Tech Electronics & Communication Engineering",
         "program_description": "B.Tech ECE stands for Bachelor of Technology in Electronics and Communication Engineering. It is a four-year undergraduate degree program that focuses on the design, development, and application of electronic and communication systems. B.Tech ECE covers a wide range of subjects, including electronic circuits, digital systems, signal processing, communication systems, microprocessors, embedded systems, control systems, and telecommunications. Students learn about the principles, theories, and practices behind various electronic devices, communication networks, and technologies. During the course, students gain hands-on experience through laboratory work, projects, and internships. They learn to design, analyze, and troubleshoot electronic circuits, develop communication systems, and utilize modern tools and software for system development. B.Tech ECE is a dynamic field that keeps evolving with advancements in technology. It equips students with the knowledge and skills to contribute to the development of innovative electronic and communication systems, shaping the future of technology.",
@@ -400,7 +400,7 @@ const data = [
         "header": {
             "title": "Master in Computer Science & Engineering",
             "subtitle": "IGNITE INNOVATION AND RESEARCH",
-            "background_image": "@/assets/Courses/MTech/example.jpg"
+            "background_image": "../Courses/MTech/cse/Header.jpg"
 
         },
         "program_name": "M.Tech in Computer Science and Engineering",
@@ -479,7 +479,7 @@ const data = [
         "header": {
             "title": "M.Tech - Electronics & Communication Engineering",
             "subtitle": "ELEVATE YOUR EXPERTISE IN",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/MTech/ee/Header.jpg"
         },
         "program_name": "M.Tech in Electronics & Communication Engineering",
         "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
@@ -554,7 +554,7 @@ const data = [
         "header": {
             "title": "M.Tech - Civil Engineering",
             "subtitle": "BUILD THE FUTURE WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/MTech/civil/electron.jpg"
         },
         "program_name": "M.Tech in Civil Engineering",
         "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
@@ -633,7 +633,7 @@ const data = [
         "header": {
             "title": "DIPLOMA IN COMPUTER SCIENCE & ENGINEERING",
             "subtitle": "SHAPE THE DIGITAL AGE WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/diploma/cse/cse.jpg"
         },
         "program_name": "Diploma in CSE",
         "program_description": "A Diploma in Computer Science and Engineering (CSE) is a short-term academic program that focuses on the fundamentals of computer science and engineering. It provides students with practical knowledge and skills related to software development, programming, networking, database management, and computer hardware. During the diploma program, students learn about various programming languages, algorithms, data structures, computer architecture, operating systems, and software engineering principles. They gain hands-on experience through practical labs, projects, and internships. The diploma in CSE prepares students for entry-level positions in the IT industry. Graduates can work as software developers, system analysts, database administrators, network administrators, and technical support specialists. They can also pursue higher education or certifications to further specialize in specific areas of computer science and engineering. Overall, a diploma in CSE provides a foundation for students to understand and apply the principles of computer science and engineering in various technology-driven fields.",
@@ -707,7 +707,7 @@ const data = [
         "header": {
             "title": "DIPLOMA IN ELECTRICAL ENGINEERING",
             "subtitle": "POWER THE FUTURE WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/diploma/ee/ee.jpg"
         },
         "program_name": "Diploma in EE",
         "program_description": "A Diploma in Electrical Engineering (EE) is an undergraduate engineering program that focuses on the study of electrical systems, devices, and power generation, transmission, and distribution. The curriculum typically includes subjects such as circuit theory, power systems, control systems, electronics, electromagnetic, digital systems, and communication systems. Students pursuing a diploma in EE gain a strong foundation in electrical engineering principles, mathematical analysis, and problem-solving skills. They learn to design and analyze electrical circuits, develop control systems, and understand the generation and distribution of electrical power. Overall, a diploma in EE equips students with the knowledge and skills to contribute to the design, development, and management of electrical systems, making them valuable professionals in the field of electrical engineering.",
@@ -851,7 +851,7 @@ const data = [
         "header": {
             "title": "DIPLOMA IN CIVIL ENGINEERING",
             "subtitle": "SHAPE THE INFRASTRUCTURE WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/diploma/civil/civilheader.jpg"
         },
         "program_name": "Diploma in Civil Engineering",
         "program_description": "A Diploma in Civil Engineering is a program that provides students with a fundamental understanding of civil engineering principles and concepts. It covers subjects such as structural analysis, construction materials, surveying, geotechnical engineering, transportation engineering, and project management. During the program, students gain practical skills through laboratory work, field surveys, and internships. They learn to design and construct various civil engineering projects, such as buildings, roads, bridges, and infrastructure systems. They also develop skills in using computer-aided design (CAD) software and other relevant tools. Overall, a Diploma in Civil Engineering equips students with the knowledge and skills needed to contribute to the planning, design, construction, and maintenance of civil engineering projects. It offers a pathway to a fulfilling career in the field of civil engineering, playing a crucial role in shaping the built environment.",
@@ -920,7 +920,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF PHARMACY",
             "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
         "program_name": "BACHELOR OF PHARMACY",
         "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
@@ -998,7 +998,7 @@ const data = [
         "header": {
             "title": "MASTER OF PHARMACY",
             "subtitle": "SHAPE THE FUTURE OF PHARMACEUTICS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/pharmacy/Mpharma/Mpharma.jpg"
         },
         "program_name": "Master of Pharmacy in Pharmaceutics",
         "program_description": "Master of Pharmacy in Pharmaceutics is a postgraduate degree course that is structured to provide entire technical, research, practical, and theoretical knowledge of pharmacy including traditional and modern medicines. The program aims to create skilled and competent Pharmaceutical Research Professionals, Technology Analysts, Pre-Clinical & Clinical Scientists, Academicians, Pharma Corporate Executives & Entrepreneurs, and Clinical Pharmacists. This program provides additional knowledge of medical drugs and aids. The curriculum includes in-depth study of Pharmaceutical Sciences, Discovery Development, Technology, Practice, Industry & Business.",
@@ -1075,7 +1075,7 @@ const data = [
         "header": {
             "title": "DIPLOMA IN PHARMACY",
             "subtitle": "EMBRACE THE PHARMACEUTICAL JOURNEY",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/pharmacy/diploma/Diploma.jpg"
         },
         "program_name": "Diploma in Pharmacy",
         "program_description": "The 2-year Diploma in Pharmacy program under Swami Vivekanand College of Pharmacy is a comprehensive and compact qualification for understanding the basics of Human Physiology, Disease, Therapeutic Compounds & drugs in use, their pharmacology & formulations, drug store management and Pharmaceutical Jurisprudence. The course provides the minimum essential qualification to get registered as a Pharmacist in India & operate Retail/Wholesale & Community Pharmacy and to get employed as Hospital Pharmacist.",
@@ -1153,7 +1153,7 @@ const data = [
         "header": {
             "title": "Doctor of Pharmacy (Pharm.D)",
             "subtitle": "EMPOWERING THE FUTURE OF PHARMACY",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/pharmacy/pharmD/pharmd.jpg"
         },
         "program_name": "Pharm.D",
         "program_description": "The Doctor of Pharmacy program is a research oriented study of various significant areas of pharmacy which are designed to provide an in-depth and comprehensive understanding of these areas. The Faculty of Pharmacy offers a six year Doctorate Degree program in Pharmacy which seeks to impart within the students a specialised research based understanding of pharmaceutical medicine and explore other avenues in the field. The scope of this program includes the purpose of diagnosing the various causes of diseases and the manner and methods through which they can be treated. Beyond merely the treatment protocols and procedure, the field of pharmacy also explores various forms of practical research which can be utilised as a way of eradicating disease causing virus and curbing their spread for the welfare of humanity. As a way of providing the highest form of practical training to the students, the Faculty of Pharmacy is equipped with state of the art facilities and laboratories for research and novel innovations. The program provides a comprehensive approach to the study of pharmacy which provides a platform for the students and faculties to innovate and patent novel treatment modalities. The program goes on to develop and nurture the research skills and abilities of the students as a way of producing a reliable and credible knowledge base in the scope of pharmacy.",
@@ -1233,7 +1233,7 @@ const data = [
         "header": {
             "title": "HOTEL MANAGEMENT AND CATERING TECHNOLOGY",
             "subtitle": "UPSCALE YOUR CAREER IN HOSPITALITY",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/HM/catering/catering.jpg"
         },
         "program_name": "Bachelor of Hotel Management and Catering Technology (BHMCT)",
         "program_description": "BHMCT (Bachelor of Hotel Management and Catering Technology) is an undergraduate degree program that focuses on preparing students for a career in the hospitality industry. The program combines theoretical knowledge with practical training in various aspects of hotel management, food and beverage management, and catering technology. The duration of the BHMCT course is typically four years, and it is divided into eight semesters. The course curriculum covers a range of subjects, including food and beverage management, hotel operations, front office management, housekeeping, human resource management, marketing, accounting, and finance.The BHMCT course also includes practical training in various areas of the hospitality industry. This includes mandatory internships and industry-based training, which provide students with hands-on experience in real-world situations. Students may also have the opportunity to work in the hotel industry as part of their training. Overall, the BHMCT course is a comprehensive program that equips students with the knowledge, skills, and practical experience necessary to succeed in the hospitality industry.",
@@ -1312,7 +1312,7 @@ const data = [
         "header": {
             "title": "Master of Hotel Management & Catering Technology (MHMCT)",
             "subtitle": "ELEVATING HOSPITALITY MANAGEMENT",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/HM/mhmct/Mhmct.jpg"
         },
         "program_name": "Master of Hotel Management & Catering Technology (MHMCT)",
         "program_description": "The Master of Hotel Management & Catering Technology (MHMCT), is a two years postgraduate Hospitality Management Degree course in India. It’s a service-oriented course, which develops the human service resource to fulfill the requirements of the Hospitality Industry. This postgraduate course is designed to enhance the professional management tactics used in the hospitality sector. It also inculcates the necessary entrepreneurship skills in candidates so that they can run their own business in the near future in case any candidate decides to go the other way rather than working on a job. The course is suitable for those candidates who want to increase their knowledge for accelerating their career by exploring and acquiring a critical understanding of the Hospitality Industry. The course is designed to provide managerial positions to the students.",
@@ -1382,7 +1382,7 @@ const data = [
         "header": {
             "title": "B.Voc in Hospitality and Catering Management",
             "subtitle": "BUILDING SKILLS FOR HOSPITALITY SUCCESS",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/HM/BVoc/Bvoc.jpg"
         },
         "program_name": "B.Voc in Hospitality and Catering Management",
         "program_description": "B.Voc in Hospitality and Catering Management is a three-year job-oriented vocational training program in the hotel management domain. The program imparts skills and knowledge related to hotel management. Hotel management is a field of education which deals with all the administrative and managerial tasks of any hospitality centre, hotel, restaurant or any seminar organization. Since the tourism industry is growing rapidly, the demand for good hotel managers has also increased. Hotels and restaurants are looking for skilled professionals who can handle all their activities and help them increase their sales. The three-year B.Voc in Hospitality and Catering Management program will cover many important topics such as housekeeping, accounting, business management, business law, financial management, HR management and entrepreneurship skills. The program also has a six-month training program which will allow the candidates to complete an internship at a reputed hotel in the country. Candidates who are looking for admission to B.Voc in Hotel Management must have some skills such as leadership skills, managerial skills, management skills, pleasing personality and good communication skills.",
@@ -1524,7 +1524,7 @@ const data = [
         "header": {
             "title": "MASTERS IN BUSINESS ADMINISTRATION",
             "subtitle": "ELEVATING BUSINESS ACUMEN",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Business/MBA/mba.jpg"
         },
         "program_name": "MBA",
         "program_description": "MBA stands for Master of Business Administration, which is a graduate degree that focuses on developing the knowledge and skills required to succeed in a business or management career. The MBA degree is one of the most popular and widely recognized graduate degrees globally, and it is designed to provide students with a broad understanding of business and management practices. The MBA program typically covers a range of topics, including accounting, finance, marketing, management, organizational behavior, economics, and operations management. The curriculum may also include specialized courses in areas such as entrepreneurship, international business, healthcare management, or sustainability. An MBA degree can lead to a wide range of career opportunities, including management positions in various industries such as finance, consulting, marketing, healthcare, and technology. It can also provide individuals with the skills and knowledge needed to start their own businesses or pursue entrepreneurial ventures. In summary, an MBA degree is a versatile and valuable credential that can open doors to a wide range of career opportunities and provide individuals with the knowledge and skills needed to succeed in the business world.",
@@ -1581,7 +1581,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF BUSINESS ADMINISTRATION",
             "subtitle": "DEVELOPING BUSINESS ACUMEN",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Business/BBA/bba.jpg"
         },
         "program_name": "BBA",
         "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
@@ -1642,7 +1642,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF BUSINESS ADMINISTRATION",
             "subtitle": "DEVELOPING BUSINESS ACUMEN",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
         },
         "program_name": "BBA",
         "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
@@ -1661,7 +1661,7 @@ const data = [
             {
                 "title": "Marketing Manager",
                 "desc": "Develop and implement marketing strategies to promote products or services and drive business growth.",
-                "image": "../Courses/Business/BBA/maN.jpg"
+                "image": "../Courses/Business/BBA/man.jpg"
             },
             {
                 "title": "Operations Manager",
@@ -1703,7 +1703,7 @@ const data = [
         "header": {
             "title": "MASTER OF COMMERCE",
             "subtitle": "ADVANCING ACCOUNTING EXPERTISE",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/Business/commerce/mcom.jpg"
         },
         "program_name": "M.Com",
         "program_description": "M.Com, Master of Commerce, is a postgraduate course in accounting with a duration of 2 years divided into 4 semesters. The main aim of the course is to provide in-depth knowledge to students in advanced accounting and commerce and prepare them for better future prospects. Students opting for M.Com are taught professional skills that help them land better placement opportunities. M.Com graduates can explore careers in the BFSI sector, start a career in teaching as a commerce teacher, or pursue further studies such as a PhD to become college lecturers. M.Com graduates also have numerous corporate job opportunities and government job opportunities.",
@@ -1760,7 +1760,7 @@ const data = [
         "header": {
             "title": "M.Sc MLS - Biochemistry",
             "subtitle": "ELEVATING LABORATORY LEADERSHIP",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/MLS/mls.jpg"
         },
         "program_name": "M.Sc MLS - Biochemistry",
         "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
@@ -1816,7 +1816,7 @@ const data = [
         "header": {
             "title": "M.Sc IN ANESTHESIA AND OPERATION THEATRE TECHNOLOGY",
             "subtitle": "ELEVATING OPERATION THEATRE EXPERTISE",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/Anesthesia/anesthesia.jpg"
         },
         "program_name": "Master of Science in Anesthesia and Operation Theatre Technology",
         "program_description": "Master of Science in Anesthesia and Operation Theatre Technology is a master’s degree level course in Operation Theatre technology. This course equips students with high-level skills to handle operation theatre preparation in case of emergencies. It is designed to provide advanced skills to assist and handle the preparation of operation theatres, enabling students to become experienced anesthesiologists. Experienced teachers facilitate learning, ensuring clear understanding of concepts. The course is based on research methodology, supported by world-class advanced medical labs situated on campus at Swami Vivekanand Paramedical College. After completing this program, students can work professionally as anesthesiologists and handle responsibilities as assistants in emergency situations.",
@@ -1871,7 +1871,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
             "subtitle": "ELEVATING RADIOLOGY EXPERTISE",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/radiology/radiology.jpg"
         },
         "program_name": "Bachelor of Science in Radio Imaging Technology",
         "program_description": "Bachelor of Science in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
@@ -1921,7 +1921,7 @@ const data = [
         "header": {
             "title": "BACHELOR OF SCIENCE IN OPERATION THEATRE TECHNOLOGY",
             "subtitle": "ELEVATING OPERATION THEATRE MANAGEMENT",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/paramedical/OT/ot.jpg"
         },
         "program_name": "Bachelor of Science in Operation Theatre Technology",
         "program_description": "Bachelor of Science in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
