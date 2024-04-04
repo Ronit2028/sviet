@@ -2616,7 +2616,7 @@ const data = [
 
     {
         "id": 41,
-        "course_name": "M.Ed",
+        "course_name": "Education",
         "header": {
             "title": "Master of Education",
             "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
@@ -2632,7 +2632,29 @@ const data = [
             "Leadership",
             "Training and Internship"
         ],
-        "program_outcomes": [],
+        "program_outcomes": [
+            {
+                "title": "Enhanced Teaching Skills",
+                "desc": "Develop advanced teaching techniques and methodologies to deliver effective and engaging lessons in diverse educational settings.",
+                "image": "../Courses/Education/Masters/teaching.avif"
+            },
+            {
+                "title": "Leadership Development",
+                "desc": "Acquire leadership skills to lead educational institutions, departments, or teams effectively and inspire positive change in the field of education.",
+                "image": "../Courses/Education/Masters/leadership.jpg"
+            },
+            {
+                "title": "Counselling Proficiency",
+                "desc": "Gain expertise in counselling techniques to provide guidance and support to students, colleagues, and parents, fostering a positive learning environment.",
+                "image": "../Courses/Education/Masters/counselling.avif"
+            },
+            {
+                "title": "Research Aptitude",
+                "desc": "Cultivate research skills to conduct educational research, analyze data, and contribute to the advancement of knowledge in the field of education.",
+                "image": "../Courses/Education/Masters/research.avif"
+            },
+        ],
+
         "eligibility_criteria": {
             "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
         },
@@ -2652,7 +2674,7 @@ const data = [
     },
     {
         "id": 42,
-        "course_name": "M.A. in Education",
+        "course_name": "Education",
         "header": {
             "title": "Master of Arts in Education",
             "subtitle": "SHAPING THE FUTURE OF EDUCATION",
@@ -2668,7 +2690,28 @@ const data = [
             "Curriculum",
             "Educational Technology"
         ],
-        "program_outcomes": [],
+        "program_outcomes": [
+            {
+                "title": "Theoretical Instruction Mastery",
+                "desc": "Develop a comprehensive understanding of educational theories and instructional strategies to effectively design and deliver theoretical instruction in diverse educational settings.",
+                "image": "../Courses/Education/Arts/mastery.avif"
+            },
+            {
+                "title": "Counselling Proficiency",
+                "desc": "Enhance counselling skills to provide support and guidance to students, colleagues, and parents, fostering holistic development and well-being.",
+                "image": "../Courses/Education/Masters/counselling.avif"
+            },
+            {
+                "title": "Curriculum Development Expertise",
+                "desc": "Acquire expertise in curriculum planning, development, and evaluation to design relevant and engaging learning experiences aligned with educational goals and standards.",
+                "image": "../Courses/Education/Arts/curriculum.avif"
+            },
+            {
+                "title": "Educational Technology Integration",
+                "desc": "Explore innovative educational technologies and learn to integrate them into teaching practices, enhancing instructional delivery and student engagement.",
+                "image": "../Courses/Education/Arts/tech.avif"
+            }
+        ],
         "eligibility_criteria": {
             "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
         },
@@ -2688,7 +2731,7 @@ const data = [
     },
     {
         "id": 43,
-        "course_name": "B.Ed",
+        "course_name": "Education",
         "header": {
             "title": "Bachelor of Education",
             "subtitle": "SHAPING FUTURE EDUCATORS",
@@ -2704,7 +2747,28 @@ const data = [
             "Leadership",
             "Training and Internship"
         ],
-        "program_outcomes": [],
+        "program_outcomes": [
+            {
+                "title": "Pedagogical Expertise",
+                "desc": "Develop pedagogical skills to effectively plan, deliver, and assess instruction in diverse educational contexts, catering to the needs of learners.",
+                "image": "../Courses/Education/Bachelor/expertise.avif"
+            },
+            {
+                "title": "Research Proficiency",
+                "desc": "Acquire research skills to critically analyze educational issues, conduct empirical studies, and contribute to the advancement of educational knowledge and practices.",
+                "image": "../Courses/Education/Bachelor/research.jpg"
+            },
+            {
+                "title": "Leadership Development",
+                "desc": "Enhance leadership abilities to lead and manage educational initiatives, collaborate with stakeholders, and promote positive change within educational institutions.",
+                "image": "../Courses/Education/Masters/leadership.jpg"
+            },
+            {
+                "title": "Teaching Training and Internship",
+                "desc": "Undergo teaching training and internship experiences to apply theoretical knowledge in real-world educational settings, gaining practical teaching skills and experience.",
+                "image": "../Courses/Education/Bachelor/training.avif"
+            }
+        ],
         "eligibility_criteria": {
             "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
         },
@@ -2724,7 +2788,7 @@ const data = [
     },
     {
         "id": 44,
-        "course_name": "B.A.",
+        "course_name": "Education",
         "header": {
             "title": "Bachelor of Arts",
             "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
@@ -2740,7 +2804,28 @@ const data = [
             "Science & Philosophy",
             "Psychology"
         ],
-        "program_outcomes": [],
+        "program_outcomes": [
+            {
+                "title": "Critical Thinking Skills",
+                "desc": "Develop critical thinking skills to analyze and evaluate complex ideas, arguments, and theories in various disciplines within the humanities and social sciences.",
+                "image": "../Courses/Education/BA/thinking.avif"
+            },
+            {
+                "title": "Effective Communication",
+                "desc": "Enhance communication skills through written and oral expression, enabling effective interaction and expression of ideas in diverse contexts and audiences.",
+                "image": "../Courses/Education/BA/comms.avif"
+            },
+            {
+                "title": "Research Proficiency",
+                "desc": "Acquire research skills to gather, interpret, and synthesize information from multiple sources, facilitating independent inquiry and scholarly exploration.",
+                "image": "../Courses/Education/Bachelor/research.jpg"
+            },
+            {
+                "title": "Cultural Awareness",
+                "desc": "Develop cultural awareness and sensitivity to appreciate and understand diverse perspectives, traditions, and values across different societies and cultures.",
+                "image": "../Courses/Education/BA/cultural.avif"
+            }
+        ],
         "eligibility_criteria": {
             "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
         },
@@ -2781,22 +2866,22 @@ const data = [
             {
                 "title": "Data Scientist",
                 "desc": "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
-                "image": "@/assets/Courses/MCA/data_scientist.jpg"
+                "image": "../Courses/ComputerApp/MCA/data.avif"
             },
             {
                 "title": "Software Developer",
                 "desc": "Develop expertise in software development using modern programming languages and frameworks.",
-                "image": "@/assets/Courses/MCA/software_developer.jpg"
+                "image": "../Courses/ComputerApp/MCA/software.avif"
             },
             {
                 "title": "Cloud Engineer",
                 "desc": "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
-                "image": "@/assets/Courses/MCA/cloud_engineer.jpg"
+                "image": "../Courses/ComputerApp/MCA/cloud.avif"
             },
             {
                 "title": "Network Administrator",
                 "desc": "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
-                "image": "@/assets/Courses/MCA/network_administrator.jpg"
+                "image": "../Courses/ComputerApp/MCA/network.avif"
             },
         ],
         "eligibility_criteria": {
@@ -2835,22 +2920,22 @@ const data = [
             {
                 "title": "Software Developer",
                 "desc": "Become proficient in software development using various programming languages and tools.",
-                "image": "https://example.com/software_developer_image.jpg"
+                "image": "../Courses/ComputerApp/MCA/software.avif"
             },
             {
                 "title": "Web Developer",
                 "desc": "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
-                "image": "https://example.com/web_developer_image.jpg"
+                "image": "../Courses/ComputerApp/BCA/web.avif"
             },
             {
                 "title": "Database Administrator",
                 "desc": "Learn database design, implementation, and management techniques.",
-                "image": "https://example.com/database_administrator_image.jpg"
+                "image": "../Courses/ComputerApp/BCA/data.jpg"
             },
             {
                 "title": "Network Engineer",
                 "desc": "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
-                "image": "https://example.com/network_engineer_image.jpg"
+                "image": "../Courses/ComputerApp/BCA/network.avif"
             }
         ],
         "eligibility_criteria": {
@@ -2898,22 +2983,22 @@ const data = [
             {
                 "title": "Software Engineer",
                 "desc": "Acquire skills to design and develop software applications according to industry standards.",
-                "image": "https://example.com/software_engineer_image.jpg"
+                "image": "../Courses/ComputerApp/MCA/software.avif"
             },
             {
                 "title": "Computer Programmer & Analyst",
                 "desc": "Learn programming languages and analytical techniques to develop efficient computer programs.",
-                "image": "https://example.com/computer_programmer_image.jpg"
+                "image": "../Courses/ComputerApp/pgdca/programmer.avif"
             },
             {
                 "title": "Information Security Analyst",
                 "desc": "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
-                "image": "https://example.com/information_security_analyst_image.jpg"
+                "image": "../Courses/ComputerApp/pgdca/security.avif"
             },
             {
                 "title": "IT Consultant",
                 "desc": "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
-                "image": "https://example.com/it_consultant_image.jpg"
+                "image": "../Courses/ComputerApp/pgdca/consultant.avif"
             }
         ],
         "eligibility_criteria": {
@@ -2956,28 +3041,23 @@ const data = [
             {
                 "title": "Software Developer",
                 "desc": "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
-                "image": "https://example.com/software_developer_image.jpg"
+                "image": "../Courses/ComputerApp/MCA/software.avif"
             },
             {
                 "title": "Database Administrator",
                 "desc": "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
-                "image": "https://example.com/database_administrator_image.jpg"
+                "image": "../Courses/ComputerApp/BscIt/data.avif"
             },
             {
                 "title": "Network Administrator",
                 "desc": "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
-                "image": "https://example.com/network_administrator_image.jpg"
+                "image": "../Courses/ComputerApp/BscIt/network.avif"
             },
             {
                 "title": "Cybersecurity Specialist",
                 "desc": "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
-                "image": "https://example.com/cybersecurity_specialist_image.jpg"
+                "image": "../Courses/ComputerApp/BscIt/cyber.avif"
             },
-            {
-                "title": "Web Developer",
-                "desc": "Master the development of dynamic and interactive websites and web applications using front-end and back-end technologies.",
-                "image": "https://example.com/web_developer_image.jpg"
-            }
         ],
         "program_highlights": [
             "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
