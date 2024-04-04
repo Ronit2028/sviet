@@ -48,7 +48,7 @@ const Infra = () => {
                     {infraData.map((item, index) => (
                         <div key={index} className="xl:w-1/2 md:w-1/2 p-4">
                             <div className="p-6 rounded-lg">
-                                <Image className="h-60 rounded w-full object-cover object-center mb-6" src={item.image} alt="content" />
+                                <Image className="h-[40vh] rounded w-full object-cover object-center mb-6" src={item.image} alt="content" />
                                 <h3 className="tracking-widest text-[#016db6] text-xs font-medium title-font">{item.title}</h3>
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">{item.title}</h2>
                                 <p className="leading-relaxed text-base">{item.description}</p>

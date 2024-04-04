@@ -27,19 +27,19 @@ const Header = () => {
     };
 
     const sectionData = [
-        <div className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-            <div className='w-full h-full  flex items-center bg-[#00000095]'>
+        <div key={0} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+            <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
-                        <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3'>
+                        <p className='text-2xl lg:text-4xl font-bold w-4/5 mb-3 pb-3'>
                             Shaping Future Leaders in Engineering & Technology (Since 2004)
                         </p>
-                        <p className='text-md lg:text-xl font-semibold mt-3 mb-3 pb-3'>
+                        <p className='text-md lg:text-lg font-semibold mt-3 mb-3 pb-3'>
                             Ranked NIRF 104 (2021). Impeccable placements with 200+ companies. A legacy of excellence in Engineering & Technology education. Recognized by NIRF for its quality programs.
                         </p>
                         <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
                     </div>
-                    <div className='w-full md:w-1/2 flex items-center justify-center py-4'>
+                    <div className='w-full md:w-1/2 hidden lg:flex items-center justify-center py-4'>
                         <div className="max-w-lg mx-auto  bg-gray-100 rounded-lg">
                             <h2 className="text-2xl font-semibold text-center p-6 text-black">Apply Today for SVIET Programs</h2>
                             <form className='bg-white w-full h-full p-6 rounded-lg'>
@@ -178,8 +178,8 @@ const Header = () => {
                 </div>
             </div>
         </div>,
-        <div className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop2.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-            <div className='w-full h-full  flex items-center bg-[#00000095]'>
+        <div key={1} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop2.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+            <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
                         <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3'>
@@ -194,8 +194,8 @@ const Header = () => {
                 </div>
             </div>
         </div>,
-        <div className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop3.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-        <div className='w-full h-full  flex items-center bg-[#00000095]'>
+        <div key={2} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop3.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+        <div className='w-full h-full py-12 flex items-center bg-[#00000095]'>
             <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                 <div className='w-full md:w-1/2 py-12'>
                     <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3'>

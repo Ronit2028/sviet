@@ -25,7 +25,7 @@ const labsData = [
     // Add more labs as needed
 ];
 
-const Labs = () => {
+const Labs = ({labs}) => {
     const settings = {
         dots: true,
         infinite: true,
@@ -76,7 +76,7 @@ const Labs = () => {
                 </div>
             </div>
             <Slider {...settings}>
-                {labsData.map((lab, index) => (
+                {labs.map((lab, index) => (
                     <div key={index} className='p-3 h-[50vh] md:h-[35vh]' >
                         <div className='h-full w-full rounded-md' style={{ backgroundImage: `url(${lab.image})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
 

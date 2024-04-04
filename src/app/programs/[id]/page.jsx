@@ -23,15 +23,15 @@ const Page = ({ params }) => {
     return <div>Error: Course not found</div>;
   }
 
-  const { course_name, header, program_description, major_tracks, duration, program_outcomes, program_name, fees, eligibility_criteria, labs, program_highlights, affiliation, mode_of_admission } = courseData;
+  const { course_name, header, program_description, major_tracks, duration, program_outcomes, program_name, fees, eligibility_criteria, labs, program_highlights, affiliation, mode_of_admission, } = courseData;
 
   return (
     <div>
       <Header
         courseName={course_name}
-        backgroundImage={backdrop.src}
         title={header.title}
         subTitle={header.subtitle}
+        backgroundImage={header.background_image}
       />
       <Overview
         programOverview={program_description}
@@ -48,7 +48,7 @@ const Page = ({ params }) => {
         programOutcomes={program_outcomes}
       />
       <Highlights programHighlights={program_highlights} />
-      <Labs />
+      <Labs labs={labs} />
       <PlacementOverview />
       <Events />
     </div>

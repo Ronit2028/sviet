@@ -2,11 +2,13 @@ import React from 'react'
 import img from '../../assets/LandingPage/success.jpg'
 import Image from 'next/image'
 
+import imageCover from './imageCover.jpeg'
+
 const Fourth = () => {
   return (
     <section className="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
       <section className="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
-        <Image className="xl:max-w-6xl" src={"https://media.licdn.com/dms/image/D5622AQE7KzQRgxcOvA/feedshare-shrink_1280/0/1710743265409?e=1714608000&v=beta&t=D55te23vSRpY1QSEWoMtUyhiUIf9uiG4-NGHjcWaoYI"} alt='' />
+        <Image className="xl:max-w-6xl" src={imageCover} alt='' />
         <div className="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
           <div className="flex justify-between font-bold text-sm">
             <p>Entrepreneurship Insights</p>

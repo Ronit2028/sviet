@@ -22,7 +22,7 @@ const ChartYourPath = () => {
     }
   ];
   return (
-    <div style={{backgroundImage:`url(${success.src})`, backgroundSize:"cover", backgroundPosition:"center center"}}>
+    <div style={{backgroundImage:`url(${success.src})`, backgroundSize:"cover", backgroundPosition:"center center", backgroundAttachment:"fixed"}}>
       <div className='bg-[#00112ded] h-auto lg:h-[100vh] text-white py-10 lg:mt-[-200px] md:mt-auto flex items-center'>
         <div className="w-10/12 mx-auto ">
           <p className='text-4xl font-semibold'>
