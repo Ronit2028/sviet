@@ -2612,6 +2612,152 @@ const data = [
         ],
         "labs": []
     },
+
+
+    {
+        "id": 41,
+        "course_name": "M.Ed",
+        "header": {
+            "title": "Master of Education",
+            "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
+            "background_image": "@/assets/Programs/backdrop.jpg"
+        },
+        "program_name": "Master of Education",
+        "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
+        "fees": "27,500 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Educational Theory",
+            "Counselling",
+            "Leadership",
+            "Training and Internship"
+        ],
+        "program_outcomes": [],
+        "eligibility_criteria": {
+            "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": []
+    },
+    {
+        "id": 42,
+        "course_name": "M.A. in Education",
+        "header": {
+            "title": "Master of Arts in Education",
+            "subtitle": "SHAPING THE FUTURE OF EDUCATION",
+            "background_image": "@/assets/Programs/backdrop.jpg"
+        },
+        "program_name": "Master of Arts in Education",
+        "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
+        "fees": "15,000 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Theoretical Instruction",
+            "Counselling",
+            "Curriculum",
+            "Educational Technology"
+        ],
+        "program_outcomes": [],
+        "eligibility_criteria": {
+            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": []
+    },
+    {
+        "id": 43,
+        "course_name": "B.Ed",
+        "header": {
+            "title": "Bachelor of Education",
+            "subtitle": "SHAPING FUTURE EDUCATORS",
+            "background_image": "@/assets/Programs/backdrop.jpg"
+        },
+        "program_name": "Bachelor of Education",
+        "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
+        "fees": "32,500 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Theory",
+            "Research",
+            "Leadership",
+            "Training and Internship"
+        ],
+        "program_outcomes": [],
+        "eligibility_criteria": {
+            "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": []
+    },
+    {
+        "id": 44,
+        "course_name": "B.A.",
+        "header": {
+            "title": "Bachelor of Arts",
+            "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
+            "background_image": "@/assets/Programs/backdrop.jpg"
+        },
+        "program_name": "Bachelor of Arts",
+        "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
+        "fees": "15,000 INR Per Semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Social Sciences",
+            "Literature",
+            "Science & Philosophy",
+            "Psychology"
+        ],
+        "program_outcomes": [],
+        "eligibility_criteria": {
+            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": {}
+    },
     {
         "id": 45,
         "course_name": "Computer Applications",
@@ -2652,178 +2798,21 @@ const data = [
                 "desc": "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
                 "image": "@/assets/Courses/MCA/network_administrator.jpg"
             },
-            {
-                "title": "Database Administrator",
-                "desc": "Acquire skills in database management to efficiently store, retrieve, and manage large volumes of data.",
-                "image": "@/assets/Courses/MCA/database_administrator.jpg"
-            },
-
-            {
-                "id": 41,
-                "course_name": "M.Ed",
-                "header": {
-                    "title": "Master of Education",
-                    "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
-                    "background_image": "@/assets/Programs/backdrop.jpg"
-                },
-                "program_name": "Master of Education",
-                "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
-                "fees": "27,500 INR Per Semester",
-                "duration": "2 Years (Semester System)",
-                "major_tracks": [
-                    "Educational Theory",
-                    "Counselling",
-                    "Leadership",
-                    "Training and Internship"
-                ],
-                "program_outcomes": [],
-                "eligibility_criteria": {
-                    "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
-                },
-                "affiliation": {
-                    "affiliated_to": "IKGPTU, Jalandhar",
-                    "approved_by": "AICTE"
-                },
-                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-                "program_highlights": [
-                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-                    "5000+ Offer Letters",
-                    "250+ Companies Visited Every Year",
-                    "43 Lakh Highest Package",
-                    "25000+ Global Alumni Reach"
-                ],
-                "labs": []
-            },
-            {
-                "id": 42,
-                "course_name": "M.A. in Education",
-                "header": {
-                    "title": "Master of Arts in Education",
-                    "subtitle": "SHAPING THE FUTURE OF EDUCATION",
-                    "background_image": "@/assets/Programs/backdrop.jpg"
-                },
-                "program_name": "Master of Arts in Education",
-                "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
-                "fees": "15,000 INR Per Semester",
-                "duration": "2 Years (Semester System)",
-                "major_tracks": [
-                    "Theoretical Instruction",
-                    "Counselling",
-                    "Curriculum",
-                    "Educational Technology"
-                ],
-                "program_outcomes": [],
-                "eligibility_criteria": {
-                    "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-                },
-                "affiliation": {
-                    "affiliated_to": "IKGPTU, Jalandhar",
-                    "approved_by": "AICTE"
-                },
-                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-                "program_highlights": [
-                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-                    "5000+ Offer Letters",
-                    "250+ Companies Visited Every Year",
-                    "43 Lakh Highest Package",
-                    "25000+ Global Alumni Reach"
-                ],
-                "labs": []
-            },
-            {
-                "id": 43,
-                "course_name": "B.Ed",
-                "header": {
-                    "title": "Bachelor of Education",
-                    "subtitle": "SHAPING FUTURE EDUCATORS",
-                    "background_image": "@/assets/Programs/backdrop.jpg"
-                },
-                "program_name": "Bachelor of Education",
-                "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
-                "fees": "32,500 INR Per Semester",
-                "duration": "2 Years (Semester System)",
-                "major_tracks": [
-                    "Theory",
-                    "Research",
-                    "Leadership",
-                    "Training and Internship"
-                ],
-                "program_outcomes": [],
-                "eligibility_criteria": {
-                    "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
-                },
-                "affiliation": {
-                    "affiliated_to": "IKGPTU, Jalandhar",
-                    "approved_by": "AICTE"
-                },
-                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-                "program_highlights": [
-                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-                    "5000+ Offer Letters",
-                    "250+ Companies Visited Every Year",
-                    "43 Lakh Highest Package",
-                    "25000+ Global Alumni Reach"
-                ],
-                "labs": []
-            },
-            {
-                "id": 44,
-                "course_name": "B.A.",
-                "header": {
-                    "title": "Bachelor of Arts",
-                    "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
-                    "background_image": "@/assets/Programs/backdrop.jpg"
-                },
-                "program_name": "Bachelor of Arts",
-                "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
-                "fees": "15,000 INR Per Semester",
-                "duration": "3 Years (Semester System)",
-                "major_tracks": [
-                    "Social Sciences",
-                    "Literature",
-                    "Science & Philosophy",
-                    "Psychology"
-                ],
-                "program_outcomes": [],
-                "eligibility_criteria": {
-                    "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-                },
-                "affiliation": {
-                    "affiliated_to": "IKGPTU, Jalandhar",
-                    "approved_by": "AICTE"
-                },
-                "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-                "program_highlights": [
-                    "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-                    "5000+ Offer Letters",
-                    "250+ Companies Visited Every Year",
-                    "43 Lakh Highest Package",
-                    "25000+ Global Alumni Reach"
-                ],
-                "labs": []
-            }
         ],
         "eligibility_criteria": {
-            "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category"
+            "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category."
         },
         "affiliation": {
             "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
-            "Hands-on learning through case studies and projects",
-            "State-of-the-art labs with cutting-edge technology",
-            "Six-month industry internship for real-world experience",
-            "National and international immersion programs",
-            "Dedicated industry-academia partnerships for internship and placement opportunities",
-            "Essential skill development through workshops",
-            "On-campus incubator for entrepreneurial opportunities",
-            "Renowned faculty and industry guest speakers",
-            "In-demand skills in data science, software development, cloud computing, networking, and database management"
+            "Specialized study of computer applications and services",
+            "Emphasis on technological implementation of computer systems",
+            "Opportunities for research and practical applications",
+            "Development of problem-solving and analysis skills"
         ],
     },
-
     {
         "id": 46,
         "course_name": "Computer Applications",
