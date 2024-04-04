@@ -27,7 +27,7 @@ const Header = () => {
     };
 
     const sectionData = [
-        <div className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+        <div key={0} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
             <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
@@ -178,7 +178,7 @@ const Header = () => {
                 </div>
             </div>
         </div>,
-        <div className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop2.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+        <div key={1} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop2.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
             <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
@@ -194,7 +194,7 @@ const Header = () => {
                 </div>
             </div>
         </div>,
-        <div className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop3.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+        <div key={2} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop3.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
         <div className='w-full h-full py-12 flex items-center bg-[#00000095]'>
             <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                 <div className='w-full md:w-1/2 py-12'>
