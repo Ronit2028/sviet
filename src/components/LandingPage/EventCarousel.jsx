@@ -5,6 +5,11 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+// images
+import img1 from "../../assets/LandingPage/Events/summit.png"
+import img2 from "../../assets/LandingPage/Events/ge.png"
+import img3 from "../../assets/LandingPage/Events/pharma.png"
+
 import event from '@/assets/LandingPage/event.jpg'
 
 
@@ -40,7 +45,22 @@ const EventCarousel = () => {
             imageSrc: 'https://media.licdn.com/dms/image/D5622AQHn8Lxbjqr94Q/feedshare-shrink_800/0/1709547273825?e=1714608000&v=beta&t=eZ9I8KgKWakEkx0LA-DxHEPJQ1PJzebzs9iBZ4NxmOw',
             description: 'Massive congratulations to Naveen and Anam, shining stars from the Uniques Batch, for their remarkable achievement in securing the prestigious 1st position and bagging the Rs. 10,000 cash prize at the Hack&Win Hackathon hosted at CGC, Jhanjheri Campus. ',
         },
-        // Add more events here
+        {
+            index: 4,
+            imageSrc: img1.src,
+            description: 'Global Futures Summit 2024 kicked off with a bang! Take a sneak peek into the inauguration ceremony, and a heartfelt thank you to all HR and industry panelists for gracing our event with their presence. ',
+        },
+        {
+            index: 5,
+            imageSrc: img2.src,
+            description: 'Dive into our industry panel session covering market trends and cutting-edge technology! These snapshots capture the dynamic exchange between industry and academia, shaping tomorrows tech leaders.Join the fusion of insights from both sectors. ',
+        },
+        {
+            index: 6,
+            imageSrc: img3.src,
+            description: 'Today was an incredible day at SVGOI Pharma Career Fair 2024! Students had the chance to explore various job opportunities, network with industry leaders, and learn valuable insights about the pharmaceutical industry.The event was buzzing with excitement as students engaged in enlightening conversations during the interview rounds, guided by the lamp of opportunity.It was a day filled with hope, connections, and the promise of a bright future in pharmaceutical careers.Stay tuned for more exciting events and opportunities from SVGOI.Your journey to success starts here! ',
+        },
+
     ];
 
     const settings = {
@@ -76,7 +96,7 @@ const EventCarousel = () => {
             backgroundImage: `url(${event.src})`,
             backgroundSize: "cover",
             backgroundPosition: "center center",
-            backgroundAttachment:"fixed"
+            backgroundAttachment: "fixed"
         }}>
             <div className="w-full h-auto md:h-[100vh] flex justify-center items-center bg-[#00112deb] text-white py-10 overflow-hidden">
                 <div className="w-10/12 py-6 flex flex-col flex-wrap-reverse md:flex-row">
