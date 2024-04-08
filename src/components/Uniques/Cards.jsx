@@ -24,8 +24,8 @@ const cardData = [
 
 const Cards = () => {
     return (
-        <section className="container mx-auto p-10 md:py-20 px-0 md:p-20 text-gray-900  md:px-0 antialiased">
-            <div className="flex flex-wrap w-full mb-20 text-white mt-[-50px]">
+        <section className="w-10/12 mx-auto p-10 md:py-20 px-0 md:p-20 text-gray-900  md:px-0 antialiased">
+            <div className="flex flex-wrap w-full mb-20">
                 <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                     <h1 className="sm:text-3xl lg:text-6xl text-2xl  title-font leading-10  mb-5 ">NURTURING TALENT, FOSTERING CREATIVITY</h1>
                     <div className="h-1 w-20 bg-red-700 rounded"></div>
