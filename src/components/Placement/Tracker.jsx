@@ -66,7 +66,7 @@ const Tracker = () => {
                         {reasons.map((reason, index) => (
                             <div key={index} className='mt-6 h-[45vh] lg:h-[50vh] flex items-center p-3'>
                                 <div className="bg-white flex flex-col justify-center h-full rounded-md text-[#00112d] p-6">
-                                    <img src={reason.title} alt="" srcset="" width={"100%"}/>
+                                    <img src={reason.title} alt="" srcSet="" width={"100%"}/>
                                     <p className="text-lg text-center">
                                         {reason.desc}
                                         </p>  

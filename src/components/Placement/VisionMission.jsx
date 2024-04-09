@@ -5,6 +5,9 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+import department from '@/assets/placement/DSC000281.jpg'
+import Image from 'next/image'
+
 const VisionMission = () => {
     const reasons = [
         {
@@ -104,7 +107,7 @@ const VisionMission = () => {
                         </p>
                     </div>
                 </div>
-                <div className='h-[75vh] w-full lg:w-1/2' style={{backgroundImage:"url(https://sviet.org.in/wp-content/uploads/2023/04/Screenshot-153-e1680936110906.png)", backgroundSize:"cover", backgroundPosition:"center center"}}>
+                <div className='h-[75vh] w-full lg:w-1/2' style={{backgroundImage:`url(${department.src})`, backgroundSize:"cover", backgroundPosition:"center center"}}>
                     <div className='h-full w-full bg-[#00000050]'>
 
                     </div>

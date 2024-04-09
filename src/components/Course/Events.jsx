@@ -4,6 +4,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import TestimonialSectionCarousel from '../LandingPage/Testimonials';
 
 const Events = () => {
     const collegeInformation = [
@@ -107,7 +108,7 @@ const Events = () => {
     };
 
     return (
-        <div className='py-6 h-auto lg:h-[100vh] items-center bg-gray-100'>
+        <div className='py-6 h-auto items-center'>
             <div className='w-10/12 mx-auto'>
                 <div>
                     <p className="text-4xl pt-6 font-medium">
@@ -150,6 +151,7 @@ const Events = () => {
                 </div>
 
             </div>
+            <TestimonialSectionCarousel/>
         </div>
     );
 }

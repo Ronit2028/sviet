@@ -30,6 +30,25 @@ const StudentSpeak = () => {
                     </div>
                 </div>
             </div>
+            <div className="flex flex-wrap  mt-10 mb-auto  w-full  content-start sm:pr-10">
+
+                <div className="px-4 py-auto sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h2 className="title-font font-bold text-4xl py-5   text-gray-900">28</h2>
+                    <p className="leading-relaxed text-lg font-bold border-l-2 px-3  border-[#ff9602]">States</p>
+                </div>
+                <div className="px-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h2 className="title-font font-bold text-4xl py-5  text-gray-900">75+</h2>
+                    <p className="leading-relaxed text-lg font-bold border-l-2 px-3  border-[#ff9602]">Nationalities</p>
+                </div>
+                <div className="px-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h2 className="title-font font-bold text-4xl py-5  text-gray-900">35000+</h2>
+                    <p className="leading-relaxed text-lg font-bold border-l-2 px-3  border-[#ff9602]">International Students</p>
+                </div>
+                <div className="px-4 sm:w-1/2 lg:w-1/4 w-1/2">
+                    <h2 className="title-font font-bold text-4xl py-5 text-gray-900">50000+</h2>
+                    <p className="leading-relaxed text-lg font-bold border-l-2 px-3  border-[#ff9602]">Full time students</p>
+                </div>
+            </div>
         </div>
 
     )

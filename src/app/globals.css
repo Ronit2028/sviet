@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.slick-prev,
+.slick-next {
+    color: #ff0000; /* Change to your desired color */
+    /* Additional styling properties can be added here */
+}

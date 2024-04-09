@@ -1,50 +1,136 @@
-import React from 'react'
+"use client"
 
-const Testimonials = () => {
+import React from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import {
+    Card,
+    CardBody,
+    Typography,
+    CardHeader,
+    Avatar,
+} from "@material-tailwind/react";
+
+function TestimonialCard({
+    img,
+    client,
+    title,
+    clientInfo,
+    studentImage,
+}) {
     return (
-        <div className='w-10/12 mx-auto flex flex-wrap py-10'>
-            <div className="w-full py-10">
-                <p className="text-4xl text-center w-2/3 mx-auto mb-6">
-                    Listen to the Resonance of Achievement -
-                    Explore Further Accounts from Our Distinguished Alumni!
-                </p>
-                <p className="text-lg text-center mb-6 pb-6">
-                    Uncover the inspiring narratives and significant perspectives shared by our successful graduates.
-                </p>
-            </div>
-            <div className="w-full md:w-1/2 h-[50vh] flex items-end text-white" style={{ backgroundImage: `url(https://sviet.ac.in/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-02-at-12.21.29-AM-1.jpeg)`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-                <div className='p-6 w-full h-full flex items-end' style={{ background: 'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0))' }}>
-                    <div className='w-full'>
-                        <p className="text-4xl">
-                            Aman Pushkar
-                        </p>
-                        <div className='flex justify-between w-full'>
-                            <p className="text-xl">
-                                Escalon
-                            </p>
-                            <div className='flex gap-2'>
-                                <button className='bg-[#fea700] text-white rounded-md h-7 w-7'><i className='fa fa-arrow-left'></i></button>
-                                <button className='bg-[#fea700] text-white rounded-md h-7 w-7'><i className='fa fa-arrow-right'></i></button>
-                            </div>
+        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 py-6 w-[95%] h-[40vh] lg:h-[40vh] flex flex-col justify-between">
+            <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'> 
+                <Typography
+                    color="blue-gray"
+                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto"
+                >
+                    &quot;{title}&quot;
+                </Typography>
+            </CardHeader>
+            <CardBody className="px-2 lg:px-4 py-0 flex flex-wrap gap-x-6 justify-between">
+                <div>
+                <div className="flex flex-wrap gap-3">
+                        <Avatar src={studentImage} className="h-12 w-12 rounded-full" />
+                        <div>
+                            <Typography variant="h6" color="blue-gray">
+                                {client}
+                            </Typography>
+
+                            <Typography
+                                variant="paragraph"
+                                className="font-normal !text-gray-500"
+                            >
+                                {clientInfo}
+                            </Typography>
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div className="w-full md:w-1/2 bg-gray-100">
-                <div className="p-6 h-full">
-
-                    <div className='flex flex-col justify-center h-full'>
-                        <i className='text-5xl text-center pb-6 fa fa-quote-left'>
-                        </i>
-                        <p className="text-2xl ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maiores corporis tenetur nobis pariatur tempore reprehenderit necessitatibus commodi ipsam porro. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, nostrum?
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
+                {/* <img src={img} className="max-h-[4rem] max-w-[8rem]" alt={client} /> */}
+            </CardBody>
+        </Card>
+    );
 }
 
-export default Testimonials
+const testimonials = [
+    {
+        title:
+            "Great learning experience and the college provided me with the opportunities needed. Truly outstanding! and really really thankful for the support",
+        client: "Gaurav Sharma",
+        clientInfo: "SDE",
+        img: "https://sviet.ac.in/wp-content/uploads/2020/07/Tata.jpg",
+        studentImage: "https://sviet.ac.in/wp-content/uploads/2021/04/pexels-rahul-shah-888956-scaled.jpg"
+    },
+    {
+        title:
+            "It have broadened my horizons and helped me advance my career. The college and management is incredibly supportive towards their students and also providing great learning experience for all",
+        client: "Yash Khandelwal",
+        clientInfo: "System Engineer",
+        img: "https://sviet.ac.in/wp-content/uploads/2022/01/info.png",
+        studentImage:'https://sviet.ac.in/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-02-at-12.21.29-AM-1.jpeg',
+    },
+    {
+        title:
+            "The program provided me with the skills and knowledge needed to excel in the field of software development. Highly recommended!",
+        client: "Adarsh Kumar",
+        clientInfo: "Software Engineer",
+        img: "https://sviet.ac.in/wp-content/uploads/2020/07/First-Lady.jpg",
+        studentImage: "https://sviet.ac.in/wp-content/uploads/2021/04/dsdsd-6.png",
+    },
+    {
+        title:
+            "The instructors are top-notch and the curriculum is well-structured. I feel well-prepared for my career in data science.",
+        client: "Admit Gautam",
+        clientInfo: "Software Developer",
+        img: "https://sviet.ac.in/wp-content/uploads/2022/01/uu.png",
+        studentImage: "https://sviet.ac.in/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-20-at-5.51.29-AM.jpeg"
+    },
+];
+export function TestimonialSectionCarousel() {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 720, // Adjust breakpoint as needed
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    vertical: false,
+                    verticalSwiping: false,
+                },
+            },
+        ],
+    };
+
+    return (
+        <section className="px-8 py-10 lg:py-28">
+            <div className="w-10/12 mx-auto">
+                <Typography
+                    variant="h2"
+                    color="blue-gray"
+                    className="mb-4 !text-2xl lg:!text-4xl"
+                >
+                    Our Students Speak
+                </Typography>
+                <Typography
+                    variant="lead"
+                    className="max-w-3xl !text-gray-500 mb-10 lg:mb-20"
+                >
+                    Our Reviews Speak for Us
+                </Typography>
+                <Slider {...settings} className="py-12">
+                    {testimonials.map((props, key) => (
+                        <TestimonialCard key={key} {...props}/>
+                    ))}
+                </Slider>
+            </div>
+        </section>
+    );
+}
+
+export default TestimonialSectionCarousel;

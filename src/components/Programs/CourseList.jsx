@@ -2,109 +2,126 @@
 
 import React from 'react'
 import { useState } from 'react';
+import { useRouter } from 'next/router';
+import Link from 'next/link';
+
+
+import data from '@/data/data'
+
 const CourseList = () => {
+
     const [categoryFilter, setCategoryFilter] = useState('');
     const [durationFilter, setDurationFilter] = useState('');
 
-    const educationPrograms = [
-        {
-            category: "Engineering and Technology",
-            programs: [
-                { name: "M.Tech Computer Science and Engineering(CSE)", duration: "2 years", link: "example.com/mtech_cse" },
-                { name: "M.Tech Electronics and Comm. Engineering(ECE)", duration: "2 years", link: "example.com/mtech_ece" },
-                { name: "M.Tech Mechanical Engineering(ME)", duration: "2 years", link: "example.com/mtech_me" },
-                { name: "B.Tech Computer Science and Engineering(CSE)", duration: "4 years", link: "example.com/btech_cse" },
-                { name: "B.Tech Electronics and Comm. Engineering(ECE)", duration: "4 years", link: "example.com/btech_ece" },
-                { name: "B.Tech Electrical Engineering(EE)", duration: "4 years", link: "example.com/btech_ee" },
-                { name: "B.Tech Mechanical Engineering(ME)", duration: "4 years", link: "example.com/btech_me" },
-                { name: "B.Tech Civil Engineering(CE)", duration: "4 years", link: "example.com/btech_ce" },
-                { name: "Polytechnic/Diploma Computer Science and Engineering(CSE)", duration: "3 years", link: "example.com/poly_cse" },
-                { name: "Polytechnic/Diploma Electrical Engineering(EE)", duration: "3 years", link: "example.com/poly_ee" },
-                { name: "Polytechnic/Diploma Mechanical Engineering(ME)", duration: "3 years", link: "example.com/poly_me" },
-                { name: "Polytechnic/Diploma Civil Engineering(CE)", duration: "3 years", link: "example.com/poly_ce" },
-                { name: "Industrial Training Institute(ITI) WELDER", duration: "2 years", link: "example.com/iti_welder" },
-                { name: "Industrial Training Institute(ITI) PLUMBER", duration: "2 years", link: "example.com/iti_plumber" },
-                { name: "Industrial Training Institute(ITI) COPA", duration: "2 years", link: "example.com/iti_copa" }
-            ]
-        },
-        {
-            category: "Nursing",
-            programs: [
-                { name: "Diploma in Nursing", duration: "3 years", link: "example.com/diploma_nursing" },
-                { name: "Pharmacy Masters in Pharmacy (M.Pharm.)", duration: "2 years", link: "example.com/mpharm" },
-                { name: "Bachelor in Pharmacy(B.Pharm)", duration: "4 years", link: "example.com/bpharm" },
-                { name: "Diploma in Pharmacy (D.Pharm.)", duration: "2 years", link: "example.com/dpharm" },
-                { name: "Doctor of Pharmacy (Pharm. D)", duration: "6 years", link: "example.com/pharmd" }
-            ]
-        },
-        {
-            category: "Hospitality and Catering",
-            programs: [
-                { name: "Master of Hotel Management & Catering Technology (MHMCT)", duration: "2 years", link: "example.com/mhmct" },
-                { name: "Bachelor of Hotel Management & Catering Technology (BHMCT)", duration: "4 years", link: "example.com/bhmct" },
-                { name: "Bachelor of Vocation in Hotel Management (B.Voc HMCT)", duration: "3 years", link: "example.com/bvoc_hmct" },
-                { name: "B.Sc Nutrition and Dietics (B.Sc N&D)", duration: "3 years", link: "example.com/bsc_nutrition" }
-            ]
-        },
-        {
-            category: "Education",
-            programs: [
-                { name: "Master of Education(M.Ed)", duration: "2 years", link: "example.com/med" },
-                { name: "Master of Arts in Education (M.A edu)", duration: "2 years", link: "example.com/ma_edu" },
-                { name: "Bachelor of Education(B.Ed)", duration: "2 years", link: "example.com/bed" },
-                { name: "Bachelor of Arts(B.A)", duration: "3 years", link: "example.com/ba" }
-            ]
-        },
-        {
-            category: "Computer Application",
-            programs: [
-                { name: "Master of Computer Application(MCA)", duration: "3 years", link: "example.com/mca" },
-                { name: "Bachelor of Computer Application(BCA)", duration: "3 years", link: "example.com/bca" },
-                { name: "Post Graduation Diploma in Computer Application(PGDCA)", duration: "1 year", link: "example.com/pgdca" },
-                { name: "B.Sc Information Technology (B.Sc IT)", duration: "3 years", link: "example.com/bsc_it" }
-            ]
-        },
-        {
-            category: "Law",
-            programs: [
-                { name: "Bachelor of Law (LLB)", duration: "3 years", link: "example.com/llb" },
-                { name: "Bachelor of Arts + Bachelor of Law (BA. LL.B)", duration: "5 years", link: "example.com/ba_llb" }
-            ]
-        },
-        {
-            category: "Business Studies",
-            programs: [
-                { name: "Master in Business Administration(MBA)", duration: "2 years", link: "example.com/mba" },
-                { name: "Bachelor in Business Administration (BBA)", duration: "3 years", link: "example.com/bba" },
-                { name: "Bachelor for Commerce(B.Com)", duration: "3 years", link: "example.com/bcom" },
-                { name: "Master of Commerce (M.Com)", duration: "2 years", link: "example.com/mcom" }
-            ]
-        },
-        {
-            category: "Paramedical",
-            programs: [
-                { name: "M.Sc-MLS-Biochemistry", duration: "2 years", link: "example.com/msc_biochemistry" },
-                { name: "M.Sc-Anesthesia & Operation Theatre Technology (M.Sc Anes. & OTT)", duration: "2 years", link: "example.com/msc_anesthesia" },
-                { name: "B.Sc-Radio Medical Imaging Technology (B.Sc RMIT)", duration: "3 years", link: "example.com/bsc_rmit" },
-                { name: "B.Sc-Operation Theatre Technology (B.Sc OTT)", duration: "3 years", link: "example.com/bsc_ott" },
-                { name: "B.Sc-Optometry", duration: "3 years", link: "example.com/bsc_optometry" },
-                { name: "B.Sc-Anesthesia & Operation Technology (B.Sc Anes. & OTT)", duration: "3 years", link: "example.com/bsc_anesthesia" },
-                { name: "B.Sc-Medical Lab Science (B.Sc MLS)", duration: "3 years", link: "example.com/bsc_mls" },
-                { name: "Diploma in Medical Lab Technology (DMLT)", duration: "2 years", link: "example.com/dmlt" },
-                { name: "B.Sc Cardiac Care Technology (B.Sc CCT)", duration: "3 years", link: "example.com/bsc_cct" },
-                { name: "B.Sc Physiotherapy", duration: "4 years", link: "example.com/bsc_physiotherapy" }
-            ]
-        },
-        {
-            category: "Basic Science",
-            programs: [
-                { name: "M.Sc Maths", duration: "2 years", link: "example.com/msc_maths" },
-                { name: "M.Sc Physics", duration: "2 years", link: "example.com/msc_physics" },
-                { name: "M.Sc Chemistry", duration: "2 years", link: "example.com/msc_chemistry" },
-                { name: "B.Sc Non-Medical", duration: "3 years", link: "example.com/bsc_non_medical" }
-            ]
-        }
-    ];
+    // const educationPrograms = [
+    //     {
+    //         category: "Engineering and Technology",
+    //         programs: [
+    //             { name: "M.Tech Computer Science and Engineering(CSE)", duration: "2 years", link: "example.com/mtech_cse" },
+    //             { name: "M.Tech Electronics and Comm. Engineering(ECE)", duration: "2 years", link: "example.com/mtech_ece" },
+    //             { name: "M.Tech Mechanical Engineering(ME)", duration: "2 years", link: "example.com/mtech_me" },
+    //             { name: "B.Tech Computer Science and Engineering(CSE)", duration: "4 years", link: "example.com/btech_cse" },
+    //             { name: "B.Tech Electronics and Comm. Engineering(ECE)", duration: "4 years", link: "example.com/btech_ece" },
+    //             { name: "B.Tech Electrical Engineering(EE)", duration: "4 years", link: "example.com/btech_ee" },
+    //             { name: "B.Tech Mechanical Engineering(ME)", duration: "4 years", link: "example.com/btech_me" },
+    //             { name: "B.Tech Civil Engineering(CE)", duration: "4 years", link: "example.com/btech_ce" },
+    //             { name: "Polytechnic/Diploma Computer Science and Engineering(CSE)", duration: "3 years", link: "example.com/poly_cse" },
+    //             { name: "Polytechnic/Diploma Electrical Engineering(EE)", duration: "3 years", link: "example.com/poly_ee" },
+    //             { name: "Polytechnic/Diploma Mechanical Engineering(ME)", duration: "3 years", link: "example.com/poly_me" },
+    //             { name: "Polytechnic/Diploma Civil Engineering(CE)", duration: "3 years", link: "example.com/poly_ce" },
+    //             { name: "Industrial Training Institute(ITI) WELDER", duration: "2 years", link: "example.com/iti_welder" },
+    //             { name: "Industrial Training Institute(ITI) PLUMBER", duration: "2 years", link: "example.com/iti_plumber" },
+    //             { name: "Industrial Training Institute(ITI) COPA", duration: "2 years", link: "example.com/iti_copa" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Nursing",
+    //         programs: [
+    //             { name: "Diploma in Nursing", duration: "3 years", link: "example.com/diploma_nursing" },
+    //             { name: "Pharmacy Masters in Pharmacy (M.Pharm.)", duration: "2 years", link: "example.com/mpharm" },
+    //             { name: "Bachelor in Pharmacy(B.Pharm)", duration: "4 years", link: "example.com/bpharm" },
+    //             { name: "Diploma in Pharmacy (D.Pharm.)", duration: "2 years", link: "example.com/dpharm" },
+    //             { name: "Doctor of Pharmacy (Pharm. D)", duration: "6 years", link: "example.com/pharmd" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Hospitality and Catering",
+    //         programs: [
+    //             { name: "Master of Hotel Management & Catering Technology (MHMCT)", duration: "2 years", link: "example.com/mhmct" },
+    //             { name: "Bachelor of Hotel Management & Catering Technology (BHMCT)", duration: "4 years", link: "example.com/bhmct" },
+    //             { name: "Bachelor of Vocation in Hotel Management (B.Voc HMCT)", duration: "3 years", link: "example.com/bvoc_hmct" },
+    //             { name: "B.Sc Nutrition and Dietics (B.Sc N&D)", duration: "3 years", link: "example.com/bsc_nutrition" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Education",
+    //         programs: [
+    //             { name: "Master of Education(M.Ed)", duration: "2 years", link: "example.com/med" },
+    //             { name: "Master of Arts in Education (M.A edu)", duration: "2 years", link: "example.com/ma_edu" },
+    //             { name: "Bachelor of Education(B.Ed)", duration: "2 years", link: "example.com/bed" },
+    //             { name: "Bachelor of Arts(B.A)", duration: "3 years", link: "example.com/ba" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Computer Application",
+    //         programs: [
+    //             { name: "Master of Computer Application(MCA)", duration: "3 years", link: "example.com/mca" },
+    //             { name: "Bachelor of Computer Application(BCA)", duration: "3 years", link: "example.com/bca" },
+    //             { name: "Post Graduation Diploma in Computer Application(PGDCA)", duration: "1 year", link: "example.com/pgdca" },
+    //             { name: "B.Sc Information Technology (B.Sc IT)", duration: "3 years", link: "example.com/bsc_it" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Law",
+    //         programs: [
+    //             { name: "Bachelor of Law (LLB)", duration: "3 years", link: "example.com/llb" },
+    //             { name: "Bachelor of Arts + Bachelor of Law (BA. LL.B)", duration: "5 years", link: "example.com/ba_llb" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Business Studies",
+    //         programs: [
+    //             { name: "Master in Business Administration(MBA)", duration: "2 years", link: "example.com/mba" },
+    //             { name: "Bachelor in Business Administration (BBA)", duration: "3 years", link: "example.com/bba" },
+    //             { name: "Bachelor for Commerce(B.Com)", duration: "3 years", link: "example.com/bcom" },
+    //             { name: "Master of Commerce (M.Com)", duration: "2 years", link: "example.com/mcom" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Paramedical",
+    //         programs: [
+    //             { name: "M.Sc-MLS-Biochemistry", duration: "2 years", link: "example.com/msc_biochemistry" },
+    //             { name: "M.Sc-Anesthesia & Operation Theatre Technology (M.Sc Anes. & OTT)", duration: "2 years", link: "example.com/msc_anesthesia" },
+    //             { name: "B.Sc-Radio Medical Imaging Technology (B.Sc RMIT)", duration: "3 years", link: "example.com/bsc_rmit" },
+    //             { name: "B.Sc-Operation Theatre Technology (B.Sc OTT)", duration: "3 years", link: "example.com/bsc_ott" },
+    //             { name: "B.Sc-Optometry", duration: "3 years", link: "example.com/bsc_optometry" },
+    //             { name: "B.Sc-Anesthesia & Operation Technology (B.Sc Anes. & OTT)", duration: "3 years", link: "example.com/bsc_anesthesia" },
+    //             { name: "B.Sc-Medical Lab Science (B.Sc MLS)", duration: "3 years", link: "example.com/bsc_mls" },
+    //             { name: "Diploma in Medical Lab Technology (DMLT)", duration: "2 years", link: "example.com/dmlt" },
+    //             { name: "B.Sc Cardiac Care Technology (B.Sc CCT)", duration: "3 years", link: "example.com/bsc_cct" },
+    //             { name: "B.Sc Physiotherapy", duration: "4 years", link: "example.com/bsc_physiotherapy" }
+    //         ]
+    //     },
+    //     {
+    //         category: "Basic Science",
+    //         programs: [
+    //             { name: "M.Sc Maths", duration: "2 years", link: "example.com/msc_maths" },
+    //             { name: "M.Sc Physics", duration: "2 years", link: "example.com/msc_physics" },
+    //             { name: "M.Sc Chemistry", duration: "2 years", link: "example.com/msc_chemistry" },
+    //             { name: "B.Sc Non-Medical", duration: "3 years", link: "example.com/bsc_non_medical" }
+    //         ]
+    //     }
+    // ];
+
+    const educationPrograms = data.map((singleData, key) => ({
+        index: key,
+        category: singleData.course_name,
+        programs: [{
+            name: singleData.program_name,
+            duration: singleData.duration,
+            link: singleData.id
+        }]
+    }));
 
     const swamiVivekanandInstitutes = [
         { name: "Swami Vivekanand Institute of Engineering and Technology (SVIET)", category: "Engineering and Technology" },
@@ -123,12 +140,12 @@ const CourseList = () => {
 
     // Filtered programs based on category and duration
     const filteredPrograms = educationPrograms.filter((program) => {
-    const programDurations = program.programs.map((course) => course.duration);
-    return (
-      (categoryFilter === '' || program.category === categoryFilter) &&
-      (durationFilter === '' || programDurations.includes(durationFilter))
-    );
-  });
+        const programDurations = program.programs.map((course) => course.duration);
+        return (
+            (categoryFilter === '' || program.category === categoryFilter) &&
+            (durationFilter === '' || programDurations.includes(durationFilter))
+        );
+    });
     // Example usage:
 
 
@@ -140,8 +157,8 @@ const CourseList = () => {
                     Our Institutions
                 </p>
                 {
-                    swamiVivekanandInstitutes.map(name => (
-                        <p className='text-xl my-3 py-3'>
+                    swamiVivekanandInstitutes.map((name, index) => (
+                        <p key={index} className='text-xl my-3 py-3'>
                             {name.name}
                         </p>
                     ))
@@ -153,11 +170,11 @@ const CourseList = () => {
                     <div className=''>
                         <p>
                             <span className='text-[#fea700] text-lg font-medium pb-6'>
-                            Filter By </span> :  <select
-                                className=" appearance-none bg-white border border-gray-400 hover:border-gray-500 p-1 px-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
-                                value={categoryFilter}
-                                onChange={(e) => setCategoryFilter(e.target.value)}
-                            >
+                                Filter By </span> :  <select
+                                    className=" appearance-none bg-white border border-gray-400 hover:border-gray-500 p-1 px-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+                                    value={categoryFilter}
+                                    onChange={(e) => setCategoryFilter(e.target.value)}
+                                >
                                 <option value="" className='p-2 border-b-2 '>All Categories</option>
                                 {/* Populate options with unique categories */}
                                 {educationPrograms.map(program => (
@@ -193,8 +210,11 @@ const CourseList = () => {
                                             <p className="text-xl mt-3">
                                                 Duration :  <span className='text-[#fea700]'>{course.duration}</span>
                                             </p>
-                                            <button className='hover:bg-[#fea700] rounded-md w-8 h-8 flex justify-center transition items-center text-[#fea700] hover:text-white hover:rounded-full bg-gray-100'><i className='fa fa-arrow-right'></i></button>
-                                        </div>
+                                            <Link href={{
+                                                pathname: `/programs/${course.link}`
+                                            }}>
+                                                <button className='hover:bg-[#fea700] rounded-md w-8 h-8 flex justify-center transition items-center text-[#fea700] hover:text-white hover:rounded-full bg-gray-100'><i className='fa fa-arrow-right'></i></button>
+                                            </Link> </div>
                                     </li>
                                 ))}
                             </ul>

@@ -22,14 +22,14 @@ const ChartYourPath = () => {
     }
   ];
   return (
-    <div style={{backgroundImage:`url(${success.src})`, backgroundSize:"cover", backgroundPosition:"center center"}}>
-      <div className='bg-[#00112ded] h-auto lg:h-[100vh] text-white py-10 lg:mt-[-300px] md:mt-auto flex items-end'>
-        <div className="w-10/12 mx-auto py-10 ">
-          <p className='text-4xl'>
-            Be Future Ready
+    <div style={{backgroundImage:`url(${success.src})`, backgroundSize:"cover", backgroundPosition:"center center", backgroundAttachment:"fixed"}}>
+      <div className='bg-[#00112ded] h-auto lg:h-[100vh] text-white py-10 lg:mt-[-200px] md:mt-auto flex items-center'>
+        <div className="w-10/12 mx-auto ">
+          <p className='text-4xl font-semibold'>
+            Be <span className='text-[#fea700]'>Future Ready</span>
           </p>
           <div className='flex flex-wrap justify-between'>
-            <p className='text-4xl mt-2'>
+            <p className='text-4xl mt-2 font-semibold'>
 
               Chart Your Path To Success To SVIET
 
@@ -41,8 +41,8 @@ const ChartYourPath = () => {
 
           </div>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 py-5 gap-6'>
-            {chartYourPathContent.map(data => (
-              <div className='pr-3'>
+            {chartYourPathContent.map((data, index)=> (
+              <div key={index}  className='pr-3'>
                 <p className='text-2xl mb-5'>
                   {data.title}
                 </p>

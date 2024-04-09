@@ -1,0 +1,25 @@
+@keyframes line-forward {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes line-backward {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+.animate-line-forward {
+    animation: line-forward 2s ease-in forwards;
+}
+
+.animate-line-backward {
+    animation: line-backward 2s ease-out forwards;
+}

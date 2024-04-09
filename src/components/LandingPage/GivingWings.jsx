@@ -5,39 +5,50 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-import bannerImage from '@/assets/LandingPage/bannerImage.jpg'
+import { Card, CardBody, Typography, Avatar } from "@material-tailwind/react";
+import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid';
+
+
+
+import project from '@/assets/LandingPage/Chandigarh/GivingWings/ProjectBased.jpg'
+import research from '@/assets/LandingPage/Chandigarh/GivingWings/Research.jpg'
+import startup from '@/assets/LandingPage/Chandigarh/GivingWings/startup.jpg'
+import initiative from '@/assets/LandingPage/Chandigarh/GivingWings/init.jpg'
+import sporting from '@/assets/LandingPage/Chandigarh/GivingWings/sporting.webp'
+import international from '@/assets/LandingPage/Chandigarh/GivingWings/international.webp'
+import bannerImage from '@/assets/LandingPage/Chandigarh/GivingWings/banner.jpg'
 
 const GivingWings = () => {
     const collegeInformation = [
         {
             category: "Research",
-            img:"https://sviet.ac.in/wp-content/uploads/2021/05/2ss-700x400.png",
-            description: "Students leading the search for knowledge with highly equipped research facilities at the campus. More than 100 research articles published at national and international stages."
+            img: research.src,
+            description: "Students lead research with state-of-the-art facilities. Over 100 articles published nationally and internationally."
         },
         {
-            category: "Project Based Learning",
-            img:"https://sviet.ac.in/wp-content/uploads/2021/05/5s-700x400.png",
-            description: "Investigate and respond to authentic & complex challenges and go beyond learning with project-based learning while experiencing enriching experiences."
+            category: "Project-Based Learning",
+            img: project.src,
+            description: "Engage in authentic challenges with project-based learning, fostering practical skills."
         },
         {
             category: "Sporting Excellence",
-            img:"https://sviet.ac.in/wp-content/uploads/2021/05/6s-700x400.png",
-            description: "Compete and achieve excellence with passion under the excellent sporting environment. More than 30 sports tournament participations happening over the Year."
+            img: sporting.src,
+            description: "Excel in sports with over 30 tournament participations annually, fostering passion and skill."
         },
         {
             category: "Startups",
-            img:"https://sviet.ac.in/wp-content/uploads/2022/07/fsfssfsf.jpg",
-            description: "Incubation environment for innovative student entrepreneurship, more than 15 successful companies have started their journey at SVGOI."
+            img: startup.src,
+            description: "Incubate innovative entrepreneurship with more than 15 successful startups launched at SVGOI."
         },
         {
             category: "Global Exposure",
-            img:"https://sviet.ac.in/wp-content/uploads/2022/07/fsdsdds.jpg",
-            description: "International tie-ups with more than 25 colleges from 7 countries with students from more than 10 countries studying on campus."
+            img: international.src,
+            description: "Expand horizons with international tie-ups, hosting students from over 10 countries."
         },
         {
-            category: "Super 60 Batch",
-            img:"https://sviet.ac.in/wp-content/uploads/2022/04/sgfddf.jpg",
-            description: "There is a special batch of 30 to 60 Students in each branch which is called SUPER-60 in CSE, ALLIED-30 group in Civil, and so on. These Students assured 100% placement in the campus placement drive."
+            category: "Special Initiatives",
+            img: initiative.src,
+            description: "Special batches like TheUniques, SUPER-60 and ALLIED-30 assure 100% placement for students."
         }
     ];
 
@@ -108,68 +119,88 @@ const GivingWings = () => {
     };
 
     return (
-        <div className='py-6 h-auto lg:h-[100vh] items-center bg-gray-100'>
+        <div className='py-6 h-auto lg:h-[120vh] flex items-center bg-gray-100'>
             <div className='w-10/12 mx-auto'>
-                <div>
-                    <p className="text-4xl text-center pt-6 font-medium">
+                <div className='mt-7'>
+                    <Typography
+                        color="blue-gray"
+                        className="mb-2 font-bold uppercase"
+
+                    >
+
+                    </Typography>
+                    <Typography
+                        color="blue-gray"
+                        className="mb-4 !text-2xl font-bold lg:!text-4xl"
+
+                    >
                         Giving Wings To Your Career
-                    </p>
+                    </Typography>
+                    <Typography
+                        variant="lead"
+                        className=" !text-gray-500"
+
+                    >
+                        A Place Where We Nuture, Grow, Explore & Learn from The Best
+                    </Typography>
                 </div>
                 <div className='flex flex-wrap my-6 py-6 '>
-                    <div className="w-full md:w-1/2 lg:w-2/3 p-3">
+                    <div className="w-full md:w-1/2 lg:w-2/3 md:pr-5">
                         <Slider {...settings}>
                             {collegeInformation.map((info, index) => (
-                                <div key={index} className='p-1 h-full'>
-                                    <div className="border rounded-md h-[40vh] " style={{backgroundImage:`url(${info.img})`, backgroundSize:"cover", backgroundRepeat:"no-repeat", backgroundPosition:"center center"}}>
-                                        <div className="w-full h-full bg-[#00000050] flex flex-col justify-end text-white p-5 ">
-                                        <h2 className="text-xl font-semibold">{info.category}</h2>
-                                        <p className="mt-2 text-sm">{info.description}</p>
+                                <div key={index} className='h-full'>
+                                    <div className="border rounded-md h-[50vh] " style={{ backgroundImage: `url(${info.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                                        <div className="w-full h-full bg-[#00000048] flex flex-col justify-between text-white p-5 ">
+                                            <h2 className="text-xl font-semibold">{info.category}</h2>
+                                            <p className="mt-2 text-lg font-semibold">{info.description}</p>
                                         </div>
                                     </div>
                                 </div>
                             ))}
                         </Slider>
                     </div>
-                    <div className="w-full md:w-1/2 lg:w-1/3 flex justify-center items-center">
-                        <div className="w-full grid grid-cols-2">
-                            <div className='border-b-2 border-r-2 p-5 flex flex-col justify-center'>
-                                <p className="text-4xl mb-3 ">
+                    <div className="w-full md:w-1/2 lg:w-1/3 flex justify-center">
+                        <div className="w-full grid grid-cols-2 gap-5 lg:pt-0 pt-12">
+                            <div className='bg-white rounded-md p-5 shadow-md flex flex-col justify-center'>
+
+                                <p className=" text-4xl mb-3 font-semibold">
                                     3,000
                                 </p>
-                                <p className="  text-lg font-medium bg-[#fea700] text-white px-2 py-1 w-fit mb-2 rounded-sm">
+
+                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
                                     Offer Letters
                                 </p>
                                 <p className="font-medium mb-3 text-sm">
                                     Every Year
                                 </p>
                             </div>
-                            <div className='border-b-2 p-5 flex flex-col justify-center'>
-                                <p className="text-4xl mb-3">
+                            <div className='bg-[#fea700] text-white rounded-md p-5 shadow-md flex flex-col justify-center'>
+                                <p className=" text-4xl mb-3 font-semibold">
                                     45 LPA
                                 </p>
-                                <p className="  text-lg font-medium bg-[#fea700] text-white px-2 py-1 w-fit mb-2 rounded-sm">
+                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
                                     Highest Package
                                 </p>
                                 <p className="font-medium mb-3 text-sm">
                                     Offered
                                 </p>
                             </div>
-                            <div className=' border-r-2 p-5 flex flex-col justify-center'>
-                                <p className="text-4xl mb-3">
+                            <div className=' bg-[#fea700] text-white rounded-md p-5 shadow-md flex flex-col justify-center'>
+                                <p className=" text-4xl mb-3 font-semibold">
                                     350
                                 </p>
-                                <p className="  text-lg font-medium bg-[#fea700] text-white px-2 py-1 w-fit mb-2 rounded-sm">
+                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
                                     Companies
                                 </p>
                                 <p className="font-medium mb-3 text-sm">
                                     Visit Per year
                                 </p>
                             </div>
-                            <div className='p-5 flex flex-col justify-center'>
-                                <p className="text-4xl mb-3">
+                            <div className='bg-white rounded-md p-5  shadow-md flex flex-col justify-center'>
+                                <p className=" text-4xl mb-3 font-semibold">
                                     12000
                                 </p>
-                                <p className="  text-lg font-medium bg-[#fea700] text-white px-2 py-1 w-fit mb-2 rounded-sm">
+                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
                                     Dreams
                                 </p>
                                 <p className="font-medium mb-3 text-sm">
@@ -180,29 +211,29 @@ const GivingWings = () => {
                     </div>
                 </div>
                 <div className="flex flex-wrap py-6">
-                    <div className="w-full md:w-1/2 text-white" style={{backgroundImage:`url(${bannerImage.src})`, backgroundSize:"cover", backgroundRepeat:"no-repeat", backgroundPosition:"center center"}}>
+                    <div className="w-full md:w-1/2 text-white" style={{ backgroundImage: `url(${bannerImage.src})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                         <div className=' p-6 py-10 rounded-md flex flex-col justify-center w-full h-full bg-[#00000080]'>
-                        <p className='text-xl font-semibold'>
-                            Bringinng the World to SVGOI?
+                            <p className='text-lg lg:text-2xl font-semibold mb-3'>
+                                Bringinng the World to SVGOI?
 
-                        </p>
-                        <p className='text-sm'>
-                            Commitment towards teaching excellence, focus on research, tailored courses to make education relevant to changing careers.
-                        </p>
+                            </p>
+                            <p className='text-sm lg:text-lg'>
+                                Commitment towards teaching excellence, focus on research, tailored courses to make education relevant to changing careers.
+                            </p>
                         </div>
                     </div>
                     <div className="w-full md:w-1/2">
                         <Slider {...settings2}>
                             {placementDriveInformation.map((info, index) => (
-                                <div key={index} className='px-2 h-full'>
+                                <div key={index} className='lg:px-2 lg:mt-0 mt-6 h-full'>
                                     <div className="p-5 rounded-md flex flex-col h-[25vh] justify-between bg-white">
-                                        <div>
+                                        <div className=''>
                                             <h2 className="text-xl font-semibold">{info.company}</h2>
-                                            <p className='text-sm font-medium'>{info.date}</p>
+                                            <p className='text-sm font-medium pt-3'>{info.date}</p>
                                             <p className="mt-2 text-xs">{info.details}</p>
                                         </div>
                                         <div>
-                                            <button className='bg-[#fea700] text-white p-1 rounded-sm'>Know More</button>
+                                            <button className=' text-[#fea700] font-medium rounded-sm flex items-center gap-1'>Know More <ChevronDoubleRightIcon className='h-4 w-4 font-bold' /></button>
                                         </div>
                                     </div>
                                 </div>

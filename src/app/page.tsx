@@ -6,10 +6,11 @@ import ChartYourPath from "@/components/LandingPage/ChartYourPath"
 import SVIETinMedia from "@/components/LandingPage/SVIETinMedia"
 import Testimonials from "@/components/LandingPage/Testimonials"
 import EventCarousel from "@/components/LandingPage/EventCarousel"
+import FeaturesSection16 from '@/components/LandingPage/FeaturesSection16'
 export default function Home() {
   return(
     
-    <div>
+    <main>
       <Header/>
       <GivingWings/>
       <PlacementOverview/>
@@ -18,6 +19,7 @@ export default function Home() {
       <SVIETinMedia/>
       <EventCarousel/>
       <Testimonials/>
-    </div>
+      <FeaturesSection16/>
+    </main>
   )
 }

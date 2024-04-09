@@ -1,4 +1,6 @@
 import React from 'react'
+import Image from 'next/image'
+
 
 const AboutDepartment = () => {
     return (
@@ -18,7 +20,7 @@ const AboutDepartment = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>
-                        <img src="https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg" alt="" srcset="" width={"100%"} className='rounded-md shadow-md' />
+                        <Image src="https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg" alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
                     </div>
 
                 </div>
