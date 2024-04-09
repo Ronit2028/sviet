@@ -1,13 +1,9 @@
 import React from 'react'
-<<<<<<< HEAD
-import sir from '@/assets/Programs/sir.jpg'
-=======
 
 import department from '@/assets/placement/dir.jpg'
 import Image from 'next/image'
 
 
->>>>>>> 5dd00178a39e7d09f35d13a54a97028373decf99
 const Department = () => {
     return (
         <div className='py-12 w-10/12 mx-auto'>
@@ -21,15 +17,8 @@ const Department = () => {
 
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
-<<<<<<< HEAD
-                    <div>
-                        <img src={sir.src} alt="" srcset="" className='rounded-md shadow-md object-cover ' />
-=======
                     <div className='flex items-center justify-center'>
-
-
                         <Image src={department} className='h-4/5 w-4/5 object-cover border-b-8 shadow-md rounded-md border-[#fea700]' />
->>>>>>> 5dd00178a39e7d09f35d13a54a97028373decf99
                     </div>
 
                 </div>

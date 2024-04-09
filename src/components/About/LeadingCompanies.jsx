@@ -72,7 +72,7 @@ const LeadingCompanies = () => {
               <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos2.src} alt="Google" />
 
             </div>
-          </div>
+          </div>  
           <div className="grid gap-4">
             <div className='bg-[#02020205]' style={placeholderStyle}>
               <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos3.src} alt="Google" />
