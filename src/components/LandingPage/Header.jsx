@@ -24,6 +24,7 @@ const Header = () => {
         dots: false,
         speed: 500,
         autoplay: true,
+        arrows:false,
     };
     console.log("Hello")
     const sectionData = [
