@@ -33,21 +33,21 @@ export default function MulCharts() {
             <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)} >
                 <div >
                     <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                        <h1 className="text-xl font-medium text-center py-8">Highest Package(last 5 years trends)</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
                                         label: "Students Placed",
-                                        data: [100, 200, 300, 340, 350],
+                                        data: [272, 283, 292, 315, 362],
                                         backgroundColor: '#016db6',
                                     },
-                                    {
-                                        label: "Not placed",
-                                        data: [1, 2, 3, 0, 0],
-                                        backgroundColor: '#ff9602',
-                                    },
+                                    // {
+                                    //     label: "Not placed",
+                                    //     data: [1, 2, 3, 0, 0],
+                                    //     backgroundColor: '#ff9602',
+                                    // },
                                 ]
                             }}
                             options={{
@@ -82,21 +82,21 @@ export default function MulCharts() {
                 </div>
                 <div>
                     <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                        <h1 className="text-xl font-medium text-center py-8">Average Package (Last 5 Years Trends)</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "Students Placed",
-                                        data: [100, 200, 300, 340, 350],
+                                        label: "LPA/Annum",
+                                        data: [4.2, 4.5, 6, 6.5, 7],
                                         backgroundColor: '#016db6',
                                     },
-                                    {
-                                        label: "Not placed",
-                                        data: [1, 2, 3, 0, 0],
-                                        backgroundColor: '#ff9602',
-                                    },
+                                    // {
+                                    //     label: "Not placed",
+                                    //     data: [1, 2, 3, 0, 0],
+                                    //     backgroundColor: '#ff9602',
+                                    // },
                                 ]
                             }}
                             options={{
@@ -120,7 +120,7 @@ export default function MulCharts() {
                                     y: {
                                         title: {
                                             display: true,
-                                            text: 'Number of Students'
+                                            text: 'LPA'
                                         }
                                     }
                                 }
@@ -130,21 +130,21 @@ export default function MulCharts() {
                 </div>
                 <div>
                     <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                        <h1 className="text-xl font-medium text-center py-8">Students Selected (Last 5 years Trends)</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "Students Placed",
-                                        data: [500, 290, 300, 340, 350],
+                                        label: "Students Selected",
+                                        data: [1145, 1316, 1435, 1632, 1763],
                                         backgroundColor: '#016db6',
                                     },
-                                    {
-                                        label: "Not placed",
-                                        data: [1, 0, 0, 8, 9],
-                                        backgroundColor: '#ff9602',
-                                    },
+                                    // {
+                                    //     label: "Not placed",
+                                    //     data: [1, 0, 0, 8, 9],
+                                    //     backgroundColor: '#ff9602',
+                                    // },
                                 ]
                             }}
                             options={{
@@ -178,21 +178,21 @@ export default function MulCharts() {
                 </div>
                 <div>
                     <div className="w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies recruittting at SVIET</h1>
+                        <h1 className="text-xl font-medium text-center py-8">Companies Visited (Last 5 Years Trends)</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "Students Placed",
-                                        data: [340, 350, 100, 200, 300],
+                                        label: "Companies Vistied",
+                                        data: [272, 283, 292, 315, 362],
                                         backgroundColor: '#016db6',
                                     },
-                                    {
-                                        label: "Not placed",
-                                        data: [1, 6, 9, 0, 0],
-                                        backgroundColor: '#ff9602',
-                                    },
+                                    // {
+                                    //     label: "Not placed",
+                                    //     data: [1, 6, 9, 0, 0],
+                                    //     backgroundColor: '#ff9602',
+                                    // },
                                 ]
                             }}
                             options={{
@@ -216,7 +216,7 @@ export default function MulCharts() {
                                     y: {
                                         title: {
                                             display: true,
-                                            text: 'Number of Students'
+                                            text: 'Number of Companies'
                                         }
                                     }
                                 }
