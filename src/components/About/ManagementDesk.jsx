@@ -2,6 +2,14 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+// images
+import img1 from "../../assets/About/Managemwnt/ashwani-sir.jpg"
+import img2 from "../../assets/About/Managemwnt/ashok-sir.jpg"
+import img3 from "../../assets/About/Managemwnt/vishal-sir.jpg"
+import img4 from "../../assets/About/Managemwnt/ankurgupta.jpg"
+import img5 from "../../assets/About/Managemwnt/sahil-sir.jpg"
+import img6 from "../../assets/About/Managemwnt/shubham-sir.jpg"
+
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 const desk = [
@@ -9,37 +17,37 @@ const desk = [
     "name": "Mr. Ashwani Garg",
     "position": "Chairman",
     "description": "I welcome every aspiring achiever to the Swami Vivekanand Group of Institutions. Today SVGOI has become a dream place to provide valuable educational experience to students, from different cultures and backgrounds. I am delighted to see the contributions, the students, faculty, and management of SVGOI have been making towards the overall success of students across the world. We have an interactive curriculum made to provide definite learning solutions in the field of Scientific studies, Medical studies, Arts, Business & Engineering. In this world known as a global village, all boundaries and the national borders are gradually becoming more transparent. Our international collaborations have helped students to form unlimited opportunities of global exposure for our students, to excel in their careers. So join your hands with SVGOI and be future-ready.",
-    "image": "https://sviet.ac.in/wp-content/uploads/2023/02/chairman-sir-copy-550x500.jpg"
+    "image": img1.src
   },
   {
     "name": "Mr. Ashok Garg",
     "position": "President",
     "description": "SVGOI has experienced remarkable growth in recent years, earning widespread acclaim for its rapid advancement. Our journey from inception to our current standing is a testament to our unwavering dedication, exceptional faculty, and enriching learning environment. With a focus on quality education, we offer diverse programs affiliated with both national and international universities. We celebrate the achievements of our faculty, staff, and partners, employing modern teaching methods that empower students to realize their full potential. Emphasizing hands-on experience over mere theoretical knowledge, SVGOI is dedicated to providing practical solutions and fostering intellectual brilliance through research and development. Let's collaborate in building a skilled society together.",
-    "image": "https://sviet.ac.in/wp-content/uploads/2023/02/ashok-sir--550x500.jpg"
+    "image": img2.src
   },
   {
     "name": "Mr. Vishal Garg",
     "position": "Director Secretarial and Administration",
     "description": "At SVGOI, we prioritize global standards in academia, fostering active engagement among teachers, students, and industry. Our focus is on holistic education, preparing students for the challenges of a globalized world. With dedicated faculty and staff, we aim to excel in shaping individuals' futures and elevate SVGOI's standing in the academic realm. Our commitment to excellence is reflected in the diverse student body, including foreign exchange students, enriching our campus culture. Join us in experiencing exceptional intellectual and academic opportunities, shaping the future of learning together.",
-    "image": "https://sviet.ac.in/wp-content/uploads/2023/02/vishal-garg-550x500.jpg"
+    "image": img3.src
   },
   {
     "name": "Mr. Ankur Gupta",
     "position": "Director Corporate Affairs",
     "description": "Students from around the country are getting attracted to SVGOI because of our commitment to teaching excellence, focus on research, tailored courses that make our education relevant to changing career dynamics and formidable industry partnerships. The Curriculum is delivered in spacious, amphitheatre-style classrooms—fitted with modern Information and Communication Technology (ICT) equipment to participate in co-curricular and extra-curricular activities through various clubs and societies in the campus. SVGOI provides several opportunities for local students, to visit foreign universities and institutions on such exchange programs, thereby helping them receive invaluable international exposure.",
-    "image": "https://sviet.ac.in/wp-content/uploads/2023/02/ankur-gupta-copy-1-550x500.jpg"
+    "image": img4.src
   },
   {
     "name": "Mr. Sahil Garg",
     "position": "Project Director",
     "description": "SVGOI epitomizes quality, dedication, values, and commitment, evident through our accomplished alumni. To cement our position as a premier institute in Technical Higher Education in India, we offer diverse, industry-relevant programs. With a student-centric approach, SVGOI is esteemed as one of the top private colleges in North India. From computer science to mechanical engineering, business management to nursing, SVGOI provides a wide array of educational services. Our strength lies in nurturing globally competitive graduates prepared for success in various professional domains. Join us in shaping a brighter future together.",
-    "image": "https://sviet.ac.in/wp-content/uploads/2023/02/sahil-sir-550x500.jpg"
+    "image": img5.src
   },
   {
     "name": "Mr. Shubham Garg",
     "position": "Director Placements",
     "description": "Our aim is to provide Placements & Corporate Interface for the students and to make the students aware about the job opportunities and help them get placed. In the last fifteen years, Training & Placement Office (General) has been successfully able to place students of different courses & has invited reputed MNCs from, Social Sector, Information Technology, Manufacturing, ITES, Media, Services, Banking & Finance, etc. The Training & Placement Office (General) looks after the Campus Placements of the Engineering & Non-Engineering Courses of the College & Coordinates with the respective departmental TPO's regarding the Placement & related activities.",
-    "image": "https://sviet.ac.in/wp-content/uploads/2023/02/shubham-gargnew-550x500.jpg"
+    "image": img6.src
   }
 ];
 
@@ -74,7 +82,7 @@ export default function MulCharts() {
 
               <div key={index} className="  py-24 w-full">
                 <div className="h-full m-auto flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left gap-8">
-                  <img className="flex-shrink-0 rounded-lg w-96 h-96 object-cover object-center sm:mb-0 mb-4" src={member.image} alt={member.name} />
+                  <img className="flex-shrink-0 rounded-lg w-96 h-96 object-cover object-top sm:mb-0 mb-4" src={member.image} alt={member.name} />
                   <div className="flex-grow sm:pl-8">
                     <h2 className="title-font font-medium text-lg text-gray-900">{member.name}</h2>
                     <h3 className="text-gray-500 mb-3">{member.position}</h3>
