@@ -12,8 +12,6 @@ const CourseList = () => {
 
     const [categoryFilter, setCategoryFilter] = useState('');
     const [durationFilter, setDurationFilter] = useState('');
-
-    // const educationPrograms = [
     //     {
     //         category: "Engineering and Technology",
     //         programs: [
