@@ -20,7 +20,7 @@ const AboutDepartment = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>
-                        <Image src="https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg" alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
+                        <img src="https://sviet.org.in/wp-content/uploads/IMG_1197-scaled-1.jpg" alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
                     </div>
 
                 </div>

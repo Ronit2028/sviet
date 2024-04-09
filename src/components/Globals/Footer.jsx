@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -45,15 +46,14 @@ const Footer = () => {
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-8 p-6 border-r border-gray-400">
                         <div className="heading text-xl font-semibold mb-4">Quick Links</div>
                         <ul className="leading-loose text-sm font-light">
-                            <li><a href="#">Placement Overview</a></li>
-                            <li><a href="#">Career at SVGOI</a></li>
-                            <li><a href="#">Recognitions Approvals</a></li>
-                            <li><a href="#">Video Gallery</a></li>
-                            <li><a href="#">Photo Gallery</a></li>
-                            <li><a href="#">Grievances/Enquiry</a></li>
-                            <li><a href="#">Final Year 2023 Group Pictures</a></li>
-                            <li><a href="#">IQAC</a></li>
-                            <li><a href="#">NAAC</a></li>
+                            <li><a href="/placement">Placement Overview</a></li>
+                            <li><Link href="/about">Career at SVGOI</Link></li>
+                            <li><Link href="/about">Recognitions Approvals</Link></li>
+                            {/* <li><a href="#">Video Gallery</a></li> */}
+                            <li><a href="https://drive.google.com/drive/folders/1Z5x76AQUJEdBp1o-rH4cHMYg3coY1lDu">Photo Gallery</a></li>
+                            <li><Link href="/contact-us">Grievances/Enquiry</Link></li>
+                            <li><a href="https://drive.google.com/drive/folders/1zn_0Wid35r5DyfnCOsxcTrd0ZcZJ2FP1">Final Year 2023 Group Pictures</a></li>
+                            <li><a href="https://www.sviet.org.in">NAAC</a></li>
                         </ul>
                     </div>
                     {/* Resources section */}
