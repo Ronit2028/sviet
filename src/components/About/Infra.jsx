@@ -1,9 +1,9 @@
 import React from 'react';
 
-import sport from '@/assets/About/sports.jpg'
-import research from '@/assets/About/research.jpg'
-import lab from '@/assets/About/labs.jpg'
-import libraary from '@/assets/About/library.jpg'
+import sport from '../../assets/About/infra/sports.jpg'
+import research from '../../assets/About/infra/research.jpg'
+import lab from '../../assets/About/infra/labs.jpg'
+import libraary from '../../assets/About/infra/library.jpg'
 import Image from 'next/image';
 
 

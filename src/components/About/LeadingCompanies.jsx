@@ -1,11 +1,11 @@
 import React from 'react';
 
-import logos from '../../assets/About/leading/Amazon.webp'
-import logos1 from '../../assets/About/leading/Bank.webp'
-import logos2 from '../../assets/About/leading/Dell.webp'
-import logos3 from '../../assets/About/leading/image_2022_01_25T14_43_24_028Z.webp'
-import logos4 from '../../assets/About/leading/Reliance.webp'
-import logos5 from '../../assets/About/leading/Tata.webp'
+import logos from '../../assets/About/leading/excalon.webp'
+import logos1 from '../../assets/About/leading/grazziti.png'
+import logos2 from '../../assets/About/leading/mamsys.png'
+import logos3 from '../../assets/About/leading/tcs.png'
+import logos4 from '../../assets/About/leading/caelium.png'
+import logos5 from '../../assets/About/leading/Amazon.webp'
 import logos6 from '../../assets/About/leading/uu.webp'
 
 const LeadingCompanies = () => {
