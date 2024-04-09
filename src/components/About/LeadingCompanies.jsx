@@ -1,5 +1,13 @@
 import React from 'react';
 
+import logos from '../../assets/About/leading/Amazon.webp'
+import logos1 from '../../assets/About/leading/Bank.webp'
+import logos2 from '../../assets/About/leading/Dell.webp'
+import logos3 from '../../assets/About/leading/image_2022_01_25T14_43_24_028Z.webp'
+import logos4 from '../../assets/About/leading/Reliance.webp'
+import logos5 from '../../assets/About/leading/Tata.webp'
+import logos6 from '../../assets/About/leading/uu.webp'
+
 const LeadingCompanies = () => {
   const placeholderStyle = {
     borderRadius: ' 30px',
@@ -47,7 +55,7 @@ const LeadingCompanies = () => {
 
             </div>
             <div className='bg-[#02020205]' style={placeholderStyle}>
-              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" />
+              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos.src} alt="Google" />
 
             </div>
           </div>
@@ -57,25 +65,25 @@ const LeadingCompanies = () => {
 
             </div>
             <div className='bg-[#02020205]' style={placeholderStyle}>
-              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" />
+              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos1.src} alt="Google" />
 
             </div>
             <div className='bg-[#02020210]' style={placeholderStyle}>
-              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" />
+              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos2.src} alt="Google" />
 
             </div>
           </div>
           <div className="grid gap-4">
             <div className='bg-[#02020205]' style={placeholderStyle}>
-              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" />
+              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos3.src} alt="Google" />
 
             </div>
             <div className='bg-[#02020210]' style={placeholderStyle}>
-              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" />
+              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos4.src} alt="Google" />
 
             </div>
             <div className='bg-[#02020205]' style={placeholderStyle}>
-              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" />
+              <img className='px-5' style={{ width: '100%', height: '100%', objectFit: 'contain' }} src={logos5.src} alt="Google" />
 
             </div>
           </div>

@@ -4,6 +4,34 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+<<<<<<< HEAD
+import academicExcellence from '@/assets/Programs/DSC01074.jpg'
+import Scholarship from '@/assets/Programs/DSC01057.JPG'
+import awards from '@/assets/Programs/DSC00838.JPG'
+import orientation from '@/assets/Programs/DSC00510.JPG'
+const IndustrialExposure = () => {
+    const reasons = [
+        {
+            title: "Orientation Program",
+            description: "Explore your academic interests with a wide range of undergraduate and postgraduate programs to choose from",
+            img: orientation
+        },
+        {
+            title: "Academic Accomplishment",
+            description: "Explore your academic interests with a wide range of undergraduate and postgraduate programs to choose from.",
+            img: academicExcellence,
+        },
+        {
+            title: "Scholarship Programs Available",
+            description: "We offer financial aid opportunities to deserving students, making a quality education accessible.",
+            img: Scholarship
+        },
+        {
+            title: "Awards & Renowned Rankings",
+            description: "Recognized for our excellence, we consistently receive prestigious awards and rank highly in national/regional college rankings.",
+            img: awards,
+        }
+=======
 
 
 import img1 from "../../assets/placement/placements/aamil.png"
@@ -50,6 +78,7 @@ const IndustrialExposure = () => {
             description: "Altruist Technologies Pvt Ltd recently conducted a campus recruitment drive at SVIET, targeting B.Tech - CSE students (Super 60, 5th sem).",
             img: img7.src
         },
+>>>>>>> 5dd00178a39e7d09f35d13a54a97028373decf99
     ];
 
     // Settings for React Slick Carousel
@@ -92,7 +121,11 @@ const IndustrialExposure = () => {
                     <Slider {...settings}>
                         {reasons.map((reason, index) => (
                             <div key={index} className='mt-6 h-[50vh] lg:h-[50vh] flex items-center p-3'>
+<<<<<<< HEAD
+                                <div className="bg-white h-full  rounded-md text-[#00112d]" style={{backgroundImage:`url(${reason.img.src})`, backgroundSize:"cover", backgroundRepeat:"no-repeat", backgroundPosition:"center center"}}>
+=======
                                 <div className="bg-white h-full  rounded-md text-[#00112d]" style={{ backgroundImage: `url(${reason.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+>>>>>>> 5dd00178a39e7d09f35d13a54a97028373decf99
                                     <div className='bg-[#00000099]  p-6 text-white flex flex-col justify-end h-full'>
                                         <div className="">
                                             <h3 className='text-2xl font-meium py-4'>{reason.title}</h3>

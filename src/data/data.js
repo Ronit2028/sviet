@@ -1,6 +1,7 @@
 const data = [
     {
         "id": 1,
+        // for key
         "course_name": "B.Tech",
         "header": {
             "title": "Computer Science & Engineering",
