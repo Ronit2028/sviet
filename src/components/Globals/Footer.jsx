@@ -35,7 +35,7 @@ const Footer = () => {
                             <li><a href="https://uj.servergi.com:8079/ISIMSVIET/login">Student ERP Login</a></li>
                             <li><a href="https://uj.servergi.com:8079/SIMWEBSVIET/Login">Faculty ERP Login</a></li>
                             <li><a href="#">SVGOI in your town</a></li>
-                            <li><a href="#">E-Brochure</a></li>
+                            <li><a href="#" download={'/public/ebrochure.pdf'}>E-Brochure</a></li>
                             <li><a href="https://admission.sviet.ac.in/">How to Apply</a></li>
                             <li><a href="http://svietiti.in/index.html">SVIET - ITI</a></li>
                             <li><a href="https://gdscsviet.netlify.app/ideathon">Ideathon</a></li>
@@ -61,26 +61,27 @@ const Footer = () => {
                         <div className="heading text-xl font-semibold mb-4">Quick Links</div>
                         <ul className="leading-loose text-sm font-light">
                             <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc41bcyr4iEBvSV3e59eNS1y1BWsQPqJBogSv4UfPH5O_wghw/viewform">NCC Registration</a></li>
-                            <li><a href="#">SVGOI Advantages</a></li>
-                            <li><a href="#">Contact-us</a></li>
-                            <li><a href="#">Scholarship</a></li>
-                            <li><a href="#">Refund Policy</a></li>
+                            <li><Link href="/about">SVGOI Advantages</Link></li>
+                            <li><Link href="/contact-us">Contact-us</Link></li>
+                            <li><Link href="/admissions">Scholarship</Link></li>
+                            <li><Link href="/refund-policy">Refund Policy</Link></li>
                             <li><a href="https://play.google.com/store/apps/details?id=com.giindia.www.g5myconnect&hl=en_IN">ERP APP</a></li>
-                            <li><a href="#">NSS Registration</a></li>
+                            {/* <li><a href="#">NSS Registration</a></li> */}
                         </ul>
                     </div>
                 </div>
                 {/* Footer bottom section */}
                 <div className="footer-bottom mt-8 border-t border-gray-700 pt-6">
                     <ul className="flex flex-wrap justify-between">
-                        <li><a href="https://www.lpu.in/anti-ragging.php ">Anti Ragging</a></li>
-                        <li><a style={{ cursor: 'pointer' }} target="_blank" data-bs-toggle="modal" data-bs-target="#sexual-harrassment-footer">ICC</a></li>
-                        <li>Privacy Policy</li>
-                        <li>Disclaimer</li>
-                        <li>Terms and Conditions</li>
-                        <li>Student Grievance Redressal</li>
-                        <li>RTI</li>
-                        <li>Feedback</li>
+                        <li className='flex flex-wrap gap-3'> <p>Admission helpline Number :</p>
+                            <p>+91- 94652 33333</p></li>
+
+                        <li className='flex flex-wrap gap-3'><p>Email:</p>
+                            <p>Admission@sviet.ac.in</p>
+                            <p>info@sviet.ac.in</p>
+                            <p>tpo@sviet.ac.in</p>
+                            <p>hr@sviet.ac.in</p></li>
+                        <li className='flex flex-wrap gap-3'> <p>Toll Free: 1800 120 1200</p></li>
                     </ul>
                 </div>
             </div>
