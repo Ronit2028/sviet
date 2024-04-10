@@ -229,13 +229,13 @@ const navListCampusLifeItems = [
     title: "The Uniques ",
     description:
       "A Community of students realizing the dream of Corporate in College and working on real-life projects at ground-zero",
-    link:"/uniques",
+    link: "/uniques",
   },
   {
     title: "Super 60",
     description:
       "A Batch of 60 students getting free of cost technical training and soft skill training and real time work experience in their college days",
-    link:"/super-sixty"
+    link: "/super-sixty"
   },
 ];
 const navListInternationalItems = [
@@ -342,7 +342,7 @@ function NavListAbout() {
           {description}
         </Typography>
       </MenuItem>
-      
+
     </a>
   ));
 
@@ -439,7 +439,7 @@ function NavListPrograms() {
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
       </ul>
-     
+
     </React.Fragment>
   );
 }
@@ -482,7 +482,7 @@ function NavListPlacements() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-             <img src={placement.src} alt="" srcSet="" />
+            <img src={placement.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -538,7 +538,7 @@ function NavListAdmission() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-             <img src={admission.src} alt="" srcSet="" />
+            <img src={admission.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -603,7 +603,7 @@ function NavListCampus() {
       </Menu>
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
         <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-       Our Initiatives{" "}
+        Our Initiatives{" "}
       </MenuItem>
       <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
         {renderItems}
@@ -706,7 +706,7 @@ function NavListContact() {
             variant="gradient"
             className="col-span-3 grid h-full w-full place-items-center rounded-md"
           >
-             <img src={contact.src} alt="" srcSet="" />
+            <img src={contact.src} alt="" srcSet="" />
           </Card>
           <ul className="col-span-4 flex w-full flex-col gap-1">
             {renderItems}
@@ -845,22 +845,22 @@ export function ComplexNavbar() {
           </div>
         </div>
 
-       
+
         <div className="lg:w-2/12 flex justify-end">
-         
-        <IconButton
-          size="sm"
-          color="blue-gray"
-          variant="text"
-          onClick={toggleIsNavOpen}
-          className="ml-auto mr-2 lg:hidden flex items-center justify-center"
-      
-        >
-          <Bars2Icon className="h-6 w-6 m-auto" />
-        </IconButton>
+
+          <IconButton
+            size="sm"
+            color="blue-gray"
+            variant="text"
+            onClick={toggleIsNavOpen}
+            className="ml-auto mr-2 lg:hidden flex items-center justify-center"
+
+          >
+            <Bars2Icon className="h-6 w-6 m-auto" />
+          </IconButton>
           <Button className="border-2 xl:mr-16  bg-gray-800 lg:p-3 lg:text-lg   text-gray-100" size="sm" variant="text">
             <span>Apply Now</span>
-         
+
           </Button></div>
         {/* <ProfileMenu /> */}
       </div>
