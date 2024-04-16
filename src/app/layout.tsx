@@ -9,9 +9,12 @@ import '@fortawesome/fontawesome-free/css/all.css'
 import { ComplexNavbar } from "@/components/Globals/Nav"
 import Footer from "@/components/Globals/Footer"
 
-import icon from '@/icon.png'
+
+
 
 const inter = Raleway({ subsets: ["latin"] });
+
+import Loading from "./loading";
 
 export const metadata: Metadata = {
   title: "SVIET | Best Private Engineering College in North India",
@@ -27,6 +30,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <head>

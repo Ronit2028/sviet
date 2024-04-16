@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react'
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 
@@ -146,6 +146,11 @@ const CourseList = () => {
     });
     // Example usage:
 
+    const uniqueCategories = useMemo(() => {
+        // Extract unique categories from data
+        const categories = data.map((item) => item.course_name);
+        return Array.from(new Set(categories));
+    }, []);
 
     return (
         <div className="w-10/12 bg-white mt-auto lg:mt-[-125px] mx-auto flex flex-wrap shadow-md my-8 rounded-lg">
@@ -169,14 +174,20 @@ const CourseList = () => {
                         <p>
                             <span className='text-[#fea700] text-lg font-medium pb-6'>
                                 Filter By </span> :  <select
-                                    className=" appearance-none bg-white border border-gray-400 hover:border-gray-500 p-1 px-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
-                                    value={categoryFilter}
-                                    onChange={(e) => setCategoryFilter(e.target.value)}
-                                >
-                                <option value="" className='p-2 border-b-2 '>All Categories</option>
+                                className="appearance-none bg-white border border-gray-400 hover:border-gray-500 p-1 px-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
+                                value={categoryFilter}
+                                onChange={(e) => setCategoryFilter(e.target.value)}
+                            >
+                                <option value="">All Categories</option>
                                 {/* Populate options with unique categories */}
-                                {educationPrograms.map(program => (
-                                    <option key={program.category} className='p-2 border-b-2 ' value={program.category}>{program.category}</option>
+                                {uniqueCategories.map((category, index) => (
+                                    <option
+                                        key={index}
+                                        className="p-2 border-b-2 "
+                                        value={category}
+                                    >
+                                        {category}
+                                    </option>
                                 ))}
                             </select>
                         </p>
