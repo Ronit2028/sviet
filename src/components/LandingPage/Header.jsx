@@ -183,12 +183,12 @@ const Header = () => {
             <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
-                        <p className='text-2xl lg:text-4xl w-4/5 mb-3 pb-3 font-bold'>
-                            Stepping Into A New Year With New Possibilities and Boundless Potential
+                        <p className='text-2xl lg:text-4xl w-4/5 mb-3 pb-3 font-bold'>Where passion meets purpose, and dreams become reality.
+
                         </p>
                         <p className='text-md lg:text-xl font-semibold mt-3 mb-3 pb-3'>
 
-                            Welcome to the beginning of a journey filled with promise and opportunity. As we step into a new year, we embrace the chance to transform our aspirations into reality.
+                        SVGOI's belief in the importance of aligning passion with purpose in education and career pursuits.
                         </p>
                         <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
                     </div>
