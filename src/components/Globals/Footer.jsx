@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
 
+import logoDark from '@/assets/Brand/SVIET-Logo-Dark.webp'
+
 const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white">
@@ -9,7 +11,7 @@ const Footer = () => {
                     {/* Logo and Address section */}
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-8 md:mb-0 pr-10 border-r border-gray-400">
                         <div className="logo mt-4">
-                            <img src="https://sviet.org.in/wp-content/uploads/2023/04/SVIET-Logo-Dark.png" alt="" className='pb-5 border-b-[0.5px] text-sm mb-5' />
+                            <img src={logoDark.src} alt="" className='pb-5 border-b-[0.5px] text-sm mb-5' />
                         </div>
                         <div className="address">
                             <div className="locate mb-4 text-sm font-extralight">- LOCATE US</div>

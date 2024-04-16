@@ -6,39 +6,9 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import TestimonialSectionCarousel from '../LandingPage/Testimonials';
 
+import events from '@/data/event';
+
 const Events = () => {
-    const collegeInformation = [
-        {
-            category: "Research",
-            img: "https://sviet.ac.in/wp-content/uploads/2021/05/2ss-700x400.png",
-            description: "Students leading the search for knowledge with highly equipped research facilities at the campus. More than 100 research articles published at national and international stages."
-        },
-        {
-            category: "Project Based Learning",
-            img: "https://sviet.ac.in/wp-content/uploads/2021/05/5s-700x400.png",
-            description: "Investigate and respond to authentic & complex challenges and go beyond learning with project-based learning while experiencing enriching experiences."
-        },
-        {
-            category: "Sporting Excellence",
-            img: "https://sviet.ac.in/wp-content/uploads/2021/05/6s-700x400.png",
-            description: "Compete and achieve excellence with passion under the excellent sporting environment. More than 30 sports tournament participations happening over the Year."
-        },
-        {
-            category: "Startups",
-            img: "https://sviet.ac.in/wp-content/uploads/2022/07/fsfssfsf.jpg",
-            description: "Incubation environment for innovative student entrepreneurship, more than 15 successful companies have started their journey at SVGOI."
-        },
-        {
-            category: "Global Exposure",
-            img: "https://sviet.ac.in/wp-content/uploads/2022/07/fsdsdds.jpg",
-            description: "International tie-ups with more than 25 colleges from 7 countries with students from more than 10 countries studying on campus."
-        },
-        {
-            category: "Super 60 Batch",
-            img: "https://sviet.ac.in/wp-content/uploads/2022/04/sgfddf.jpg",
-            description: "There is a special batch of 30 to 60 Students in each branch which is called SUPER-60 in CSE, ALLIED-30 group in Civil, and so on. These Students assured 100% placement in the campus placement drive."
-        }
-    ];
 
     const placementDriveInformation = [
         {
@@ -118,12 +88,12 @@ const Events = () => {
                 <div className='flex flex-wrap my-6 py-6'>
                     <div className="w-full md:w-1/2 lg:w-2/3">
                         <Slider {...settings}>
-                            {collegeInformation.map((info, index) => (
+                            {events.map((info, index) => (
                                 <div key={index} className='px-1 h-full'>
-                                    <div className="border rounded-md h-[40vh] " style={{ backgroundImage: `url(${info.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                                    <div className="border rounded-md h-[40vh] " style={{ backgroundImage: `url(${info.headerImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                                         <div className="w-full h-full bg-[#00000050] flex flex-col justify-end text-white p-5 ">
-                                            <h2 className="text-xl font-semibold">{info.category}</h2>
-                                            <p className="mt-2 text-sm">{info.description}</p>
+                                            <h2 className="text-xl font-semibold">{info.name}</h2>
+                                            <p className="mt-2 text-sm line-clamp-3">{info.overview}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +121,7 @@ const Events = () => {
                 </div>
 
             </div>
-            <TestimonialSectionCarousel/>
+            <TestimonialSectionCarousel />
         </div>
     );
 }

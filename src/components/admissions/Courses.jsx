@@ -10,21 +10,25 @@ import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid';
 
 import bannerImage from '@/assets/LandingPage/bannerImage.jpg'
 
+import underGrad from '@/assets/admissions/category.jpg'
+import postGrad from '@/assets/admissions/postgraduate-program.jpg'
+import diploma from '@/assets/admissions/diploma.jpg'
+
 const Courses = () => {
     const collegeInformation = [
         {
             category: "Undergraduate Programs",
-            img: "https://sviet.ac.in/wp-content/uploads/2022/07/fsfssfsf.jpg",
+            img: underGrad.src,
             // description: "Students leading the search for knowledge with highly equipped research facilities at the campus. More than 100 research articles published at national and international stages."
         },
         {
             category: "Postgraduate Programs",
-            img: "https://www.nimrindia.com/images/courses/postgraduate-program.jpg",
+            img: postGrad.src,
             // description: "Investigate and respond to authentic & complex challenges and go beyond learning with project-based learning while experiencing enriching experiences."
         },
         {
             category: "Diploma Programs",
-            img: "https://www.simplilearn.com/ice9/free_resources_article_thumb/The_Ultimate_Guide_To_Diploma_Courses.jpg",
+            img: diploma.src,
             // description: "Compete and achieve excellence with passion under the excellent sporting environment. More than 30 sports tournament participations happening over the Year."
         },
     ];

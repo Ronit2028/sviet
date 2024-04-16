@@ -1,5 +1,7 @@
 import React from 'react'
 
+import image from '@/assets/sviet-web/tseg.webp'
+
 const Overview = () => {
     return (
         <div className='py-12 my-10 w-10/12 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5'>
@@ -19,7 +21,7 @@ const Overview = () => {
             </div>
             <div className="w-full ">
                 <div className="event-card rounded-md shadow-md">
-                    <div className="image-section h-[30vh]" style={{ backgroundImage: `url(https://sviet.ac.in/wp-content/uploads/2022/03/tseg.jpg)`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat" }}>
+                    <div className="image-section h-[30vh]" style={{ backgroundImage: `url(${image.src})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat" }}>
 
                     </div>
                     <div className="text-section p-6">

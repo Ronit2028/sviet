@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 
+import dir from '../../assets/sviet-web/director-internatinoal.webp'
+
 const Director = () => {
     return (
         <div className='py-12 w-10/12 mx-auto'>
@@ -15,7 +17,7 @@ const Director = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>
-                        <Image src="https://sviet.ac.in/wp-content/uploads/2022/03/sssssw.png" alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
+                        <Image src={dir} alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
                     </div>
 
                 </div>
