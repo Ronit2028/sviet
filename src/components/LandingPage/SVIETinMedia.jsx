@@ -8,7 +8,7 @@ const SVIETinMedia = () => {
                     <span className="text-[#fea700]">
                         Discover  </span> the
                     <br />
-                    Latest News, Events, and Insights
+                    Latest News and Insights
                 </p>
 
                 <p className='text-md text-gray-800 mt-3'>
