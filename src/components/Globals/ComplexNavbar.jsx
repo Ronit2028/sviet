@@ -2,6 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 
+
+
 function ComplexNavbar() {
     const [scrollPercent, setScrollPercent] = useState(0);
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
