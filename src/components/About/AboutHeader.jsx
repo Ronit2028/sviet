@@ -1,6 +1,6 @@
 import React from 'react'
 
-import backdrop from '@/assets/Programs/backdrop.jpg'
+import backdrop from '@/assets/About/backdrop.jpg'
 
 const AboutHeader = () => {
     return (

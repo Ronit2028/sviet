@@ -5,11 +5,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import placement from '@/assets/LandingPage/Unlock/DSC00510.jpg'
-import placement2 from '@/assets/LandingPage/Unlock/DSC00544.jpg'
-import placement3 from '@/assets/LandingPage/Unlock/DSC00769.jpg'
-import placement4 from '@/assets/LandingPage/Unlock/DSC00913.jpg'
-
+import placement2 from '@/assets/LandingPage/Unlock/library.jpg'
+import placement from '@/assets/LandingPage/Unlock/labs.jpg'
+import placement3 from '@/assets/placement/placements/decathlon.png'
+import placement4 from '@/assets/placement/DSC000281.jpg'
+import placement5 from '@/assets/LandingPage/Unlock/sports.jpg'
 import { Typography } from '@material-tailwind/react';
 
 
@@ -27,12 +27,12 @@ const Unlock = () => {
             description: "READ MORE",
             img: placement2
         },
-        {
-            heading: "Industrial Collaboration:",
-            subheading: "Fulfill your academic aspirations with our range of scholarship programs, designed to recognize and support exceptional talent across various disciplines",
-            description: "READ MORE",
-            img: placement3
-        },
+        // {
+        //     heading: "Industrial Collaboration:",
+        //     subheading: "Fulfill your academic aspirations with our range of scholarship programs, designed to recognize and support exceptional talent across various disciplines",
+        //     description: "READ MORE",
+        //     img: placement3
+        // },
         {
             heading: "Scholarship Opportunities: ",
             subheading: "Fulfill your academic aspirations with our range of scholarship programs, designed to recognize and support exceptional talent across various disciplines",
@@ -43,7 +43,7 @@ const Unlock = () => {
             heading: "Sports Facilities",
             subheading: "Unleash your potential and stay fit at our world - class sports facilities, promoting holistic development and a healthy lifestyle for all students.",
             description: "READ MORE",
-            img: placement4
+            img: placement5
         }
     ];
 
