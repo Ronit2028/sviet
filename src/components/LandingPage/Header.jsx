@@ -183,7 +183,7 @@ const Header = () => {
             <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
-                        <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3 font-bold'>
+                        <p className='text-2xl lg:text-4xl w-4/5 mb-3 pb-3 font-bold'>
                             Stepping Into A New Year With New Possibilities and Boundless Potential
                         </p>
                         <p className='text-md lg:text-xl font-semibold mt-3 mb-3 pb-3'>
@@ -200,7 +200,7 @@ const Header = () => {
             <div className='w-full h-full py-12 flex items-center bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
-                        <p className='text-2xl lg:text-5xl w-4/5 mb-3 pb-3 font-bold'>
+                        <p className='text-2xl lg:text-4xl w-4/5 mb-3 pb-3 font-bold'>
                             A Culture of Inquiry, Innovation, and Impact.
 
                         </p>

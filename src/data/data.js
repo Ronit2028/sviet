@@ -1,5 +1,240 @@
 const data = [
+ // M.TECH
+ {
+    "id": 6,
+    "course_name": "M.Tech",
+    "header": {
+        "title": "Master in Computer Science & Engineering",
+        "subtitle": "IGNITE INNOVATION AND RESEARCH",
+        "background_image": "../Courses/MTech/cse/Header.jpg"
 
+    },
+    "program_name": "M.Tech in Computer Science and Engineering",
+    "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
+    "fees": "37,500/-INR Per Semester",
+    "duration": "2 years",
+    "major_tracks": [
+        "Data Science",
+        "Software Development",
+        "Machine Learning",
+        "Cloud Computing",
+        "Networking"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Data Scientist",
+            "desc": "M.Tech CSE graduates specializing in artificial intelligence (AI) can work as AI engineers, developing AI-based systems, algorithms, and models for various applications.",
+            "image": "../Courses/MTech/cse/data.jpg"
+        },
+        {
+            "title": "Intelligence Engineer",
+            "desc": "Graduates can pursue research roles, working in research organizations, universities, or corporate R&D labs, contributing to advancements in computer science and engineering through innovative research.",
+            "image": "../Courses/MTech/cse/intelligence.avif"
+        },
+        {
+            "title": "Research Scientist",
+            "desc": "With their strong technical skills and domain knowledge, M.Tech CSE graduates can work as technology consultants, providing expert advice and solutions to businesses on implementing and optimizing technology systems.",
+            "image": "../Courses/MTech/cse/research.jpg"
+        },
+        {
+            "title": "Cybersecurity Analyst",
+            "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
+            "image": "../Courses/Mtech/cse/cybersecurity.avif"
+        }
+    ],
+
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Advanced Education: Specialization in computer science and engineering.",
+        "Theoretical and Practical Knowledge: Deeper understanding of core concepts and hands-on experience.",
+        "Specialized Areas: Focus on areas like algorithms, data structures, software engineering, artificial intelligence, machine learning, etc.",
+        "Research Opportunities: Opportunities for research and development.",
+        "Flexible Curriculum: Combination of core and elective courses.",
+        "Thesis Component: Option to conduct research and make original contributions.",
+        "Industry Relevance: Curriculum designed to meet industry demands.",
+        "Career Advancement: Preparation for advanced careers in technology and academia."
+    ],
+    "labs": [
+        {
+            "title": "Networking Lab",
+            "description": "Explore networking concepts and protocols in a hands-on environment.",
+            "image": "../Courses/BTech/cse/lab/networking.jpg"
+        },
+        {
+            "title": "Database Management Lab",
+            "description": "Practice database design, implementation, and management techniques.",
+            "image": "../Courses/BTech/cse/lab/database.jpg"
+        },
+        {
+            "title": "Software Development Lab",
+            "description": "Develop and test software applications using industry-standard tools and methodologies.",
+            "image": "../Courses/BTech/cse/lab/development.jpg"
+        }
+    ]
+},
+{
+    "id": 7,
+    "course_name": "M.Tech",
+    "header": {
+        "title": "M.Tech - Electronics & Communication Engineering",
+        "subtitle": "ELEVATE YOUR EXPERTISE IN",
+        "background_image": "../Courses/MTech/ee/Header.jpg"
+    },
+    "program_name": "M.Tech in Electronics & Communication Engineering",
+    "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
+    "fees": "TBD (To Be Disclosed)",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Power Systems",
+        "Renewable Energy",
+        "Control Systems",
+        "Electronics",
+        "Communication"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Research Scientist",
+            "desc": "With your technical expertise and management skills, you can take up roles as a project manager. You would be responsible for leading and coordinating teams, managing budgets and timelines, and ensuring the successful execution of projects in the electronics and communication domain.",
+            "image": "../Courses/MTech/ee/research.jpg"
+        },
+        {
+            "title": "Electronics Engineer",
+            "desc": "You can work as an electronics engineer, designing, developing, and testing electronic components, devices, and systems. This can include working on circuit design, PCB layout, embedded systems, and product development.",
+            "image": "../Courses/MTech/ee/electronics.jpg"
+        },
+        {
+            "title": "Communication Engineer",
+            "desc": "With expertise in communication systems, you can work on designing and implementing wireless and wired communication networks, protocols, and technologies. This can involve working with telecommunications companies, network providers, or in the research and development of communication systems.",
+            "image": "../Courses/MTech/ee/comms.jpg"
+        },
+        {
+            "title": "VLSI Design Engineer",
+            "desc": "Very Large-Scale Integration (VLSI) design engineers are responsible for designing and testing integrated circuits and chips. You can work in the semiconductor industry, designing and optimizing complex digital and analog integrated circuits.",
+            "image": "../Courses/MTech/ee/vlsi.jpg"
+        },
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Advanced Knowledge and Skills: Specialization in electronics and communication engineering.",
+        "Wide Range of Subjects: Covering areas such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more.",
+        "Theoretical Study and Practical Experience: Combining coursework, laboratory work, and research projects.",
+        "Focus on Advanced Technologies: Learning about industry-standard tools and methodologies.",
+        "Problem-Solving and Research Skills: Developing critical thinking and research abilities.",
+        "Career Opportunities: Preparation for careers in electronics and communication engineering and technological innovation."
+    ],
+    "labs": [
+        {
+            "title": "Digital Signal Processing Lab",
+            "description": "Experiment with digital signal processing techniques and algorithms.",
+            "image": "../Courses/BTech/ece/lab/signal.jpg"
+        },
+        {
+            "title": "Microelectronics Lab",
+            "description": "Design and fabricate microelectronic devices and circuits.",
+            "image": "../Courses/BTech/ece/lab/process.jpg"
+        },
+        {
+            "title": "VLSI Design Lab",
+            "description": "Design and simulate Very Large Scale Integration (VLSI) circuits.",
+            "image": "../Courses/BTech/ece/lab/electron.jpg"
+        }
+    ]
+},
+{
+    "id": 8,
+    "course_name": "M.Tech",
+    "header": {
+        "title": "M.Tech - Civil Engineering",
+        "subtitle": "BUILD THE FUTURE WITH",
+        "background_image": "../Courses/MTech/civil/electron.jpg"
+    },
+    "program_name": "M.Tech in Civil Engineering",
+    "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
+    "fees": "TBD (To Be Disclosed)",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Structural Engineering",
+        "Geotechnical Engineering",
+        "Transportation Engineering",
+        "Environmental Engineering",
+        "Construction Management"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Structural Engineer",
+            "desc": "Master the skills to design and analyze structural elements and systems for various types of infrastructure projects.",
+            "image": "https://example.com/structural_engineer_image.jpg"
+        },
+        {
+            "title": "Geotechnical Engineer",
+            "desc": "Specialize in soil mechanics and foundation engineering to ensure the stability and safety of civil structures.",
+            "image": "https://example.com/geotechnical_engineer_image.jpg"
+        },
+        {
+            "title": "Transportation Engineer",
+            "desc": "Design efficient transportation systems and infrastructure to meet the growing demands of urban and rural areas.",
+            "image": "https://example.com/transportation_engineer_image.jpg"
+        },
+        {
+            "title": "Environmental Engineer",
+            "desc": "Focus on sustainable development and environmental protection by implementing innovative solutions for waste management, pollution control, and resource conservation.",
+            "image": "https://example.com/environmental_engineer_image.jpg"
+        },
+        {
+            "title": "Construction Manager",
+            "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
+            "image": "https://example.com/construction_manager_image.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Specialized Education: Focus on various fields of civil engineering including structural, geotechnical, transportation, and environmental engineering.",
+        "Practical Experience: Hands-on training through laboratory work, field visits, and project assignments.",
+        "Application of Engineering Principles: Use modern tools and technologies to solve complex problems in civil engineering.",
+        "Sustainable Development: Emphasize sustainable practices and solutions for infrastructure development and environmental protection.",
+        "Career Opportunities: Prepare graduates for careers in design, construction, project management, research, and consultancy."
+    ],
+    "labs": [
+        {
+            "title": "Structural Engineering Lab",
+            "description": "Experiment with structural elements and systems to understand their behavior and performance.",
+            "image": "../Courses/BTech/civil/lab/structural.jpg"
+        },
+        {
+            "title": "Geotechnical Engineering Lab",
+            "description": "Study soil properties and behavior to assess the stability and bearing capacity of foundations.",
+            "image": "../Courses/BTech/civil/lab/geometrical.jpg"
+        },
+        {
+            "title": "Transportation Engineering Lab",
+            "description": "Analyze traffic flow, design road networks, and evaluate transportation systems.",
+            "image": "../Courses/BTech/civil/lab/transport.jpg"
+        }
+    ]
+},
+    
+    
     // B.TECH
     {
         "id": 1,
@@ -398,240 +633,7 @@ const data = [
         ]
     },
 
-    // M.TECH
-    {
-        "id": 6,
-        "course_name": "M.Tech",
-        "header": {
-            "title": "Master in Computer Science & Engineering",
-            "subtitle": "IGNITE INNOVATION AND RESEARCH",
-            "background_image": "../Courses/MTech/cse/Header.jpg"
-
-        },
-        "program_name": "M.Tech in Computer Science and Engineering",
-        "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
-        "fees": "37,500/-INR Per Semester",
-        "duration": "2 years",
-        "major_tracks": [
-            "Data Science",
-            "Software Development",
-            "Machine Learning",
-            "Cloud Computing",
-            "Networking"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Data Scientist",
-                "desc": "M.Tech CSE graduates specializing in artificial intelligence (AI) can work as AI engineers, developing AI-based systems, algorithms, and models for various applications.",
-                "image": "../Courses/MTech/cse/data.jpg"
-            },
-            {
-                "title": "Intelligence Engineer",
-                "desc": "Graduates can pursue research roles, working in research organizations, universities, or corporate R&D labs, contributing to advancements in computer science and engineering through innovative research.",
-                "image": "../Courses/MTech/cse/intelligence.avif"
-            },
-            {
-                "title": "Research Scientist",
-                "desc": "With their strong technical skills and domain knowledge, M.Tech CSE graduates can work as technology consultants, providing expert advice and solutions to businesses on implementing and optimizing technology systems.",
-                "image": "../Courses/MTech/cse/research.jpg"
-            },
-            {
-                "title": "Cybersecurity Analyst",
-                "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
-                "image": "../Courses/Mtech/cse/cybersecurity.avif"
-            }
-        ],
-
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Advanced Education: Specialization in computer science and engineering.",
-            "Theoretical and Practical Knowledge: Deeper understanding of core concepts and hands-on experience.",
-            "Specialized Areas: Focus on areas like algorithms, data structures, software engineering, artificial intelligence, machine learning, etc.",
-            "Research Opportunities: Opportunities for research and development.",
-            "Flexible Curriculum: Combination of core and elective courses.",
-            "Thesis Component: Option to conduct research and make original contributions.",
-            "Industry Relevance: Curriculum designed to meet industry demands.",
-            "Career Advancement: Preparation for advanced careers in technology and academia."
-        ],
-        "labs": [
-            {
-                "title": "Networking Lab",
-                "description": "Explore networking concepts and protocols in a hands-on environment.",
-                "image": "../Courses/BTech/cse/lab/networking.jpg"
-            },
-            {
-                "title": "Database Management Lab",
-                "description": "Practice database design, implementation, and management techniques.",
-                "image": "../Courses/BTech/cse/lab/database.jpg"
-            },
-            {
-                "title": "Software Development Lab",
-                "description": "Develop and test software applications using industry-standard tools and methodologies.",
-                "image": "../Courses/BTech/cse/lab/development.jpg"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "course_name": "M.Tech",
-        "header": {
-            "title": "M.Tech - Electronics & Communication Engineering",
-            "subtitle": "ELEVATE YOUR EXPERTISE IN",
-            "background_image": "../Courses/MTech/ee/Header.jpg"
-        },
-        "program_name": "M.Tech in Electronics & Communication Engineering",
-        "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Power Systems",
-            "Renewable Energy",
-            "Control Systems",
-            "Electronics",
-            "Communication"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Research Scientist",
-                "desc": "With your technical expertise and management skills, you can take up roles as a project manager. You would be responsible for leading and coordinating teams, managing budgets and timelines, and ensuring the successful execution of projects in the electronics and communication domain.",
-                "image": "../Courses/MTech/ee/research.jpg"
-            },
-            {
-                "title": "Electronics Engineer",
-                "desc": "You can work as an electronics engineer, designing, developing, and testing electronic components, devices, and systems. This can include working on circuit design, PCB layout, embedded systems, and product development.",
-                "image": "../Courses/MTech/ee/electronics.jpg"
-            },
-            {
-                "title": "Communication Engineer",
-                "desc": "With expertise in communication systems, you can work on designing and implementing wireless and wired communication networks, protocols, and technologies. This can involve working with telecommunications companies, network providers, or in the research and development of communication systems.",
-                "image": "../Courses/MTech/ee/comms.jpg"
-            },
-            {
-                "title": "VLSI Design Engineer",
-                "desc": "Very Large-Scale Integration (VLSI) design engineers are responsible for designing and testing integrated circuits and chips. You can work in the semiconductor industry, designing and optimizing complex digital and analog integrated circuits.",
-                "image": "../Courses/MTech/ee/vlsi.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Advanced Knowledge and Skills: Specialization in electronics and communication engineering.",
-            "Wide Range of Subjects: Covering areas such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more.",
-            "Theoretical Study and Practical Experience: Combining coursework, laboratory work, and research projects.",
-            "Focus on Advanced Technologies: Learning about industry-standard tools and methodologies.",
-            "Problem-Solving and Research Skills: Developing critical thinking and research abilities.",
-            "Career Opportunities: Preparation for careers in electronics and communication engineering and technological innovation."
-        ],
-        "labs": [
-            {
-                "title": "Digital Signal Processing Lab",
-                "description": "Experiment with digital signal processing techniques and algorithms.",
-                "image": "../Courses/BTech/ece/lab/signal.jpg"
-            },
-            {
-                "title": "Microelectronics Lab",
-                "description": "Design and fabricate microelectronic devices and circuits.",
-                "image": "../Courses/BTech/ece/lab/process.jpg"
-            },
-            {
-                "title": "VLSI Design Lab",
-                "description": "Design and simulate Very Large Scale Integration (VLSI) circuits.",
-                "image": "../Courses/BTech/ece/lab/electron.jpg"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "course_name": "M.Tech",
-        "header": {
-            "title": "M.Tech - Civil Engineering",
-            "subtitle": "BUILD THE FUTURE WITH",
-            "background_image": "../Courses/MTech/civil/electron.jpg"
-        },
-        "program_name": "M.Tech in Civil Engineering",
-        "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Structural Engineering",
-            "Geotechnical Engineering",
-            "Transportation Engineering",
-            "Environmental Engineering",
-            "Construction Management"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Structural Engineer",
-                "desc": "Master the skills to design and analyze structural elements and systems for various types of infrastructure projects.",
-                "image": "https://example.com/structural_engineer_image.jpg"
-            },
-            {
-                "title": "Geotechnical Engineer",
-                "desc": "Specialize in soil mechanics and foundation engineering to ensure the stability and safety of civil structures.",
-                "image": "https://example.com/geotechnical_engineer_image.jpg"
-            },
-            {
-                "title": "Transportation Engineer",
-                "desc": "Design efficient transportation systems and infrastructure to meet the growing demands of urban and rural areas.",
-                "image": "https://example.com/transportation_engineer_image.jpg"
-            },
-            {
-                "title": "Environmental Engineer",
-                "desc": "Focus on sustainable development and environmental protection by implementing innovative solutions for waste management, pollution control, and resource conservation.",
-                "image": "https://example.com/environmental_engineer_image.jpg"
-            },
-            {
-                "title": "Construction Manager",
-                "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
-                "image": "https://example.com/construction_manager_image.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Specialized Education: Focus on various fields of civil engineering including structural, geotechnical, transportation, and environmental engineering.",
-            "Practical Experience: Hands-on training through laboratory work, field visits, and project assignments.",
-            "Application of Engineering Principles: Use modern tools and technologies to solve complex problems in civil engineering.",
-            "Sustainable Development: Emphasize sustainable practices and solutions for infrastructure development and environmental protection.",
-            "Career Opportunities: Prepare graduates for careers in design, construction, project management, research, and consultancy."
-        ],
-        "labs": [
-            {
-                "title": "Structural Engineering Lab",
-                "description": "Experiment with structural elements and systems to understand their behavior and performance.",
-                "image": "../Courses/BTech/civil/lab/structural.jpg"
-            },
-            {
-                "title": "Geotechnical Engineering Lab",
-                "description": "Study soil properties and behavior to assess the stability and bearing capacity of foundations.",
-                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
-            },
-            {
-                "title": "Transportation Engineering Lab",
-                "description": "Analyze traffic flow, design road networks, and evaluate transportation systems.",
-                "image": "../Courses/BTech/civil/lab/transport.jpg"
-            }
-        ]
-    },
+   
 
     // DIPLOMA
     {
