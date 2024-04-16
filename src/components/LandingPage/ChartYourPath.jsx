@@ -2,6 +2,8 @@ import React from 'react'
 
 import success from "@/assets/LandingPage/success.jpg"
 
+import Link from 'next/link';
+
 const ChartYourPath = () => {
   const chartYourPathContent = [
     {
@@ -36,7 +38,7 @@ const ChartYourPath = () => {
             </p>
             <div className='flex gap-3'>
               <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
-              <button className=' text-white text-xl px-2 py-1 rounded-md'>Placements <i className='fa fa-arrow'></i></button>
+              <Link href="/placement"><button className=' text-white text-xl px-2 py-1 rounded-md'>Placements <i className='fa fa-arrow'></i></button></Link>
             </div>
 
           </div>
