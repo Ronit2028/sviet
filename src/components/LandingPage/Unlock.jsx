@@ -16,7 +16,7 @@ import { Typography } from '@material-tailwind/react';
 const Unlock = () => {
     const sectionData = [
         {
-            heading: "Cutting-Edge Laboratories",
+            heading: "Cutting-Edge Laboratories: ",
             subheading: "Explore our state-of-the-art laboratories equipped with the latest technology and equipment, providing hands-on learning experiences for students to excel in their fields.",
             description: "READ MORE",
             img: placement
@@ -35,7 +35,7 @@ const Unlock = () => {
         },
         {
             heading: "Scholarship Opportunities: ",
-            subheading: "TheUniques, Super 60 Batch represents the best and brightest students at SVIET. Comprising 30 to 60 students in each branch, known for its academic excellence, leadership qualities, and innovation. Members of this elite group receive special mentoring and support to enhance their skills and prepare them for successful careers in their chosen fields.",
+            subheading: "Fulfill your academic aspirations with our range of scholarship programs, designed to recognize and support exceptional talent across various disciplines",
             description: "READ MORE",
             img: placement4
         },
@@ -74,9 +74,7 @@ const Unlock = () => {
                 variant="lead"
                 className="text-center !text-gray-500 w-full md:w-1/2 mx-auto mb-5 pb-5"
             >
-                Our colourful campus has a rich culturally cooperative learning atmosphere that attracts students from all over the country and from all over the world.
-
-            </Typography>
+               Join us at SVIET to unlock endless possibilities and embark on a journey of academic excellence and personal growth.  </Typography>
 
 
             <div className='mt-5'>
