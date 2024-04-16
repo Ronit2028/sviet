@@ -12,6 +12,12 @@ import {
     Avatar,
 } from "@material-tailwind/react";
 
+// images
+import img1 from "../../assets/LandingPage/placements/rahul.webp"
+import img2 from "../../assets/LandingPage/placements/yash.jpeg"
+import img3 from "../../assets/LandingPage/placements/adarsh.webp"
+import img4 from "../../assets/LandingPage/placements/amit.webp"
+
 function TestimonialCard({
     img,
     client,
@@ -21,7 +27,7 @@ function TestimonialCard({
 }) {
     return (
         <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 py-6 w-[95%] h-[40vh] lg:h-[40vh] flex flex-col justify-between">
-            <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'> 
+            <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'>
                 <Typography
                     color="blue-gray"
                     className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto"
@@ -31,7 +37,7 @@ function TestimonialCard({
             </CardHeader>
             <CardBody className="px-2 lg:px-4 py-0 flex flex-wrap gap-x-6 justify-between">
                 <div>
-                <div className="flex flex-wrap gap-3">
+                    <div className="flex flex-wrap gap-3">
                         <Avatar src={studentImage} className="h-12 w-12 rounded-full" />
                         <div>
                             <Typography variant="h6" color="blue-gray">
@@ -60,7 +66,7 @@ const testimonials = [
         client: "Gaurav Sharma",
         clientInfo: "SDE",
         img: "https://sviet.ac.in/wp-content/uploads/2020/07/Tata.jpg",
-        studentImage: "https://sviet.ac.in/wp-content/uploads/2021/04/pexels-rahul-shah-888956-scaled.jpg"
+        studentImage: img1.src
     },
     {
         title:
@@ -68,7 +74,7 @@ const testimonials = [
         client: "Yash Khandelwal",
         clientInfo: "System Engineer",
         img: "https://sviet.ac.in/wp-content/uploads/2022/01/info.png",
-        studentImage:'https://sviet.ac.in/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-02-at-12.21.29-AM-1.jpeg',
+        studentImage: img2.src,
     },
     {
         title:
@@ -76,7 +82,7 @@ const testimonials = [
         client: "Adarsh Kumar",
         clientInfo: "Software Engineer",
         img: "https://sviet.ac.in/wp-content/uploads/2020/07/First-Lady.jpg",
-        studentImage: "https://sviet.ac.in/wp-content/uploads/2021/04/dsdsd-6.png",
+        studentImage: img3.src
     },
     {
         title:
@@ -84,7 +90,7 @@ const testimonials = [
         client: "Admit Gautam",
         clientInfo: "Software Developer",
         img: "https://sviet.ac.in/wp-content/uploads/2022/01/uu.png",
-        studentImage: "https://sviet.ac.in/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-20-at-5.51.29-AM.jpeg"
+        studentImage: img4.src
     },
 ];
 export function TestimonialSectionCarousel() {
@@ -125,7 +131,7 @@ export function TestimonialSectionCarousel() {
                 </Typography>
                 <Slider {...settings} className="py-12">
                     {testimonials.map((props, key) => (
-                        <TestimonialCard key={key} {...props}/>
+                        <TestimonialCard key={key} {...props} />
                     ))}
                 </Slider>
             </div>

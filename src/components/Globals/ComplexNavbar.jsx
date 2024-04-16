@@ -1,7 +1,8 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-
+// Logo
+import logo from "../../assets/Globals/logo.jpg"
 
 
 function ComplexNavbar() {
@@ -129,7 +130,7 @@ function ComplexNavbar() {
                     <div className="flex items-center">
                         <a href="#" className="cursor-pointer">
                             <h3 className="text-2xl font-medium text-blue-500">
-                                <img className="h-10 object-cover" src="https://sviet.ac.in/wp-content/uploads/2021/08/svietlogooo-1.png" alt="Store Logo" />
+                                <img className="h-10 object-cover" src={logo.src} alt="Store Logo" />
                             </h3>
                         </a>
                     </div>
@@ -151,26 +152,26 @@ function ComplexNavbar() {
                             </a>
 
                         ))}
-                        
+
                     </div>
                     {isProgramsMenuOpen && (
-                            <div className="absolute z-20 top-full w-full left-0 bg-white shadow-md">
-                                <div className="w-full h-[60vh] mx-auto px-4 py-4 flex flex-col flex-wrap gap-5 p-5">
-                                    {programCategories.map((category, index) => (
-                                        <div key={index}>
-                                            <h4 className="text-lg font-semibold mb-2">{category.label}</h4>
-                                            <ul>
-                                                {category.subcategories.map((subcategory, subIndex) => (
-                                                    <li key={subIndex} className="text-gray-700 hover:text-[#FE7D2F] cursor-pointer transition-colors duration-300">
-                                                        {subcategory}
-                                                    </li>
-                                                ))}
-                                            </ul>
-                                        </div>
-                                    ))}
-                                </div>
+                        <div className="absolute z-20 top-full w-full left-0 bg-white shadow-md">
+                            <div className="w-full h-[60vh] mx-auto px-4 py-4 flex flex-col flex-wrap gap-5 p-5">
+                                {programCategories.map((category, index) => (
+                                    <div key={index}>
+                                        <h4 className="text-lg font-semibold mb-2">{category.label}</h4>
+                                        <ul>
+                                            {category.subcategories.map((subcategory, subIndex) => (
+                                                <li key={subIndex} className="text-gray-700 hover:text-[#FE7D2F] cursor-pointer transition-colors duration-300">
+                                                    {subcategory}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                ))}
                             </div>
-                        )}
+                        </div>
+                    )}
                 </nav>
 
                 {/* Mobile Menu */}

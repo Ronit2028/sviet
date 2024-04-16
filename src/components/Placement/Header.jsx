@@ -1,8 +1,9 @@
 import React from 'react'
+import header from "../../assets/placement/header.webp"
 
 const Header = () => {
     return (
-        <div className='h-[auto] md:h-[80vh] ' style={{ backgroundImage: "url(http://sviet.ac.in/wp-content/uploads/2023/04/DSC_6797-scaled.jpg)", backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+        <div className='h-[auto] md:h-[80vh] ' style={{ backgroundImage: `url(${header.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
             <div className="w-full flex flex-col justify-between h-full bg-[#00000099] text-white">
                 <div className="w-10/12 mx-auto flex flex-col justify-center h-full py-12">
                     <p className="text-4xl font-medium pb-6">
@@ -18,7 +19,7 @@ const Header = () => {
 
                             5,000
                             +
-                            
+
                         </p>
                         <p>
                             Offer letters
