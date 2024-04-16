@@ -214,7 +214,7 @@ const CourseList = () => {
                             <ul>
                                 {program.programs.map(course => (
                                     <li key={course.name} className="mb-4 py-8 border-b-2">
-                                        <a href={course.link} className="text-2xl font-medium mb-2 pb-2">{course.name}</a>
+                                        <Link href={`/programs/${course.link}`} className="text-2xl font-medium mb-2 pb-2">{course.name}</Link>
                                         <div className='flex justify-between'>
                                             <p className="text-xl mt-3">
                                                 Duration :  <span className='text-[#fea700]'>{course.duration}</span>

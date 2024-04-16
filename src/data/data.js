@@ -636,7 +636,7 @@ const data = [
             "subtitle": "SHAPE THE DIGITAL AGE WITH",
             "background_image": "../Courses/diploma/cse/cse.jpg"
         },
-        "program_name": "Diploma in CSE",
+        "program_name": "Diploma in Computer Science Engineering",
         "program_description": "A Diploma in Computer Science and Engineering (CSE) is a short-term academic program that focuses on the fundamentals of computer science and engineering. It provides students with practical knowledge and skills related to software development, programming, networking, database management, and computer hardware. During the diploma program, students learn about various programming languages, algorithms, data structures, computer architecture, operating systems, and software engineering principles. They gain hands-on experience through practical labs, projects, and internships. The diploma in CSE prepares students for entry-level positions in the IT industry. Graduates can work as software developers, system analysts, database administrators, network administrators, and technical support specialists. They can also pursue higher education or certifications to further specialize in specific areas of computer science and engineering. Overall, a diploma in CSE provides a foundation for students to understand and apply the principles of computer science and engineering in various technology-driven fields.",
         "fees": "20,000/-INR Per Semester",
         "duration": "3 years",
@@ -710,7 +710,7 @@ const data = [
             "subtitle": "POWER THE FUTURE WITH",
             "background_image": "../Courses/diploma/ee/ee.jpg"
         },
-        "program_name": "Diploma in EE",
+        "program_name": "Diploma in Electrical Engineering",
         "program_description": "A Diploma in Electrical Engineering (EE) is an undergraduate engineering program that focuses on the study of electrical systems, devices, and power generation, transmission, and distribution. The curriculum typically includes subjects such as circuit theory, power systems, control systems, electronics, electromagnetic, digital systems, and communication systems. Students pursuing a diploma in EE gain a strong foundation in electrical engineering principles, mathematical analysis, and problem-solving skills. They learn to design and analyze electrical circuits, develop control systems, and understand the generation and distribution of electrical power. Overall, a diploma in EE equips students with the knowledge and skills to contribute to the design, development, and management of electrical systems, making them valuable professionals in the field of electrical engineering.",
         "fees": "20,000/-INR Per Semester",
         "duration": "3 Years",
