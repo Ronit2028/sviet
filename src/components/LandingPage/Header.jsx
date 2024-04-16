@@ -33,10 +33,10 @@ const Header = () => {
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
                         <p className='text-2xl lg:text-4xl font-bold w-4/5 mb-3 pb-3'>
-                            Shaping Future Leaders in Engineering & Technology (Since 2004)
+                        Nurturing Excellence Since 2004: A Legacy of Quality Education.
                         </p>
                         <p className='text-md lg:text-lg font-semibold mt-3 mb-3 pb-3'>
-                            Ranked NIRF 104 (2021). Impeccable placements with 200+ companies. A legacy of excellence in Engineering & Technology education. Recognized by NIRF for its quality programs.
+                        SVGOI, a beacon of academic distinction, proudly stands tall as it secures the honorable rank of 104 in NIRF 2021, a testament to its commitment to excellence.
                         </p>
                         <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
                     </div>
