@@ -1,40 +1,48 @@
 import React from 'react'
 
 import placementBackdrop from '@/assets/LandingPage/placementBackdrop.jpg'
+import img1 from "../../assets/LandingPage/placements/Moon.png"
+import img2 from "../../assets/LandingPage/placements/yash.jpeg"
+import img3 from "../../assets/LandingPage/placements/prince.jpeg"
+import img4 from "../../assets/LandingPage/placements/Arjun.jpg"
+import logo1 from "../../assets/LandingPage/placements/jio.png"
+import logo2 from "../../assets/LandingPage/placements/info.png"
+import logo3 from "../../assets/LandingPage/placements/wipro.webp"
+import logo4 from "../../assets/LandingPage/placements/cronj.webp"
 
 const PlacementOverview = () => {
 
     const placements = [
         {
-            backgroundImage: 'https://sviet.ac.in/wp-content/uploads/2024/02/Moon.png',
+            backgroundImage: img1.src,
             name: 'Moon Mandal',
             role: 'Graduate Engineer Trainee',
-            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2024/02/jio-white-removebg-preview.png'
+            companyLogo: logo1.src,
         },
         {
-            backgroundImage:'https://sviet.ac.in/wp-content/uploads/2021/11/WhatsApp-Image-2021-11-02-at-12.21.29-AM-1.jpeg',
+            backgroundImage: img2.src,
             name: 'Yash Khandalwal',
             role: 'System Engineer',
-            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2022/01/info.png'
+            companyLogo: logo2.src
         },
         {
-            backgroundImage: 'https://sviet.ac.in/wp-content/uploads/2022/01/WhatsApp-Image-2022-01-20-at-5.50.14-AM.jpeg',
+            backgroundImage: img3.src,
             name: 'Prince Kumar',
             role: 'Project Engineer',
-            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2024/01/image-removebg-preview-17.png'
+            companyLogo: logo3.src
         },
         {
-            backgroundImage: 'https://sviet.ac.in/wp-content/uploads/2023/12/Arjun-katoch-scaled-e1703863008510.jpg',
+            backgroundImage: img4.src,
             name: 'Amit Gautam',
             role: 'Software Developer',
-            companyLogo: 'https://sviet.ac.in/wp-content/uploads/2022/01/uu.png'
+            companyLogo: logo4.src
         }
     ];
 
 
     return (
         <div className='w-full mx-auto flex flex-wrap'>
-            <div className='w-full lg:w-1/2 text-white ' style={{ backgroundImage: `url(${placementBackdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center left", backgroundAttachment:"fixed" }}>
+            <div className='w-full lg:w-1/2 text-white ' style={{ backgroundImage: `url(${placementBackdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center left", backgroundAttachment: "fixed" }}>
                 <div className="bg-[#00112df2] w-full h-full py-10">
                     <div className="w-10/12 mx-auto p-6">
                         <div>
@@ -107,23 +115,23 @@ const PlacementOverview = () => {
 
             </div>
             <div className='w-full lg:w-1/2 bg-[#00112d] text-white grid grid-cols-1 md:grid-cols-2'>
-                
-                {placements.map((placement, index)=>(
-                <div key={index} className='bg-[#fea700] h-[50vh] md:h-[auto]' style={{ backgroundImage: `url(${placement.backgroundImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-                    <div className='flex items-end h-[50vh] lg:h-full w-full bg-gradient-to-t' style={{ background: 'linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))' }}>
-                        <div className='w-2/3 text-white flex flex-col justify-end p-5'>
-                            <p className='text-3xl font-medium'>
-                                {placement.name}
-                            </p>
-                            <p className='text-xl'>
-                                {placement.role}
-                            </p>
-                        </div>
-                        <div className='w-1/3'>
-                            <img src={placement.companyLogo} alt="" className='p-5' srcSet="" width="100%" />
+
+                {placements.map((placement, index) => (
+                    <div key={index} className='bg-[#fea700] h-[50vh] md:h-[auto]' style={{ backgroundImage: `url(${placement.backgroundImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                        <div className='flex items-end h-[50vh] lg:h-full w-full bg-gradient-to-t' style={{ background: 'linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0))' }}>
+                            <div className='w-2/3 text-white flex flex-col justify-end p-5'>
+                                <p className='text-3xl font-medium'>
+                                    {placement.name}
+                                </p>
+                                <p className='text-xl'>
+                                    {placement.role}
+                                </p>
+                            </div>
+                            <div className='w-1/3'>
+                                <img src={placement.companyLogo} alt="" className='p-5' srcSet="" width="100%" />
+                            </div>
                         </div>
                     </div>
-                </div>  
                 ))}
             </div>
         </div>

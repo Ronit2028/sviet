@@ -104,7 +104,7 @@ const EventCarousel = () => {
                             Our events showcase the spirit of innovation, collaboration, and excellence, nurturing talents
                             and fostering growth in a dynamic learning environment.
                         </p>
-                        <button className='bg-[#fea700] text-white font-lg p-2 w-fit mt-3 rounded-md'>Know More</button>
+                        {/* <button className='bg-[#fea700] text-white font-lg p-2 w-fit mt-3 rounded-md'>Know More</button> */}
                     </div>
                 </div>
             </div>
