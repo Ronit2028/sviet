@@ -1,4 +1,241 @@
 const data = [
+ // M.TECH
+ {
+    "id": 6,
+    "course_name": "M.Tech",
+    "header": {
+        "title": "Master in Computer Science & Engineering",
+        "subtitle": "IGNITE INNOVATION AND RESEARCH",
+        "background_image": "../Courses/MTech/cse/Header.jpg"
+
+    },
+    "program_name": "M.Tech in Computer Science and Engineering",
+    "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
+    "fees": "37,500/-INR Per Semester",
+    "duration": "2 years",
+    "major_tracks": [
+        "Data Science",
+        "Software Development",
+        "Machine Learning",
+        "Cloud Computing",
+        "Networking"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Data Scientist",
+            "desc": "M.Tech CSE graduates specializing in artificial intelligence (AI) can work as AI engineers, developing AI-based systems, algorithms, and models for various applications.",
+            "image": "../Courses/MTech/cse/data.jpg"
+        },
+        {
+            "title": "Intelligence Engineer",
+            "desc": "Graduates can pursue research roles, working in research organizations, universities, or corporate R&D labs, contributing to advancements in computer science and engineering through innovative research.",
+            "image": "../Courses/MTech/cse/intelligence.avif"
+        },
+        {
+            "title": "Research Scientist",
+            "desc": "With their strong technical skills and domain knowledge, M.Tech CSE graduates can work as technology consultants, providing expert advice and solutions to businesses on implementing and optimizing technology systems.",
+            "image": "../Courses/MTech/cse/research.jpg"
+        },
+        {
+            "title": "Cybersecurity Analyst",
+            "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
+            "image": "../Courses/Mtech/cse/cybersecurity.avif"
+        }
+    ],
+
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Advanced Education: Specialization in computer science and engineering.",
+        "Theoretical and Practical Knowledge: Deeper understanding of core concepts and hands-on experience.",
+        "Specialized Areas: Focus on areas like algorithms, data structures, software engineering, artificial intelligence, machine learning, etc.",
+        "Research Opportunities: Opportunities for research and development.",
+        "Flexible Curriculum: Combination of core and elective courses.",
+        "Thesis Component: Option to conduct research and make original contributions.",
+        "Industry Relevance: Curriculum designed to meet industry demands.",
+        "Career Advancement: Preparation for advanced careers in technology and academia."
+    ],
+    "labs": [
+        {
+            "title": "Networking Lab",
+            "description": "Explore networking concepts and protocols in a hands-on environment.",
+            "image": "../Courses/BTech/cse/lab/networking.jpg"
+        },
+        {
+            "title": "Database Management Lab",
+            "description": "Practice database design, implementation, and management techniques.",
+            "image": "../Courses/BTech/cse/lab/database.jpg"
+        },
+        {
+            "title": "Software Development Lab",
+            "description": "Develop and test software applications using industry-standard tools and methodologies.",
+            "image": "../Courses/BTech/cse/lab/development.jpg"
+        }
+    ]
+},
+{
+    "id": 7,
+    "course_name": "M.Tech",
+    "header": {
+        "title": "M.Tech - Electronics & Communication Engineering",
+        "subtitle": "ELEVATE YOUR EXPERTISE IN",
+        "background_image": "../Courses/MTech/ee/Header.jpg"
+    },
+    "program_name": "M.Tech in Electronics & Communication Engineering",
+    "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
+    "fees": "TBD (To Be Disclosed)",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Power Systems",
+        "Renewable Energy",
+        "Control Systems",
+        "Electronics",
+        "Communication"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Research Scientist",
+            "desc": "With your technical expertise and management skills, you can take up roles as a project manager. You would be responsible for leading and coordinating teams, managing budgets and timelines, and ensuring the successful execution of projects in the electronics and communication domain.",
+            "image": "../Courses/MTech/ee/research.jpg"
+        },
+        {
+            "title": "Electronics Engineer",
+            "desc": "You can work as an electronics engineer, designing, developing, and testing electronic components, devices, and systems. This can include working on circuit design, PCB layout, embedded systems, and product development.",
+            "image": "../Courses/MTech/ee/electronics.jpg"
+        },
+        {
+            "title": "Communication Engineer",
+            "desc": "With expertise in communication systems, you can work on designing and implementing wireless and wired communication networks, protocols, and technologies. This can involve working with telecommunications companies, network providers, or in the research and development of communication systems.",
+            "image": "../Courses/MTech/ee/comms.jpg"
+        },
+        {
+            "title": "VLSI Design Engineer",
+            "desc": "Very Large-Scale Integration (VLSI) design engineers are responsible for designing and testing integrated circuits and chips. You can work in the semiconductor industry, designing and optimizing complex digital and analog integrated circuits.",
+            "image": "../Courses/MTech/ee/vlsi.jpg"
+        },
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Advanced Knowledge and Skills: Specialization in electronics and communication engineering.",
+        "Wide Range of Subjects: Covering areas such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more.",
+        "Theoretical Study and Practical Experience: Combining coursework, laboratory work, and research projects.",
+        "Focus on Advanced Technologies: Learning about industry-standard tools and methodologies.",
+        "Problem-Solving and Research Skills: Developing critical thinking and research abilities.",
+        "Career Opportunities: Preparation for careers in electronics and communication engineering and technological innovation."
+    ],
+    "labs": [
+        {
+            "title": "Digital Signal Processing Lab",
+            "description": "Experiment with digital signal processing techniques and algorithms.",
+            "image": "../Courses/BTech/ece/lab/signal.jpg"
+        },
+        {
+            "title": "Microelectronics Lab",
+            "description": "Design and fabricate microelectronic devices and circuits.",
+            "image": "../Courses/BTech/ece/lab/process.jpg"
+        },
+        {
+            "title": "VLSI Design Lab",
+            "description": "Design and simulate Very Large Scale Integration (VLSI) circuits.",
+            "image": "../Courses/BTech/ece/lab/electron.jpg"
+        }
+    ]
+},
+{
+    "id": 8,
+    "course_name": "M.Tech",
+    "header": {
+        "title": "M.Tech - Civil Engineering",
+        "subtitle": "BUILD THE FUTURE WITH",
+        "background_image": "../Courses/MTech/civil/electron.jpg"
+    },
+    "program_name": "M.Tech in Civil Engineering",
+    "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
+    "fees": "TBD (To Be Disclosed)",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Structural Engineering",
+        "Geotechnical Engineering",
+        "Transportation Engineering",
+        "Environmental Engineering",
+        "Construction Management"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Structural Engineer",
+            "desc": "Master the skills to design and analyze structural elements and systems for various types of infrastructure projects.",
+            "image": "https://example.com/structural_engineer_image.jpg"
+        },
+        {
+            "title": "Geotechnical Engineer",
+            "desc": "Specialize in soil mechanics and foundation engineering to ensure the stability and safety of civil structures.",
+            "image": "https://example.com/geotechnical_engineer_image.jpg"
+        },
+        {
+            "title": "Transportation Engineer",
+            "desc": "Design efficient transportation systems and infrastructure to meet the growing demands of urban and rural areas.",
+            "image": "https://example.com/transportation_engineer_image.jpg"
+        },
+        {
+            "title": "Environmental Engineer",
+            "desc": "Focus on sustainable development and environmental protection by implementing innovative solutions for waste management, pollution control, and resource conservation.",
+            "image": "https://example.com/environmental_engineer_image.jpg"
+        },
+        {
+            "title": "Construction Manager",
+            "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
+            "image": "https://example.com/construction_manager_image.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Specialized Education: Focus on various fields of civil engineering including structural, geotechnical, transportation, and environmental engineering.",
+        "Practical Experience: Hands-on training through laboratory work, field visits, and project assignments.",
+        "Application of Engineering Principles: Use modern tools and technologies to solve complex problems in civil engineering.",
+        "Sustainable Development: Emphasize sustainable practices and solutions for infrastructure development and environmental protection.",
+        "Career Opportunities: Prepare graduates for careers in design, construction, project management, research, and consultancy."
+    ],
+    "labs": [
+        {
+            "title": "Structural Engineering Lab",
+            "description": "Experiment with structural elements and systems to understand their behavior and performance.",
+            "image": "../Courses/BTech/civil/lab/structural.jpg"
+        },
+        {
+            "title": "Geotechnical Engineering Lab",
+            "description": "Study soil properties and behavior to assess the stability and bearing capacity of foundations.",
+            "image": "../Courses/BTech/civil/lab/geometrical.jpg"
+        },
+        {
+            "title": "Transportation Engineering Lab",
+            "description": "Analyze traffic flow, design road networks, and evaluate transportation systems.",
+            "image": "../Courses/BTech/civil/lab/transport.jpg"
+        }
+    ]
+},
+    
+    
+    // B.TECH
     {
         "id": 1,
         // for key
@@ -395,239 +632,10 @@ const data = [
             }
         ]
     },
-    {
-        "id": 6,
-        "course_name": "M.Tech",
-        "header": {
-            "title": "Master in Computer Science & Engineering",
-            "subtitle": "IGNITE INNOVATION AND RESEARCH",
-            "background_image": "../Courses/MTech/cse/Header.jpg"
 
-        },
-        "program_name": "M.Tech in Computer Science and Engineering",
-        "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
-        "fees": "37,500/-INR Per Semester",
-        "duration": "2 years",
-        "major_tracks": [
-            "Data Science",
-            "Software Development",
-            "Machine Learning",
-            "Cloud Computing",
-            "Networking"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Data Scientist",
-                "desc": "M.Tech CSE graduates specializing in artificial intelligence (AI) can work as AI engineers, developing AI-based systems, algorithms, and models for various applications.",
-                "image": "../Courses/MTech/cse/data.jpg"
-            },
-            {
-                "title": "Intelligence Engineer",
-                "desc": "Graduates can pursue research roles, working in research organizations, universities, or corporate R&D labs, contributing to advancements in computer science and engineering through innovative research.",
-                "image": "../Courses/MTech/cse/intelligence.avif"
-            },
-            {
-                "title": "Research Scientist",
-                "desc": "With their strong technical skills and domain knowledge, M.Tech CSE graduates can work as technology consultants, providing expert advice and solutions to businesses on implementing and optimizing technology systems.",
-                "image": "../Courses/MTech/cse/research.jpg"
-            },
-            {
-                "title": "Cybersecurity Analyst",
-                "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
-                "image": "../Courses/Mtech/cse/cybersecurity.avif"
-            }
-        ],
+   
 
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Advanced Education: Specialization in computer science and engineering.",
-            "Theoretical and Practical Knowledge: Deeper understanding of core concepts and hands-on experience.",
-            "Specialized Areas: Focus on areas like algorithms, data structures, software engineering, artificial intelligence, machine learning, etc.",
-            "Research Opportunities: Opportunities for research and development.",
-            "Flexible Curriculum: Combination of core and elective courses.",
-            "Thesis Component: Option to conduct research and make original contributions.",
-            "Industry Relevance: Curriculum designed to meet industry demands.",
-            "Career Advancement: Preparation for advanced careers in technology and academia."
-        ],
-        "labs": [
-            {
-                "title": "Networking Lab",
-                "description": "Explore networking concepts and protocols in a hands-on environment.",
-                "image": "../Courses/BTech/cse/lab/networking.jpg"
-            },
-            {
-                "title": "Database Management Lab",
-                "description": "Practice database design, implementation, and management techniques.",
-                "image": "../Courses/BTech/cse/lab/database.jpg"
-            },
-            {
-                "title": "Software Development Lab",
-                "description": "Develop and test software applications using industry-standard tools and methodologies.",
-                "image": "../Courses/BTech/cse/lab/development.jpg"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "course_name": "M.Tech",
-        "header": {
-            "title": "M.Tech - Electronics & Communication Engineering",
-            "subtitle": "ELEVATE YOUR EXPERTISE IN",
-            "background_image": "../Courses/MTech/ee/Header.jpg"
-        },
-        "program_name": "M.Tech in Electronics & Communication Engineering",
-        "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Power Systems",
-            "Renewable Energy",
-            "Control Systems",
-            "Electronics",
-            "Communication"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Research Scientist",
-                "desc": "With your technical expertise and management skills, you can take up roles as a project manager. You would be responsible for leading and coordinating teams, managing budgets and timelines, and ensuring the successful execution of projects in the electronics and communication domain.",
-                "image": "../Courses/MTech/ee/research.jpg"
-            },
-            {
-                "title": "Electronics Engineer",
-                "desc": "You can work as an electronics engineer, designing, developing, and testing electronic components, devices, and systems. This can include working on circuit design, PCB layout, embedded systems, and product development.",
-                "image": "../Courses/MTech/ee/electronics.jpg"
-            },
-            {
-                "title": "Communication Engineer",
-                "desc": "With expertise in communication systems, you can work on designing and implementing wireless and wired communication networks, protocols, and technologies. This can involve working with telecommunications companies, network providers, or in the research and development of communication systems.",
-                "image": "../Courses/MTech/ee/comms.jpg"
-            },
-            {
-                "title": "VLSI Design Engineer",
-                "desc": "Very Large-Scale Integration (VLSI) design engineers are responsible for designing and testing integrated circuits and chips. You can work in the semiconductor industry, designing and optimizing complex digital and analog integrated circuits.",
-                "image": "../Courses/MTech/ee/vlsi.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Advanced Knowledge and Skills: Specialization in electronics and communication engineering.",
-            "Wide Range of Subjects: Covering areas such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more.",
-            "Theoretical Study and Practical Experience: Combining coursework, laboratory work, and research projects.",
-            "Focus on Advanced Technologies: Learning about industry-standard tools and methodologies.",
-            "Problem-Solving and Research Skills: Developing critical thinking and research abilities.",
-            "Career Opportunities: Preparation for careers in electronics and communication engineering and technological innovation."
-        ],
-        "labs": [
-            {
-                "title": "Digital Signal Processing Lab",
-                "description": "Experiment with digital signal processing techniques and algorithms.",
-                "image": "../Courses/BTech/ece/lab/signal.jpg"
-            },
-            {
-                "title": "Microelectronics Lab",
-                "description": "Design and fabricate microelectronic devices and circuits.",
-                "image": "../Courses/BTech/ece/lab/process.jpg"
-            },
-            {
-                "title": "VLSI Design Lab",
-                "description": "Design and simulate Very Large Scale Integration (VLSI) circuits.",
-                "image": "../Courses/BTech/ece/lab/electron.jpg"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "course_name": "M.Tech",
-        "header": {
-            "title": "M.Tech - Civil Engineering",
-            "subtitle": "BUILD THE FUTURE WITH",
-            "background_image": "../Courses/MTech/civil/electron.jpg"
-        },
-        "program_name": "M.Tech in Civil Engineering",
-        "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Structural Engineering",
-            "Geotechnical Engineering",
-            "Transportation Engineering",
-            "Environmental Engineering",
-            "Construction Management"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Structural Engineer",
-                "desc": "Master the skills to design and analyze structural elements and systems for various types of infrastructure projects.",
-                "image": "https://example.com/structural_engineer_image.jpg"
-            },
-            {
-                "title": "Geotechnical Engineer",
-                "desc": "Specialize in soil mechanics and foundation engineering to ensure the stability and safety of civil structures.",
-                "image": "https://example.com/geotechnical_engineer_image.jpg"
-            },
-            {
-                "title": "Transportation Engineer",
-                "desc": "Design efficient transportation systems and infrastructure to meet the growing demands of urban and rural areas.",
-                "image": "https://example.com/transportation_engineer_image.jpg"
-            },
-            {
-                "title": "Environmental Engineer",
-                "desc": "Focus on sustainable development and environmental protection by implementing innovative solutions for waste management, pollution control, and resource conservation.",
-                "image": "https://example.com/environmental_engineer_image.jpg"
-            },
-            {
-                "title": "Construction Manager",
-                "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
-                "image": "https://example.com/construction_manager_image.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Specialized Education: Focus on various fields of civil engineering including structural, geotechnical, transportation, and environmental engineering.",
-            "Practical Experience: Hands-on training through laboratory work, field visits, and project assignments.",
-            "Application of Engineering Principles: Use modern tools and technologies to solve complex problems in civil engineering.",
-            "Sustainable Development: Emphasize sustainable practices and solutions for infrastructure development and environmental protection.",
-            "Career Opportunities: Prepare graduates for careers in design, construction, project management, research, and consultancy."
-        ],
-        "labs": [
-            {
-                "title": "Structural Engineering Lab",
-                "description": "Experiment with structural elements and systems to understand their behavior and performance.",
-                "image": "../Courses/BTech/civil/lab/structural.jpg"
-            },
-            {
-                "title": "Geotechnical Engineering Lab",
-                "description": "Study soil properties and behavior to assess the stability and bearing capacity of foundations.",
-                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
-            },
-            {
-                "title": "Transportation Engineering Lab",
-                "description": "Analyze traffic flow, design road networks, and evaluate transportation systems.",
-                "image": "../Courses/BTech/civil/lab/transport.jpg"
-            }
-        ]
-    },
+    // DIPLOMA
     {
         "id": 9,
         "course_name": "Diploma",
@@ -636,7 +644,7 @@ const data = [
             "subtitle": "SHAPE THE DIGITAL AGE WITH",
             "background_image": "../Courses/diploma/cse/cse.jpg"
         },
-        "program_name": "Diploma in CSE",
+        "program_name": "Diploma in Computer Science Engineering",
         "program_description": "A Diploma in Computer Science and Engineering (CSE) is a short-term academic program that focuses on the fundamentals of computer science and engineering. It provides students with practical knowledge and skills related to software development, programming, networking, database management, and computer hardware. During the diploma program, students learn about various programming languages, algorithms, data structures, computer architecture, operating systems, and software engineering principles. They gain hands-on experience through practical labs, projects, and internships. The diploma in CSE prepares students for entry-level positions in the IT industry. Graduates can work as software developers, system analysts, database administrators, network administrators, and technical support specialists. They can also pursue higher education or certifications to further specialize in specific areas of computer science and engineering. Overall, a diploma in CSE provides a foundation for students to understand and apply the principles of computer science and engineering in various technology-driven fields.",
         "fees": "20,000/-INR Per Semester",
         "duration": "3 years",
@@ -710,7 +718,7 @@ const data = [
             "subtitle": "POWER THE FUTURE WITH",
             "background_image": "../Courses/diploma/ee/ee.jpg"
         },
-        "program_name": "Diploma in EE",
+        "program_name": "Diploma in Electrical Engineering",
         "program_description": "A Diploma in Electrical Engineering (EE) is an undergraduate engineering program that focuses on the study of electrical systems, devices, and power generation, transmission, and distribution. The curriculum typically includes subjects such as circuit theory, power systems, control systems, electronics, electromagnetic, digital systems, and communication systems. Students pursuing a diploma in EE gain a strong foundation in electrical engineering principles, mathematical analysis, and problem-solving skills. They learn to design and analyze electrical circuits, develop control systems, and understand the generation and distribution of electrical power. Overall, a diploma in EE equips students with the knowledge and skills to contribute to the design, development, and management of electrical systems, making them valuable professionals in the field of electrical engineering.",
         "fees": "20,000/-INR Per Semester",
         "duration": "3 Years",
@@ -915,6 +923,8 @@ const data = [
             }
         ]
     },
+
+    // PHARMACY
     {
         "id": 13,
         "course_name": "Pharmacy",
@@ -997,7 +1007,7 @@ const data = [
         "id": 14,
         "course_name": "Pharmacy",
         "header": {
-            "title": "MASTER OF PHARMACY",
+            "title": "MASTERS IN PHARMACY",
             "subtitle": "SHAPE THE FUTURE OF PHARMACEUTICS",
             "background_image": "../Courses/pharmacy/Mpharma/Mpharma.jpg"
         },
@@ -1228,11 +1238,13 @@ const data = [
             }
         ]
     },
+
+    // HOTEL MANAGEMENT
     {
         "id": 17,
         "course_name": "HM",
         "header": {
-            "title": "HOTEL MANAGEMENT AND CATERING TECHNOLOGY",
+            "title": "BACHELOR OF HOTEL MANAGEMENT AND CATERING TECHNOLOGY",
             "subtitle": "UPSCALE YOUR CAREER IN HOSPITALITY",
             "background_image": "../Courses/HM/catering/catering.jpg"
         },
@@ -1519,6 +1531,596 @@ const data = [
         ],
 
     },
+
+    // EDUCATION
+
+    {
+        "id": 41,
+        "course_name": "Education",
+        "header": {
+            "title": "Master of Education",
+            "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
+            "background_image": "../Courses/Education/Masters/teaching.avif"
+        },
+        "program_name": "Master of Education",
+        "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
+        "fees": "27,500 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Educational Theory",
+            "Counselling",
+            "Leadership",
+            "Training and Internship"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Enhanced Teaching Skills",
+                "desc": "Develop advanced teaching techniques and methodologies to deliver effective and engaging lessons in diverse educational settings.",
+                "image": "../Courses/Education/Masters/teaching.avif"
+            },
+            {
+                "title": "Leadership Development",
+                "desc": "Acquire leadership skills to lead educational institutions, departments, or teams effectively and inspire positive change in the field of education.",
+                "image": "../Courses/Education/Masters/leadership.jpg"
+            },
+            {
+                "title": "Counselling Proficiency",
+                "desc": "Gain expertise in counselling techniques to provide guidance and support to students, colleagues, and parents, fostering a positive learning environment.",
+                "image": "../Courses/Education/Masters/counselling.avif"
+            },
+            {
+                "title": "Research Aptitude",
+                "desc": "Cultivate research skills to conduct educational research, analyze data, and contribute to the advancement of knowledge in the field of education.",
+                "image": "../Courses/Education/Masters/research.avif"
+            },
+        ],
+
+        "eligibility_criteria": {
+            "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": []
+    },
+    {
+        "id": 42,
+        "course_name": "Education",
+        "header": {
+            "title": "Master of Arts in Education",
+            "subtitle": "SHAPING THE FUTURE OF EDUCATION",
+            "background_image": "../Courses/Education/Arts/mastery.avif"
+        },
+        "program_name": "Master of Arts in Education",
+        "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
+        "fees": "15,000 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Theoretical Instruction",
+            "Counselling",
+            "Curriculum",
+            "Educational Technology"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Theoretical Instruction Mastery",
+                "desc": "Develop a comprehensive understanding of educational theories and instructional strategies to effectively design and deliver theoretical instruction in diverse educational settings.",
+                "image": "../Courses/Education/Arts/mastery.avif"
+            },
+            {
+                "title": "Counselling Proficiency",
+                "desc": "Enhance counselling skills to provide support and guidance to students, colleagues, and parents, fostering holistic development and well-being.",
+                "image": "../Courses/Education/Masters/counselling.avif"
+            },
+            {
+                "title": "Curriculum Development Expertise",
+                "desc": "Acquire expertise in curriculum planning, development, and evaluation to design relevant and engaging learning experiences aligned with educational goals and standards.",
+                "image": "../Courses/Education/Arts/curriculum.avif"
+            },
+            {
+                "title": "Educational Technology Integration",
+                "desc": "Explore innovative educational technologies and learn to integrate them into teaching practices, enhancing instructional delivery and student engagement.",
+                "image": "../Courses/Education/Arts/tech.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": []
+    },
+    {
+        "id": 43,
+        "course_name": "Education",
+        "header": {
+            "title": "Bachelor of Education",
+            "subtitle": "SHAPING FUTURE EDUCATORS",
+            "background_image": "../Courses/Education/Bachelor/expertise.avif"
+        },
+        "program_name": "Bachelor of Education",
+        "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
+        "fees": "32,500 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Theory",
+            "Research",
+            "Leadership",
+            "Training and Internship"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Pedagogical Expertise",
+                "desc": "Develop pedagogical skills to effectively plan, deliver, and assess instruction in diverse educational contexts, catering to the needs of learners.",
+                "image": "../Courses/Education/Bachelor/expertise.avif"
+            },
+            {
+                "title": "Research Proficiency",
+                "desc": "Acquire research skills to critically analyze educational issues, conduct empirical studies, and contribute to the advancement of educational knowledge and practices.",
+                "image": "../Courses/Education/Bachelor/research.jpg"
+            },
+            {
+                "title": "Leadership Development",
+                "desc": "Enhance leadership abilities to lead and manage educational initiatives, collaborate with stakeholders, and promote positive change within educational institutions.",
+                "image": "../Courses/Education/Masters/leadership.jpg"
+            },
+            {
+                "title": "Teaching Training and Internship",
+                "desc": "Undergo teaching training and internship experiences to apply theoretical knowledge in real-world educational settings, gaining practical teaching skills and experience.",
+                "image": "../Courses/Education/Bachelor/training.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": []
+    },
+    {
+        "id": 44,
+        "course_name": "Education",
+        "header": {
+            "title": "Bachelor of Arts",
+            "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
+            "background_image": "../Courses/Education/BA/comms.avif"
+        },
+        "program_name": "Bachelor of Arts",
+        "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
+        "fees": "15,000 INR Per Semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Social Sciences",
+            "Literature",
+            "Science & Philosophy",
+            "Psychology"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Critical Thinking Skills",
+                "desc": "Develop critical thinking skills to analyze and evaluate complex ideas, arguments, and theories in various disciplines within the humanities and social sciences.",
+                "image": "../Courses/Education/BA/thinking.avif"
+            },
+            {
+                "title": "Effective Communication",
+                "desc": "Enhance communication skills through written and oral expression, enabling effective interaction and expression of ideas in diverse contexts and audiences.",
+                "image": "../Courses/Education/BA/comms.avif"
+            },
+            {
+                "title": "Research Proficiency",
+                "desc": "Acquire research skills to gather, interpret, and synthesize information from multiple sources, facilitating independent inquiry and scholarly exploration.",
+                "image": "../Courses/Education/Bachelor/research.jpg"
+            },
+            {
+                "title": "Cultural Awareness",
+                "desc": "Develop cultural awareness and sensitivity to appreciate and understand diverse perspectives, traditions, and values across different societies and cultures.",
+                "image": "../Courses/Education/BA/cultural.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+            "5000+ Offer Letters",
+            "250+ Companies Visited Every Year",
+            "43 Lakh Highest Package",
+            "25000+ Global Alumni Reach"
+        ],
+        "labs": []
+    },
+
+    // COMPUTER APPLICATION
+    {
+        "id": 45,
+        "course_name": "Computer Applications",
+        "header": {
+            "title": "Master of Computer Application",
+            "subtitle": "SHAPING FUTURE TECH LEADERS",
+            "background_image": "../Courses/ComputerApp/MCA/cloud.avif"
+        },
+        "program_name": "MCA",
+        "program_description": "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
+        "fees": "32,000 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Data Science",
+            "Software Development",
+            "Machine Learning",
+            "Cloud Computing",
+            "Networking"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Data Scientist",
+                "desc": "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
+                "image": "../Courses/ComputerApp/MCA/data.avif"
+            },
+            {
+                "title": "Software Developer",
+                "desc": "Develop expertise in software development using modern programming languages and frameworks.",
+                "image": "../Courses/ComputerApp/MCA/software.avif"
+            },
+            {
+                "title": "Cloud Engineer",
+                "desc": "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
+                "image": "../Courses/ComputerApp/MCA/cloud.avif"
+            },
+            {
+                "title": "Network Administrator",
+                "desc": "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
+                "image": "../Courses/ComputerApp/MCA/network.avif"
+            },
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category."
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "program_highlights": [
+            "Specialized study of computer applications and services",
+            "Emphasis on technological implementation of computer systems",
+            "Opportunities for research and practical applications",
+            "Development of problem-solving and analysis skills"
+        ],
+        "labs": []
+    },
+    {
+        "id": 46,
+        "course_name": "Computer Applications",
+        "header": {
+            "title": "Bachelor of Computer Application",
+            "subtitle": "UNLOCK YOUR POTENTIAL IN IT",
+            "background_image": "../Courses/ComputerApp/MCA/software.avif"
+        },
+        "program_name": "BCA",
+        "program_description": "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
+        "fees": "Rs. 22000/- INR per semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Software Development",
+            "Web Development",
+            "Database Administration",
+            "Network Engineering"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Software Developer",
+                "desc": "Become proficient in software development using various programming languages and tools.",
+                "image": "../Courses/ComputerApp/MCA/software.avif"
+            },
+            {
+                "title": "Web Developer",
+                "desc": "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
+                "image": "../Courses/ComputerApp/BCA/web.avif"
+            },
+            {
+                "title": "Database Administrator",
+                "desc": "Learn database design, implementation, and management techniques.",
+                "image": "../Courses/ComputerApp/BCA/data.jpg"
+            },
+            {
+                "title": "Network Engineer",
+                "desc": "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
+                "image": "../Courses/ComputerApp/BCA/network.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "10+2 with at least 45% and for reserved category minimum 40%"
+        },
+        "affiliation": {
+            "affiliated_to": ["Punjabi University, Patiala", "MRSPTU, Bathinda", "IKGPTU, Jalandhar"],
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Learn by Doing: Hands-on learning through case studies and projects.",
+            "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
+            "Industry Ready: Six-month industry internship for real-world experience.",
+            "Global Exposure: National and international immersion programs.",
+            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
+            "Beyond Academics: Essential skill development through workshops.",
+            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
+            "Expert Learning: Renowned faculty and industry guest speakers.",
+            "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more."
+        ],
+        "labs": []
+    },
+    {
+        "id": 47,
+        "course_name": "Computer Applications",
+        "header": {
+            "title": "Post Graduate Diploma in Computer Applications",
+            "subtitle": "UNLEASH YOUR POTENTIAL IN IT",
+            "background_image": "../Courses/BTech/cse/data.jpg"
+        },
+        "program_name": "PGDCA",
+        "program_description": "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
+        "fees": "Rs. 12000/- INR per semester",
+        "duration": "1 Year (Semester System)",
+        "major_tracks": [
+            "Software Engineer",
+            "Computer Programmer & Analyst",
+            "Interface Engineer",
+            "Java Developer",
+            "Project Manager",
+            "Information Security Analyst",
+            "IT Consultant"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Software Engineer",
+                "desc": "Acquire skills to design and develop software applications according to industry standards.",
+                "image": "../Courses/ComputerApp/MCA/software.avif"
+            },
+            {
+                "title": "Computer Programmer & Analyst",
+                "desc": "Learn programming languages and analytical techniques to develop efficient computer programs.",
+                "image": "../Courses/ComputerApp/pgdca/programmer.avif"
+            },
+            {
+                "title": "Information Security Analyst",
+                "desc": "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
+                "image": "../Courses/ComputerApp/pgdca/security.avif"
+            },
+            {
+                "title": "IT Consultant",
+                "desc": "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
+                "image": "../Courses/ComputerApp/pgdca/consultant.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Graduation in any discipline with at least 50% and for reserved category minimum 45%"
+        },
+        "affiliation": {
+            "affiliated_to": "Any recognized university",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Practical Oriented Curriculum: Emphasis on hands-on learning and real-world projects.",
+            "Industry-Relevant Skills: Develop skills and knowledge demanded by the IT industry.",
+            "Experienced Faculty: Learn from experienced faculty members and industry experts.",
+            "Internship Opportunities: Gain practical experience through internships in reputed organizations.",
+            "Career Support: Access to career guidance and placement assistance.",
+            "Flexible Learning: Convenient class timings and online resources for flexible learning."
+        ],
+        "labs": []
+    },
+    {
+        "id": 48,
+        "course_name": "Computer Applications",
+        "header": {
+            "title": "Bachelor of Science in Information Technology",
+            "subtitle": "BUILDING THE FUTURE OF IT",
+            "background_image": "../Courses/ComputerApp/BscIt/data.avif"
+        },
+        "program_name": "B.Sc Information Technology",
+        "program_description": "B.Sc. IT (Bachelor of Science in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+        "fees": "20,000 INR per semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Software Development",
+            "Database Management",
+            "Network Administration",
+            "Cybersecurity",
+            "Web Development"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Software Developer",
+                "desc": "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
+                "image": "../Courses/ComputerApp/MCA/software.avif"
+            },
+            {
+                "title": "Database Administrator",
+                "desc": "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
+                "image": "../Courses/ComputerApp/BscIt/data.avif"
+            },
+            {
+                "title": "Network Administrator",
+                "desc": "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
+                "image": "../Courses/ComputerApp/BscIt/network.avif"
+            },
+            {
+                "title": "Cybersecurity Specialist",
+                "desc": "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
+                "image": "../Courses/ComputerApp/BscIt/cyber.avif"
+            },
+        ],
+        "program_highlights": [
+            "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
+            "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
+            "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
+            "Expert Faculty: Learn from experienced faculty members and industry experts.",
+            "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
+            "Flexible Learning: Convenient class timings and online resources for flexible learning."
+        ],
+        "eligibility_criteria": {
+            "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "labs": []
+    },
+
+
+    // LAW
+    {
+        "id": 35,
+        "course_name": "Law",
+        "header": {
+            "title": "BACHELOR OF LAW",
+            "subtitle": "DELIVERING JUSTICE FOR A BETTER SOCIETY",
+            "background_image": "../Courses/Law/Bachelors/header.avif"
+        },
+        "program_name": "Bachelor of Law",
+        "program_description": "The Bachelor of Law program produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty of Law endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. For students to pursue this three year unitary program, they need to have pursued a graduation in any of the related fields of study. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting, and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained and skilled faculties as well as expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
+        "fees": "30,000/- INR Per Semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Corporate Lawyer",
+            "In-House Counsel",
+            "Mergers and Acquisitions Attorney",
+            "Securities Lawyer",
+            "Compliance Officer"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Legal Advisor",
+                "desc": "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
+                "image": "../Courses/Law/Bachelors/advisor.jpg"
+            },
+            {
+                "title": "Cyber Law Specialist",
+                "desc": "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
+                "image": "../Courses/Law/Bachelors/cyberl.jpg"
+            },
+            {
+                "title": "Legal Analyst",
+                "desc": "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
+                "image": "../Courses/Law/Bachelors/analyst.jpg"
+            },
+            {
+                "title": "Litigation Attorney",
+                "desc": "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
+                "image": "../Courses/Law/Bachelors/attorney.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand College of Law",
+            "approved_by": "Punjabi University, Patiala"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Comprehensive understanding of legal theories and principles",
+            "Practical training through moot court competitions, parliamentary debates, and legal aid clinics",
+            "Preparation for careers as corporate lawyers, legal advisors, and cyber law specialists",
+            "Faculty led by highly trained legal experts"
+        ],
+        "labs": []
+    },
+    {
+        "id": 36,
+        "course_name": "Law",
+        "header": {
+            "title": "BACHELOR OF ARTS + BACHELOR OF LAW",
+            "subtitle": "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
+            "background_image": "../Courses/Law/LLB/header.avif"
+        },
+        "program_name": "Bachelor of Arts + Bachelor of Law",
+        "program_description": "The Bachelor of Arts + Bachelor of Law is a five-year law program which seeks to develop the student's understanding of Arts related subjects while pursuing law. The Faculty of Law produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. While pursuing this program, students will be exposed to various aspects of the Field of Arts while at the same time studying law. They will study arts fundamentals such as Political Science, Economics and International Relations, amongst others. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained skilled faculties and expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
+        "fees": "30,000/- INR Per Semester",
+        "duration": "5 Years (Semester System)",
+        "major_tracks": [
+            "Corporate Lawyer",
+            "In-House Counsel",
+            "Mergers and Acquisitions Attorney",
+            "Securities Lawyer",
+            "Compliance Officer"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Legal Advisor",
+                "desc": "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
+                "image": "../Courses/Law/Bachelors/advisor.jpg"
+            },
+            {
+                "title": "Cyber Law Specialist",
+                "desc": "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
+                "image": "../Courses/Law/Bachelors/cyberl.jpg"
+            },
+            {
+                "title": "Legal Analyst",
+                "desc": "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
+                "image": "../Courses/Law/Bachelors/analyst.jpg"
+            },
+            {
+                "title": "Litigation Attorney",
+                "desc": "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
+                "image": "../Courses/Law/Bachelors/attorney.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks not below 45% of the total marks in case of general category applicants, 42% for OBC category* and 40% of the total marks in case of SC and ST applicants, to be obtained for the qualifying examination, such as +2 Examination in case of Integrated Five Years’ course or Degree course in any discipline for Three years’ LL.B. course, for the purpose of applying for and getting admitted into a Law Degree Program of any recognized University in either of the streams."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand College of Law",
+            "approved_by": "Punjabi University, Patiala"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Five-year integrated program combining arts and law education",
+            "Exposure to arts subjects such as Political Science, Economics, and International Relations",
+            "Preparation for legal careers with comprehensive understanding of legal theories and practical training",
+            "Faculty led by highly trained legal experts"
+        ],
+        "labs": []
+    },
+
+    // BUSINESS STUDIES
     {
         "id": 21,
         "course_name": "Business Studies",
@@ -1580,7 +2182,7 @@ const data = [
         "id": 22,
         "course_name": "Business Studies",
         "header": {
-            "title": "BACHELOR OF BUSINESS ADMINISTRATION",
+            "title": "BACHELOR IN BUSINESS ADMINISTRATION",
             "subtitle": "DEVELOPING BUSINESS ACUMEN",
             "background_image": "../Courses/Business/BBA/bba.jpg"
         },
@@ -1755,6 +2357,8 @@ const data = [
         ],
         "labs": []
     },
+
+    // PARAMEDICAL
     {
         "id": 25,
         "course_name": "Paramedical",
@@ -2288,120 +2892,9 @@ const data = [
         ],
         "labs": []
     },
-    {
-        "id": 35,
-        "course_name": "Law",
-        "header": {
-            "title": "BACHELOR OF LAW",
-            "subtitle": "DELIVERING JUSTICE FOR A BETTER SOCIETY",
-            "background_image": "../Courses/Law/Bachelors/header.avif"
-        },
-        "program_name": "Bachelor of Law",
-        "program_description": "The Bachelor of Law program produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty of Law endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. For students to pursue this three year unitary program, they need to have pursued a graduation in any of the related fields of study. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting, and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained and skilled faculties as well as expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
-        "fees": "30,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Corporate Lawyer",
-            "In-House Counsel",
-            "Mergers and Acquisitions Attorney",
-            "Securities Lawyer",
-            "Compliance Officer"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Legal Advisor",
-                "desc": "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
-                "image": "../Courses/Law/Bachelors/advisor.jpg"
-            },
-            {
-                "title": "Cyber Law Specialist",
-                "desc": "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
-                "image": "../Courses/Law/Bachelors/cyberl.jpg"
-            },
-            {
-                "title": "Legal Analyst",
-                "desc": "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
-                "image": "../Courses/Law/Bachelors/analyst.jpg"
-            },
-            {
-                "title": "Litigation Attorney",
-                "desc": "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
-                "image": "../Courses/Law/Bachelors/attorney.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand College of Law",
-            "approved_by": "Punjabi University, Patiala"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Comprehensive understanding of legal theories and principles",
-            "Practical training through moot court competitions, parliamentary debates, and legal aid clinics",
-            "Preparation for careers as corporate lawyers, legal advisors, and cyber law specialists",
-            "Faculty led by highly trained legal experts"
-        ],
-        "labs": []
-    },
-    {
-        "id": 36,
-        "course_name": "Law",
-        "header": {
-            "title": "BACHELOR OF ARTS + BACHELOR OF LAW",
-            "subtitle": "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
-            "background_image": "../Courses/Law/LLB/header.avif"
-        },
-        "program_name": "Bachelor of Arts + Bachelor of Law",
-        "program_description": "The Bachelor of Arts + Bachelor of Law is a five-year law program which seeks to develop the student's understanding of Arts related subjects while pursuing law. The Faculty of Law produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. While pursuing this program, students will be exposed to various aspects of the Field of Arts while at the same time studying law. They will study arts fundamentals such as Political Science, Economics and International Relations, amongst others. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained skilled faculties and expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
-        "fees": "30,000/- INR Per Semester",
-        "duration": "5 Years (Semester System)",
-        "major_tracks": [
-            "Corporate Lawyer",
-            "In-House Counsel",
-            "Mergers and Acquisitions Attorney",
-            "Securities Lawyer",
-            "Compliance Officer"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Legal Advisor",
-                "desc": "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
-                "image": "../Courses/Law/Bachelors/advisor.jpg"
-            },
-            {
-                "title": "Cyber Law Specialist",
-                "desc": "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
-                "image": "../Courses/Law/Bachelors/cyberl.jpg"
-            },
-            {
-                "title": "Legal Analyst",
-                "desc": "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
-                "image": "../Courses/Law/Bachelors/analyst.jpg"
-            },
-            {
-                "title": "Litigation Attorney",
-                "desc": "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
-                "image": "../Courses/Law/Bachelors/attorney.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks not below 45% of the total marks in case of general category applicants, 42% for OBC category* and 40% of the total marks in case of SC and ST applicants, to be obtained for the qualifying examination, such as +2 Examination in case of Integrated Five Years’ course or Degree course in any discipline for Three years’ LL.B. course, for the purpose of applying for and getting admitted into a Law Degree Program of any recognized University in either of the streams."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand College of Law",
-            "approved_by": "Punjabi University, Patiala"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Five-year integrated program combining arts and law education",
-            "Exposure to arts subjects such as Political Science, Economics, and International Relations",
-            "Preparation for legal careers with comprehensive understanding of legal theories and practical training",
-            "Faculty led by highly trained legal experts"
-        ],
-        "labs": []
-    },
+
+
+    // BASIC SCIENCES
     {
         "id": 37,
         "course_name": "Basic Science",
@@ -2613,478 +3106,6 @@ const data = [
         ],
         "labs": []
     },
-
-
-    {
-        "id": 41,
-        "course_name": "Education",
-        "header": {
-            "title": "Master of Education",
-            "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
-            "background_image": "../Courses/Education/Masters/teaching.avif"
-        },
-        "program_name": "Master of Education",
-        "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
-        "fees": "27,500 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Educational Theory",
-            "Counselling",
-            "Leadership",
-            "Training and Internship"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Enhanced Teaching Skills",
-                "desc": "Develop advanced teaching techniques and methodologies to deliver effective and engaging lessons in diverse educational settings.",
-                "image": "../Courses/Education/Masters/teaching.avif"
-            },
-            {
-                "title": "Leadership Development",
-                "desc": "Acquire leadership skills to lead educational institutions, departments, or teams effectively and inspire positive change in the field of education.",
-                "image": "../Courses/Education/Masters/leadership.jpg"
-            },
-            {
-                "title": "Counselling Proficiency",
-                "desc": "Gain expertise in counselling techniques to provide guidance and support to students, colleagues, and parents, fostering a positive learning environment.",
-                "image": "../Courses/Education/Masters/counselling.avif"
-            },
-            {
-                "title": "Research Aptitude",
-                "desc": "Cultivate research skills to conduct educational research, analyze data, and contribute to the advancement of knowledge in the field of education.",
-                "image": "../Courses/Education/Masters/research.avif"
-            },
-        ],
-
-        "eligibility_criteria": {
-            "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
-    {
-        "id": 42,
-        "course_name": "Education",
-        "header": {
-            "title": "Master of Arts in Education",
-            "subtitle": "SHAPING THE FUTURE OF EDUCATION",
-            "background_image": "../Courses/Education/Arts/mastery.avif"
-        },
-        "program_name": "Master of Arts in Education",
-        "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
-        "fees": "15,000 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Theoretical Instruction",
-            "Counselling",
-            "Curriculum",
-            "Educational Technology"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Theoretical Instruction Mastery",
-                "desc": "Develop a comprehensive understanding of educational theories and instructional strategies to effectively design and deliver theoretical instruction in diverse educational settings.",
-                "image": "../Courses/Education/Arts/mastery.avif"
-            },
-            {
-                "title": "Counselling Proficiency",
-                "desc": "Enhance counselling skills to provide support and guidance to students, colleagues, and parents, fostering holistic development and well-being.",
-                "image": "../Courses/Education/Masters/counselling.avif"
-            },
-            {
-                "title": "Curriculum Development Expertise",
-                "desc": "Acquire expertise in curriculum planning, development, and evaluation to design relevant and engaging learning experiences aligned with educational goals and standards.",
-                "image": "../Courses/Education/Arts/curriculum.avif"
-            },
-            {
-                "title": "Educational Technology Integration",
-                "desc": "Explore innovative educational technologies and learn to integrate them into teaching practices, enhancing instructional delivery and student engagement.",
-                "image": "../Courses/Education/Arts/tech.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
-    {
-        "id": 43,
-        "course_name": "Education",
-        "header": {
-            "title": "Bachelor of Education",
-            "subtitle": "SHAPING FUTURE EDUCATORS",
-            "background_image": "../Courses/Education/Bachelor/expertise.avif"
-        },
-        "program_name": "Bachelor of Education",
-        "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
-        "fees": "32,500 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Theory",
-            "Research",
-            "Leadership",
-            "Training and Internship"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Pedagogical Expertise",
-                "desc": "Develop pedagogical skills to effectively plan, deliver, and assess instruction in diverse educational contexts, catering to the needs of learners.",
-                "image": "../Courses/Education/Bachelor/expertise.avif"
-            },
-            {
-                "title": "Research Proficiency",
-                "desc": "Acquire research skills to critically analyze educational issues, conduct empirical studies, and contribute to the advancement of educational knowledge and practices.",
-                "image": "../Courses/Education/Bachelor/research.jpg"
-            },
-            {
-                "title": "Leadership Development",
-                "desc": "Enhance leadership abilities to lead and manage educational initiatives, collaborate with stakeholders, and promote positive change within educational institutions.",
-                "image": "../Courses/Education/Masters/leadership.jpg"
-            },
-            {
-                "title": "Teaching Training and Internship",
-                "desc": "Undergo teaching training and internship experiences to apply theoretical knowledge in real-world educational settings, gaining practical teaching skills and experience.",
-                "image": "../Courses/Education/Bachelor/training.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
-    {
-        "id": 44,
-        "course_name": "Education",
-        "header": {
-            "title": "Bachelor of Arts",
-            "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
-            "background_image": "../Courses/Education/BA/comms.avif"
-        },
-        "program_name": "Bachelor of Arts",
-        "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
-        "fees": "15,000 INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Social Sciences",
-            "Literature",
-            "Science & Philosophy",
-            "Psychology"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Critical Thinking Skills",
-                "desc": "Develop critical thinking skills to analyze and evaluate complex ideas, arguments, and theories in various disciplines within the humanities and social sciences.",
-                "image": "../Courses/Education/BA/thinking.avif"
-            },
-            {
-                "title": "Effective Communication",
-                "desc": "Enhance communication skills through written and oral expression, enabling effective interaction and expression of ideas in diverse contexts and audiences.",
-                "image": "../Courses/Education/BA/comms.avif"
-            },
-            {
-                "title": "Research Proficiency",
-                "desc": "Acquire research skills to gather, interpret, and synthesize information from multiple sources, facilitating independent inquiry and scholarly exploration.",
-                "image": "../Courses/Education/Bachelor/research.jpg"
-            },
-            {
-                "title": "Cultural Awareness",
-                "desc": "Develop cultural awareness and sensitivity to appreciate and understand diverse perspectives, traditions, and values across different societies and cultures.",
-                "image": "../Courses/Education/BA/cultural.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
-    {
-        "id": 45,
-        "course_name": "Computer Applications",
-        "header": {
-            "title": "Master of Computer Application",
-            "subtitle": "SHAPING FUTURE TECH LEADERS",
-            "background_image": "../Courses/ComputerApp/MCA/cloud.avif"
-        },
-        "program_name": "MCA",
-        "program_description": "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
-        "fees": "32,000 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Data Science",
-            "Software Development",
-            "Machine Learning",
-            "Cloud Computing",
-            "Networking"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Data Scientist",
-                "desc": "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
-                "image": "../Courses/ComputerApp/MCA/data.avif"
-            },
-            {
-                "title": "Software Developer",
-                "desc": "Develop expertise in software development using modern programming languages and frameworks.",
-                "image": "../Courses/ComputerApp/MCA/software.avif"
-            },
-            {
-                "title": "Cloud Engineer",
-                "desc": "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
-                "image": "../Courses/ComputerApp/MCA/cloud.avif"
-            },
-            {
-                "title": "Network Administrator",
-                "desc": "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
-                "image": "../Courses/ComputerApp/MCA/network.avif"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "program_highlights": [
-            "Specialized study of computer applications and services",
-            "Emphasis on technological implementation of computer systems",
-            "Opportunities for research and practical applications",
-            "Development of problem-solving and analysis skills"
-        ],
-        "labs": []
-    },
-    {
-        "id": 46,
-        "course_name": "Computer Applications",
-        "header": {
-            "title": "Bachelor of Computer Application",
-            "subtitle": "UNLOCK YOUR POTENTIAL IN IT",
-            "background_image": "../Courses/ComputerApp/MCA/software.avif"
-        },
-        "program_name": "BCA",
-        "program_description": "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
-        "fees": "Rs. 22000/- INR per semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Software Development",
-            "Web Development",
-            "Database Administration",
-            "Network Engineering"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Software Developer",
-                "desc": "Become proficient in software development using various programming languages and tools.",
-                "image": "../Courses/ComputerApp/MCA/software.avif"
-            },
-            {
-                "title": "Web Developer",
-                "desc": "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
-                "image": "../Courses/ComputerApp/BCA/web.avif"
-            },
-            {
-                "title": "Database Administrator",
-                "desc": "Learn database design, implementation, and management techniques.",
-                "image": "../Courses/ComputerApp/BCA/data.jpg"
-            },
-            {
-                "title": "Network Engineer",
-                "desc": "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
-                "image": "../Courses/ComputerApp/BCA/network.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "10+2 with at least 45% and for reserved category minimum 40%"
-        },
-        "affiliation": {
-            "affiliated_to": ["Punjabi University, Patiala", "MRSPTU, Bathinda", "IKGPTU, Jalandhar"],
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Learn by Doing: Hands-on learning through case studies and projects.",
-            "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
-            "Industry Ready: Six-month industry internship for real-world experience.",
-            "Global Exposure: National and international immersion programs.",
-            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
-            "Beyond Academics: Essential skill development through workshops.",
-            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
-            "Expert Learning: Renowned faculty and industry guest speakers.",
-            "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more."
-        ],
-        "labs": []
-    },
-    {
-        "id": 47,
-        "course_name": "Computer Applications",
-        "header": {
-            "title": "Post Graduate Diploma in Computer Applications",
-            "subtitle": "UNLEASH YOUR POTENTIAL IN IT",
-            "background_image": "../Courses/BTech/cse/data.jpg"
-        },
-        "program_name": "PGDCA",
-        "program_description": "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
-        "fees": "Rs. 12000/- INR per semester",
-        "duration": "1 Year (Semester System)",
-        "major_tracks": [
-            "Software Engineer",
-            "Computer Programmer & Analyst",
-            "Interface Engineer",
-            "Java Developer",
-            "Project Manager",
-            "Information Security Analyst",
-            "IT Consultant"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Software Engineer",
-                "desc": "Acquire skills to design and develop software applications according to industry standards.",
-                "image": "../Courses/ComputerApp/MCA/software.avif"
-            },
-            {
-                "title": "Computer Programmer & Analyst",
-                "desc": "Learn programming languages and analytical techniques to develop efficient computer programs.",
-                "image": "../Courses/ComputerApp/pgdca/programmer.avif"
-            },
-            {
-                "title": "Information Security Analyst",
-                "desc": "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
-                "image": "../Courses/ComputerApp/pgdca/security.avif"
-            },
-            {
-                "title": "IT Consultant",
-                "desc": "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
-                "image": "../Courses/ComputerApp/pgdca/consultant.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Graduation in any discipline with at least 50% and for reserved category minimum 45%"
-        },
-        "affiliation": {
-            "affiliated_to": "Any recognized university",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Practical Oriented Curriculum: Emphasis on hands-on learning and real-world projects.",
-            "Industry-Relevant Skills: Develop skills and knowledge demanded by the IT industry.",
-            "Experienced Faculty: Learn from experienced faculty members and industry experts.",
-            "Internship Opportunities: Gain practical experience through internships in reputed organizations.",
-            "Career Support: Access to career guidance and placement assistance.",
-            "Flexible Learning: Convenient class timings and online resources for flexible learning."
-        ],
-        "labs": []
-    },
-    {
-        "id": 48,
-        "course_name": "Computer Applications",
-        "header": {
-            "title": "Bachelor of Science in Information Technology",
-            "subtitle": "BUILDING THE FUTURE OF IT",
-            "background_image": "../Courses/ComputerApp/BscIt/data.avif"
-        },
-        "program_name": "B.Sc Information Technology",
-        "program_description": "B.Sc. IT (Bachelor of Science in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
-        "fees": "20,000 INR per semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Software Development",
-            "Database Management",
-            "Network Administration",
-            "Cybersecurity",
-            "Web Development"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Software Developer",
-                "desc": "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
-                "image": "../Courses/ComputerApp/MCA/software.avif"
-            },
-            {
-                "title": "Database Administrator",
-                "desc": "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
-                "image": "../Courses/ComputerApp/BscIt/data.avif"
-            },
-            {
-                "title": "Network Administrator",
-                "desc": "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
-                "image": "../Courses/ComputerApp/BscIt/network.avif"
-            },
-            {
-                "title": "Cybersecurity Specialist",
-                "desc": "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
-                "image": "../Courses/ComputerApp/BscIt/cyber.avif"
-            },
-        ],
-        "program_highlights": [
-            "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
-            "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
-            "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
-            "Expert Faculty: Learn from experienced faculty members and industry experts.",
-            "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
-            "Flexible Learning: Convenient class timings and online resources for flexible learning."
-        ],
-        "eligibility_criteria": {
-            "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "labs": []
-    },
-
-
-
-
 ]
 
 export default data  

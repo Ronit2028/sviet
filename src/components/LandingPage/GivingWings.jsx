@@ -14,7 +14,7 @@ import project from '@/assets/LandingPage/Chandigarh/GivingWings/ProjectBased.jp
 import research from '@/assets/LandingPage/Chandigarh/GivingWings/Research.jpg'
 import startup from '@/assets/LandingPage/Chandigarh/GivingWings/startup.jpg'
 import initiative from '@/assets/LandingPage/Chandigarh/GivingWings/init.jpg'
-import sporting from '@/assets/LandingPage/Chandigarh/GivingWings/sporting.webp'
+import sporting from '@/assets/LandingPage/sports.webp'
 import international from '@/assets/LandingPage/Chandigarh/GivingWings/international.webp'
 import bannerImage from '@/assets/LandingPage/Chandigarh/GivingWings/banner.jpg'
 

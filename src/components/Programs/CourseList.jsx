@@ -138,13 +138,11 @@ const CourseList = () => {
 
     // Filtered programs based on category and duration
     const filteredPrograms = educationPrograms.filter((program) => {
-        const programDurations = program.programs.map((course) => course.duration);
-        return (
-            (categoryFilter === '' || program.category === categoryFilter) &&
-            (durationFilter === '' || programDurations.includes(durationFilter))
-        );
+        return (categoryFilter === '' || program.category === categoryFilter);
     });
     // Example usage:
+    
+   
 
     const uniqueCategories = useMemo(() => {
         // Extract unique categories from data
@@ -176,7 +174,7 @@ const CourseList = () => {
                                 Filter By </span> :  <select
                                 className="appearance-none bg-white border border-gray-400 hover:border-gray-500 p-1 px-2 rounded shadow leading-tight focus:outline-none focus:shadow-outline"
                                 value={categoryFilter}
-                                onChange={(e) => setCategoryFilter(e.target.value)}
+                                onChange={(e) => {setCategoryFilter(e.target.value)}}
                             >
                                 <option value="">All Categories</option>
                                 {/* Populate options with unique categories */}
@@ -214,7 +212,7 @@ const CourseList = () => {
                             <ul>
                                 {program.programs.map(course => (
                                     <li key={course.name} className="mb-4 py-8 border-b-2">
-                                        <a href={course.link} className="text-2xl font-medium mb-2 pb-2">{course.name}</a>
+                                        <Link href={`/programs/${course.link}`} className="text-2xl font-medium mb-2 pb-2">{course.name}</Link>
                                         <div className='flex justify-between'>
                                             <p className="text-xl mt-3">
                                                 Duration :  <span className='text-[#fea700]'>{course.duration}</span>
