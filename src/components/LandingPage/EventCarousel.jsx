@@ -12,6 +12,9 @@ import img3 from "../../assets/LandingPage/Events/pharma.png"
 
 import event from '@/assets/LandingPage/event.jpg'
 
+import events from '@/data/event'
+
+import Link from 'next/link';
 
 const EventCard = ({ index, imageSrc, description }) => (
     <div className={`event-card  w-full rounded-lg md:py-8 flex flex-wrap ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
@@ -24,44 +27,6 @@ const EventCard = ({ index, imageSrc, description }) => (
 
 // 3
 const EventCarousel = () => {
-    const events = [
-        {
-            index: 0,
-            imageSrc: 'https://media.licdn.com/dms/image/D5622AQHcanHbP2KB9g/feedshare-shrink_800/0/1711099064119?e=1714608000&v=beta&t=l6KvJY4fBX1dFXzY2LMLd-KOUEtOQ337kYEnLHipJGM',
-            description: 'Relive the colorful moments from JASHN-E-RANG - our vibrant Holi celebration organized by the Department of Hotel Management! Swipe through to see the festive delights and joyful faces that made the event unforgettable. Thank you to everyone who joined us in spreading the joy of Holi at SVGOI!',
-        },
-        {
-            index: 1,
-            imageSrc: 'https://media.licdn.com/dms/image/D4E22AQG8-RIu1LB52Q/feedshare-shrink_800/0/1710845353418?e=1714608000&v=beta&t=JVgnV_wcQYiirWKvpd1EJdKItS2G1NzMGawQOz8qrvs',
-            description: 'The Department of Applied Science recently organized a special Felicitation Ceremony to honor the exceptional achievements of their top-performing students across various fields. Recognizing the excellence of UPSE toppers,',
-        },
-        {
-            index: 2,
-            imageSrc: 'https://media.licdn.com/dms/image/D5622AQGDmDAquYy1lA/feedshare-shrink_800/0/1710488220817?e=1714608000&v=beta&t=8LD3aTIvslUVp2Hynwnom_TNP4oK_ahf0cVI41bhAeQ',
-            description: 'Recap of an enlightening event! The expert lecture on AI methodologies with Mr. Vishal Gahrotra from PRIMUS SOFTWARE CORPORATION was a game-changer. Participants from Super 60.',
-        },
-        {
-            index: 3,
-            imageSrc: 'https://media.licdn.com/dms/image/D5622AQHn8Lxbjqr94Q/feedshare-shrink_800/0/1709547273825?e=1714608000&v=beta&t=eZ9I8KgKWakEkx0LA-DxHEPJQ1PJzebzs9iBZ4NxmOw',
-            description: 'Massive congratulations to Naveen and Anam, shining stars from the Uniques Batch, for their remarkable achievement in securing the prestigious 1st position and bagging the Rs. 10,000 cash prize at the Hack&Win Hackathon hosted at CGC, Jhanjheri Campus. ',
-        },
-        {
-            index: 4,
-            imageSrc: img1.src,
-            description: 'Global Futures Summit 2024 kicked off with a bang! Take a sneak peek into the inauguration ceremony, and a heartfelt thank you to all HR and industry panelists for gracing our event with their presence. ',
-        },
-        {
-            index: 5,
-            imageSrc: img2.src,
-            description: 'Dive into our industry panel session covering market trends and cutting-edge technology! These snapshots capture the dynamic exchange between industry and academia, shaping tomorrows tech leaders.Join the fusion of insights from both sectors. ',
-        },
-        {
-            index: 6,
-            imageSrc: img3.src,
-            description: 'Today was an incredible day at SVGOI Pharma Career Fair 2024! Students had the chance to explore various job opportunities, network with industry leaders, and learn valuable insights about the pharmaceutical industry.The event was buzzing with excitement as students engaged in enlightening conversations during the interview rounds, guided by the lamp of opportunity.It was a day filled with hope, connections, and the promise of a bright future in pharmaceutical careers.Stay tuned for more exciting events and opportunities from SVGOI.Your journey to success starts here! ',
-        },
-
-    ];
 
     const settings = {
         autoplay: true,
@@ -105,24 +70,25 @@ const EventCarousel = () => {
                             {events.map((event, index) => (
                                 <div key={index} className="w-[95%] mx-auto px-2 h-full ">
                                     <div className="event-card rounded-md shadow-md bg-white text-[#00112d] h-[60vh]  flex flex-col justify-between">
-                                        <div className="image-section h-1/2" style={{ backgroundImage: `url(${event.imageSrc})`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
+                                        <div className="image-section h-1/2" style={{ backgroundImage: `url(${event.headerImage})`, backgroundSize: "cover", backgroundPosition: "center top", backgroundRepeat: "no-repeat" }}>
 
                                         </div>
                                         <div className="text-section my-auto p-6 h-1/2 flex flex-col justify-between">
                                             <div>
-                                                {/* <p className="text-xl font-semibold ">
-                                                SVIET Event News Heading
-                                            </p> */}
-                                                <p className='text-sm md:text-md pb-6'>
-                                                    {event.description}
+                                                <p className="text-lg md:text-xl font-semibold mb-3">
+                                                    {event.name}
+                                                </p>
+                                                <p className='text-sm md:text-md pb-6 line-clamp-4'>
+                                                    {event.overview}
                                                 </p>
                                             </div>
                                             <div className='flex justify-between'>
                                                 <p className="text-sm font-semibold text-[#fea700]">
-                                                    March 28, 2024
+                                                    {event.date}
                                                 </p>
-                                                <button className='rounded-md bg-[#fea700] text-white p-2 h-7 w-7 flex justify-center items-center'><i className='fa fa-arrow-right'></i></button>
-                                            </div>
+                                                <Link href={`/events/${event.id}`}>
+                                                    <button className='rounded-md bg-[#fea700] text-white p-2 h-7 w-7 flex justify-center items-center'><i className='fa fa-arrow-right'></i></button>
+                                                </Link>  </div>
                                         </div>
                                     </div>
                                 </div>
