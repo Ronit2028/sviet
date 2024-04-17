@@ -108,24 +108,24 @@ const activities = [
     "name": "Mocktail Session",
     "desc": "A mocktail session was organized by Department of Hotel Management on 22nd September, 2022 for its students.",
     "program_type": "Hotel-Management",
-    "image": "https://m.facebook.com/photo.php?fbid=416703610569119&set=a.405861254986688&type=3",
-    "link": "View More"
+    "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/308658266_416704207235726_8871917304209725227_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-qeqpSzQnqsAb5tE38o&_nc_ht=scontent.fixc4-3.fna&oh=00_AfDTpPsx9GmEOM1PZWcmQb24F8_FX2HgC-QJyB0hH0nrpg&oe=6625F8E5",
+    "link": "https://www.instagram.com/p/Ci2EUoBh6aH/?utm_source=ig_web_copy_link"
   },
   {
     "id": 14,
     "name": "Indian Cuisine Practical",
     "desc": "Department of Hotel Management organized a INDIAN CUISINE PRACTICAL for the students of BHMCT- 2nd Sem.",
     "program_type": "Hotel-Management",
-    "image": "indian_cuisine_image_url",
-    "link": "View More"
+    "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/331383608_2184753951727778_1857737291411742179_n.jpg?stp=dst-jpg_p600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=tYgjFvjjt0MAb64LRWM&_nc_ht=scontent.fixc4-3.fna&oh=00_AfD7d_iDDWCo4zyf6D8h3exm3mZuqDQGT4vHfMjxFd8NGw&oe=66260618",
+    "link": "https://www.instagram.com/p/CotaCMFytoF/?utm_source=ig_web_copy_link"
   },
   {
     "id": 15,
     "name": "Rajasthani Cuisine Practical",
     "desc": "Department of Hotel Management organized a practical on RAJASTHANI CUISINE for the students of BHMCT- 4TH Sem.",
     "program_type": "Hotel-Management",
-    "image": "rajasthani_cuisine_image_url",
-    "link": "View More"
+    "image": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/280261362_10158312354631721_5960165066366160253_n.jpg?stp=dst-jpg_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=NU5xSTSmoWcAb5LRwAm&_nc_ht=scontent.fixc4-1.fna&oh=00_AfD-Fy0oDPfCryxzvDpBdhWRm5aDaGhZgz3KYc_Vf_Wq1w&oe=6625DBCE",
+    "link": "https://www.instagram.com/p/CcwxUdIqx8R/?utm_source=ig_web_copy_link"
   },
 
   {
@@ -133,32 +133,32 @@ const activities = [
     "name": "Interactive Seminar",
     "desc": "Swami Vivekanand College of Law organised an interactive seminar on Alternative Dispute Resolution (ADR) on 10th March, 2023.",
     "program_type": "law",
-    "image": "interactive_seminar_image_url",
-    "link": "View More"
+    "image": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/331439286_569029698588870_7623071642582570335_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7i7ofA6ettcAb52xPe9&_nc_ht=scontent.fixc4-2.fna&oh=00_AfBWn1CtcP4aPfb2lHhXnfi9Owa73XxolT_PyUW7ym0Lyw&oe=6625E46C",
+    "link": "https://www.instagram.com/p/Ctis_6WNxXb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": 17,
     "name": "Inauguration",
     "desc": "Mr. Suvir Sidhu, Advocate, Chairman, Bar Council of Punjab & Haryana inaugurated the Moot Court.",
     "program_type": "law",
-    "image": "inauguration_image_url",
-    "link": "View More"
+    "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/321786223_1670356676712107_5969229893523409596_n.jpg?stp=dst-jpg_s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7xLOvDiEom4Ab4GIJAj&_nc_ht=scontent.fixc4-3.fna&oh=00_AfAeVCyHJyq-UmiAutaNBjzjA4r4IVuWLS8XYhaaQrdcWQ&oe=6625FFD0",
+    "link": "https://www.instagram.com/p/CmqSEeeqGSM/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
   },
   {
     "id": 18,
     "name": "Indian Constitution Day",
     "desc": "Swami Vivekanand College of Law organized Inter-department Poster making competition on the topic “India the mother of Democracy”.",
     "program_type": "law",
-    "image": "indian_constitution_day_image_url",
-    "link": "View More"
+    "image": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/316686134_509812544523110_5062847170408107393_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=D0XG5EncfiUAb7gtQSa&_nc_ht=scontent.fixc4-2.fna&oh=00_AfCMGBNz58ZbAETFr73jpgr8sqBc60X1LK42dNvxxHGyNA&oe=6625F01C",
+    "link": "https://www.instagram.com/p/CqVA88Ctmja/?utm_source=ig_web_copy_link"
   },
   {
     "id": 19,
     "name": "Interactive Seminar",
     "desc": "Swami Vivekanand College of Law organised an interactive seminar on Alternative Dispute Resolution (ADR) on 10th March, 2023.",
     "program_type": "law",
-    "image": "interactive_seminar_image_url",
-    "link": "View More"
+    "image": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/333544986_5995389387216309_3362412567012774753_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Rft9A7Fl3-oAb7ZlfMH&_nc_ht=scontent.fixc4-2.fna&oh=00_AfB05mpFXlH4Lfrik55GZF0fm0mTWfUsyiyHqymp8An9UQ&oe=6625F3E9",
+    "link": "https://www.instagram.com/p/CppXyw3yTL9/?utm_source=ig_web_copy_link"
   },
 
 
