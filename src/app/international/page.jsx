@@ -7,19 +7,21 @@ import AboutDepartment from '@/components/International/AboutDepartment'
 import Activities from '@/components/International/Activities'
 import Director from '@/components/International/Director'
 import Updates from '@/components/International/Updates'
+import Help from '@/components/International/Help'
 
 const page = () => {
   return (
     <div>
-        <Header/>
-        <StudentSpeak/>
-        <WhyChooseUs/>
-        <AboutDepartment/>
-        <Activities/>
-        <Director/>
-        <Updates/>
-  
-    
+      <Header />
+      <StudentSpeak />
+      <WhyChooseUs />
+      <AboutDepartment />
+      <Activities />
+      <Director />
+      <Updates />
+      <Help />
+
+
     </div>
   )
 }
