@@ -40,6 +40,70 @@ const activities = [
     "link": "View More"
   },
   {
+    id: 6,
+    image:
+      "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/316678247_510470801123951_65945429488718184_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cZaYxFFkHHAAb41pIQ_&_nc_ht=scontent.fixc4-3.fna&oh=00_AfBhmJyy0S46fVTRrNxD_VPpz5TuBagPO4FmNagwb3llWA&oe=6625FFA6",
+    name: "National Pharmacy Week",
+    desc: "Department of Pharmacy organized a five day long celebrations of National Pharmacy Week 2022 with a valedictory session on 25th November 2022.",
+    program_type: "Pharmacy",
+    link: "https://www.instagram.com/p/Cla7VpByn3s/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+
+  {
+    id: 7,
+    image:
+      "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/307698953_10158507298766721_6323056636472218149_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wR3QXnzcJagAb6Y2hl7&_nc_ht=scontent.fixc4-2.fna&oh=00_AfCsLAB65fz3GeFAoyvaCJHGvQEnrOgPgaf0XSwuZtf86w&oe=6625F518",
+    name: "Expert Talk",
+    desc: "Swami Vivekanand College of Pharmacy, Banur organized an Expert talk on ENHANCING EMPLOYABILITY SKILLS on 15th September, 2022 for B. Pharmacy students.",
+    program_type: "Pharmacy",
+    link: "https://www.instagram.com/p/CijqQN5PHld/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    id: 8,
+    image:
+      "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/372816803_704604345043928_5576251858430474564_n.jpg?stp=dst-jpg_p600x600&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=VQlTusvabBIAb53Wg1N&_nc_ht=scontent.fixc4-2.fna&oh=00_AfBrD-z9LdyoOMFaEbfXOkbCjroorUcczyiK8hhGi4nLpQ&oe=662606B5",
+    name: "Mera BIll App",
+    desc: "SVGOI hosted a session on September 1st, highlighting the latest initiative by the Government of Punjab in the form of an application software known as “MERA BILL.”",
+    program_type: "Business Studies",
+    link: "https://www.instagram.com/p/Cwm6CeEry5g/?utm_source=ig_web_copy_link",
+  },
+  {
+    id: 9,
+    image:
+      "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/391633212_734278022076560_4825640263093733744_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=QibqqeQPXkQAb4lnd7R&_nc_ht=scontent.fixc4-1.fna&oh=00_AfB6txDglG0XLhOmsKLou7xK133aGPg9wU18h6ccUNXyPA&oe=662601EE",
+    name: "Management Mania 2K23",
+    desc: "The Department of Commerce and Management hosted “Management Mania 2K23” on October 10, 2023, featuring 13 management-related episodes.",
+    program_type: "Business Studies",
+    link: "https://www.instagram.com/p/CyYCYKLSpxV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    id: 10,
+    image:
+      "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/387805084_733403312164031_1195453040758802563_n.jpg?stp=dst-jpg_p600x600&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Qufq7cWP55MAb7hFdVp&_nc_ht=scontent.fixc4-1.fna&oh=00_AfBqzp4j6haodSejVkmGszO1NL0Xr0NJ9r6guVerQIm0-Q&oe=6625DB3F",
+    name: "Workshop",
+    desc: "Commerce and Management conducted 2-day workshop on October 11-12. Dr. Satinder Kumar from Punjabi University led sessions on Marketing Research and Network Diagrams.",
+    program_type: "Business Studies",
+    link: "https://www.instagram.com/p/CyVHXz9SYK4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    id: 11,
+    image:
+      "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/386463035_728929672611395_792987037777091299_n.jpg?stp=dst-jpg_p600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=C7yRufJjtjoAb78wZlV&_nc_ht=scontent.fixc4-3.fna&oh=00_AfAwskr_IshoceQj9Uhc4z0zIhQe28WUlTtDSNdNNt_OMg&oe=6625E47B",
+    name: "Nukkad Natak",
+    desc: "On October 6, 2023, the Radio Imaging Technology students gathered at Gol Parking for a touching Nukkad Natak, uniting to honor our heroes.",
+    program_type: "paramedical",
+    link: "https://www.instagram.com/p/CW47OzxMui8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    id: 12,
+    image:
+      "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/391632897_735487501955612_1071900480826672575_n.jpg?stp=dst-jpg_p600x600&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=SIsK8vtRtCsAb4qt7sp&_nc_oc=Adi3JZ1Ld6l8DoFW-9-011p_9yjGDxSCFGyj7lgSVJ2br9rV-aQ2A4lowBBGE_3I3ctFStr0_RYoekjaUaH5-be3&_nc_ht=scontent.fixc4-1.fna&oh=00_AfCYnFK9QhWMsG8XoYKYG165s5ZWpHV4F9cU-d7fRc2y4g&oe=6625F78E",
+    name: "Project Presentation",
+    desc: "The Paramedical Science Department organized a project presentation competition marking “World Anesthesia Day” on October 13, sparking engaging discussions.",
+    program_type: "paramedical",
+    link: "https://www.instagram.com/p/Cyc6gGcrc0H/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+  {
     "id": 13,
     "name": "Mocktail Session",
     "desc": "A mocktail session was organized by Department of Hotel Management on 22nd September, 2022 for its students.",
@@ -97,5 +161,6 @@ const activities = [
     "link": "View More"
   },
 
-]
+
+];
 export default activities;
