@@ -7,7 +7,7 @@ const Header = () => {
             <div className="w-full flex flex-col justify-between h-full bg-[#00000099] text-white">
                 <div className="w-10/12 mx-auto flex flex-col justify-center h-full py-12">
                     <p className="text-4xl font-medium pb-6">
-                        Placements at SVIET
+                        Placements Overview
                     </p>
                     <p className='text-xl border-l-4 border-[#fea700] pl-2'>
                         Our Motto is Arise, Awake &
@@ -16,10 +16,8 @@ const Header = () => {
                 <div className="mt-auto pt-6 grid grid-cols-2 md:grid-cols-4">
                     <div className='p-6 lg:p-12 border-2 border-[#ffffff75]'>
                         <p className="text-3xl lg:text-4xl pb-3 font-medium">
-
                             5,000
                             +
-
                         </p>
                         <p>
                             Offer letters
