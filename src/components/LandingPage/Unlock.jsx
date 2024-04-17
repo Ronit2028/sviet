@@ -8,8 +8,9 @@ import "slick-carousel/slick/slick-theme.css";
 import placement2 from '@/assets/LandingPage/Unlock/library.jpg'
 import placement from '@/assets/LandingPage/Unlock/labs.jpg'
 import placement3 from '@/assets/LandingPage/DSC00544.jpg'
-import placement4 from '@/assets/placement/DSC000281.jpg'
+import placement4 from '@/assets/LandingPage/ic2.jpeg'
 import placement5 from '@/assets/LandingPage/Unlock/sports.jpg'
+import placement6 from '@/assets/LandingPage/ic.jpeg'
 import { Typography } from '@material-tailwind/react';
 
 
@@ -37,13 +38,19 @@ const Unlock = () => {
             heading: "Scholarship Opportunities: ",
             subheading: "Fulfill your academic aspirations with our range of scholarship programs, designed to recognize and support exceptional talent across various disciplines",
             description: "READ MORE",
-            img: placement4
+            img: placement6
         },
         {
             heading: "Sports Facilities",
             subheading: "Unleash your potential and stay fit at our world - class sports facilities, promoting holistic development and a healthy lifestyle for all students.",
             description: "READ MORE",
             img: placement5
+        },
+        {
+            heading: "Industrial Collaboration",
+            subheading: "ndustrial Collaboration: Benefit from our strong ties with industry partners, offering opportunities for internships, projects, and real-world experience to enhance your skillset and employability.",
+            description: "READ MORE",
+            img: placement4
         }
     ];
 
