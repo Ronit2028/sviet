@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import dir from '../../assets/sviet-web/director-internatinoal.webp'
+import dir from '../../assets/About/Managemwnt/soni-sir.jpeg'
 
 const Director = () => {
     return (
@@ -17,7 +17,7 @@ const Director = () => {
                 </div>
                 <div className='grid grid-cols-1 gap-4'>
                     <div>
-                        <Image src={dir} alt="" srcSet="" width={"100%"} className='rounded-md shadow-md' />
+                        <Image src={dir} alt="" srcSet="" width={"100%"} className='rounded-md shadow-md mx-auto border-b-8 border-[#fea700]' />
                     </div>
 
                 </div>
