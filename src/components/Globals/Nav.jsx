@@ -435,7 +435,7 @@ function NavListCampus() {
     <React.Fragment>
       <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
         <MenuHandler>
-          <Typography as="a" href="#" variant="small" className="font-normal text-md">
+          <Typography variant="small" className="font-normal text-md">
             <MenuItem className="hidden items-center gap-2 font-medium text-blue-gray-900 lg:flex lg:rounded-full">
               <TrophyIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
               Our Initiatives{" "}
@@ -464,8 +464,8 @@ function NavListCampus() {
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 p-0 lg:hidden">
         <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
           <MenuHandler>
-            <Typography as="a" href="#" variant="small" className="font-normal text-md p-0">
-              <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900">
+            <Typography variant="small" className="font-normal text-md p-0">
+              <span className="flex lg:hidden items-center gap-2 font-medium text-blue-gray-900">
                 <TrophyIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
                 Our Initiatives{" "}
                 <ChevronDownIcon
@@ -473,12 +473,12 @@ function NavListCampus() {
                   className={`h-3 w-3 transition-transform ${isMenuOpen ? "rotate-180" : ""
                     }`}
                 />
-              </MenuItem>
+              </span>
             </Typography>
           </MenuHandler>
-          <MenuList className=" grid-cols-7 gap-3 overflow-visible lg:grid">
+          <MenuList className="grid grid-cols-7 gap-3 overflow-visible lg:hidden">
 
-            <ul className="flex w-full flex-col gap-1">
+            <ul className="flex w-full flex-col gap-1 lg:hidden">
               {renderItems}
             </ul>
           </MenuList>
