@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import placement2 from '@/assets/LandingPage/Unlock/library.jpg'
 import placement from '@/assets/LandingPage/Unlock/labs.jpg'
-import placement3 from '@/assets/placement/placements/decathlon.png'
+import placement3 from '@/assets/LandingPage/DSC00544.jpg'
 import placement4 from '@/assets/placement/DSC000281.jpg'
 import placement5 from '@/assets/LandingPage/Unlock/sports.jpg'
 import { Typography } from '@material-tailwind/react';
@@ -27,12 +27,12 @@ const Unlock = () => {
             description: "READ MORE",
             img: placement2
         },
-        // {
-        //     heading: "Industrial Collaboration:",
-        //     subheading: "Fulfill your academic aspirations with our range of scholarship programs, designed to recognize and support exceptional talent across various disciplines",
-        //     description: "READ MORE",
-        //     img: placement3
-        // },
+        {
+            heading: "Research Labrotaries:",
+            subheading: "Join the forefront of innovation through our research labs, where faculty and students collaborate on groundbreaking research projects to address real-world challenges.",
+            description: "READ MORE",
+            img: placement3
+        },
         {
             heading: "Scholarship Opportunities: ",
             subheading: "Fulfill your academic aspirations with our range of scholarship programs, designed to recognize and support exceptional talent across various disciplines",
@@ -82,7 +82,7 @@ const Unlock = () => {
 
                     {sectionData.map((section, index) => (
                         <div key={index} className=" w-10/12 mx-auto rounded-md shadow-md text-white">
-                            <div className='rounded-md mx-auto md:h-[50vh] h-auto' style={{ backgroundImage: `url(${section.img.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                            <div className='rounded-md mx-auto md:h-[60vh] h-auto' style={{ backgroundImage: `url(${section.img.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                                 <div className='bg-[#00000077] w-full h-full flex flex-col justify-end p-6 py-12'>
                                     <h2 className='text-4xl mb-4'>{section.heading}</h2>
                                     <p className='text-sm lg:text-md w-full lg:w-1/2 mb-2'>{section.subheading}</p>
