@@ -1,7 +1,7 @@
 import React from 'react';
 
 import sport from '../../assets/About/infra/sports.jpg'
-import research from '../../assets/About/infra/research.jpg'
+import research from '../../assets/LandingPage/DSC00544.jpg'
 import lab from '../../assets/About/infra/labs.jpg'
 import libraary from '../../assets/About/infra/library.jpg'
 import Image from 'next/image';
@@ -42,14 +42,14 @@ const Infra = () => {
                         </div>
                         <h1 className="text-3xl font-semibold mb-8">A perfect blend of <span className='text-[#ff9602] text-4xl py-3 block'>Nature and Architecture</span></h1>
                     </div>
-                    <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Makes the SVIET Campus one of the most edifying and enriching cosmopolitan of knowledge. It is a home to over 50,000+ students from the most unique diversities of the world, coming together to experience the vibrancy of Parul University's academic journey. Take Your First Step towards this journey and experience the vibrancy.</p>
+                    <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">The SVGOI Campus stands as a beacon of intellectual enrichment, hosting a diverse cosmopolitan community of over 20,000 students from across the globe. Together, they immerse themselves in the vibrant academic tapestry that SVGOI offers. Embark on this journey today and embrace the dynamic atmosphere awaiting you</p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {infraData.map((item, index) => (
                         <div key={index} className="xl:w-1/2 md:w-1/2 p-4">
                             <div className="p-6 rounded-lg">
                                 <Image className="h-[40vh] rounded w-full object-cover object-center mb-6" src={item.image} alt="content" />
-                                <h3 className="tracking-widest text-[#016db6] text-xs font-medium title-font">{item.title}</h3>
+                                {/* <h3 className="tracking-widest text-[#016db6] text-xs font-medium title-font">{item.title}</h3> */}
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4">{item.title}</h2>
                                 <p className="leading-relaxed text-base">{item.description}</p>
                             </div>

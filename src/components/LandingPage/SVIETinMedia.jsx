@@ -8,7 +8,7 @@ const SVIETinMedia = () => {
                     <span className="text-[#fea700]">
                         Discover  </span> the
                     <br />
-                    Latest News, Events, and Insights
+                    Latest News and Insights
                 </p>
 
                 <p className='text-md text-gray-800 mt-3'>
@@ -37,7 +37,7 @@ const SVIETinMedia = () => {
                             <p className="text-sm font-semibold text-[#fea700]">
                                 March 28, 2024
                             </p>
-                            <button className='rounded-md bg-[#fea700] text-white p-2 h-7 w-7 flex justify-center items-center'><i className='fa fa-arrow-right'></i></button>
+                            {/* <button className='rounded-md bg-[#fea700] text-white p-2 h-7 w-7 flex justify-center items-center'><i className='fa fa-arrow-right'></i></button> */}
                         </div>
                     </div>
                 </div>

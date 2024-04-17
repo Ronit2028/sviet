@@ -1,7 +1,7 @@
 "use client"
 
 import React from "react";
-
+import Link from "next/link";
 
 import about from '@/assets/Globals/About.jpg'
 import programs from '@/assets/Globals/Programs.jpg'
@@ -50,90 +50,6 @@ import Image from "next/image";
 import card from "@material-tailwind/react/theme/components/card";
 
 
-// profile menu component
-// const profileMenuItems = [
-//   {
-//     label: "My Profile",
-//     icon: UserCircleIcon,
-//   },
-//   {
-//     label: "Edit Profile",
-//     icon: Cog6ToothIcon,
-//   },
-//   {
-//     label: "Inbox",
-//     icon: InboxArrowDownIcon,
-//   },
-//   {
-//     label: "Help",
-//     icon: LifebuoyIcon,
-//   },
-//   {
-//     label: "Sign Out",
-//     icon: PowerIcon,
-//   },
-// ];
-
-// function ProfileMenu() {
-//   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-//   const closeMenu = () => setIsMenuOpen(false);
-
-//   return (
-//     <Menu open={isMenuOpen} handler={setIsMenuOpen} placement="bottom-end">
-//       <MenuHandler>
-//         <Button
-//           variant="text"
-//           color="blue-gray"
-//           className="flex items-center gap-1 rounded-full py-0.5 pr-2 pl-0.5 lg:ml-auto"
-//         >
-//           <Avatar
-//             variant="circular"
-//             size="sm"
-//             alt="tania andrew"
-//             className="border border-gray-900 p-0.5"
-//             src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80"
-//           />
-//           <ChevronDownIcon
-//             strokeWidth={2.5}
-//             className={`h-3 w-3 transition-transform ${isMenuOpen ? "rotate-180" : ""
-//               }`}
-//           />
-//         </Button>
-//       </MenuHandler>
-//       <MenuList className="p-1">
-//         {profileMenuItems.map(({ label, icon }, key) => {
-//           const isLastItem = key === profileMenuItems.length - 1;
-//           return (
-//             <MenuItem
-//               key={label}
-//               onClick={closeMenu}
-//               className={`flex items-center gap-2 rounded ${isLastItem
-//                 ? "hover:bg-red-500/10 focus:bg-red-500/10 active:bg-red-500/10"
-//                 : ""
-//                 }`}
-//             >
-//               {React.createElement(icon, {
-//                 className: `h-4 w-4 ${isLastItem ? "text-red-500" : ""}`,
-//                 strokeWidth: 2,
-//               })}
-//               <Typography
-//                 as="span"
-//                 variant="small"
-//                 className="font-normal"
-//                 color={isLastItem ? "red" : "inherit"}
-//               >
-//                 {label}
-//               </Typography>
-//             </MenuItem>
-//           );
-//         })}
-//       </MenuList>
-//     </Menu>
-//   );
-// }
-
-// nav list menu
 const navListMenuItems = [
   {
     title: "@material-tailwind/html",
@@ -273,62 +189,6 @@ const navLisContactItems = [
   },
 ];
 
-function NavListMenu() {
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
-
-  const renderItems = navListMenuItems.map(({ title, description }) => (
-    <a href="#" key={title}>
-      <MenuItem>
-        <Typography variant="h6" color="blue-gray" className="mb-1">
-          {title}
-        </Typography>
-        <Typography variant="small" color="gray" className="font-normal">
-          {description}
-        </Typography>
-      </MenuItem>
-    </a>
-  ));
-
-  return (
-    <React.Fragment>
-      <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen} >
-        <MenuHandler>
-          <Typography as="a" href="#" variant="small" className="font-normal text-md focus:bg-white">
-            <MenuItem className="hidden items-center gap-2 font-medium text-blue-gray-900 lg:flex lg:rounded-full">
-              <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-              Pages{" "}
-              <ChevronDownIcon
-                strokeWidth={2}
-                className={`h-3 w-3 transition-transform ${isMenuOpen ? "rotate-180" : ""
-                  }`}
-              />
-            </MenuItem>
-          </Typography>
-        </MenuHandler>
-        <MenuList className="hidden w-[36rem] grid-cols-7 gap-3 overflow-visible lg:grid">
-          <Card
-            color="blue"
-            shadow={false}
-            variant="gradient"
-            className="col-span-3 grid h-full w-full place-items-center rounded-md"
-          >
-            <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
-          </Card>
-          <ul className="col-span-4 flex w-full flex-col gap-1">
-            {renderItems}
-          </ul>
-        </MenuList>
-      </Menu>
-      <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Pages{" "}
-      </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
-    </React.Fragment>
-  );
-}
 function NavListAbout() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
@@ -376,13 +236,14 @@ function NavListAbout() {
           </ul>
         </MenuList>
       </Menu>
+
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        About{" "}
+        <Link href="/about" className="flex items-center gap-2">
+          <UserCircleIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+          About{" "}
+        </Link>
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+
     </React.Fragment>
   );
 }
@@ -433,12 +294,12 @@ function NavListPrograms() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden ">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Programs{" "}
+        <Link href="/programs" className="flex items-center gap-2">
+          <CubeTransparentIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+          Programs{" "}
+        </Link>
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+
 
     </React.Fragment>
   );
@@ -490,12 +351,12 @@ function NavListPlacements() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Placements{" "}
+        <Link href="/placement" className="flex items-center gap-2">
+          <CodeBracketSquareIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+          Placements{" "}
+        </Link>
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+
     </React.Fragment>
   );
 }
@@ -546,12 +407,11 @@ function NavListAdmission() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Admissions{" "}
+        <Link className="flex items-center gap-2" href="/admissions">
+          <AcademicCapIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+          Admissions{" "}</Link>
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+
     </React.Fragment>
   );
 }
@@ -575,7 +435,7 @@ function NavListCampus() {
     <React.Fragment>
       <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
         <MenuHandler>
-          <Typography as="a" href="#" variant="small" className="font-normal text-md">
+          <Typography variant="small" className="font-normal text-md">
             <MenuItem className="hidden items-center gap-2 font-medium text-blue-gray-900 lg:flex lg:rounded-full">
               <TrophyIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
               Our Initiatives{" "}
@@ -601,13 +461,30 @@ function NavListCampus() {
           </ul>
         </MenuList>
       </Menu>
-      <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Our Initiatives{" "}
+      <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 p-0 lg:hidden">
+        <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
+          <MenuHandler>
+            <Typography variant="small" className="font-normal text-md p-0">
+              <span className="flex lg:hidden items-center gap-2 font-medium text-blue-gray-900">
+                <TrophyIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+                Our Initiatives{" "}
+                <ChevronDownIcon
+                  strokeWidth={2}
+                  className={`h-3 w-3 transition-transform ${isMenuOpen ? "rotate-180" : ""
+                    }`}
+                />
+              </span>
+            </Typography>
+          </MenuHandler>
+          <MenuList className="grid grid-cols-7 gap-3 overflow-visible lg:hidden">
+
+            <ul className="flex w-full flex-col gap-1 lg:hidden">
+              {renderItems}
+            </ul>
+          </MenuList>
+        </Menu>
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+
     </React.Fragment>
   );
 }
@@ -658,12 +535,11 @@ function NavListInternaltional() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Internationale{" "}
+        <Link href="/international" className="flex gap-2 items-center">
+          <GlobeAltIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+          Internationale{" "}</Link>
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+
     </React.Fragment>
   );
 }
@@ -714,53 +590,14 @@ function NavListContact() {
         </MenuList>
       </Menu>
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-        Contact Us{" "}
+        <Link className="flex gap-2 items-center" href="/contact-us">
+          <Square3Stack3DIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+          Contact Us{" "}</Link>
       </MenuItem>
-      <ul className="ml-6 flex w-full flex-col gap-1 lg:hidden">
-        {renderItems}
-      </ul>
+
     </React.Fragment>
   );
 }
-// nav list component
-const navListItems = [
-  {
-    label: "About",
-    icon: UserCircleIcon,
-    path: '/about'
-  },
-  {
-    label: "Programs",
-    icon: CubeTransparentIcon,
-    path: '/programs'
-  },
-  {
-    label: "Placements",
-    icon: CodeBracketSquareIcon,
-    path: "/placement"
-  },
-  {
-    label: "Admissions",
-    icon: AcademicCapIcon,
-    path: "/admissions"
-  },
-  {
-    label: "International",
-    icon: GlobeAltIcon,
-    path: "/international"
-  },
-  {
-    label: "Our Initiatives",
-    icon: PowerIcon,
-    path: "/international"
-  },
-  {
-    label: "Contact Us",
-    icon: PhoneIcon,
-    path: '/contact-us'
-  },
-];
 
 
 
@@ -782,21 +619,6 @@ function NavList() {
         <NavListContact />
       </div>
 
-      {/* {navListItems.map(({ label, icon, path }, key) => (
-        <Typography
-          key={label}
-          as="a"
-          href={path}
-          variant="small"
-          color="gray"
-          className="font-medium text-blue-gray-500"
-        >
-          <MenuItem className="flex items-center gap-2 lg:rounded-full">
-            {React.createElement(icon, { className: "h-[18px] w-[18px]" })}{" "}
-            <span className="text-gray-900"> {label}</span>
-          </MenuItem>
-        </Typography>
-      ))} */}
     </ul>
   );
 }
