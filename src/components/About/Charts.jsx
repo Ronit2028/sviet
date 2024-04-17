@@ -17,7 +17,7 @@ const Charts = () => {
             'Wipro',
             'Byjus',
             'Infosys',
-        ], 
+        ],
         datasets: [
             {
                 label: 'No. of Placements',
