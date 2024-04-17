@@ -7,17 +7,17 @@ import { Bar, PolarArea, Doughnut, Line } from 'react-chartjs-2';
 const Charts = () => {
     const data = {
         labels: [
-            'Accentrue',
-            'Google',
-            'IBM',
-            'Meta',
+            'Caelius',
+            'Escalon',
+            'Grazziti Inc.',
+            'Bebo',
+            'Jio',
+            'Mamsys',
+            'Accenture',
+            'Wipro',
+            'Byjus',
             'Infosys',
-            'Accentrue',
-            'Google',
-            'IBM',
-            'Meta',
-            'Infosys',
-        ],
+        ], 
         datasets: [
             {
                 label: 'No. of Placements',
