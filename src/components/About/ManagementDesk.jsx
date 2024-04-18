@@ -11,49 +11,66 @@ import img5 from "../../assets/About/Managemwnt/sahil-sir.jpg"
 import img6 from "../../assets/About/Managemwnt/shubham-sir.jpg"
 import img7 from "../../assets/About/Managemwnt/ankur-sir.jpg"
 import React, { useState, useEffect, useRef } from "react";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+
 import Slider from "react-slick";
 const desk = [
   {
     "name": "Mr. Ashwani Garg",
     "position": "Chairman",
     "description": "I welcome every aspiring achiever to the Swami Vivekanand Group of Institutions. Today SVGOI has become a dream place to provide valuable educational experience to students, from different cultures and backgrounds. I am delighted to see the contributions, the students, faculty, and management of SVGOI have been making towards the overall success of students across the world. We have an interactive curriculum made to provide definite learning solutions in the field of Scientific studies, Medical studies, Arts, Business & Engineering. In this world known as a global village, all boundaries and the national borders are gradually becoming more transparent. Our international collaborations have helped students to form unlimited opportunities of global exposure for our students, to excel in their careers. So join your hands with SVGOI and be future-ready.",
-    "image": img1.src
+    "image": img1.src,
+    facebook:"https://www.facebook.com/ChairmanSVGOI",
   },
   {
     "name": "Mr. Ashok Garg",
     "position": "President",
     "description": "SVGOI has experienced remarkable growth in recent years, earning widespread acclaim for its rapid advancement. Our journey from inception to our current standing is a testament to our unwavering dedication, exceptional faculty, and enriching learning environment. With a focus on quality education, we offer diverse programs affiliated with both national and international universities. We celebrate the achievements of our faculty, staff, and partners, employing modern teaching methods that empower students to realize their full potential. Emphasizing hands-on experience over mere theoretical knowledge, SVGOI is dedicated to providing practical solutions and fostering intellectual brilliance through research and development. Let's collaborate in building a skilled society together.",
-    "image": img2.src
+    "image": img2.src,
+    facebook:"https://www.facebook.com/ashok.garg.566",
   },
   {
     "name": "Mr. Vishal Garg",
     "position": "Director Secretarial and Administration",
     "description": "At SVGOI, we prioritize global standards in academia, fostering active engagement among teachers, students, and industry. Our focus is on holistic education, preparing students for the challenges of a globalized world. With dedicated faculty and staff, we aim to excel in shaping individuals' futures and elevate SVGOI's standing in the academic realm. Our commitment to excellence is reflected in the diverse student body, including foreign exchange students, enriching our campus culture. Join us in experiencing exceptional intellectual and academic opportunities, shaping the future of learning together.",
-    "image": img3.src
+    "image": img3.src,
+    facebook:"https://www.facebook.com/vishal.garg.7921975",
+    linkedin:"https://www.linkedin.com/in/vishal-garg-2134aa142/"
   },
   {
     "name": "Mr. Ankur Gupta",
     "position": "Director Corporate Affairs",
     "description": "Students from around the country are getting attracted to SVGOI because of our commitment to teaching excellence, focus on research, tailored courses that make our education relevant to changing career dynamics and formidable industry partnerships. The Curriculum is delivered in spacious, amphitheatre-style classrooms—fitted with modern Information and Communication Technology (ICT) equipment to participate in co-curricular and extra-curricular activities through various clubs and societies in the campus. SVGOI provides several opportunities for local students, to visit foreign universities and institutions on such exchange programs, thereby helping them receive invaluable international exposure.",
-    "image": img4.src
+    "image": img4.src,
+    linkedin:"https://www.linkedin.com/in/ankur-gupta-14278730/",
   },
   {
     "name": "Mr. Sahil Garg",
     "position": "Project Director",
     "description": "SVGOI epitomizes quality, dedication, values, and commitment, evident through our accomplished alumni. To cement our position as a premier institute in Technical Higher Education in India, we offer diverse, industry-relevant programs. With a student-centric approach, SVGOI is esteemed as one of the top private colleges in North India. From computer science to mechanical engineering, business management to nursing, SVGOI provides a wide array of educational services. Our strength lies in nurturing globally competitive graduates prepared for success in various professional domains. Join us in shaping a brighter future together.",
-    "image": img5.src
+    "image": img5.src,
+    linkedin:"https://www.linkedin.com/in/sahil-garg-034226130/",
+    facebook:"https://www.facebook.com/sahil.garg.58910"
+
   },
   {
     "name": "Mr. Shubham Garg",
     "position": "Director Placements",
     "description": "Our aim is to provide Placements & Corporate Interface for the students and to make the students aware about the job opportunities and help them get placed. In the last fifteen years, Training & Placement Office (General) has been successfully able to place students of different courses & has invited reputed MNCs from, Social Sector, Information Technology, Manufacturing, ITES, Media, Services, Banking & Finance, etc. The Training & Placement Office (General) looks after the Campus Placements of the Engineering & Non-Engineering Courses of the College & Coordinates with the respective departmental TPO's regarding the Placement & related activities.",
-    "image": img6.src
+    "image": img6.src,
+    linkedin:"https://www.linkedin.com/in/shubham-garg-670537170/",
+    facebook:"https://www.facebook.com/profile.php?id=100052235821482",
   },
   {
     "name": "Mr. Ankur Gill",
     "position": "Director Operations",
     "description": "As the Director of Operations at Swami Vivekanand Institute of Engineering and Technology, I am deeply committed to fostering an environment of excellence, innovation, and growth within our institution. With a focus on providing top-notch education and opportunities for our students, I am honored to collaborate with such dedicated professionals like yourselves who share a passion for academic advancement and student success.Our mission at Swami Vivekanand Institute of Engineering and Technology is to empower our students with knowledge, skills, and values that will enable them to thrive in an ever-evolving world. Through our collective efforts, we strive to create an ecosystem where creativity flourishes, ideas are nurtured, and aspirations are realized. I am confident that with your unwavering support and dedication, Swami Vivekanand Institute of Engineering and Technology will continue to reach new heights of success and distinction.",
-    "image": img7.src
+    "image": img7.src,
+    facebook:"https://www.facebook.com/ankurgillofficial",
+    linkedin:"https://www.linkedin.com/in/ankurgillofficial/"
   }
 ];
 
@@ -94,21 +111,17 @@ export default function MulCharts() {
                     <h3 className="text-gray-500 mb-3">{member.position}</h3>
                     <p className="mb-4 text-justify">{member.description}</p>
                     <span className="inline-flex">
-                      <a className="text-gray-500">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                        </svg>
+                     {
+                      member.linkedin &&  <a href={member.linkedin} className="text-gray-500">
+                      <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                     }
+                      { member.facebook &&
+                        <a href={member.facebook} className="ml-2 text-gray-500">
+                        <FontAwesomeIcon icon={faFacebook} />
                       </a>
-                      <a className="ml-2 text-gray-500">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                        </svg>
-                      </a>
-                      <a className="ml-2 text-gray-500">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                          <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
-                        </svg>
-                      </a>
+                      }
+                     
                     </span>
                   </div>
                 </div>

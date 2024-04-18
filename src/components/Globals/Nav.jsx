@@ -38,8 +38,6 @@ import {
   RocketLaunchIcon,
   Bars2Icon,
   TrophyIcon,
-
-
   AcademicCapIcon,
   GlobeAltIcon,
   PhoneIcon,
