@@ -9,7 +9,7 @@ import img3 from "../../assets/About/Managemwnt/vishal-sir.jpg"
 import img4 from "../../assets/About/Managemwnt/ankurgupta.jpg"
 import img5 from "../../assets/About/Managemwnt/sahil-sir.jpg"
 import img6 from "../../assets/About/Managemwnt/shubham-sir.jpg"
-
+import img7 from "../../assets/About/Managemwnt/ankur-sir.jpg"
 import React, { useState, useEffect, useRef } from "react";
 import Slider from "react-slick";
 const desk = [
@@ -48,6 +48,12 @@ const desk = [
     "position": "Director Placements",
     "description": "Our aim is to provide Placements & Corporate Interface for the students and to make the students aware about the job opportunities and help them get placed. In the last fifteen years, Training & Placement Office (General) has been successfully able to place students of different courses & has invited reputed MNCs from, Social Sector, Information Technology, Manufacturing, ITES, Media, Services, Banking & Finance, etc. The Training & Placement Office (General) looks after the Campus Placements of the Engineering & Non-Engineering Courses of the College & Coordinates with the respective departmental TPO's regarding the Placement & related activities.",
     "image": img6.src
+  },
+  {
+    "name": "Mr. Ankur Gill",
+    "position": "Director Operations",
+    "description": "As the Director of Operations at Swami Vivekanand Institute of Engineering and Technology, I am deeply committed to fostering an environment of excellence, innovation, and growth within our institution. With a focus on providing top-notch education and opportunities for our students, I am honored to collaborate with such dedicated professionals like yourselves who share a passion for academic advancement and student success.Our mission at Swami Vivekanand Institute of Engineering and Technology is to empower our students with knowledge, skills, and values that will enable them to thrive in an ever-evolving world. Through our collective efforts, we strive to create an ecosystem where creativity flourishes, ideas are nurtured, and aspirations are realized. I am confident that with your unwavering support and dedication, Swami Vivekanand Institute of Engineering and Technology will continue to reach new heights of success and distinction.",
+    "image": img7.src
   }
 ];
 
