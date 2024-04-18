@@ -8,7 +8,10 @@ import TestimonialSectionCarousel from '../LandingPage/Testimonials';
 
 import events from '@/data/event';
 
-const Events = () => {
+const Events = ({event_type, activities}) => {
+
+    const filteredActivities = activities.filter(activity=>activity.program_type==event_type)
+    console.log(filteredActivities)
 
     const placementDriveInformation = [
         {
@@ -88,12 +91,12 @@ const Events = () => {
                 <div className='flex flex-wrap my-6 py-6'>
                     <div className="w-full md:w-1/2 lg:w-2/3">
                         <Slider {...settings}>
-                            {events.map((info, index) => (
+                            {filteredActivities.map((info, index) => (
                                 <div key={index} className='px-1 h-full'>
-                                    <div className="border rounded-md h-[40vh] " style={{ backgroundImage: `url(${info.headerImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+                                    <div className="border rounded-md h-[40vh] " style={{ backgroundImage: `url(${info.image})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                                         <div className="w-full h-full bg-[#00000050] flex flex-col justify-end text-white p-5 ">
                                             <h2 className="text-xl font-semibold">{info.name}</h2>
-                                            <p className="mt-2 text-sm line-clamp-3">{info.overview}</p>
+                                            <p className="mt-2 text-sm line-clamp-3">{info.desc}</p>
                                         </div>
                                     </div>
                                 </div>

@@ -8,7 +8,7 @@ import PlacementOverview from '@/components/LandingPage/PlacementOverview';
 import Events from "@/components/Course/Events";
 
 import data from '@/data/data'; // Import the data
-
+import activities from '../../../data/activity';
 
 import backdrop from '@/assets/Programs/backdrop.jpg';
 
@@ -23,7 +23,7 @@ const Page = ({ params }) => {
     return <div>Error: Course not found</div>;
   }
 
-  const { course_name, header, program_description, major_tracks, duration, program_outcomes, program_name, fees, eligibility_criteria, labs, program_highlights, affiliation, mode_of_admission, } = courseData;
+  const { course_name, header, program_description, major_tracks, duration, program_outcomes, program_name, fees, eligibility_criteria, labs, program_highlights, affiliation, mode_of_admission, event_type } = courseData;
 
   return (
     <div>
@@ -48,9 +48,10 @@ const Page = ({ params }) => {
         programOutcomes={program_outcomes}
       />
       <Highlights programHighlights={program_highlights} />
-      <Labs labs={labs} />
+      {labs && <Labs labs={labs} />}
       <PlacementOverview />
-      <Events />
+      {event_type && <Events event_type={event_type} activities={activities} />}
+  
     </div>
   )
 }
