@@ -9,7 +9,7 @@ const activities = [
     },
     {
         "id": 2,
-        "image": "",
+        "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/337401764_601726401975137_4824346628541318990_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-N5qlL9CFaYAb4Aod5S&_nc_ht=scontent.fixc4-3.fna&oh=00_AfAjFBE47-dHu04M4isw43WAHLi2kud0qM28WJv2ByABjQ&oe=6625EB6F",
         "name": "Guest Lecture",
         "desc": "Department of CSE of SVIET has organized A guest lecturer and Q& A session on Programming.",
         "program_type": "Engineering",
@@ -17,7 +17,7 @@ const activities = [
     },
     {
         "id": 3,
-        "image": "",
+        "image": "https://scontent.fixc2-1.fna.fbcdn.net/v/t39.30808-6/327161732_1196540724328581_5446096428396690408_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3rR5THjoib0Ab6GODhl&_nc_ht=scontent.fixc2-1.fna&oh=00_AfDjlesqfd8-L2b2kElRyZvKcNwm68tzn80dV6lQPJETLw&oe=66269868",
         "name": "Talk Show",
         "desc": "The CEO/Founder of Chai Thela, Mr. Pankaj Judge, shared his life-changing journey during Talk Show: Success Mantra.",
         "program_type": "Engineering",
@@ -25,17 +25,9 @@ const activities = [
     },
     {
         "id": 4,
-        "image": "",
+        "image": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/322865636_727495995637272_3756576777792187436_n.jpg?stp=dst-jpg_p640x640&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=GOWrZBXi74UAb6_eiBx&_nc_ht=scontent.fixc4-2.fna&oh=00_AfAzcYAbw95S5i9T8SYaVUsMN9QkKcQdZ55JXw9jdQPn2A&oe=6625E1C2",
         "name": "Super 60 Selection",
         "desc": "Recently SVIET, Chandigarh has organized an Entrance test for the selection of new batch of super 60 students SUPER602K22.",
-        "program_type": "Engineering",
-        "link": "View More"
-    },
-    {
-        "id": 5,
-        "image": "",
-        "name": "Interview for S60 Batch",
-        "desc": "The selection process for the students of Super 60 & The Uniques batch 2022 has come to an end.",
         "program_type": "Engineering",
         "link": "View More"
     },
@@ -164,3 +156,6 @@ const activities = [
 
 ];
 export default activities;
+
+
+// 
