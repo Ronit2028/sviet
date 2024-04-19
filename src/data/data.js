@@ -193,11 +193,6 @@ const data = [
                 "image": "https://example.com/transportation_engineer_image.jpg"
             },
             {
-                "title": "Environmental Engineer",
-                "desc": "Focus on sustainable development and environmental protection by implementing innovative solutions for waste management, pollution control, and resource conservation.",
-                "image": "https://example.com/environmental_engineer_image.jpg"
-            },
-            {
                 "title": "Construction Manager",
                 "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
                 "image": "https://example.com/construction_manager_image.jpg"
@@ -831,6 +826,11 @@ const data = [
                 "title": "Quality Control Inspector",
                 "desc": "Master techniques to inspect and ensure the quality and performance of mechanical products.",
                 "image": "../Courses/diploma/me/quality.jpg"
+            },
+            {
+                "title": "Manufacturing Technician",
+                "desc": "Graduates can work in manufacturing industries, assisting in the production and assembly of mechanical parts and products. They may operate machinery, monitor production processes, and ensure product quality and efficiency",
+                "image": "../Courses/diploma/me/mt.jpg"
             }
         ],
         "eligibility_criteria": {
@@ -901,7 +901,12 @@ const data = [
                 "title": "Construction Supervisor",
                 "desc": "Master techniques to supervise and manage construction activities on civil engineering sites.",
                 "image": "../Courses/diploma/civil/construction.jpg"
-            }
+            },
+            {
+                "title": "Site Engineer",
+                "desc": "Graduates can work as site engineers, overseeing construction activities on-site. Their responsibilities include site inspection, quantity estimation, project scheduling, and team supervision.",
+                "image": "../Courses/diploma/civil/site.jpg"
+            },
         ],
         "eligibility_criteria": {
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
@@ -1259,7 +1264,7 @@ const data = [
     {
         "id": 17,
         "course_name": "HM",
-        event_type:"Hotel-Management",
+        event_type: "Hotel-Management",
         "header": {
             "title": "BACHELOR OF HOTEL MANAGEMENT AND CATERING TECHNOLOGY",
             "subtitle": "UPSCALE YOUR CAREER IN HOSPITALITY",
@@ -1339,7 +1344,7 @@ const data = [
     {
         "id": 18,
         "course_name": "HM",
-        event_type:"Hotel-Management",
+        event_type: "Hotel-Management",
         "header": {
             "title": "Master of Hotel Management & Catering Technology (MHMCT)",
             "subtitle": "ELEVATING HOSPITALITY MANAGEMENT",
@@ -1371,7 +1376,12 @@ const data = [
                 "title": "Food and Beverage Manager",
                 "desc": "Master the management of food and beverage operations in hotels, restaurants, and other hospitality establishments.",
                 "image": "../Courses/HM/mhmct/food.jpg"
-            }
+            },
+            {
+                "title": "Chef",
+                "desc": " Excel in overseeing food and beverage operations within hotels, restaurants, and hospitality venues.",
+                "image": "../Courses/HM/mhmct/chef.avif"
+            },
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -1410,7 +1420,7 @@ const data = [
     {
         "id": 19,
         "course_name": "HM",
-        event_type:"Hotel-Management",
+        event_type: "Hotel-Management",
         "header": {
             "title": "B.Voc in Hospitality and Catering Management",
             "subtitle": "BUILDING SKILLS FOR HOSPITALITY SUCCESS",
@@ -1442,7 +1452,12 @@ const data = [
                 "title": "Entrepreneur",
                 "desc": "Develop entrepreneurial skills to start and manage your own hospitality business, such as hotels, restaurants, or catering services.",
                 "image": "../Courses/HM/BVoc/entrepreneur.jpg"
-            }
+            },
+            {
+                "title": "Housekeeping Management",
+                "desc": "Develop proficiency in supervising cleaning operations and maintaining cleanliness standards in hospitality establishments, alongside adept inventory management skills.",
+                "image": "../Courses/HM/BVoc/housekeeping.avif"
+            },
         ],
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -1481,11 +1496,11 @@ const data = [
     {
         "id": 20,
         "course_name": "HM",
-        event_type:"Hotel-Management",
+        event_type: "Hotel-Management",
         "header": {
             "title": "B.Sc in Nutrition and Dietetics",
             "subtitle": "SHAPE HEALTHY LIFESTYLES",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+            "background_image": "../Courses/HM/Bsc/header.jpg"
         },
         "program_name": "B.Sc in Nutrition and Dietetics",
         "program_description": "B.Sc in Nutrition and Dietetics is a three-year undergraduate program that focuses on the study of nutrition, dietetics, and their impact on human health. This program covers various aspects of food science, human physiology, biochemistry, and psychology to provide students with a comprehensive understanding of nutrition and dietary habits. Students learn about the role of nutrients in the body, dietary requirements for different age groups and populations, and the principles of therapeutic nutrition. The curriculum also includes practical training in meal planning, food service management, and nutrition counseling. Graduates of B.Sc in Nutrition and Dietetics can pursue careers as nutritionists, dieticians, food consultants, clinical nutritionists, and wellness coaches in various healthcare settings, food industry, research institutions, and community organizations.",
@@ -1513,7 +1528,12 @@ const data = [
                 "title": "Food Consultant",
                 "desc": "Become proficient in advising individuals, families, and organizations on healthy eating habits, food safety, and nutrition regulations.",
                 "image": "../Courses/HM/Bsc/food.jpg"
-            }
+            },
+            {
+                "title": "Sales Executive",
+                "desc": " Master revenue generation through identifying sales opportunities, nurturing client relationships, and effective communication.",
+                "image": "../Courses/HM/Bsc/sales.jpg"
+            },
         ],
 
         "eligibility_criteria": {
@@ -1788,7 +1808,7 @@ const data = [
     {
         "id": 45,
         "course_name": "Computer Applications",
-        event_type:"Engineering",
+        event_type: "Engineering",
         "header": {
             "title": "Master of Computer Application",
             "subtitle": "SHAPING FUTURE TECH LEADERS",
@@ -1845,7 +1865,7 @@ const data = [
     {
         "id": 46,
         "course_name": "Computer Applications",
-        event_type:"Engineering",
+        event_type: "Engineering",
         "header": {
             "title": "Bachelor of Computer Application",
             "subtitle": "UNLOCK YOUR POTENTIAL IN IT",
@@ -1907,7 +1927,7 @@ const data = [
     {
         "id": 47,
         "course_name": "Computer Applications",
-        event_type:"Engineering",
+        event_type: "Engineering",
         "header": {
             "title": "Post Graduate Diploma in Computer Applications",
             "subtitle": "UNLEASH YOUR POTENTIAL IN IT",
@@ -1969,7 +1989,7 @@ const data = [
     {
         "id": 48,
         "course_name": "Computer Applications",
-        event_type:"Engineering",
+        event_type: "Engineering",
         "header": {
             "title": "Bachelor of Science in Information Technology",
             "subtitle": "BUILDING THE FUTURE OF IT",
@@ -2032,7 +2052,7 @@ const data = [
     {
         "id": 35,
         "course_name": "Law",
-        event_type:"law",
+        event_type: "law",
         "header": {
             "title": "BACHELOR OF LAW",
             "subtitle": "DELIVERING JUSTICE FOR A BETTER SOCIETY",
@@ -2090,7 +2110,7 @@ const data = [
     {
         "id": 36,
         "course_name": "Law",
-        event_type:"law",
+        event_type: "law",
         "header": {
             "title": "BACHELOR OF ARTS + BACHELOR OF LAW",
             "subtitle": "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
@@ -2150,7 +2170,7 @@ const data = [
     {
         "id": 21,
         "course_name": "Business Studies",
-        event_type:"BusinessStudies",
+        event_type: "BusinessStudies",
         "header": {
             "title": "MASTERS IN BUSINESS ADMINISTRATION",
             "subtitle": "ELEVATING BUSINESS ACUMEN",
@@ -2208,7 +2228,7 @@ const data = [
     {
         "id": 22,
         "course_name": "Business Studies",
-        event_type:"BusinessStudies",
+        event_type: "BusinessStudies",
         "header": {
             "title": "BACHELOR IN BUSINESS ADMINISTRATION",
             "subtitle": "DEVELOPING BUSINESS ACUMEN",
@@ -2270,7 +2290,7 @@ const data = [
     {
         "id": 23,
         "course_name": "Business Studies",
-        event_type:"BusinessStudies",
+        event_type: "BusinessStudies",
         "header": {
             "title": "BACHELOR OF BUSINESS ADMINISTRATION",
             "subtitle": "DEVELOPING BUSINESS ACUMEN",
@@ -2332,7 +2352,7 @@ const data = [
     {
         "id": 24,
         "course_name": "Business Studies",
-        event_type:"BusinessStudies",
+        event_type: "BusinessStudies",
         "header": {
             "title": "MASTER OF COMMERCE",
             "subtitle": "ADVANCING ACCOUNTING EXPERTISE",
@@ -2443,7 +2463,7 @@ const data = [
             "Internship in renowned diagnostic centers.",
             "Professional development workshops."
         ],
-    
+
     },
     {
         "id": 26,
@@ -2498,7 +2518,7 @@ const data = [
             "Internship in operation theatre management.",
             "Workshops on patient safety and care."
         ],
-        
+
     },
     {
         "id": 27,
@@ -2531,7 +2551,12 @@ const data = [
                 "title": "Researcher in Radio Imaging Technology",
                 "desc": "Conduct research in the field of radio imaging technology and contribute to advancements in the field.",
                 "image": "../Courses/paramedical/radiology/research.jpg"
-            }
+            },
+            {
+                "title": " Radiology Educator",
+                "desc": "Develop expertise to educate and train future radiology technicians, imaging specialists, and researchers, facilitating the dissemination of knowledge and skills in radiological procedures and imaging technologies.",
+                "image": "../Courses/paramedical/radiology/educator.jpg"
+            },
         ],
         "eligibility_criteria": {
             "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
@@ -2548,7 +2573,7 @@ const data = [
             "Internship in diagnostic imaging centers.",
             "Workshops on radiation safety and protection."
         ],
-        
+
     },
     {
         "id": 28,
@@ -2598,7 +2623,7 @@ const data = [
             "Internship in operation theatre settings.",
             "Workshops on healthcare ethics and regulations."
         ],
-      
+
     },
     {
         "id": 29,
@@ -2655,7 +2680,7 @@ const data = [
             "Workshops on advanced vision diagnostics.",
             "Hands-on experience with ophthalmic equipment."
         ],
-        
+
     },
     {
         "id": 30,
@@ -2700,7 +2725,7 @@ const data = [
             "Internship in anesthesia departments.",
             "Workshops on patient monitoring techniques."
         ],
-        
+
     },
     {
         "id": 31,
@@ -2751,7 +2776,7 @@ const data = [
             "Internship placements in leading hospitals and diagnostic centers.",
             "Specialized workshops on emerging trends in laboratory science."
         ],
-        
+
     },
     {
         "id": 32,
@@ -2809,7 +2834,7 @@ const data = [
             "Internship opportunities in leading healthcare institutions.",
             "Career guidance and placement support services."
         ],
-       
+
     },
     {
         "id": 33,
@@ -2863,7 +2888,7 @@ const data = [
             "Internship opportunities in leading cardiology departments.",
             "Career development workshops and seminars."
         ],
-       
+
     },
     {
         "id": 34,
@@ -2920,7 +2945,7 @@ const data = [
             "Specialization tracks in orthopedic, sports, neurological, and stroke rehabilitation",
             "Prepares graduates for careers in hospitals, private clinics, sports organizations, and research institutions"
         ],
-        
+
     },
 
 
@@ -2974,7 +2999,7 @@ const data = [
             "Expert faculty from Pure and Applied Chemistry domain",
             "Development of problem-solving skills through practical experience"
         ],
-        
+
     },
     {
         "id": 38,
