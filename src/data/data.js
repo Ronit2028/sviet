@@ -163,7 +163,7 @@ const data = [
         "header": {
             "title": "M.Tech - Civil Engineering",
             "subtitle": "BUILD THE FUTURE WITH",
-            "background_image": "../Courses/MTech/civil/electron.jpg"
+            "background_image": "../Courses/MTech/civil/header.avif"
         },
         "program_name": "M.Tech in Civil Engineering",
         "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
@@ -180,22 +180,22 @@ const data = [
             {
                 "title": "Structural Engineer",
                 "desc": "Master the skills to design and analyze structural elements and systems for various types of infrastructure projects.",
-                "image": "https://example.com/structural_engineer_image.jpg"
+                "image": "../Courses/MTech/civil/structural.avif"
             },
             {
                 "title": "Geotechnical Engineer",
                 "desc": "Specialize in soil mechanics and foundation engineering to ensure the stability and safety of civil structures.",
-                "image": "https://example.com/geotechnical_engineer_image.jpg"
+                "image": "../Courses/MTech/civil/geo.jpg"
             },
             {
                 "title": "Transportation Engineer",
                 "desc": "Design efficient transportation systems and infrastructure to meet the growing demands of urban and rural areas.",
-                "image": "https://example.com/transportation_engineer_image.jpg"
+                "image": "../Courses/MTech/civil/transport.jpg"
             },
             {
                 "title": "Construction Manager",
                 "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
-                "image": "https://example.com/construction_manager_image.jpg"
+                "image": "../Courses/MTech/civil/manager.avif"
             }
         ],
         "eligibility_criteria": {
