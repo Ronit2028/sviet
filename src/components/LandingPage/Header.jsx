@@ -4,6 +4,7 @@ import React from 'react'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Link from 'next/link';
 
 
 import backdrop from '@/assets/LandingPage/backdrop.jpg'
@@ -38,7 +39,10 @@ const Header = () => {
                         <p className='text-md lg:text-lg font-semibold mt-3 mb-3 pb-3'>
                             SVGOI, a beacon of academic distinction, proudly stands tall as it secures the honorable rank of 104 in NIRF 2021, a testament to its commitment to excellence.
                         </p>
-                        <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
+                        <Link href="https://admission.sviet.ac.in/"> 
+            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+            </Link>
+                       
                     </div>
                     <div className='w-full md:w-1/2 hidden lg:flex items-center justify-center py-4'>
                         <div className="max-w-lg mx-auto  bg-gray-100 rounded-lg">
@@ -190,7 +194,9 @@ const Header = () => {
 
                         SVGOI's belief in the importance of aligning passion with purpose in education and career pursuits.
                         </p>
-                        <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
+                        <Link href="https://admission.sviet.ac.in/"> 
+            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+            </Link>
                     </div>
 
                 </div>
@@ -211,7 +217,9 @@ const Header = () => {
                             At SVGOI, we believe in fostering a culture where research thrives, innovations flourish, and knowledge leads to transformative solutions</p>
 
 
-                        <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
+                            <Link href="https://admission.sviet.ac.in/"> 
+            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+            </Link>
                     </div>
 
                 </div>

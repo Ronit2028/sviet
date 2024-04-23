@@ -18,7 +18,10 @@ const Overview = () => {
                 <p className="text-justify">
                 Experience a world of opportunities at SVGOI, where we boast a vibrant campus spanning over 25 acres and house a diverse faculty of over 250 professionals. With a global alumni network exceeding 25,000 and over 1,000 international students, we've garnered recognition through 25+ national and international awards.
                 </p>
+                <Link href="https://admission.sviet.ac.in/">
                 <button className='text-lg text-white rounded-md bg-[#fea700] w-fit p-2 mt-5'>Apply Now</button>
+                </Link>
+                
             </div>
             <div className="w-full lg:w-2/3 pl-16">
                 <div className="gap-4 mb-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">

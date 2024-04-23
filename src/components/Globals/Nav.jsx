@@ -678,10 +678,14 @@ export function ComplexNavbar() {
           >
             <Bars2Icon className="h-6 w-6 m-auto" />
           </IconButton>
-          <Button className="border-2 xl:mr-16  bg-gray-800 lg:p-3 lg:text-lg   text-gray-100" size="sm" variant="text">
+          <Link href="https://admission.sviet.ac.in/">
+            <Button className="border-2 xl:mr-16  bg-gray-800 lg:p-3 lg:text-lg   text-gray-100" size="sm" variant="text">
             <span>Apply Now</span>
 
-          </Button></div>
+          </Button>
+        </Link>
+          </div>
+          
         {/* <ProfileMenu /> */}
       </div>
 
