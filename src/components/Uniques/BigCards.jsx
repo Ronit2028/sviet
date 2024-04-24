@@ -43,6 +43,12 @@ const BigCards = () => {
       category: 'Tests',
       description: 'Put your front-end development skills to the test in this challenging examination.',
     },
+    {
+      title: ' Hack&Win Hackathon',
+      imageSrc: "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/429581485_833553025482392_1689251557605132665_n.jpg?stp=dst-jpg_s600x600&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=AVLdJAzaZHUAb5p1pqF&_nc_ht=scontent.fixc4-2.fna&oh=00_AfBKnyGQ_ywHbCH6FvTpnMHx9bY2Qw7ZYhzg4RBn4B3RdQ&oe=662ECB00",
+      category: 'Hackathons',
+      description: 'Massive congratulations to Naveen and Anam, shining stars from the Uniques Batch, for their remarkable achievement in securing the prestigious 1st position and bagging the Rs. 10,000 cash prize at the Hack&Win Hackathon hosted at CGC, Jhanjheri Campus.',
+    },
   ];
 
   return (

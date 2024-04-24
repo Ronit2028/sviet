@@ -11,6 +11,10 @@ import img4 from "../../assets/placement/placements/value.png"
 import img5 from "../../assets/placement/placements/jp.png"
 import img6 from "../../assets/placement/placements/decathlon.png"
 import img7 from "../../assets/placement/placements/altruist.png"
+import img8 from "../../assets/placement/placements/Clicklabs.webp"
+import img9 from "../../assets/placement/placements/MBA.webp"
+import img10 from "../../assets/placement/placements/RMC.webp"
+import img11 from "../../assets/placement/placements/Park hospital.webp"
 const IndustrialExposure = () => {
     const reasons = [
         {
@@ -47,6 +51,28 @@ const IndustrialExposure = () => {
             title: "Altruist Technologies Pvt Ltd",
             description: "Altruist Technologies Pvt Ltd recently conducted a campus recruitment drive at SVIET, targeting B.Tech - CSE students (Super 60, 5th sem).",
             img: img7.src
+        },
+        //New DATA
+        {
+            title: "Click Labs",
+            description: "SVGOI organized a successful placement drive today for the students of MBA and Super60 | Batch 2025 passing out by reputed company Click Labs!",
+            img: img8.src
+        },
+        {
+            title: "Dasmesh Agricultural Industries Pvt Ltd",
+            description: "45 students from the department of commerce and management visited Dasmesh Agricultural Industries Pvt Ltd in Malerkotla. Witnessing manufacturing processes firsthand, they bridged theory with practice. From seed to implement, they grasped the intricacies of industrial operations. ",
+            img: img9.src
+        },
+        {
+            title: "Green Concrete R.M.C Plant",
+            description: "the Civil Engineering Department organized an insightful industrial visit for students to the Green Concrete R.M.C Plant located in Tangori, Mohali, providing students with a firsthand experience of the concrete production process and sustainable practices in the industry. ",
+            img: img10.src
+        },
+        
+        {
+            title: "Park Hospital, Patiala",
+            description: "On March 18, 2024, under the coordination of the Department of Training and Placement, students from the Paramedical Department's Operation Theatre and Anesthesia Technology program visited Park Hospital, Patiala. ",
+            img: img11.src
         },
     ];
 

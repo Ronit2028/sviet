@@ -8,6 +8,30 @@ const activities = [
         "link": "https://www.instagram.com/p/CqNSHDwyPP7/?utm_source=ig_web_copy_link"
     },
     {
+        "id": 22,
+        "image": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/433186770_843645591139802_3937150149773274621_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=MI_bqEP4udgAb5QF7yU&_nc_ht=scontent.fixc4-1.fna&oh=00_AfB13VBK2oHlGc9GmYVBSOVYwRYVFOvKWd5tOql75v9DoA&oe=662EE1F8",
+        "name": "Felicitation Ceremony",
+        "desc": "The Department of Applied Science recently organized a special Felicitation Ceremony to honor the exceptional achievements of their top-performing students across various fields.",
+        "program_type": "Engineering",
+        "link": "https://www.instagram.com/p/C4s-luoyjCt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== "
+    },
+    {
+        "id": 25,
+        "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/433234790_840978714739823_8686223682322215775_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=3UNYL5BVJp4Ab6Opm0U&_nc_ht=scontent.fixc4-3.fna&oh=00_AfB4jYiTYG9e67B1PuKU-ChH0L7_6Sg6XsQbkUfcRNTW-g&oe=662ED61F",
+        "name": "Expert lecture",
+        "desc": "The expert lecture on AI methodologies with Mr. Vishal Gahrotra from PRIMUS SOFTWARE CORPORATION was a game-changer. Participants from Super 60, Uniques, MCA, and BCA batches gained valuable insights into the latest AI techniques, ensuring they stay at the forefront of the tech landscape.",
+        "program_type": "Engineering",
+        "link": "https://www.instagram.com/p/C4hsaAgSv6F/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==  "
+    },
+    {
+        "id": 22,
+        "image": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/433121352_846399487531079_1668107039980169405_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=51edKhuLu0IAb5WQxX_&_nc_ht=scontent.fixc4-2.fna&oh=00_AfAwgQDZO7FizmBsT3mbLuURgjopRpqy5ohP1HBVTIiVzQ&oe=662ED724",
+        "name": "Interaction at U-Zone",
+        "desc": "Inspiring Mind A Day of Interaction at U-Zone.The encouragement from our Esteemed Chief Guests fueled our passion for excellence, fostering a culture of collaboration and innovation within our campus.",
+        "program_type": "Engineering",
+        "link": "https://www.instagram.com/p/C4pSLNUycU4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==  "
+    },
+    {
         "id": 2,
         "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/337401764_601726401975137_4824346628541318990_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-N5qlL9CFaYAb4Aod5S&_nc_ht=scontent.fixc4-3.fna&oh=00_AfAjFBE47-dHu04M4isw43WAHLi2kud0qM28WJv2ByABjQ&oe=6625EB6F",
         "name": "Guest Lecture",
@@ -31,6 +55,27 @@ const activities = [
         "program_type": "Engineering",
         "link": "View More"
     },
+//New data
+
+{
+    id: 26,
+    image:
+        "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/432640564_840387738132254_8320121415793404083_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Vs0ZcXcpLngAb40EVnO&_nc_ht=scontent.fixc4-2.fna&oh=00_AfDfdak7G1XSxhHWtq7VWR4i0ksPiw1iueh2ON2X8TBEjw&oe=662EDED1",
+    name: "Expert talk",
+    desc: "This expert talk, thoughtfully organized by Swami Vivekanand College of Pharmacy, delved deep into the journey of becoming a Registered Pharmacist in Australia and New Zealand. Browse through the snapshots from the session.",
+    program_type: "Pharmacy",
+    link: "https://www.instagram.com/p/C4ff3MgyLbU/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== ",
+},
+{
+    id: 27,
+    image:
+        "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/431283185_839044108266617_3667154384644697898_n.jpg?stp=dst-jpg_p526x395&_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=P7cyb4_IFmQAb5e4MV8&_nc_ht=scontent.fixc4-3.fna&oh=00_AfAkd7_dkPo658fMoJnKDoIptLx1DsvEGpA9uHf5a1CUFw&oe=662ED2E4",
+    name: "Interaction session",
+    desc: "a profound sense of anticipation filled the air as Mr. Vishal Garg, Director Secretarial & Administration, and Mr. Ankur Gill, Director Operations, engaged in an invigorating interaction session with the 30 students selected after yesterday's rigorous interview round for the Pharma Super 60 batch 2023.",
+    program_type: "Pharmacy",
+    link: "https://www.instagram.com/p/C4aV8XrynQN/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==  ",
+},
+
     {
         id: 6,
         image:
@@ -78,6 +123,14 @@ const activities = [
         link: "https://www.instagram.com/p/CyVHXz9SYK4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
     },
     {
+        "id": 25,
+        "name": "Insightful talk",
+        "desc": "Explore the essence of our event in these glimpse, featuring Prof. (Dr.) Ajay Ranga's insightful talk on 'Consumer Awareness: An Indian Perspective. Students got empowered with invaluable knowledge about their consumer rights, shaping them as informed and proactive members of society.",
+        "program_type": "law",
+        "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/432739390_841051161399245_4379095002407485622_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9X5CSf-JIQcAb7KbbK2&_nc_ht=scontent.fixc4-3.fna&oh=00_AfBvFtCo4QulFUGGbR5zU0YHgdLng7dhIkdsrkxuUlh42w&oe=662EF5BC",
+        "link": "https://www.instagram.com/p/C4iF2MfyZEs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== "
+    },
+    {
         id: 11,
         image:
             "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/386463035_728929672611395_792987037777091299_n.jpg?stp=dst-jpg_p600x600&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=C7yRufJjtjoAb78wZlV&_nc_ht=scontent.fixc4-3.fna&oh=00_AfAwskr_IshoceQj9Uhc4z0zIhQe28WUlTtDSNdNNt_OMg&oe=6625E47B",
@@ -94,6 +147,15 @@ const activities = [
         desc: "The Paramedical Science Department organized a project presentation competition marking “World Anesthesia Day” on October 13, sparking engaging discussions.",
         program_type: "paramedical",
         link: "https://www.instagram.com/p/Cyc6gGcrc0H/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    },
+    //New Data
+    {
+        id: 21,
+        image:
+            "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/434138325_845997457571282_463391602160637380_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=6dzTrf30ookQ7kNvgHtNv54&_nc_ht=scontent.fixc4-1.fna&oh=00_AfBxzkPr80hXDHSS_EOQLu33CXhLGJIA9Xm8_dICu4mGXQ&oe=662ED312",
+        name: "Expert Talk ",
+        desc: "The Radio Imaging Technology, BPT, and Nursing Departments celebrating the journey of goal setting and subconscious focus with Dr. Shiv Gautam (M.S. Ayurveda, eye specialist) and Dr. Hem Raj Rana (MD Ayurveda).",
+        link: "https://www.instagram.com/p/C40xIAESmqT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== ",
     },
     {
         "id": 13,
@@ -118,6 +180,14 @@ const activities = [
         "program_type": "Hotel-Management",
         "image": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/280261362_10158312354631721_5960165066366160253_n.jpg?stp=dst-jpg_s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=NU5xSTSmoWcAb5LRwAm&_nc_ht=scontent.fixc4-1.fna&oh=00_AfD-Fy0oDPfCryxzvDpBdhWRm5aDaGhZgz3KYc_Vf_Wq1w&oe=6625DBCE",
         "link": "https://www.instagram.com/p/CcwxUdIqx8R/?utm_source=ig_web_copy_link"
+    },
+    {
+        "id": 22,
+        "name": "ASHN-E-RANG",
+        "desc": "Relive the colorful moments from 'JASHN-E-RANG' - our vibrant Holi celebration organized by the Department of Hotel Management!",
+        "program_type": "Hotel-Management",
+        "image": "https://scontent.fixc4-1.fna.fbcdn.net/v/t39.30808-6/433246392_845706167600411_2768999267750478356_n.jpg?stp=dst-jpg_p526x395&_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=5nlkdgErBKMAb7pJqp4&_nc_ht=scontent.fixc4-1.fna&oh=00_AfC77K6TSmDKWJdWZpv3xGKDazVTYwRbiwOCSVZagJ7X4w&oe=662EECE6",
+        "link": "https://www.instagram.com/p/C4z6MuoSog4/?utm_source=ig_web_copy_link"
     },
 
     {
@@ -152,7 +222,23 @@ const activities = [
         "image": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/333544986_5995389387216309_3362412567012774753_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Rft9A7Fl3-oAb7ZlfMH&_nc_ht=scontent.fixc4-2.fna&oh=00_AfB05mpFXlH4Lfrik55GZF0fm0mTWfUsyiyHqymp8An9UQ&oe=6625F3E9",
         "link": "https://www.instagram.com/p/CppXyw3yTL9/?utm_source=ig_web_copy_link"
     },
-
+    //New Data
+    {
+        "id": 20,
+        "name": "World Water Day",
+        "desc": "Reflecting on our impactful village drive hosted by Swami Vivekanand College of Law in celebration of World Water Day.",
+        "program_type": "law",
+        "image": "https://scontent.fixc4-2.fna.fbcdn.net/v/t39.30808-6/432739606_845746284263066_1247820143580682144_n.jpg?stp=dst-jpg_p526x395&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=BeITksUIdzMAb7DE2IR&_nc_ht=scontent.fixc4-2.fna&oh=00_AfBT3NDdVFnCow7dHZfUW_tLb5OWDN9ofVbe8woM8oG3-w&oe=662EF136",
+        "link": "https://www.instagram.com/p/C40HpPPLp7a/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== "
+    },
+    {
+        "id": 24,
+        "name": "Insightful talk",
+        "desc": "Explore the essence of our event in these glimpse, featuring Prof. (Dr.) Ajay Ranga's insightful talk on 'Consumer Awareness: An Indian Perspective. Students got empowered with invaluable knowledge about their consumer rights, shaping them as informed and proactive members of society.",
+        "program_type": "law",
+        "image": "https://scontent.fixc4-3.fna.fbcdn.net/v/t39.30808-6/432739390_841051161399245_4379095002407485622_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9X5CSf-JIQcAb7KbbK2&_nc_ht=scontent.fixc4-3.fna&oh=00_AfBvFtCo4QulFUGGbR5zU0YHgdLng7dhIkdsrkxuUlh42w&oe=662EF5BC",
+        "link": "https://www.instagram.com/p/C4iF2MfyZEs/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== "
+    },
 
 ];
 export default activities;
