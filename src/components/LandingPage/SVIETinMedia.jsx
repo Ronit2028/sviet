@@ -62,7 +62,7 @@ const SVIETinMedia = () => {
                                             {update.name}
                                         </p>
                                         <p className='text-md pb-6'>
-                                            {update.type}n
+                                            {update.type}
                                         </p>
                                         <p className='text-sm pb-6'>
                                             {
