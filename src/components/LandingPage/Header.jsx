@@ -39,10 +39,10 @@ const Header = () => {
                         <p className='text-md lg:text-lg font-semibold mt-3 mb-3 pb-3'>
                             SVGOI, a beacon of academic distinction, proudly stands tall as it secures the honorable rank of 104 in NIRF 2021, a testament to its commitment to excellence.
                         </p>
-                        <Link href="https://admission.sviet.ac.in/"> 
-            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
-            </Link>
-                       
+                        <Link href="https://admission.sviet.ac.in/">
+                            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+                        </Link>
+
                     </div>
                     <div className='w-full md:w-1/2 hidden lg:flex items-center justify-center py-4'>
                         <div class="npf_wgts" data-height="400px" data-w="135f884902b93f3745b198105f33a948"></div>
@@ -72,9 +72,9 @@ const Header = () => {
 
                             SVGOI's belief in the importance of aligning passion with purpose in education and career pursuits.
                         </p>
-                        <Link href="https://admission.sviet.ac.in/"> 
-            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
-            </Link>
+                        <Link href="https://admission.sviet.ac.in/">
+                            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+                        </Link>
                     </div>
 
                 </div>
@@ -95,9 +95,9 @@ const Header = () => {
                             At SVGOI, we believe in fostering a culture where research thrives, innovations flourish, and knowledge leads to transformative solutions</p>
 
 
-                            <Link href="https://admission.sviet.ac.in/"> 
-            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
-            </Link>
+                        <Link href="https://admission.sviet.ac.in/">
+                            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+                        </Link>
                     </div>
 
                 </div>
