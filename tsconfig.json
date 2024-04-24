@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/placement/page.jsx", "src/app/admissions/page.jsx", "tailwind.config.ts", "src/app/loading.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/placement/page.jsx", "src/app/admissions/page.jsx", "tailwind.config.ts", "src/app/loading.jsx", "src/app/institutions/page.jsx"],
   "exclude": ["node_modules"]
 }

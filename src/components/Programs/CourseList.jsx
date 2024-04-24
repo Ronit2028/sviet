@@ -122,16 +122,16 @@ const CourseList = () => {
     }));
 
     const swamiVivekanandInstitutes = [
-        { name: "Swami Vivekanand Institute of Engineering and Technology (SVIET)", category: "Engineering and Technology" },
-        { name: "Swami Vivekanand College of Pharmacy (SVCP)", category: "Pharmacy" },
-        { name: "Swami Vivekanand Faculty of Information Technology & Business Management (SVFIT & BM)", category: "Information Technology & Business Management" },
-        { name: "Swami Vivekanand Faculty of Technology and Management (SVFTM)", category: "Technology and Management" },
-        { name: "Swami Vivekanand College of Education(SVCE)", category: "Education" },
-        { name: "Swami Vivekanand Polytechnic college(SVPC)", category: "Polytechnic" },
-        { name: "Swami Vivekanand Industrial Training Center (SVITC)", category: "Industrial Training" },
-        { name: "Swami Vivekanand College of Management & Technology (SVCMT)", category: "Management & Technology" },
-        { name: "Swami Vivekanand Paramedical College (SVPMC)", category: "Paramedical" },
-        { name: "Swami Vivekanand College of Law", category: "Law" }
+        {id:1, name: "Swami Vivekanand Institute of Engineering and Technology (SVIET)", category: "Engineering and Technology" },
+        { id:2, name: "Swami Vivekanand College of Pharmacy (SVCP)", category: "Pharmacy" },
+        { id:3, name: "Swami Vivekanand Faculty of Information Technology & Business Management (SVFIT & BM)", category: "Information Technology & Business Management" },
+        { id:4, name: "Swami Vivekanand Faculty of Technology and Management (SVFTM)", category: "Technology and Management" },
+        { id:5, name: "Swami Vivekanand College of Education(SVCE)", category: "Education" },
+        { id:6, name: "Swami Vivekanand Polytechnic college(SVPC)", category: "Polytechnic" },
+        { id:7, name: "Swami Vivekanand Industrial Training Center (SVITC)", category: "Industrial Training" },
+        { id:8,name: "Swami Vivekanand College of Management & Technology (SVCMT)", category: "Management & Technology" },
+        { id:9,name: "Swami Vivekanand Paramedical College (SVPMC)", category: "Paramedical" },
+        { id:10,name: "Swami Vivekanand College of Law", category: "Law" }
     ];
 
 
@@ -158,12 +158,16 @@ const CourseList = () => {
                     Our Institutions
                 </p>
                 {
-                    swamiVivekanandInstitutes.map((name, index) => (
-                        <p key={index} className='text-xl my-3 py-3'>
-                            {name.name}
-                        </p>
-                    ))
-                }
+    swamiVivekanandInstitutes.map((institute, index) => (
+        <Link href={{
+            pathname: `/institutions/${institute.id}`
+        }}>
+            <p className='text-xl my-3 py-3'>
+                {institute.name}
+            </p>
+        </Link>
+    ))
+}
             </div>
             <div className="w-full md:w-2/3 p-6">
                 <div className=''>
