@@ -319,6 +319,39 @@ const events = [
 
     ],
   },
+  {
+    id: 18,
+    headerImage: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/439482612_867167378787623_3265852331277400787_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yViV-PHJSUIAb57quua&_nc_ht=scontent.faip1-1.fna&oh=00_AfDZYJgQpaDQG76Ww9TKwO66teAVPqTLQYX3yA8fCo0dmQ&oe=662DD199",
+    name: "Convocation 14th",
+    logo:"https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/438878175_865935622244132_1187202176504504856_n.jpg?stp=dst-jpg_p960x960&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Un5xo0o6ktwAb5ATt47&_nc_ht=scontent.faip1-1.fna&oh=00_AfB6ZkqM5mELp-DwQ92biNWzyuAZ4sGOj80c3ePHHMVVQQ&oe=662DD7CD",
+    date: "20th April 2024",
+    venue: "SVIET Campus",
+    overview: "Convocation 14 emerged as a hallmark of academic excellence and inspirational milestones, enchanting attendees with its dignified atmosphere and profound ceremonial moments. From the opening procession to the final farewell, the event was imbued with a sense of achievement and scholarly pride, drawing together graduates, academics, and proud family members. Convocation 14 was more than just a ceremony; it was a celebration of educational accomplishments and personal growth. By honoring the hard work and dedication of its students, it not only marked the culmination of their current academic journeys but also set the stage for future endeavors. As the graduates moved their tassels and stepped into new beginnings, they carried with them not only their degrees but also a deep-seated inspiration to shape and innovate the future.",
+    photogallery: "https://drive.google.com/drive/folders/1IqmUhyinq7CjRaz9T-TRHiu3tJDfZJ4Y?usp=sharing",
+    speakers: [
+      {
+        id: 2,
+        image: "https://media.licdn.com/dms/image/C4D03AQG4yr0qNjCtvA/profile-displayphoto-shrink_800_800/0/1605448978739?e=1719446400&v=beta&t=5AJSxI3QZOTFmgtUXVc-XXYxo5KvSqnWejFmE2mBRnk",
+        name: "Dr. Sumit Goyal",
+        company: "Infosys",
+        designation: "Director-Software Products & Platforms Engineering",
+        profile: "",
+        twitter: "https://twitter.com/hifiveyatin",
+        linkedin: "https://www.linkedin.com/in/hifiveyatin/",
+        bio: "Yatin is a Project Engineer by profession having 3+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
+      },
+      {
+        id: 3,
+        image: "https://images.indianexpress.com/2023/01/Dr-Balbir-Singh.jpg",
+        name: "Dr. Balbir Singh",
+        company: "Punjab",
+        designation: "Health & Welfare Minister",
+        profile: "",
+        twitter: "https://twitter.com/hifiveyatin",
+        linkedin: "https://www.linkedin.com/in/hifiveyatin/",
+        bio: "Yatin is a Project Engineer by profession having 3+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
+      }]
+  },
 
 ]
 

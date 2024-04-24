@@ -37,7 +37,10 @@ const ChartYourPath = () => {
 
             </p>
             <div className='flex gap-3'>
-              <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+            <Link href="https://admission.sviet.ac.in/"> 
+            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+            </Link>
+              
               <Link href="/placement"><button className=' text-white text-xl px-2 py-1 rounded-md'>Placements <i className='fa fa-arrow'></i></button></Link>
             </div>
 

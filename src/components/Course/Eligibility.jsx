@@ -45,7 +45,7 @@ const Eligibility = ({ eligibilityCriteria, affiliation, modeOfAdmission, progra
                     <p className="text-md mb-5">
                         {modeOfAdmission}
                     </p>
-                    <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'>Apply Now</button>
+                    <button className='bg-[#fea700] text-white p-2 rounded-md text-lg mt-3'></button>
                 </div>
             </div>
         </div>

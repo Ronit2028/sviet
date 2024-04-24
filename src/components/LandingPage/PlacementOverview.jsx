@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link';
 import placementBackdrop from '@/assets/LandingPage/placementBackdrop.jpg'
 import img1 from "../../assets/LandingPage/placements/Moon.png"
 import img2 from "../../assets/LandingPage/placements/yash.jpeg"
@@ -109,7 +109,9 @@ const PlacementOverview = () => {
                                 </p>
                             </div>
                         </div>
-                        <button className='bg-[#fea700] text-white text-lg py-1 px-2 rounded-sm my-6'>Apply Now</button>
+                        <Link href="https://admission.sviet.ac.in/"> 
+            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+            </Link>
                     </div>
                 </div>
 

@@ -49,7 +49,10 @@ const Howapply = () => {
             <div className='mt-5'>
                 <h2 className='font-semibold text-2xl'>{data[index].title}</h2>
                 <p className='mt-2'>{data[index].descr}</p>
+                <Link href="https://admission.sviet.ac.in/">
                 <button className='bg-[#fea700]  cursor-pointer text-white p-2 rounded-md text-lg mt-8'>Apply Now</button>
+                </Link>
+               
             </div>
         </div>
         <div className='md:w-[45%] flex flex-wrap justify-center gap-[30px] items-center'>

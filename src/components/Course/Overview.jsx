@@ -33,7 +33,7 @@ const Overview = ({ programOverview, majorTracks, duration, programName, fees, b
                         <p className="text-2xl font-medium text-[#fea700] ">Fees :</p>
                         <div className='flex flex-wrap justify-between'>
                             <p className='text-3xl font-medium'>{fees}</p>
-                            <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md '>Apply Now <i className='fa fa-arrow-right ml-1'></i></button>
+                            <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md '> <i className='fa fa-arrow-right ml-1'></i></button>
                         </div>
                     </div>
                     <div className='pb-7 mb-7 border-b-2 flex justify-between flex-wrap'>
