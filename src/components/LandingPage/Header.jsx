@@ -44,20 +44,6 @@ const Header = () => {
                         </Link>
 
                     </div>
-                    <div className='w-full md:w-1/2 hidden lg:flex items-center justify-center py-4'>
-                        <div class="npf_wgts" data-height="400px" data-w="135f884902b93f3745b198105f33a948"></div>
-                        <script type="text/javascript"> var s=document.createElement("script"); s.type="text/javascript"; s.async=true; s.src="https://widgets.in5.nopaperforms.com/emwgts.js"; document.body.appendChild(s);</script>
-                        <script type="text/javascript">
-                            var npf_d='https://admission.sviet.ac.in';
-                            var npf_c='5151';
-                            var npf_m='1';
-                            var s=document.createElement("script");
-                            s.type="text/javascript";
-                            s.async=true;
-                            s.src="https://track.nopaperforms.com/js/track.js";
-                            document.body.appendChild(s);
-                        </script>
-                    </div>
                 </div>
             </div>
         </div>,
