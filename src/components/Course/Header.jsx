@@ -2,7 +2,7 @@ import React from 'react'
 
 import backdrop from '@/assets/Programs/backdrop.jpg'
 import { CgNametag } from 'react-icons/cg'
-
+import Link from 'next/link'
 const Header = ({courseName, backgroundImage, title, subTitle}) => {
     return (
         <div className='h-[75vh] text-white' style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
