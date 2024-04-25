@@ -11,7 +11,7 @@ import SVIETinMedia from "@/components/LandingPage/SVIETinMedia"
 import Testimonials from "@/components/LandingPage/Testimonials"
 import EventCarousel from "@/components/LandingPage/EventCarousel"
 import FeaturesSection16 from '@/components/LandingPage/FeaturesSection16'
-import BookReleaseWidget from '@/components/Globals/FormWidget'
+import BookReleaseWidget from '@/components/Globals/BookReleaseWidget'
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -39,16 +39,16 @@ export default function Home() {
         Enquire Now
       </button>
       {showModal && (
-        <div className="fixed inset-0 bg-white/50 bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white w-4/5 lg:w-1/3 mx-auto rounded-lg p-4 ">
+        <div className="fixed inset-0 bg-white/50 bg-opacity-50 flex justify-center items-center z-30">
+          <div className=" w-4/5 lg:w-1/3 mx-auto rounded-lg p-4 z-50">
             <button className="absolute top-0 right-0 m-2 text-black hover:text-gray-800" onClick={handleCloseModal}>
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-           
-              <BookReleaseWidget />
-      
+
+            <BookReleaseWidget />
+
           </div>
         </div>
       )}
