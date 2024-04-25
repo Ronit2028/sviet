@@ -10,6 +10,8 @@ import imgggg from '@/assets/admissions/DSC_6913.jpg'
 import Image from 'next/image';
 
 
+import Link from 'next/link';
+
 const Howapply = () => {
     const [index ,setIndex] = useState(0)
 
