@@ -3,7 +3,7 @@ import React from 'react'
 import backdrop from '@/assets/Programs/backdrop.jpg'
 import { CgNametag } from 'react-icons/cg'
 import Link from 'next/link'
-const Header = ({courseName, backgroundImage, title, subTitle}) => {
+const Header = ({ courseName, backgroundImage, title, subTitle }) => {
     return (
         <div className='h-[75vh] text-white' style={{ backgroundImage: `url(${backgroundImage})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
             <div className="bg-[#000000b1] overlay h-full w-full flex flex-col justify-center">
