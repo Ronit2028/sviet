@@ -1,27 +1,38 @@
-"use client"
-
 import { useEffect } from 'react';
 
 const BookReleaseWidget = () => {
   useEffect(() => {
-    // Create and append script for widgets
-    const widgetsScript = document.createElement("script");
-    widgetsScript.type = "text/javascript";
-    widgetsScript.async = true;
-    widgetsScript.src = "https://widgets.in5.nopaperforms.com/emwgts.js";
-    document.body.appendChild(widgetsScript);
+    let emwgtsScript;
+    let trackScript;
 
-    // Create and append tracking script
-    const trackingScript = document.createElement("script");
-    trackingScript.type = "text/javascript";
-    trackingScript.async = true;
-    trackingScript.src = "https://track.nopaperforms.com/js/track.js";
-    document.body.appendChild(trackingScript);
+    const loadScripts = async () => {
+      try {
+        // Load emwgts.js script
+        emwgtsScript = document.createElement('script');
+        emwgtsScript.src = 'https://widgets.in5.nopaperforms.com/emwgts.js';
+        emwgtsScript.async = true;
+        document.body.appendChild(emwgtsScript);
 
+        // Load track.js script
+        trackScript = document.createElement('script');
+        trackScript.src = 'https://track.nopaperforms.com/js/track.js';
+        trackScript.async = true;
+        document.body.appendChild(trackScript);
+      } catch (error) {
+        console.error('Error loading scripts:', error);
+      }
+    };
+
+    loadScripts();
+
+    // Cleanup: remove the added scripts when component unmounts
     return () => {
-      // Cleanup: remove the added scripts when component unmounts
-      document.body.removeChild(widgetsScript);
-      document.body.removeChild(trackingScript);
+      if (emwgtsScript) {
+        document.body.removeChild(emwgtsScript);
+      }
+      if (trackScript) {
+        document.body.removeChild(trackScript);
+      }
     };
   }, []);
 
