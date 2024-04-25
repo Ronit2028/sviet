@@ -1,7 +1,7 @@
 import React from 'react'
 
 import image from '@/assets/sviet-web/tseg.webp'
-
+import Link from 'next/link'
 const Overview = () => {
     return (
         <div className='py-12 my-10 w-10/12 mx-auto flex'>
