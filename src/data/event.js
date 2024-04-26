@@ -55,7 +55,7 @@ const events = [
       },
       {
         id: 6,
-        image: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/436209857_860714806099547_4525768310472198208_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=2nEwGTmXN5cAb4U-O9-&_nc_ht=scontent.faip1-1.fna&oh=00_AfBWoZ335ix5r2225_F5YgYaekFdfNT7eQmbj8JkqHl6Vw&oe=66234E75",
+        image: "https://utfs.io/f/52bb3c30-8f51-4585-bad8-37a6fde3995c-12zs5r.jpg",
         name: "LoveMore Ncube",
         company: "New Delhi",
         designation: "Embassy of Zimbabwe",
