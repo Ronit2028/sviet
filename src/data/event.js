@@ -1,7 +1,7 @@
 const events = [
   {
     id: 1,
-    headerImage: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/428681324_822894939881534_7922253371995931230_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=sEkSBKZ9AzEAb7tYJMi&_nc_ht=scontent.faip1-1.fna&oh=00_AfC2ObDsKlypl3PtUi9ePS0IhbNSZQ3Qs6xU7rkHAyehfg&oe=66236BA6",
+    headerImage: "https://utfs.io/f/55cf797c-3716-4916-b775-0a61c0cbc09c-ls62sd.jpg",
     name: "Techathon 2.0",
     logo:"https://pbs.twimg.com/media/GFy64P5WgAAcug4.jpg",
     date: "17th February 2024",
@@ -35,7 +35,7 @@ const events = [
   {
     id: 2,
     logo:"https://pbs.twimg.com/media/GIh0LfGXQAEcKFh.jpg",
-    headerImage: "https://scontent.fixc2-2.fna.fbcdn.net/v/t39.30808-6/435589746_862870739217287_8915430970769063167_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1q0BROghpTIAb6odG8a&_nc_ht=scontent.fixc2-2.fna&oh=00_AfDU8q8FYGcvKrMtKTGv6jC7_eSJQhsoEFCuhI8mq4R5aA&oe=6623CA08",
+    headerImage: "https://utfs.io/f/d77d2e93-bb44-4f3d-8b8b-70651ff5f997-dgdqel.webp",
     name: "Spontania 2k24",
     date: "12th-13th April 2024",
     venue: "SVIET Campus",
@@ -78,7 +78,7 @@ const events = [
   },
   {
     id: 3,
-    headerImage: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/433121352_846399487531079_1668107039980169405_n.jpg?stp=dst-jpg_p600x600&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4CNzzDD8IncAb4k3s_N&_nc_ht=scontent.faip1-1.fna&oh=00_AfAAi91yON_3XYUXPFWc0CNgAxG7fOuj4rPf5LHvqe8uhg&oe=66236A24",
+    headerImage: "https://utfs.io/f/9a08b157-a1bd-4310-b37e-b1582b2a156c-inzo76.jpg",
     name: "Global Futures Summit 2024",
     logo: "https://media.licdn.com/dms/image/D4E22AQHG3lpve4KsoA/feedshare-shrink_1280/0/1710927341125?e=1715212800&v=beta&t=3Xj3TaewuFj1Lgo7luHp8duirsCX7vLgiDmUjg2uQFw",
       
@@ -202,7 +202,7 @@ const events = [
   },
   {
     id: 4,
-    headerImage: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/383971959_723127006524995_2158958101615611314_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=reRMyS4VtTwAb6VAx5t&_nc_ht=scontent.faip1-1.fna&oh=00_AfAh-_OyXEwDQDfstBKIkxLl6mx2DPZWHpO8LVY00kANzw&oe=66235C77",
+    headerImage: "https://utfs.io/f/36d33b9b-2102-48ec-ba02-efa13a96c611-jfpc21.webp",
     name: "Parichay 2k23",
     logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ufC4AkfxZ34QDOsozBHK9N-X4DxPOcV77SFVWRFlsQ&s",
     date: "26th September 2023",
@@ -227,7 +227,7 @@ const events = [
   },
   {
     id: 5,
-    headerImage: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/391668622_738095498361479_2902034315271856331_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=h8L5AMNai-0Ab7Qm1BP&_nc_ht=scontent.faip1-1.fna&oh=00_AfC0dEtA9KgRV_kP_ZL8M7hn3eg6hofx6dp1GNSM_T6oLg&oe=66236804",
+    headerImage: "https://utfs.io/f/db9bb4f9-5f2a-486a-b24e-c6a29435366a-w384cm.jpg",
     name: "IKGPTU Youth Fest 2023",
     logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWRpf9jp7uTiXPzmEOT90HYz7JsW0cEYgEyyqCWO_zIQ&s",
     date: "17th-19th October 2023",
@@ -274,7 +274,7 @@ const events = [
   },
   {
     id: 6,
-    headerImage: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/428679744_824060996431595_268079522199009501_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WoXbTzX3Tx0Ab6PcxMJ&_nc_ht=scontent.faip1-1.fna&oh=00_AfDodhk6fu-CXoxQu7oeb-0ICshrehN47MCCeQ84B93i_g&oe=66235B0C",
+    headerImage: "https://utfs.io/f/0c57147f-d3a4-417c-bb71-280b3ced13b9-ks8lvh.00.11_af922b7e.jpg",
     name: "Google Ideate",
     logo: "https://google-ideate-ideathon.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fe42010dbd6fd4e8ba4686665f50e7a64%2Fassets%2Ffavicon%2F76.jpeg&w=768&q=75",
     date: "17th February 2023",
@@ -321,7 +321,7 @@ const events = [
   },
   {
     id: 18,
-    headerImage: "https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/439482612_867167378787623_3265852331277400787_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=yViV-PHJSUIAb57quua&_nc_ht=scontent.faip1-1.fna&oh=00_AfDZYJgQpaDQG76Ww9TKwO66teAVPqTLQYX3yA8fCo0dmQ&oe=662DD199",
+    headerImage: "https://utfs.io/f/e7c0f77c-7315-4b1d-b9de-ac3030eb842e-6hvi1d.webp",
     name: "Convocation 14th",
     logo:"https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/438878175_865935622244132_1187202176504504856_n.jpg?stp=dst-jpg_p960x960&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Un5xo0o6ktwAb5ATt47&_nc_ht=scontent.faip1-1.fna&oh=00_AfB6ZkqM5mELp-DwQ92biNWzyuAZ4sGOj80c3ePHHMVVQQ&oe=662DD7CD",
     date: "20th April 2024",
