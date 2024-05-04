@@ -535,7 +535,7 @@ function NavListInternaltional() {
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
         <Link href="/international" className="flex gap-2 items-center">
           <GlobeAltIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-          Internationale{" "}</Link>
+          International{" "}</Link>
       </MenuItem>
 
     </React.Fragment>
