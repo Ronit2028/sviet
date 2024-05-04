@@ -39,9 +39,14 @@ const Header = () => {
                         <p className='text-md lg:text-lg font-semibold mt-3 mb-3 pb-3'>
                             SVGOI, a beacon of academic distinction, proudly stands tall as it secures the honorable rank of 104 in NIRF 2021, a testament to its commitment to excellence.
                         </p>
-                        <Link href="https://admission.sviet.ac.in/">
-                            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
-                        </Link>
+                        <div className='flex gap-3 flex-wrap'>
+                            <Link href="https://admission.sviet.ac.in/">
+                                <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+                            </Link>
+                            <Link href="/svgoi-brochure.pdf">
+                                <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Download Brochure</button>
+                            </Link>
+                        </div>
 
                     </div>
                 </div>
