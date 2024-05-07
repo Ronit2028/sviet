@@ -945,9 +945,10 @@ const data = [
     {
         "id": 13,
         "course_name": "Pharmacy",
+        
         event_type: "Pharmacy",
         "header": {
-            "title": "BACHELOR OF PHARMACY",
+            "title": "Bachelor of Pharmacy",
             "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
             "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
