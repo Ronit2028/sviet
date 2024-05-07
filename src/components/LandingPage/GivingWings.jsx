@@ -214,7 +214,7 @@ const GivingWings = () => {
                     <div className="w-full md:w-1/2 text-white" style={{ backgroundImage: `url(${bannerImage.src})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                         <div className=' p-6 py-10 rounded-md flex flex-col justify-center w-full h-full bg-[#00112d91]'>
                             <p className='text-lg lg:text-2xl font-semibold mb-3'>
-                                Bringinng the World to SVGOI
+                                Bringing the World to SVGOI
 
                             </p>
                             <p className='text-sm lg:text-lg'>
