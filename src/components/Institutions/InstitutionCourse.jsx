@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Link from 'next/link';
 
 const InstitutionCourse = ({programs}) => {
     const coursesData =  programs
@@ -41,6 +41,11 @@ const InstitutionCourse = ({programs}) => {
                             </div>
                         ))}
                     </div>
+                    <Link href="/committees/SVCMT-Committees.pdf">
+                        <button className='bg-[#fea700] text-white rounded px-2 py-1'>
+                        View Committee
+                        </button>
+                    </Link>
                 </div>
             </div>
         </div>
