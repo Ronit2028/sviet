@@ -77,7 +77,7 @@ const Page = ({ params }) => {
                 "Business Studies": {
                     "specializations": [
                         " Bachelor in Business Administration (BBA)",
-                        "Bacholer for Commerce(B.Com)"
+                      
                     ]
                 },
                 "Basic Sciences    ": {
@@ -189,7 +189,7 @@ const Page = ({ params }) => {
             programs: {
                 "Business Studies": {
                     "specializations": [
-                        " Bachelor of Commerce (B.com)",
+                      
 
                         " Bachelor of Business administration (BBA)"
                     ]
