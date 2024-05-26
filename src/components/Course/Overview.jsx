@@ -48,10 +48,10 @@ const Overview = ({ programOverview, majorTracks, duration, programName, fees, b
                             <Link href="/svgoi-brochure.pdf">
                                 <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md hover:rounded-full transition'><i className='fa fa-download'></i></button>
                             </Link>     </div>
-                        <div className='flex flex-wrap gap-2 items-center'>
+                        {/* <div className='flex flex-wrap gap-2 items-center'>
                             <p className='text-lg font-medium'>Download Course Structure :</p>
                             <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md hover:rounded-full transition'><i className='fa fa-download'></i></button>
-                        </div>
+                        </div> */}
                     </div>
                     {/* <div className='pb-5'>
                         <p className="text-xl font-medium text-[#fea700] ">Highest CTC :</p>
