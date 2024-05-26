@@ -109,9 +109,12 @@ const PlacementOverview = () => {
                                 </p>
                             </div>
                         </div>
-                        <Link href="https://admission.sviet.ac.in/"> 
-            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
-            </Link>
+                        <Link href="https://admission.sviet.ac.in/">
+                            <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md'>Apply Now</button>
+                        </Link>
+                        <Link href="/placement-report.pdf">
+                            <button className='bg-[#fea700] text-white text-xl px-2 py-1 ml-5 rounded-md'>Download Placement Report</button>
+                        </Link>
                     </div>
                 </div>
 
