@@ -7,10 +7,8 @@ const AboutHeader = () => {
         <div className='h-[80vh] text-white' style={{backgroundImage:`url(${backdrop.src})`, backgroundSize:"cover", backgroundRepeat:"no-repeat", backgroundPosition:"center center"}}>
             <div className="bg-[#000000b1] overlay h-full w-full flex flex-col justify-center">
                 <div className="w-10/12 mx-auto py-6">
-                    <p className='text-4xl mb-3 font-bold'>
-                       About
-                    </p>
-                    <p className='text-2xl mb-6 font-bold'>
+                   
+                    <p className='text-4xl mb-6 font-bold'>
                     Infinite Horizons, One Campus
 
                     </p>
