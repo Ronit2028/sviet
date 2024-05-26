@@ -37,7 +37,7 @@ const Footer = () => {
                             <li><a href="https://uj.servergi.com:8079/ISIMSVIET/login">Student ERP Login</a></li>
                             <li><a href="https://uj.servergi.com:8079/SIMWEBSVIET/Login">Faculty ERP Login</a></li>
                             <li><Link href="/svgoi-in-town">SVGOI in your town</Link></li>
-                            <li><a href="#" download={'/public/ebrochure.pdf'}>E-Brochure</a></li>
+                            <li><Link href="/svgoi-brochure.pdf">E-Brochure</Link></li>
                             <li><a href="https://admission.sviet.ac.in/">How to Apply</a></li>
                             <li><a href="http://svietiti.in/index.html">SVIET - ITI</a></li>
                             <li><a href="https://gdscsviet.netlify.app/ideathon">Ideathon</a></li>
