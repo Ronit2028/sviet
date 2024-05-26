@@ -49,8 +49,8 @@ const Footer = () => {
                         <div className="heading text-xl font-semibold mb-4">Quick Links</div>
                         <ul className="leading-loose text-sm font-light">
                             <li><a href="/placement">Placement Overview</a></li>
-                            <li><Link href="/about">Career at SVGOI</Link></li>
-                            <li><Link href="/about">Recognitions Approvals</Link></li>
+                            {/* <li><Link href="/about">Career at SVGOI</Link></li> */}
+                            {/* <li><Link href="/about">Recognitions Approvals</Link></li> */}
                             {/* <li><a href="#">Video Gallery</a></li> */}
                             <li><a href="https://drive.google.com/drive/folders/1Z5x76AQUJEdBp1o-rH4cHMYg3coY1lDu">Photo Gallery</a></li>
                             <li><Link href="/contact-us">Grievances/Enquiry</Link></li>
