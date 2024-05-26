@@ -317,6 +317,88 @@ const data = [
         ]
     },
     {
+        "id": 5,
+        "course_name": "B.Tech",
+        event_type: "Engineering",
+        "header": {
+            "title": " Electronics & Communication Engineering",
+            "subtitle": "EXPERIENCE EXCELLENCE IN TECHNOLOGY WITH",
+            "background_image": "../Courses/BTech/ece/Header.jpg"
+        },
+        "program_name": "B.Tech Electronics & Communication Engineering",
+        "program_description": "B.Tech ECE stands for Bachelor of Technology in Electronics and Communication Engineering. It is a four-year undergraduate degree program that focuses on the design, development, and application of electronic and communication systems. B.Tech ECE covers a wide range of subjects, including electronic circuits, digital systems, signal processing, communication systems, microprocessors, embedded systems, control systems, and telecommunications. Students learn about the principles, theories, and practices behind various electronic devices, communication networks, and technologies. During the course, students gain hands-on experience through laboratory work, projects, and internships. They learn to design, analyze, and troubleshoot electronic circuits, develop communication systems, and utilize modern tools and software for system development. B.Tech ECE is a dynamic field that keeps evolving with advancements in technology. It equips students with the knowledge and skills to contribute to the development of innovative electronic and communication systems, shaping the future of technology.",
+        "fees": "45,000 INR",
+        "duration": "4 Years",
+        "major_tracks": [
+            "Electronic Circuits",
+            "Digital Systems",
+            "Signal Processing",
+            "Communication Systems",
+            "Microprocessors",
+            "Embedded Systems",
+            "Control Systems",
+            "Telecommunications"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Electronics Engineer",
+                "desc": "Specialize in the design, development, and maintenance of electronic systems and devices.",
+                "image": "../Courses/BTech/ece/electronic.jpg"
+            },
+            {
+                "title": "Communication Systems Engineer",
+                "desc": "Acquire expertise in designing and optimizing communication networks and systems.",
+                "image": "../Courses/BTech/ece/Communication.jpg"
+            },
+            {
+                "title": "Embedded Systems Engineer",
+                "desc": "Design and develop embedded systems, computer systems integrated into other devices or products like medical devices, automobiles, and industrial equipment.",
+                "image": "../Courses/BTech/ece/Embe.jpg"
+            },
+            {
+                "title": "Signal Processing Engineer",
+                "desc": "Analyze and manipulate digital signals to extract relevant information, commonly used in fields such as telecommunications, audio/video processing, and image processing.",
+                "image": "../Courses/BTech/ece/signal.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Learn by Doing: Hands-on learning through case studies and projects.",
+            "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
+            "Industry Ready: Six-month industry internship for real-world experience.",
+            "Global Exposure: National and international immersion programs.",
+            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
+            "Beyond Academics: Essential skill development through workshops.",
+            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
+            "Expert Learning: Renowned faculty and industry guest speakers.",
+            "Master the Latest Technologies: In-demand skills in electronic circuits, digital systems, signal processing, communication systems, microprocessors, embedded systems, control systems, telecommunications, and more."
+        ],
+        "labs": [
+            {
+                "title": "Electronics Lab",
+                "description": "Design, build, and test electronic circuits and systems.",
+                "image": "../Courses/BTech/ece/lab/electron.jpg"
+            },
+            {
+                "title": "Communication Systems Lab",
+                "description": "Experiment with communication principles and technologies.",
+                "image": "../Courses/BTech/civil/lab/system.jpg"
+            },
+            {
+                "title": "Signal Processing Lab",
+                "description": "Analyze and process signals using software and hardware tools.",
+                "image": "../Courses/BTech/civil/lab/process.jpg"
+            }
+        ]
+    },
+    {
         "id": 2,
         "course_name": "B.Tech",
         event_type: "Engineering",
@@ -553,90 +635,1329 @@ const data = [
             }
         ]
     },
-    {
-        "id": 5,
-        "course_name": "B.Tech",
-        event_type: "Engineering",
-        "header": {
-            "title": " Electronics & Communication Engineering",
-            "subtitle": "EXPERIENCE EXCELLENCE IN TECHNOLOGY WITH",
-            "background_image": "../Courses/BTech/ece/Header.jpg"
-        },
-        "program_name": "B.Tech Electronics & Communication Engineering",
-        "program_description": "B.Tech ECE stands for Bachelor of Technology in Electronics and Communication Engineering. It is a four-year undergraduate degree program that focuses on the design, development, and application of electronic and communication systems. B.Tech ECE covers a wide range of subjects, including electronic circuits, digital systems, signal processing, communication systems, microprocessors, embedded systems, control systems, and telecommunications. Students learn about the principles, theories, and practices behind various electronic devices, communication networks, and technologies. During the course, students gain hands-on experience through laboratory work, projects, and internships. They learn to design, analyze, and troubleshoot electronic circuits, develop communication systems, and utilize modern tools and software for system development. B.Tech ECE is a dynamic field that keeps evolving with advancements in technology. It equips students with the knowledge and skills to contribute to the development of innovative electronic and communication systems, shaping the future of technology.",
-        "fees": "45,000 INR",
-        "duration": "4 Years",
-        "major_tracks": [
-            "Electronic Circuits",
-            "Digital Systems",
-            "Signal Processing",
-            "Communication Systems",
-            "Microprocessors",
-            "Embedded Systems",
-            "Control Systems",
-            "Telecommunications"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Electronics Engineer",
-                "desc": "Specialize in the design, development, and maintenance of electronic systems and devices.",
-                "image": "../Courses/BTech/ece/electronic.jpg"
-            },
-            {
-                "title": "Communication Systems Engineer",
-                "desc": "Acquire expertise in designing and optimizing communication networks and systems.",
-                "image": "../Courses/BTech/ece/Communication.jpg"
-            },
-            {
-                "title": "Embedded Systems Engineer",
-                "desc": "Design and develop embedded systems, computer systems integrated into other devices or products like medical devices, automobiles, and industrial equipment.",
-                "image": "../Courses/BTech/ece/Embe.jpg"
-            },
-            {
-                "title": "Signal Processing Engineer",
-                "desc": "Analyze and manipulate digital signals to extract relevant information, commonly used in fields such as telecommunications, audio/video processing, and image processing.",
-                "image": "../Courses/BTech/ece/signal.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Learn by Doing: Hands-on learning through case studies and projects.",
-            "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
-            "Industry Ready: Six-month industry internship for real-world experience.",
-            "Global Exposure: National and international immersion programs.",
-            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
-            "Beyond Academics: Essential skill development through workshops.",
-            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
-            "Expert Learning: Renowned faculty and industry guest speakers.",
-            "Master the Latest Technologies: In-demand skills in electronic circuits, digital systems, signal processing, communication systems, microprocessors, embedded systems, control systems, telecommunications, and more."
-        ],
-        "labs": [
-            {
-                "title": "Electronics Lab",
-                "description": "Design, build, and test electronic circuits and systems.",
-                "image": "../Courses/BTech/ece/lab/electron.jpg"
-            },
-            {
-                "title": "Communication Systems Lab",
-                "description": "Experiment with communication principles and technologies.",
-                "image": "../Courses/BTech/civil/lab/system.jpg"
-            },
-            {
-                "title": "Signal Processing Lab",
-                "description": "Analyze and process signals using software and hardware tools.",
-                "image": "../Courses/BTech/civil/lab/process.jpg"
-            }
-        ]
+
+  // PHARMACY
+  {
+    "id": 16,
+    "course_name": "Pharmacy",
+    event_type: "Pharmacy",
+    "header": {
+        "title": "Doctor of Pharmacy (Pharm.D)",
+        "subtitle": "EMPOWERING THE FUTURE OF PHARMACY",
+        "background_image": "../Courses/pharmacy/pharmD/pharmd.jpg"
     },
+    "program_name": "Pharm.D",
+    "program_description": "The Doctor of Pharmacy program is a research oriented study of various significant areas of pharmacy which are designed to provide an in-depth and comprehensive understanding of these areas. The Faculty of Pharmacy offers a six year Doctorate Degree program in Pharmacy which seeks to impart within the students a specialised research based understanding of pharmaceutical medicine and explore other avenues in the field. The scope of this program includes the purpose of diagnosing the various causes of diseases and the manner and methods through which they can be treated. Beyond merely the treatment protocols and procedure, the field of pharmacy also explores various forms of practical research which can be utilised as a way of eradicating disease causing virus and curbing their spread for the welfare of humanity. As a way of providing the highest form of practical training to the students, the Faculty of Pharmacy is equipped with state of the art facilities and laboratories for research and novel innovations. The program provides a comprehensive approach to the study of pharmacy which provides a platform for the students and faculties to innovate and patent novel treatment modalities. The program goes on to develop and nurture the research skills and abilities of the students as a way of producing a reliable and credible knowledge base in the scope of pharmacy.",
+    "fees": "145,000 per year",
+    "duration": "6 Years",
+    "major_tracks": [
+        "Process Control",
+        "Manufacturing",
+        "Quality Control",
+        "Medical Representative",
+        "Retail/Wholesale Pharmacy Outlet",
+    ],
+    "program_outcomes": [
+        {
+            "title": "Drug Inspector",
+            "desc": "Ensure compliance with pharmaceutical regulations and standards to protect public health.",
+            "image": "../Courses/pharmacy/pharmD/inspector.jpg"
+        },
+        {
+            "title": "Academicians",
+            "desc": "Contribute to the academic field by teaching and conducting research in pharmacy.",
+            "image": "../Courses/pharmacy/pharmD/academic.jpg"
+        },
+        {
+            "title": "Retail Pharmacist",
+            "desc": "Dispense medications and provide pharmaceutical care to patients in retail settings.",
+            "image": "../Courses/pharmacy/pharmD/retails.jpg"
+        },
+        {
+            "title": "Medical Writer",
+            "desc": "Communicate scientific and medical information through writing for various audiences.",
+            "image": "../Courses/pharmacy/pharmD/writer.jpg"
+        }
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Research-oriented study with comprehensive understanding",
+        "State-of-the-art facilities and laboratories for practical training and research",
+        "In-depth exploration of pharmaceutical medicine and disease treatment",
+        "Development and nurturing of research skills",
+        "Contribution to the academic field through teaching and research",
+        "Practical training in retail pharmacy settings"
+    ],
+    "eligibility_criteria": {
+        "eligibility": "All those candidates who have passed 10+2 examination from a board recognized or established by Central/State Government through a legislation with Physics and Chemistry as compulsory subjects along with Mathematics or Biology subject. OR All those candidates who have passed D.Pharm. course from an institution approved by the Pharmacy Council of India under section 12 of The Pharmacy Act."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
+        "approved_by": "PCI & AICTE"
+    },
+    "labs": [
+        {
+            "title": "Research Lab",
+            "description": "Conduct research activities related to pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+        },
+        {
+            "title": "Practical Lab",
+            "description": "Engage in hands-on practical experiments and learning.",
+            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+        },
+        {
+            "title": "QA Lab",
+            "description": "Perform quality assurance tests and analysis.",
+            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+        },
+        {
+            "title": "Pharma Chemistry Lab",
+            "description": "Study pharmaceutical chemistry and its applications.",
+            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
+        }
+    ]
+},
+{
+    "id": 14,
+    "course_name": "Pharmacy",
+    event_type: "Pharmacy",
+    "header": {
+        "title": "MASTERS OF PHARMACY",
+        "subtitle": "SHAPE THE FUTURE OF PHARMACEUTICS",
+        "background_image": "../Courses/pharmacy/Mpharma/Mpharma.jpg"
+    },
+    "program_name": "Master of Pharmacy in Pharmaceutics",
+    "program_description": "Master of Pharmacy in Pharmaceutics is a postgraduate degree course that is structured to provide entire technical, research, practical, and theoretical knowledge of pharmacy including traditional and modern medicines. The program aims to create skilled and competent Pharmaceutical Research Professionals, Technology Analysts, Pre-Clinical & Clinical Scientists, Academicians, Pharma Corporate Executives & Entrepreneurs, and Clinical Pharmacists. This program provides additional knowledge of medical drugs and aids. The curriculum includes in-depth study of Pharmaceutical Sciences, Discovery Development, Technology, Practice, Industry & Business.",
+    "fees": "50,000/- Per Semester",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Customs Officer",
+        "Analytical Chemist",
+        "Drug Inspector",
+        "Drug Analyst"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Pharmaceutical Research Professional",
+            "desc": "Conduct research and development in the field of pharmaceutics.",
+            "image": "../Courses/pharmacy/Mpharma/research.jpg"
+        },
+        {
+            "title": "Technology Analyst",
+            "desc": "Analyze and implement new technologies in pharmaceutical manufacturing.",
+            "image": "../Courses/pharmacy/Mpharma/tech.jpg"
+        },
+        {
+            "title": "Pharma Corporate Executive & Entrepreneur",
+            "desc": "Lead pharmaceutical companies or start own ventures in the pharmaceutical industry.",
+            "image": "../Courses/pharmacy/Mpharma/corporate.jpg"
+        },
+        {
+            "title": "Clinical Pharmacist",
+            "desc": "Provide pharmaceutical care to patients in clinical settings.",
+            "image": "../Courses/pharmacy/Mpharma/clinical.jpg"
+        }
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Cutting-Edge Curriculum: Stay updated with the latest advancements in pharmaceutics.",
+        "Hands-On Learning: Practical training in pharmaceutical research and technology.",
+        "Industry Immersion: Internship opportunities with leading pharmaceutical companies.",
+        "Career Development: Guidance and support for career advancement in the pharmaceutical industry."
+    ],
+    "eligibility_criteria": {
+        "eligibility": "All those candidates who have passed the Bachelor in Pharmacy from an Institution affiliated to a recognized University with at least 50% marks (40% in case of candidate belonging to SC/ST category) shall be eligible to apply."
+    },
+    "affiliation": {
+        "affiliated_to": "IKPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "labs": [
+        {
+            "title": "Research Lab",
+            "description": "Conduct research activities related to pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+        },
+        {
+            "title": "Practical Lab",
+            "description": "Engage in hands-on practical experiments and learning.",
+            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+        },
+        {
+            "title": "QA Lab",
+            "description": "Perform quality assurance tests and analysis.",
+            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+        },
+        {
+            "title": "Pharma Chemistry Lab",
+            "description": "Study pharmaceutical chemistry and its applications.",
+            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
+        }
+    ]
+},
+{
+    "id": 13,
+    "course_name": "Pharmacy",
+    event_type: "Pharmacy",
+    "header": {
+        "title": "BACHELOR OF PHARMACY",
+        "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
+        "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
+    },
+    "program_name": "BACHELOR OF PHARMACY",
+    "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
+    "fees": "52000/- INR Per Semester",
+    "duration": "4 years",
+    "major_tracks": [
+        "Customs Officer",
+        "Analytical Chemist",
+        "Drug Inspector",
+        "Drug Analyst"
+    ],
+    "program_outcomes": [
+        {
+            "title": "R&D Scientist",
+            "desc": "Conduct research and development activities in pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/rd.jpg"
+        },
+        {
+            "title": "Drug Inspector",
+            "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
+            "image": "../Courses/pharmacy/pharm/drug.jpg"
+        },
+        {
+            "title": "Quality Assurance",
+            "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
+            "image": "../Courses/pharmacy/pharm/qua.jpg"
+        },
+        {
+            "title": "Pharmacist",
+            "desc": "Dispense medications and provide patient education on drug usage and side effects.",
+            "image": "../Courses/pharmacy/pharm/pharma.jpg"
+        }
+    ],
+    "labs": [
+        {
+            "title": "Research Lab",
+            "description": "Conduct research activities related to pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+        },
+        {
+            "title": "Practical Lab",
+            "description": "Engage in hands-on practical experiments and learning.",
+            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+        },
+        {
+            "title": "QA Lab",
+            "description": "Perform quality assurance tests and analysis.",
+            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+        },
+        {
+            "title": "Pharma Chemistry Lab",
+            "description": "Study pharmaceutical chemistry and its applications.",
+            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Practical Exposure: Hands-on training in pharmaceutical practices.",
+        "Industry Internship: Gain real-world experience through industry internships.",
+        "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
+        "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
+    ]
+},
 
 
+{
+    "id": 15,
+    "course_name": "Pharmacy",
+    event_type: "Pharmacy",
+    "header": {
+        "title": "DIPLOMA IN PHARMACY",
+        "subtitle": "EMBRACE THE PHARMACEUTICAL JOURNEY",
+        "background_image": "../Courses/pharmacy/diploma/Diploma.jpg"
+    },
+    "program_name": "Diploma in Pharmacy",
+    "program_description": "The 2-year Diploma in Pharmacy program under Swami Vivekanand College of Pharmacy is a comprehensive and compact qualification for understanding the basics of Human Physiology, Disease, Therapeutic Compounds & drugs in use, their pharmacology & formulations, drug store management and Pharmaceutical Jurisprudence. The course provides the minimum essential qualification to get registered as a Pharmacist in India & operate Retail/Wholesale & Community Pharmacy and to get employed as Hospital Pharmacist.",
+    "fees": "42,500/- INR Per Semester",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Process Control",
+        "Manufacturing",
+        "Quality Control",
+        "Medical Representative",
+        "Retail/Wholesale Pharmacy Outlet",
+    ],
+    "program_outcomes": [
+        {
+            "title": "Pharmacy Technician",
+            "desc": "Assist pharmacists in dispensing medications and managing pharmacy operations.",
+            "image": "../Courses/pharmacy/diploma/technician.jpg"
+        },
+        {
+            "title": "Drug Store Manager",
+            "desc": "Oversee the day-to-day operations of a pharmacy, including inventory management and customer service.",
+            "image": "../Courses/pharmacy/diploma/store.jpg"
+        },
+        {
+            "title": "Hospital Pharmacist",
+            "desc": "Provide pharmaceutical care to patients in hospital settings, including dispensing medications and monitoring drug therapy.",
+            "image": "../Courses/pharmacy/diploma/hospital.jpg"
+        },
+        {
+            "title": "Retail/Wholesale Pharmacist",
+            "desc": "Manage retail or wholesale pharmacy operations, including dispensing medications and counseling patients.",
+            "image": "../Courses/pharmacy/diploma/retail.jpg"
+        }
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Practical Training: Hands-on experience in pharmaceutical operations.",
+        "Industry Exposure: Internship opportunities in retail and hospital pharmacy settings.",
+        "Skill Development: Enhance skills in drug dispensing and patient care.",
+        "Career Opportunities: Pathways to employment in various pharmacy sectors."
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidate shall have passed 10+2 examination conducted by the respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and Physics, Chemistry, Mathematics (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
+    },
+    "affiliation": {
+        "affiliated_to": "IKPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "labs": [
+        {
+            "title": "Research Lab",
+            "description": "Conduct research activities related to pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+        },
+        {
+            "title": "Practical Lab",
+            "description": "Engage in hands-on practical experiments and learning.",
+            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+        },
+        {
+            "title": "QA Lab",
+            "description": "Perform quality assurance tests and analysis.",
+            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+        },
+        {
+            "title": "Pharma Chemistry Lab",
+            "description": "Study pharmaceutical chemistry and its applications.",
+            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
+        }
+    ]
+},
+
+ // HOTEL MANAGEMENT
+ {
+    "id": 18,
+    "course_name": "HM",
+    event_type: "Hotel-Management",
+    "header": {
+        "title": "Master of Hotel Management & Catering Technology (MHMCT)",
+        "subtitle": "ELEVATING HOSPITALITY MANAGEMENT",
+        "background_image": "../Courses/HM/mhmct/Mhmct.jpg"
+    },
+    "program_name": "Master of Hotel Management & Catering Technology (MHMCT)",
+    "program_description": "The Master of Hotel Management & Catering Technology (MHMCT), is a two years postgraduate Hospitality Management Degree course in India. It’s a service-oriented course, which develops the human service resource to fulfill the requirements of the Hospitality Industry. This postgraduate course is designed to enhance the professional management tactics used in the hospitality sector. It also inculcates the necessary entrepreneurship skills in candidates so that they can run their own business in the near future in case any candidate decides to go the other way rather than working on a job. The course is suitable for those candidates who want to increase their knowledge for accelerating their career by exploring and acquiring a critical understanding of the Hospitality Industry. The course is designed to provide managerial positions to the students.",
+    "fees": "27,500/- INR Per Semester",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Event Manager",
+        "Hospitality Consultant",
+        "Hotel Manger",
+        "Front Office Manager",
+        "Housekeeping Manager",
+    ],
+    "program_outcomes": [
+        {
+            "title": "Hospitality Manager",
+            "desc": "Develop skills to manage and oversee various operations within the hospitality industry.",
+            "image": "../Courses/HM/mhmct/man.jpg"
+        },
+        {
+            "title": "Event Planner",
+            "desc": "Learn to plan and execute events, conferences, and functions within the hospitality sector.",
+            "image": "../Courses/HM/mhmct/event.jpg"
+        },
+        {
+            "title": "Food and Beverage Manager",
+            "desc": "Master the management of food and beverage operations in hotels, restaurants, and other hospitality establishments.",
+            "image": "../Courses/HM/mhmct/food.jpg"
+        },
+        {
+            "title": "Chef",
+            "desc": " Excel in overseeing food and beverage operations within hotels, restaurants, and hospitality venues.",
+            "image": "../Courses/HM/mhmct/chef.avif"
+        },
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Two-year postgraduate degree focusing on hospitality management",
+        "Enhancement of professional management tactics",
+        "Inculcation of entrepreneurship skills",
+        "Preparation for managerial positions in the hospitality industry",
+        "Hands-on experience in managing various hospitality operations",
+        "Opportunities for career advancement and entrepreneurship"
+    ],
+    "eligibility_criteria": {
+        "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "labs": [
+        {
+            "title": "Hospitality Management Lab",
+            "description": "Gain hands-on experience in managing various aspects of hospitality operations.",
+            "image": "../Courses/HM/mhmct/lab/management.jpg"
+        },
+        {
+            "title": "Culinary Arts Lab",
+            "description": "Practice culinary skills and techniques in a professional kitchen environment.",
+            "image": "../Courses/HM/mhmct/lab/arts.jpg"
+        },
+        {
+            "title": "Event Planning Lab",
+            "description": "Plan and organize events, conferences, and functions to develop event management skills.",
+            "image": "../Courses/HM/mhmct/lab/planning.jpg"
+        }
+    ],
+},
+{
+    "id": 17,
+    "course_name": "HM",
+    event_type: "Hotel-Management",
+    "header": {
+        "title": "BACHELOR OF HOTEL MANAGEMENT AND CATERING TECHNOLOGY",
+        "subtitle": "UPSCALE YOUR CAREER IN HOSPITALITY",
+        "background_image": "../Courses/HM/catering/catering.jpg"
+    },
+    "program_name": "Bachelor of Hotel Management and Catering Technology (BHMCT)",
+    "program_description": "BHMCT (Bachelor of Hotel Management and Catering Technology) is an undergraduate degree program that focuses on preparing students for a career in the hospitality industry. The program combines theoretical knowledge with practical training in various aspects of hotel management, food and beverage management, and catering technology. The duration of the BHMCT course is typically four years, and it is divided into eight semesters. The course curriculum covers a range of subjects, including food and beverage management, hotel operations, front office management, housekeeping, human resource management, marketing, accounting, and finance.The BHMCT course also includes practical training in various areas of the hospitality industry. This includes mandatory internships and industry-based training, which provide students with hands-on experience in real-world situations. Students may also have the opportunity to work in the hotel industry as part of their training. Overall, the BHMCT course is a comprehensive program that equips students with the knowledge, skills, and practical experience necessary to succeed in the hospitality industry.",
+    "fees": "35,500/-INR Per Semester",
+    "duration": "4 Years",
+    "major_tracks": [
+        "Event Manager",
+        "Hospitality Consultant",
+        "Hotel Manger",
+        "Front Office Manager",
+        "Housekeeping Manager",
+    ],
+    "program_outcomes": [
+        {
+            "title": "Hotel Manager",
+            "desc": "Manage the operations and staff of hotels and other lodging establishments.",
+            "image": "../Courses/HM/catering/manager.jpg"
+        },
+        {
+            "title": "Chef",
+            "desc": "Plan menus, prepare and cook food, and oversee kitchen operations in restaurants and hotels.",
+            "image": "../Courses/HM/catering/chef.jpg"
+        },
+        {
+            "title": "Food and Beverage Manager",
+            "desc": "Manage the food and beverage service in hotels, restaurants, and other hospitality establishments.",
+            "image": "../Courses/HM/catering/food.jpg"
+        },
+        {
+            "title": "Hospitality Consultant",
+            "desc": "Provide expert advice and guidance to hospitality businesses to improve their operations and guest experiences.",
+            "image": "../Courses/HM/catering/hospitality.jpg"
+        }
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Combination of theoretical knowledge and practical training",
+        "Mandatory internships and industry-based training",
+        "Comprehensive curriculum covering various aspects of hospitality management",
+        "Hands-on experience in real-world hospitality situations",
+        "Opportunities for career advancement in the hospitality industry"
+    ],
+    "eligibility_criteria": {
+        "eligibility": "To be eligible for the B.H.M.C.T. program, candidates must meet the following criteria: Completion of 10+2 from a recognized board. Minimum aggregate marks of 45%. English as a mandatory subject. The age limit is up to 22 years."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "labs": [
+        {
+            "title": "Quantity Training Kitchen",
+            "description": "Practice culinary skills and techniques in a simulated kitchen environment.",
+            "image": "../Courses/HM/catering/lab/kitchen.jpg"
+        },
+        {
+            "title": "Bakery",
+            "description": "Learn to bake a variety of breads, pastries, and desserts.",
+            "image": "../Courses/HM/catering/lab/bakery.jpg"
+        },
+        {
+            "title": "Front Office Labs",
+            "description": "Gain practical experience in hotel front office operations, including check-in, check-out, and guest services.",
+            "image": "../Courses/HM/catering/lab/office.jpg"
+        },
+        {
+            "title": "Training Restaurant",
+            "description": "Practice food and beverage service in a restaurant setting.",
+            "image": "../Courses/HM/catering/lab/training.jpg"
+        }
+    ],
+},
+
+{
+    "id": 19,
+    "course_name": "HM",
+    event_type: "Hotel-Management",
+    "header": {
+        "title": "B.Voc in Hospitality and Catering Management",
+        "subtitle": "BUILDING SKILLS FOR HOSPITALITY SUCCESS",
+        "background_image": "../Courses/HM/BVoc/Bvoc.jpg"
+    },
+    "program_name": "B.Voc in Hospitality and Catering Management",
+    "program_description": "B.Voc in Hospitality and Catering Management is a three-year job-oriented vocational training program in the hotel management domain. The program imparts skills and knowledge related to hotel management. Hotel management is a field of education which deals with all the administrative and managerial tasks of any hospitality centre, hotel, restaurant or any seminar organization. Since the tourism industry is growing rapidly, the demand for good hotel managers has also increased. Hotels and restaurants are looking for skilled professionals who can handle all their activities and help them increase their sales. The three-year B.Voc in Hospitality and Catering Management program will cover many important topics such as housekeeping, accounting, business management, business law, financial management, HR management and entrepreneurship skills. The program also has a six-month training program which will allow the candidates to complete an internship at a reputed hotel in the country. Candidates who are looking for admission to B.Voc in Hotel Management must have some skills such as leadership skills, managerial skills, management skills, pleasing personality and good communication skills.",
+    "fees": "25,000/- INR Per Semester",
+    "duration": "3 Years",
+    "major_tracks": [
+        "Event Manager",
+        "Hospitality Consultant",
+        "Hotel Manger",
+        "Front Office Manager",
+        "Housekeeping Manager",
+    ],
+    "program_outcomes": [
+        {
+            "title": "Hospitality Manager",
+            "desc": "Acquire skills to manage various aspects of hospitality operations including front desk, housekeeping, food and beverage, and guest services.",
+            "image": "../Courses/HM/BVoc/hospitality.jpg"
+        },
+        {
+            "title": "Event Coordinator",
+            "desc": "Learn to plan, organize, and coordinate events such as conferences, weddings, and banquets in the hospitality industry.",
+            "image": "../Courses/HM/BVoc/coordinator.jpg"
+        },
+        {
+            "title": "Entrepreneur",
+            "desc": "Develop entrepreneurial skills to start and manage your own hospitality business, such as hotels, restaurants, or catering services.",
+            "image": "../Courses/HM/BVoc/entrepreneur.jpg"
+        },
+        {
+            "title": "Housekeeping Management",
+            "desc": "Develop proficiency in supervising cleaning operations and maintaining cleanliness standards in hospitality establishments, alongside adept inventory management skills.",
+            "image": "../Courses/HM/BVoc/housekeeping.avif"
+        },
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Three-year job-oriented vocational training program",
+        "Imparts skills and knowledge related to hotel management",
+        "Covers various important topics such as housekeeping, accounting, and business management",
+        "Includes a six-month internship at a reputed hotel",
+        "Develops leadership, managerial, and communication skills",
+        "Prepares students for careers as hospitality managers, event coordinators, and entrepreneurs"
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates seeking admission to the B.Voc in Hotel Management course can check the eligibility criteria provided below.\n\n- They must have completed 12th from Arts, Science or Commerce from any recognized Institution.\n- Candidates will also have to satisfy the minimum percentage decided by the college.\n- They can visit the official website of the college to know all about the eligibility criteria for B. Voc."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "labs": [
+        {
+            "title": "Hospitality Management Lab",
+            "description": "Practice managing various aspects of hospitality operations in a simulated hotel environment.",
+            "image": "../Courses/HM/mhmct/lab/management.jpg"
+        },
+        {
+            "title": "Culinary Arts Lab",
+            "description": "Learn culinary techniques and practice cooking skills in a professional kitchen setting.",
+            "image": "../Courses/HM/mhmct/lab/arts.jpg"
+        },
+        {
+            "title": "Event Planning Lab",
+            "description": "Plan and organize events such as conferences, weddings, and banquets in a simulated setting.",
+            "image": "../Courses/HM/mhmct/lab/planning.jpg"
+        }
+    ],
+},
+{
+    "id": 20,
+    "course_name": "HM",
+    event_type: "Hotel-Management",
+    "header": {
+        "title": "B.Sc in Nutrition and Dietetics",
+        "subtitle": "SHAPE HEALTHY LIFESTYLES",
+        "background_image": "../Courses/HM/Bsc/header.jpg"
+    },
+    "program_name": "B.Sc in Nutrition and Dietetics",
+    "program_description": "B.Sc in Nutrition and Dietetics is a three-year undergraduate program that focuses on the study of nutrition, dietetics, and their impact on human health. This program covers various aspects of food science, human physiology, biochemistry, and psychology to provide students with a comprehensive understanding of nutrition and dietary habits. Students learn about the role of nutrients in the body, dietary requirements for different age groups and populations, and the principles of therapeutic nutrition. The curriculum also includes practical training in meal planning, food service management, and nutrition counseling. Graduates of B.Sc in Nutrition and Dietetics can pursue careers as nutritionists, dieticians, food consultants, clinical nutritionists, and wellness coaches in various healthcare settings, food industry, research institutions, and community organizations.",
+    "fees": "15,000/- INR Per Semester",
+    "duration": "4 Years",
+    "major_tracks": [
+        "Clinical Nutrition",
+        "Food Service Management",
+        "Food Safety and Regulation",
+        "Wellness Coaching",
+        "Pediatric Nutrition",
+    ],
+    "program_outcomes": [
+        {
+            "title": "Nutritionist",
+            "desc": "Develop expertise in designing and implementing nutrition plans to promote health and prevent diseases.",
+            "image": "../Courses/HM/Bsc/nutri.jpg"
+        },
+        {
+            "title": "Dietician",
+            "desc": "Acquire skills to assess dietary needs, plan personalized meal programs, and provide nutritional counseling to clients.",
+            "image": "../Courses/HM/Bsc/diet.jpg"
+        },
+        {
+            "title": "Food Consultant",
+            "desc": "Become proficient in advising individuals, families, and organizations on healthy eating habits, food safety, and nutrition regulations.",
+            "image": "../Courses/HM/Bsc/food.jpg"
+        },
+        {
+            "title": "Sales Executive",
+            "desc": " Master revenue generation through identifying sales opportunities, nurturing client relationships, and effective communication.",
+            "image": "../Courses/HM/Bsc/sales.jpg"
+        },
+    ],
+
+    "eligibility_criteria": {
+        "eligibility": "Candidates who have completed 12th from Arts, Science or Commerce from any recognized institution"
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "labs": [
+        {
+            "title": "Nutrition Assessment Lab",
+            "description": "Learn techniques for assessing dietary intake, body composition, and nutritional status of individuals.",
+            "image": "../Courses/HM/Bsc/lab/nutrition.jpg"
+        },
+        {
+            "title": "Food Science Lab",
+            "description": "Explore the properties of food ingredients, food processing techniques, and food preservation methods.",
+            "image": "../Courses/HM/Bsc/lab/science.jpg"
+        },
+        {
+            "title": "Community Nutrition Lab",
+            "description": "Gain practical experience in planning and implementing community-based nutrition programs and interventions.",
+            "image": "../Courses/HM/Bsc/lab/community.jpg"
+        }
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Three-year undergraduate program focusing on nutrition and dietetics",
+        "Comprehensive curriculum covering food science, human physiology, and nutrition counseling",
+        "Practical training in meal planning and food service management",
+        "Preparation for careers as nutritionists, dieticians, and food consultants",
+        "Opportunities for employment in healthcare settings, research institutions, and community organizations",
+        "Focus on promoting health and preventing diseases through nutrition"
+    ],
+
+},
+
+
+  // BUSINESS STUDIES
+  {
+    "id": 21,
+    "course_name": "Business Studies",
+    event_type: "BusinessStudies",
+    "header": {
+        "title": "MASTERS OF BUSINESS ADMINISTRATION",
+        "subtitle": "ELEVATING BUSINESS ACUMEN",
+        "background_image": "../Courses/Business/MBA/mba.jpg"
+    },
+    "program_name": "MBA",
+    "program_description": "MBA stands for Master of Business Administration, which is a graduate degree that focuses on developing the knowledge and skills required to succeed in a business or management career. The MBA degree is one of the most popular and widely recognized graduate degrees globally, and it is designed to provide students with a broad understanding of business and management practices. The MBA program typically covers a range of topics, including accounting, finance, marketing, management, organizational behavior, economics, and operations management. The curriculum may also include specialized courses in areas such as entrepreneurship, international business, healthcare management, or sustainability. An MBA degree can lead to a wide range of career opportunities, including management positions in various industries such as finance, consulting, marketing, healthcare, and technology. It can also provide individuals with the skills and knowledge needed to start their own businesses or pursue entrepreneurial ventures. In summary, an MBA degree is a versatile and valuable credential that can open doors to a wide range of career opportunities and provide individuals with the knowledge and skills needed to succeed in the business world.",
+    "fees": "40,000/- INR Per Semester",
+    "duration": "2 years",
+    "major_tracks": [
+        "Business Development Manager",
+        "Financial Manager",
+        "and few more"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Marketing Manager",
+            "desc": "Lead marketing initiatives and strategies for organizations.",
+            "image": "../Courses/Business/MBA/marketing.jpg"
+        },
+        {
+            "title": "Operations Manager",
+            "desc": "Oversee and manage day-to-day operations of businesses.",
+            "image": "../Courses/Business/MBA/operations.jpg"
+        },
+        {
+            "title": "Entrepreneur",
+            "desc": "Start and manage their own business ventures.",
+            "image": "../Courses/Business/MBA/entrepreneur.jpg"
+        },
+        {
+            "title": "Human Resource Manager",
+            "desc": "Manage human resources and personnel within organizations.",
+            "image": "../Courses/Business/MBA/human.jpg"
+        }
+    ],
+    "affiliation": {
+        "affiliated_to": "IKPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "eligibility_criteria": {
+        "eligibility": "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Graduate degree focusing on business and management skills",
+        "Comprehensive curriculum covering accounting, finance, marketing, and operations management",
+        "Specialized courses in areas such as entrepreneurship and international business",
+        "Preparation for management positions in finance, consulting, marketing, healthcare, and technology sectors",
+        "Opportunities to start own businesses or pursue entrepreneurial ventures",
+        "Versatile and valuable credential for a wide range of career opportunities"
+    ],
+    "labs": [],
+},
+{
+    "id": 22,
+    "course_name": "Business Studies",
+    event_type: "BusinessStudies",
+    "header": {
+        "title": "BACHELOR OF BUSINESS ADMINISTRATION",
+        "subtitle": "DEVELOPING BUSINESS ACUMEN",
+        "background_image": "../Courses/Business/BBA/bba.jpg"
+    },
+    "program_name": "BBA",
+    "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
+    "fees": "To Be Disclosed",
+    "duration": "3 years",
+    "major_tracks": [
+        "Entrepreneurship",
+        "Finance & Accounting Management",
+        "HR Management",
+        "Marketing Management",
+        "Supply Chain Management",
+        "Tourism Management"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Marketing Manager",
+            "desc": "Lead marketing initiatives and strategies for organizations.",
+            "image": "../Courses/Business/MBA/marketing.jpg"
+        },
+        {
+            "title": "Operations Manager",
+            "desc": "Oversee and manage day-to-day operations of businesses.",
+            "image": "../Courses/Business/MBA/operations.jpg"
+        },
+        {
+            "title": "Entrepreneur",
+            "desc": "Start and manage their own business ventures.",
+            "image": "../Courses/Business/MBA/entrepreneur.jpg"
+        },
+        {
+            "title": "Human Resource Manager",
+            "desc": "Manage human resources and personnel within organizations.",
+            "image": "../Courses/Business/MBA/human.jpg"
+        }
+    ],
+    "affiliation": {
+        "affiliated_to": "SVFTM",
+        "approved_by": "AICTE"
+    },
+    "eligibility_criteria": {
+        "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Professional undergraduate program in Business Management",
+        "Covers management and business principles",
+        "Emphasizes practical experience through internships, case studies, and projects",
+        "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
+        "Opportunities to work in various industries and sectors",
+        "Three-year duration with a focus on practical learning"
+    ],
+    "labs": []
+
+},
+{
+    "id": 23,
+    "course_name": "Business Studies",
+    event_type: "BusinessStudies",
+    "header": {
+        "title": "BACHELOR OF BUSINESS ADMINISTRATION",
+        "subtitle": "DEVELOPING BUSINESS ACUMEN",
+        "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
+    },
+    "program_name": "BBA",
+    "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
+    "fees": "22,000/- INR Per Semester",
+    "duration": "3 years",
+    "major_tracks": [
+        "Entrepreneurship",
+        "Finance & Accounting Management",
+        "HR Management",
+        "Marketing Management",
+        "Supply Chain Management",
+        "Tourism Management"
+    ],
+
+    "program_outcomes": [
+        {
+            "title": "Marketing Manager",
+            "desc": "Develop and implement marketing strategies to promote products or services and drive business growth.",
+            "image": "../Courses/Business/BBA/man.jpg"
+        },
+        {
+            "title": "Operations Manager",
+            "desc": "Ensure efficient operation of business processes, including production, supply chain management, and resource allocation.",
+            "image": "../Courses/Business/BBA/operation.jpg"
+        },
+        {
+            "title": "Entrepreneur",
+            "desc": "Initiate, organize, and manage business ventures, taking innovative ideas from conception to execution.",
+            "image": "../Courses/Business/BBA/enter.jpg"
+        },
+        {
+            "title": "Human Resource Manager",
+            "desc": "Oversee recruitment, training, and employee relations, ensuring organizational policies and procedures are followed.",
+            "image": "../Courses/Business/MBA/human.jpg"
+        }
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Professional undergraduate program in Business Management",
+        "Covers management and business principles",
+        "Emphasizes practical experience through internships, case studies, and projects",
+        "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
+        "Opportunities to work in various industries and sectors",
+        "Three-year duration with a focus on practical learning"
+    ],
+    "affiliation": {
+        "affiliated_to": "SVFTM",
+        "approved_by": "AICTE"
+    },
+    "eligibility_criteria": {
+        "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
+    },
+    "labs": []
+},
+{
+    "id": 24,
+    "course_name": "Business Studies",
+    event_type: "BusinessStudies",
+    "header": {
+        "title": "MASTER OF COMMERCE",
+        "subtitle": "ADVANCING ACCOUNTING EXPERTISE",
+        "background_image": "../Courses/Business/commerce/mcom.jpg"
+    },
+    "program_name": "M.Com",
+    "program_description": "M.Com, Master of Commerce, is a postgraduate course in accounting with a duration of 2 years divided into 4 semesters. The main aim of the course is to provide in-depth knowledge to students in advanced accounting and commerce and prepare them for better future prospects. Students opting for M.Com are taught professional skills that help them land better placement opportunities. M.Com graduates can explore careers in the BFSI sector, start a career in teaching as a commerce teacher, or pursue further studies such as a PhD to become college lecturers. M.Com graduates also have numerous corporate job opportunities and government job opportunities.",
+    "fees": "15,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Advanced Accounting",
+        "Financial Management",
+        "Commerce Education"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Advanced Accounting Expert",
+            "desc": "Develop expertise in advanced accounting principles and practices.",
+            "image": "../Courses/Business/commerce/advance.jpg"
+        },
+        {
+            "title": "Finance Specialist",
+            "desc": "Gain specialized knowledge in finance and financial management.",
+            "image": "../Courses/Business/commerce/finance.jpg"
+        },
+        {
+            "title": "Commerce Educator",
+            "desc": "Prepare for a career in teaching commerce subjects at educational institutions.",
+            "image": "../Courses/Business/commerce/commerec.jpg"
+        },
+        {
+            "title": "Corporate Professional",
+            "desc": "Explore various corporate job opportunities in accounting, finance, and related fields.",
+            "image": "../Courses/Business/commerce/corporate.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed B.Com with at least 50% marks and have the relevant subject as one of the subjects based on merit in qualifying exams."
+    },
+    "affiliation": {
+        "affiliated_to": "SVFTM",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Postgraduate course focusing on accounting expertise",
+        "Duration of 2 years divided into 4 semesters",
+        "Prepares students for better future prospects in accounting and commerce",
+        "Professional skills development for better placement opportunities",
+        "Multiple career paths including BFSI sector, teaching, further studies, corporate jobs, and government opportunities",
+        "Emphasis on in-depth knowledge and practical application"
+    ],
+    "labs": []
+},
+
+   // BASIC SCIENCES
+   {
+    "id": 38,
+    "course_name": "Basic Science",
+    "header": {
+        "title": "MASTER OF SCIENCE IN MATHEMATICS",
+        "subtitle": "EXPLORING THE WORLD OF MATHEMATICAL SCIENCES",
+        "background_image": "../Courses/Science/Maths/header.avif"
+    },
+    "program_name": "Master of Science (M.Sc.) in Mathematics",
+    "program_description": "Master of Science (M.Sc.) in Mathematics offers a comprehensive study of various branches of mathematics including Pure Mathematics, Applied Mathematics, Mathematical Modeling, and Computational Mathematics. The program is designed to provide students with a deep understanding of mathematical theories, methods, and applications. Expert faculty members guide students through advanced topics and help them develop problem-solving skills. Students have the opportunity to engage in research projects, seminars, and practical applications to explore the diverse applications of mathematics in various fields.",
+    "fees": "18,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Pure Mathematics",
+        "Applied Mathematics",
+        "Mathematical Modeling",
+        "Computational Mathematics"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Expertise in Various Mathematical Disciplines",
+            "desc": "Develop expertise in Pure Mathematics, Applied Mathematics, Mathematical Modeling, and Computational Mathematics.",
+            "image": "../Courses/Science/Maths/expertise.avif"
+        },
+        {
+            "title": "Advanced Problem-Solving Skills",
+            "desc": "Enhance problem-solving abilities through rigorous mathematical training and practice.",
+            "image": "../Courses/Science/Maths/solving.jpg"
+        },
+        {
+            "title": "Research and Practical Application",
+            "desc": "Engage in research projects, seminars, and practical applications to explore the diverse applications of mathematics.",
+            "image": "../Courses/Science/Maths/research.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must hold a Bachelor's degree in Mathematics or a related field with at least 50% marks (45% for reserved categories) from a recognized institution."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Comprehensive study of various branches of mathematics",
+        "Guidance from expert faculty in advanced topics",
+        "Engagement in research projects and seminars",
+        "Development of problem-solving skills through practical applications"
+    ]
+    ,
+    "labs": []
+},
+{
+    "id": 39,
+    "course_name": "Basic Science",
+    "header": {
+        "title": "MASTER OF SCIENCE IN PHYSICS",
+        "subtitle": "EXPLORING THE FRONTIERS OF PHYSICS",
+        "background_image": "../Courses/Science/Physics/header.avif"
+    },
+    "program_name": "Master of Science (M.Sc.) in Physics",
+    "program_description": "The Master of Science (M.Sc.) in Physics program is designed to prepare students for a research career in academia or industry by introducing advanced ideas and techniques applicable in various research areas. Emphasis is placed on developing a deep understanding of physics principles and concepts, along with proficiency in experimentation to explore both theoretical and experimental dimensions of physics. The program aims to equip students with high-level theoretical knowledge to tackle complex problems in industrial fields and pursue further academic achievements through research.",
+    "fees": "18,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Quantum Mechanics",
+        "Statistical Mechanics",
+        "Electrodynamics",
+        "Solid State Physics",
+        "Nuclear Physics"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Advanced Theoretical Knowledge",
+            "desc": "Develop advanced theoretical knowledge in various areas of physics.",
+            "image": "../Courses/Science/Physics/theory.avif"
+        },
+        {
+            "title": "Proficiency in Experimentation",
+            "desc": "Acquire proficiency in experimental techniques to explore theoretical and experimental aspects of physics.",
+            "image": "../Courses/Science/Physics/experiments.jpg"
+        },
+        {
+            "title": "Research Skills",
+            "desc": "Develop research skills to pursue further academic achievements and tackle complex problems in industrial fields.",
+            "image": "../Courses/Science/Physics/research.avif"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have passed B.Sc. with Physics & Mathematics as compulsory subjects with at least 50% marks in aggregate in the qualifying examination."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Preparation for research careers in academia or industry",
+        "Emphasis on theoretical understanding and experimental proficiency",
+        "Engagement in advanced topics and techniques",
+        "Development of research skills for academic and industrial pursuits"
+    ],
+    "labs": []
+},
+{
+    "id": 37,
+    "course_name": "Basic Science",
+    "header": {
+        "title": "MASTER OF SCIENCE IN CHEMISTRY",
+        "subtitle": "EXPLORING THE FUNDAMENTALS OF CHEMISTRY",
+        "background_image": "../Courses/Science/Chemistry/header.avif"
+    },
+    "program_name": "Master of Science (M.Sc.) in Chemistry",
+    "program_description": "Master of Science (M.Sc.) in Chemistry offers a wide range of courses including Inorganic Chemistry, Organic Chemistry, Medicinal Chemistry, Supramolecular Chemistry, etc. Experts from Pure and Applied Chemistry domain will teach the courses, and students will develop a thorough understanding of fundamentals and experimental concepts of Chemistry. There will be opportunity for the students to participate in an extensive and varied seminar programme and gain experience in a large variety of projects.",
+    "fees": "18,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Inorganic Chemistry",
+        "Organic Chemistry",
+        "Medicinal Chemistry",
+        "Supramolecular Chemistry"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Expertise in Various Chemistry Disciplines",
+            "desc": "Develop expertise in areas such as Inorganic Chemistry, Organic Chemistry, Medicinal Chemistry, and Supramolecular Chemistry.",
+            "image": "../Courses/Science/Chemistry/expertise.jpg"
+        },
+        {
+            "title": "Thorough Understanding of Chemical Fundamentals",
+            "desc": "Gain a deep understanding of the fundamental principles and experimental concepts of Chemistry.",
+            "image": "../Courses/Science/Chemistry/chemical.jpg"
+        },
+        {
+            "title": "Participation in Seminars and Projects",
+            "desc": "Engage in an extensive seminar programme and participate in a variety of projects to gain practical experience.",
+            "image": "../Courses/Science/Chemistry/seminars.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "All those candidates who have passed 10th and 12th in non med/med and B.sc with Chemistry with atleast 50% marks and for reserved category minimum 45%."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Wide range of courses covering various branches of chemistry",
+        "Opportunity to participate in extensive seminar programs and projects",
+        "Expert faculty from Pure and Applied Chemistry domain",
+        "Development of problem-solving skills through practical experience"
+    ],
+
+},
+{
+    "id": 40,
+    "course_name": "Basic Science",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN NON-MEDICAL",
+        "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
+        "background_image": "../Courses/Science/Non-Medical/header.avif"
+    },
+    "program_name": "B.Sc. in Non-Medical",
+    "program_description": "The Bachelor of Science (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
+    "fees": "15,000/- INR Per Semester",
+    "duration": "3 Years",
+    "major_tracks": [
+        "Application Development",
+        "Computer Systems Management",
+        "Mathematical Modeling",
+        "Data Analysis and Interpretation"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Application Development Skills",
+            "desc": "Develop skills in application development for computer systems.",
+            "image": "../Courses/Science/Non-Medical/app.jpg"
+        },
+        {
+            "title": "Computer Operations Proficiency",
+            "desc": "Gain proficiency in computer operations and system management.",
+            "image": "../Courses/Science/Non-Medical/operations.avif"
+        },
+        {
+            "title": "Problem-solving Abilities",
+            "desc": "Enhance problem-solving abilities through mathematical and scientific principles.",
+            "image": "../Courses/Science/Non-Medical/problem.jpg"
+        },
+        {
+            "title": "Research and Analysis Skills",
+            "desc": "Acquire research and analysis skills for exploring advancements in computer applications.",
+            "image": "../Courses/Science/Non-Medical/research.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Math, or in medical with Math with at least 45%. For reserved category, minimum 40% in Physics, Chemistry, and Math, or in medical with Math with at least 40%."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Specialized study of computer applications and services",
+        "Emphasis on technological implementation of computer systems",
+        "Opportunities for research and practical applications",
+        "Development of problem-solving and analysis skills"
+    ],
+    "labs": []
+},
+
+
+   // EDUCATION
+
+   {
+    "id": 41,
+    "course_name": "Education",
+    "header": {
+        "title": "Master of Education",
+        "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
+        "background_image": "../Courses/Education/Masters/teaching.avif"
+    },
+    "program_name": "Master of Education",
+    "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
+    "fees": "27,500 INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Educational Theory",
+        "Counselling",
+        "Leadership",
+        "Training and Internship"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Enhanced Teaching Skills",
+            "desc": "Develop advanced teaching techniques and methodologies to deliver effective and engaging lessons in diverse educational settings.",
+            "image": "../Courses/Education/Masters/teaching.avif"
+        },
+        {
+            "title": "Leadership Development",
+            "desc": "Acquire leadership skills to lead educational institutions, departments, or teams effectively and inspire positive change in the field of education.",
+            "image": "../Courses/Education/Masters/leadership.jpg"
+        },
+        {
+            "title": "Counselling Proficiency",
+            "desc": "Gain expertise in counselling techniques to provide guidance and support to students, colleagues, and parents, fostering a positive learning environment.",
+            "image": "../Courses/Education/Masters/counselling.avif"
+        },
+        {
+            "title": "Research Aptitude",
+            "desc": "Cultivate research skills to conduct educational research, analyze data, and contribute to the advancement of knowledge in the field of education.",
+            "image": "../Courses/Education/Masters/research.avif"
+        },
+    ],
+
+    "eligibility_criteria": {
+        "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+        "5000+ Offer Letters",
+        "250+ Companies Visited Every Year",
+        "43 Lakh Highest Package",
+        "25000+ Global Alumni Reach"
+    ],
+    "labs": []
+},
+{
+    "id": 43,
+    "course_name": "Education",
+    "header": {
+        "title": "Bachelor of Education",
+        "subtitle": "SHAPING FUTURE EDUCATORS",
+        "background_image": "../Courses/Education/Bachelor/expertise.avif"
+    },
+    "program_name": "Bachelor of Education",
+    "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
+    "fees": "32,500 INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Theory",
+        "Research",
+        "Leadership",
+        "Training and Internship"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Pedagogical Expertise",
+            "desc": "Develop pedagogical skills to effectively plan, deliver, and assess instruction in diverse educational contexts, catering to the needs of learners.",
+            "image": "../Courses/Education/Bachelor/expertise.avif"
+        },
+        {
+            "title": "Research Proficiency",
+            "desc": "Acquire research skills to critically analyze educational issues, conduct empirical studies, and contribute to the advancement of educational knowledge and practices.",
+            "image": "../Courses/Education/Bachelor/research.jpg"
+        },
+        {
+            "title": "Leadership Development",
+            "desc": "Enhance leadership abilities to lead and manage educational initiatives, collaborate with stakeholders, and promote positive change within educational institutions.",
+            "image": "../Courses/Education/Masters/leadership.jpg"
+        },
+        {
+            "title": "Teaching Training and Internship",
+            "desc": "Undergo teaching training and internship experiences to apply theoretical knowledge in real-world educational settings, gaining practical teaching skills and experience.",
+            "image": "../Courses/Education/Bachelor/training.avif"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+        "5000+ Offer Letters",
+        "250+ Companies Visited Every Year",
+        "43 Lakh Highest Package",
+        "25000+ Global Alumni Reach"
+    ],
+    "labs": []
+},
+{
+    "id": 42,
+    "course_name": "Education",
+    "header": {
+        "title": "Master of Arts in Education",
+        "subtitle": "SHAPING THE FUTURE OF EDUCATION",
+        "background_image": "../Courses/Education/Arts/mastery.avif"
+    },
+    "program_name": "Master of Arts in Education",
+    "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
+    "fees": "15,000 INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Theoretical Instruction",
+        "Counselling",
+        "Curriculum",
+        "Educational Technology"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Theoretical Instruction Mastery",
+            "desc": "Develop a comprehensive understanding of educational theories and instructional strategies to effectively design and deliver theoretical instruction in diverse educational settings.",
+            "image": "../Courses/Education/Arts/mastery.avif"
+        },
+        {
+            "title": "Counselling Proficiency",
+            "desc": "Enhance counselling skills to provide support and guidance to students, colleagues, and parents, fostering holistic development and well-being.",
+            "image": "../Courses/Education/Masters/counselling.avif"
+        },
+        {
+            "title": "Curriculum Development Expertise",
+            "desc": "Acquire expertise in curriculum planning, development, and evaluation to design relevant and engaging learning experiences aligned with educational goals and standards.",
+            "image": "../Courses/Education/Arts/curriculum.avif"
+        },
+        {
+            "title": "Educational Technology Integration",
+            "desc": "Explore innovative educational technologies and learn to integrate them into teaching practices, enhancing instructional delivery and student engagement.",
+            "image": "../Courses/Education/Arts/tech.avif"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+        "5000+ Offer Letters",
+        "250+ Companies Visited Every Year",
+        "43 Lakh Highest Package",
+        "25000+ Global Alumni Reach"
+    ],
+    "labs": []
+},
+
+{
+    "id": 44,
+    "course_name": "Education",
+    "header": {
+        "title": "Bachelor of Arts",
+        "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
+        "background_image": "../Courses/Education/BA/comms.avif"
+    },
+    "program_name": "Bachelor of Arts",
+    "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
+    "fees": "15,000 INR Per Semester",
+    "duration": "3 Years (Semester System)",
+    "major_tracks": [
+        "Social Sciences",
+        "Literature",
+        "Science & Philosophy",
+        "Psychology"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Critical Thinking Skills",
+            "desc": "Develop critical thinking skills to analyze and evaluate complex ideas, arguments, and theories in various disciplines within the humanities and social sciences.",
+            "image": "../Courses/Education/BA/thinking.avif"
+        },
+        {
+            "title": "Effective Communication",
+            "desc": "Enhance communication skills through written and oral expression, enabling effective interaction and expression of ideas in diverse contexts and audiences.",
+            "image": "../Courses/Education/BA/comms.avif"
+        },
+        {
+            "title": "Research Proficiency",
+            "desc": "Acquire research skills to gather, interpret, and synthesize information from multiple sources, facilitating independent inquiry and scholarly exploration.",
+            "image": "../Courses/Education/Bachelor/research.jpg"
+        },
+        {
+            "title": "Cultural Awareness",
+            "desc": "Develop cultural awareness and sensitivity to appreciate and understand diverse perspectives, traditions, and values across different societies and cultures.",
+            "image": "../Courses/Education/BA/cultural.avif"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+        "5000+ Offer Letters",
+        "250+ Companies Visited Every Year",
+        "43 Lakh Highest Package",
+        "25000+ Global Alumni Reach"
+    ],
+    "labs": []
+},
 
     // DIPLOMA
     {
@@ -941,868 +2262,10 @@ const data = [
         ]
     },
 
-    // PHARMACY
-    {
-        "id": 13,
-        "course_name": "Pharmacy",
-        event_type: "Pharmacy",
-        "header": {
-            "title": "BACHELOR OF PHARMACY",
-            "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
-            "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
-        },
-        "program_name": "BACHELOR OF PHARMACY",
-        "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
-        "fees": "52000/- INR Per Semester",
-        "duration": "4 years",
-        "major_tracks": [
-            "Customs Officer",
-            "Analytical Chemist",
-            "Drug Inspector",
-            "Drug Analyst"
-        ],
-        "program_outcomes": [
-            {
-                "title": "R&D Scientist",
-                "desc": "Conduct research and development activities in pharmaceuticals.",
-                "image": "../Courses/pharmacy/pharm/rd.jpg"
-            },
-            {
-                "title": "Drug Inspector",
-                "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
-                "image": "../Courses/pharmacy/pharm/drug.jpg"
-            },
-            {
-                "title": "Quality Assurance",
-                "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
-                "image": "../Courses/pharmacy/pharm/qua.jpg"
-            },
-            {
-                "title": "Pharmacist",
-                "desc": "Dispense medications and provide patient education on drug usage and side effects.",
-                "image": "../Courses/pharmacy/pharm/pharma.jpg"
-            }
-        ],
-        "labs": [
-            {
-                "title": "Research Lab",
-                "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
-            },
-            {
-                "title": "Practical Lab",
-                "description": "Engage in hands-on practical experiments and learning.",
-                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
-            },
-            {
-                "title": "QA Lab",
-                "description": "Perform quality assurance tests and analysis.",
-                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
-            },
-            {
-                "title": "Pharma Chemistry Lab",
-                "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Practical Exposure: Hands-on training in pharmaceutical practices.",
-            "Industry Internship: Gain real-world experience through industry internships.",
-            "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
-            "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
-        ]
-    },
+  
 
-    {
-        "id": 14,
-        "course_name": "Pharmacy",
-        event_type: "Pharmacy",
-        "header": {
-            "title": "MASTERS IN PHARMACY",
-            "subtitle": "SHAPE THE FUTURE OF PHARMACEUTICS",
-            "background_image": "../Courses/pharmacy/Mpharma/Mpharma.jpg"
-        },
-        "program_name": "Master of Pharmacy in Pharmaceutics",
-        "program_description": "Master of Pharmacy in Pharmaceutics is a postgraduate degree course that is structured to provide entire technical, research, practical, and theoretical knowledge of pharmacy including traditional and modern medicines. The program aims to create skilled and competent Pharmaceutical Research Professionals, Technology Analysts, Pre-Clinical & Clinical Scientists, Academicians, Pharma Corporate Executives & Entrepreneurs, and Clinical Pharmacists. This program provides additional knowledge of medical drugs and aids. The curriculum includes in-depth study of Pharmaceutical Sciences, Discovery Development, Technology, Practice, Industry & Business.",
-        "fees": "50,000/- Per Semester",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Customs Officer",
-            "Analytical Chemist",
-            "Drug Inspector",
-            "Drug Analyst"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Pharmaceutical Research Professional",
-                "desc": "Conduct research and development in the field of pharmaceutics.",
-                "image": "../Courses/pharmacy/Mpharma/research.jpg"
-            },
-            {
-                "title": "Technology Analyst",
-                "desc": "Analyze and implement new technologies in pharmaceutical manufacturing.",
-                "image": "../Courses/pharmacy/Mpharma/tech.jpg"
-            },
-            {
-                "title": "Pharma Corporate Executive & Entrepreneur",
-                "desc": "Lead pharmaceutical companies or start own ventures in the pharmaceutical industry.",
-                "image": "../Courses/pharmacy/Mpharma/corporate.jpg"
-            },
-            {
-                "title": "Clinical Pharmacist",
-                "desc": "Provide pharmaceutical care to patients in clinical settings.",
-                "image": "../Courses/pharmacy/Mpharma/clinical.jpg"
-            }
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Cutting-Edge Curriculum: Stay updated with the latest advancements in pharmaceutics.",
-            "Hands-On Learning: Practical training in pharmaceutical research and technology.",
-            "Industry Immersion: Internship opportunities with leading pharmaceutical companies.",
-            "Career Development: Guidance and support for career advancement in the pharmaceutical industry."
-        ],
-        "eligibility_criteria": {
-            "eligibility": "All those candidates who have passed the Bachelor in Pharmacy from an Institution affiliated to a recognized University with at least 50% marks (40% in case of candidate belonging to SC/ST category) shall be eligible to apply."
-        },
-        "affiliation": {
-            "affiliated_to": "IKPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "labs": [
-            {
-                "title": "Research Lab",
-                "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
-            },
-            {
-                "title": "Practical Lab",
-                "description": "Engage in hands-on practical experiments and learning.",
-                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
-            },
-            {
-                "title": "QA Lab",
-                "description": "Perform quality assurance tests and analysis.",
-                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
-            },
-            {
-                "title": "Pharma Chemistry Lab",
-                "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-            }
-        ]
-    },
-    {
-        "id": 15,
-        "course_name": "Pharmacy",
-        event_type: "Pharmacy",
-        "header": {
-            "title": "DIPLOMA IN PHARMACY",
-            "subtitle": "EMBRACE THE PHARMACEUTICAL JOURNEY",
-            "background_image": "../Courses/pharmacy/diploma/Diploma.jpg"
-        },
-        "program_name": "Diploma in Pharmacy",
-        "program_description": "The 2-year Diploma in Pharmacy program under Swami Vivekanand College of Pharmacy is a comprehensive and compact qualification for understanding the basics of Human Physiology, Disease, Therapeutic Compounds & drugs in use, their pharmacology & formulations, drug store management and Pharmaceutical Jurisprudence. The course provides the minimum essential qualification to get registered as a Pharmacist in India & operate Retail/Wholesale & Community Pharmacy and to get employed as Hospital Pharmacist.",
-        "fees": "42,500/- INR Per Semester",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Process Control",
-            "Manufacturing",
-            "Quality Control",
-            "Medical Representative",
-            "Retail/Wholesale Pharmacy Outlet",
-        ],
-        "program_outcomes": [
-            {
-                "title": "Pharmacy Technician",
-                "desc": "Assist pharmacists in dispensing medications and managing pharmacy operations.",
-                "image": "../Courses/pharmacy/diploma/technician.jpg"
-            },
-            {
-                "title": "Drug Store Manager",
-                "desc": "Oversee the day-to-day operations of a pharmacy, including inventory management and customer service.",
-                "image": "../Courses/pharmacy/diploma/store.jpg"
-            },
-            {
-                "title": "Hospital Pharmacist",
-                "desc": "Provide pharmaceutical care to patients in hospital settings, including dispensing medications and monitoring drug therapy.",
-                "image": "../Courses/pharmacy/diploma/hospital.jpg"
-            },
-            {
-                "title": "Retail/Wholesale Pharmacist",
-                "desc": "Manage retail or wholesale pharmacy operations, including dispensing medications and counseling patients.",
-                "image": "../Courses/pharmacy/diploma/retail.jpg"
-            }
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Practical Training: Hands-on experience in pharmaceutical operations.",
-            "Industry Exposure: Internship opportunities in retail and hospital pharmacy settings.",
-            "Skill Development: Enhance skills in drug dispensing and patient care.",
-            "Career Opportunities: Pathways to employment in various pharmacy sectors."
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidate shall have passed 10+2 examination conducted by the respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and Physics, Chemistry, Mathematics (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
-        },
-        "affiliation": {
-            "affiliated_to": "IKPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "labs": [
-            {
-                "title": "Research Lab",
-                "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
-            },
-            {
-                "title": "Practical Lab",
-                "description": "Engage in hands-on practical experiments and learning.",
-                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
-            },
-            {
-                "title": "QA Lab",
-                "description": "Perform quality assurance tests and analysis.",
-                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
-            },
-            {
-                "title": "Pharma Chemistry Lab",
-                "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-            }
-        ]
-    },
-    {
-        "id": 16,
-        "course_name": "Pharmacy",
-        event_type: "Pharmacy",
-        "header": {
-            "title": "Doctor of Pharmacy (Pharm.D)",
-            "subtitle": "EMPOWERING THE FUTURE OF PHARMACY",
-            "background_image": "../Courses/pharmacy/pharmD/pharmd.jpg"
-        },
-        "program_name": "Pharm.D",
-        "program_description": "The Doctor of Pharmacy program is a research oriented study of various significant areas of pharmacy which are designed to provide an in-depth and comprehensive understanding of these areas. The Faculty of Pharmacy offers a six year Doctorate Degree program in Pharmacy which seeks to impart within the students a specialised research based understanding of pharmaceutical medicine and explore other avenues in the field. The scope of this program includes the purpose of diagnosing the various causes of diseases and the manner and methods through which they can be treated. Beyond merely the treatment protocols and procedure, the field of pharmacy also explores various forms of practical research which can be utilised as a way of eradicating disease causing virus and curbing their spread for the welfare of humanity. As a way of providing the highest form of practical training to the students, the Faculty of Pharmacy is equipped with state of the art facilities and laboratories for research and novel innovations. The program provides a comprehensive approach to the study of pharmacy which provides a platform for the students and faculties to innovate and patent novel treatment modalities. The program goes on to develop and nurture the research skills and abilities of the students as a way of producing a reliable and credible knowledge base in the scope of pharmacy.",
-        "fees": "145,000 per year",
-        "duration": "6 Years",
-        "major_tracks": [
-            "Process Control",
-            "Manufacturing",
-            "Quality Control",
-            "Medical Representative",
-            "Retail/Wholesale Pharmacy Outlet",
-        ],
-        "program_outcomes": [
-            {
-                "title": "Drug Inspector",
-                "desc": "Ensure compliance with pharmaceutical regulations and standards to protect public health.",
-                "image": "../Courses/pharmacy/pharmD/inspector.jpg"
-            },
-            {
-                "title": "Academicians",
-                "desc": "Contribute to the academic field by teaching and conducting research in pharmacy.",
-                "image": "../Courses/pharmacy/pharmD/academic.jpg"
-            },
-            {
-                "title": "Retail Pharmacist",
-                "desc": "Dispense medications and provide pharmaceutical care to patients in retail settings.",
-                "image": "../Courses/pharmacy/pharmD/retails.jpg"
-            },
-            {
-                "title": "Medical Writer",
-                "desc": "Communicate scientific and medical information through writing for various audiences.",
-                "image": "../Courses/pharmacy/pharmD/writer.jpg"
-            }
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Research-oriented study with comprehensive understanding",
-            "State-of-the-art facilities and laboratories for practical training and research",
-            "In-depth exploration of pharmaceutical medicine and disease treatment",
-            "Development and nurturing of research skills",
-            "Contribution to the academic field through teaching and research",
-            "Practical training in retail pharmacy settings"
-        ],
-        "eligibility_criteria": {
-            "eligibility": "All those candidates who have passed 10+2 examination from a board recognized or established by Central/State Government through a legislation with Physics and Chemistry as compulsory subjects along with Mathematics or Biology subject. OR All those candidates who have passed D.Pharm. course from an institution approved by the Pharmacy Council of India under section 12 of The Pharmacy Act."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
-            "approved_by": "PCI & AICTE"
-        },
-        "labs": [
-            {
-                "title": "Research Lab",
-                "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
-            },
-            {
-                "title": "Practical Lab",
-                "description": "Engage in hands-on practical experiments and learning.",
-                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
-            },
-            {
-                "title": "QA Lab",
-                "description": "Perform quality assurance tests and analysis.",
-                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
-            },
-            {
-                "title": "Pharma Chemistry Lab",
-                "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-            }
-        ]
-    },
-
-    // HOTEL MANAGEMENT
-    {
-        "id": 17,
-        "course_name": "HM",
-        event_type: "Hotel-Management",
-        "header": {
-            "title": "BACHELOR OF HOTEL MANAGEMENT AND CATERING TECHNOLOGY",
-            "subtitle": "UPSCALE YOUR CAREER IN HOSPITALITY",
-            "background_image": "../Courses/HM/catering/catering.jpg"
-        },
-        "program_name": "Bachelor of Hotel Management and Catering Technology (BHMCT)",
-        "program_description": "BHMCT (Bachelor of Hotel Management and Catering Technology) is an undergraduate degree program that focuses on preparing students for a career in the hospitality industry. The program combines theoretical knowledge with practical training in various aspects of hotel management, food and beverage management, and catering technology. The duration of the BHMCT course is typically four years, and it is divided into eight semesters. The course curriculum covers a range of subjects, including food and beverage management, hotel operations, front office management, housekeeping, human resource management, marketing, accounting, and finance.The BHMCT course also includes practical training in various areas of the hospitality industry. This includes mandatory internships and industry-based training, which provide students with hands-on experience in real-world situations. Students may also have the opportunity to work in the hotel industry as part of their training. Overall, the BHMCT course is a comprehensive program that equips students with the knowledge, skills, and practical experience necessary to succeed in the hospitality industry.",
-        "fees": "35,500/-INR Per Semester",
-        "duration": "4 Years",
-        "major_tracks": [
-            "Event Manager",
-            "Hospitality Consultant",
-            "Hotel Manger",
-            "Front Office Manager",
-            "Housekeeping Manager",
-        ],
-        "program_outcomes": [
-            {
-                "title": "Hotel Manager",
-                "desc": "Manage the operations and staff of hotels and other lodging establishments.",
-                "image": "../Courses/HM/catering/manager.jpg"
-            },
-            {
-                "title": "Chef",
-                "desc": "Plan menus, prepare and cook food, and oversee kitchen operations in restaurants and hotels.",
-                "image": "../Courses/HM/catering/chef.jpg"
-            },
-            {
-                "title": "Food and Beverage Manager",
-                "desc": "Manage the food and beverage service in hotels, restaurants, and other hospitality establishments.",
-                "image": "../Courses/HM/catering/food.jpg"
-            },
-            {
-                "title": "Hospitality Consultant",
-                "desc": "Provide expert advice and guidance to hospitality businesses to improve their operations and guest experiences.",
-                "image": "../Courses/HM/catering/hospitality.jpg"
-            }
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Combination of theoretical knowledge and practical training",
-            "Mandatory internships and industry-based training",
-            "Comprehensive curriculum covering various aspects of hospitality management",
-            "Hands-on experience in real-world hospitality situations",
-            "Opportunities for career advancement in the hospitality industry"
-        ],
-        "eligibility_criteria": {
-            "eligibility": "To be eligible for the B.H.M.C.T. program, candidates must meet the following criteria: Completion of 10+2 from a recognized board. Minimum aggregate marks of 45%. English as a mandatory subject. The age limit is up to 22 years."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "labs": [
-            {
-                "title": "Quantity Training Kitchen",
-                "description": "Practice culinary skills and techniques in a simulated kitchen environment.",
-                "image": "../Courses/HM/catering/lab/kitchen.jpg"
-            },
-            {
-                "title": "Bakery",
-                "description": "Learn to bake a variety of breads, pastries, and desserts.",
-                "image": "../Courses/HM/catering/lab/bakery.jpg"
-            },
-            {
-                "title": "Front Office Labs",
-                "description": "Gain practical experience in hotel front office operations, including check-in, check-out, and guest services.",
-                "image": "../Courses/HM/catering/lab/office.jpg"
-            },
-            {
-                "title": "Training Restaurant",
-                "description": "Practice food and beverage service in a restaurant setting.",
-                "image": "../Courses/HM/catering/lab/training.jpg"
-            }
-        ],
-    },
-    {
-        "id": 18,
-        "course_name": "HM",
-        event_type: "Hotel-Management",
-        "header": {
-            "title": "Master of Hotel Management & Catering Technology (MHMCT)",
-            "subtitle": "ELEVATING HOSPITALITY MANAGEMENT",
-            "background_image": "../Courses/HM/mhmct/Mhmct.jpg"
-        },
-        "program_name": "Master of Hotel Management & Catering Technology (MHMCT)",
-        "program_description": "The Master of Hotel Management & Catering Technology (MHMCT), is a two years postgraduate Hospitality Management Degree course in India. It’s a service-oriented course, which develops the human service resource to fulfill the requirements of the Hospitality Industry. This postgraduate course is designed to enhance the professional management tactics used in the hospitality sector. It also inculcates the necessary entrepreneurship skills in candidates so that they can run their own business in the near future in case any candidate decides to go the other way rather than working on a job. The course is suitable for those candidates who want to increase their knowledge for accelerating their career by exploring and acquiring a critical understanding of the Hospitality Industry. The course is designed to provide managerial positions to the students.",
-        "fees": "27,500/- INR Per Semester",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Event Manager",
-            "Hospitality Consultant",
-            "Hotel Manger",
-            "Front Office Manager",
-            "Housekeeping Manager",
-        ],
-        "program_outcomes": [
-            {
-                "title": "Hospitality Manager",
-                "desc": "Develop skills to manage and oversee various operations within the hospitality industry.",
-                "image": "../Courses/HM/mhmct/man.jpg"
-            },
-            {
-                "title": "Event Planner",
-                "desc": "Learn to plan and execute events, conferences, and functions within the hospitality sector.",
-                "image": "../Courses/HM/mhmct/event.jpg"
-            },
-            {
-                "title": "Food and Beverage Manager",
-                "desc": "Master the management of food and beverage operations in hotels, restaurants, and other hospitality establishments.",
-                "image": "../Courses/HM/mhmct/food.jpg"
-            },
-            {
-                "title": "Chef",
-                "desc": " Excel in overseeing food and beverage operations within hotels, restaurants, and hospitality venues.",
-                "image": "../Courses/HM/mhmct/chef.avif"
-            },
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Two-year postgraduate degree focusing on hospitality management",
-            "Enhancement of professional management tactics",
-            "Inculcation of entrepreneurship skills",
-            "Preparation for managerial positions in the hospitality industry",
-            "Hands-on experience in managing various hospitality operations",
-            "Opportunities for career advancement and entrepreneurship"
-        ],
-        "eligibility_criteria": {
-            "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "labs": [
-            {
-                "title": "Hospitality Management Lab",
-                "description": "Gain hands-on experience in managing various aspects of hospitality operations.",
-                "image": "../Courses/HM/mhmct/lab/management.jpg"
-            },
-            {
-                "title": "Culinary Arts Lab",
-                "description": "Practice culinary skills and techniques in a professional kitchen environment.",
-                "image": "../Courses/HM/mhmct/lab/arts.jpg"
-            },
-            {
-                "title": "Event Planning Lab",
-                "description": "Plan and organize events, conferences, and functions to develop event management skills.",
-                "image": "../Courses/HM/mhmct/lab/planning.jpg"
-            }
-        ],
-    },
-    {
-        "id": 19,
-        "course_name": "HM",
-        event_type: "Hotel-Management",
-        "header": {
-            "title": "B.Voc in Hospitality and Catering Management",
-            "subtitle": "BUILDING SKILLS FOR HOSPITALITY SUCCESS",
-            "background_image": "../Courses/HM/BVoc/Bvoc.jpg"
-        },
-        "program_name": "B.Voc in Hospitality and Catering Management",
-        "program_description": "B.Voc in Hospitality and Catering Management is a three-year job-oriented vocational training program in the hotel management domain. The program imparts skills and knowledge related to hotel management. Hotel management is a field of education which deals with all the administrative and managerial tasks of any hospitality centre, hotel, restaurant or any seminar organization. Since the tourism industry is growing rapidly, the demand for good hotel managers has also increased. Hotels and restaurants are looking for skilled professionals who can handle all their activities and help them increase their sales. The three-year B.Voc in Hospitality and Catering Management program will cover many important topics such as housekeeping, accounting, business management, business law, financial management, HR management and entrepreneurship skills. The program also has a six-month training program which will allow the candidates to complete an internship at a reputed hotel in the country. Candidates who are looking for admission to B.Voc in Hotel Management must have some skills such as leadership skills, managerial skills, management skills, pleasing personality and good communication skills.",
-        "fees": "25,000/- INR Per Semester",
-        "duration": "3 Years",
-        "major_tracks": [
-            "Event Manager",
-            "Hospitality Consultant",
-            "Hotel Manger",
-            "Front Office Manager",
-            "Housekeeping Manager",
-        ],
-        "program_outcomes": [
-            {
-                "title": "Hospitality Manager",
-                "desc": "Acquire skills to manage various aspects of hospitality operations including front desk, housekeeping, food and beverage, and guest services.",
-                "image": "../Courses/HM/BVoc/hospitality.jpg"
-            },
-            {
-                "title": "Event Coordinator",
-                "desc": "Learn to plan, organize, and coordinate events such as conferences, weddings, and banquets in the hospitality industry.",
-                "image": "../Courses/HM/BVoc/coordinator.jpg"
-            },
-            {
-                "title": "Entrepreneur",
-                "desc": "Develop entrepreneurial skills to start and manage your own hospitality business, such as hotels, restaurants, or catering services.",
-                "image": "../Courses/HM/BVoc/entrepreneur.jpg"
-            },
-            {
-                "title": "Housekeeping Management",
-                "desc": "Develop proficiency in supervising cleaning operations and maintaining cleanliness standards in hospitality establishments, alongside adept inventory management skills.",
-                "image": "../Courses/HM/BVoc/housekeeping.avif"
-            },
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Three-year job-oriented vocational training program",
-            "Imparts skills and knowledge related to hotel management",
-            "Covers various important topics such as housekeeping, accounting, and business management",
-            "Includes a six-month internship at a reputed hotel",
-            "Develops leadership, managerial, and communication skills",
-            "Prepares students for careers as hospitality managers, event coordinators, and entrepreneurs"
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates seeking admission to the B.Voc in Hotel Management course can check the eligibility criteria provided below.\n\n- They must have completed 12th from Arts, Science or Commerce from any recognized Institution.\n- Candidates will also have to satisfy the minimum percentage decided by the college.\n- They can visit the official website of the college to know all about the eligibility criteria for B. Voc."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "labs": [
-            {
-                "title": "Hospitality Management Lab",
-                "description": "Practice managing various aspects of hospitality operations in a simulated hotel environment.",
-                "image": "../Courses/HM/mhmct/lab/management.jpg"
-            },
-            {
-                "title": "Culinary Arts Lab",
-                "description": "Learn culinary techniques and practice cooking skills in a professional kitchen setting.",
-                "image": "../Courses/HM/mhmct/lab/arts.jpg"
-            },
-            {
-                "title": "Event Planning Lab",
-                "description": "Plan and organize events such as conferences, weddings, and banquets in a simulated setting.",
-                "image": "../Courses/HM/mhmct/lab/planning.jpg"
-            }
-        ],
-    },
-    {
-        "id": 20,
-        "course_name": "HM",
-        event_type: "Hotel-Management",
-        "header": {
-            "title": "B.Sc in Nutrition and Dietetics",
-            "subtitle": "SHAPE HEALTHY LIFESTYLES",
-            "background_image": "../Courses/HM/Bsc/header.jpg"
-        },
-        "program_name": "B.Sc in Nutrition and Dietetics",
-        "program_description": "B.Sc in Nutrition and Dietetics is a three-year undergraduate program that focuses on the study of nutrition, dietetics, and their impact on human health. This program covers various aspects of food science, human physiology, biochemistry, and psychology to provide students with a comprehensive understanding of nutrition and dietary habits. Students learn about the role of nutrients in the body, dietary requirements for different age groups and populations, and the principles of therapeutic nutrition. The curriculum also includes practical training in meal planning, food service management, and nutrition counseling. Graduates of B.Sc in Nutrition and Dietetics can pursue careers as nutritionists, dieticians, food consultants, clinical nutritionists, and wellness coaches in various healthcare settings, food industry, research institutions, and community organizations.",
-        "fees": "15,000/- INR Per Semester",
-        "duration": "4 Years",
-        "major_tracks": [
-            "Clinical Nutrition",
-            "Food Service Management",
-            "Food Safety and Regulation",
-            "Wellness Coaching",
-            "Pediatric Nutrition",
-        ],
-        "program_outcomes": [
-            {
-                "title": "Nutritionist",
-                "desc": "Develop expertise in designing and implementing nutrition plans to promote health and prevent diseases.",
-                "image": "../Courses/HM/Bsc/nutri.jpg"
-            },
-            {
-                "title": "Dietician",
-                "desc": "Acquire skills to assess dietary needs, plan personalized meal programs, and provide nutritional counseling to clients.",
-                "image": "../Courses/HM/Bsc/diet.jpg"
-            },
-            {
-                "title": "Food Consultant",
-                "desc": "Become proficient in advising individuals, families, and organizations on healthy eating habits, food safety, and nutrition regulations.",
-                "image": "../Courses/HM/Bsc/food.jpg"
-            },
-            {
-                "title": "Sales Executive",
-                "desc": " Master revenue generation through identifying sales opportunities, nurturing client relationships, and effective communication.",
-                "image": "../Courses/HM/Bsc/sales.jpg"
-            },
-        ],
-
-        "eligibility_criteria": {
-            "eligibility": "Candidates who have completed 12th from Arts, Science or Commerce from any recognized institution"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "labs": [
-            {
-                "title": "Nutrition Assessment Lab",
-                "description": "Learn techniques for assessing dietary intake, body composition, and nutritional status of individuals.",
-                "image": "../Courses/HM/Bsc/lab/nutrition.jpg"
-            },
-            {
-                "title": "Food Science Lab",
-                "description": "Explore the properties of food ingredients, food processing techniques, and food preservation methods.",
-                "image": "../Courses/HM/Bsc/lab/science.jpg"
-            },
-            {
-                "title": "Community Nutrition Lab",
-                "description": "Gain practical experience in planning and implementing community-based nutrition programs and interventions.",
-                "image": "../Courses/HM/Bsc/lab/community.jpg"
-            }
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Three-year undergraduate program focusing on nutrition and dietetics",
-            "Comprehensive curriculum covering food science, human physiology, and nutrition counseling",
-            "Practical training in meal planning and food service management",
-            "Preparation for careers as nutritionists, dieticians, and food consultants",
-            "Opportunities for employment in healthcare settings, research institutions, and community organizations",
-            "Focus on promoting health and preventing diseases through nutrition"
-        ],
-
-    },
-
-    // EDUCATION
-
-    {
-        "id": 41,
-        "course_name": "Education",
-        "header": {
-            "title": "Master of Education",
-            "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
-            "background_image": "../Courses/Education/Masters/teaching.avif"
-        },
-        "program_name": "Master of Education",
-        "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
-        "fees": "27,500 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Educational Theory",
-            "Counselling",
-            "Leadership",
-            "Training and Internship"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Enhanced Teaching Skills",
-                "desc": "Develop advanced teaching techniques and methodologies to deliver effective and engaging lessons in diverse educational settings.",
-                "image": "../Courses/Education/Masters/teaching.avif"
-            },
-            {
-                "title": "Leadership Development",
-                "desc": "Acquire leadership skills to lead educational institutions, departments, or teams effectively and inspire positive change in the field of education.",
-                "image": "../Courses/Education/Masters/leadership.jpg"
-            },
-            {
-                "title": "Counselling Proficiency",
-                "desc": "Gain expertise in counselling techniques to provide guidance and support to students, colleagues, and parents, fostering a positive learning environment.",
-                "image": "../Courses/Education/Masters/counselling.avif"
-            },
-            {
-                "title": "Research Aptitude",
-                "desc": "Cultivate research skills to conduct educational research, analyze data, and contribute to the advancement of knowledge in the field of education.",
-                "image": "../Courses/Education/Masters/research.avif"
-            },
-        ],
-
-        "eligibility_criteria": {
-            "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
-    {
-        "id": 42,
-        "course_name": "Education",
-        "header": {
-            "title": "Master of Arts in Education",
-            "subtitle": "SHAPING THE FUTURE OF EDUCATION",
-            "background_image": "../Courses/Education/Arts/mastery.avif"
-        },
-        "program_name": "Master of Arts in Education",
-        "program_description": "M.A. in Education is a postgraduate course that deals with the fundamental aspects of education and its related factors. M.A. in Education hones students’ skills needed in analyses and discussions of education-related theories for application to real-world experiences along with providing competency in educational leadership. The job prospects for students after completing the course of M.A. in Education are listed below. They can also work in coaching centers, education consultancies, publishing houses, education departments, research and offer home tuitions.",
-        "fees": "15,000 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Theoretical Instruction",
-            "Counselling",
-            "Curriculum",
-            "Educational Technology"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Theoretical Instruction Mastery",
-                "desc": "Develop a comprehensive understanding of educational theories and instructional strategies to effectively design and deliver theoretical instruction in diverse educational settings.",
-                "image": "../Courses/Education/Arts/mastery.avif"
-            },
-            {
-                "title": "Counselling Proficiency",
-                "desc": "Enhance counselling skills to provide support and guidance to students, colleagues, and parents, fostering holistic development and well-being.",
-                "image": "../Courses/Education/Masters/counselling.avif"
-            },
-            {
-                "title": "Curriculum Development Expertise",
-                "desc": "Acquire expertise in curriculum planning, development, and evaluation to design relevant and engaging learning experiences aligned with educational goals and standards.",
-                "image": "../Courses/Education/Arts/curriculum.avif"
-            },
-            {
-                "title": "Educational Technology Integration",
-                "desc": "Explore innovative educational technologies and learn to integrate them into teaching practices, enhancing instructional delivery and student engagement.",
-                "image": "../Courses/Education/Arts/tech.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
-    {
-        "id": 43,
-        "course_name": "Education",
-        "header": {
-            "title": "Bachelor of Education",
-            "subtitle": "SHAPING FUTURE EDUCATORS",
-            "background_image": "../Courses/Education/Bachelor/expertise.avif"
-        },
-        "program_name": "Bachelor of Education",
-        "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
-        "fees": "32,500 INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Theory",
-            "Research",
-            "Leadership",
-            "Training and Internship"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Pedagogical Expertise",
-                "desc": "Develop pedagogical skills to effectively plan, deliver, and assess instruction in diverse educational contexts, catering to the needs of learners.",
-                "image": "../Courses/Education/Bachelor/expertise.avif"
-            },
-            {
-                "title": "Research Proficiency",
-                "desc": "Acquire research skills to critically analyze educational issues, conduct empirical studies, and contribute to the advancement of educational knowledge and practices.",
-                "image": "../Courses/Education/Bachelor/research.jpg"
-            },
-            {
-                "title": "Leadership Development",
-                "desc": "Enhance leadership abilities to lead and manage educational initiatives, collaborate with stakeholders, and promote positive change within educational institutions.",
-                "image": "../Courses/Education/Masters/leadership.jpg"
-            },
-            {
-                "title": "Teaching Training and Internship",
-                "desc": "Undergo teaching training and internship experiences to apply theoretical knowledge in real-world educational settings, gaining practical teaching skills and experience.",
-                "image": "../Courses/Education/Bachelor/training.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
-    {
-        "id": 44,
-        "course_name": "Education",
-        "header": {
-            "title": "Bachelor of Arts",
-            "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
-            "background_image": "../Courses/Education/BA/comms.avif"
-        },
-        "program_name": "Bachelor of Arts",
-        "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
-        "fees": "15,000 INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Social Sciences",
-            "Literature",
-            "Science & Philosophy",
-            "Psychology"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Critical Thinking Skills",
-                "desc": "Develop critical thinking skills to analyze and evaluate complex ideas, arguments, and theories in various disciplines within the humanities and social sciences.",
-                "image": "../Courses/Education/BA/thinking.avif"
-            },
-            {
-                "title": "Effective Communication",
-                "desc": "Enhance communication skills through written and oral expression, enabling effective interaction and expression of ideas in diverse contexts and audiences.",
-                "image": "../Courses/Education/BA/comms.avif"
-            },
-            {
-                "title": "Research Proficiency",
-                "desc": "Acquire research skills to gather, interpret, and synthesize information from multiple sources, facilitating independent inquiry and scholarly exploration.",
-                "image": "../Courses/Education/Bachelor/research.jpg"
-            },
-            {
-                "title": "Cultural Awareness",
-                "desc": "Develop cultural awareness and sensitivity to appreciate and understand diverse perspectives, traditions, and values across different societies and cultures.",
-                "image": "../Courses/Education/BA/cultural.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-            "5000+ Offer Letters",
-            "250+ Companies Visited Every Year",
-            "43 Lakh Highest Package",
-            "25000+ Global Alumni Reach"
-        ],
-        "labs": []
-    },
+   
+ 
 
     // COMPUTER APPLICATION
     {
@@ -2166,305 +2629,8 @@ const data = [
         "labs": []
     },
 
-    // BUSINESS STUDIES
-    {
-        "id": 21,
-        "course_name": "Business Studies",
-        event_type: "BusinessStudies",
-        "header": {
-            "title": "MASTERS IN BUSINESS ADMINISTRATION",
-            "subtitle": "ELEVATING BUSINESS ACUMEN",
-            "background_image": "../Courses/Business/MBA/mba.jpg"
-        },
-        "program_name": "MBA",
-        "program_description": "MBA stands for Master of Business Administration, which is a graduate degree that focuses on developing the knowledge and skills required to succeed in a business or management career. The MBA degree is one of the most popular and widely recognized graduate degrees globally, and it is designed to provide students with a broad understanding of business and management practices. The MBA program typically covers a range of topics, including accounting, finance, marketing, management, organizational behavior, economics, and operations management. The curriculum may also include specialized courses in areas such as entrepreneurship, international business, healthcare management, or sustainability. An MBA degree can lead to a wide range of career opportunities, including management positions in various industries such as finance, consulting, marketing, healthcare, and technology. It can also provide individuals with the skills and knowledge needed to start their own businesses or pursue entrepreneurial ventures. In summary, an MBA degree is a versatile and valuable credential that can open doors to a wide range of career opportunities and provide individuals with the knowledge and skills needed to succeed in the business world.",
-        "fees": "40,000/- INR Per Semester",
-        "duration": "2 years",
-        "major_tracks": [
-            "Business Development Manager",
-            "Financial Manager",
-            "and few more"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Marketing Manager",
-                "desc": "Lead marketing initiatives and strategies for organizations.",
-                "image": "../Courses/Business/MBA/marketing.jpg"
-            },
-            {
-                "title": "Operations Manager",
-                "desc": "Oversee and manage day-to-day operations of businesses.",
-                "image": "../Courses/Business/MBA/operations.jpg"
-            },
-            {
-                "title": "Entrepreneur",
-                "desc": "Start and manage their own business ventures.",
-                "image": "../Courses/Business/MBA/entrepreneur.jpg"
-            },
-            {
-                "title": "Human Resource Manager",
-                "desc": "Manage human resources and personnel within organizations.",
-                "image": "../Courses/Business/MBA/human.jpg"
-            }
-        ],
-        "affiliation": {
-            "affiliated_to": "IKPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "eligibility_criteria": {
-            "eligibility": "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
-        },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Graduate degree focusing on business and management skills",
-            "Comprehensive curriculum covering accounting, finance, marketing, and operations management",
-            "Specialized courses in areas such as entrepreneurship and international business",
-            "Preparation for management positions in finance, consulting, marketing, healthcare, and technology sectors",
-            "Opportunities to start own businesses or pursue entrepreneurial ventures",
-            "Versatile and valuable credential for a wide range of career opportunities"
-        ],
-        "labs": [],
-    },
-    {
-        "id": 22,
-        "course_name": "Business Studies",
-        event_type: "BusinessStudies",
-        "header": {
-            "title": "BACHELOR IN BUSINESS ADMINISTRATION",
-            "subtitle": "DEVELOPING BUSINESS ACUMEN",
-            "background_image": "../Courses/Business/BBA/bba.jpg"
-        },
-        "program_name": "BBA",
-        "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
-        "fees": "To Be Disclosed",
-        "duration": "3 years",
-        "major_tracks": [
-            "Entrepreneurship",
-            "Finance & Accounting Management",
-            "HR Management",
-            "Marketing Management",
-            "Supply Chain Management",
-            "Tourism Management"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Marketing Manager",
-                "desc": "Lead marketing initiatives and strategies for organizations.",
-                "image": "../Courses/Business/MBA/marketing.jpg"
-            },
-            {
-                "title": "Operations Manager",
-                "desc": "Oversee and manage day-to-day operations of businesses.",
-                "image": "../Courses/Business/MBA/operations.jpg"
-            },
-            {
-                "title": "Entrepreneur",
-                "desc": "Start and manage their own business ventures.",
-                "image": "../Courses/Business/MBA/entrepreneur.jpg"
-            },
-            {
-                "title": "Human Resource Manager",
-                "desc": "Manage human resources and personnel within organizations.",
-                "image": "../Courses/Business/MBA/human.jpg"
-            }
-        ],
-        "affiliation": {
-            "affiliated_to": "SVFTM",
-            "approved_by": "AICTE"
-        },
-        "eligibility_criteria": {
-            "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
-        },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Professional undergraduate program in Business Management",
-            "Covers management and business principles",
-            "Emphasizes practical experience through internships, case studies, and projects",
-            "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
-            "Opportunities to work in various industries and sectors",
-            "Three-year duration with a focus on practical learning"
-        ],
-        "labs": []
-
-    },
-    {
-        "id": 23,
-        "course_name": "Business Studies",
-        event_type: "BusinessStudies",
-        "header": {
-            "title": "BACHELOR OF BUSINESS ADMINISTRATION",
-            "subtitle": "DEVELOPING BUSINESS ACUMEN",
-            "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
-        },
-        "program_name": "BBA",
-        "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
-        "fees": "22,000/- INR Per Semester",
-        "duration": "3 years",
-        "major_tracks": [
-            "Entrepreneurship",
-            "Finance & Accounting Management",
-            "HR Management",
-            "Marketing Management",
-            "Supply Chain Management",
-            "Tourism Management"
-        ],
-
-        "program_outcomes": [
-            {
-                "title": "Marketing Manager",
-                "desc": "Develop and implement marketing strategies to promote products or services and drive business growth.",
-                "image": "../Courses/Business/BBA/man.jpg"
-            },
-            {
-                "title": "Operations Manager",
-                "desc": "Ensure efficient operation of business processes, including production, supply chain management, and resource allocation.",
-                "image": "../Courses/Business/BBA/operation.jpg"
-            },
-            {
-                "title": "Entrepreneur",
-                "desc": "Initiate, organize, and manage business ventures, taking innovative ideas from conception to execution.",
-                "image": "../Courses/Business/BBA/enter.jpg"
-            },
-            {
-                "title": "Human Resource Manager",
-                "desc": "Oversee recruitment, training, and employee relations, ensuring organizational policies and procedures are followed.",
-                "image": "../Courses/Business/MBA/human.jpg"
-            }
-        ],
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Professional undergraduate program in Business Management",
-            "Covers management and business principles",
-            "Emphasizes practical experience through internships, case studies, and projects",
-            "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
-            "Opportunities to work in various industries and sectors",
-            "Three-year duration with a focus on practical learning"
-        ],
-        "affiliation": {
-            "affiliated_to": "SVFTM",
-            "approved_by": "AICTE"
-        },
-        "eligibility_criteria": {
-            "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
-        },
-        "labs": []
-    },
-    {
-        "id": 24,
-        "course_name": "Business Studies",
-        event_type: "BusinessStudies",
-        "header": {
-            "title": "MASTER OF COMMERCE",
-            "subtitle": "ADVANCING ACCOUNTING EXPERTISE",
-            "background_image": "../Courses/Business/commerce/mcom.jpg"
-        },
-        "program_name": "M.Com",
-        "program_description": "M.Com, Master of Commerce, is a postgraduate course in accounting with a duration of 2 years divided into 4 semesters. The main aim of the course is to provide in-depth knowledge to students in advanced accounting and commerce and prepare them for better future prospects. Students opting for M.Com are taught professional skills that help them land better placement opportunities. M.Com graduates can explore careers in the BFSI sector, start a career in teaching as a commerce teacher, or pursue further studies such as a PhD to become college lecturers. M.Com graduates also have numerous corporate job opportunities and government job opportunities.",
-        "fees": "15,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Advanced Accounting",
-            "Financial Management",
-            "Commerce Education"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Advanced Accounting Expert",
-                "desc": "Develop expertise in advanced accounting principles and practices.",
-                "image": "../Courses/Business/commerce/advance.jpg"
-            },
-            {
-                "title": "Finance Specialist",
-                "desc": "Gain specialized knowledge in finance and financial management.",
-                "image": "../Courses/Business/commerce/finance.jpg"
-            },
-            {
-                "title": "Commerce Educator",
-                "desc": "Prepare for a career in teaching commerce subjects at educational institutions.",
-                "image": "../Courses/Business/commerce/commerec.jpg"
-            },
-            {
-                "title": "Corporate Professional",
-                "desc": "Explore various corporate job opportunities in accounting, finance, and related fields.",
-                "image": "../Courses/Business/commerce/corporate.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed B.Com with at least 50% marks and have the relevant subject as one of the subjects based on merit in qualifying exams."
-        },
-        "affiliation": {
-            "affiliated_to": "SVFTM",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Postgraduate course focusing on accounting expertise",
-            "Duration of 2 years divided into 4 semesters",
-            "Prepares students for better future prospects in accounting and commerce",
-            "Professional skills development for better placement opportunities",
-            "Multiple career paths including BFSI sector, teaching, further studies, corporate jobs, and government opportunities",
-            "Emphasis on in-depth knowledge and practical application"
-        ],
-        "labs": []
-    },
-
+  
     // PARAMEDICAL
-    {
-        "id": 25,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "M.Sc MLS - Biochemistry",
-            "subtitle": "ELEVATING LABORATORY LEADERSHIP",
-            "background_image": "../Courses/paramedical/MLS/mls.jpg"
-        },
-        "program_name": "M.Sc MLS - Biochemistry",
-        "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
-        "fees": "32,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Clinical Research",
-            "Diagnostic Sciences"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Clinical Scientist",
-                "desc": "Develop advanced skills in medical laboratory science and become leaders in the field as clinical scientists.",
-                "image": "../Courses/paramedical/MLS/clinic.jpg"
-            },
-            {
-                "title": "Researcher",
-                "desc": "Conduct research in medical laboratory science and contribute to advancements in healthcare.",
-                "image": "../Courses/paramedical/MLS/research.jpg"
-            },
-            {
-                "title": "Educator",
-                "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
-                "image": "../Courses/paramedical/MLS/educator.jpg"
-            },
-            {
-                "title": "Paramedical Professional",
-                "desc": "Provide essential support in medical settings, assisting healthcare professionals in patient care and emergency response.",
-                "image": "../Courses/paramedical/MLS/professional.jpg"
-            }
-        ],
-
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Hands-on learning through laboratory experiments.",
-            "Advanced research opportunities in biochemistry.",
-            "Clinical exposure in top medical institutions.",
-            "Internship in renowned diagnostic centers.",
-            "Professional development workshops."
-        ],
-
-    },
     {
         "id": 26,
         "course_name": "Paramedical",
@@ -2517,6 +2683,287 @@ const data = [
             "Clinical rotations in leading hospitals.",
             "Internship in operation theatre management.",
             "Workshops on patient safety and care."
+        ],
+
+    },
+    {
+        "id": 25,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "M.Sc MLS -Clinical Biochemistry",
+            "subtitle": "ELEVATING LABORATORY LEADERSHIP",
+            "background_image": "../Courses/paramedical/MLS/mls.jpg"
+        },
+        "program_name": "M.Sc MLS - Biochemistry",
+        "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
+        "fees": "32,000/- INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Clinical Research",
+            "Diagnostic Sciences"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Clinical Scientist",
+                "desc": "Develop advanced skills in medical laboratory science and become leaders in the field as clinical scientists.",
+                "image": "../Courses/paramedical/MLS/clinic.jpg"
+            },
+            {
+                "title": "Researcher",
+                "desc": "Conduct research in medical laboratory science and contribute to advancements in healthcare.",
+                "image": "../Courses/paramedical/MLS/research.jpg"
+            },
+            {
+                "title": "Educator",
+                "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
+                "image": "../Courses/paramedical/MLS/educator.jpg"
+            },
+            {
+                "title": "Paramedical Professional",
+                "desc": "Provide essential support in medical settings, assisting healthcare professionals in patient care and emergency response.",
+                "image": "../Courses/paramedical/MLS/professional.jpg"
+            }
+        ],
+
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on learning through laboratory experiments.",
+            "Advanced research opportunities in biochemistry.",
+            "Clinical exposure in top medical institutions.",
+            "Internship in renowned diagnostic centers.",
+            "Professional development workshops."
+        ],
+
+    },
+    {
+        "id": 29,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "MASTER OF SCIENCE IN MEDICAL LABORATORY SCIENCE - MEDICAL MICROBIOLOGY",
+            "subtitle": "EXPERTS IN MEDICAL DIAGNOSTICS",
+            "background_image": "../Courses/paramedical/Optometry/header.avif"
+        },
+        "program_name": "Master of Science in Medical Laboratory Science - Medical Microbiology",
+        "program_description": "M.Sc. MLS - Medical Microbiology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program delves into the advanced study of microorganisms and their impact on human health. Students interested in diagnostic microbiology, infectious diseases, and laboratory management will find this program highly beneficial. The curriculum encompasses theoretical knowledge and practical skills essential for proficiency in medical microbiology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in clinical laboratories, research institutions, and healthcare settings.",
+        "fees": "60,000/- INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Clinical Microbiologist",
+            "Diagnostic Laboratory Manager",
+            "Infection Control Specialist",
+            "Research Scientist"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Clinical Microbiologist",
+                "desc": "Gain expertise in diagnosing infectious diseases through microbiological techniques.",
+                "image": "../Courses/paramedical/Optometry/optician.jpg"
+            },
+            {
+                "title": "Diagnostic Laboratory Manager",
+                "desc": "Develop skills to manage and supervise diagnostic laboratories efficiently.",
+                "image": "../Courses/paramedical/Optometry/optometrist.jpg"
+            },
+            {
+                "title": "Infection Control Specialist",
+                "desc": "Learn to implement and oversee infection control measures in healthcare settings.",
+                "image": "../Courses/paramedical/Optometry/refractionist.jpg"
+            },
+            {
+                "title": "Research Scientist",
+                "desc": "Conduct advanced research on microorganisms to contribute to medical science.",
+                "image": "../Courses/paramedical/Optometry/assistant.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Advanced training in microbiological diagnostic techniques.",
+            "Clinical rotations in microbiology labs.",
+            "Internship in hospital and diagnostic laboratories.",
+            "Workshops on cutting-edge microbiological research.",
+            "Hands-on experience with advanced laboratory equipment."
+        ]
+    },
+    {
+        "id": 30,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "MASTER OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
+            "subtitle": "ADVANCED MEDICAL IMAGING PROFESSIONALS",
+            "background_image": "../Courses/paramedical/RadioImaging/header.avif"
+        },
+        "program_name": "Master of Science in Radio Imaging Technology",
+        "program_description": "M.Sc. in Radio Imaging Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This course provides advanced education and training in medical imaging techniques, preparing students for professional roles in radiology departments. The program covers various imaging modalities including X-ray, MRI, CT scan, and ultrasound. The curriculum is designed to provide both theoretical knowledge and practical skills essential for excellence in the field of radiology. Swami Vivekanand Paramedical College is equipped with state-of-the-art infrastructure and modern laboratories, making it the best choice for aspiring radiology professionals in North India. The college boasts the highest placement rate in the region, ensuring successful career prospects for graduates.",
+        "fees": "60,000/- INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Radiology Technologist",
+            "MRI Technologist",
+            "CT Scan Technologist",
+            "Ultrasound Technologist"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Radiology Technologist",
+                "desc": "Acquire skills to perform and interpret various radiographic procedures.",
+                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+            },
+            {
+                "title": "MRI Technologist",
+                "desc": "Learn to operate MRI machines and conduct magnetic resonance imaging scans.",
+                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+            },
+            {
+                "title": "CT Scan Technologist",
+                "desc": "Develop expertise in performing CT scans and analyzing cross-sectional images.",
+                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+            },
+            {
+                "title": "Ultrasound Technologist",
+                "desc": "Gain proficiency in using ultrasound equipment to conduct diagnostic procedures.",
+                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Advanced training in various medical imaging techniques.",
+            "Clinical rotations in radiology departments.",
+            "Internship in diagnostic imaging centers.",
+            "Workshops on advanced imaging technologies.",
+            "Hands-on experience with state-of-the-art radiology equipment."
+        ]
+    },
+    {
+        "id": 30,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
+            "subtitle": "EXPERTS IN CARDIAC CARE",
+            "background_image": "../Courses/paramedical/radiology/radiology.jpg"
+        },
+        "program_name": "Master of Science in Cardiac Care Technology",
+        "program_description": "M.Sc. CCT - Cardiac Care Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program focuses on advanced cardiac care, including diagnosis, treatment, and management of heart diseases. Students interested in cardiac diagnostics, interventional cardiology, and cardiac rehabilitation will find this program highly beneficial. The curriculum includes both theoretical knowledge and practical skills essential for proficiency in cardiac care technology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern cardiac diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in cardiac care units, research institutions, and healthcare settings.",
+        "fees": "70,000/- INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Cardiac Care Technologist",
+            "Cardiac Diagnostics Specialist",
+            "Interventional Cardiology Technologist",
+            "Cardiac Rehabilitation Specialist"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Cardiac Care Technologist",
+                "desc": "Gain expertise in providing advanced cardiac care and support in clinical settings.",
+                "image": "../Courses/paramedical/radiology/technician.jpg"
+            },
+            {
+                "title": "Cardiac Diagnostics Specialist",
+                "desc": "Develop skills in diagnosing cardiac conditions using advanced diagnostic equipment.",
+                "image": "../Courses/paramedical/radiology/educator.jpg"
+            },
+            {
+                "title": "Interventional Cardiology Technologist",
+                "desc": "Learn to assist in interventional cardiology procedures and cardiac catheterization.",
+                "image": "../Courses/paramedical/radiology/image.jpg"
+            },
+            {
+                "title": "Cardiac Rehabilitation Specialist",
+                "desc": "Acquire expertise in designing and implementing cardiac rehabilitation programs.",
+                "image": "../Courses/paramedical/radiology/image.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Advanced training in cardiac care techniques.",
+            "Clinical rotations in cardiac care units.",
+            "Internship in hospital and cardiac care departments.",
+            "Workshops on cutting-edge cardiac research.",
+            "Hands-on experience with advanced cardiac diagnostic equipment."
+        ]
+    },
+    {
+        "id": 34,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "BACHELOR OF SCIENCE IN PHYSIOTHERAPY",
+            "subtitle": "ENHANCING MOBILITY AND WELL-BEING",
+            "background_image": "../Courses/paramedical/Physiotherapy/header.avif"
+        },
+        "program_name": "BSc in Physiotherapy",
+        "program_description": "B.Sc Physiotherapy is an undergraduate degree program that focuses on the study of human movement, physical rehabilitation, and the prevention and treatment of physical impairments. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to assess, diagnose, and treat various musculoskeletal, neurological, and cardiopulmonary conditions. During the course, students learn about anatomy, physiology, biomechanics, exercise therapy, electrotherapy, and manual therapy techniques. They also gain clinical experience through internships and practical training, where they work under the supervision of experienced physiotherapists in hospitals, rehabilitation centers, sports clinics, and other healthcare settings. The goal of a B.Sc Physiotherapy program is to train professionals who can help individuals improve their mobility, manage pain, regain function, and enhance their overall well-being. Graduates can pursue careers as physiotherapists in hospitals, private clinics, sports organizations, and research institutions. They play a crucial role in promoting physical health, preventing injuries, and aiding in the recovery of patients with physical disabilities or limitations.",
+        "fees": "22,000/- INR Per Semester",
+        "duration": "4 Years (Semester System)",
+        "major_tracks": [
+            "Orthopedic Physiotherapist",
+            "Sports Physiotherapist",
+            "Rehabilitation Specialist",
+            "Neurological Physiotherapist",
+            "Stroke Rehabilitation Specialist"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Physiotherapist",
+                "desc": "Assess, diagnose, and treat individuals with musculoskeletal, neurological, and cardiopulmonary conditions to improve their mobility and overall well-being.",
+                "image": "../Courses/paramedical/Physiotherapy/physio.jpg"
+            },
+            {
+                "title": "Sports Physiotherapist",
+                "desc": "Provide specialized physiotherapy services to athletes and individuals involved in sports activities to prevent injuries and optimize performance.",
+                "image": "../Courses/paramedical/Physiotherapy/sports.avif"
+            },
+            {
+                "title": "Orthopedic Therapist",
+                "desc": "Focus on the assessment and treatment of orthopedic conditions and injuries affecting the musculoskeletal system, including fractures, joint disorders, and post-surgical rehabilitation.",
+                "image": "../Courses/paramedical/Physiotherapy/orthopedic.jpg"
+            },
+            {
+                "title": "Neurological Therapist",
+                "desc": "Work with patients who have neurological disorders or injuries, such as stroke, traumatic brain injury, spinal cord injury, or multiple sclerosis, to improve movement, function, and quality of life.",
+                "image": "../Courses/paramedical/Physiotherapy/neuro.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Comprehensive curriculum covering anatomy, physiology, biomechanics, and exercise therapy",
+            "Clinical experience through internships and practical training",
+            "Specialization tracks in orthopedic, sports, neurological, and stroke rehabilitation",
+            "Prepares graduates for careers in hospitals, private clinics, sports organizations, and research institutions"
         ],
 
     },
@@ -2626,6 +3073,102 @@ const data = [
 
     },
     {
+        "id": 31,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "BACHELOR OF SCIENCE IN MEDICAL LABORATORY SCIENCE",
+            "subtitle": "PREPARING HEALTHCARE LABORATORY PROFESSIONALS",
+            "background_image": "../Courses/paramedical/Lab/header.avif"
+        },
+        "program_name": "Bachelor of Science in Medical Laboratory Science",
+        "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
+        "fees": "25,000/- INR Per Semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Laboratory Scientist",
+            "Managerial Supervisor",
+            "Teacher"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Laboratory Scientist",
+                "desc": "Gain expertise in performing laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
+                "image": "../Courses/paramedical/Lab/scientist.avif"
+            },
+            {
+                "title": "Managerial Supervisor",
+                "desc": "Develop leadership and management skills to oversee laboratory operations and supervise laboratory staff.",
+                "image": "../Courses/paramedical/Lab/supervisor.jpg"
+            },
+            {
+                "title": "Teacher",
+                "desc": "Acquire teaching skills to educate future generations of laboratory scientists.",
+                "image": "../Courses/paramedical/Lab/teacher.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 45%. For reserved category candidates, a minimum of 40% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 40% is required."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Extensive hands-on training in laboratory techniques.",
+            "Practical experience in real healthcare settings.",
+            "Advanced research opportunities in medical laboratories.",
+            "Internship placements in leading hospitals and diagnostic centers.",
+            "Specialized workshops on emerging trends in laboratory science."
+        ],
+
+    },
+    {
+        "id": 30,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "BACHELOR OF SCIENCE IN ANESTHESIA",
+            "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
+            "background_image": "../Courses/paramedical/Anasthesia/header.avif"
+        },
+        "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
+        "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
+        "fees": "45,000/- INR Per Semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Operation Theatre Assistant",
+            "Anesthesia Technician"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Operation Theatre Assistant",
+                "desc": "Acquire skills to assist surgeons and nurses in operation theatre procedures.",
+                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+            },
+            {
+                "title": "Anesthesia Technician",
+                "desc": "Learn to assist anesthesiologists in administering anesthesia and monitoring patients during surgical procedures.",
+                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+            },
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have passed 10+2 with Physics, Chemistry & Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on training in anesthesia administration.",
+            "Simulation exercises for emergency anesthesia scenarios.",
+            "Clinical rotations in operation theatres.",
+            "Internship in anesthesia departments.",
+            "Workshops on patient monitoring techniques."
+        ],
+
+    },
+    {
         "id": 29,
         "course_name": "Paramedical",
         "header": {
@@ -2682,160 +3225,64 @@ const data = [
         ],
 
     },
-    {
-        "id": 30,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN ANESTHESIA AND OPERATION THEATRE TECHNOLOGY",
-            "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
-            "background_image": "../Courses/paramedical/Anasthesia/header.avif"
-        },
-        "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
-        "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
-        "fees": "45,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Operation Theatre Assistant",
-            "Anesthesia Technician"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Operation Theatre Assistant",
-                "desc": "Acquire skills to assist surgeons and nurses in operation theatre procedures.",
-                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
-            },
-            {
-                "title": "Anesthesia Technician",
-                "desc": "Learn to assist anesthesiologists in administering anesthesia and monitoring patients during surgical procedures.",
-                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have passed 10+2 with Physics, Chemistry & Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Hands-on training in anesthesia administration.",
-            "Simulation exercises for emergency anesthesia scenarios.",
-            "Clinical rotations in operation theatres.",
-            "Internship in anesthesia departments.",
-            "Workshops on patient monitoring techniques."
-        ],
+    // {
+    //     "id": 32,
+    //     "course_name": "Paramedical",
+    //     "header": {
+    //         "title": "DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY",
+    //         "subtitle": "TRAINING SKILLED LAB TECHNICIANS",
+    //         "background_image": "../Courses/paramedical/DMLT/header.avif"
+    //     },
+    //     "program_name": "Diploma in Medical Laboratory Technology",
+    //     "program_description": "Diploma in Medical Laboratory Technology is a 3-year program designed to impart experiential learning to students to develop the desired workforce to combat the ever-increasing demand for medical lab technicians in the healthcare sector. The program is designed with specific inputs from industry experts, based on the latest technologies available and in practice, for individuals interested in entering the field of clinical laboratory science. It covers all aspects of clinical lab analysis including analysis of body matter, Hematology, Biochemistry, Pathology, Microbiology, Serology, and Blood Banking, etc. Students will also learn operations of advanced lab equipment used for providing various laboratory test reports. Diploma holders in medical lab technology would typically be recruited as medical lab technicians, technologists, lab information system analysts, healthcare administrators, and hospital outreach assistant coordinators.",
+    //     "fees": "20,000/- INR Per Semester",
+    //     "duration": "3 Years (Semester System)",
+    //     "major_tracks": [
+    //         "Medical Lab Technician",
+    //         "Technologist",
+    //         "Lab Information System Analyst",
+    //         "Healthcare Administrator",
+    //         "Hospital Outreach Assistant Coordinator"
+    //     ],
+    //     "program_outcomes": [
+    //         {
+    //             "title": "Medical Lab Technician",
+    //             "desc": "Perform clinical laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
+    //             "image": "../Courses/paramedical/DMLT/technician.jpg"
+    //         },
+    //         {
+    //             "title": "Technologist",
+    //             "desc": "Operate advanced laboratory equipment and ensure accurate and timely reporting of laboratory test results.",
+    //             "image": "../Courses/paramedical/DMLT/technologist.avif"
+    //         },
+    //         {
+    //             "title": "Lab Information System Analyst",
+    //             "desc": "Analyze and manage laboratory information systems to ensure efficient workflow and data accuracy.",
+    //             "image": "../Courses/paramedical/DMLT/analyst.jpg"
+    //         },
+    //         {
+    //             "title": "Healthcare Administrator",
+    //             "desc": "Oversee and coordinate laboratory operations within healthcare facilities to ensure quality patient care.",
+    //             "image": "../Courses/paramedical/DMLT/healthcare.jpg"
+    //         },
+    //     ],
+    //     "eligibility_criteria": {
+    //         "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
+    //     },
+    //     "affiliation": {
+    //         "affiliated_to": "Swami Vivekanand Paramedical College",
+    //         "approved_by": "AICTE"
+    //     },
+    //     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    //     "program_highlights": [
+    //         "Hands-on training with state-of-the-art laboratory equipment.",
+    //         "Practical experience in various clinical settings.",
+    //         "Industry-relevant curriculum designed by experts.",
+    //         "Internship opportunities in leading healthcare institutions.",
+    //         "Career guidance and placement support services."
+    //     ],
 
-    },
-    {
-        "id": 31,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN MEDICAL LABORATORY SCIENCE",
-            "subtitle": "PREPARING HEALTHCARE LABORATORY PROFESSIONALS",
-            "background_image": "../Courses/paramedical/Lab/header.avif"
-        },
-        "program_name": "Bachelor of Science in Medical Laboratory Science",
-        "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
-        "fees": "25,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Laboratory Scientist",
-            "Managerial Supervisor",
-            "Teacher"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Laboratory Scientist",
-                "desc": "Gain expertise in performing laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
-                "image": "../Courses/paramedical/Lab/scientist.avif"
-            },
-            {
-                "title": "Managerial Supervisor",
-                "desc": "Develop leadership and management skills to oversee laboratory operations and supervise laboratory staff.",
-                "image": "../Courses/paramedical/Lab/supervisor.jpg"
-            },
-            {
-                "title": "Teacher",
-                "desc": "Acquire teaching skills to educate future generations of laboratory scientists.",
-                "image": "../Courses/paramedical/Lab/teacher.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 45%. For reserved category candidates, a minimum of 40% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 40% is required."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Extensive hands-on training in laboratory techniques.",
-            "Practical experience in real healthcare settings.",
-            "Advanced research opportunities in medical laboratories.",
-            "Internship placements in leading hospitals and diagnostic centers.",
-            "Specialized workshops on emerging trends in laboratory science."
-        ],
-
-    },
-    {
-        "id": 32,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY",
-            "subtitle": "TRAINING SKILLED LAB TECHNICIANS",
-            "background_image": "../Courses/paramedical/DMLT/header.avif"
-        },
-        "program_name": "Diploma in Medical Laboratory Technology",
-        "program_description": "Diploma in Medical Laboratory Technology is a 3-year program designed to impart experiential learning to students to develop the desired workforce to combat the ever-increasing demand for medical lab technicians in the healthcare sector. The program is designed with specific inputs from industry experts, based on the latest technologies available and in practice, for individuals interested in entering the field of clinical laboratory science. It covers all aspects of clinical lab analysis including analysis of body matter, Hematology, Biochemistry, Pathology, Microbiology, Serology, and Blood Banking, etc. Students will also learn operations of advanced lab equipment used for providing various laboratory test reports. Diploma holders in medical lab technology would typically be recruited as medical lab technicians, technologists, lab information system analysts, healthcare administrators, and hospital outreach assistant coordinators.",
-        "fees": "20,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Medical Lab Technician",
-            "Technologist",
-            "Lab Information System Analyst",
-            "Healthcare Administrator",
-            "Hospital Outreach Assistant Coordinator"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Medical Lab Technician",
-                "desc": "Perform clinical laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
-                "image": "../Courses/paramedical/DMLT/technician.jpg"
-            },
-            {
-                "title": "Technologist",
-                "desc": "Operate advanced laboratory equipment and ensure accurate and timely reporting of laboratory test results.",
-                "image": "../Courses/paramedical/DMLT/technologist.avif"
-            },
-            {
-                "title": "Lab Information System Analyst",
-                "desc": "Analyze and manage laboratory information systems to ensure efficient workflow and data accuracy.",
-                "image": "../Courses/paramedical/DMLT/analyst.jpg"
-            },
-            {
-                "title": "Healthcare Administrator",
-                "desc": "Oversee and coordinate laboratory operations within healthcare facilities to ensure quality patient care.",
-                "image": "../Courses/paramedical/DMLT/healthcare.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Hands-on training with state-of-the-art laboratory equipment.",
-            "Practical experience in various clinical settings.",
-            "Industry-relevant curriculum designed by experts.",
-            "Internship opportunities in leading healthcare institutions.",
-            "Career guidance and placement support services."
-        ],
-
-    },
+    // },
     {
         "id": 33,
         "course_name": "Paramedical",
@@ -2889,277 +3336,6 @@ const data = [
             "Career development workshops and seminars."
         ],
 
-    },
-    {
-        "id": 34,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN PHYSIOTHERAPY",
-            "subtitle": "ENHANCING MOBILITY AND WELL-BEING",
-            "background_image": "../Courses/paramedical/Physiotherapy/header.avif"
-        },
-        "program_name": "BSc in Physiotherapy",
-        "program_description": "B.Sc Physiotherapy is an undergraduate degree program that focuses on the study of human movement, physical rehabilitation, and the prevention and treatment of physical impairments. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to assess, diagnose, and treat various musculoskeletal, neurological, and cardiopulmonary conditions. During the course, students learn about anatomy, physiology, biomechanics, exercise therapy, electrotherapy, and manual therapy techniques. They also gain clinical experience through internships and practical training, where they work under the supervision of experienced physiotherapists in hospitals, rehabilitation centers, sports clinics, and other healthcare settings. The goal of a B.Sc Physiotherapy program is to train professionals who can help individuals improve their mobility, manage pain, regain function, and enhance their overall well-being. Graduates can pursue careers as physiotherapists in hospitals, private clinics, sports organizations, and research institutions. They play a crucial role in promoting physical health, preventing injuries, and aiding in the recovery of patients with physical disabilities or limitations.",
-        "fees": "22,000/- INR Per Semester",
-        "duration": "4 Years (Semester System)",
-        "major_tracks": [
-            "Orthopedic Physiotherapist",
-            "Sports Physiotherapist",
-            "Rehabilitation Specialist",
-            "Neurological Physiotherapist",
-            "Stroke Rehabilitation Specialist"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Physiotherapist",
-                "desc": "Assess, diagnose, and treat individuals with musculoskeletal, neurological, and cardiopulmonary conditions to improve their mobility and overall well-being.",
-                "image": "../Courses/paramedical/Physiotherapy/physio.jpg"
-            },
-            {
-                "title": "Sports Physiotherapist",
-                "desc": "Provide specialized physiotherapy services to athletes and individuals involved in sports activities to prevent injuries and optimize performance.",
-                "image": "../Courses/paramedical/Physiotherapy/sports.avif"
-            },
-            {
-                "title": "Orthopedic Therapist",
-                "desc": "Focus on the assessment and treatment of orthopedic conditions and injuries affecting the musculoskeletal system, including fractures, joint disorders, and post-surgical rehabilitation.",
-                "image": "../Courses/paramedical/Physiotherapy/orthopedic.jpg"
-            },
-            {
-                "title": "Neurological Therapist",
-                "desc": "Work with patients who have neurological disorders or injuries, such as stroke, traumatic brain injury, spinal cord injury, or multiple sclerosis, to improve movement, function, and quality of life.",
-                "image": "../Courses/paramedical/Physiotherapy/neuro.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Comprehensive curriculum covering anatomy, physiology, biomechanics, and exercise therapy",
-            "Clinical experience through internships and practical training",
-            "Specialization tracks in orthopedic, sports, neurological, and stroke rehabilitation",
-            "Prepares graduates for careers in hospitals, private clinics, sports organizations, and research institutions"
-        ],
-
-    },
-
-
-    // BASIC SCIENCES
-    {
-        "id": 37,
-        "course_name": "Basic Science",
-        "header": {
-            "title": "MASTER OF SCIENCE IN CHEMISTRY",
-            "subtitle": "EXPLORING THE FUNDAMENTALS OF CHEMISTRY",
-            "background_image": "../Courses/Science/Chemistry/header.avif"
-        },
-        "program_name": "Master of Science (M.Sc.) in Chemistry",
-        "program_description": "Master of Science (M.Sc.) in Chemistry offers a wide range of courses including Inorganic Chemistry, Organic Chemistry, Medicinal Chemistry, Supramolecular Chemistry, etc. Experts from Pure and Applied Chemistry domain will teach the courses, and students will develop a thorough understanding of fundamentals and experimental concepts of Chemistry. There will be opportunity for the students to participate in an extensive and varied seminar programme and gain experience in a large variety of projects.",
-        "fees": "18,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Inorganic Chemistry",
-            "Organic Chemistry",
-            "Medicinal Chemistry",
-            "Supramolecular Chemistry"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Expertise in Various Chemistry Disciplines",
-                "desc": "Develop expertise in areas such as Inorganic Chemistry, Organic Chemistry, Medicinal Chemistry, and Supramolecular Chemistry.",
-                "image": "../Courses/Science/Chemistry/expertise.jpg"
-            },
-            {
-                "title": "Thorough Understanding of Chemical Fundamentals",
-                "desc": "Gain a deep understanding of the fundamental principles and experimental concepts of Chemistry.",
-                "image": "../Courses/Science/Chemistry/chemical.jpg"
-            },
-            {
-                "title": "Participation in Seminars and Projects",
-                "desc": "Engage in an extensive seminar programme and participate in a variety of projects to gain practical experience.",
-                "image": "../Courses/Science/Chemistry/seminars.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "All those candidates who have passed 10th and 12th in non med/med and B.sc with Chemistry with atleast 50% marks and for reserved category minimum 45%."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Wide range of courses covering various branches of chemistry",
-            "Opportunity to participate in extensive seminar programs and projects",
-            "Expert faculty from Pure and Applied Chemistry domain",
-            "Development of problem-solving skills through practical experience"
-        ],
-
-    },
-    {
-        "id": 38,
-        "course_name": "Basic Science",
-        "header": {
-            "title": "MASTER OF SCIENCE IN MATHEMATICS",
-            "subtitle": "EXPLORING THE WORLD OF MATHEMATICAL SCIENCES",
-            "background_image": "../Courses/Science/Maths/header.avif"
-        },
-        "program_name": "Master of Science (M.Sc.) in Mathematics",
-        "program_description": "Master of Science (M.Sc.) in Mathematics offers a comprehensive study of various branches of mathematics including Pure Mathematics, Applied Mathematics, Mathematical Modeling, and Computational Mathematics. The program is designed to provide students with a deep understanding of mathematical theories, methods, and applications. Expert faculty members guide students through advanced topics and help them develop problem-solving skills. Students have the opportunity to engage in research projects, seminars, and practical applications to explore the diverse applications of mathematics in various fields.",
-        "fees": "18,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Pure Mathematics",
-            "Applied Mathematics",
-            "Mathematical Modeling",
-            "Computational Mathematics"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Expertise in Various Mathematical Disciplines",
-                "desc": "Develop expertise in Pure Mathematics, Applied Mathematics, Mathematical Modeling, and Computational Mathematics.",
-                "image": "../Courses/Science/Maths/expertise.avif"
-            },
-            {
-                "title": "Advanced Problem-Solving Skills",
-                "desc": "Enhance problem-solving abilities through rigorous mathematical training and practice.",
-                "image": "../Courses/Science/Maths/solving.jpg"
-            },
-            {
-                "title": "Research and Practical Application",
-                "desc": "Engage in research projects, seminars, and practical applications to explore the diverse applications of mathematics.",
-                "image": "../Courses/Science/Maths/research.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must hold a Bachelor's degree in Mathematics or a related field with at least 50% marks (45% for reserved categories) from a recognized institution."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Comprehensive study of various branches of mathematics",
-            "Guidance from expert faculty in advanced topics",
-            "Engagement in research projects and seminars",
-            "Development of problem-solving skills through practical applications"
-        ]
-        ,
-        "labs": []
-    },
-    {
-        "id": 39,
-        "course_name": "Basic Science",
-        "header": {
-            "title": "MASTER OF SCIENCE IN PHYSICS",
-            "subtitle": "EXPLORING THE FRONTIERS OF PHYSICS",
-            "background_image": "../Courses/Science/Physics/header.avif"
-        },
-        "program_name": "Master of Science (M.Sc.) in Physics",
-        "program_description": "The Master of Science (M.Sc.) in Physics program is designed to prepare students for a research career in academia or industry by introducing advanced ideas and techniques applicable in various research areas. Emphasis is placed on developing a deep understanding of physics principles and concepts, along with proficiency in experimentation to explore both theoretical and experimental dimensions of physics. The program aims to equip students with high-level theoretical knowledge to tackle complex problems in industrial fields and pursue further academic achievements through research.",
-        "fees": "18,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Quantum Mechanics",
-            "Statistical Mechanics",
-            "Electrodynamics",
-            "Solid State Physics",
-            "Nuclear Physics"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Advanced Theoretical Knowledge",
-                "desc": "Develop advanced theoretical knowledge in various areas of physics.",
-                "image": "../Courses/Science/Physics/theory.avif"
-            },
-            {
-                "title": "Proficiency in Experimentation",
-                "desc": "Acquire proficiency in experimental techniques to explore theoretical and experimental aspects of physics.",
-                "image": "../Courses/Science/Physics/experiments.jpg"
-            },
-            {
-                "title": "Research Skills",
-                "desc": "Develop research skills to pursue further academic achievements and tackle complex problems in industrial fields.",
-                "image": "../Courses/Science/Physics/research.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have passed B.Sc. with Physics & Mathematics as compulsory subjects with at least 50% marks in aggregate in the qualifying examination."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Preparation for research careers in academia or industry",
-            "Emphasis on theoretical understanding and experimental proficiency",
-            "Engagement in advanced topics and techniques",
-            "Development of research skills for academic and industrial pursuits"
-        ],
-        "labs": []
-    },
-    {
-        "id": 40,
-        "course_name": "Basic Science",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN NON-MEDICAL",
-            "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
-            "background_image": "../Courses/Science/Non-Medical/header.avif"
-        },
-        "program_name": "B.Sc. in Non-Medical",
-        "program_description": "The Bachelor of Science (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
-        "fees": "15,000/- INR Per Semester",
-        "duration": "3 Years",
-        "major_tracks": [
-            "Application Development",
-            "Computer Systems Management",
-            "Mathematical Modeling",
-            "Data Analysis and Interpretation"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Application Development Skills",
-                "desc": "Develop skills in application development for computer systems.",
-                "image": "../Courses/Science/Non-Medical/app.jpg"
-            },
-            {
-                "title": "Computer Operations Proficiency",
-                "desc": "Gain proficiency in computer operations and system management.",
-                "image": "../Courses/Science/Non-Medical/operations.avif"
-            },
-            {
-                "title": "Problem-solving Abilities",
-                "desc": "Enhance problem-solving abilities through mathematical and scientific principles.",
-                "image": "../Courses/Science/Non-Medical/problem.jpg"
-            },
-            {
-                "title": "Research and Analysis Skills",
-                "desc": "Acquire research and analysis skills for exploring advancements in computer applications.",
-                "image": "../Courses/Science/Non-Medical/research.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Math, or in medical with Math with at least 45%. For reserved category, minimum 40% in Physics, Chemistry, and Math, or in medical with Math with at least 40%."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Specialized study of computer applications and services",
-            "Emphasis on technological implementation of computer systems",
-            "Opportunities for research and practical applications",
-            "Development of problem-solving and analysis skills"
-        ],
-        "labs": []
     },
 ]
 
