@@ -36,12 +36,11 @@ const Footer = () => {
                         <ul className="leading-loose text-sm font-light">
                             <li><a href="https://uj.servergi.com:8079/ISIMSVIET/login">Student ERP Login</a></li>
                             <li><a href="https://uj.servergi.com:8079/SIMWEBSVIET/Login">Faculty ERP Login</a></li>
-                            <li><a href="#">SVGOI in your town</a></li>
-                            <li><a href="#" download={'/public/ebrochure.pdf'}>E-Brochure</a></li>
+                            <li><Link href="/svgoi-in-town">SVGOI in your town</Link></li>
+                            <li><Link href="/svgoi-brochure.pdf">E-Brochure</Link></li>
                             <li><a href="https://admission.sviet.ac.in/">How to Apply</a></li>
                             <li><a href="http://svietiti.in/index.html">SVIET - ITI</a></li>
-                            <li><a href="https://gdscsviet.netlify.app/ideathon">Ideathon</a></li>
-                            <li><a href="https://sviet.ac.in/Technothon/">Techathon</a></li>
+                           
                         </ul>
                     </div>
                     {/* Academics section */}
@@ -49,8 +48,8 @@ const Footer = () => {
                         <div className="heading text-xl font-semibold mb-4">Quick Links</div>
                         <ul className="leading-loose text-sm font-light">
                             <li><a href="/placement">Placement Overview</a></li>
-                            <li><Link href="/about">Career at SVGOI</Link></li>
-                            <li><Link href="/about">Recognitions Approvals</Link></li>
+                            {/* <li><Link href="/about">Career at SVGOI</Link></li> */}
+                            {/* <li><Link href="/about">Recognitions Approvals</Link></li> */}
                             {/* <li><a href="#">Video Gallery</a></li> */}
                             <li><a href="https://drive.google.com/drive/folders/1Z5x76AQUJEdBp1o-rH4cHMYg3coY1lDu">Photo Gallery</a></li>
                             <li><Link href="/contact-us">Grievances/Enquiry</Link></li>

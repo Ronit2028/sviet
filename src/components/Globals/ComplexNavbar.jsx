@@ -97,7 +97,7 @@ function ComplexNavbar() {
         },
         {
             label: 'Business Studies',
-            subcategories: ['Master in Business Administration(MBA)', 'Bachelor in Business Administration (BBA)', 'Bachelor for Commerce(B.Com)', 'Master of Commerce (M.Com)']
+            subcategories: ['Master in Business Administration(MBA)', 'Bachelor in Business Administration (BBA)', 'Master of Commerce (M.Com)']
         },
         {
             label: 'Paramedical',

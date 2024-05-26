@@ -711,169 +711,266 @@ const data = [
             "description": "Perform quality assurance tests and analysis.",
             "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
         },
-        {
-            "title": "Pharma Chemistry Lab",
-            "description": "Study pharmaceutical chemistry and its applications.",
-            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-        }
-    ]
-},
-{
-    "id": 14,
-    "course_name": "Pharmacy",
-    event_type: "Pharmacy",
-    "header": {
-        "title": "MASTERS OF PHARMACY",
-        "subtitle": "SHAPE THE FUTURE OF PHARMACEUTICS",
-        "background_image": "../Courses/pharmacy/Mpharma/Mpharma.jpg"
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Foundational Knowledge: Gain a strong understanding of electrical engineering principles.",
+            "Practical Experience: Hands-on training through labs, projects, and internships.",
+            "Specialization Opportunities: Choose from various tracks such as circuit theory, power systems, and control systems.",
+            "Career Pathways: Prepare for roles as electrical engineers, power systems engineers, control systems engineers, and electronics engineers."
+        ],
+        "labs": [
+            {
+                "title": "Power Systems Lab",
+                "description": "Explore power systems concepts and applications in a hands-on environment.",
+                "image": "../Courses/BTech/ee/lab/Power.jpg"
+            },
+            {
+                "title": "Electronics Lab",
+                "description": "Practice electronic circuit design, analysis, and testing using industry-standard equipment.",
+                "image": "../Courses/BTech/ee/lab/Electronics.jpg"
+            },
+            {
+                "title": "Renewable Energy Lab",
+                "description": "Experiment with renewable energy sources and technologies such as solar, wind, and hydroelectric power.",
+                "image": "../Courses/BTech/ee/lab/energy.jpg"
+            }
+        ]
     },
-    "program_name": "Master of Pharmacy in Pharmaceutics",
-    "program_description": "Master of Pharmacy in Pharmaceutics is a postgraduate degree course that is structured to provide entire technical, research, practical, and theoretical knowledge of pharmacy including traditional and modern medicines. The program aims to create skilled and competent Pharmaceutical Research Professionals, Technology Analysts, Pre-Clinical & Clinical Scientists, Academicians, Pharma Corporate Executives & Entrepreneurs, and Clinical Pharmacists. This program provides additional knowledge of medical drugs and aids. The curriculum includes in-depth study of Pharmaceutical Sciences, Discovery Development, Technology, Practice, Industry & Business.",
-    "fees": "50,000/- Per Semester",
-    "duration": "2 Years",
-    "major_tracks": [
-        "Customs Officer",
-        "Analytical Chemist",
-        "Drug Inspector",
-        "Drug Analyst"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Pharmaceutical Research Professional",
-            "desc": "Conduct research and development in the field of pharmaceutics.",
-            "image": "../Courses/pharmacy/Mpharma/research.jpg"
+    {
+        "id": 11,
+        "course_name": "Diploma",
+        event_type: "Engineering",
+        "header": {
+            "title": "DIPLOMA IN MECHANICAL ENGINEERING",
+            "subtitle": "MASTER THE MECHANICS WITH",
+            "background_image": "@/assets/Programs/backdrop.jpg"
         },
-        {
-            "title": "Technology Analyst",
-            "desc": "Analyze and implement new technologies in pharmaceutical manufacturing.",
-            "image": "../Courses/pharmacy/Mpharma/tech.jpg"
+        "program_name": "Diploma in Mechanical Engineering",
+        "program_description": "A Diploma in Mechanical Engineering is a program that provides students with a comprehensive understanding of mechanical principles and engineering concepts. It covers subjects such as mechanics, thermodynamics, fluid mechanics, materials science, manufacturing processes, and machine design. During the program, students gain practical skills through laboratory work, projects, and internships. They learn to design, analyze, and maintain mechanical systems and components, as well as use computer-aided design (CAD) software and simulation tools. The diploma prepares graduates for entry-level positions in industries such as manufacturing, automotive, aerospace, energy, and robotics. They can work as mechanical technicians, design assistants, quality control inspectors, or pursue further studies in mechanical engineering. Overall, a Diploma in Mechanical Engineering equips students with the knowledge and skills needed to work with machines, analyze mechanical systems, and contribute to the design, development, and maintenance of mechanical projects. It offers a pathway to a rewarding career in the field of mechanical engineering.",
+        "fees": "TBD (To Be Disclosed)",
+        "duration": "3 Years",
+        "major_tracks": [
+            "Mechanics",
+            "Thermodynamics",
+            "Fluid Mechanics",
+            "Materials Science",
+            "Manufacturing Processes",
+            "Machine Design"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Mechanical Technician",
+                "desc": "Develop skills to assist in the design, analysis, and maintenance of mechanical systems.",
+                "image": "../Courses/diploma/me/mechanical.jpg"
+            },
+            {
+                "title": "Design Assistant",
+                "desc": "Learn to support mechanical engineers in designing and developing mechanical components and systems.",
+                "image": "../Courses/diploma/me/design.jpg"
+            },
+            {
+                "title": "Quality Control Inspector",
+                "desc": "Master techniques to inspect and ensure the quality and performance of mechanical products.",
+                "image": "../Courses/diploma/me/quality.jpg"
+            },
+            {
+                "title": "Manufacturing Technician",
+                "desc": "Graduates can work in manufacturing industries, assisting in the production and assembly of mechanical parts and products. They may operate machinery, monitor production processes, and ensure product quality and efficiency",
+                "image": "../Courses/diploma/me/mt.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
-        {
-            "title": "Pharma Corporate Executive & Entrepreneur",
-            "desc": "Lead pharmaceutical companies or start own ventures in the pharmaceutical industry.",
-            "image": "../Courses/pharmacy/Mpharma/corporate.jpg"
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
         },
-        {
-            "title": "Clinical Pharmacist",
-            "desc": "Provide pharmaceutical care to patients in clinical settings.",
-            "image": "../Courses/pharmacy/Mpharma/clinical.jpg"
-        }
-    ],
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-    "program_highlights": [
-        "Cutting-Edge Curriculum: Stay updated with the latest advancements in pharmaceutics.",
-        "Hands-On Learning: Practical training in pharmaceutical research and technology.",
-        "Industry Immersion: Internship opportunities with leading pharmaceutical companies.",
-        "Career Development: Guidance and support for career advancement in the pharmaceutical industry."
-    ],
-    "eligibility_criteria": {
-        "eligibility": "All those candidates who have passed the Bachelor in Pharmacy from an Institution affiliated to a recognized University with at least 50% marks (40% in case of candidate belonging to SC/ST category) shall be eligible to apply."
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Comprehensive Curriculum: Covering mechanical principles and engineering concepts.",
+            "Practical Experience: Hands-on training through labs, projects, and internships.",
+            "Career Opportunities: Prepare for entry-level positions in various industries such as manufacturing, automotive, aerospace, and energy.",
+            "Pathway to Further Studies: Option to pursue higher education in mechanical engineering."
+        ],
+        "labs": [
+            {
+                "title": "Thermodynamics Lab",
+                "description": "Experiment with thermodynamic principles and study heat transfer phenomena.",
+                "image": "../Courses/BTech/me/lab/thermo.jpg"
+            },
+            {
+                "title": "Machine Design Lab",
+                "description": "Apply engineering design principles to create and analyze machine components.",
+                "image": "../Courses/BTech/me/lab/machine.jpg"
+            },
+            {
+                "title": "Robotics Lab",
+                "description": "Design and program robotic systems to perform various tasks and operations.",
+                "image": "../Courses/BTech/me/lab/robotics.jpg"
+            }
+        ]
     },
-    "affiliation": {
-        "affiliated_to": "IKPTU, Jalandhar",
-        "approved_by": "AICTE"
+    {
+        "id": 12,
+        "course_name": "Diploma",
+        event_type: "Engineering",
+        "header": {
+            "title": "DIPLOMA IN CIVIL ENGINEERING",
+            "subtitle": "SHAPE THE INFRASTRUCTURE WITH",
+            "background_image": "../Courses/diploma/civil/civilheader.jpg"
+        },
+        "program_name": "Diploma in Civil Engineering",
+        "program_description": "A Diploma in Civil Engineering is a program that provides students with a fundamental understanding of civil engineering principles and concepts. It covers subjects such as structural analysis, construction materials, surveying, geotechnical engineering, transportation engineering, and project management. During the program, students gain practical skills through laboratory work, field surveys, and internships. They learn to design and construct various civil engineering projects, such as buildings, roads, bridges, and infrastructure systems. They also develop skills in using computer-aided design (CAD) software and other relevant tools. Overall, a Diploma in Civil Engineering equips students with the knowledge and skills needed to contribute to the planning, design, construction, and maintenance of civil engineering projects. It offers a pathway to a fulfilling career in the field of civil engineering, playing a crucial role in shaping the built environment.",
+        "fees": "TBD (To Be Disclosed)",
+        "duration": "3 Years",
+        "major_tracks": [
+            "Structural Analysis",
+            "Construction Materials",
+            "Surveying",
+            "Geotechnical Engineering",
+            "Transportation Engineering",
+            "Project Management"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Civil Engineering Technician",
+                "desc": "Develop skills to assist in the planning, design, and construction of civil engineering projects.",
+                "image": "../Courses/diploma/civil/civil.jpg"
+            },
+            {
+                "title": "Surveying Assistant",
+                "desc": "Learn to conduct surveys and collect data for civil engineering projects.",
+                "image": "../Courses/diploma/civil/survey.jpg"
+            },
+            {
+                "title": "Construction Supervisor",
+                "desc": "Master techniques to supervise and manage construction activities on civil engineering sites.",
+                "image": "../Courses/diploma/civil/construction.jpg"
+            },
+            {
+                "title": "Site Engineer",
+                "desc": "Graduates can work as site engineers, overseeing construction activities on-site. Their responsibilities include site inspection, quantity estimation, project scheduling, and team supervision.",
+                "image": "../Courses/diploma/civil/site.jpg"
+            },
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Fundamental Understanding: Covering civil engineering principles and concepts.",
+            "Practical Experience: Hands-on training through labs, field surveys, and internships.",
+            "Career Opportunities: Prepare for roles in planning, design, construction, and maintenance of civil engineering projects.",
+            "Pathway to Further Studies: Option to pursue higher education in civil engineering."
+        ],
+        "labs": [
+            {
+                "title": "Structural Engineering Lab",
+                "description": "Experiment with structural analysis and design of buildings and bridges.",
+                "image": "../Courses/BTech/civil/lab/structural.jpg"
+            },
+            {
+                "title": "Geotechnical Engineering Lab",
+                "description": "Study soil properties and behavior to design foundations and earth structures.",
+                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
+            },
+            {
+                "title": "Environmental Engineering Lab",
+                "description": "Analyze water and air quality, and design solutions for environmental protection.",
+                "image": "../Courses/BTech/civil/lab/environmental.jpg"
+            }
+        ]
     },
-    "labs": [
-        {
-            "title": "Research Lab",
-            "description": "Conduct research activities related to pharmaceuticals.",
-            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+
+    // PHARMACY
+    {
+        "id": 13,
+        "course_name": "Pharmacy",
+        
+        event_type: "Pharmacy",
+        "header": {
+            "title": "Bachelor of Pharmacy",
+            "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
+            "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
-        {
-            "title": "Practical Lab",
-            "description": "Engage in hands-on practical experiments and learning.",
-            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+        "program_name": "BACHELOR OF PHARMACY",
+        "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
+        "fees": "52000/- INR Per Semester",
+        "duration": "4 years",
+        "major_tracks": [
+            "Customs Officer",
+            "Analytical Chemist",
+            "Drug Inspector",
+            "Drug Analyst"
+        ],
+        "program_outcomes": [
+            {
+                "title": "R&D Scientist",
+                "desc": "Conduct research and development activities in pharmaceuticals.",
+                "image": "../Courses/pharmacy/pharm/rd.jpg"
+            },
+            {
+                "title": "Drug Inspector",
+                "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
+                "image": "../Courses/pharmacy/pharm/drug.jpg"
+            },
+            {
+                "title": "Quality Assurance",
+                "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
+                "image": "../Courses/pharmacy/pharm/qua.jpg"
+            },
+            {
+                "title": "Pharmacist",
+                "desc": "Dispense medications and provide patient education on drug usage and side effects.",
+                "image": "../Courses/pharmacy/pharm/pharma.jpg"
+            }
+        ],
+        "labs": [
+            {
+                "title": "Research Lab",
+                "description": "Conduct research activities related to pharmaceuticals.",
+                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+            },
+            {
+                "title": "Practical Lab",
+                "description": "Engage in hands-on practical experiments and learning.",
+                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+            },
+            {
+                "title": "QA Lab",
+                "description": "Perform quality assurance tests and analysis.",
+                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+            },
+            {
+                "title": "Pharma Chemistry Lab",
+                "description": "Study pharmaceutical chemistry and its applications.",
+                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
         },
-        {
-            "title": "QA Lab",
-            "description": "Perform quality assurance tests and analysis.",
-            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
         },
-        {
-            "title": "Pharma Chemistry Lab",
-            "description": "Study pharmaceutical chemistry and its applications.",
-            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-        }
-    ]
-},
-{
-    "id": 13,
-    "course_name": "Pharmacy",
-    event_type: "Pharmacy",
-    "header": {
-        "title": "BACHELOR OF PHARMACY",
-        "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
-        "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Practical Exposure: Hands-on training in pharmaceutical practices.",
+            "Industry Internship: Gain real-world experience through industry internships.",
+            "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
+            "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
+        ]
     },
-    "program_name": "BACHELOR OF PHARMACY",
-    "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
-    "fees": "52000/- INR Per Semester",
-    "duration": "4 years",
-    "major_tracks": [
-        "Customs Officer",
-        "Analytical Chemist",
-        "Drug Inspector",
-        "Drug Analyst"
-    ],
-    "program_outcomes": [
-        {
-            "title": "R&D Scientist",
-            "desc": "Conduct research and development activities in pharmaceuticals.",
-            "image": "../Courses/pharmacy/pharm/rd.jpg"
-        },
-        {
-            "title": "Drug Inspector",
-            "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
-            "image": "../Courses/pharmacy/pharm/drug.jpg"
-        },
-        {
-            "title": "Quality Assurance",
-            "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
-            "image": "../Courses/pharmacy/pharm/qua.jpg"
-        },
-        {
-            "title": "Pharmacist",
-            "desc": "Dispense medications and provide patient education on drug usage and side effects.",
-            "image": "../Courses/pharmacy/pharm/pharma.jpg"
-        }
-    ],
-    "labs": [
-        {
-            "title": "Research Lab",
-            "description": "Conduct research activities related to pharmaceuticals.",
-            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
-        },
-        {
-            "title": "Practical Lab",
-            "description": "Engage in hands-on practical experiments and learning.",
-            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
-        },
-        {
-            "title": "QA Lab",
-            "description": "Perform quality assurance tests and analysis.",
-            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
-        },
-        {
-            "title": "Pharma Chemistry Lab",
-            "description": "Study pharmaceutical chemistry and its applications.",
-            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
-    },
-    "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
-    },
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-    "program_highlights": [
-        "Practical Exposure: Hands-on training in pharmaceutical practices.",
-        "Industry Internship: Gain real-world experience through industry internships.",
-        "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
-        "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
-    ]
-},
 
 
 {

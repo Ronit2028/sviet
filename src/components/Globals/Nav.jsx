@@ -654,7 +654,9 @@ export function ComplexNavbar() {
               <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsvietofficial"><i className="fab fa-twitter mx-1"></i></a>
             </div>
             <div className="w-1/3 flex items-center text-sm font-semibold justify-end gap-2 pr-6"><span className="text-sm font-semibold">Get Connected:</span>
-              <i className="fab fa-whatsapp mx-1"></i>
+              <a href="https://wa.me/7347411011">
+                <i className="fab fa-whatsapp mx-1"></i>
+              </a>
               <span className="mx-1">360&#xb0;</span>
               <i className="far fa-compass mx-1"></i>
             </div>
@@ -680,12 +682,12 @@ export function ComplexNavbar() {
           </IconButton>
           <Link href="https://admission.sviet.ac.in/">
             <Button className="border-2 xl:mr-16  bg-gray-800 lg:p-3 lg:text-lg   text-gray-100" size="sm" variant="text">
-            <span>Apply Now</span>
+              <span>Apply Now</span>
 
-          </Button>
-        </Link>
-          </div>
-          
+            </Button>
+          </Link>
+        </div>
+
         {/* <ProfileMenu /> */}
       </div>
 

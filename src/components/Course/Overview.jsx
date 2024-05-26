@@ -1,4 +1,8 @@
+// "use client"
+
 import React from 'react';
+import Link from 'next/link';
+
 
 const Overview = ({ programOverview, majorTracks, duration, programName, fees, brochureDownloadLink, courseStructureDownloadLink, highestCTC }) => {
     return (
@@ -30,28 +34,31 @@ const Overview = ({ programOverview, majorTracks, duration, programName, fees, b
                 </div>
                 <div className='w-full bg-gray-100 p-6 md:p-10 rounded-md'>
                     <div className='pb-7 mb-7 border-b-2'>
-                        <p className="text-2xl font-medium text-[#fea700] ">Fees :</p>
+                        <p className="text-2xl font-medium mb-5">Fees :</p>
                         <div className='flex flex-wrap justify-between'>
-                            <p className='text-3xl font-medium'>{fees}</p>
-                            <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md '> <i className='fa fa-arrow-right ml-1'></i></button>
+                            {/* <p className='text-3xl font-medium'>{fees}</p> */}
+                            <Link href="/fee-structure.pdf">
+                                <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md '>Download Fee Structure <i className='fa fa-arrow-right ml-1'></i></button>
+                            </Link>
                         </div>
                     </div>
                     <div className='pb-7 mb-7 border-b-2 flex justify-between flex-wrap'>
                         <div className='flex flex-wrap gap-2 items-center'>
                             <p className='text-lg font-medium'>Download Brochure :</p>
-                            <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md hover:rounded-full transition'><i className='fa fa-download'></i></button>
-                        </div>
-                        <div className='flex flex-wrap gap-2 items-center'>
+                            <Link href="/svgoi-brochure.pdf">
+                                <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md hover:rounded-full transition'><i className='fa fa-download'></i></button>
+                            </Link>     </div>
+                        {/* <div className='flex flex-wrap gap-2 items-center'>
                             <p className='text-lg font-medium'>Download Course Structure :</p>
                             <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md hover:rounded-full transition'><i className='fa fa-download'></i></button>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className='pb-5'>
+                    {/* <div className='pb-5'>
                         <p className="text-xl font-medium text-[#fea700] ">Highest CTC :</p>
                         <div className='flex flex-wrap justify-between'>
                             <p className='text-3xl font-medium'>{highestCTC}</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

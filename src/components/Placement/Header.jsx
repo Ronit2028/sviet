@@ -16,7 +16,7 @@ const Header = () => {
                 <div className="mt-auto pt-6 grid grid-cols-2 md:grid-cols-4">
                     <div className='p-6 lg:p-12 border-2 border-[#ffffff75]'>
                         <p className="text-3xl lg:text-4xl pb-3 font-medium">
-                            5,000
+                            3,000
                             +
                         </p>
                         <p>
@@ -26,9 +26,7 @@ const Header = () => {
                     <div className='p-6 lg:p-12 border-2 border-[#ffffff75]'>
                         <p className='text-3xl lg:text-4xl pb-3 font-medium'>
 
-
-                            50
-                            Lakh
+45 LPA
                         </p>
                         <p>Highest Package Offered
 
@@ -38,7 +36,7 @@ const Header = () => {
                         <p className='text-3xl lg:text-4xl pb-3 font-medium'>
 
 
-                            10,000
+                            12,000
                             +
                         </p>
                         <p>
@@ -49,7 +47,7 @@ const Header = () => {
                     <div className='p-6 lg:p-12 border-2 border-[#ffffff75]'>
                         <p className='text-3xl lg:text-4xl pb-3 font-medium'>
 
-                            250
+                            350
                             +
                         </p>
 

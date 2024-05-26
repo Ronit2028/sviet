@@ -1,6 +1,6 @@
 import React from 'react'
 import backdrop from '@/assets/Programs/DSC00838.JPG'
-
+import Link from 'next/link'
 const InstitutionHeader = ({institute , category}) => {
    
     return (
@@ -15,9 +15,7 @@ const InstitutionHeader = ({institute , category}) => {
                     </p>
                     <p className='text-md w-1/2 border-l-4 border-[#fea700] pl-2'>
                               {category}            </p>
-                        <button className='text-lg text-white rounded-md bg-[#fea700] w-fit p-2 mt-5'>Mandatory disclosures   <i className="fas fa-download ml-2"></i>
-</button>
-
+                      
                 </div>
             </div>
         </div>

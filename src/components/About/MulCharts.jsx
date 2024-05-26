@@ -32,15 +32,15 @@ export default function MulCharts() {
             <h4></h4>
             <Slider asNavFor={nav2} ref={slider => (sliderRef1 = slider)} >
                 <div >
-                    <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Highest Package(last 5 years trends)</h1>
+                    <div className="md:w-10/12 m-auto ">
+                        <h1 className="text-xl font-medium text-center py-8">Percentage of Placements By Course</h1>
                         <Bar
                             data={{
-                                labels: ["2019", "2020", "2021", "2022", "2023"],
+                                labels: ["Engineering", "Pharmacy", "Business Management", "Agriculture", "Computer Application", "Paramedical", "Hospitality and Catering", "Diploma", "Accounting", "Others"],
                                 datasets: [
                                     {
                                         label: "Students Placed",
-                                        data: [272, 283, 292, 315, 362],
+                                        data: [93, 95, 89, 52, 91, 75, 87, 50, 55, 45],
                                         backgroundColor: '#016db6',
                                     },
                                     // {
@@ -81,16 +81,16 @@ export default function MulCharts() {
 
                 </div>
                 <div>
-                    <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Average Package (Last 5 Years Trends)</h1>
+                    <div className="md:w-10/12 m-auto ">
+                        <h1 className="text-xl font-medium text-center py-8">Companies Visited for Placement Drives (Last 5 Years Trends)</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "LPA/Annum",
-                                        data: [4.2, 4.5, 6, 6.5, 7],
-                                        backgroundColor: '#016db6',
+                                        label: "Number of Companies",
+                                        data: [143, 140, 203, 240, 255],
+                                        backgroundColor: '#fea700',
                                     },
                                     // {
                                     //     label: "Not placed",
@@ -129,15 +129,15 @@ export default function MulCharts() {
                     </div>
                 </div>
                 <div>
-                    <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Students Selected (Last 5 years Trends)</h1>
+                    <div className="md:w-10/12 m-auto ">
+                        <h1 className="text-xl font-medium text-center py-8">Industry Leadning Pay Package Offered (Last 7 years Trends)</h1>
                         <Bar
                             data={{
-                                labels: ["2019", "2020", "2021", "2022", "2023"],
+                                labels: ["2017", "2018","2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "Students Selected",
-                                        data: [1145, 1316, 1435, 1632, 1763],
+                                        label: "Packages in LPA",
+                                        data: [15, 20, 25.5, 37, 48, 50, 50],
                                         backgroundColor: '#016db6',
                                     },
                                     // {
@@ -177,16 +177,16 @@ export default function MulCharts() {
                     </div>
                 </div>
                 <div>
-                    <div className="w-1/2 m-auto ">
-                        <h1 className="text-xl font-medium text-center py-8">Companies Visited (Last 5 Years Trends)</h1>
+                    <div className="w-10/12 m-auto ">
+                        <h1 className="text-xl font-medium text-center py-8">Success Rates (Last 8 Years Trends)</h1>
                         <Bar
                             data={{
-                                labels: ["2019", "2020", "2021", "2022", "2023"],
+                                labels: ["2016","2017","2018","2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "Companies Vistied",
-                                        data: [272, 283, 292, 315, 362],
-                                        backgroundColor: '#016db6',
+                                        label: "Percentage Rate",
+                                        data: [72,82,89,95,93,96,94,92],
+                                        backgroundColor: '#fea700',
                                     },
                                     // {
                                     //     label: "Not placed",
@@ -237,14 +237,14 @@ export default function MulCharts() {
             >
                 <div className="" >
                     <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-sm md:text-xl md:font-medium text-center py-8">Highest Package(last 5 years trends)</h1>
+                    <h1 className="text-xl font-medium text-center py-8">Percentage of Placements By Course</h1>
                         <Bar
                             data={{
-                                labels: ["2019", "2020", "2021", "2022", "2023"],
+                                labels: ["Engineering", "Pharmacy", "Business Management", "Agriculture", "Computer Application", "Paramedical", "Hospitality and Catering", "Diploma", "Accounting", "Others"],
                                 datasets: [
                                     {
                                         label: "Students Placed",
-                                        data: [272, 283, 292, 315, 362],
+                                        data: [93, 95, 89, 52, 91, 75, 87, 50, 55, 45],
                                         backgroundColor: '#016db6',
                                     },
                                     // {
@@ -257,25 +257,29 @@ export default function MulCharts() {
                             options={{
                                 plugins: {
                                     datalabels: {
-                                        display: false,
+                                        display: true,
                                         color: 'black', // You can customize the color of the labels
                                         formatter: (value, context) => {
                                             // Show value of the segment
                                             return value;
                                         }
+                                    }
+                                },
+                                scales: {
+                                    x: {
+                                        title: {
+                                            display: true,
+                                            text: 'Years'
+                                        }
                                     },
-                                    legend: {
-                                        display: false // Remove the legend
+                                    y: {
+                                        title: {
+                                            display: true,
+                                            text: 'Number of Students'
+                                        }
                                     }
                                 }
                             }}
-                            plugins={[{
-                                beforeInit: function (chart, options) {
-                                    chart.legend.afterFit = function () {
-                                        this.height = 0;
-                                    };
-                                }
-                            }]}
                         />
 
                     </div>
@@ -283,15 +287,15 @@ export default function MulCharts() {
                 </div>
                 <div >
                     <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-sm md:text-xl font-medium text-center py-8">Average Package (Last 5 Years Trends)</h1>
+                    <h1 className="text-xl font-medium text-center py-8">Companies Visited for Placement Drives (Last 5 Years Trends)</h1>
                         <Bar
                             data={{
                                 labels: ["2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "LPA/Annum",
-                                        data: [4.2, 4.5, 6, 6.5, 7],
-                                        backgroundColor: '#016db6',
+                                        label: "Number of Companies",
+                                        data: [143, 140, 203, 240, 255],
+                                        backgroundColor: '#fea700',
                                     },
                                     // {
                                     //     label: "Not placed",
@@ -303,25 +307,29 @@ export default function MulCharts() {
                             options={{
                                 plugins: {
                                     datalabels: {
-                                        display: false,
+                                        display: true,
                                         color: 'black', // You can customize the color of the labels
                                         formatter: (value, context) => {
                                             // Show value of the segment
                                             return value;
                                         }
+                                    }
+                                },
+                                scales: {
+                                    x: {
+                                        title: {
+                                            display: true,
+                                            text: 'Years'
+                                        }
                                     },
-                                    legend: {
-                                        display: false // Remove the legend
+                                    y: {
+                                        title: {
+                                            display: true,
+                                            text: 'LPA'
+                                        }
                                     }
                                 }
                             }}
-                            plugins={[{
-                                beforeInit: function (chart, options) {
-                                    chart.legend.afterFit = function () {
-                                        this.height = 0;
-                                    };
-                                }
-                            }]}
                         />
 
                     </div>
@@ -329,19 +337,19 @@ export default function MulCharts() {
                 </div>
                 <div >
                     <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-sm md:text-xl font-medium text-center py-8">Students Selected (Last 5 years Trends)</h1>
+                    <h1 className="text-xl font-medium text-center py-8">Industry Leadning Pay Package Offered (Last 7 years Trends)</h1>
                         <Bar
                             data={{
-                                labels: ["2019", "2020", "2021", "2022", "2023"],
+                                labels: ["2017", "2018","2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "Students Placed",
-                                        data: [1145, 1316, 1435, 1632, 1763],
+                                        label: "Packages in LPA",
+                                        data: [15, 20, 25.5, 37, 48, 50, 50],
                                         backgroundColor: '#016db6',
                                     },
                                     // {
                                     //     label: "Not placed",
-                                    //     data: [1, 2, 3, 0, 0],
+                                    //     data: [1, 0, 0, 8, 9],
                                     //     backgroundColor: '#ff9602',
                                     // },
                                 ]
@@ -349,45 +357,48 @@ export default function MulCharts() {
                             options={{
                                 plugins: {
                                     datalabels: {
-                                        display: false,
+                                        display: true,
                                         color: 'black', // You can customize the color of the labels
                                         formatter: (value, context) => {
                                             // Show value of the segment
                                             return value;
                                         }
+                                    }
+                                },
+                                scales: {
+                                    x: {
+                                        title: {
+                                            display: true,
+                                            text: 'Years'
+                                        }
                                     },
-                                    legend: {
-                                        display: false // Remove the legend
+                                    y: {
+                                        title: {
+                                            display: true,
+                                            text: 'Number of Students'
+                                        }
                                     }
                                 }
                             }}
-                            plugins={[{
-                                beforeInit: function (chart, options) {
-                                    chart.legend.afterFit = function () {
-                                        this.height = 0;
-                                    };
-                                }
-                            }]}
                         />
-
                     </div>
 
                 </div>
                 <div >
                     <div className="md:w-1/2 m-auto ">
-                        <h1 className="text-sm md:text-xl font-medium text-center py-8">Companies Visited (Last 5 Years Trends)</h1>
+                    <h1 className="text-xl font-medium text-center py-8">Success Rates (Last 8 Years Trends)</h1>
                         <Bar
                             data={{
-                                labels: ["2019", "2020", "2021", "2022", "2023"],
+                                labels: ["2016","2017","2018","2019", "2020", "2021", "2022", "2023"],
                                 datasets: [
                                     {
-                                        label: "Companies Vistied",
-                                        data: [272, 283, 292, 315, 362],
-                                        backgroundColor: '#016db6',
+                                        label: "Percentage Rate",
+                                        data: [72,82,89,95,93,96,94,92],
+                                        backgroundColor: '#fea700',
                                     },
                                     // {
                                     //     label: "Not placed",
-                                    //     data: [1, 2, 3, 0, 0],
+                                    //     data: [1, 6, 9, 0, 0],
                                     //     backgroundColor: '#ff9602',
                                     // },
                                 ]
@@ -395,25 +406,29 @@ export default function MulCharts() {
                             options={{
                                 plugins: {
                                     datalabels: {
-                                        display: false,
+                                        display: true,
                                         color: 'black', // You can customize the color of the labels
                                         formatter: (value, context) => {
                                             // Show value of the segment
                                             return value;
                                         }
+                                    }
+                                },
+                                scales: {
+                                    x: {
+                                        title: {
+                                            display: true,
+                                            text: 'Years'
+                                        }
                                     },
-                                    legend: {
-                                        display: false // Remove the legend
+                                    y: {
+                                        title: {
+                                            display: true,
+                                            text: 'Number of Companies'
+                                        }
                                     }
                                 }
                             }}
-                            plugins={[{
-                                beforeInit: function (chart, options) {
-                                    chart.legend.afterFit = function () {
-                                        this.height = 0;
-                                    };
-                                }
-                            }]}
                         />
 
                     </div>
