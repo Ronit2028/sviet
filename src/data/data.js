@@ -231,8 +231,85 @@ const data = [
             }
         ]
     },
-
-
+    {
+        "id": 4,
+        "course_name": "M.Tech",
+        "event_type": "Engineering",
+        "header": {
+            "title": "Mechanical Engineering",
+            "subtitle": "ADVANCE YOUR EXPERTISE WITH",
+            "background_image": "../Courses/BTech/me/MEheader.jpg"
+        },
+        "program_name": "M.Tech Mechanical Engineering",
+        "program_description": "M.Tech ME refers to Master of Technology in Mechanical Engineering. It is a postgraduate degree program that focuses on the advanced study of mechanical systems, their design, analysis, and optimization. Students pursuing M.Tech ME gain an in-depth understanding of core engineering principles, mathematics, and physics, along with specialized knowledge in areas such as advanced thermodynamics, computational fluid dynamics, advanced materials science, mechanics, and machine design. The program equips students with the skills required to design, analyze, and develop complex mechanical systems, ranging from engines and machinery to power plants and robotics. It emphasizes advanced problem-solving, critical thinking, and hands-on experience through laboratory work, research projects, and internships. Students learn how to apply engineering principles to address complex real-world challenges, optimize performance, and enhance efficiency. Throughout the M.Tech ME program, students also develop strong computational and analytical skills, using advanced software tools and simulations to model and analyze mechanical systems. They gain practical knowledge through workshops, industrial visits, and industry collaborations, fostering a deeper understanding of industry practices and standards. Overall, M.Tech ME provides a solid foundation in advanced mechanical engineering principles and prepares students for a wide range of career opportunities in the dynamic field of engineering and technology.",
+        "fees": "75,000 INR",
+        "duration": "2 Years",
+        "major_tracks": [
+            "Advanced Thermodynamics",
+            "Computational Fluid Dynamics",
+            "Advanced Materials Science",
+            "Mechanics",
+            "Machine Design"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Mechanical Engineer",
+                "desc": "Develop expertise in designing, analyzing, and manufacturing advanced mechanical systems and components.",
+                "image": "../Courses/BTech/me/mec.png"
+            },
+            {
+                "title": "Product Design Engineer",
+                "desc": "Specialize in creating innovative and functional designs for advanced mechanical products and systems.",
+                "image": "../Courses/BTech/me/prd.png"
+            },
+            {
+                "title": "Manufacturing Engineer",
+                "desc": "Focus on optimizing advanced production processes, reducing costs, and ensuring product quality in various industries.",
+                "image": "../Courses/BTech/me/image.png"
+            },
+            {
+                "title": "Quality Engineer",
+                "desc": "Maintain product quality and adherence to standards through the development and implementation of advanced quality control processes and inspections.",
+                "image": "../Courses/BTech/me/quality.png"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Students who have completed a B.Tech degree in Mechanical Engineering or a related field with a minimum of 60% marks or equivalent CGPA."
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Advanced Learning: In-depth understanding of mechanical engineering principles.",
+            "Research Focus: Comprehensive research projects and thesis work.",
+            "Industry Ready: Six-month industry internship for real-world experience.",
+            "Global Exposure: National and international immersion programs.",
+            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
+            "Beyond Academics: Essential skill development through workshops.",
+            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
+            "Expert Learning: Renowned faculty and industry guest speakers.",
+            "Master the Latest Technologies: In-demand skills in advanced thermodynamics, computational fluid dynamics, advanced materials science, mechanics, machine design, and more."
+        ],
+        "labs": [
+            {
+                "title": "Thermodynamics Lab",
+                "description": "Experiment with advanced thermodynamic principles and study heat transfer phenomena.",
+                "image": "../Courses/BTech/me/lab/thermo.jpg"
+            },
+            {
+                "title": "Machine Design Lab",
+                "description": "Apply advanced engineering design principles to create and analyze complex machine components.",
+                "image": "../Courses/BTech/me/lab/machine.jpg"
+            },
+            {
+                "title": "Robotics Lab",
+                "description": "Design and program advanced robotic systems to perform various tasks and operations.",
+                "image": "../Courses/BTech/me/lab/robotics.jpg"
+            }
+        ]
+    },
     // B.TECH
     {
         "id": 1,
@@ -640,7 +717,7 @@ const data = [
   {
     "id": 16,
     "course_name": "Pharmacy",
-    event_type: "Pharmacy",
+    "event_type": "Pharmacy",
     "header": {
         "title": "Doctor of Pharmacy (Pharm.D)",
         "subtitle": "EMPOWERING THE FUTURE OF PHARMACY",
@@ -655,7 +732,7 @@ const data = [
         "Manufacturing",
         "Quality Control",
         "Medical Representative",
-        "Retail/Wholesale Pharmacy Outlet",
+        "Retail/Wholesale Pharmacy Outlet"
     ],
     "program_outcomes": [
         {
@@ -710,188 +787,87 @@ const data = [
             "title": "QA Lab",
             "description": "Perform quality assurance tests and analysis.",
             "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Foundational Knowledge: Gain a strong understanding of electrical engineering principles.",
-            "Practical Experience: Hands-on training through labs, projects, and internships.",
-            "Specialization Opportunities: Choose from various tracks such as circuit theory, power systems, and control systems.",
-            "Career Pathways: Prepare for roles as electrical engineers, power systems engineers, control systems engineers, and electronics engineers."
-        ],
-        "labs": [
-            {
-                "title": "Power Systems Lab",
-                "description": "Explore power systems concepts and applications in a hands-on environment.",
-                "image": "../Courses/BTech/ee/lab/Power.jpg"
-            },
-            {
-                "title": "Electronics Lab",
-                "description": "Practice electronic circuit design, analysis, and testing using industry-standard equipment.",
-                "image": "../Courses/BTech/ee/lab/Electronics.jpg"
-            },
-            {
-                "title": "Renewable Energy Lab",
-                "description": "Experiment with renewable energy sources and technologies such as solar, wind, and hydroelectric power.",
-                "image": "../Courses/BTech/ee/lab/energy.jpg"
-            }
-        ]
+        }
+    ]
+},
+{
+    "id": 14,
+    "course_name": "Pharmacy",
+    "event_type": "Pharmacy",
+    "header": {
+        "title": "Master of Pharmacy",
+        "subtitle": "ADVANCING THE HEALTHCARE HEROES",
+        "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
     },
-    {
-        "id": 11,
-        "course_name": "Diploma",
-        event_type: "Engineering",
-        "header": {
-            "title": "DIPLOMA IN MECHANICAL ENGINEERING",
-            "subtitle": "MASTER THE MECHANICS WITH",
-            "background_image": "@/assets/Programs/backdrop.jpg"
+    "program_name": "MASTER OF PHARMACY",
+    "program_description": "The M.Pharm program at SVGOI is designed to provide advanced knowledge and research opportunities in the field of Pharmaceutical Education and Research. The Institute comprises every element desired for academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. The Master of Pharmacy is a 2 Year postgraduate program in which students deepen their understanding of pharmaceutical sciences, focusing on areas such as drug formulation, quality control, clinical research, and pharmacology. Graduates of the M.Pharm program are equipped with the expertise required for advanced roles in the pharmaceutical industry, academia, and research. They can pursue careers in R&D, regulatory affairs, clinical trials, and more, contributing to the development and safe use of medications. The program also prepares students for potential doctoral studies in pharmacy and related fields.",
+    "fees": "60,000/- INR Per Semester",
+    "duration": "2 years",
+    "major_tracks": [
+        "Pharmaceutical Analysis",
+        "Pharmacology",
+        "Pharmaceutics",
+        "Quality Assurance"
+    ],
+    "program_outcomes": [
+        {
+            "title": "R&D Scientist",
+            "desc": "Conduct advanced research and development activities in pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/rd.jpg"
         },
-        "program_name": "Diploma in Mechanical Engineering",
-        "program_description": "A Diploma in Mechanical Engineering is a program that provides students with a comprehensive understanding of mechanical principles and engineering concepts. It covers subjects such as mechanics, thermodynamics, fluid mechanics, materials science, manufacturing processes, and machine design. During the program, students gain practical skills through laboratory work, projects, and internships. They learn to design, analyze, and maintain mechanical systems and components, as well as use computer-aided design (CAD) software and simulation tools. The diploma prepares graduates for entry-level positions in industries such as manufacturing, automotive, aerospace, energy, and robotics. They can work as mechanical technicians, design assistants, quality control inspectors, or pursue further studies in mechanical engineering. Overall, a Diploma in Mechanical Engineering equips students with the knowledge and skills needed to work with machines, analyze mechanical systems, and contribute to the design, development, and maintenance of mechanical projects. It offers a pathway to a rewarding career in the field of mechanical engineering.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "3 Years",
-        "major_tracks": [
-            "Mechanics",
-            "Thermodynamics",
-            "Fluid Mechanics",
-            "Materials Science",
-            "Manufacturing Processes",
-            "Machine Design"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Mechanical Technician",
-                "desc": "Develop skills to assist in the design, analysis, and maintenance of mechanical systems.",
-                "image": "../Courses/diploma/me/mechanical.jpg"
-            },
-            {
-                "title": "Design Assistant",
-                "desc": "Learn to support mechanical engineers in designing and developing mechanical components and systems.",
-                "image": "../Courses/diploma/me/design.jpg"
-            },
-            {
-                "title": "Quality Control Inspector",
-                "desc": "Master techniques to inspect and ensure the quality and performance of mechanical products.",
-                "image": "../Courses/diploma/me/quality.jpg"
-            },
-            {
-                "title": "Manufacturing Technician",
-                "desc": "Graduates can work in manufacturing industries, assisting in the production and assembly of mechanical parts and products. They may operate machinery, monitor production processes, and ensure product quality and efficiency",
-                "image": "../Courses/diploma/me/mt.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
+        {
+            "title": "Drug Inspector",
+            "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
+            "image": "../Courses/pharmacy/pharm/drug.jpg"
         },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+        {
+            "title": "Quality Assurance",
+            "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
+            "image": "../Courses/pharmacy/pharm/qua.jpg"
         },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Comprehensive Curriculum: Covering mechanical principles and engineering concepts.",
-            "Practical Experience: Hands-on training through labs, projects, and internships.",
-            "Career Opportunities: Prepare for entry-level positions in various industries such as manufacturing, automotive, aerospace, and energy.",
-            "Pathway to Further Studies: Option to pursue higher education in mechanical engineering."
-        ],
-        "labs": [
-            {
-                "title": "Thermodynamics Lab",
-                "description": "Experiment with thermodynamic principles and study heat transfer phenomena.",
-                "image": "../Courses/BTech/me/lab/thermo.jpg"
-            },
-            {
-                "title": "Machine Design Lab",
-                "description": "Apply engineering design principles to create and analyze machine components.",
-                "image": "../Courses/BTech/me/lab/machine.jpg"
-            },
-            {
-                "title": "Robotics Lab",
-                "description": "Design and program robotic systems to perform various tasks and operations.",
-                "image": "../Courses/BTech/me/lab/robotics.jpg"
-            }
-        ]
+        {
+            "title": "Clinical Research Associate",
+            "desc": "Manage and monitor clinical trials and ensure compliance with regulatory requirements.",
+            "image": "../Courses/pharmacy/pharm/pharma.jpg"
+        }
+    ],
+    "labs": [
+        {
+            "title": "Research Lab",
+            "description": "Conduct research activities related to pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+        },
+        {
+            "title": "Practical Lab",
+            "description": "Engage in hands-on practical experiments and learning.",
+            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+        },
+        {
+            "title": "QA Lab",
+            "description": "Perform quality assurance tests and analysis.",
+            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+        },
+        {
+            "title": "Pharma Chemistry Lab",
+            "description": "Study pharmaceutical chemistry and its applications.",
+            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Any other qualification recognized by the Pharmacy Council of India as equivalent to a B.Pharm degree is also eligible."
     },
-    {
-        "id": 12,
-        "course_name": "Diploma",
-        event_type: "Engineering",
-        "header": {
-            "title": "DIPLOMA IN CIVIL ENGINEERING",
-            "subtitle": "SHAPE THE INFRASTRUCTURE WITH",
-            "background_image": "../Courses/diploma/civil/civilheader.jpg"
-        },
-        "program_name": "Diploma in Civil Engineering",
-        "program_description": "A Diploma in Civil Engineering is a program that provides students with a fundamental understanding of civil engineering principles and concepts. It covers subjects such as structural analysis, construction materials, surveying, geotechnical engineering, transportation engineering, and project management. During the program, students gain practical skills through laboratory work, field surveys, and internships. They learn to design and construct various civil engineering projects, such as buildings, roads, bridges, and infrastructure systems. They also develop skills in using computer-aided design (CAD) software and other relevant tools. Overall, a Diploma in Civil Engineering equips students with the knowledge and skills needed to contribute to the planning, design, construction, and maintenance of civil engineering projects. It offers a pathway to a fulfilling career in the field of civil engineering, playing a crucial role in shaping the built environment.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "3 Years",
-        "major_tracks": [
-            "Structural Analysis",
-            "Construction Materials",
-            "Surveying",
-            "Geotechnical Engineering",
-            "Transportation Engineering",
-            "Project Management"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Civil Engineering Technician",
-                "desc": "Develop skills to assist in the planning, design, and construction of civil engineering projects.",
-                "image": "../Courses/diploma/civil/civil.jpg"
-            },
-            {
-                "title": "Surveying Assistant",
-                "desc": "Learn to conduct surveys and collect data for civil engineering projects.",
-                "image": "../Courses/diploma/civil/survey.jpg"
-            },
-            {
-                "title": "Construction Supervisor",
-                "desc": "Master techniques to supervise and manage construction activities on civil engineering sites.",
-                "image": "../Courses/diploma/civil/construction.jpg"
-            },
-            {
-                "title": "Site Engineer",
-                "desc": "Graduates can work as site engineers, overseeing construction activities on-site. Their responsibilities include site inspection, quantity estimation, project scheduling, and team supervision.",
-                "image": "../Courses/diploma/civil/site.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
-        },
-        "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Fundamental Understanding: Covering civil engineering principles and concepts.",
-            "Practical Experience: Hands-on training through labs, field surveys, and internships.",
-            "Career Opportunities: Prepare for roles in planning, design, construction, and maintenance of civil engineering projects.",
-            "Pathway to Further Studies: Option to pursue higher education in civil engineering."
-        ],
-        "labs": [
-            {
-                "title": "Structural Engineering Lab",
-                "description": "Experiment with structural analysis and design of buildings and bridges.",
-                "image": "../Courses/BTech/civil/lab/structural.jpg"
-            },
-            {
-                "title": "Geotechnical Engineering Lab",
-                "description": "Study soil properties and behavior to design foundations and earth structures.",
-                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
-            },
-            {
-                "title": "Environmental Engineering Lab",
-                "description": "Analyze water and air quality, and design solutions for environmental protection.",
-                "image": "../Courses/BTech/civil/lab/environmental.jpg"
-            }
-        ]
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
     },
-
-    // PHARMACY
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Advanced Research: Engage in cutting-edge research projects in pharmaceutical sciences.",
+        "Industry Internship: Gain real-world experience through industry internships.",
+        "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
+        "Specialized Learning: Focused tracks in Pharmaceutical Analysis, Pharmacology, Pharmaceutics, and Quality Assurance."
+    ]
+},
     {
         "id": 13,
         "course_name": "Pharmacy",
@@ -971,8 +947,6 @@ const data = [
             "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
         ]
     },
-
-
 {
     "id": 15,
     "course_name": "Pharmacy",
@@ -1052,6 +1026,231 @@ const data = [
         }
     ]
 },
+{
+    "id": 15,
+    "course_name": "Pharmacy",
+    "event_type": "Pharmacy",
+    "header": {
+        "title": "Doctor of Pharmacy – Post Baccalaureate",
+        "subtitle": "ADVANCING PHARMACY PRACTICE",
+        "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
+    },
+    "program_name": "DOCTOR OF PHARMACY – POST BACCALAUREATE",
+    "program_description": "The Doctor of Pharmacy – Post Baccalaureate program is designed for graduates with a Bachelor's degree in Pharmacy (B.Pharm) who wish to advance their pharmacy practice skills and knowledge. The program offers advanced coursework and clinical training to prepare pharmacists for expanded roles in patient care, medication therapy management, and pharmaceutical services. Students deepen their understanding of pharmacotherapy, pharmacokinetics, patient counseling, and other specialized areas of pharmacy practice. The curriculum integrates classroom instruction with experiential learning opportunities in various healthcare settings, allowing students to apply theoretical knowledge to real-world patient care scenarios. Graduates of the Doctor of Pharmacy – Post Baccalaureate program are equipped to provide comprehensive pharmaceutical care, manage complex medication regimens, and contribute to interprofessional healthcare teams.",
+    "fees": "75,000/- INR Per Semester",
+    "duration": "3 years",
+    "major_tracks": [
+        "Clinical Pharmacy",
+        "Pharmacotherapy",
+        "Pharmacoeconomics",
+        "Patient Counseling"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Clinical Pharmacist",
+            "desc": "Provide direct patient care and clinical pharmacy services in various healthcare settings.",
+            "image": "../Courses/pharmacy/pharm/clinical.jpg"
+        },
+        {
+            "title": "Pharmacy Manager",
+            "desc": "Oversee pharmacy operations, staff management, and medication inventory.",
+            "image": "../Courses/pharmacy/pharm/manager.jpg"
+        },
+        {
+            "title": "Pharmacy Educator",
+            "desc": "Teach pharmacy students and healthcare professionals in academic and clinical settings.",
+            "image": "../Courses/pharmacy/pharm/educator.jpg"
+        },
+        {
+            "title": "Clinical Research Pharmacist",
+            "desc": "Conduct clinical research studies and evaluate pharmaceutical interventions.",
+            "image": "../Courses/pharmacy/pharm/research.jpg"
+        }
+    ],
+    "labs": [
+        {
+            "title": "Clinical Practice Lab",
+            "description": "Simulate clinical scenarios and practice patient care interventions.",
+            "image": "../Courses/pharmacy/pharm/lab/clinicalLab.jpg"
+        },
+        {
+            "title": "Pharmacy Simulation Lab",
+            "description": "Utilize simulation technology to develop clinical skills and decision-making abilities.",
+            "image": "../Courses/pharmacy/pharm/lab/simulation.jpg"
+        },
+        {
+            "title": "Patient Counseling Lab",
+            "description": "Practice effective communication and counseling skills with standardized patients.",
+            "image": "../Courses/pharmacy/pharm/lab/counseling.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Admission is based on merit or entrance exams conducted by the institution."
+    },
+    "affiliation": {
+        "affiliated_to": "IKGPTU, Jalandhar",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Advanced Clinical Training: Gain hands-on experience in patient care and medication therapy management.",
+        "Interprofessional Collaboration: Work closely with healthcare teams to optimize patient outcomes.",
+        "Pharmacy Leadership Development: Develop skills in pharmacy management, education, and research.",
+        "Experiential Learning: Apply theoretical knowledge in real-world clinical practice settings.",
+        "Pharmacotherapy Optimization: Learn to manage complex medication regimens and optimize drug therapy."
+    ]
+},
+  // {
+    //     "id": 11,
+    //     "course_name": "Diploma",
+    //     event_type: "Engineering",
+    //     "header": {
+    //         "title": "DIPLOMA IN MECHANICAL ENGINEERING",
+    //         "subtitle": "MASTER THE MECHANICS WITH",
+    //         "background_image": "@/assets/Programs/backdrop.jpg"
+    //     },
+    //     "program_name": "Diploma in Mechanical Engineering",
+    //     "program_description": "A Diploma in Mechanical Engineering is a program that provides students with a comprehensive understanding of mechanical principles and engineering concepts. It covers subjects such as mechanics, thermodynamics, fluid mechanics, materials science, manufacturing processes, and machine design. During the program, students gain practical skills through laboratory work, projects, and internships. They learn to design, analyze, and maintain mechanical systems and components, as well as use computer-aided design (CAD) software and simulation tools. The diploma prepares graduates for entry-level positions in industries such as manufacturing, automotive, aerospace, energy, and robotics. They can work as mechanical technicians, design assistants, quality control inspectors, or pursue further studies in mechanical engineering. Overall, a Diploma in Mechanical Engineering equips students with the knowledge and skills needed to work with machines, analyze mechanical systems, and contribute to the design, development, and maintenance of mechanical projects. It offers a pathway to a rewarding career in the field of mechanical engineering.",
+    //     "fees": "TBD (To Be Disclosed)",
+    //     "duration": "3 Years",
+    //     "major_tracks": [
+    //         "Mechanics",
+    //         "Thermodynamics",
+    //         "Fluid Mechanics",
+    //         "Materials Science",
+    //         "Manufacturing Processes",
+    //         "Machine Design"
+    //     ],
+    //     "program_outcomes": [
+    //         {
+    //             "title": "Mechanical Technician",
+    //             "desc": "Develop skills to assist in the design, analysis, and maintenance of mechanical systems.",
+    //             "image": "../Courses/diploma/me/mechanical.jpg"
+    //         },
+    //         {
+    //             "title": "Design Assistant",
+    //             "desc": "Learn to support mechanical engineers in designing and developing mechanical components and systems.",
+    //             "image": "../Courses/diploma/me/design.jpg"
+    //         },
+    //         {
+    //             "title": "Quality Control Inspector",
+    //             "desc": "Master techniques to inspect and ensure the quality and performance of mechanical products.",
+    //             "image": "../Courses/diploma/me/quality.jpg"
+    //         },
+    //         {
+    //             "title": "Manufacturing Technician",
+    //             "desc": "Graduates can work in manufacturing industries, assisting in the production and assembly of mechanical parts and products. They may operate machinery, monitor production processes, and ensure product quality and efficiency",
+    //             "image": "../Courses/diploma/me/mt.jpg"
+    //         }
+    //     ],
+    //     "eligibility_criteria": {
+    //         "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
+    //     },
+    //     "affiliation": {
+    //         "affiliated_to": "IKGPTU, Jalandhar",
+    //         "approved_by": "AICTE"
+    //     },
+    //     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    //     "program_highlights": [
+    //         "Comprehensive Curriculum: Covering mechanical principles and engineering concepts.",
+    //         "Practical Experience: Hands-on training through labs, projects, and internships.",
+    //         "Career Opportunities: Prepare for entry-level positions in various industries such as manufacturing, automotive, aerospace, and energy.",
+    //         "Pathway to Further Studies: Option to pursue higher education in mechanical engineering."
+    //     ],
+    //     "labs": [
+    //         {
+    //             "title": "Thermodynamics Lab",
+    //             "description": "Experiment with thermodynamic principles and study heat transfer phenomena.",
+    //             "image": "../Courses/BTech/me/lab/thermo.jpg"
+    //         },
+    //         {
+    //             "title": "Machine Design Lab",
+    //             "description": "Apply engineering design principles to create and analyze machine components.",
+    //             "image": "../Courses/BTech/me/lab/machine.jpg"
+    //         },
+    //         {
+    //             "title": "Robotics Lab",
+    //             "description": "Design and program robotic systems to perform various tasks and operations.",
+    //             "image": "../Courses/BTech/me/lab/robotics.jpg"
+    //         }
+    //     ]
+    // },
+    // {
+    //     "id": 12,
+    //     "course_name": "Diploma",
+    //     event_type: "Engineering",
+    //     "header": {
+    //         "title": "DIPLOMA IN CIVIL ENGINEERING",
+    //         "subtitle": "SHAPE THE INFRASTRUCTURE WITH",
+    //         "background_image": "../Courses/diploma/civil/civilheader.jpg"
+    //     },
+    //     "program_name": "Diploma in Civil Engineering",
+    //     "program_description": "A Diploma in Civil Engineering is a program that provides students with a fundamental understanding of civil engineering principles and concepts. It covers subjects such as structural analysis, construction materials, surveying, geotechnical engineering, transportation engineering, and project management. During the program, students gain practical skills through laboratory work, field surveys, and internships. They learn to design and construct various civil engineering projects, such as buildings, roads, bridges, and infrastructure systems. They also develop skills in using computer-aided design (CAD) software and other relevant tools. Overall, a Diploma in Civil Engineering equips students with the knowledge and skills needed to contribute to the planning, design, construction, and maintenance of civil engineering projects. It offers a pathway to a fulfilling career in the field of civil engineering, playing a crucial role in shaping the built environment.",
+    //     "fees": "TBD (To Be Disclosed)",
+    //     "duration": "3 Years",
+    //     "major_tracks": [
+    //         "Structural Analysis",
+    //         "Construction Materials",
+    //         "Surveying",
+    //         "Geotechnical Engineering",
+    //         "Transportation Engineering",
+    //         "Project Management"
+    //     ],
+    //     "program_outcomes": [
+    //         {
+    //             "title": "Civil Engineering Technician",
+    //             "desc": "Develop skills to assist in the planning, design, and construction of civil engineering projects.",
+    //             "image": "../Courses/diploma/civil/civil.jpg"
+    //         },
+    //         {
+    //             "title": "Surveying Assistant",
+    //             "desc": "Learn to conduct surveys and collect data for civil engineering projects.",
+    //             "image": "../Courses/diploma/civil/survey.jpg"
+    //         },
+    //         {
+    //             "title": "Construction Supervisor",
+    //             "desc": "Master techniques to supervise and manage construction activities on civil engineering sites.",
+    //             "image": "../Courses/diploma/civil/construction.jpg"
+    //         },
+    //         {
+    //             "title": "Site Engineer",
+    //             "desc": "Graduates can work as site engineers, overseeing construction activities on-site. Their responsibilities include site inspection, quantity estimation, project scheduling, and team supervision.",
+    //             "image": "../Courses/diploma/civil/site.jpg"
+    //         },
+    //     ],
+    //     "eligibility_criteria": {
+    //         "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
+    //     },
+    //     "affiliation": {
+    //         "affiliated_to": "IKGPTU, Jalandhar",
+    //         "approved_by": "AICTE"
+    //     },
+    //     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    //     "program_highlights": [
+    //         "Fundamental Understanding: Covering civil engineering principles and concepts.",
+    //         "Practical Experience: Hands-on training through labs, field surveys, and internships.",
+    //         "Career Opportunities: Prepare for roles in planning, design, construction, and maintenance of civil engineering projects.",
+    //         "Pathway to Further Studies: Option to pursue higher education in civil engineering."
+    //     ],
+    //     "labs": [
+    //         {
+    //             "title": "Structural Engineering Lab",
+    //             "description": "Experiment with structural analysis and design of buildings and bridges.",
+    //             "image": "../Courses/BTech/civil/lab/structural.jpg"
+    //         },
+    //         {
+    //             "title": "Geotechnical Engineering Lab",
+    //             "description": "Study soil properties and behavior to design foundations and earth structures.",
+    //             "image": "../Courses/BTech/civil/lab/geometrical.jpg"
+    //         },
+    //         {
+    //             "title": "Environmental Engineering Lab",
+    //             "description": "Analyze water and air quality, and design solutions for environmental protection.",
+    //             "image": "../Courses/BTech/civil/lab/environmental.jpg"
+    //         }
+    //     ]
+    // },
+
 
  // HOTEL MANAGEMENT
  {
@@ -1366,6 +1565,655 @@ const data = [
 
 },
 
+   // PARAMEDICAL
+ {
+    "id": 26,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "M.Sc IN ANESTHESIA AND OPERATION THEATRE TECHNOLOGY",
+        "subtitle": "ELEVATING OPERATION THEATRE EXPERTISE",
+        "background_image": "../Courses/paramedical/Anesthesia/anesthesia.jpg"
+    },
+    "program_name": "Master of Science in Anesthesia and Operation Theatre Technology",
+    "program_description": "Master of Science in Anesthesia and Operation Theatre Technology is a master’s degree level course in Operation Theatre technology. This course equips students with high-level skills to handle operation theatre preparation in case of emergencies. It is designed to provide advanced skills to assist and handle the preparation of operation theatres, enabling students to become experienced anesthesiologists. Experienced teachers facilitate learning, ensuring clear understanding of concepts. The course is based on research methodology, supported by world-class advanced medical labs situated on campus at Swami Vivekanand Paramedical College. After completing this program, students can work professionally as anesthesiologists and handle responsibilities as assistants in emergency situations.",
+    "fees": "32,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Emergency Anesthesia",
+        "Operation Theatre Management"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Experienced Anesthesiologist",
+            "desc": "Acquire advanced skills to function effectively as an experienced anesthesiologist.",
+            "image": "../Courses/paramedical/Anesthesia/experience.jpg"
+        },
+        {
+            "title": "Operation Theatre Expert",
+            "desc": "Master the techniques and procedures involved in operation theatre management.",
+            "image": "../Courses/paramedical/Anesthesia/operation.jpg"
+        },
+        {
+            "title": "Emergency Response Specialist",
+            "desc": "Develop the ability to handle emergency situations in operation theatres with efficiency and precision.",
+            "image": "../Courses/paramedical/Anesthesia/emergency.jpg"
+        },
+        {
+            "title": "Anesthesia and Operation Theatre Technologist",
+            "desc": "Gain expertise in anesthesia administration and operation theatre technology to support medical procedures effectively.",
+            "image": "../Courses/paramedical/Anesthesia/technologist.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed B.Sc. in Anesthesia & Operation Theatre Technology."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Hands-on training in anesthesia techniques.",
+        "Simulation exercises for emergency scenarios.",
+        "Clinical rotations in leading hospitals.",
+        "Internship in operation theatre management.",
+        "Workshops on patient safety and care."
+    ],
+
+},
+{
+    "id": 25,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "M.Sc MLS -Clinical Biochemistry",
+        "subtitle": "ELEVATING LABORATORY LEADERSHIP",
+        "background_image": "../Courses/paramedical/MLS/mls.jpg"
+    },
+    "program_name": "M.Sc MLS - Biochemistry",
+    "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
+    "fees": "32,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Clinical Research",
+        "Diagnostic Sciences"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Clinical Scientist",
+            "desc": "Develop advanced skills in medical laboratory science and become leaders in the field as clinical scientists.",
+            "image": "../Courses/paramedical/MLS/clinic.jpg"
+        },
+        {
+            "title": "Researcher",
+            "desc": "Conduct research in medical laboratory science and contribute to advancements in healthcare.",
+            "image": "../Courses/paramedical/MLS/research.jpg"
+        },
+        {
+            "title": "Educator",
+            "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
+            "image": "../Courses/paramedical/MLS/educator.jpg"
+        },
+        {
+            "title": "Paramedical Professional",
+            "desc": "Provide essential support in medical settings, assisting healthcare professionals in patient care and emergency response.",
+            "image": "../Courses/paramedical/MLS/professional.jpg"
+        }
+    ],
+
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Hands-on learning through laboratory experiments.",
+        "Advanced research opportunities in biochemistry.",
+        "Clinical exposure in top medical institutions.",
+        "Internship in renowned diagnostic centers.",
+        "Professional development workshops."
+    ],
+
+},
+{
+    "id": 29,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "MASTER OF SCIENCE IN MEDICAL LABORATORY SCIENCE - MEDICAL MICROBIOLOGY",
+        "subtitle": "EXPERTS IN MEDICAL DIAGNOSTICS",
+        "background_image": "../Courses/paramedical/Optometry/header.avif"
+    },
+    "program_name": "Master of Science in Medical Laboratory Science - Medical Microbiology",
+    "program_description": "M.Sc. MLS - Medical Microbiology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program delves into the advanced study of microorganisms and their impact on human health. Students interested in diagnostic microbiology, infectious diseases, and laboratory management will find this program highly beneficial. The curriculum encompasses theoretical knowledge and practical skills essential for proficiency in medical microbiology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in clinical laboratories, research institutions, and healthcare settings.",
+    "fees": "60,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Clinical Microbiologist",
+        "Diagnostic Laboratory Manager",
+        "Infection Control Specialist",
+        "Research Scientist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Clinical Microbiologist",
+            "desc": "Gain expertise in diagnosing infectious diseases through microbiological techniques.",
+            "image": "../Courses/paramedical/Optometry/optician.jpg"
+        },
+        {
+            "title": "Diagnostic Laboratory Manager",
+            "desc": "Develop skills to manage and supervise diagnostic laboratories efficiently.",
+            "image": "../Courses/paramedical/Optometry/optometrist.jpg"
+        },
+        {
+            "title": "Infection Control Specialist",
+            "desc": "Learn to implement and oversee infection control measures in healthcare settings.",
+            "image": "../Courses/paramedical/Optometry/refractionist.jpg"
+        },
+        {
+            "title": "Research Scientist",
+            "desc": "Conduct advanced research on microorganisms to contribute to medical science.",
+            "image": "../Courses/paramedical/Optometry/assistant.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Advanced training in microbiological diagnostic techniques.",
+        "Clinical rotations in microbiology labs.",
+        "Internship in hospital and diagnostic laboratories.",
+        "Workshops on cutting-edge microbiological research.",
+        "Hands-on experience with advanced laboratory equipment."
+    ]
+},
+{
+    "id": 30,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "MASTER OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
+        "subtitle": "ADVANCED MEDICAL IMAGING PROFESSIONALS",
+        "background_image": "../Courses/paramedical/RadioImaging/header.avif"
+    },
+    "program_name": "Master of Science in Radio Imaging Technology",
+    "program_description": "M.Sc. in Radio Imaging Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This course provides advanced education and training in medical imaging techniques, preparing students for professional roles in radiology departments. The program covers various imaging modalities including X-ray, MRI, CT scan, and ultrasound. The curriculum is designed to provide both theoretical knowledge and practical skills essential for excellence in the field of radiology. Swami Vivekanand Paramedical College is equipped with state-of-the-art infrastructure and modern laboratories, making it the best choice for aspiring radiology professionals in North India. The college boasts the highest placement rate in the region, ensuring successful career prospects for graduates.",
+    "fees": "60,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Radiology Technologist",
+        "MRI Technologist",
+        "CT Scan Technologist",
+        "Ultrasound Technologist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Radiology Technologist",
+            "desc": "Acquire skills to perform and interpret various radiographic procedures.",
+            "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+        },
+        {
+            "title": "MRI Technologist",
+            "desc": "Learn to operate MRI machines and conduct magnetic resonance imaging scans.",
+            "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+        },
+        {
+            "title": "CT Scan Technologist",
+            "desc": "Develop expertise in performing CT scans and analyzing cross-sectional images.",
+            "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+        },
+        {
+            "title": "Ultrasound Technologist",
+            "desc": "Gain proficiency in using ultrasound equipment to conduct diagnostic procedures.",
+            "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Advanced training in various medical imaging techniques.",
+        "Clinical rotations in radiology departments.",
+        "Internship in diagnostic imaging centers.",
+        "Workshops on advanced imaging technologies.",
+        "Hands-on experience with state-of-the-art radiology equipment."
+    ]
+},
+{
+    "id": 30,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
+        "subtitle": "EXPERTS IN CARDIAC CARE",
+        "background_image": "../Courses/paramedical/radiology/radiology.jpg"
+    },
+    "program_name": "Master of Science in Cardiac Care Technology",
+    "program_description": "M.Sc. CCT - Cardiac Care Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program focuses on advanced cardiac care, including diagnosis, treatment, and management of heart diseases. Students interested in cardiac diagnostics, interventional cardiology, and cardiac rehabilitation will find this program highly beneficial. The curriculum includes both theoretical knowledge and practical skills essential for proficiency in cardiac care technology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern cardiac diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in cardiac care units, research institutions, and healthcare settings.",
+    "fees": "70,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Cardiac Care Technologist",
+        "Cardiac Diagnostics Specialist",
+        "Interventional Cardiology Technologist",
+        "Cardiac Rehabilitation Specialist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Cardiac Care Technologist",
+            "desc": "Gain expertise in providing advanced cardiac care and support in clinical settings.",
+            "image": "../Courses/paramedical/radiology/technician.jpg"
+        },
+        {
+            "title": "Cardiac Diagnostics Specialist",
+            "desc": "Develop skills in diagnosing cardiac conditions using advanced diagnostic equipment.",
+            "image": "../Courses/paramedical/radiology/educator.jpg"
+        },
+        {
+            "title": "Interventional Cardiology Technologist",
+            "desc": "Learn to assist in interventional cardiology procedures and cardiac catheterization.",
+            "image": "../Courses/paramedical/radiology/image.jpg"
+        },
+        {
+            "title": "Cardiac Rehabilitation Specialist",
+            "desc": "Acquire expertise in designing and implementing cardiac rehabilitation programs.",
+            "image": "../Courses/paramedical/radiology/image.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Advanced training in cardiac care techniques.",
+        "Clinical rotations in cardiac care units.",
+        "Internship in hospital and cardiac care departments.",
+        "Workshops on cutting-edge cardiac research.",
+        "Hands-on experience with advanced cardiac diagnostic equipment."
+    ]
+},
+{
+    "id": 34,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN PHYSIOTHERAPY",
+        "subtitle": "ENHANCING MOBILITY AND WELL-BEING",
+        "background_image": "../Courses/paramedical/Physiotherapy/header.avif"
+    },
+    "program_name": "BSc in Physiotherapy",
+    "program_description": "B.Sc Physiotherapy is an undergraduate degree program that focuses on the study of human movement, physical rehabilitation, and the prevention and treatment of physical impairments. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to assess, diagnose, and treat various musculoskeletal, neurological, and cardiopulmonary conditions. During the course, students learn about anatomy, physiology, biomechanics, exercise therapy, electrotherapy, and manual therapy techniques. They also gain clinical experience through internships and practical training, where they work under the supervision of experienced physiotherapists in hospitals, rehabilitation centers, sports clinics, and other healthcare settings. The goal of a B.Sc Physiotherapy program is to train professionals who can help individuals improve their mobility, manage pain, regain function, and enhance their overall well-being. Graduates can pursue careers as physiotherapists in hospitals, private clinics, sports organizations, and research institutions. They play a crucial role in promoting physical health, preventing injuries, and aiding in the recovery of patients with physical disabilities or limitations.",
+    "fees": "22,000/- INR Per Semester",
+    "duration": "4 Years (Semester System)",
+    "major_tracks": [
+        "Orthopedic Physiotherapist",
+        "Sports Physiotherapist",
+        "Rehabilitation Specialist",
+        "Neurological Physiotherapist",
+        "Stroke Rehabilitation Specialist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Physiotherapist",
+            "desc": "Assess, diagnose, and treat individuals with musculoskeletal, neurological, and cardiopulmonary conditions to improve their mobility and overall well-being.",
+            "image": "../Courses/paramedical/Physiotherapy/physio.jpg"
+        },
+        {
+            "title": "Sports Physiotherapist",
+            "desc": "Provide specialized physiotherapy services to athletes and individuals involved in sports activities to prevent injuries and optimize performance.",
+            "image": "../Courses/paramedical/Physiotherapy/sports.avif"
+        },
+        {
+            "title": "Orthopedic Therapist",
+            "desc": "Focus on the assessment and treatment of orthopedic conditions and injuries affecting the musculoskeletal system, including fractures, joint disorders, and post-surgical rehabilitation.",
+            "image": "../Courses/paramedical/Physiotherapy/orthopedic.jpg"
+        },
+        {
+            "title": "Neurological Therapist",
+            "desc": "Work with patients who have neurological disorders or injuries, such as stroke, traumatic brain injury, spinal cord injury, or multiple sclerosis, to improve movement, function, and quality of life.",
+            "image": "../Courses/paramedical/Physiotherapy/neuro.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Comprehensive curriculum covering anatomy, physiology, biomechanics, and exercise therapy",
+        "Clinical experience through internships and practical training",
+        "Specialization tracks in orthopedic, sports, neurological, and stroke rehabilitation",
+        "Prepares graduates for careers in hospitals, private clinics, sports organizations, and research institutions"
+    ],
+
+},
+{
+    "id": 27,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
+        "subtitle": "ELEVATING RADIOLOGY EXPERTISE",
+        "background_image": "../Courses/paramedical/radiology/radiology.jpg"
+    },
+    "program_name": "Bachelor of Science in Radio Imaging Technology",
+    "program_description": "Bachelor of Science in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
+    "fees": "45,000/- INR Per Semester",
+    "duration": "3 Years (Semester System)",
+    "major_tracks": [
+        "Radiology Technician",
+        "Imaging Specialist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Radiology Technician",
+            "desc": "Acquire skills to perform radiological procedures and operate imaging equipment.",
+            "image": "../Courses/paramedical/radiology/technician.jpg"
+        },
+        {
+            "title": "Imaging Specialist",
+            "desc": "Specialize in various imaging modalities such as X-ray, Sonography, CT Scan, and MRI.",
+            "image": "../Courses/paramedical/radiology/image.jpg"
+        },
+        {
+            "title": "Researcher in Radio Imaging Technology",
+            "desc": "Conduct research in the field of radio imaging technology and contribute to advancements in the field.",
+            "image": "../Courses/paramedical/radiology/research.jpg"
+        },
+        {
+            "title": " Radiology Educator",
+            "desc": "Develop expertise to educate and train future radiology technicians, imaging specialists, and researchers, facilitating the dissemination of knowledge and skills in radiological procedures and imaging technologies.",
+            "image": "../Courses/paramedical/radiology/educator.jpg"
+        },
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Practical training in radiographic techniques.",
+        "Hands-on experience with imaging equipment.",
+        "Clinical rotations in radiology departments.",
+        "Internship in diagnostic imaging centers.",
+        "Workshops on radiation safety and protection."
+    ],
+
+},
+{
+    "id": 28,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN OPERATION THEATRE TECHNOLOGY",
+        "subtitle": "ELEVATING OPERATION THEATRE MANAGEMENT",
+        "background_image": "../Courses/paramedical/OT/ot.jpg"
+    },
+    "program_name": "Bachelor of Science in Operation Theatre Technology",
+    "program_description": "Bachelor of Science in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
+    "fees": "45,000/- INR Per Semester",
+    "duration": "3 Years (Semester System)",
+    "major_tracks": [
+        "Operation Theatre Technician",
+        "Operation Theatre Manager"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Operation Theatre Technician",
+            "desc": "Gain technical skills to assist in operation theaters and handle equipment.",
+            "image": "../Courses/paramedical/OT/technician.jpg"
+        },
+        {
+            "title": "Operation Theatre Manager",
+            "desc": "Develop management skills to oversee operation theater activities and handle emergency situations.",
+            "image": "../Courses/paramedical/OT/manager.jpg"
+        },
+        {
+            "title": "Researcher in Operation Theatre Technology",
+            "desc": "Conduct research in operation theater technology and contribute to advancements in the field.",
+            "image": "../Courses/paramedical/OT/research.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Hands-on training in operation theatre management.",
+        "Simulation exercises for emergency scenarios.",
+        "Clinical rotations in top hospitals.",
+        "Internship in operation theatre settings.",
+        "Workshops on healthcare ethics and regulations."
+    ],
+
+},
+{
+    "id": 31,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN MEDICAL LABORATORY SCIENCE",
+        "subtitle": "PREPARING HEALTHCARE LABORATORY PROFESSIONALS",
+        "background_image": "../Courses/paramedical/Lab/header.avif"
+    },
+    "program_name": "Bachelor of Science in Medical Laboratory Science",
+    "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
+    "fees": "25,000/- INR Per Semester",
+    "duration": "3 Years (Semester System)",
+    "major_tracks": [
+        "Laboratory Scientist",
+        "Managerial Supervisor",
+        "Teacher"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Laboratory Scientist",
+            "desc": "Gain expertise in performing laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
+            "image": "../Courses/paramedical/Lab/scientist.avif"
+        },
+        {
+            "title": "Managerial Supervisor",
+            "desc": "Develop leadership and management skills to oversee laboratory operations and supervise laboratory staff.",
+            "image": "../Courses/paramedical/Lab/supervisor.jpg"
+        },
+        {
+            "title": "Teacher",
+            "desc": "Acquire teaching skills to educate future generations of laboratory scientists.",
+            "image": "../Courses/paramedical/Lab/teacher.avif"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 45%. For reserved category candidates, a minimum of 40% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 40% is required."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Extensive hands-on training in laboratory techniques.",
+        "Practical experience in real healthcare settings.",
+        "Advanced research opportunities in medical laboratories.",
+        "Internship placements in leading hospitals and diagnostic centers.",
+        "Specialized workshops on emerging trends in laboratory science."
+    ],
+
+},
+{
+    "id": 30,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN ANESTHESIA",
+        "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
+        "background_image": "../Courses/paramedical/Anasthesia/header.avif"
+    },
+    "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
+    "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
+    "fees": "45,000/- INR Per Semester",
+    "duration": "3 Years (Semester System)",
+    "major_tracks": [
+        "Operation Theatre Assistant",
+        "Anesthesia Technician"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Operation Theatre Assistant",
+            "desc": "Acquire skills to assist surgeons and nurses in operation theatre procedures.",
+            "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+        },
+        {
+            "title": "Anesthesia Technician",
+            "desc": "Learn to assist anesthesiologists in administering anesthesia and monitoring patients during surgical procedures.",
+            "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+        },
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have passed 10+2 with Physics, Chemistry & Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Hands-on training in anesthesia administration.",
+        "Simulation exercises for emergency anesthesia scenarios.",
+        "Clinical rotations in operation theatres.",
+        "Internship in anesthesia departments.",
+        "Workshops on patient monitoring techniques."
+    ],
+
+},
+{
+    "id": 29,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN OPTOMETRY",
+        "subtitle": "VISIONARY HEALTHCARE PROFESSIONALS",
+        "background_image": "../Courses/paramedical/Optometry/header.avif"
+    },
+    "program_name": "Bachelor of Science in Optometry",
+    "program_description": "B.Sc Optometry is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. It focuses on the science of vision and eye equipment. Students interested in healthcare professions involving examination, diagnosis, treatment, and management of eye diseases can opt for this program. The aim is to teach students about eye equipment such as lenses and spectacles. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has state-of-the-art infrastructure with modern equipment and laboratories, ranked as the best in North India. The paramedical college also boasts the highest placement rate in North India. Graduates of B.Sc Optometry can pursue careers as Opticians, Optometrists, Refractionists, and Ophthalmic Assistants.",
+    "fees": "45,000/- INR Per Semester",
+    "duration": "3 Years (Semester System)",
+    "major_tracks": [
+        "Optician",
+        "Optometrist",
+        "Refractionist",
+        "Ophthalmic Assistant"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Optician",
+            "desc": "Acquire skills to dispense eyeglasses and contact lenses according to prescriptions.",
+            "image": "../Courses/paramedical/Optometry/optician.jpg"
+        },
+        {
+            "title": "Optometrist",
+            "desc": "Learn to conduct eye examinations and diagnose vision problems.",
+            "image": "../Courses/paramedical/Optometry/optometrist.jpg"
+        },
+        {
+            "title": "Refractionist",
+            "desc": "Develop expertise in determining the refractive errors of the eye.",
+            "image": "../Courses/paramedical/Optometry/refractionist.jpg"
+        },
+        {
+            "title": "Ophthalmic Assistant",
+            "desc": "Assist ophthalmologists in providing patient care and conducting eye examinations.",
+            "image": "../Courses/paramedical/Optometry/assistant.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Practical training in vision examination techniques.",
+        "Clinical rotations in eye clinics.",
+        "Internship in ophthalmology departments.",
+        "Workshops on advanced vision diagnostics.",
+        "Hands-on experience with ophthalmic equipment."
+    ],
+
+},
+{
+    "id": 33,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "BACHELOR OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
+        "subtitle": "CHART YOUR PATH TO SUCCESS IN CARDIAC CARE",
+        "background_image": "../Courses/paramedical/Cardiac/header.avif"
+    },
+    "program_name": "BSc in Cardiac Care Technology",
+    "program_description": "The Bachelor of Science (BSc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
+    "fees": "32,500/- INR Per Semester",
+    "duration": "3 Years (Semester System)",
+    "major_tracks": [
+        "Cardiac Rehabilitation",
+        "Cardiac Catheterization Lab",
+        "Cardiac Intensive Care Unit (ICU)",
+        "Cardiac Surgery",
+        "Cardiac Electrophysiology",
+        "Cardiac Imaging"
+    ],
+    "program_outcomes": [
+        {
+            "title": "ECG Technician",
+            "desc": "Perform electrocardiograms (ECGs) to monitor heart activity and assist in diagnosing cardiac conditions.",
+            "image": "../Courses/paramedical/Cardiac/ecg.jpg"
+        },
+        {
+            "title": "Cardiac Rehabilitation Specialist",
+            "desc": "Design and implement rehabilitation programs for patients recovering from cardiac events or surgeries.",
+            "image": "../Courses/paramedical/Cardiac/cardiac.avif"
+        },
+        {
+            "title": "Medical Sales Representative",
+            "desc": "Promote and sell medical devices and equipment related to cardiac care to healthcare facilities.",
+            "image": "../Courses/paramedical/Cardiac/sales.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
+    },
+    "affiliation": {
+        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "approved_by": "AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Comprehensive training in cardiac diagnostic procedures.",
+        "Hands-on experience with advanced cardiac technology.",
+        "Clinical rotations in specialized cardiac care units.",
+        "Internship opportunities in leading cardiology departments.",
+        "Career development workshops and seminars."
+    ],
+
+},
 
   // BUSINESS STUDIES
   {
@@ -1488,68 +2336,68 @@ const data = [
     "labs": []
 
 },
-{
-    "id": 23,
-    "course_name": "Business Studies",
-    event_type: "BusinessStudies",
-    "header": {
-        "title": "BACHELOR OF BUSINESS ADMINISTRATION",
-        "subtitle": "DEVELOPING BUSINESS ACUMEN",
-        "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
-    },
-    "program_name": "BBA",
-    "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
-    "fees": "22,000/- INR Per Semester",
-    "duration": "3 years",
-    "major_tracks": [
-        "Entrepreneurship",
-        "Finance & Accounting Management",
-        "HR Management",
-        "Marketing Management",
-        "Supply Chain Management",
-        "Tourism Management"
-    ],
+// {
+//     "id": 23,
+//     "course_name": "Business Studies",
+//     event_type: "BusinessStudies",
+//     "header": {
+//         "title": "BACHELOR OF BUSINESS ADMINISTRATION",
+//         "subtitle": "DEVELOPING BUSINESS ACUMEN",
+//         "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
+//     },
+//     "program_name": "BBA",
+//     "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
+//     "fees": "22,000/- INR Per Semester",
+//     "duration": "3 years",
+//     "major_tracks": [
+//         "Entrepreneurship",
+//         "Finance & Accounting Management",
+//         "HR Management",
+//         "Marketing Management",
+//         "Supply Chain Management",
+//         "Tourism Management"
+//     ],
 
-    "program_outcomes": [
-        {
-            "title": "Marketing Manager",
-            "desc": "Develop and implement marketing strategies to promote products or services and drive business growth.",
-            "image": "../Courses/Business/BBA/man.jpg"
-        },
-        {
-            "title": "Operations Manager",
-            "desc": "Ensure efficient operation of business processes, including production, supply chain management, and resource allocation.",
-            "image": "../Courses/Business/BBA/operation.jpg"
-        },
-        {
-            "title": "Entrepreneur",
-            "desc": "Initiate, organize, and manage business ventures, taking innovative ideas from conception to execution.",
-            "image": "../Courses/Business/BBA/enter.jpg"
-        },
-        {
-            "title": "Human Resource Manager",
-            "desc": "Oversee recruitment, training, and employee relations, ensuring organizational policies and procedures are followed.",
-            "image": "../Courses/Business/MBA/human.jpg"
-        }
-    ],
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-    "program_highlights": [
-        "Professional undergraduate program in Business Management",
-        "Covers management and business principles",
-        "Emphasizes practical experience through internships, case studies, and projects",
-        "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
-        "Opportunities to work in various industries and sectors",
-        "Three-year duration with a focus on practical learning"
-    ],
-    "affiliation": {
-        "affiliated_to": "SVFTM",
-        "approved_by": "AICTE"
-    },
-    "eligibility_criteria": {
-        "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
-    },
-    "labs": []
-},
+//     "program_outcomes": [
+//         {
+//             "title": "Marketing Manager",
+//             "desc": "Develop and implement marketing strategies to promote products or services and drive business growth.",
+//             "image": "../Courses/Business/BBA/man.jpg"
+//         },
+//         {
+//             "title": "Operations Manager",
+//             "desc": "Ensure efficient operation of business processes, including production, supply chain management, and resource allocation.",
+//             "image": "../Courses/Business/BBA/operation.jpg"
+//         },
+//         {
+//             "title": "Entrepreneur",
+//             "desc": "Initiate, organize, and manage business ventures, taking innovative ideas from conception to execution.",
+//             "image": "../Courses/Business/BBA/enter.jpg"
+//         },
+//         {
+//             "title": "Human Resource Manager",
+//             "desc": "Oversee recruitment, training, and employee relations, ensuring organizational policies and procedures are followed.",
+//             "image": "../Courses/Business/MBA/human.jpg"
+//         }
+//     ],
+//     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+//     "program_highlights": [
+//         "Professional undergraduate program in Business Management",
+//         "Covers management and business principles",
+//         "Emphasizes practical experience through internships, case studies, and projects",
+//         "Prepares students for careers in entrepreneurship, finance, HR, marketing, and supply chain management",
+//         "Opportunities to work in various industries and sectors",
+//         "Three-year duration with a focus on practical learning"
+//     ],
+//     "affiliation": {
+//         "affiliated_to": "SVFTM",
+//         "approved_by": "AICTE"
+//     },
+//     "eligibility_criteria": {
+//         "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
+//     },
+//     "labs": []
+// },
 {
     "id": 24,
     "course_name": "Business Studies",
@@ -1608,7 +2456,67 @@ const data = [
     ],
     "labs": []
 },
-
+{
+    "id": 23,
+    "course_name": "Business Studies",
+    "event_type": "BusinessStudies",
+    "header": {
+        "title": "BACHELOR OF COMMERCE",
+        "subtitle": "EXPLORING THE WORLD OF COMMERCE",
+        "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
+    },
+    "program_name": "B.Com",
+    "program_description": "B.Com, offered by SVFTM, is a 3-year undergraduate program that delves into various aspects of commerce and business. It covers subjects such as accounting, economics, finance, and management. The program emphasizes practical learning through internships, case studies, and projects, preparing students for diverse career opportunities in the fields of commerce, finance, and business management.\n\nUpon completion of B.Com, students can pursue careers in:\n\n- Accounting\n- Finance\n- Banking\n- Business Analysis\n- Marketing\n- Entrepreneurship",
+    "fees": "20,000/- INR Per Semester",
+    "duration": "3 years",
+    "major_tracks": [
+        "Accounting",
+        "Finance",
+        "Banking",
+        "Business Analysis",
+        "Marketing",
+        "Entrepreneurship"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Accountant",
+            "desc": "Maintain financial records, prepare financial statements, and ensure compliance with accounting standards.",
+            "image": "../Courses/Business/MBA/human.jpg"
+        },
+        {
+            "title": "Financial Analyst",
+            "desc": "Analyze financial data, assess investment opportunities, and provide insights for decision-making.",
+            "image": "../Courses/Business/BBA/operation.jpg"
+        },
+        {
+            "title": "Bank Officer",
+            "desc": "Manage banking operations, process transactions, and assist customers with financial services.",
+            "image": "../Courses/Business/BBA/enter.jpg"
+        },
+        {
+            "title": "Marketing Executive",
+            "desc": "Develop marketing strategies, conduct market research, and execute promotional campaigns.",
+            "image": "../Courses/Business/BBA/man.jpg"
+        }
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Comprehensive undergraduate program in commerce",
+        "Covers accounting, finance, economics, and management",
+        "Emphasizes practical learning through internships and projects",
+        "Prepares students for careers in accounting, finance, banking, marketing, and entrepreneurship",
+        "Opportunities to work in various industries and sectors",
+        "Three-year duration with a focus on practical learning"
+    ],
+    "affiliation": {
+        "affiliated_to": "SVFTM",
+        "approved_by": "AICTE"
+    },
+    "eligibility_criteria": {
+        "eligibility": "To be eligible for the B.Com program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
+    },
+    "labs": []
+},
    // BASIC SCIENCES
    {
     "id": 38,
@@ -1821,7 +2729,6 @@ const data = [
     ],
     "labs": []
 },
-
 
    // EDUCATION
 
@@ -2256,7 +3163,7 @@ const data = [
         },
         "affiliation": {
             "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "approved_by": "psbte and it"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -2331,7 +3238,7 @@ const data = [
         },
         "affiliation": {
             "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "approved_by": "psbte and it"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -2358,11 +3265,65 @@ const data = [
             }
         ]
     },
+    {
+        "id": 32,
+        "course_name": "Paramedical",
+        "header": {
+            "title": "DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY",
+            "subtitle": "TRAINING SKILLED LAB TECHNICIANS",
+            "background_image": "../Courses/paramedical/DMLT/header.avif"
+        },
+        "program_name": "Diploma in Medical Laboratory Technology",
+        "program_description": "Diploma in Medical Laboratory Technology is a 3-year program designed to impart experiential learning to students to develop the desired workforce to combat the ever-increasing demand for medical lab technicians in the healthcare sector. The program is designed with specific inputs from industry experts, based on the latest technologies available and in practice, for individuals interested in entering the field of clinical laboratory science. It covers all aspects of clinical lab analysis including analysis of body matter, Hematology, Biochemistry, Pathology, Microbiology, Serology, and Blood Banking, etc. Students will also learn operations of advanced lab equipment used for providing various laboratory test reports. Diploma holders in medical lab technology would typically be recruited as medical lab technicians, technologists, lab information system analysts, healthcare administrators, and hospital outreach assistant coordinators.",
+        "fees": "20,000/- INR Per Semester",
+        "duration": "3 Years (Semester System)",
+        "major_tracks": [
+            "Medical Lab Technician",
+            "Technologist",
+            "Lab Information System Analyst",
+            "Healthcare Administrator",
+            "Hospital Outreach Assistant Coordinator"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Medical Lab Technician",
+                "desc": "Perform clinical laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
+                "image": "../Courses/paramedical/DMLT/technician.jpg"
+            },
+            {
+                "title": "Technologist",
+                "desc": "Operate advanced laboratory equipment and ensure accurate and timely reporting of laboratory test results.",
+                "image": "../Courses/paramedical/DMLT/technologist.avif"
+            },
+            {
+                "title": "Lab Information System Analyst",
+                "desc": "Analyze and manage laboratory information systems to ensure efficient workflow and data accuracy.",
+                "image": "../Courses/paramedical/DMLT/analyst.jpg"
+            },
+            {
+                "title": "Healthcare Administrator",
+                "desc": "Oversee and coordinate laboratory operations within healthcare facilities to ensure quality patient care.",
+                "image": "../Courses/paramedical/DMLT/healthcare.jpg"
+            },
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
+        },
+        "affiliation": {
+            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Hands-on training with state-of-the-art laboratory equipment.",
+            "Practical experience in various clinical settings.",
+            "Industry-relevant curriculum designed by experts.",
+            "Internship opportunities in leading healthcare institutions.",
+            "Career guidance and placement support services."
+        ],
 
-  
+    },
 
-   
- 
 
     // COMPUTER APPLICATION
     {
@@ -2607,14 +3568,82 @@ const data = [
         "labs": []
     },
 
-
+    //Nursing
+    {
+        "id": 13,
+        "course_name": "Nursing",
+        "event_type": "Nursing",
+        "header": {
+            "title": "DIPLOMA IN NURSING",
+            "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
+            "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
+        },
+        "program_name": "DIPLOMA IN NURSING",
+        "program_description": "SVGOI's Diploma in Nursing program aims to prepare compassionate and skilled healthcare professionals for the nursing sector. This diploma program covers essential topics in nursing, including patient care, medical procedures, and healthcare ethics. Students gain hands-on training through clinical rotations and internships in hospitals and healthcare facilities. The curriculum emphasizes practical skills development, critical thinking, and professional ethics to ensure graduates are well-prepared for the challenges of the healthcare industry.",
+        "fees": "Varies depending on institution",
+        "duration": "2 years",
+        "major_tracks": [
+            "Patient Care",
+            "Medical Procedures",
+            "Healthcare Ethics"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Registered Nurse",
+                "desc": "Provide comprehensive patient care under the supervision of physicians and senior nursing staff.",
+                "image": "../Courses/pharmacy/pharm/pharma.jpg"
+            },
+            {
+                "title": "Healthcare Assistant",
+                "desc": "Assist healthcare professionals in medical procedures, patient monitoring, and administering medications.",
+                "image": "../Courses/pharmacy/pharm/pharma.jpg"
+            },
+            {
+                "title": "Nursing Technician",
+                "desc": "Operate medical equipment, collect patient data, and assist in treatment procedures.",
+                "image": "../Courses/pharmacy/pharm/pharma.jpg"
+            }
+        ],
+        "labs": [
+            {
+                "title": "Clinical Rotations",
+                "description": "Gain hands-on experience in hospital settings under the guidance of experienced nursing professionals.",
+                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+            },
+            {
+                "title": "Simulation Lab",
+                "description": "Practice nursing skills and scenarios using simulation technology for realistic training.",
+                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+            },
+            {
+                "title": "Anatomy Lab",
+                "description": "Study human anatomy and physiology to understand the structure and function of the human body.",
+                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have completed their 10+2 examination from a recognized board with Science (PCB) stream."
+        },
+        "affiliation": {
+            "affiliated_to": "IKGPTU, Jalandhar",
+            "approved_by": "AICTE"
+        },
+        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Hands-on training in nursing skills and procedures",
+            "Clinical rotations in hospitals and healthcare facilities",
+            "Focus on practical skills development and critical thinking",
+            "Ethical and compassionate patient care",
+            "Preparation for a rewarding career in the healthcare sector"
+        ]
+    },
     // LAW
     {
         "id": 35,
         "course_name": "Law",
         event_type: "law",
         "header": {
-            "title": "BACHELOR OF LAW",
+            "title": "BACHELOR OF LAW (LL.B.)",
             "subtitle": "DELIVERING JUSTICE FOR A BETTER SOCIETY",
             "background_image": "../Courses/Law/Bachelors/header.avif"
         },
@@ -2670,9 +3699,9 @@ const data = [
     {
         "id": 36,
         "course_name": "Law",
-        event_type: "law",
+        "event_type": "law",
         "header": {
-            "title": "BACHELOR OF ARTS + BACHELOR OF LAW",
+            "title": "BACHELOR OF ARTS + BACHELOR OF LAW (B.A.LL.B.) ",
             "subtitle": "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
             "background_image": "../Courses/Law/LLB/header.avif"
         },
@@ -2726,714 +3755,199 @@ const data = [
         "labs": []
     },
 
-  
-    // PARAMEDICAL
+    //ITI
     {
-        "id": 26,
-        "course_name": "Paramedical",
+        "id": 1,
+        "course_name": "ITI",
+        "event_type": "ITI",
         "header": {
-            "title": "M.Sc IN ANESTHESIA AND OPERATION THEATRE TECHNOLOGY",
-            "subtitle": "ELEVATING OPERATION THEATRE EXPERTISE",
-            "background_image": "../Courses/paramedical/Anesthesia/anesthesia.jpg"
+            "title": "WELDER CERTIFICATION PROGRAM (WELDER)",
+            "subtitle": "BUILDING THE FUTURE IN METAL",
+            "background_image": "../Courses/Welder/header.jpg"
         },
-        "program_name": "Master of Science in Anesthesia and Operation Theatre Technology",
-        "program_description": "Master of Science in Anesthesia and Operation Theatre Technology is a master’s degree level course in Operation Theatre technology. This course equips students with high-level skills to handle operation theatre preparation in case of emergencies. It is designed to provide advanced skills to assist and handle the preparation of operation theatres, enabling students to become experienced anesthesiologists. Experienced teachers facilitate learning, ensuring clear understanding of concepts. The course is based on research methodology, supported by world-class advanced medical labs situated on campus at Swami Vivekanand Paramedical College. After completing this program, students can work professionally as anesthesiologists and handle responsibilities as assistants in emergency situations.",
-        "fees": "32,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
+        "program_name": "Welder Certification Program",
+        "program_description": "The Welder Certification Program at SVGOI equips students with the skills and knowledge required to excel in the field of welding. This program covers various welding techniques, safety procedures, and industry standards. Students gain hands-on experience through practical training sessions and workshops conducted by experienced welders. The curriculum focuses on developing proficiency in different types of welding processes, including MIG, TIG, and stick welding, to prepare graduates for diverse welding applications across industries.",
+        "fees": "Varies depending on institution",
+        "duration": "6 months",
         "major_tracks": [
-            "Emergency Anesthesia",
-            "Operation Theatre Management"
+            "MIG Welding",
+            "TIG Welding",
+            "Stick Welding"
         ],
         "program_outcomes": [
             {
-                "title": "Experienced Anesthesiologist",
-                "desc": "Acquire advanced skills to function effectively as an experienced anesthesiologist.",
-                "image": "../Courses/paramedical/Anesthesia/experience.jpg"
+                "title": "Certified Welder",
+                "desc": "Demonstrate proficiency in various welding techniques and processes.",
+                "image": "../Courses/Welder/certified_welder.jpg"
             },
             {
-                "title": "Operation Theatre Expert",
-                "desc": "Master the techniques and procedures involved in operation theatre management.",
-                "image": "../Courses/paramedical/Anesthesia/operation.jpg"
+                "title": "Welding Technician",
+                "desc": "Perform welding operations and maintenance tasks in industrial settings.",
+                "image": "../Courses/Welder/welding_technician.jpg"
             },
             {
-                "title": "Emergency Response Specialist",
-                "desc": "Develop the ability to handle emergency situations in operation theatres with efficiency and precision.",
-                "image": "../Courses/paramedical/Anesthesia/emergency.jpg"
+                "title": "Fabrication Specialist",
+                "desc": "Fabricate metal structures and components using advanced welding methods.",
+                "image": "../Courses/Welder/fabrication_specialist.jpg"
+            }
+        ],
+        "labs": [
+            {
+                "title": "Welding Workshop",
+                "description": "Hands-on training in welding techniques and equipment operation.",
+                "image": "../Courses/Welder/welding_workshop.jpg"
             },
             {
-                "title": "Anesthesia and Operation Theatre Technologist",
-                "desc": "Gain expertise in anesthesia administration and operation theatre technology to support medical procedures effectively.",
-                "image": "../Courses/paramedical/Anesthesia/technologist.jpg"
+                "title": "Safety Training",
+                "description": "Learn safety protocols and procedures for welding operations.",
+                "image": "../Courses/Welder/safety_training.jpg"
             }
         ],
         "eligibility_criteria": {
-            "eligibility": "Candidates must have completed B.Sc. in Anesthesia & Operation Theatre Technology."
+            "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
-            "Hands-on training in anesthesia techniques.",
-            "Simulation exercises for emergency scenarios.",
-            "Clinical rotations in leading hospitals.",
-            "Internship in operation theatre management.",
-            "Workshops on patient safety and care."
-        ],
-
-    },
-    {
-        "id": 25,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "M.Sc MLS -Clinical Biochemistry",
-            "subtitle": "ELEVATING LABORATORY LEADERSHIP",
-            "background_image": "../Courses/paramedical/MLS/mls.jpg"
-        },
-        "program_name": "M.Sc MLS - Biochemistry",
-        "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
-        "fees": "32,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Clinical Research",
-            "Diagnostic Sciences"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Clinical Scientist",
-                "desc": "Develop advanced skills in medical laboratory science and become leaders in the field as clinical scientists.",
-                "image": "../Courses/paramedical/MLS/clinic.jpg"
-            },
-            {
-                "title": "Researcher",
-                "desc": "Conduct research in medical laboratory science and contribute to advancements in healthcare.",
-                "image": "../Courses/paramedical/MLS/research.jpg"
-            },
-            {
-                "title": "Educator",
-                "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
-                "image": "../Courses/paramedical/MLS/educator.jpg"
-            },
-            {
-                "title": "Paramedical Professional",
-                "desc": "Provide essential support in medical settings, assisting healthcare professionals in patient care and emergency response.",
-                "image": "../Courses/paramedical/MLS/professional.jpg"
-            }
-        ],
-
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Hands-on learning through laboratory experiments.",
-            "Advanced research opportunities in biochemistry.",
-            "Clinical exposure in top medical institutions.",
-            "Internship in renowned diagnostic centers.",
-            "Professional development workshops."
-        ],
-
-    },
-    {
-        "id": 29,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "MASTER OF SCIENCE IN MEDICAL LABORATORY SCIENCE - MEDICAL MICROBIOLOGY",
-            "subtitle": "EXPERTS IN MEDICAL DIAGNOSTICS",
-            "background_image": "../Courses/paramedical/Optometry/header.avif"
-        },
-        "program_name": "Master of Science in Medical Laboratory Science - Medical Microbiology",
-        "program_description": "M.Sc. MLS - Medical Microbiology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program delves into the advanced study of microorganisms and their impact on human health. Students interested in diagnostic microbiology, infectious diseases, and laboratory management will find this program highly beneficial. The curriculum encompasses theoretical knowledge and practical skills essential for proficiency in medical microbiology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in clinical laboratories, research institutions, and healthcare settings.",
-        "fees": "60,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
-        "major_tracks": [
-            "Clinical Microbiologist",
-            "Diagnostic Laboratory Manager",
-            "Infection Control Specialist",
-            "Research Scientist"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Clinical Microbiologist",
-                "desc": "Gain expertise in diagnosing infectious diseases through microbiological techniques.",
-                "image": "../Courses/paramedical/Optometry/optician.jpg"
-            },
-            {
-                "title": "Diagnostic Laboratory Manager",
-                "desc": "Develop skills to manage and supervise diagnostic laboratories efficiently.",
-                "image": "../Courses/paramedical/Optometry/optometrist.jpg"
-            },
-            {
-                "title": "Infection Control Specialist",
-                "desc": "Learn to implement and oversee infection control measures in healthcare settings.",
-                "image": "../Courses/paramedical/Optometry/refractionist.jpg"
-            },
-            {
-                "title": "Research Scientist",
-                "desc": "Conduct advanced research on microorganisms to contribute to medical science.",
-                "image": "../Courses/paramedical/Optometry/assistant.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Advanced training in microbiological diagnostic techniques.",
-            "Clinical rotations in microbiology labs.",
-            "Internship in hospital and diagnostic laboratories.",
-            "Workshops on cutting-edge microbiological research.",
-            "Hands-on experience with advanced laboratory equipment."
+            "Hands-on training in various welding techniques",
+            "Workshops conducted by experienced welders",
+            "Focus on safety and industry standards",
+            "Preparation for welding certification exams",
+            "Career opportunities in manufacturing, construction, and fabrication industries"
         ]
     },
     {
-        "id": 30,
-        "course_name": "Paramedical",
+        "id": 2,
+        "course_name": "ITI",
+        "event_type": "ITI",
         "header": {
-            "title": "MASTER OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
-            "subtitle": "ADVANCED MEDICAL IMAGING PROFESSIONALS",
-            "background_image": "../Courses/paramedical/RadioImaging/header.avif"
+            "title": "PLUMBING CERTIFICATION PROGRAM (PLUMBER)",
+            "subtitle": "BUILDING THE FUTURE IN PIPEWORK",
+            "background_image": "../Courses/Plumber/header.jpg"
         },
-        "program_name": "Master of Science in Radio Imaging Technology",
-        "program_description": "M.Sc. in Radio Imaging Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This course provides advanced education and training in medical imaging techniques, preparing students for professional roles in radiology departments. The program covers various imaging modalities including X-ray, MRI, CT scan, and ultrasound. The curriculum is designed to provide both theoretical knowledge and practical skills essential for excellence in the field of radiology. Swami Vivekanand Paramedical College is equipped with state-of-the-art infrastructure and modern laboratories, making it the best choice for aspiring radiology professionals in North India. The college boasts the highest placement rate in the region, ensuring successful career prospects for graduates.",
-        "fees": "60,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
+        "program_name": "Plumbing Certification Program",
+        "program_description": "The Plumbing Certification Program at SVGOI provides comprehensive training in plumbing techniques and practices. Students learn about pipe installation, repair, and maintenance for residential, commercial, and industrial buildings. The curriculum covers plumbing codes, safety regulations, and sustainable plumbing practices. Practical training sessions and workshops enable students to develop the skills necessary for a successful career as a professional plumber.",
+        "fees": "Varies depending on institution",
+        "duration": "6 months",
         "major_tracks": [
-            "Radiology Technologist",
-            "MRI Technologist",
-            "CT Scan Technologist",
-            "Ultrasound Technologist"
+            "Pipe Installation",
+            "Pipe Repair",
+            "Maintenance Techniques"
         ],
         "program_outcomes": [
             {
-                "title": "Radiology Technologist",
-                "desc": "Acquire skills to perform and interpret various radiographic procedures.",
-                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+                "title": "Certified Plumber",
+                "desc": "Demonstrate proficiency in pipe installation, repair, and maintenance.",
+                "image": "../Courses/Plumber/certified_plumber.jpg"
             },
             {
-                "title": "MRI Technologist",
-                "desc": "Learn to operate MRI machines and conduct magnetic resonance imaging scans.",
-                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+                "title": "Plumbing Technician",
+                "desc": "Perform plumbing installations and repairs in residential, commercial, and industrial settings.",
+                "image": "../Courses/Plumber/plumbing_technician.jpg"
             },
             {
-                "title": "CT Scan Technologist",
-                "desc": "Develop expertise in performing CT scans and analyzing cross-sectional images.",
-                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+                "title": "Maintenance Specialist",
+                "desc": "Implement preventive maintenance programs and troubleshoot plumbing issues.",
+                "image": "../Courses/Plumber/maintenance_specialist.jpg"
+            }
+        ],
+        "labs": [
+            {
+                "title": "Plumbing Workshop",
+                "description": "Hands-on training in pipe installation and repair techniques.",
+                "image": "../Courses/Plumber/plumbing_workshop.jpg"
             },
             {
-                "title": "Ultrasound Technologist",
-                "desc": "Gain proficiency in using ultrasound equipment to conduct diagnostic procedures.",
-                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+                "title": "Safety Training",
+                "description": "Learn safety protocols and procedures for plumbing operations.",
+                "image": "../Courses/Plumber/safety_training.jpg"
             }
         ],
         "eligibility_criteria": {
-            "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
+            "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
-            "Advanced training in various medical imaging techniques.",
-            "Clinical rotations in radiology departments.",
-            "Internship in diagnostic imaging centers.",
-            "Workshops on advanced imaging technologies.",
-            "Hands-on experience with state-of-the-art radiology equipment."
+            "Hands-on training in plumbing techniques",
+            "Workshops conducted by experienced plumbers",
+            "Focus on plumbing codes and safety regulations",
+            "Preparation for plumbing certification exams",
+            "Career opportunities in construction, building maintenance, and facility management"
         ]
     },
     {
-        "id": 30,
-        "course_name": "Paramedical",
+        "id": 3,
+        "course_name": "ITI",
+        "event_type": "ITI",
         "header": {
-            "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
-            "subtitle": "EXPERTS IN CARDIAC CARE",
-            "background_image": "../Courses/paramedical/radiology/radiology.jpg"
+            "title": "COMPUTER OPERATOR AND PROGRAMMING ASSISTANT (COPA)",
+            "subtitle": "EMBRACING THE DIGITAL FUTURE",
+            "background_image": "../Courses/COPA/header.jpg"      
         },
-        "program_name": "Master of Science in Cardiac Care Technology",
-        "program_description": "M.Sc. CCT - Cardiac Care Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program focuses on advanced cardiac care, including diagnosis, treatment, and management of heart diseases. Students interested in cardiac diagnostics, interventional cardiology, and cardiac rehabilitation will find this program highly beneficial. The curriculum includes both theoretical knowledge and practical skills essential for proficiency in cardiac care technology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern cardiac diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in cardiac care units, research institutions, and healthcare settings.",
-        "fees": "70,000/- INR Per Semester",
-        "duration": "2 Years (Semester System)",
+        "program_name": "Computer Operator and Programming Assistant",
+        "program_description": "The Computer Operator and Programming Assistant (COPA) program at SVGOI prepares students for careers in the IT industry. Students learn essential computer skills, including typing, data entry, and office software applications. The curriculum also covers programming fundamentals, database management, and web development. Practical exercises and projects enable students to develop proficiency in various programming languages and software tools, preparing them for entry-level positions as computer operators, data entry operators, and junior programmers.",
+        "fees": "Varies depending on institution",
+        "duration": "1 year",
         "major_tracks": [
-            "Cardiac Care Technologist",
-            "Cardiac Diagnostics Specialist",
-            "Interventional Cardiology Technologist",
-            "Cardiac Rehabilitation Specialist"
+            "Typing Skills",
+            "Data Entry",
+            "Office Software Applications",
+            "Programming Fundamentals",
+            "Database Management",
+            "Web Development"
         ],
         "program_outcomes": [
             {
-                "title": "Cardiac Care Technologist",
-                "desc": "Gain expertise in providing advanced cardiac care and support in clinical settings.",
-                "image": "../Courses/paramedical/radiology/technician.jpg"
+                "title": "Computer Operator",
+                "desc": "Perform basic computer operations such as data entry, file management, and document processing.",
+                "image": "../Courses/COPA/computer_operator.jpg"
             },
             {
-                "title": "Cardiac Diagnostics Specialist",
-                "desc": "Develop skills in diagnosing cardiac conditions using advanced diagnostic equipment.",
-                "image": "../Courses/paramedical/radiology/educator.jpg"
+                "title": "Data Entry Operator",
+                "desc": "Enter and update data in databases, spreadsheets, and other digital formats with accuracy and efficiency.",
+                "image": "../Courses/COPA/data_entry_operator.jpg"
             },
             {
-                "title": "Interventional Cardiology Technologist",
-                "desc": "Learn to assist in interventional cardiology procedures and cardiac catheterization.",
-                "image": "../Courses/paramedical/radiology/image.jpg"
+                "title": "Junior Programmer",
+                "desc": "Write, test, and debug code under the guidance of senior programmers, contributing to software development projects.",
+                "image": "../Courses/COPA/junior_programmer.jpg"
+            }
+        ],
+        "labs": [
+            {
+                "title": "Computer Lab",
+                "description": "Access to computers equipped with relevant software for practicing typing, data entry, and programming exercises.",
+                "image": "../Courses/COPA/computer_lab.jpg"
             },
             {
-                "title": "Cardiac Rehabilitation Specialist",
-                "desc": "Acquire expertise in designing and implementing cardiac rehabilitation programs.",
-                "image": "../Courses/paramedical/radiology/image.jpg"
+                "title": "Programming Workshop",
+                "description": "Hands-on sessions to learn programming languages and develop software applications.",
+                "image": "../Courses/COPA/programming_workshop.jpg"
             }
         ],
         "eligibility_criteria": {
-            "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
+            "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "affiliated_to": "IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
-            "Advanced training in cardiac care techniques.",
-            "Clinical rotations in cardiac care units.",
-            "Internship in hospital and cardiac care departments.",
-            "Workshops on cutting-edge cardiac research.",
-            "Hands-on experience with advanced cardiac diagnostic equipment."
+            "Hands-on training in computer operations and programming",
+            "Focused curriculum covering essential IT skills",
+            "Practical exercises and projects for skill development",
+            "Preparation for entry-level positions in the IT industry",
+            "Opportunities for further specialization and career advancement"
         ]
-    },
-    {
-        "id": 34,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN PHYSIOTHERAPY",
-            "subtitle": "ENHANCING MOBILITY AND WELL-BEING",
-            "background_image": "../Courses/paramedical/Physiotherapy/header.avif"
-        },
-        "program_name": "BSc in Physiotherapy",
-        "program_description": "B.Sc Physiotherapy is an undergraduate degree program that focuses on the study of human movement, physical rehabilitation, and the prevention and treatment of physical impairments. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to assess, diagnose, and treat various musculoskeletal, neurological, and cardiopulmonary conditions. During the course, students learn about anatomy, physiology, biomechanics, exercise therapy, electrotherapy, and manual therapy techniques. They also gain clinical experience through internships and practical training, where they work under the supervision of experienced physiotherapists in hospitals, rehabilitation centers, sports clinics, and other healthcare settings. The goal of a B.Sc Physiotherapy program is to train professionals who can help individuals improve their mobility, manage pain, regain function, and enhance their overall well-being. Graduates can pursue careers as physiotherapists in hospitals, private clinics, sports organizations, and research institutions. They play a crucial role in promoting physical health, preventing injuries, and aiding in the recovery of patients with physical disabilities or limitations.",
-        "fees": "22,000/- INR Per Semester",
-        "duration": "4 Years (Semester System)",
-        "major_tracks": [
-            "Orthopedic Physiotherapist",
-            "Sports Physiotherapist",
-            "Rehabilitation Specialist",
-            "Neurological Physiotherapist",
-            "Stroke Rehabilitation Specialist"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Physiotherapist",
-                "desc": "Assess, diagnose, and treat individuals with musculoskeletal, neurological, and cardiopulmonary conditions to improve their mobility and overall well-being.",
-                "image": "../Courses/paramedical/Physiotherapy/physio.jpg"
-            },
-            {
-                "title": "Sports Physiotherapist",
-                "desc": "Provide specialized physiotherapy services to athletes and individuals involved in sports activities to prevent injuries and optimize performance.",
-                "image": "../Courses/paramedical/Physiotherapy/sports.avif"
-            },
-            {
-                "title": "Orthopedic Therapist",
-                "desc": "Focus on the assessment and treatment of orthopedic conditions and injuries affecting the musculoskeletal system, including fractures, joint disorders, and post-surgical rehabilitation.",
-                "image": "../Courses/paramedical/Physiotherapy/orthopedic.jpg"
-            },
-            {
-                "title": "Neurological Therapist",
-                "desc": "Work with patients who have neurological disorders or injuries, such as stroke, traumatic brain injury, spinal cord injury, or multiple sclerosis, to improve movement, function, and quality of life.",
-                "image": "../Courses/paramedical/Physiotherapy/neuro.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Comprehensive curriculum covering anatomy, physiology, biomechanics, and exercise therapy",
-            "Clinical experience through internships and practical training",
-            "Specialization tracks in orthopedic, sports, neurological, and stroke rehabilitation",
-            "Prepares graduates for careers in hospitals, private clinics, sports organizations, and research institutions"
-        ],
-
-    },
-    {
-        "id": 27,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
-            "subtitle": "ELEVATING RADIOLOGY EXPERTISE",
-            "background_image": "../Courses/paramedical/radiology/radiology.jpg"
-        },
-        "program_name": "Bachelor of Science in Radio Imaging Technology",
-        "program_description": "Bachelor of Science in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
-        "fees": "45,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Radiology Technician",
-            "Imaging Specialist"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Radiology Technician",
-                "desc": "Acquire skills to perform radiological procedures and operate imaging equipment.",
-                "image": "../Courses/paramedical/radiology/technician.jpg"
-            },
-            {
-                "title": "Imaging Specialist",
-                "desc": "Specialize in various imaging modalities such as X-ray, Sonography, CT Scan, and MRI.",
-                "image": "../Courses/paramedical/radiology/image.jpg"
-            },
-            {
-                "title": "Researcher in Radio Imaging Technology",
-                "desc": "Conduct research in the field of radio imaging technology and contribute to advancements in the field.",
-                "image": "../Courses/paramedical/radiology/research.jpg"
-            },
-            {
-                "title": " Radiology Educator",
-                "desc": "Develop expertise to educate and train future radiology technicians, imaging specialists, and researchers, facilitating the dissemination of knowledge and skills in radiological procedures and imaging technologies.",
-                "image": "../Courses/paramedical/radiology/educator.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Practical training in radiographic techniques.",
-            "Hands-on experience with imaging equipment.",
-            "Clinical rotations in radiology departments.",
-            "Internship in diagnostic imaging centers.",
-            "Workshops on radiation safety and protection."
-        ],
-
-    },
-    {
-        "id": 28,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN OPERATION THEATRE TECHNOLOGY",
-            "subtitle": "ELEVATING OPERATION THEATRE MANAGEMENT",
-            "background_image": "../Courses/paramedical/OT/ot.jpg"
-        },
-        "program_name": "Bachelor of Science in Operation Theatre Technology",
-        "program_description": "Bachelor of Science in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
-        "fees": "45,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Operation Theatre Technician",
-            "Operation Theatre Manager"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Operation Theatre Technician",
-                "desc": "Gain technical skills to assist in operation theaters and handle equipment.",
-                "image": "../Courses/paramedical/OT/technician.jpg"
-            },
-            {
-                "title": "Operation Theatre Manager",
-                "desc": "Develop management skills to oversee operation theater activities and handle emergency situations.",
-                "image": "../Courses/paramedical/OT/manager.jpg"
-            },
-            {
-                "title": "Researcher in Operation Theatre Technology",
-                "desc": "Conduct research in operation theater technology and contribute to advancements in the field.",
-                "image": "../Courses/paramedical/OT/research.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Hands-on training in operation theatre management.",
-            "Simulation exercises for emergency scenarios.",
-            "Clinical rotations in top hospitals.",
-            "Internship in operation theatre settings.",
-            "Workshops on healthcare ethics and regulations."
-        ],
-
-    },
-    {
-        "id": 31,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN MEDICAL LABORATORY SCIENCE",
-            "subtitle": "PREPARING HEALTHCARE LABORATORY PROFESSIONALS",
-            "background_image": "../Courses/paramedical/Lab/header.avif"
-        },
-        "program_name": "Bachelor of Science in Medical Laboratory Science",
-        "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
-        "fees": "25,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Laboratory Scientist",
-            "Managerial Supervisor",
-            "Teacher"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Laboratory Scientist",
-                "desc": "Gain expertise in performing laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
-                "image": "../Courses/paramedical/Lab/scientist.avif"
-            },
-            {
-                "title": "Managerial Supervisor",
-                "desc": "Develop leadership and management skills to oversee laboratory operations and supervise laboratory staff.",
-                "image": "../Courses/paramedical/Lab/supervisor.jpg"
-            },
-            {
-                "title": "Teacher",
-                "desc": "Acquire teaching skills to educate future generations of laboratory scientists.",
-                "image": "../Courses/paramedical/Lab/teacher.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 45%. For reserved category candidates, a minimum of 40% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 40% is required."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Extensive hands-on training in laboratory techniques.",
-            "Practical experience in real healthcare settings.",
-            "Advanced research opportunities in medical laboratories.",
-            "Internship placements in leading hospitals and diagnostic centers.",
-            "Specialized workshops on emerging trends in laboratory science."
-        ],
-
-    },
-    {
-        "id": 30,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN ANESTHESIA",
-            "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
-            "background_image": "../Courses/paramedical/Anasthesia/header.avif"
-        },
-        "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
-        "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
-        "fees": "45,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Operation Theatre Assistant",
-            "Anesthesia Technician"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Operation Theatre Assistant",
-                "desc": "Acquire skills to assist surgeons and nurses in operation theatre procedures.",
-                "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
-            },
-            {
-                "title": "Anesthesia Technician",
-                "desc": "Learn to assist anesthesiologists in administering anesthesia and monitoring patients during surgical procedures.",
-                "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have passed 10+2 with Physics, Chemistry & Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Hands-on training in anesthesia administration.",
-            "Simulation exercises for emergency anesthesia scenarios.",
-            "Clinical rotations in operation theatres.",
-            "Internship in anesthesia departments.",
-            "Workshops on patient monitoring techniques."
-        ],
-
-    },
-    {
-        "id": 29,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN OPTOMETRY",
-            "subtitle": "VISIONARY HEALTHCARE PROFESSIONALS",
-            "background_image": "../Courses/paramedical/Optometry/header.avif"
-        },
-        "program_name": "Bachelor of Science in Optometry",
-        "program_description": "B.Sc Optometry is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. It focuses on the science of vision and eye equipment. Students interested in healthcare professions involving examination, diagnosis, treatment, and management of eye diseases can opt for this program. The aim is to teach students about eye equipment such as lenses and spectacles. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has state-of-the-art infrastructure with modern equipment and laboratories, ranked as the best in North India. The paramedical college also boasts the highest placement rate in North India. Graduates of B.Sc Optometry can pursue careers as Opticians, Optometrists, Refractionists, and Ophthalmic Assistants.",
-        "fees": "45,000/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Optician",
-            "Optometrist",
-            "Refractionist",
-            "Ophthalmic Assistant"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Optician",
-                "desc": "Acquire skills to dispense eyeglasses and contact lenses according to prescriptions.",
-                "image": "../Courses/paramedical/Optometry/optician.jpg"
-            },
-            {
-                "title": "Optometrist",
-                "desc": "Learn to conduct eye examinations and diagnose vision problems.",
-                "image": "../Courses/paramedical/Optometry/optometrist.jpg"
-            },
-            {
-                "title": "Refractionist",
-                "desc": "Develop expertise in determining the refractive errors of the eye.",
-                "image": "../Courses/paramedical/Optometry/refractionist.jpg"
-            },
-            {
-                "title": "Ophthalmic Assistant",
-                "desc": "Assist ophthalmologists in providing patient care and conducting eye examinations.",
-                "image": "../Courses/paramedical/Optometry/assistant.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Practical training in vision examination techniques.",
-            "Clinical rotations in eye clinics.",
-            "Internship in ophthalmology departments.",
-            "Workshops on advanced vision diagnostics.",
-            "Hands-on experience with ophthalmic equipment."
-        ],
-
-    },
-    // {
-    //     "id": 32,
-    //     "course_name": "Paramedical",
-    //     "header": {
-    //         "title": "DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY",
-    //         "subtitle": "TRAINING SKILLED LAB TECHNICIANS",
-    //         "background_image": "../Courses/paramedical/DMLT/header.avif"
-    //     },
-    //     "program_name": "Diploma in Medical Laboratory Technology",
-    //     "program_description": "Diploma in Medical Laboratory Technology is a 3-year program designed to impart experiential learning to students to develop the desired workforce to combat the ever-increasing demand for medical lab technicians in the healthcare sector. The program is designed with specific inputs from industry experts, based on the latest technologies available and in practice, for individuals interested in entering the field of clinical laboratory science. It covers all aspects of clinical lab analysis including analysis of body matter, Hematology, Biochemistry, Pathology, Microbiology, Serology, and Blood Banking, etc. Students will also learn operations of advanced lab equipment used for providing various laboratory test reports. Diploma holders in medical lab technology would typically be recruited as medical lab technicians, technologists, lab information system analysts, healthcare administrators, and hospital outreach assistant coordinators.",
-    //     "fees": "20,000/- INR Per Semester",
-    //     "duration": "3 Years (Semester System)",
-    //     "major_tracks": [
-    //         "Medical Lab Technician",
-    //         "Technologist",
-    //         "Lab Information System Analyst",
-    //         "Healthcare Administrator",
-    //         "Hospital Outreach Assistant Coordinator"
-    //     ],
-    //     "program_outcomes": [
-    //         {
-    //             "title": "Medical Lab Technician",
-    //             "desc": "Perform clinical laboratory tests and analyses to assist in the diagnosis, treatment, and prevention of diseases.",
-    //             "image": "../Courses/paramedical/DMLT/technician.jpg"
-    //         },
-    //         {
-    //             "title": "Technologist",
-    //             "desc": "Operate advanced laboratory equipment and ensure accurate and timely reporting of laboratory test results.",
-    //             "image": "../Courses/paramedical/DMLT/technologist.avif"
-    //         },
-    //         {
-    //             "title": "Lab Information System Analyst",
-    //             "desc": "Analyze and manage laboratory information systems to ensure efficient workflow and data accuracy.",
-    //             "image": "../Courses/paramedical/DMLT/analyst.jpg"
-    //         },
-    //         {
-    //             "title": "Healthcare Administrator",
-    //             "desc": "Oversee and coordinate laboratory operations within healthcare facilities to ensure quality patient care.",
-    //             "image": "../Courses/paramedical/DMLT/healthcare.jpg"
-    //         },
-    //     ],
-    //     "eligibility_criteria": {
-    //         "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
-    //     },
-    //     "affiliation": {
-    //         "affiliated_to": "Swami Vivekanand Paramedical College",
-    //         "approved_by": "AICTE"
-    //     },
-    //     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-    //     "program_highlights": [
-    //         "Hands-on training with state-of-the-art laboratory equipment.",
-    //         "Practical experience in various clinical settings.",
-    //         "Industry-relevant curriculum designed by experts.",
-    //         "Internship opportunities in leading healthcare institutions.",
-    //         "Career guidance and placement support services."
-    //     ],
-
-    // },
-    {
-        "id": 33,
-        "course_name": "Paramedical",
-        "header": {
-            "title": "BACHELOR OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
-            "subtitle": "CHART YOUR PATH TO SUCCESS IN CARDIAC CARE",
-            "background_image": "../Courses/paramedical/Cardiac/header.avif"
-        },
-        "program_name": "BSc in Cardiac Care Technology",
-        "program_description": "The Bachelor of Science (BSc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
-        "fees": "32,500/- INR Per Semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Cardiac Rehabilitation",
-            "Cardiac Catheterization Lab",
-            "Cardiac Intensive Care Unit (ICU)",
-            "Cardiac Surgery",
-            "Cardiac Electrophysiology",
-            "Cardiac Imaging"
-        ],
-        "program_outcomes": [
-            {
-                "title": "ECG Technician",
-                "desc": "Perform electrocardiograms (ECGs) to monitor heart activity and assist in diagnosing cardiac conditions.",
-                "image": "../Courses/paramedical/Cardiac/ecg.jpg"
-            },
-            {
-                "title": "Cardiac Rehabilitation Specialist",
-                "desc": "Design and implement rehabilitation programs for patients recovering from cardiac events or surgeries.",
-                "image": "../Courses/paramedical/Cardiac/cardiac.avif"
-            },
-            {
-                "title": "Medical Sales Representative",
-                "desc": "Promote and sell medical devices and equipment related to cardiac care to healthcare facilities.",
-                "image": "../Courses/paramedical/Cardiac/sales.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
-        },
-        "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Comprehensive training in cardiac diagnostic procedures.",
-            "Hands-on experience with advanced cardiac technology.",
-            "Clinical rotations in specialized cardiac care units.",
-            "Internship opportunities in leading cardiology departments.",
-            "Career development workshops and seminars."
-        ],
-
-    },
+    } 
 ]
 
 export default data  
