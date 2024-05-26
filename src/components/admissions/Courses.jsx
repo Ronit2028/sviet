@@ -126,57 +126,8 @@ const Courses = () => {
                     </Typography>
                 </div>
                 <div className='flex flex-wrap my-6 py-6 '>
-                    <div className="w-full md:w-1/2 lg:w-1/3 flex justify-center">
-                        <div className="w-full grid grid-cols-2 gap-5 md:pr-5">
-                            <div className='bg-white rounded-md p-5 shadow-md flex flex-col justify-center'>
-
-                                <p className=" text-4xl mb-3 font-semibold">
-                                    3,000
-                                </p>
-
-                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                                    Offer Letters
-                                </p>
-                                <p className="font-medium mb-3 text-sm">
-                                    Every Year
-                                </p>
-                            </div>
-                            <div className='bg-[#fea700] text-white rounded-md p-5 shadow-md flex flex-col justify-center'>
-                                <p className=" text-4xl mb-3 font-semibold">
-                                    45 LPA
-                                </p>
-                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                                    Highest Package
-                                </p>
-                                <p className="font-medium mb-3 text-sm">
-                                    Offered
-                                </p>
-                            </div>
-                            <div className=' bg-[#fea700] text-white rounded-md p-5 shadow-md flex flex-col justify-center'>
-                                <p className=" text-4xl mb-3 font-semibold">
-                                    350
-                                </p>
-                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                                    Companies
-                                </p>
-                                <p className="font-medium mb-3 text-sm">
-                                    Visit Per year
-                                </p>
-                            </div>
-                            <div className='bg-white rounded-md p-5  shadow-md flex flex-col justify-center'>
-                                <p className=" text-4xl mb-3 font-semibold">
-                                    12000
-                                </p>
-                                <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                                    Dreams
-                                </p>
-                                <p className="font-medium mb-3 text-sm">
-                                    Fulfilled
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-full md:w-1/2 lg:w-2/3 ">
+                   
+                    <div className="w-full ">
                         <Slider {...settings}>
                             {collegeInformation.map((info, index) => (
                                 <div key={index} className='h-full'>

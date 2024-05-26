@@ -15,7 +15,7 @@ const page = () => {
       <Header />
       <StudentSpeak />
       <WhyChooseUs />
-      <AboutDepartment />
+      {/* <AboutDepartment /> */}
       <Activities />
       <Director />
       <Updates />
