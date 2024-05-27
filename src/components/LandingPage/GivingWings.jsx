@@ -176,7 +176,7 @@ const GivingWings = () => {
                             </div>
                             <div className='bg-[#fea700] text-white rounded-md p-5 shadow-md flex flex-col justify-center'>
                                 <p className=" text-4xl mb-3 font-semibold">
-                                    45 LPA
+                                    50 LPA
                                 </p>
                                 <p className="  text-lg font-medium py-1 w-fit mb-2 rounded-sm">
                                     Highest Package

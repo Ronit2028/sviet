@@ -26,7 +26,7 @@ const Header = () => {
                     <div className='p-6 lg:p-12 border-2 border-[#ffffff75]'>
                         <p className='text-3xl lg:text-4xl pb-3 font-medium'>
 
-45 LPA
+50 LPA
                         </p>
                         <p>Highest Package Offered
 
