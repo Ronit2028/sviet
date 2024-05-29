@@ -799,7 +799,7 @@ const data = [
         "subtitle": "ADVANCING THE HEALTHCARE HEROES",
         "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
     },
-    "program_name": "MASTER OF PHARMACY",
+    "program_name": "Master of Pharmacy",
     "program_description": "The M.Pharm program at SVGOI is designed to provide advanced knowledge and research opportunities in the field of Pharmaceutical Education and Research. The Institute comprises every element desired for academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. The Master of Pharmacy is a 2 Year postgraduate program in which students deepen their understanding of pharmaceutical sciences, focusing on areas such as drug formulation, quality control, clinical research, and pharmacology. Graduates of the M.Pharm program are equipped with the expertise required for advanced roles in the pharmaceutical industry, academia, and research. They can pursue careers in R&D, regulatory affairs, clinical trials, and more, contributing to the development and safe use of medications. The program also prepares students for potential doctoral studies in pharmacy and related fields.",
     "fees": "60,000/- INR Per Semester",
     "duration": "2 years",
@@ -878,7 +878,7 @@ const data = [
             "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
             "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
-        "program_name": "BACHELOR OF PHARMACY",
+        "program_name": "Bachelor of Pharmacy",
         "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
         "fees": "52000/- INR Per Semester",
         "duration": "4 years",
@@ -952,7 +952,7 @@ const data = [
     "course_name": "Pharmacy",
     event_type: "Pharmacy",
     "header": {
-        "title": "DIPLOMA IN PHARMACY",
+        "title": "Diploma in Pharmacy",
         "subtitle": "EMBRACE THE PHARMACEUTICAL JOURNEY",
         "background_image": "../Courses/pharmacy/diploma/Diploma.jpg"
     },
@@ -1035,7 +1035,7 @@ const data = [
         "subtitle": "ADVANCING PHARMACY PRACTICE",
         "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
     },
-    "program_name": "DOCTOR OF PHARMACY – POST BACCALAUREATE",
+    "program_name": "Doctor of Pharmacy – Post Baccalaureate",
     "program_description": "The Doctor of Pharmacy – Post Baccalaureate program is designed for graduates with a Bachelor's degree in Pharmacy (B.Pharm) who wish to advance their pharmacy practice skills and knowledge. The program offers advanced coursework and clinical training to prepare pharmacists for expanded roles in patient care, medication therapy management, and pharmaceutical services. Students deepen their understanding of pharmacotherapy, pharmacokinetics, patient counseling, and other specialized areas of pharmacy practice. The curriculum integrates classroom instruction with experiential learning opportunities in various healthcare settings, allowing students to apply theoretical knowledge to real-world patient care scenarios. Graduates of the Doctor of Pharmacy – Post Baccalaureate program are equipped to provide comprehensive pharmaceutical care, manage complex medication regimens, and contribute to interprofessional healthcare teams.",
     "fees": "75,000/- INR Per Semester",
     "duration": "3 years",
@@ -1570,11 +1570,11 @@ const data = [
     "id": 26,
     "course_name": "Paramedical",
     "header": {
-        "title": "M.Sc IN ANESTHESIA AND OPERATION THEATRE TECHNOLOGY",
+        "title": "M.Sc in Anesthesia and Operation Theatre Technology ",
         "subtitle": "ELEVATING OPERATION THEATRE EXPERTISE",
         "background_image": "../Courses/paramedical/Anesthesia/anesthesia.jpg"
     },
-    "program_name": "Master of Science in Anesthesia and Operation Theatre Technology",
+    "program_name": "M.Sc in Anesthesia and Operation Theatre Technology",
     "program_description": "Master of Science in Anesthesia and Operation Theatre Technology is a master’s degree level course in Operation Theatre technology. This course equips students with high-level skills to handle operation theatre preparation in case of emergencies. It is designed to provide advanced skills to assist and handle the preparation of operation theatres, enabling students to become experienced anesthesiologists. Experienced teachers facilitate learning, ensuring clear understanding of concepts. The course is based on research methodology, supported by world-class advanced medical labs situated on campus at Swami Vivekanand Paramedical College. After completing this program, students can work professionally as anesthesiologists and handle responsibilities as assistants in emergency situations.",
     "fees": "32,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -1625,11 +1625,11 @@ const data = [
     "id": 25,
     "course_name": "Paramedical",
     "header": {
-        "title": "M.Sc MLS -Clinical Biochemistry",
-        "subtitle": "ELEVATING LABORATORY LEADERSHIP",
+        "title": "M.Sc in Medical Laboratory Science - Clinical Biochemistry  ",
+        "subtitle": "Elevating Laboratory Leadership",
         "background_image": "../Courses/paramedical/MLS/mls.jpg"
     },
-    "program_name": "M.Sc MLS - Biochemistry",
+    "program_name": "M.Sc in Medical Laboratory Science - Clinical Biochemistry",
     "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
     "fees": "32,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -1681,11 +1681,11 @@ const data = [
     "id": 29,
     "course_name": "Paramedical",
     "header": {
-        "title": "MASTER OF SCIENCE IN MEDICAL LABORATORY SCIENCE - MEDICAL MICROBIOLOGY",
-        "subtitle": "EXPERTS IN MEDICAL DIAGNOSTICS",
+        "title": "M.Sc IN Medical Laboratory Science - Medical Microbiology  ",
+        "subtitle": "Experts in Medical Diagnostics",
         "background_image": "../Courses/paramedical/Optometry/header.avif"
     },
-    "program_name": "Master of Science in Medical Laboratory Science - Medical Microbiology",
+    "program_name": "M.Sc in Medical Laboratory Science - Medical Microbiology",
     "program_description": "M.Sc. MLS - Medical Microbiology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program delves into the advanced study of microorganisms and their impact on human health. Students interested in diagnostic microbiology, infectious diseases, and laboratory management will find this program highly beneficial. The curriculum encompasses theoretical knowledge and practical skills essential for proficiency in medical microbiology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in clinical laboratories, research institutions, and healthcare settings.",
     "fees": "60,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -2066,7 +2066,7 @@ const data = [
         "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
         "background_image": "../Courses/paramedical/Anasthesia/header.avif"
     },
-    "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
+    "program_name": "Bachelor of Science in Anesthesia ",
     "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
@@ -3193,7 +3193,7 @@ const data = [
     {
         "id": 12,
         "course_name": "Diploma",
-        event_type: "Engineering",
+        "event_type": "Engineering",
         "header": {
             "title": "DIPLOMA IN CIVIL ENGINEERING",
             "subtitle": "SHAPE THE INFRASTRUCTURE WITH",
@@ -3267,7 +3267,7 @@ const data = [
     },
     {
         "id": 32,
-        "course_name": "Paramedical",
+        "course_name": "Diploma",
         "header": {
             "title": "DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY",
             "subtitle": "TRAINING SKILLED LAB TECHNICIANS",
@@ -3574,11 +3574,11 @@ const data = [
         "course_name": "Nursing",
         "event_type": "Nursing",
         "header": {
-            "title": "DIPLOMA IN NURSING",
+            "title": "Diploma in Nursing",
             "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
             "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
-        "program_name": "DIPLOMA IN NURSING",
+        "program_name": "Diploma in Nursing",
         "program_description": "SVGOI's Diploma in Nursing program aims to prepare compassionate and skilled healthcare professionals for the nursing sector. This diploma program covers essential topics in nursing, including patient care, medical procedures, and healthcare ethics. Students gain hands-on training through clinical rotations and internships in hospitals and healthcare facilities. The curriculum emphasizes practical skills development, critical thinking, and professional ethics to ensure graduates are well-prepared for the challenges of the healthcare industry.",
         "fees": "Varies depending on institution",
         "duration": "2 years",
