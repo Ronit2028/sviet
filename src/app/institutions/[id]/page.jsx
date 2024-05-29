@@ -120,12 +120,14 @@ const Page = ({ params }) => {
 
                         "  B.Sc Operation theatre technology",
 
-                        " B.Sc Radiology & Imaging Technology"
+                        " B.Sc Radiology & Imaging Technology",
+
+                        "B.Sc CCT"
                     ]
                 },
                 "Computer Application": {
                     "specializations": [
-                        "Bachelor of Computer Application(MCA)",
+                        "Bachelor of Computer Application(BCA)",
                         "PGDCA"
                     ]
                 },
@@ -207,7 +209,7 @@ const Page = ({ params }) => {
 
                         "B.Sc- Optometry",
 
-                        " B.Sc- Anesthesia & Operation Technology",
+                        " B.Sc- Anesthesia & Operation Theatre Technology",
 
 
                     ]
