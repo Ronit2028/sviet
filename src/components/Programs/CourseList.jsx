@@ -61,7 +61,7 @@ const CourseList = () => {
         { id: 6, name: "Swami Vivekanand Polytechnic college(SVPC)", category: "Polytechnic" },
         { id: 7, name: "Swami Vivekanand Industrial Training Center (SVITC)", category: "Industrial Training" },
         { id: 8, name: "Swami Vivekanand College of Management & Technology (SVCMT)", category: "Management & Technology" },
-        { id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)", category: "Paramedical" },
+        // { id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)", category: "Paramedical" },
         { id: 10, name: "Swami Vivekanand College of Law", category: "Law" }
     ];
 

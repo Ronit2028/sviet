@@ -770,7 +770,7 @@ const data = [
     },
     "affiliation": {
         "affiliated_to": "Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
-        "approved_by": "PCI & AICTE"
+        "approved_by": "PCI"
     },
     "labs": [
         {
@@ -858,7 +858,7 @@ const data = [
     },
     "affiliation": {
         "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "approved_by": "PCI"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     "program_highlights": [
@@ -937,7 +937,7 @@ const data = [
         },
         "affiliation": {
             "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "approved_by": "PCI "
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -1383,7 +1383,7 @@ const data = [
         "eligibility": "To be eligible for the B.H.M.C.T. program, candidates must meet the following criteria: Completion of 10+2 from a recognized board. Minimum aggregate marks of 45%. English as a mandatory subject. The age limit is up to 22 years."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
+        "affiliated_to": ["MRSPTU, Bathinda / IKGPTU, Jalandhar"],
         "approved_by": "AICTE"
     },
     "labs": [
@@ -1608,7 +1608,7 @@ const data = [
         "eligibility": "Candidates must have completed B.Sc. in Anesthesia & Operation Theatre Technology."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -1664,7 +1664,7 @@ const data = [
         "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -1721,7 +1721,7 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": " IKGPTU, Jalandhar",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -1777,7 +1777,7 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": " IKGPTU, Jalandhar",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -1833,7 +1833,7 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -1890,7 +1890,7 @@ const data = [
         "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -1913,7 +1913,7 @@ const data = [
     "program_name": "Bachelor of Science in Radio Imaging Technology",
     "program_description": "Bachelor of Science in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Radiology Technician",
         "Imaging Specialist"
@@ -1968,7 +1968,7 @@ const data = [
     "program_name": "Bachelor of Science in Operation Theatre Technology",
     "program_description": "Bachelor of Science in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Operation Theatre Technician",
         "Operation Theatre Manager"
@@ -2018,7 +2018,7 @@ const data = [
     "program_name": "Bachelor of Science in Medical Laboratory Science",
     "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
     "fees": "25,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Laboratory Scientist",
         "Managerial Supervisor",
@@ -2069,7 +2069,7 @@ const data = [
     "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
     "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Operation Theatre Assistant",
         "Anesthesia Technician"
@@ -2090,7 +2090,7 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics, Chemistry & Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -2114,7 +2114,7 @@ const data = [
     "program_name": "Bachelor of Science in Optometry",
     "program_description": "B.Sc Optometry is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. It focuses on the science of vision and eye equipment. Students interested in healthcare professions involving examination, diagnosis, treatment, and management of eye diseases can opt for this program. The aim is to teach students about eye equipment such as lenses and spectacles. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has state-of-the-art infrastructure with modern equipment and laboratories, ranked as the best in North India. The paramedical college also boasts the highest placement rate in North India. Graduates of B.Sc Optometry can pursue careers as Opticians, Optometrists, Refractionists, and Ophthalmic Assistants.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Optician",
         "Optometrist",
@@ -2147,7 +2147,7 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -2171,7 +2171,7 @@ const data = [
     "program_name": "BSc in Cardiac Care Technology",
     "program_description": "The Bachelor of Science (BSc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
     "fees": "32,500/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Cardiac Rehabilitation",
         "Cardiac Catheterization Lab",
@@ -2201,7 +2201,7 @@ const data = [
         "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
+        "affiliated_to": " IKGPTU, Jalandhar",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -2318,7 +2318,7 @@ const data = [
         }
     ],
     "affiliation": {
-        "affiliated_to": "SVFTM",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "eligibility_criteria": {
@@ -2442,7 +2442,7 @@ const data = [
         "eligibility": "Candidates must have completed B.Com with at least 50% marks and have the relevant subject as one of the subjects based on merit in qualifying exams."
     },
     "affiliation": {
-        "affiliated_to": "SVFTM",
+        "affiliated_to": " IKGPTU, Jalandhar",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -2509,7 +2509,7 @@ const data = [
         "Three-year duration with a focus on practical learning"
     ],
     "affiliation": {
-        "affiliated_to": "SVFTM",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "eligibility_criteria": {
@@ -2661,7 +2661,7 @@ const data = [
         "eligibility": "All those candidates who have passed 10th and 12th in non med/med and B.sc with Chemistry with atleast 50% marks and for reserved category minimum 45%."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
+        "affiliated_to": "MRSPTU, Bathinda",
         "approved_by": "AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -2777,8 +2777,8 @@ const data = [
         "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Punjabi University, Patiala",
+        "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2834,8 +2834,8 @@ const data = [
         "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Punjabi University, Patiala",
+        "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2891,8 +2891,8 @@ const data = [
         "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Punjabi University, Patiala",
+        "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -3011,7 +3011,7 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
+            "affiliated_to": "PSBTE & IT",
             "approved_by": "AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -3162,8 +3162,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "psbte and it"
+            "affiliated_to": "PSBTE & IT",
+            "approved_by": "AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3237,8 +3237,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "psbte and it"
+            "affiliated_to": "PSBTE & IT",
+            "approved_by": "AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3310,7 +3310,7 @@ const data = [
             "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
+            "affiliated_to": "PSBTE & IT",
             "approved_by": "AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -3386,7 +3386,7 @@ const data = [
     {
         "id": 46,
         "course_name": "Computer Applications",
-        event_type: "Engineering",
+       " event_type": "Engineering",
         "header": {
             "title": "Bachelor of Computer Application",
             "subtitle": "UNLOCK YOUR POTENTIAL IN IT",
@@ -3428,7 +3428,7 @@ const data = [
             "eligibility": "10+2 with at least 45% and for reserved category minimum 40%"
         },
         "affiliation": {
-            "affiliated_to": ["Punjabi University, Patiala", "MRSPTU, Bathinda", "IKGPTU, Jalandhar"],
+            "affiliated_to": [" IKGPTU, Jalandhar/ MRSPTU, Bathinda/Punjabi University, Patiala"],
             "approved_by": "AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -3493,7 +3493,7 @@ const data = [
             "eligibility": "Graduation in any discipline with at least 50% and for reserved category minimum 45%"
         },
         "affiliation": {
-            "affiliated_to": "Any recognized university",
+            "affiliated_to": " IKGPTU, Jalandhar",
             "approved_by": "AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -3561,7 +3561,7 @@ const data = [
             "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
+            "affiliated_to": "MRSPTU, Bathinda",
             "approved_by": "AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -3625,7 +3625,7 @@ const data = [
             "eligibility": "Candidates must have completed their 10+2 examination from a recognized board with Science (PCB) stream."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
+            "affiliated_to": "MRSPTU, Bathinda",
             "approved_by": "AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -3684,8 +3684,8 @@ const data = [
             "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand College of Law",
-            "approved_by": "Punjabi University, Patiala"
+            "affiliated_to": "Punjabi University, Patiala",
+            "approved_by": "BCI"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3742,8 +3742,8 @@ const data = [
             "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks not below 45% of the total marks in case of general category applicants, 42% for OBC category* and 40% of the total marks in case of SC and ST applicants, to be obtained for the qualifying examination, such as +2 Examination in case of Integrated Five Years’ course or Degree course in any discipline for Three years’ LL.B. course, for the purpose of applying for and getting admitted into a Law Degree Program of any recognized University in either of the streams."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand College of Law",
-            "approved_by": "Punjabi University, Patiala"
+            "affiliated_to": "Punjabi University, Patiala",
+            "approved_by": "BCI "
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3807,8 +3807,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "NCVT ",
+            "approved_by": "PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
@@ -3870,8 +3870,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "NCVT",
+            "approved_by": "PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
@@ -3936,8 +3936,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "PSBTE & IT",
+            "approved_by": "NCVT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
