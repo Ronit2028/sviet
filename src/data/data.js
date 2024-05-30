@@ -3011,7 +3011,7 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To PSBTE & IT",
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
             "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -3162,7 +3162,7 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To PSBTE & IT",
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
             "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -3237,7 +3237,7 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To PSBTE & IT",
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
             "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -3310,7 +3310,7 @@ const data = [
             "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To PSBTE & IT",
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
             "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -3807,8 +3807,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To NCVT ",
-            "approved_by": "PSBTE & IT"
+            "affiliated_to": "Affiliated To Approved by NCVT ",
+            "approved_by": "Approved by PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
@@ -3870,8 +3870,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To NCVT",
-            "approved_by": "PSBTE & IT"
+            "affiliated_to": "Affiliated To Approved by NCVT",
+            "approved_by": "Approved by PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
@@ -3936,8 +3936,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To PSBTE & IT",
-            "approved_by": "NCVT"
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
+            "approved_by": "Approved by NCVT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
