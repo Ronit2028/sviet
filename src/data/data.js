@@ -770,7 +770,7 @@ const data = [
     },
     "affiliation": {
         "affiliated_to": "Affiliated To Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
-        "approved_by": "PCI"
+        "approved_by": "Approved by PCI"
     },
     "labs": [
         {
@@ -858,7 +858,7 @@ const data = [
     },
     "affiliation": {
         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-        "approved_by": "PCI"
+        "approved_by": "Approved by PCI"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     "program_highlights": [
@@ -937,7 +937,7 @@ const data = [
         },
         "affiliation": {
             "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-            "approved_by": "PCI "
+            "approved_by": "Approved by PCI "
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
