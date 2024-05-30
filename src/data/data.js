@@ -3685,7 +3685,7 @@ const data = [
         },
         "affiliation": {
             "affiliated_to": "Affiliated To Punjabi University, Patiala",
-            "approved_by": "BCI"
+            "approved_by": "Approved by BCI"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3743,7 +3743,7 @@ const data = [
         },
         "affiliation": {
             "affiliated_to": "Affiliated To Punjabi University, Patiala",
-            "approved_by": "BCI "
+            "approved_by": "Approved by BCI "
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
