@@ -48,8 +48,8 @@ const data = [
             "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -126,8 +126,8 @@ const data = [
             "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -202,8 +202,8 @@ const data = [
             "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -277,8 +277,8 @@ const data = [
             "eligibility": "Students who have completed a B.Tech degree in Mechanical Engineering or a related field with a minimum of 60% marks or equivalent CGPA."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -360,8 +360,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics/biology with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -442,8 +442,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -521,8 +521,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -600,8 +600,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -679,8 +679,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -769,7 +769,7 @@ const data = [
         "eligibility": "All those candidates who have passed 10+2 examination from a board recognized or established by Central/State Government through a legislation with Physics and Chemistry as compulsory subjects along with Mathematics or Biology subject. OR All those candidates who have passed D.Pharm. course from an institution approved by the Pharmacy Council of India under section 12 of The Pharmacy Act."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
+        "affiliated_to": "Affiliated To Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
         "approved_by": "PCI"
     },
     "labs": [
@@ -857,7 +857,7 @@ const data = [
         "eligibility": "Must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Any other qualification recognized by the Pharmacy Council of India as equivalent to a B.Pharm degree is also eligible."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
         "approved_by": "PCI"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -936,7 +936,7 @@ const data = [
             "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
             "approved_by": "PCI "
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -1000,8 +1000,8 @@ const data = [
         "eligibility": "Candidate shall have passed 10+2 examination conducted by the respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and Physics, Chemistry, Mathematics (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
     },
     "affiliation": {
-        "affiliated_to": "IKPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1088,8 +1088,8 @@ const data = [
         "eligibility": "Candidates must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Admission is based on merit or entrance exams conducted by the institution."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     "program_highlights": [
@@ -1147,8 +1147,8 @@ const data = [
     //         "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
     //     },
     //     "affiliation": {
-    //         "affiliated_to": "IKGPTU, Jalandhar",
-    //         "approved_by": "AICTE"
+    //         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+    //         "approved_by": "Approved by AICTE"
     //     },
     //     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     //     "program_highlights": [
@@ -1222,8 +1222,8 @@ const data = [
     //         "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
     //     },
     //     "affiliation": {
-    //         "affiliated_to": "IKGPTU, Jalandhar",
-    //         "approved_by": "AICTE"
+    //         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+    //         "approved_by": "Approved by AICTE"
     //     },
     //     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     //     "program_highlights": [
@@ -1308,8 +1308,8 @@ const data = [
         "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1384,7 +1384,7 @@ const data = [
     },
     "affiliation": {
         "affiliated_to": ["MRSPTU, Bathinda / IKGPTU, Jalandhar"],
-        "approved_by": "AICTE"
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1465,8 +1465,8 @@ const data = [
         "eligibility": "Candidates seeking admission to the B.Voc in Hotel Management course can check the eligibility criteria provided below.\n\n- They must have completed 12th from Arts, Science or Commerce from any recognized Institution.\n- Candidates will also have to satisfy the minimum percentage decided by the college.\n- They can visit the official website of the college to know all about the eligibility criteria for B. Voc."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1533,8 +1533,8 @@ const data = [
         "eligibility": "Candidates who have completed 12th from Arts, Science or Commerce from any recognized institution"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1608,8 +1608,8 @@ const data = [
         "eligibility": "Candidates must have completed B.Sc. in Anesthesia & Operation Theatre Technology."
     },
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1664,8 +1664,8 @@ const data = [
         "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
     },
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1721,8 +1721,8 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": " IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1777,8 +1777,8 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": " IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1833,8 +1833,8 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1890,8 +1890,8 @@ const data = [
         "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
     },
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1944,8 +1944,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1994,8 +1994,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2045,8 +2045,8 @@ const data = [
         "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 45%. For reserved category candidates, a minimum of 40% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 40% is required."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2090,8 +2090,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics, Chemistry & Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
     },
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2147,8 +2147,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
     },
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2201,8 +2201,8 @@ const data = [
         "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
     },
     "affiliation": {
-        "affiliated_to": " IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2257,8 +2257,8 @@ const data = [
         }
     ],
     "affiliation": {
-        "affiliated_to": "IKPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "eligibility_criteria": {
         "eligibility": "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
@@ -2318,8 +2318,8 @@ const data = [
         }
     ],
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "eligibility_criteria": {
         "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
@@ -2390,8 +2390,8 @@ const data = [
 //         "Three-year duration with a focus on practical learning"
 //     ],
 //     "affiliation": {
-//         "affiliated_to": "SVFTM",
-//         "approved_by": "AICTE"
+//         "affiliated_to": "Affiliated To SVFTM",
+//         "approved_by": "Approved by AICTE"
 //     },
 //     "eligibility_criteria": {
 //         "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
@@ -2442,8 +2442,8 @@ const data = [
         "eligibility": "Candidates must have completed B.Com with at least 50% marks and have the relevant subject as one of the subjects based on merit in qualifying exams."
     },
     "affiliation": {
-        "affiliated_to": " IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     "program_highlights": [
@@ -2509,8 +2509,8 @@ const data = [
         "Three-year duration with a focus on practical learning"
     ],
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "eligibility_criteria": {
         "eligibility": "To be eligible for the B.Com program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
@@ -2557,8 +2557,8 @@ const data = [
         "eligibility": "Candidates must hold a Bachelor's degree in Mathematics or a related field with at least 50% marks (45% for reserved categories) from a recognized institution."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2610,8 +2610,8 @@ const data = [
         "eligibility": "Candidates must have passed B.Sc. with Physics & Mathematics as compulsory subjects with at least 50% marks in aggregate in the qualifying examination."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2661,8 +2661,8 @@ const data = [
         "eligibility": "All those candidates who have passed 10th and 12th in non med/med and B.sc with Chemistry with atleast 50% marks and for reserved category minimum 45%."
     },
     "affiliation": {
-        "affiliated_to": "MRSPTU, Bathinda",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2717,8 +2717,8 @@ const data = [
         "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Math, or in medical with Math with at least 45%. For reserved category, minimum 40% in Physics, Chemistry, and Math, or in medical with Math with at least 40%."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2777,7 +2777,7 @@ const data = [
         "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "Punjabi University, Patiala",
+        "affiliated_to": "Affiliated To Punjabi University, Patiala",
         "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -2834,7 +2834,7 @@ const data = [
         "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
     },
     "affiliation": {
-        "affiliated_to": "Punjabi University, Patiala",
+        "affiliated_to": "Affiliated To Punjabi University, Patiala",
         "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -2891,7 +2891,7 @@ const data = [
         "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "Punjabi University, Patiala",
+        "affiliated_to": "Affiliated To Punjabi University, Patiala",
         "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -2949,8 +2949,8 @@ const data = [
         "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -3011,8 +3011,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "PSBTE & IT",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3087,8 +3087,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3162,8 +3162,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "PSBTE & IT",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3237,8 +3237,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "PSBTE & IT",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3310,8 +3310,8 @@ const data = [
             "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
         },
         "affiliation": {
-            "affiliated_to": "PSBTE & IT",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3372,8 +3372,8 @@ const data = [
             "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "program_highlights": [
             "Specialized study of computer applications and services",
@@ -3429,7 +3429,7 @@ const data = [
         },
         "affiliation": {
             "affiliated_to": [" IKGPTU, Jalandhar/ MRSPTU, Bathinda/Punjabi University, Patiala"],
-            "approved_by": "AICTE"
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3493,8 +3493,8 @@ const data = [
             "eligibility": "Graduation in any discipline with at least 50% and for reserved category minimum 45%"
         },
         "affiliation": {
-            "affiliated_to": " IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3561,8 +3561,8 @@ const data = [
             "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
         },
         "affiliation": {
-            "affiliated_to": "MRSPTU, Bathinda",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "labs": []
@@ -3625,8 +3625,8 @@ const data = [
             "eligibility": "Candidates must have completed their 10+2 examination from a recognized board with Science (PCB) stream."
         },
         "affiliation": {
-            "affiliated_to": "MRSPTU, Bathinda",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3684,7 +3684,7 @@ const data = [
             "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks."
         },
         "affiliation": {
-            "affiliated_to": "Punjabi University, Patiala",
+            "affiliated_to": "Affiliated To Punjabi University, Patiala",
             "approved_by": "BCI"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -3742,7 +3742,7 @@ const data = [
             "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks not below 45% of the total marks in case of general category applicants, 42% for OBC category* and 40% of the total marks in case of SC and ST applicants, to be obtained for the qualifying examination, such as +2 Examination in case of Integrated Five Years’ course or Degree course in any discipline for Three years’ LL.B. course, for the purpose of applying for and getting admitted into a Law Degree Program of any recognized University in either of the streams."
         },
         "affiliation": {
-            "affiliated_to": "Punjabi University, Patiala",
+            "affiliated_to": "Affiliated To Punjabi University, Patiala",
             "approved_by": "BCI "
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
@@ -3807,7 +3807,7 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "NCVT ",
+            "affiliated_to": "Affiliated To NCVT ",
             "approved_by": "PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
@@ -3870,7 +3870,7 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "NCVT",
+            "affiliated_to": "Affiliated To NCVT",
             "approved_by": "PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
@@ -3936,7 +3936,7 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "PSBTE & IT",
+            "affiliated_to": "Affiliated To PSBTE & IT",
             "approved_by": "NCVT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
