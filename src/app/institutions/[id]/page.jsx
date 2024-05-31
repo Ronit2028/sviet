@@ -230,7 +230,8 @@ const Page = ({ params }) => {
                 },
                 "Computer Application": {
                     "specializations": [
-                        "Bachelor of Computer Application(BCA)"
+                        "Bachelor of Computer Application(BCA)",
+                        "B.S IT"
                     ]
                 }
             }
