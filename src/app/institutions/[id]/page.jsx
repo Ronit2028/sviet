@@ -216,7 +216,7 @@ const Page = ({ params }) => {
 
                         "B.Sc- Optometry",
 
-                        " B.Sc- Anesthesia & Operation Theatre Technology",
+                        "Bachelor of Science in Anaesthesia (B.Sc. Ant)",
                         "(M.Sc. MLS) ",
                         "Bachelor of Physiotherapy (BPT)"
 
