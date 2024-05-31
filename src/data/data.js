@@ -1026,80 +1026,80 @@ const data = [
         }
     ]
 },
-{
-    "id": 15,
-    "course_name": "Pharmacy",
-    "event_type": "Pharmacy",
-    "header": {
-        "title": "Doctor of Pharmacy – Post Baccalaureate",
-        "subtitle": "ADVANCING PHARMACY PRACTICE",
-        "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
-    },
-    "program_name": "Doctor of Pharmacy – Post Baccalaureate",
-    "program_description": "The Doctor of Pharmacy – Post Baccalaureate program is designed for graduates with a Bachelor's degree in Pharmacy (B.Pharm) who wish to advance their pharmacy practice skills and knowledge. The program offers advanced coursework and clinical training to prepare pharmacists for expanded roles in patient care, medication therapy management, and pharmaceutical services. Students deepen their understanding of pharmacotherapy, pharmacokinetics, patient counseling, and other specialized areas of pharmacy practice. The curriculum integrates classroom instruction with experiential learning opportunities in various healthcare settings, allowing students to apply theoretical knowledge to real-world patient care scenarios. Graduates of the Doctor of Pharmacy – Post Baccalaureate program are equipped to provide comprehensive pharmaceutical care, manage complex medication regimens, and contribute to interprofessional healthcare teams.",
-    "fees": "75,000/- INR Per Semester",
-    "duration": "3 years",
-    "major_tracks": [
-        "Clinical Pharmacy",
-        "Pharmacotherapy",
-        "Pharmacoeconomics",
-        "Patient Counseling"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Clinical Pharmacist",
-            "desc": "Provide direct patient care and clinical pharmacy services in various healthcare settings.",
-            "image": "../Courses/pharmacy/pharm/clinical.jpg"
-        },
-        {
-            "title": "Pharmacy Manager",
-            "desc": "Oversee pharmacy operations, staff management, and medication inventory.",
-            "image": "../Courses/pharmacy/pharm/manager.jpg"
-        },
-        {
-            "title": "Pharmacy Educator",
-            "desc": "Teach pharmacy students and healthcare professionals in academic and clinical settings.",
-            "image": "../Courses/pharmacy/pharm/educator.jpg"
-        },
-        {
-            "title": "Clinical Research Pharmacist",
-            "desc": "Conduct clinical research studies and evaluate pharmaceutical interventions.",
-            "image": "../Courses/pharmacy/pharm/research.jpg"
-        }
-    ],
-    "labs": [
-        {
-            "title": "Clinical Practice Lab",
-            "description": "Simulate clinical scenarios and practice patient care interventions.",
-            "image": "../Courses/pharmacy/pharm/lab/clinicalLab.jpg"
-        },
-        {
-            "title": "Pharmacy Simulation Lab",
-            "description": "Utilize simulation technology to develop clinical skills and decision-making abilities.",
-            "image": "../Courses/pharmacy/pharm/lab/simulation.jpg"
-        },
-        {
-            "title": "Patient Counseling Lab",
-            "description": "Practice effective communication and counseling skills with standardized patients.",
-            "image": "../Courses/pharmacy/pharm/lab/counseling.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Admission is based on merit or entrance exams conducted by the institution."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-    "program_highlights": [
-        "Advanced Clinical Training: Gain hands-on experience in patient care and medication therapy management.",
-        "Interprofessional Collaboration: Work closely with healthcare teams to optimize patient outcomes.",
-        "Pharmacy Leadership Development: Develop skills in pharmacy management, education, and research.",
-        "Experiential Learning: Apply theoretical knowledge in real-world clinical practice settings.",
-        "Pharmacotherapy Optimization: Learn to manage complex medication regimens and optimize drug therapy."
-    ]
-},
+// {
+//     "id": 15,
+//     "course_name": "Pharmacy",
+//     "event_type": "Pharmacy",
+//     "header": {
+//         "title": "Doctor of Pharmacy – Post Baccalaureate",
+//         "subtitle": "ADVANCING PHARMACY PRACTICE",
+//         "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
+//     },
+//     "program_name": "Doctor of Pharmacy – Post Baccalaureate",
+//     "program_description": "The Doctor of Pharmacy – Post Baccalaureate program is designed for graduates with a Bachelor's degree in Pharmacy (B.Pharm) who wish to advance their pharmacy practice skills and knowledge. The program offers advanced coursework and clinical training to prepare pharmacists for expanded roles in patient care, medication therapy management, and pharmaceutical services. Students deepen their understanding of pharmacotherapy, pharmacokinetics, patient counseling, and other specialized areas of pharmacy practice. The curriculum integrates classroom instruction with experiential learning opportunities in various healthcare settings, allowing students to apply theoretical knowledge to real-world patient care scenarios. Graduates of the Doctor of Pharmacy – Post Baccalaureate program are equipped to provide comprehensive pharmaceutical care, manage complex medication regimens, and contribute to interprofessional healthcare teams.",
+//     "fees": "75,000/- INR Per Semester",
+//     "duration": "3 years",
+//     "major_tracks": [
+//         "Clinical Pharmacy",
+//         "Pharmacotherapy",
+//         "Pharmacoeconomics",
+//         "Patient Counseling"
+//     ],
+//     "program_outcomes": [
+//         {
+//             "title": "Clinical Pharmacist",
+//             "desc": "Provide direct patient care and clinical pharmacy services in various healthcare settings.",
+//             "image": "../Courses/pharmacy/pharm/clinical.jpg"
+//         },
+//         {
+//             "title": "Pharmacy Manager",
+//             "desc": "Oversee pharmacy operations, staff management, and medication inventory.",
+//             "image": "../Courses/pharmacy/pharm/manager.jpg"
+//         },
+//         {
+//             "title": "Pharmacy Educator",
+//             "desc": "Teach pharmacy students and healthcare professionals in academic and clinical settings.",
+//             "image": "../Courses/pharmacy/pharm/educator.jpg"
+//         },
+//         {
+//             "title": "Clinical Research Pharmacist",
+//             "desc": "Conduct clinical research studies and evaluate pharmaceutical interventions.",
+//             "image": "../Courses/pharmacy/pharm/research.jpg"
+//         }
+//     ],
+//     "labs": [
+//         {
+//             "title": "Clinical Practice Lab",
+//             "description": "Simulate clinical scenarios and practice patient care interventions.",
+//             "image": "../Courses/pharmacy/pharm/lab/clinicalLab.jpg"
+//         },
+//         {
+//             "title": "Pharmacy Simulation Lab",
+//             "description": "Utilize simulation technology to develop clinical skills and decision-making abilities.",
+//             "image": "../Courses/pharmacy/pharm/lab/simulation.jpg"
+//         },
+//         {
+//             "title": "Patient Counseling Lab",
+//             "description": "Practice effective communication and counseling skills with standardized patients.",
+//             "image": "../Courses/pharmacy/pharm/lab/counseling.jpg"
+//         }
+//     ],
+//     "eligibility_criteria": {
+//         "eligibility": "Candidates must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Admission is based on merit or entrance exams conducted by the institution."
+//     },
+//     "affiliation": {
+//         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+//         "approved_by": "Approved by AICTE"
+//     },
+//     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+//     "program_highlights": [
+//         "Advanced Clinical Training: Gain hands-on experience in patient care and medication therapy management.",
+//         "Interprofessional Collaboration: Work closely with healthcare teams to optimize patient outcomes.",
+//         "Pharmacy Leadership Development: Develop skills in pharmacy management, education, and research.",
+//         "Experiential Learning: Apply theoretical knowledge in real-world clinical practice settings.",
+//         "Pharmacotherapy Optimization: Learn to manage complex medication regimens and optimize drug therapy."
+//     ]
+// },
   // {
     //     "id": 11,
     //     "course_name": "Diploma",
