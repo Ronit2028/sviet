@@ -100,7 +100,7 @@ const Page = ({ params }) => {
                 "Business Studies": {
                     "specializations": [
                         "BBA",
-                        "MBA"
+                    
                     ]
                 },
                 "Hospitality & Catering": {
