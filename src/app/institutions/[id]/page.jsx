@@ -77,7 +77,7 @@ const Page = ({ params }) => {
                 "Business Studies": {
                     "specializations": [
                         " Bachelor in Business Administration (BBA)",
-                      
+
                     ]
                 },
                 "Basic Sciences    ": {
@@ -100,7 +100,7 @@ const Page = ({ params }) => {
                 "Business Studies": {
                     "specializations": [
                         "BBA",
-                    
+
                     ]
                 },
                 "Hospitality & Catering": {
@@ -141,7 +141,7 @@ const Page = ({ params }) => {
                 "Commerce": {
                     "specializations": [
                         "M.Com",
-                       
+
                     ]
                 }
             }
@@ -198,7 +198,7 @@ const Page = ({ params }) => {
             programs: {
                 "Business Studies": {
                     "specializations": [
-                      
+
 
                         " Bachelor of Business administration (BBA)"
                     ]
@@ -217,7 +217,8 @@ const Page = ({ params }) => {
                         "B.Sc- Optometry",
 
                         " B.Sc- Anesthesia & Operation Theatre Technology",
-
+                        "(M.Sc. MLS) ",
+                        "Bachelor of Physiotherapy (BPT)"
 
                     ]
                 },
@@ -236,7 +237,7 @@ const Page = ({ params }) => {
         },
         {
             id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)",
-             description: "Swami Vivekanand College of Pharmacy (SVCP) is a premier institution of Pharmaceutical Education and Research in the region, approved by All India Council of Technical Education India (AICTE) and Pharmacy Council of India (PCI). The institute has covered a long and glorious journey of 11 years. In its travelogue, the Institute crossed multiple milestones and continues to head ahead towards the well-defined goals. SVCP takes the advantage of our position as the oldest college of pharmacy in the region to offer an undergraduate and postgraduate pharmacy curriculum that is one of the most innovative in today’s scenario. Our program emphasizes communication skills, problem-solving ability, and a collaborative approach to providing patient-focused health care."
+            description: "Swami Vivekanand College of Pharmacy (SVCP) is a premier institution of Pharmaceutical Education and Research in the region, approved by All India Council of Technical Education India (AICTE) and Pharmacy Council of India (PCI). The institute has covered a long and glorious journey of 11 years. In its travelogue, the Institute crossed multiple milestones and continues to head ahead towards the well-defined goals. SVCP takes the advantage of our position as the oldest college of pharmacy in the region to offer an undergraduate and postgraduate pharmacy curriculum that is one of the most innovative in today’s scenario. Our program emphasizes communication skills, problem-solving ability, and a collaborative approach to providing patient-focused health care."
             , category: "Paramedical",
             programs: {
                 "Paramedical Sciences": {}
