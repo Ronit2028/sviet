@@ -137,6 +137,13 @@ const Page = ({ params }) => {
                         "M.Sc Physics"
                     ]
                 }
+                ,
+                "Commerce": {
+                    "specializations": [
+                        "M.Com",
+                       
+                    ]
+                }
             }
         },
         {
