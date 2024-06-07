@@ -29,9 +29,9 @@ function SVGOIContactInfo() {
         <div className="p-6">
           <p>Mr. Ankur Garg</p>
           <p>Mr. Vikrant Choudhary</p>
-          <p>Mr. Gurpinder Singh</p>
-          <p>Mr. Himanshu Rao</p>
-          <p>Mr. Kuldeep Brar</p>
+          {/* <p>Mr. Gurpinder Singh</p> */}
+          {/* <p>Mr. Himanshu Rao</p> */}
+          {/* <p>Mr. Kuldeep Brar</p> */}
         </div>
       </div>
 
