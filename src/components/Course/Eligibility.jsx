@@ -30,7 +30,7 @@ const Eligibility = ({ eligibilityCriteria, affiliation, modeOfAdmission, progra
                 </div>
                 <div className='py-3 my-3 border-b-2'>
                     <p className="text-2xl font-medium mb-5 border-l-4 border-[#fea700] pl-2">
-                        Affiliation
+                        Affiliations & Approval
                     </p>
                     <p className="text-md mb-5">
                         {affiliation.affiliated_to}

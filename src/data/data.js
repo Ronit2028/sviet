@@ -48,8 +48,8 @@ const data = [
             "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -126,8 +126,8 @@ const data = [
             "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -202,8 +202,8 @@ const data = [
             "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -232,7 +232,7 @@ const data = [
         ]
     },
     {
-        "id": 4,
+        "id": 499,
         "course_name": "M.Tech",
         "event_type": "Engineering",
         "header": {
@@ -277,8 +277,8 @@ const data = [
             "eligibility": "Students who have completed a B.Tech degree in Mechanical Engineering or a related field with a minimum of 60% marks or equivalent CGPA."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -360,8 +360,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics/biology with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -442,8 +442,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -521,8 +521,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -600,8 +600,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -679,8 +679,8 @@ const data = [
             "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics with a minimum of 45% marks in case of general category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -769,8 +769,8 @@ const data = [
         "eligibility": "All those candidates who have passed 10+2 examination from a board recognized or established by Central/State Government through a legislation with Physics and Chemistry as compulsory subjects along with Mathematics or Biology subject. OR All those candidates who have passed D.Pharm. course from an institution approved by the Pharmacy Council of India under section 12 of The Pharmacy Act."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
-        "approved_by": "PCI & AICTE"
+        "affiliated_to": "Affiliated To Swami Vivekanand College of Pharmacy affiliated from IKGPTU, Jalandhar",
+        "approved_by": "Approved by PCI"
     },
     "labs": [
         {
@@ -799,7 +799,7 @@ const data = [
         "subtitle": "ADVANCING THE HEALTHCARE HEROES",
         "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
     },
-    "program_name": "MASTER OF PHARMACY",
+    "program_name": "Master of Pharmacy",
     "program_description": "The M.Pharm program at SVGOI is designed to provide advanced knowledge and research opportunities in the field of Pharmaceutical Education and Research. The Institute comprises every element desired for academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. The Master of Pharmacy is a 2 Year postgraduate program in which students deepen their understanding of pharmaceutical sciences, focusing on areas such as drug formulation, quality control, clinical research, and pharmacology. Graduates of the M.Pharm program are equipped with the expertise required for advanced roles in the pharmaceutical industry, academia, and research. They can pursue careers in R&D, regulatory affairs, clinical trials, and more, contributing to the development and safe use of medications. The program also prepares students for potential doctoral studies in pharmacy and related fields.",
     "fees": "60,000/- INR Per Semester",
     "duration": "2 years",
@@ -857,8 +857,8 @@ const data = [
         "eligibility": "Must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Any other qualification recognized by the Pharmacy Council of India as equivalent to a B.Pharm degree is also eligible."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by PCI"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     "program_highlights": [
@@ -878,7 +878,7 @@ const data = [
             "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
             "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
-        "program_name": "BACHELOR OF PHARMACY",
+        "program_name": "Bachelor of Pharmacy",
         "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
         "fees": "52000/- INR Per Semester",
         "duration": "4 years",
@@ -936,8 +936,8 @@ const data = [
             "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by PCI "
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -952,7 +952,7 @@ const data = [
     "course_name": "Pharmacy",
     event_type: "Pharmacy",
     "header": {
-        "title": "DIPLOMA IN PHARMACY",
+        "title": "Diploma in Pharmacy",
         "subtitle": "EMBRACE THE PHARMACEUTICAL JOURNEY",
         "background_image": "../Courses/pharmacy/diploma/Diploma.jpg"
     },
@@ -1000,8 +1000,8 @@ const data = [
         "eligibility": "Candidate shall have passed 10+2 examination conducted by the respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and Physics, Chemistry, Mathematics (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
     },
     "affiliation": {
-        "affiliated_to": "IKPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1026,80 +1026,80 @@ const data = [
         }
     ]
 },
-{
-    "id": 15,
-    "course_name": "Pharmacy",
-    "event_type": "Pharmacy",
-    "header": {
-        "title": "Doctor of Pharmacy – Post Baccalaureate",
-        "subtitle": "ADVANCING PHARMACY PRACTICE",
-        "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
-    },
-    "program_name": "DOCTOR OF PHARMACY – POST BACCALAUREATE",
-    "program_description": "The Doctor of Pharmacy – Post Baccalaureate program is designed for graduates with a Bachelor's degree in Pharmacy (B.Pharm) who wish to advance their pharmacy practice skills and knowledge. The program offers advanced coursework and clinical training to prepare pharmacists for expanded roles in patient care, medication therapy management, and pharmaceutical services. Students deepen their understanding of pharmacotherapy, pharmacokinetics, patient counseling, and other specialized areas of pharmacy practice. The curriculum integrates classroom instruction with experiential learning opportunities in various healthcare settings, allowing students to apply theoretical knowledge to real-world patient care scenarios. Graduates of the Doctor of Pharmacy – Post Baccalaureate program are equipped to provide comprehensive pharmaceutical care, manage complex medication regimens, and contribute to interprofessional healthcare teams.",
-    "fees": "75,000/- INR Per Semester",
-    "duration": "3 years",
-    "major_tracks": [
-        "Clinical Pharmacy",
-        "Pharmacotherapy",
-        "Pharmacoeconomics",
-        "Patient Counseling"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Clinical Pharmacist",
-            "desc": "Provide direct patient care and clinical pharmacy services in various healthcare settings.",
-            "image": "../Courses/pharmacy/pharm/clinical.jpg"
-        },
-        {
-            "title": "Pharmacy Manager",
-            "desc": "Oversee pharmacy operations, staff management, and medication inventory.",
-            "image": "../Courses/pharmacy/pharm/manager.jpg"
-        },
-        {
-            "title": "Pharmacy Educator",
-            "desc": "Teach pharmacy students and healthcare professionals in academic and clinical settings.",
-            "image": "../Courses/pharmacy/pharm/educator.jpg"
-        },
-        {
-            "title": "Clinical Research Pharmacist",
-            "desc": "Conduct clinical research studies and evaluate pharmaceutical interventions.",
-            "image": "../Courses/pharmacy/pharm/research.jpg"
-        }
-    ],
-    "labs": [
-        {
-            "title": "Clinical Practice Lab",
-            "description": "Simulate clinical scenarios and practice patient care interventions.",
-            "image": "../Courses/pharmacy/pharm/lab/clinicalLab.jpg"
-        },
-        {
-            "title": "Pharmacy Simulation Lab",
-            "description": "Utilize simulation technology to develop clinical skills and decision-making abilities.",
-            "image": "../Courses/pharmacy/pharm/lab/simulation.jpg"
-        },
-        {
-            "title": "Patient Counseling Lab",
-            "description": "Practice effective communication and counseling skills with standardized patients.",
-            "image": "../Courses/pharmacy/pharm/lab/counseling.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Admission is based on merit or entrance exams conducted by the institution."
-    },
-    "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
-    },
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-    "program_highlights": [
-        "Advanced Clinical Training: Gain hands-on experience in patient care and medication therapy management.",
-        "Interprofessional Collaboration: Work closely with healthcare teams to optimize patient outcomes.",
-        "Pharmacy Leadership Development: Develop skills in pharmacy management, education, and research.",
-        "Experiential Learning: Apply theoretical knowledge in real-world clinical practice settings.",
-        "Pharmacotherapy Optimization: Learn to manage complex medication regimens and optimize drug therapy."
-    ]
-},
+// {
+//     "id": 15,
+//     "course_name": "Pharmacy",
+//     "event_type": "Pharmacy",
+//     "header": {
+//         "title": "Doctor of Pharmacy – Post Baccalaureate",
+//         "subtitle": "ADVANCING PHARMACY PRACTICE",
+//         "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
+//     },
+//     "program_name": "Doctor of Pharmacy – Post Baccalaureate",
+//     "program_description": "The Doctor of Pharmacy – Post Baccalaureate program is designed for graduates with a Bachelor's degree in Pharmacy (B.Pharm) who wish to advance their pharmacy practice skills and knowledge. The program offers advanced coursework and clinical training to prepare pharmacists for expanded roles in patient care, medication therapy management, and pharmaceutical services. Students deepen their understanding of pharmacotherapy, pharmacokinetics, patient counseling, and other specialized areas of pharmacy practice. The curriculum integrates classroom instruction with experiential learning opportunities in various healthcare settings, allowing students to apply theoretical knowledge to real-world patient care scenarios. Graduates of the Doctor of Pharmacy – Post Baccalaureate program are equipped to provide comprehensive pharmaceutical care, manage complex medication regimens, and contribute to interprofessional healthcare teams.",
+//     "fees": "75,000/- INR Per Semester",
+//     "duration": "3 years",
+//     "major_tracks": [
+//         "Clinical Pharmacy",
+//         "Pharmacotherapy",
+//         "Pharmacoeconomics",
+//         "Patient Counseling"
+//     ],
+//     "program_outcomes": [
+//         {
+//             "title": "Clinical Pharmacist",
+//             "desc": "Provide direct patient care and clinical pharmacy services in various healthcare settings.",
+//             "image": "../Courses/pharmacy/pharm/clinical.jpg"
+//         },
+//         {
+//             "title": "Pharmacy Manager",
+//             "desc": "Oversee pharmacy operations, staff management, and medication inventory.",
+//             "image": "../Courses/pharmacy/pharm/manager.jpg"
+//         },
+//         {
+//             "title": "Pharmacy Educator",
+//             "desc": "Teach pharmacy students and healthcare professionals in academic and clinical settings.",
+//             "image": "../Courses/pharmacy/pharm/educator.jpg"
+//         },
+//         {
+//             "title": "Clinical Research Pharmacist",
+//             "desc": "Conduct clinical research studies and evaluate pharmaceutical interventions.",
+//             "image": "../Courses/pharmacy/pharm/research.jpg"
+//         }
+//     ],
+//     "labs": [
+//         {
+//             "title": "Clinical Practice Lab",
+//             "description": "Simulate clinical scenarios and practice patient care interventions.",
+//             "image": "../Courses/pharmacy/pharm/lab/clinicalLab.jpg"
+//         },
+//         {
+//             "title": "Pharmacy Simulation Lab",
+//             "description": "Utilize simulation technology to develop clinical skills and decision-making abilities.",
+//             "image": "../Courses/pharmacy/pharm/lab/simulation.jpg"
+//         },
+//         {
+//             "title": "Patient Counseling Lab",
+//             "description": "Practice effective communication and counseling skills with standardized patients.",
+//             "image": "../Courses/pharmacy/pharm/lab/counseling.jpg"
+//         }
+//     ],
+//     "eligibility_criteria": {
+//         "eligibility": "Candidates must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Admission is based on merit or entrance exams conducted by the institution."
+//     },
+//     "affiliation": {
+//         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+//         "approved_by": "Approved by AICTE"
+//     },
+//     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+//     "program_highlights": [
+//         "Advanced Clinical Training: Gain hands-on experience in patient care and medication therapy management.",
+//         "Interprofessional Collaboration: Work closely with healthcare teams to optimize patient outcomes.",
+//         "Pharmacy Leadership Development: Develop skills in pharmacy management, education, and research.",
+//         "Experiential Learning: Apply theoretical knowledge in real-world clinical practice settings.",
+//         "Pharmacotherapy Optimization: Learn to manage complex medication regimens and optimize drug therapy."
+//     ]
+// },
   // {
     //     "id": 11,
     //     "course_name": "Diploma",
@@ -1147,8 +1147,8 @@ const data = [
     //         "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
     //     },
     //     "affiliation": {
-    //         "affiliated_to": "IKGPTU, Jalandhar",
-    //         "approved_by": "AICTE"
+    //         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+    //         "approved_by": "Approved by AICTE"
     //     },
     //     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     //     "program_highlights": [
@@ -1222,8 +1222,8 @@ const data = [
     //         "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
     //     },
     //     "affiliation": {
-    //         "affiliated_to": "IKGPTU, Jalandhar",
-    //         "approved_by": "AICTE"
+    //         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+    //         "approved_by": "Approved by AICTE"
     //     },
     //     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     //     "program_highlights": [
@@ -1308,8 +1308,8 @@ const data = [
         "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1383,8 +1383,8 @@ const data = [
         "eligibility": "To be eligible for the B.H.M.C.T. program, candidates must meet the following criteria: Completion of 10+2 from a recognized board. Minimum aggregate marks of 45%. English as a mandatory subject. The age limit is up to 22 years."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": ["MRSPTU, Bathinda / IKGPTU, Jalandhar"],
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1465,8 +1465,8 @@ const data = [
         "eligibility": "Candidates seeking admission to the B.Voc in Hotel Management course can check the eligibility criteria provided below.\n\n- They must have completed 12th from Arts, Science or Commerce from any recognized Institution.\n- Candidates will also have to satisfy the minimum percentage decided by the college.\n- They can visit the official website of the college to know all about the eligibility criteria for B. Voc."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1533,8 +1533,8 @@ const data = [
         "eligibility": "Candidates who have completed 12th from Arts, Science or Commerce from any recognized institution"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "labs": [
         {
@@ -1570,11 +1570,11 @@ const data = [
     "id": 26,
     "course_name": "Paramedical",
     "header": {
-        "title": "M.Sc IN ANESTHESIA AND OPERATION THEATRE TECHNOLOGY",
+        "title": "M.Sc in Anesthesia and Operation Theatre Technology ",
         "subtitle": "ELEVATING OPERATION THEATRE EXPERTISE",
         "background_image": "../Courses/paramedical/Anesthesia/anesthesia.jpg"
     },
-    "program_name": "Master of Science in Anesthesia and Operation Theatre Technology",
+    "program_name": "M.Sc in Anesthesia and Operation Theatre Technology",
     "program_description": "Master of Science in Anesthesia and Operation Theatre Technology is a master’s degree level course in Operation Theatre technology. This course equips students with high-level skills to handle operation theatre preparation in case of emergencies. It is designed to provide advanced skills to assist and handle the preparation of operation theatres, enabling students to become experienced anesthesiologists. Experienced teachers facilitate learning, ensuring clear understanding of concepts. The course is based on research methodology, supported by world-class advanced medical labs situated on campus at Swami Vivekanand Paramedical College. After completing this program, students can work professionally as anesthesiologists and handle responsibilities as assistants in emergency situations.",
     "fees": "32,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -1608,8 +1608,8 @@ const data = [
         "eligibility": "Candidates must have completed B.Sc. in Anesthesia & Operation Theatre Technology."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1625,11 +1625,11 @@ const data = [
     "id": 25,
     "course_name": "Paramedical",
     "header": {
-        "title": "M.Sc MLS -Clinical Biochemistry",
-        "subtitle": "ELEVATING LABORATORY LEADERSHIP",
+        "title": "M.Sc in Medical Laboratory Science - Clinical Biochemistry  ",
+        "subtitle": "Elevating Laboratory Leadership",
         "background_image": "../Courses/paramedical/MLS/mls.jpg"
     },
-    "program_name": "M.Sc MLS - Biochemistry",
+    "program_name": "M.Sc in Medical Laboratory Science - Clinical Biochemistry",
     "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
     "fees": "32,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -1664,8 +1664,8 @@ const data = [
         "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1681,11 +1681,11 @@ const data = [
     "id": 29,
     "course_name": "Paramedical",
     "header": {
-        "title": "MASTER OF SCIENCE IN MEDICAL LABORATORY SCIENCE - MEDICAL MICROBIOLOGY",
-        "subtitle": "EXPERTS IN MEDICAL DIAGNOSTICS",
+        "title": "M.Sc IN Medical Laboratory Science - Medical Microbiology  ",
+        "subtitle": "Experts in Medical Diagnostics",
         "background_image": "../Courses/paramedical/Optometry/header.avif"
     },
-    "program_name": "Master of Science in Medical Laboratory Science - Medical Microbiology",
+    "program_name": "M.Sc in Medical Laboratory Science - Medical Microbiology",
     "program_description": "M.Sc. MLS - Medical Microbiology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program delves into the advanced study of microorganisms and their impact on human health. Students interested in diagnostic microbiology, infectious diseases, and laboratory management will find this program highly beneficial. The curriculum encompasses theoretical knowledge and practical skills essential for proficiency in medical microbiology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in clinical laboratories, research institutions, and healthcare settings.",
     "fees": "60,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -1721,8 +1721,8 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1777,8 +1777,8 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1833,8 +1833,8 @@ const data = [
         "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1890,8 +1890,8 @@ const data = [
         "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1913,7 +1913,7 @@ const data = [
     "program_name": "Bachelor of Science in Radio Imaging Technology",
     "program_description": "Bachelor of Science in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Radiology Technician",
         "Imaging Specialist"
@@ -1944,8 +1944,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -1968,7 +1968,7 @@ const data = [
     "program_name": "Bachelor of Science in Operation Theatre Technology",
     "program_description": "Bachelor of Science in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Operation Theatre Technician",
         "Operation Theatre Manager"
@@ -1994,8 +1994,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology with at least 45% marks (40% marks in case of candidate belonging to Reserved Category) in aggregate."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2018,7 +2018,7 @@ const data = [
     "program_name": "Bachelor of Science in Medical Laboratory Science",
     "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
     "fees": "25,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Laboratory Scientist",
         "Managerial Supervisor",
@@ -2045,8 +2045,8 @@ const data = [
         "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 45%. For reserved category candidates, a minimum of 40% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 40% is required."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2066,10 +2066,10 @@ const data = [
         "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
         "background_image": "../Courses/paramedical/Anasthesia/header.avif"
     },
-    "program_name": "Bachelor of Science in Anesthesia and Operation Theatre Technology",
+    "program_name": "Bachelor of Science in Anesthesia ",
     "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Operation Theatre Assistant",
         "Anesthesia Technician"
@@ -2090,8 +2090,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics, Chemistry & Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2114,7 +2114,7 @@ const data = [
     "program_name": "Bachelor of Science in Optometry",
     "program_description": "B.Sc Optometry is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. It focuses on the science of vision and eye equipment. Students interested in healthcare professions involving examination, diagnosis, treatment, and management of eye diseases can opt for this program. The aim is to teach students about eye equipment such as lenses and spectacles. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has state-of-the-art infrastructure with modern equipment and laboratories, ranked as the best in North India. The paramedical college also boasts the highest placement rate in North India. Graduates of B.Sc Optometry can pursue careers as Opticians, Optometrists, Refractionists, and Ophthalmic Assistants.",
     "fees": "45,000/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Optician",
         "Optometrist",
@@ -2147,8 +2147,8 @@ const data = [
         "eligibility": "Candidates must have passed 10+2 with Physics & Chemistry as compulsory subjects and either Mathematics or Biology from a recognized Board / University / Council or 10+2 with vocational course in Medical Laboratory Science / Medical Laboratory Technology."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2171,7 +2171,7 @@ const data = [
     "program_name": "BSc in Cardiac Care Technology",
     "program_description": "The Bachelor of Science (BSc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
     "fees": "32,500/- INR Per Semester",
-    "duration": "3 Years (Semester System)",
+    "duration": "4 Years (Semester System)",
     "major_tracks": [
         "Cardiac Rehabilitation",
         "Cardiac Catheterization Lab",
@@ -2201,8 +2201,8 @@ const data = [
         "eligibility": "Students who have completed the 12th grade with physics, chemistry, and biology with 45% marks in case of general category and 40% marks in case of SC category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
     },
     "affiliation": {
-        "affiliated_to": "Swami Vivekanand Paramedical College",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2257,8 +2257,8 @@ const data = [
         }
     ],
     "affiliation": {
-        "affiliated_to": "IKPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "eligibility_criteria": {
         "eligibility": "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
@@ -2318,8 +2318,8 @@ const data = [
         }
     ],
     "affiliation": {
-        "affiliated_to": "SVFTM",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "eligibility_criteria": {
         "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
@@ -2390,8 +2390,8 @@ const data = [
 //         "Three-year duration with a focus on practical learning"
 //     ],
 //     "affiliation": {
-//         "affiliated_to": "SVFTM",
-//         "approved_by": "AICTE"
+//         "affiliated_to": "Affiliated To SVFTM",
+//         "approved_by": "Approved by AICTE"
 //     },
 //     "eligibility_criteria": {
 //         "eligibility": "To be eligible for the BBA program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
@@ -2442,8 +2442,8 @@ const data = [
         "eligibility": "Candidates must have completed B.Com with at least 50% marks and have the relevant subject as one of the subjects based on merit in qualifying exams."
     },
     "affiliation": {
-        "affiliated_to": "SVFTM",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     "program_highlights": [
@@ -2509,8 +2509,8 @@ const data = [
         "Three-year duration with a focus on practical learning"
     ],
     "affiliation": {
-        "affiliated_to": "SVFTM",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "eligibility_criteria": {
         "eligibility": "To be eligible for the B.Com program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
@@ -2557,8 +2557,8 @@ const data = [
         "eligibility": "Candidates must hold a Bachelor's degree in Mathematics or a related field with at least 50% marks (45% for reserved categories) from a recognized institution."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2610,8 +2610,8 @@ const data = [
         "eligibility": "Candidates must have passed B.Sc. with Physics & Mathematics as compulsory subjects with at least 50% marks in aggregate in the qualifying examination."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2661,8 +2661,8 @@ const data = [
         "eligibility": "All those candidates who have passed 10th and 12th in non med/med and B.sc with Chemistry with atleast 50% marks and for reserved category minimum 45%."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2717,8 +2717,8 @@ const data = [
         "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Math, or in medical with Math with at least 45%. For reserved category, minimum 40% in Physics, Chemistry, and Math, or in medical with Math with at least 40%."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2777,8 +2777,8 @@ const data = [
         "eligibility": "B.Ed with at least 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Punjabi University, Patiala",
+        "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2834,8 +2834,8 @@ const data = [
         "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Punjabi University, Patiala",
+        "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2891,8 +2891,8 @@ const data = [
         "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To Punjabi University, Patiala",
+        "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2949,8 +2949,8 @@ const data = [
         "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "IKGPTU, Jalandhar",
-        "approved_by": "AICTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -3011,8 +3011,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3087,8 +3087,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3162,8 +3162,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "psbte and it"
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3193,7 +3193,7 @@ const data = [
     {
         "id": 12,
         "course_name": "Diploma",
-        event_type: "Engineering",
+        "event_type": "Engineering",
         "header": {
             "title": "DIPLOMA IN CIVIL ENGINEERING",
             "subtitle": "SHAPE THE INFRASTRUCTURE WITH",
@@ -3237,8 +3237,8 @@ const data = [
             "eligibility": "Candidates must have completed 10th grade or equivalent with a minimum passing percentage as per the admission guidelines."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "psbte and it"
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3267,7 +3267,7 @@ const data = [
     },
     {
         "id": 32,
-        "course_name": "Paramedical",
+        "course_name": "Diploma",
         "header": {
             "title": "DIPLOMA IN MEDICAL LABORATORY TECHNOLOGY",
             "subtitle": "TRAINING SKILLED LAB TECHNICIANS",
@@ -3310,8 +3310,8 @@ const data = [
             "eligibility": "Admission to Diploma Level courses (except Diploma Course in Aircraft Maintenance Engineering) shall be made on the basis of merit of the subjects Math, Science, and English with overall status Pass in Matriculation examinations with a minimum of 45%, and for SC 40%. A gap certificate is required if the student has any gap after the last qualification, along with Migration."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand Paramedical College",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3372,8 +3372,8 @@ const data = [
             "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "program_highlights": [
             "Specialized study of computer applications and services",
@@ -3386,7 +3386,7 @@ const data = [
     {
         "id": 46,
         "course_name": "Computer Applications",
-        event_type: "Engineering",
+       " event_type": "Engineering",
         "header": {
             "title": "Bachelor of Computer Application",
             "subtitle": "UNLOCK YOUR POTENTIAL IN IT",
@@ -3428,8 +3428,8 @@ const data = [
             "eligibility": "10+2 with at least 45% and for reserved category minimum 40%"
         },
         "affiliation": {
-            "affiliated_to": ["Punjabi University, Patiala", "MRSPTU, Bathinda", "IKGPTU, Jalandhar"],
-            "approved_by": "AICTE"
+            "affiliated_to": [" IKGPTU, Jalandhar/ MRSPTU, Bathinda/Punjabi University, Patiala"],
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3493,8 +3493,8 @@ const data = [
             "eligibility": "Graduation in any discipline with at least 50% and for reserved category minimum 45%"
         },
         "affiliation": {
-            "affiliated_to": "Any recognized university",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3561,8 +3561,8 @@ const data = [
             "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "labs": []
@@ -3574,11 +3574,11 @@ const data = [
         "course_name": "Nursing",
         "event_type": "Nursing",
         "header": {
-            "title": "DIPLOMA IN NURSING",
+            "title": "Diploma in Nursing",
             "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
             "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
-        "program_name": "DIPLOMA IN NURSING",
+        "program_name": "Diploma in Nursing",
         "program_description": "SVGOI's Diploma in Nursing program aims to prepare compassionate and skilled healthcare professionals for the nursing sector. This diploma program covers essential topics in nursing, including patient care, medical procedures, and healthcare ethics. Students gain hands-on training through clinical rotations and internships in hospitals and healthcare facilities. The curriculum emphasizes practical skills development, critical thinking, and professional ethics to ensure graduates are well-prepared for the challenges of the healthcare industry.",
         "fees": "Varies depending on institution",
         "duration": "2 years",
@@ -3625,8 +3625,8 @@ const data = [
             "eligibility": "Candidates must have completed their 10+2 examination from a recognized board with Science (PCB) stream."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+            "approved_by": "Approved by AICTE"
         },
         "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
         "program_highlights": [
@@ -3684,8 +3684,8 @@ const data = [
             "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand College of Law",
-            "approved_by": "Punjabi University, Patiala"
+            "affiliated_to": "Affiliated To Punjabi University, Patiala",
+            "approved_by": "Approved by BCI"
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3742,8 +3742,8 @@ const data = [
             "eligibility": "Bar Council of India may from time to time, stipulate the minimum percentage of marks not below 45% of the total marks in case of general category applicants, 42% for OBC category* and 40% of the total marks in case of SC and ST applicants, to be obtained for the qualifying examination, such as +2 Examination in case of Integrated Five Years’ course or Degree course in any discipline for Three years’ LL.B. course, for the purpose of applying for and getting admitted into a Law Degree Program of any recognized University in either of the streams."
         },
         "affiliation": {
-            "affiliated_to": "Swami Vivekanand College of Law",
-            "approved_by": "Punjabi University, Patiala"
+            "affiliated_to": "Affiliated To Punjabi University, Patiala",
+            "approved_by": "Approved by BCI "
         },
         "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "program_highlights": [
@@ -3757,7 +3757,7 @@ const data = [
 
     //ITI
     {
-        "id": 1,
+        "id": 999,
         "course_name": "ITI",
         "event_type": "ITI",
         "header": {
@@ -3807,8 +3807,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To Approved by NCVT ",
+            "approved_by": "Approved by PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
@@ -3820,7 +3820,7 @@ const data = [
         ]
     },
     {
-        "id": 2,
+        "id": 99999,
         "course_name": "ITI",
         "event_type": "ITI",
         "header": {
@@ -3870,8 +3870,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To Approved by NCVT",
+            "approved_by": "Approved by PSBTE & IT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [
@@ -3883,7 +3883,7 @@ const data = [
         ]
     },
     {
-        "id": 3,
+        "id": 999999,
         "course_name": "ITI",
         "event_type": "ITI",
         "header": {
@@ -3936,8 +3936,8 @@ const data = [
             "eligibility": "Minimum educational qualification may vary depending on the institution. Typically, candidates must have completed at least 10th grade or equivalent."
         },
         "affiliation": {
-            "affiliated_to": "IKGPTU, Jalandhar",
-            "approved_by": "AICTE"
+            "affiliated_to": "Affiliated To Approved by PSBTE & IT",
+            "approved_by": "Approved by NCVT"
         },
         "mode_of_admission": "Admission criteria may vary by institution. Interested candidates should contact the admission office for details.",
         "program_highlights": [

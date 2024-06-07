@@ -94,7 +94,7 @@ const SVIETAdmissionGuidelines = () => {
                         </button>
                         {paymentOpen && (
                             <div className="pl-4">
-                                <p>- Application fees amount: Rs 1500/-</p>
+                                <p>- Application fees amount: Rs 7000/-</p>
                                 <p>- Payment through online mode only (Net banking / Card / G-pay).</p>
                             </div>
                         )}

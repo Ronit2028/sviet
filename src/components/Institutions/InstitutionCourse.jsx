@@ -41,8 +41,8 @@ const InstitutionCourse = ({programs}) => {
                             </div>
                         ))}
                     </div>
-                    <Link href="/committees/SVCMT-Committees.pdf">
-                        <button className='bg-[#fea700] text-white rounded px-2 py-1'>
+                    <Link href="/committees/Committes.pdf">
+                        <button className='bg-[#fea700] text-white rounded px-2 py-1 mr-5'>
                         View Committee
                         </button>
                     </Link>
