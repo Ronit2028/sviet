@@ -38,7 +38,9 @@ const Page = ({ params }) => {
                         "Master of Computer Application(MCA)"
                     ]
                 }
-            }
+            },
+            committee:"/SVIET/SVIET COMMITTEES.pdf",
+            md:"/SVIET/Mandatory-Disclosure-SVIET-1.pdf",
 
         },
         {
@@ -59,7 +61,9 @@ const Page = ({ params }) => {
                 "Doctor in Pharmacy (Pharma.D)": {
 
                 }
-            }
+            },
+            committee:"",
+            md:"",
 
         },
         {
@@ -77,7 +81,7 @@ const Page = ({ params }) => {
                 "Business Studies": {
                     "specializations": [
                         " Bachelor in Business Administration (BBA)",
-                      
+
                     ]
                 },
                 "Basic Sciences    ": {
@@ -90,7 +94,9 @@ const Page = ({ params }) => {
                         "Bacholer of Computer Application(BCA)"
                     ]
                 }
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 4, name: "Swami Vivekanand Faculty of Technology and Management (SVFTM)",
@@ -100,7 +106,7 @@ const Page = ({ params }) => {
                 "Business Studies": {
                     "specializations": [
                         "BBA",
-                        "MBA"
+
                     ]
                 },
                 "Hospitality & Catering": {
@@ -137,7 +143,16 @@ const Page = ({ params }) => {
                         "M.Sc Physics"
                     ]
                 }
-            }
+                ,
+                "Commerce": {
+                    "specializations": [
+                        "M.Com",
+
+                    ]
+                }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 5, name: "Swami Vivekanand College of Education(SVCE)",
@@ -153,7 +168,9 @@ const Page = ({ params }) => {
                         "Master of Arts in Education (M.A Education)"
                     ]
                 },
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 6, name: "Swami Vivekanand Polytechnic college(SVPC)",
@@ -165,7 +182,9 @@ const Page = ({ params }) => {
                 "Civil Engineering": {},
                 "Mechanical Engineering": {},
                 "DMLT": {}
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 7, name: "Swami Vivekanand Industrial Training Center (SVITC)",
@@ -182,7 +201,9 @@ const Page = ({ params }) => {
 
                 },
 
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 8, name: "Swami Vivekanand College of Management & Technology (SVCMT)",
@@ -191,7 +212,7 @@ const Page = ({ params }) => {
             programs: {
                 "Business Studies": {
                     "specializations": [
-                      
+
 
                         " Bachelor of Business administration (BBA)"
                     ]
@@ -209,8 +230,9 @@ const Page = ({ params }) => {
 
                         "B.Sc- Optometry",
 
-                        " B.Sc- Anesthesia & Operation Theatre Technology",
-
+                        "Bachelor of Science in Anaesthesia (B.Sc. Ant)",
+                        "(M.Sc. MLS) ",
+                        "Bachelor of Physiotherapy (BPT)"
 
                     ]
                 },
@@ -222,19 +244,22 @@ const Page = ({ params }) => {
                 },
                 "Computer Application": {
                     "specializations": [
-                        "Bachelor of Computer Application(BCA)"
+                        "Bachelor of Computer Application(BCA)",
+                        "B.S IT"
                     ]
                 }
-            }
+            },
+            committee:"/SVCMT/SVCMT Committees.pdf",
+            md:"/SVCMT/Mandatory Disclosure SVCMT updated.pdf",
         },
-        {
-            id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)",
-             description: "Swami Vivekanand College of Pharmacy (SVCP) is a premier institution of Pharmaceutical Education and Research in the region, approved by All India Council of Technical Education India (AICTE) and Pharmacy Council of India (PCI). The institute has covered a long and glorious journey of 11 years. In its travelogue, the Institute crossed multiple milestones and continues to head ahead towards the well-defined goals. SVCP takes the advantage of our position as the oldest college of pharmacy in the region to offer an undergraduate and postgraduate pharmacy curriculum that is one of the most innovative in today’s scenario. Our program emphasizes communication skills, problem-solving ability, and a collaborative approach to providing patient-focused health care."
-            , category: "Paramedical",
-            programs: {
-                "Paramedical Sciences": {}
-            }
-        },
+        // {
+        //     id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)",
+        //     description: "Swami Vivekanand College of Pharmacy (SVCP) is a premier institution of Pharmaceutical Education and Research in the region, approved by All India Council of Technical Education India (AICTE) and Pharmacy Council of India (PCI). The institute has covered a long and glorious journey of 11 years. In its travelogue, the Institute crossed multiple milestones and continues to head ahead towards the well-defined goals. SVCP takes the advantage of our position as the oldest college of pharmacy in the region to offer an undergraduate and postgraduate pharmacy curriculum that is one of the most innovative in today’s scenario. Our program emphasizes communication skills, problem-solving ability, and a collaborative approach to providing patient-focused health care."
+        //     , category: "Paramedical",
+        //     programs: {
+        //         "Paramedical Sciences": {}
+        //     }
+        // },
         {
             id: 10, name: "Swami Vivekanand College of Law",
             description: "Legal education maintains a position of great significance in today’s society; it is a vital component of ensuring administrative transparency, delivering social justice and the maintenance of global peace. The Faculty of Law is dedicated towards imparting the knowledge of law coupled with an understanding of essential legal principles. The faculty plays the vital role of shaping the future of abled, critically thinking, analytically empowered and enlightened legal human resources. Additionally, it offers a modernized intellectually stimulating curriculum that is uniquely customized to satisfy the versatile academic needs of every student. The dynamic range of diploma, undergraduate, post graduate and doctorate programs are designed to meet the contemporary needs of the society. The Faculty of Law focuses on the comprehensive acquisition of legal knowledge in both theoretical and practical aspects, while promoting a staunch mooting culture. We are committed to guiding you today, on the journey towards your legal career tomorrow."
@@ -249,8 +274,11 @@ const Page = ({ params }) => {
 
                 },
 
-            }
-        }
+            },
+            committee:"",
+            md:"",
+        },
+        
     ];
 
     // Find the institute with the matching id
@@ -261,7 +289,7 @@ const Page = ({ params }) => {
             {/* <h1 className='py-12'> {paramId}</h1> */}
             <InstitutionHeader institute={institute ? institute.name : 'Unknown'} category={institute.category} />
             <InstitutionBestProgramm description={institute.description} />
-            <InstitutionCourse programs={institute.programs} />
+            <InstitutionCourse programs={institute.programs} committee={institute.committee} md={institute.md} />
         </>
     );
 };

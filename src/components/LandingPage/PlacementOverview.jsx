@@ -70,7 +70,7 @@ const PlacementOverview = () => {
                             </div>
                             <div className='pr-5 py-5 my-2'>
                                 <p className='text-3xl mb-3'>
-                                    45LPA
+                                    50LPA
                                 </p>
                                 <p className='text-xl mb-3 '>
                                     Engineering Highest Package

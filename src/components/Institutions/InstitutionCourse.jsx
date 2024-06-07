@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-const InstitutionCourse = ({programs}) => {
+const InstitutionCourse = ({programs, committee, md}) => {
     const coursesData =  programs
     const courses = Object.entries(coursesData).map(([program, specialization]) => ({
         title: program,
@@ -41,12 +41,12 @@ const InstitutionCourse = ({programs}) => {
                             </div>
                         ))}
                     </div>
-                    <Link href="/committees/SVCMT-Committees.pdf">
+                    <Link href={committee}>
                         <button className='bg-[#fea700] text-white rounded px-2 py-1 mr-5'>
                         View Committee
                         </button>
                     </Link>
-                    <Link href="/disclosure/svcmt.pdf">
+                    <Link href={md}>
                        <button className='text-lg text-white rounded-md bg-[#fea700] w-fit p-2 mt-5'>Mandatory disclosures   <i className="fas fa-download ml-2"></i>
 </button>
 

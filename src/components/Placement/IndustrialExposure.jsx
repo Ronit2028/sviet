@@ -106,7 +106,7 @@ const IndustrialExposure = () => {
             <div className="w-full h-full bg-[#00112d] py-12">
                 <div className="w-10/12 mx-auto py-12">
                     <p className='text-3xl font-medium pb-3'>
-                        Industrail Exposure
+                        Industrial Exposure
                     </p>
                     <p className='text-xl pl-2 border-l-4 border-[#fea700]'>
                         Visits, Traning, Guidance and a lot more
