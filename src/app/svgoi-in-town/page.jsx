@@ -9,10 +9,11 @@ function SVGOIContactInfo() {
       <div className="border rounded-lg overflow-hidden mb-8">
         <h3 className="bg-gray-200 px-6 py-3 text-lg font-semibold">Punjab</h3>
         <div className="p-6">
-          <p>Mr. Ishant Premi</p>
+          {/* <p>Mr. Ishant Premi</p> */}
           <p>Mr. Gagandeep Singh</p>
           <p>Mr. Talwinder Singh</p>
           <p>Mr. Jaspreet Singh</p>
+          <p>Mr. Tarandeep Singh</p>
         </div>
       </div>
 
@@ -20,7 +21,6 @@ function SVGOIContactInfo() {
         <h3 className="bg-gray-200 px-6 py-3 text-lg font-semibold">Haryana</h3>
         <div className="p-6">
           <p>Mr. Manik Dhiman</p>
-          <p>Mr. Tarandeep Singh</p>
         </div>
       </div>
 
