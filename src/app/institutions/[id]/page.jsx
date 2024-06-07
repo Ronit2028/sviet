@@ -38,7 +38,9 @@ const Page = ({ params }) => {
                         "Master of Computer Application(MCA)"
                     ]
                 }
-            }
+            },
+            committee:"/SVIET/SVIET COMMITTEES.pdf",
+            md:"/SVIET/Mandatory-Disclosure-SVIET-1.pdf",
 
         },
         {
@@ -59,7 +61,9 @@ const Page = ({ params }) => {
                 "Doctor in Pharmacy (Pharma.D)": {
 
                 }
-            }
+            },
+            committee:"",
+            md:"",
 
         },
         {
@@ -90,7 +94,9 @@ const Page = ({ params }) => {
                         "Bacholer of Computer Application(BCA)"
                     ]
                 }
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 4, name: "Swami Vivekanand Faculty of Technology and Management (SVFTM)",
@@ -144,7 +150,9 @@ const Page = ({ params }) => {
 
                     ]
                 }
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 5, name: "Swami Vivekanand College of Education(SVCE)",
@@ -160,7 +168,9 @@ const Page = ({ params }) => {
                         "Master of Arts in Education (M.A Education)"
                     ]
                 },
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 6, name: "Swami Vivekanand Polytechnic college(SVPC)",
@@ -172,7 +182,9 @@ const Page = ({ params }) => {
                 "Civil Engineering": {},
                 "Mechanical Engineering": {},
                 "DMLT": {}
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 7, name: "Swami Vivekanand Industrial Training Center (SVITC)",
@@ -189,7 +201,9 @@ const Page = ({ params }) => {
 
                 },
 
-            }
+            },
+            committee:"",
+            md:"",
         },
         {
             id: 8, name: "Swami Vivekanand College of Management & Technology (SVCMT)",
@@ -234,7 +248,9 @@ const Page = ({ params }) => {
                         "B.S IT"
                     ]
                 }
-            }
+            },
+            committee:"/SVCMT/SVCMT Committees.pdf",
+            md:"/SVCMT/Mandatory Disclosure SVCMT updated.pdf",
         },
         // {
         //     id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)",
@@ -258,8 +274,11 @@ const Page = ({ params }) => {
 
                 },
 
-            }
-        }
+            },
+            committee:"",
+            md:"",
+        },
+        
     ];
 
     // Find the institute with the matching id
@@ -270,7 +289,7 @@ const Page = ({ params }) => {
             {/* <h1 className='py-12'> {paramId}</h1> */}
             <InstitutionHeader institute={institute ? institute.name : 'Unknown'} category={institute.category} />
             <InstitutionBestProgramm description={institute.description} />
-            <InstitutionCourse programs={institute.programs} />
+            <InstitutionCourse programs={institute.programs} committee={institute.committee} md={institute.md} />
         </>
     );
 };
