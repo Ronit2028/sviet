@@ -1567,7 +1567,7 @@ const data = [
 
    // PARAMEDICAL
  {
-    "id": 26,
+    "id": 2666,
     "course_name": "Paramedical",
     "header": {
         "title": "M.Sc in Anesthesia and Operation Theatre Technology ",
@@ -1790,10 +1790,10 @@ const data = [
     ]
 },
 {
-    "id": 30,
+    "id": 330,
     "course_name": "Paramedical",
     "header": {
-        "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
+        "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY ",
         "subtitle": "EXPERTS IN CARDIAC CARE",
         "background_image": "../Courses/paramedical/radiology/radiology.jpg"
     },
@@ -2059,7 +2059,7 @@ const data = [
 
 },
 {
-    "id": 30,
+    "id": 33330,
     "course_name": "Paramedical",
     "header": {
         "title": "BACHELOR OF SCIENCE IN ANESTHESIA",
