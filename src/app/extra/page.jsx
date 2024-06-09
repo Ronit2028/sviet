@@ -13,7 +13,7 @@ import back from '../../assets/placement/placements/back.jpg';
 import p1 from '../../assets/placement/placements/place1.jpg';
 import p2 from '../../assets/placement/placements/place2.jpg';
 import p3 from '../../assets/placement/placements/place3.jpg';
-import im1 from '../../assets/placement/placements/im1.png';
+import im1 from '../../assets/placement/placements/im1.png'; 
 import basic_science from '../../assets/placement/placements/basic_science.png'
 import business from '../../assets/placement/placements/business.png'
 import comp_app from '../../assets/placement/placements/basic_science.png'
@@ -219,123 +219,122 @@ const Page = () => {
             X
           </button>
           <form className="flex flex-col justify-center"
-            action="https://sviet.ac.in/forms/send-email.php"
-            method="post"
-            onSubmit={handleSubmit}
-            style={{ width: '100%' }}
-          >
-            <div className="input_field py-3 my-3">
-              <span><i aria-hidden="true" className="fa fa-user"></i></span>
-              <input
-                className="py-2 px-1  w-72 ms-1"
-                type="text"
-                name="name"
-                placeholder="Name"
-                value={formData.name}
+      action="/forms/send-email.php"
+      method="post"
+      onSubmit={handleSubmit}
+      style={{ width: '100%' }}>
+    <div className="input_field py-3 my-3">
+        <span><i aria-hidden="true" className="fa fa-user"></i></span>
+        <input
+            className="py-2 px-1  w-72 ms-1"
+            type="text"
+            name="name"
+            placeholder="Name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+        />
+    </div>
+    <div className="input_field">
+        <span><i aria-hidden="true" className="fa fa-envelope"></i></span>
+        <input
+            className="py-2 px-1 ms-1  w-72"
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+        />
+    </div>
+    <div className="input_field my-3">
+        <span><i aria-hidden="true" className="fa fa-phone"></i></span>
+        <input
+            className="py-2 px-1 ms-1 my-3  w-72 border-2 border-gray-400 rounded-md"
+            type="text"
+            name="phone"
+            placeholder="Phone number"
+            value={formData.phone}
+            onChange={handleChange}
+            required
+        />
+    </div>
+    <div className="body12 font-medium my-3" style={{ display: 'inline-flex' }}>
+        Gender:
+        <div style={{ padding: '3px 0px 0px 13px', margin: '-3px 0px 12px 7px' }}>
+            <input
+                className="py-2 px-1 ms-1 my-3 border-2 border-gray-400 rounded-md"
+                type="radio"
+                id="male"
+                value="male"
+                name="gender"
+                checked={formData.gender === 'male'}
                 onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="input_field">
-              <span><i aria-hidden="true" className="fa fa-envelope"></i></span>
-              <input
-                className="py-2 px-1 ms-1  w-72"
-                type="email"
-                name="email"
-                placeholder="Email"
-                value={formData.email}
+            />
+            <label htmlFor="male">Male</label>
+            <input
+                className="py-2 px-1 ms-1 my-3 border-2 border-gray-400 rounded-md"
+                type="radio"
+                id="female"
+                value="female"
+                name="gender"
+                checked={formData.gender === 'female'}
                 onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="input_field my-3">
-              <span><i aria-hidden="true" className="fa fa-phone"></i></span>
-              <input
-                className="py-2 px-1 ms-1 my-3  w-72 border-2 border-gray-400 rounded-md"
-                type="text"
-                name="phone"
-                placeholder="Phone number"
-                value={formData.phone}
-                onChange={handleChange}
-                required
-              />
-            </div>
-            <div className="body12 font-medium my-3" style={{ display: 'inline-flex' }}>
-              Gender:
-              <div style={{ padding: '3px 0px 0px 13px', margin: '-3px 0px 12px 7px' }}>
-                <input
-                  className="py-2 px-1 ms-1 my-3 border-2 border-gray-400 rounded-md"
-                  type="radio"
-                  id="male"
-                  value="male"
-                  name="gender"
-                  checked={formData.gender === 'male'}
-                  onChange={handleChange}
-                />
-                <label htmlFor="male">Male</label>
-                <input
-                  className="py-2 px-1 ms-1 my-3 border-2 border-gray-400 rounded-md"
-                  type="radio"
-                  id="female"
-                  value="female"
-                  name="gender"
-                  checked={formData.gender === 'female'}
-                  onChange={handleChange}
-                />
-                <label htmlFor="female">Female</label>
-              </div>
-            </div>
-            <div className="input_field select_option my-3">
-              <select
-                id="sts"
-                name="state"
-                className="form-control py-2 bg-yellow-100 rounded-md  w-72"
-                value={formData.state}
-                onChange={handleChange}
-                required
-              >
-                <option value="">Select State</option>
-                {states.map((state, index) => (
-                  <option key={index} value={state}>{state}</option>
-                ))}
-              </select>
-              <div className="select_arrow"></div>
-            </div>
-            <div className="input_field select_option" style={{ margin: '0px' }}>
-              <select
-                id="state"
-                name="city"
-                className="form-control py-2 bg-yellow-100 rounded-md  w-72"
-                value={formData.city}
-                onChange={handleChange}
-                required
-              >
-                <option>Select city</option>
-              </select>
-              <div className="select_arrow"></div>
-            </div>
-            <div className="row clearfix">
-              <div className="col_half">
-                <div className="input_field select_option my-3" style={{ padding: '0px' }}>
-                  <select
+            />
+            <label htmlFor="female">Female</label>
+        </div>
+    </div>
+    <div className="input_field select_option my-3">
+        <select
+            id="sts"
+            name="state"
+            className="form-control py-2 bg-yellow-100 rounded-md  w-72"
+            value={formData.state}
+            onChange={handleChange}
+            required
+        >
+            <option value="">Select State</option>
+            {states.map((state, index) => (
+                <option key={index} value={state}>{state}</option>
+            ))}
+        </select>
+        <div className="select_arrow"></div>
+    </div>
+    <div className="input_field select_option" style={{ margin: '0px' }}>
+        <select
+            id="state"
+            name="city"
+            className="form-control py-2 bg-yellow-100 rounded-md  w-72"
+            value={formData.city}
+            onChange={handleChange}
+            required
+        >
+            <option>Select city</option>
+        </select>
+        <div className="select_arrow"></div>
+    </div>
+    <div className="row clearfix">
+        <div className="col_half">
+            <div className="input_field select_option my-3" style={{ padding: '0px' }}>
+                <select
                     className="form-control py-2 bg-yellow-100 rounded-md w-72"
                     id="specialization"
                     name="specialization"
                     value={formData.specialization}
                     onChange={handleChange}
                     required
-                  >
+                >
                     <option value="">Select Specialization</option>
                     {specializations.map((specialization, index) => (
-                      <option className="w-72" key={index} value={specialization}>{specialization}</option>
+                        <option className="w-72" key={index} value={specialization}>{specialization}</option>
                     ))}
-                  </select>
-                  <div className="select_arrow my"></div>
-                </div>
-              </div>
-              <div className="col_half my-3">
-                <div className="input_field">
-                  <input
+                </select>
+                <div className="select_arrow my"></div>
+            </div>
+        </div>
+        <div className="col_half my-3">
+            <div className="input_field">
+                <input
                     type="text"
                     className="py-2 px-2  w-72"
                     name="branch"
@@ -343,16 +342,17 @@ const Page = () => {
                     value={formData.branch}
                     onChange={handleChange}
                     required
-                  />
-                </div>
-              </div>
+                />
             </div>
-            <input
-              className="button mx-auto bg-yellow-500 rounded-lg p-3 ms-28  "
-              type="submit"
-              value="Register"
-            />
-          </form>
+        </div>
+    </div>
+    <input
+        className="button mx-auto bg-yellow-500 rounded-lg p-3 ms-28  "
+        type="submit"
+        value="Register"
+    />
+</form>
+
         </div>
       )}
 
