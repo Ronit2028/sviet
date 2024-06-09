@@ -25,6 +25,7 @@ import agriculture from '../../assets/placement/placements/agriculture.png'
 import pharmacy from '../../assets/placement/placements/pharmacy.png'
 import hospitality_cat from '../../assets/placement/placements/hospitality_cat.png'
 
+
 const Page = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -43,10 +44,37 @@ const Page = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+ 
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log(formData);
+  
+    // Get query parameters from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const toemail = urlParams.get('e'); // Assuming 'email' is the parameter name
+  
+    // Merge email with form data
+    const updatedFormData = { ...formData, toemail };
+  
+    try {
+      const response = await fetch('https://ais.ac.in/send.php',  {
+        method: 'POST',
+        body: JSON.stringify(updatedFormData),
+      });
+  
+      if (response.ok) {
+        // Handle successful response
+        console.log('Form data sent successfully');
+        setIsFormVisible(false); // Hide the form if needed
+      } else {
+        // Handle error response
+        console.error('Error sending form data');
+      }
+    } catch (error) {
+      // Handle network errors
+      console.error('Network error:', error);
+    }
   };
+  
 
   const states = [
     "Andaman & Nicobar", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh",
@@ -172,40 +200,32 @@ const Page = () => {
         category: "Basic Science",
         image: basic_science,
         specializations: [
-          "B.Sc Non Medical",
-          "M.Sc Maths",
-          "M.Sc Physics",
-          "M.Sc Chemistry"
+          "Bachelor of Science in Physics",
+          "Bachelor of Science in Chemistry",
+          "Bachelor of Science in Mathematics",
+          "Master of Science in Physics",
+          "Master of Science in Chemistry",
+          "Master of Science in Mathematics"
         ]
       },
       {
         category: "Law",
         image: law,
         specializations: [
-          "LL.B",
-          "BA.LLB"
+          "Bachelor of Law (LLB)",
+          "Master of Law (LLM)",
+          "Integrated BA LLB"
         ]
       },
       {
-        category: "Polytechnic/ Diploma",
-        image: basic_science,
+        category: "Agriculture",
+        image: agriculture,
         specializations: [
-          "Computer Science and Engineering (CSE)",
-          "Electrical Engineering (EE)",
-          "Mechanical Engineering (ME)",
-          "Civil Engineering (CE)"
+          "Bachelor of Science (Agriculture)",
+          "Master of Science (Agriculture)"
         ]
       },
-      {
-        category: "ITI",
-        image: business,
-        specializations: [
-          "Welder",
-          "Plumber",
-          "COPA"
-        ]
-      }
-    ]
+    ],
   };
 
   return (
