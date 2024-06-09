@@ -43,11 +43,39 @@ const Page = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formData);
-  };
+ 
 
+ 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+  
+    // Get query parameters from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const toemail = urlParams.get('e'); // Assuming 'email' is the parameter name
+  
+    // Merge email with form data
+    const updatedFormData = { ...formData, toemail };
+  
+    try {
+      const response = await fetch('https://ais.ac.in/send.php',  {
+        method: 'POST',
+        body: JSON.stringify(updatedFormData),
+      });
+  
+      if (response.ok) {
+        // Handle successful response
+        console.log('Form data sent successfully');
+        setIsFormVisible(false); // Hide the form if needed
+      } else {
+        // Handle error response
+        console.error('Error sending form data');
+      }
+    } catch (error) {
+      // Handle network errors
+      console.error('Network error:', error);
+    }
+  };
+  
   const states = [
     "Andaman & Nicobar", "Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chandigarh",
     "Chhattisgarh", "Dadra & Nagar Haveli", "Daman & Diu", "Delhi", "Goa", "Gujarat", "Haryana",
