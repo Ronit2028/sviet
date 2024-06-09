@@ -24,7 +24,7 @@ import paramedical from '../../assets/placement/placements/paramdeical.png'
 import agriculture from '../../assets/placement/placements/agriculture.png'
 import pharmacy from '../../assets/placement/placements/pharmacy.png'
 import hospitality_cat from '../../assets/placement/placements/hospitality_cat.png'
-
+import banner from '../../assets/placement/placements/banner.jpg'
 const Page = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -211,7 +211,7 @@ const Page = () => {
   return (
     <div>
       {isFormVisible && (
-        <div className="fixed z-[1] top-0 right-0 bg-white w-96 p-3 rounded-md shadow-lg border-2">
+        <div className="fixed z-[1] top-24 right-10 bg-white w-96 p-3 rounded-md shadow-lg border-2">
           <button
             className="absolute top-2 right-2 text-black"
             onClick={() => setIsFormVisible(false)}
@@ -355,7 +355,9 @@ const Page = () => {
           </form>
         </div>
       )}
+      <div className='lg:h-[630px] md:h-[600px] sm:h-[420px] h-80 w-full' style={{ backgroundImage: `url(${banner.src})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}>
 
+      </div>
       <div className='lg:h-96 w-full' style={{ backgroundImage: `url(${back.src})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
       <section className="my-auto pt-10" style={{ color: 'white' }}>
       <div className="container py-5">
