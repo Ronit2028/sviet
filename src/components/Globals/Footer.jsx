@@ -62,7 +62,7 @@ const Footer = () => {
                         <div className="heading text-xl font-semibold mb-4">Quick Links</div>
                         <ul className="leading-loose text-sm font-light">
                             <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSc41bcyr4iEBvSV3e59eNS1y1BWsQPqJBogSv4UfPH5O_wghw/viewform">NCC Registration</a></li>
-                            <li><Link href="/about">SVGOI Advantages</Link></li>
+                            <li><Link href="/advantages">SVGOI Advantages</Link></li>
                             <li><Link href="/contact-us">Contact-us</Link></li>
                             <li><Link href="/admissions">Scholarship</Link></li>
                             <li><Link href="/refund-policy">Refund Policy</Link></li>
