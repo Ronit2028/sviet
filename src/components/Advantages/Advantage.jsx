@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import img from '../../assets/mission-vission-vector.70934ee2310f41731191.png';
+
 
 const Advantage = () => {
   const MissionData = [
@@ -49,7 +49,7 @@ const Advantage = () => {
             <h1 className="text-lg font-bold">Advantages</h1>
           </div>
           <h1 className="text-lg md:text-3xl font-semibold mb-8  ">Our principles and   <span className='text-[#016db6] text-4xl md:text-7xl md:py-3 block'> Your Success </span></h1>
-          <p>SVGOI appears to prioritize providing a high-quality educational experience that prepares students for the challenges and opportunities of the modern world. Here are several advantages offeres by SVGOI.</p>
+          <p>Swami Vivekanand Group of Institutes appears to prioritize providing a high-quality educational experience that prepares students for the challenges and opportunities of the modern world. Here are several advantages offeres by SVGOI:</p>
         </div>
         
       </div>

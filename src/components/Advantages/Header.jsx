@@ -13,7 +13,7 @@ const Header = () => {
 
                     </p>
                     <p className='text-md w-1/2 border-l-4 border-[#fea700] pl-2'>
-                    SVGOI offers an education that meets the demands of today’s globalized society, ensuring students are ready for both current and future challenges.
+                    Swami Vivekanand Group of Institutes offers an education that meets the demands of today’s globalized society, ensuring students are ready for both current and future challenges.
                     </p>
                 </div>
             </div>
