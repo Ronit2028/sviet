@@ -105,8 +105,9 @@ const Carousel = () => {
                     </div>
                 ))}
             </Slider>
-            <div className="w-full mt-10 flex flex-col items-center">
-                <h2 className="text-xl font-semibold mb-4">Contact Us</h2>
+            <div className="w-11/12 mx-auto">
+            <h2 className="text-2xl mt-10 font-semibold mb-4">Contact Us :</h2>
+            <div className="w-full  flex gap-3 items-center">
                 <div className="flex items-center mb-2">
                     <FaPhone className="mr-2 text-[#ff9602]" />
                     <a href="tel:+918847488524" className="text-md md:text-lg">+91 88474 88524</a>
@@ -115,6 +116,7 @@ const Carousel = () => {
                     <FaEnvelope className="mr-2 text-[#ff9602]" />
                     <a href="mailto:Dia@sviet.ac.in" className="text-md md:text-lg">Dia@sviet.ac.in</a>
                 </div>
+            </div>
             </div>
         </div>
     );
