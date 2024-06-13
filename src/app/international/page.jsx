@@ -8,19 +8,20 @@ import Activities from '@/components/International/Activities'
 import Director from '@/components/International/Director'
 import Updates from '@/components/International/Updates'
 import Help from '@/components/International/Help'
+import StudentsSpeak  from '../../components/International/StudentSpeak'
 
 const page = () => {
   return (
     <div>
       <Header />
-      <StudentSpeak />
+      <AboutDepartment />
+      {/* <StudentSpeak /> */}
       <WhyChooseUs />
-      {/* <AboutDepartment /> */}
+      <Help />
       <Activities />
       <Director />
       <Updates />
-      <Help />
-
+      <StudentsSpeak/>
 
     </div>
   )

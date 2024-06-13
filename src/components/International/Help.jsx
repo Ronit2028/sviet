@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
 // images
 import img1 from "../../assets/International/hostel.webp"
@@ -39,7 +40,7 @@ const Carousel = () => {
         {
             image: img3.src,
             title: "Language Assistance ",
-            description: "For students whose first language is not English, SVGOI offers full-time English programs in the evening or on the weekend to you improve your language skills to meet the academic requirements of your program. We strongly recommend all the international students to join these programs to enhance your English skill’s level.You can discuss your specific language needs with the Academic Advisor.					"
+            description: "For students whose first language is not English, SVGOI offers full-time English programs in the evening or on the weekend to you improve your language skills to meet the academic requirements of your program. We strongly recommend all the international students to join these programs to enhance your English skill’s level.You can discuss your specific language needs with the Academic Advisor."
         },
         {
             image: img4.src,
@@ -59,7 +60,6 @@ const Carousel = () => {
     ];
 
     const settings = {
-        // dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -105,6 +105,19 @@ const Carousel = () => {
                     </div>
                 ))}
             </Slider>
+            <div className="w-11/12 mx-auto">
+            <h2 className="text-2xl mt-10 font-semibold mb-4">Contact Us :</h2>
+            <div className="w-full  flex gap-3 items-center">
+                <div className="flex items-center mb-2">
+                    <FaPhone className="mr-2 text-[#ff9602]" />
+                    <a href="tel:+918847488524" className="text-md md:text-lg">+91 88474 88524</a>
+                </div>
+                <div className="flex items-center">
+                    <FaEnvelope className="mr-2 text-[#ff9602]" />
+                    <a href="mailto:Dia@sviet.ac.in" className="text-md md:text-lg">Dia@sviet.ac.in</a>
+                </div>
+            </div>
+            </div>
         </div>
     );
 };
