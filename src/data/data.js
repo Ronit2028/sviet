@@ -5,12 +5,12 @@ const data = [
         "course_name": "M.Tech",
         event_type: "Engineering",
         "header": {
-            "title": "Master in Computer Science & Engineering",
+            "title": "Master in Computer Science & Engineering ",
             "subtitle": "IGNITE INNOVATION AND RESEARCH",
             "background_image": "../Courses/MTech/cse/Header.jpg"
 
         },
-        "program_name": "M.Tech in Computer Science and Engineering",
+        "program_name": "M.Tech in Computer Science and Engineering (M.Tech CSE)",
         "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
         "fees": "37,500/-INR Per Semester",
         "duration": "2 years",
@@ -89,7 +89,7 @@ const data = [
             "subtitle": "ELEVATE YOUR EXPERTISE IN",
             "background_image": "../Courses/MTech/ee/Header.jpg"
         },
-        "program_name": "M.Tech in Electronics & Communication Engineering",
+        "program_name": "M.Tech in Electronics & Communication Engineering (M.Tech ECE)",
         "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
         "fees": "TBD (To Be Disclosed)",
         "duration": "2 Years",
@@ -165,7 +165,7 @@ const data = [
             "subtitle": "BUILD THE FUTURE WITH",
             "background_image": "../Courses/MTech/civil/header.avif"
         },
-        "program_name": "M.Tech in Civil Engineering",
+        "program_name": "M.Tech in Civil Engineering (M.Tech Civil)",
         "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
         "fees": "TBD (To Be Disclosed)",
         "duration": "2 Years",
@@ -240,7 +240,7 @@ const data = [
             "subtitle": "ADVANCE YOUR EXPERTISE WITH",
             "background_image": "../Courses/BTech/me/MEheader.jpg"
         },
-        "program_name": "M.Tech in Mechanical Engineering",
+        "program_name": "M.Tech in Mechanical Engineering (M.Tech ME)",
         "program_description": "M.Tech in ME refers to Master of Technology in Mechanical Engineering. It is a postgraduate degree program that focuses on the advanced study of mechanical systems, their design, analysis, and optimization. Students pursuing M.Tech ME gain an in-depth understanding of core engineering principles, mathematics, and physics, along with specialized knowledge in areas such as advanced thermodynamics, computational fluid dynamics, advanced materials science, mechanics, and machine design. The program equips students with the skills required to design, analyze, and develop complex mechanical systems, ranging from engines and machinery to power plants and robotics. It emphasizes advanced problem-solving, critical thinking, and hands-on experience through laboratory work, research projects, and internships. Students learn how to apply engineering principles to address complex real-world challenges, optimize performance, and enhance efficiency. Throughout the M.Tech ME program, students also develop strong computational and analytical skills, using advanced software tools and simulations to model and analyze mechanical systems. They gain practical knowledge through workshops, industrial visits, and industry collaborations, fostering a deeper understanding of industry practices and standards. Overall, M.Tech ME provides a solid foundation in advanced mechanical engineering principles and prepares students for a wide range of career opportunities in the dynamic field of engineering and technology.",
         "fees": "75,000 INR",
         "duration": "2 Years",
@@ -321,7 +321,7 @@ const data = [
             "subtitle": "PROGRAMMING FOR FUTURE, TODAY",
             "background_image": "../Courses/BTech/cse/CSEheader.jpg"
         },
-        "program_name": "B.Tech Computer Science Engineering",
+        "program_name": "B.Tech Computer Science Engineering (B.Tech CSE)",
         "program_description": "One of the most important components of development in the many commercial, technological, and administrative organisations is now computer science. Information gathering in computer science exposes users to a wide range of trends' capabilities. A four-year bachelor's degree programme in Computer Science & Engineering is offered by the Department of Computer Engineering at the Faculty of Engineering. The curriculum is purposefully created to give students a solid foundation in the subject, as well as analysis and in-depth knowledge. The department is outfitted with computer facilities and laboratories that enable students to be engaged on a personal level and in the real-time processing of the technological processes involved in order to expose them to in-depth.",
         "fees": "45,000 INR",
         "duration": "4 Years",
@@ -402,7 +402,7 @@ const data = [
             "subtitle": "EXPERIENCE EXCELLENCE IN TECHNOLOGY WITH",
             "background_image": "../Courses/BTech/ece/Header.jpg"
         },
-        "program_name": "B.Tech Electronics & Communication Engineering",
+        "program_name": "B.Tech Electronics & Communication Engineering  (B.Tech ECE)",
         "program_description": "B.Tech ECE stands for Bachelor of Technology in Electronics and Communication Engineering. It is a four-year undergraduate degree program that focuses on the design, development, and application of electronic and communication systems. B.Tech ECE covers a wide range of subjects, including electronic circuits, digital systems, signal processing, communication systems, microprocessors, embedded systems, control systems, and telecommunications. Students learn about the principles, theories, and practices behind various electronic devices, communication networks, and technologies. During the course, students gain hands-on experience through laboratory work, projects, and internships. They learn to design, analyze, and troubleshoot electronic circuits, develop communication systems, and utilize modern tools and software for system development. B.Tech ECE is a dynamic field that keeps evolving with advancements in technology. It equips students with the knowledge and skills to contribute to the development of innovative electronic and communication systems, shaping the future of technology.",
         "fees": "45,000 INR",
         "duration": "4 Years",
@@ -484,7 +484,7 @@ const data = [
             "subtitle": "POWER UP YOUR POTENTIAL WITH",
             "background_image": "../Courses/BTech/ee/EEheader.jpg"
         },
-        "program_name": "B.Tech Electrical Engineering",
+        "program_name": "B.Tech Electrical Engineering (B.Tech EE)",
         "program_description": "B.Tech EE stands for Bachelor of Technology in Electrical Engineering. It is an undergraduate engineering program that focuses on the study of electrical systems, devices, and power generation, transmission, and distribution. B.Tech EE curriculum typically includes subjects such as circuit theory, power systems, control systems, electronics, electromagnetics, digital systems, and communication systems. Students pursuing B.Tech EE gain a strong foundation in electrical engineering principles, mathematical analysis, and problem-solving skills. They learn to design and analyze electrical circuits, develop control systems, and understand the generation and distribution of electrical power. Overall, B.Tech EE equips students with the knowledge and skills to contribute to the design, development, and management of electrical systems, making them valuable professionals in the field of electrical engineering.",
         "fees": "45,000 INR Per Semester",
         "duration": "4 Years",
@@ -563,7 +563,7 @@ const data = [
             "subtitle": "GEAR UP YOUR SUCCESS WITH",
             "background_image": "../Courses/BTech/me/MEheader.jpg"
         },
-        "program_name": "B.Tech Mechanical Engineering",
+        "program_name": "B.Tech Mechanical Engineering (B.Tech ME)",
         "program_description": "B.Tech ME refers to Bachelor of Technology in Mechanical Engineering. It is an undergraduate degree program that focuses on the study of various aspects of mechanical systems, their design, manufacturing, and operation. Students pursuing B.Tech ME gain a comprehensive understanding of core engineering principles, mathematics, and physics, along with specialized knowledge in areas such as thermodynamics, fluid mechanics, materials science, mechanics, and machine design. The program equips students with the skills required to design, analyze, and develop mechanical systems, ranging from engines and machinery to power plants and robotics. It emphasizes problem-solving, critical thinking, and hands-on experience through laboratory work, projects, and internships. Students learn how to apply engineering principles to address real-world challenges, optimize performance, and enhance efficiency. Throughout the B.Tech ME program, students also develop strong computational and analytical skills, using software tools and simulations to model and analyze mechanical systems. They gain practical knowledge through workshops, industrial visits, and industry collaborations, fostering a deeper understanding of industry practices and standards Overall, B.Tech ME provides a solid foundation in mechanical engineering principles and prepares students for a wide range of career opportunities in the dynamic field of engineering and technology.",
         "fees": "45,000 INR",
         "duration": "4 Years",
@@ -642,7 +642,7 @@ const data = [
             "subtitle": "BUILDING A BRIGHT FUTURE WITH",
             "background_image": "../Courses/BTech/civil/CivilHeader.jpg"
         },
-        "program_name": "B.Tech Civil Engineering",
+        "program_name": "B.Tech Civil Engineering  (B.Tech Civil)",
         "program_description": "B.Tech Civil Engineering is an undergraduate degree program that focuses on the study of designing, constructing, and maintaining physical infrastructure such as buildings, roads, bridges, dams, and water supply systems. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to plan, analyze, and execute civil engineering projects. During the course, students learn about various aspects of civil engineering, including structural analysis, construction materials, geotechnical engineering, transportation engineering, environmental engineering, and hydraulic engineering. They also gain hands-on experience through practical sessions, laboratory work, and site visits. The goal of a B.Tech Civil Engineering program is to train professionals who can contribute to the development and maintenance of sustainable and resilient infrastructure. Graduates can pursue careers in government agencies, engineering firms, construction companies, research institutions, and consulting firms. They play a vital role in designing safe and efficient structures, managing construction projects, ensuring compliance with regulations, and implementing innovative solutions for infrastructure development.Choose to Join the Elite League of Tech Visionaries",
         "fees": "45,000 INR",
         "duration": "4 Years",
@@ -799,7 +799,7 @@ const data = [
         "subtitle": "ADVANCING THE HEALTHCARE HEROES",
         "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
     },
-    "program_name": "Master of Pharmacy",
+    "program_name": "Master of Pharmacy (M.Pharm)",
     "program_description": "The M.Pharm program at SVGOI is designed to provide advanced knowledge and research opportunities in the field of Pharmaceutical Education and Research. The Institute comprises every element desired for academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. The Master of Pharmacy is a 2 Year postgraduate program in which students deepen their understanding of pharmaceutical sciences, focusing on areas such as drug formulation, quality control, clinical research, and pharmacology. Graduates of the M.Pharm program are equipped with the expertise required for advanced roles in the pharmaceutical industry, academia, and research. They can pursue careers in R&D, regulatory affairs, clinical trials, and more, contributing to the development and safe use of medications. The program also prepares students for potential doctoral studies in pharmacy and related fields.",
     "fees": "60,000/- INR Per Semester",
     "duration": "2 years",
@@ -874,11 +874,11 @@ const data = [
         
         event_type: "Pharmacy",
         "header": {
-            "title": "Bachelor of Pharmacy",
+            "title": "Bachelor of Pharmacy ",
             "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
             "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
         },
-        "program_name": "Bachelor of Pharmacy",
+        "program_name": "Bachelor of Pharmacy (B.Pharm)",
         "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
         "fees": "52000/- INR Per Semester",
         "duration": "4 years",
@@ -1849,11 +1849,11 @@ const data = [
     "id": 34,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN PHYSIOTHERAPY",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN PHYSIOTHERAPY",
         "subtitle": "ENHANCING MOBILITY AND WELL-BEING",
         "background_image": "../Courses/paramedical/Physiotherapy/header.avif"
     },
-    "program_name": "BSc in Physiotherapy",
+    "program_name": "Bachelor of Science (B.Sc) in Physiotherapy",
     "program_description": "B.Sc Physiotherapy is an undergraduate degree program that focuses on the study of human movement, physical rehabilitation, and the prevention and treatment of physical impairments. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to assess, diagnose, and treat various musculoskeletal, neurological, and cardiopulmonary conditions. During the course, students learn about anatomy, physiology, biomechanics, exercise therapy, electrotherapy, and manual therapy techniques. They also gain clinical experience through internships and practical training, where they work under the supervision of experienced physiotherapists in hospitals, rehabilitation centers, sports clinics, and other healthcare settings. The goal of a B.Sc Physiotherapy program is to train professionals who can help individuals improve their mobility, manage pain, regain function, and enhance their overall well-being. Graduates can pursue careers as physiotherapists in hospitals, private clinics, sports organizations, and research institutions. They play a crucial role in promoting physical health, preventing injuries, and aiding in the recovery of patients with physical disabilities or limitations.",
     "fees": "22,000/- INR Per Semester",
     "duration": "4.5 Years",
@@ -1906,12 +1906,12 @@ const data = [
     "id": 27,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN RADIO IMAGING TECHNOLOGY",
         "subtitle": "ELEVATING RADIOLOGY EXPERTISE",
         "background_image": "../Courses/paramedical/radiology/radiology.jpg"
     },
-    "program_name": "Bachelor of Science in Radio Imaging Technology",
-    "program_description": "Bachelor of Science in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
+    "program_name": "Bachelor of Science (B.Sc) in Radio Imaging Technology",
+    "program_description": "Bachelor of Science (B.Sc) in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
     "major_tracks": [
@@ -1961,12 +1961,12 @@ const data = [
     "id": 28,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN OPERATION THEATRE TECHNOLOGY",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN OPERATION THEATRE TECHNOLOGY",
         "subtitle": "ELEVATING OPERATION THEATRE MANAGEMENT",
         "background_image": "../Courses/paramedical/OT/ot.jpg"
     },
-    "program_name": "Bachelor of Science in Operation Theatre Technology",
-    "program_description": "Bachelor of Science in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
+    "program_name": "Bachelor of Science (B.Sc) in Operation Theatre Technology",
+    "program_description": "Bachelor of Science (B.Sc) in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
     "major_tracks": [
@@ -2011,11 +2011,11 @@ const data = [
     "id": 31,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN MEDICAL LABORATORY SCIENCE",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN MEDICAL LABORATORY SCIENCE",
         "subtitle": "PREPARING HEALTHCARE LABORATORY PROFESSIONALS",
         "background_image": "../Courses/paramedical/Lab/header.avif"
     },
-    "program_name": "Bachelor of Science in Medical Laboratory Science",
+    "program_name": "Bachelor of Science (B.Sc) in Medical Laboratory Science",
     "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
     "fees": "25,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
@@ -2062,11 +2062,11 @@ const data = [
     "id": 33330,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN ANESTHESIA",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN ANESTHESIA",
         "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
         "background_image": "../Courses/paramedical/Anasthesia/header.avif"
     },
-    "program_name": "Bachelor of Science in Anesthesia ",
+    "program_name": "Bachelor of Science (B.Sc) in Anesthesia ",
     "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
@@ -2107,11 +2107,11 @@ const data = [
     "id": 299999,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN OPTOMETRY",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN OPTOMETRY",
         "subtitle": "VISIONARY HEALTHCARE PROFESSIONALS",
         "background_image": "../Courses/paramedical/Optometry/header.avif"
     },
-    "program_name": "Bachelor of Science in Optometry",
+    "program_name": "Bachelor of Science (B.Sc) in Optometry",
     "program_description": "B.Sc Optometry is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. It focuses on the science of vision and eye equipment. Students interested in healthcare professions involving examination, diagnosis, treatment, and management of eye diseases can opt for this program. The aim is to teach students about eye equipment such as lenses and spectacles. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has state-of-the-art infrastructure with modern equipment and laboratories, ranked as the best in North India. The paramedical college also boasts the highest placement rate in North India. Graduates of B.Sc Optometry can pursue careers as Opticians, Optometrists, Refractionists, and Ophthalmic Assistants.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
@@ -2164,12 +2164,12 @@ const data = [
     "id": 33,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN CARDIAC CARE TECHNOLOGY",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN CARDIAC CARE TECHNOLOGY",
         "subtitle": "CHART YOUR PATH TO SUCCESS IN CARDIAC CARE",
         "background_image": "../Courses/paramedical/Cardiac/header.avif"
     },
-    "program_name": "BSc in Cardiac Care Technology",
-    "program_description": "The Bachelor of Science (BSc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
+    "program_name": "Bachelor of Science (B.Sc) in Cardiac Care Technology",
+    "program_description": "The Bachelor of Science (B.Sc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
     "fees": "32,500/- INR Per Semester",
     "duration": "4 Years (Semester System)",
     "major_tracks": [
@@ -2677,12 +2677,12 @@ const data = [
     "id": 40,
     "course_name": "Basic Science",
     "header": {
-        "title": "BACHELOR OF SCIENCE IN NON-MEDICAL",
+        "title": "BACHELOR OF SCIENCE (B.Sc) IN NON-MEDICAL",
         "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
         "background_image": "../Courses/Science/Non-Medical/header.avif"
     },
     "program_name": "B.Sc. in Non-Medical",
-    "program_description": "The Bachelor of Science (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
+    "program_description": "The Bachelor of Science (B.Sc) (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
     "fees": "15,000/- INR Per Semester",
     "duration": "3 Years",
     "major_tracks": [
@@ -2914,7 +2914,7 @@ const data = [
         "background_image": "../Courses/Education/BA/comms.avif"
     },
     "program_name": "Bachelor of Arts",
-    "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
+    "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science (B.Sc) programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
     "fees": "15,000 INR Per Semester",
     "duration": "3 Years (Semester System)",
     "major_tracks": [
@@ -3512,12 +3512,12 @@ const data = [
         "course_name": "Computer Applications",
         event_type: "Engineering",
         "header": {
-            "title": "Bachelor of Science in Information Technology",
+            "title": "Bachelor of Science (B.Sc) in Information Technology",
             "subtitle": "BUILDING THE FUTURE OF IT",
             "background_image": "../Courses/ComputerApp/BscIt/data.avif"
         },
         "program_name": "B.Sc Information Technology",
-        "program_description": "B.Sc. IT (Bachelor of Science in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+        "program_description": "B.Sc. IT (Bachelor of Science (B.Sc) in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
         "fees": "20,000 INR per semester",
         "duration": "3 Years (Semester System)",
         "major_tracks": [
