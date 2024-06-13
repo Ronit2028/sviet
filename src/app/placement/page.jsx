@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Gallery from '@/components/Placement/Gallery'
 import Header from '@/components/Placement/Header'
 import Overview from '@/components/Placement/Overview'
 import PlacementOverview from '@/components/LandingPage/PlacementOverview'
@@ -21,6 +21,7 @@ const page = () => {
       <EventCarousel />
      <MulitilpleCharts/>
       <IndustrailExposure/>
+      <Gallery/>
       <Testimonials/>
     </div>
   )
