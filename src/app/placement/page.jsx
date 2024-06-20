@@ -10,6 +10,7 @@ import EventCarousel from '@/components/LandingPage/EventCarousel'
 import IndustrailExposure from "@/components/Placement/IndustrialExposure"
 import Testimonials from '@/components/LandingPage/Testimonials'
 import MulitilpleCharts from '../../components/About/MulitipleCharts'
+import PlacementDriveCarousel from '@/components/Placement/PlacementDriveCarousel'
 const page = () => {
   return (
     <div>
@@ -18,7 +19,8 @@ const page = () => {
       <PlacementOverview />
       <Department />
       <VisionMission />
-      <EventCarousel />
+      {/* <EventCarousel /> */}
+      <PlacementDriveCarousel/>
      <MulitilpleCharts/>
       <IndustrailExposure/>
       <Gallery/>
