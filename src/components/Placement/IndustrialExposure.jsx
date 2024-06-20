@@ -15,6 +15,9 @@ import img8 from "../../assets/placement/placements/Clicklabs.webp"
 import img9 from "../../assets/placement/placements/MBA.webp"
 import img10 from "../../assets/placement/placements/RMC.webp"
 import img11 from "../../assets/placement/placements/park.webp"
+import img12 from "../../assets/placement/placements/manali.webp"
+import img13 from "../../assets/placement/placements/jio.jpg"
+import img14 from "../../assets/placement/placements/pharma.jpg"
 const IndustrialExposure = () => {
     const reasons = [
         // {
@@ -58,6 +61,21 @@ const IndustrialExposure = () => {
         //     description: "SVGOI organized a successful placement drive today for the students of MBA and Super60 | Batch 2025 passing out by reputed company Click Labs!",
         //     img: img8.src
         // },
+        {
+            title: "Survey camp in Manali",
+            description: "Students of B.Tech Civil Engineering | Batch 2022 enjoyed an educational survey camp in Manali, applying classroom knowledge in real-world settings. Here's a glimpse of their journey and efforts!  ",
+            img: img12.src
+        },
+        {
+            title: "Reliance Mall, Bestech Square, Mohali",
+            description: "Students visited Reliance Mall, Mohali, to explore market dynamics. Guided by Mr. Amandeep, they learned about segmentation, targeting, and positioning, gaining insights into consumer behavior and retail tactics. ",
+            img: img13.src
+        },
+        {
+            title: "Guru Nanak Hospital, Rajpura",
+            description: "On Feb 2, 2024, students underwent hospital training at Guru Nanak Hospital, Rajpura, gaining real-world skills and bridging classroom learning with hands-on application.  ",
+            img: img14.src
+        },
         {
             title: "Dasmesh Agricultural Industries Pvt Ltd",
             description: "45 commerce and management students visited Dasmesh Agricultural Industries in Malerkotla, witnessing manufacturing processes firsthand. ",

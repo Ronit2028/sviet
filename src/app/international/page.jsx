@@ -20,7 +20,7 @@ const page = () => {
       <Help />
       <Activities />
       <Director />
-      <Updates />
+      {/* <Updates /> */}
       <StudentsSpeak/>
 
     </div>
