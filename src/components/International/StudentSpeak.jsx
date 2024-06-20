@@ -4,6 +4,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 import {
     Card,
     CardBody,
@@ -30,14 +31,14 @@ function TestimonialCard({
             <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'>
                 <Typography
                     color="blue-gray"
-                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto"
+                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto "
                 >
                     &quot;{title}&quot;
                 </Typography>
             </CardHeader>
             <CardBody className="px-2 lg:px-4 py-0 flex flex-wrap gap-x-6 justify-between">
                 <div>
-                    <div className="flex flex-wrap gap-3">
+                    <div className="flex flex-wrap gap-3 ">
                         <Avatar src={studentImage} className="h-12 w-12 rounded-full" />
                         <div>
                             <Typography variant="h6" color="blue-gray">
@@ -239,7 +240,7 @@ export function StudentsSpeak() {
     
 
     return (
-        <section className="px-8 py-10 lg:py-28">
+        <section className="px-8 py-8 lg:py-12">
          
             <div className="w-10/12 mx-auto">
                 <Typography
@@ -261,7 +262,22 @@ export function StudentsSpeak() {
                     ))}
                 </Slider>
             </div>
+
+            <div className="w-10/12 mx-auto">
+            <h2 className="text-2xl mt-20 font-semibold ">Contact Us :</h2>
+            <div className="w-full  flex gap-3 items-center">
+                <div className="flex items-center mb-2">
+                    <FaPhone className="mr-2 text-[#ff9602]" />
+                    <a href="tel:+918847488524" className="text-md md:text-lg">+91 88474 88524</a>
+                </div>
+                <div className="flex items-center">
+                    <FaEnvelope className="mr-2 text-[#ff9602]" />
+                    <a href="mailto:Dia@sviet.ac.in" className="text-md md:text-lg">Dia@sviet.ac.in</a>
+                </div>
+            </div>
+            </div>
         </section>
+        
     );
 }
 

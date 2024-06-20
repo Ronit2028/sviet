@@ -1741,7 +1741,7 @@ const data = [
         "subtitle": "ADVANCED MEDICAL IMAGING PROFESSIONALS",
         "background_image": "../Courses/paramedical/RadioImaging/header.avif"
     },
-    "program_name": "Master of Science in Radio Imaging Technology",
+    "program_name": "M.Sc. in Radio Imaging Technology",
     "program_description": "M.Sc. in Radio Imaging Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This course provides advanced education and training in medical imaging techniques, preparing students for professional roles in radiology departments. The program covers various imaging modalities including X-ray, MRI, CT scan, and ultrasound. The curriculum is designed to provide both theoretical knowledge and practical skills essential for excellence in the field of radiology. Swami Vivekanand Paramedical College is equipped with state-of-the-art infrastructure and modern laboratories, making it the best choice for aspiring radiology professionals in North India. The college boasts the highest placement rate in the region, ensuring successful career prospects for graduates.",
     "fees": "60,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -1797,7 +1797,7 @@ const data = [
         "subtitle": "EXPERTS IN CARDIAC CARE",
         "background_image": "../Courses/paramedical/radiology/radiology.jpg"
     },
-    "program_name": "Master of Science in Cardiac Care Technology",
+    "program_name": "M.Sc. in Cardiac Care Technology",
     "program_description": "M.Sc. CCT - Cardiac Care Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program focuses on advanced cardiac care, including diagnosis, treatment, and management of heart diseases. Students interested in cardiac diagnostics, interventional cardiology, and cardiac rehabilitation will find this program highly beneficial. The curriculum includes both theoretical knowledge and practical skills essential for proficiency in cardiac care technology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern cardiac diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in cardiac care units, research institutions, and healthcare settings.",
     "fees": "70,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -1849,11 +1849,11 @@ const data = [
     "id": 34,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN PHYSIOTHERAPY",
+        "title": "B.Sc. IN PHYSIOTHERAPY",
         "subtitle": "ENHANCING MOBILITY AND WELL-BEING",
         "background_image": "../Courses/paramedical/Physiotherapy/header.avif"
     },
-    "program_name": "Bachelor of Science (B.Sc) in Physiotherapy",
+    "program_name": "B.Sc. in Physiotherapy",
     "program_description": "B.Sc Physiotherapy is an undergraduate degree program that focuses on the study of human movement, physical rehabilitation, and the prevention and treatment of physical impairments. It combines theoretical knowledge with practical skills to equip students with the necessary expertise to assess, diagnose, and treat various musculoskeletal, neurological, and cardiopulmonary conditions. During the course, students learn about anatomy, physiology, biomechanics, exercise therapy, electrotherapy, and manual therapy techniques. They also gain clinical experience through internships and practical training, where they work under the supervision of experienced physiotherapists in hospitals, rehabilitation centers, sports clinics, and other healthcare settings. The goal of a B.Sc Physiotherapy program is to train professionals who can help individuals improve their mobility, manage pain, regain function, and enhance their overall well-being. Graduates can pursue careers as physiotherapists in hospitals, private clinics, sports organizations, and research institutions. They play a crucial role in promoting physical health, preventing injuries, and aiding in the recovery of patients with physical disabilities or limitations.",
     "fees": "22,000/- INR Per Semester",
     "duration": "4.5 Years",
@@ -1906,12 +1906,12 @@ const data = [
     "id": 27,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN RADIO IMAGING TECHNOLOGY",
+        "title": "B.Sc. IN RADIO IMAGING TECHNOLOGY",
         "subtitle": "ELEVATING RADIOLOGY EXPERTISE",
         "background_image": "../Courses/paramedical/radiology/radiology.jpg"
     },
-    "program_name": "Bachelor of Science (B.Sc) in Radio Imaging Technology",
-    "program_description": "Bachelor of Science (B.Sc) in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
+    "program_name": "B.Sc. in Radio Imaging Technology",
+    "program_description": "B.Sc. in Radio Imaging Technology is a 3-year undergraduate program designed to train students to work as radiology technicians. The course aims to provide students with top skills to handle work in the field of radiology. Students learn the principles of radiology and gain extensive training to handle the work pressure in hospitals, institutes, and clinics. Experienced teachers facilitate learning with clarity and practical advancements in education. The curriculum is research-based and includes training in handling X-ray equipment, developing exposed X-ray films, Sonography, CT Scan, MRI, and other imaging modalities. Special training in documentation and research in the field of radio imaging technology is provided. Graduates become competent to work in radiology departments of hospitals, diagnostic centers, and clinics.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
     "major_tracks": [
@@ -1961,12 +1961,12 @@ const data = [
     "id": 28,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN OPERATION THEATRE TECHNOLOGY",
+        "title": "B.Sc. IN OPERATION THEATRE TECHNOLOGY",
         "subtitle": "ELEVATING OPERATION THEATRE MANAGEMENT",
         "background_image": "../Courses/paramedical/OT/ot.jpg"
     },
-    "program_name": "Bachelor of Science (B.Sc) in Operation Theatre Technology",
-    "program_description": "Bachelor of Science (B.Sc) in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
+    "program_name": "B.Sc. in Operation Theatre Technology",
+    "program_description": "B.Sc. in Operation Theatre Technology is a 3-year undergraduate program designed to train students to work as technicians in operation theaters. The course aims to provide students with management skills to handle work in emergency situations and manage the pressure of operation theaters. Students learn technical abilities and superior management skills required for working in operation theaters. Graduates can work in hospitals, conduct research in institutes, or manage operation work in clinics. The curriculum is designed to incorporate practical advancements in education and is research-based. World-class medical labs are available on campus for practical training, and experienced faculty at Swami Vivekanand Paramedical College teach the program through interactive classes.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
     "major_tracks": [
@@ -2011,11 +2011,11 @@ const data = [
     "id": 31,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN MEDICAL LABORATORY SCIENCE",
+        "title": "B.Sc. IN MEDICAL LABORATORY SCIENCE",
         "subtitle": "PREPARING HEALTHCARE LABORATORY PROFESSIONALS",
         "background_image": "../Courses/paramedical/Lab/header.avif"
     },
-    "program_name": "Bachelor of Science (B.Sc) in Medical Laboratory Science",
+    "program_name": "B.Sc. in Medical Laboratory Science",
     "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
     "fees": "25,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
@@ -2059,14 +2059,14 @@ const data = [
 
 },
 {
-    "id": 33330,
+    "id": 30,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN ANESTHESIA",
+        "title": "B.Sc. IN ANESTHESIA",
         "subtitle": "PREPARING EMERGENCY MEDICAL PROFESSIONALS",
         "background_image": "../Courses/paramedical/Anasthesia/header.avif"
     },
-    "program_name": "Bachelor of Science (B.Sc) in Anesthesia ",
+    "program_name": "B.Sc. in Anesthesia ",
     "program_description": "B.Sc Anesthesia and Operation Theatre Technology is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. The course prepares students with the professional skills required to assist anesthesiologists during emergencies in operation theatres. The objective is to prepare students for the growing demands in the fields of anesthesia technology and operation theatre management. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Anesthesia and Operation Theatre Technology can explore career opportunities as assistants in operation theatres in both India and abroad in corporate hospitals, medical colleges, and nursing homes.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
@@ -2104,14 +2104,14 @@ const data = [
 
 },
 {
-    "id": 299999,
+    "id": 29,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN OPTOMETRY",
+        "title": "B.Sc. IN OPTOMETRY",
         "subtitle": "VISIONARY HEALTHCARE PROFESSIONALS",
         "background_image": "../Courses/paramedical/Optometry/header.avif"
     },
-    "program_name": "Bachelor of Science (B.Sc) in Optometry",
+    "program_name": "B.Sc. in Optometry",
     "program_description": "B.Sc Optometry is a 3-year undergraduate degree program offered by Swami Vivekanand Paramedical College. It focuses on the science of vision and eye equipment. Students interested in healthcare professions involving examination, diagnosis, treatment, and management of eye diseases can opt for this program. The aim is to teach students about eye equipment such as lenses and spectacles. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has state-of-the-art infrastructure with modern equipment and laboratories, ranked as the best in North India. The paramedical college also boasts the highest placement rate in North India. Graduates of B.Sc Optometry can pursue careers as Opticians, Optometrists, Refractionists, and Ophthalmic Assistants.",
     "fees": "45,000/- INR Per Semester",
     "duration": "4 Years (Semester System)",
@@ -2164,12 +2164,12 @@ const data = [
     "id": 33,
     "course_name": "Paramedical",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN CARDIAC CARE TECHNOLOGY",
+        "title": "B.Sc. IN CARDIAC CARE TECHNOLOGY",
         "subtitle": "CHART YOUR PATH TO SUCCESS IN CARDIAC CARE",
         "background_image": "../Courses/paramedical/Cardiac/header.avif"
     },
-    "program_name": "Bachelor of Science (B.Sc) in Cardiac Care Technology",
-    "program_description": "The Bachelor of Science (B.Sc) in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
+    "program_name": "B.Sc. in Cardiac Care Technology",
+    "program_description": "The B.Sc. in Cardiac Care Technology is an undergraduate program designed to train students in the field of cardiac care and technology. This program equips students with the knowledge and skills required to work in various healthcare settings, particularly in the diagnosis, treatment, and management of cardiovascular diseases. Students enrolled in BSc Cardiac Care Technology gain a comprehensive understanding of the cardiovascular system, cardiac pathologies, and various diagnostic procedures used in assessing heart conditions. They also learn about cardiac pharmacology, electrocardiography, echocardiography, cardiac catheterization, and other advanced cardiac imaging techniques. The curriculum typically includes both theoretical coursework and practical training, enabling students to develop proficiency in conducting tests, analyzing results, and assisting in cardiac procedures. They learn to use sophisticated medical equipment and technology to monitor patients, interpret data, and provide necessary interventions under the guidance of healthcare professionals. Additionally, the program emphasizes patient care and effective communication skills, as cardiac care technologists often interact closely with patients and their families. Students also learn about medical ethics, healthcare laws, and the importance of maintaining a compassionate and professional approach in their work. Upon completion of the BSc Cardiac Care Technology program, graduates can pursue careers as cardiac care technologists, cardiac technicians, or cardiovascular technologists in hospitals, clinics, diagnostic laboratories, and cardiac rehabilitation centers.",
     "fees": "32,500/- INR Per Semester",
     "duration": "4 Years (Semester System)",
     "major_tracks": [
@@ -2225,7 +2225,7 @@ const data = [
         "subtitle": "ELEVATING BUSINESS ACUMEN",
         "background_image": "../Courses/Business/MBA/mba.jpg"
     },
-    "program_name": "MBA",
+    "program_name": "Masters of Business Administration (MBA)",
     "program_description": "MBA stands for Master of Business Administration, which is a graduate degree that focuses on developing the knowledge and skills required to succeed in a business or management career. The MBA degree is one of the most popular and widely recognized graduate degrees globally, and it is designed to provide students with a broad understanding of business and management practices. The MBA program typically covers a range of topics, including accounting, finance, marketing, management, organizational behavior, economics, and operations management. The curriculum may also include specialized courses in areas such as entrepreneurship, international business, healthcare management, or sustainability. An MBA degree can lead to a wide range of career opportunities, including management positions in various industries such as finance, consulting, marketing, healthcare, and technology. It can also provide individuals with the skills and knowledge needed to start their own businesses or pursue entrepreneurial ventures. In summary, an MBA degree is a versatile and valuable credential that can open doors to a wide range of career opportunities and provide individuals with the knowledge and skills needed to succeed in the business world.",
     "fees": "40,000/- INR Per Semester",
     "duration": "2 years",
@@ -2277,13 +2277,13 @@ const data = [
 {
     "id": 22,
     "course_name": "Business Studies",
-    event_type: "BusinessStudies",
+    "event_type": "BusinessStudies",
     "header": {
         "title": "BACHELOR OF BUSINESS ADMINISTRATION",
         "subtitle": "DEVELOPING BUSINESS ACUMEN",
         "background_image": "../Courses/Business/BBA/bba.jpg"
     },
-    "program_name": "BBA",
+    "program_name": "Bachelor of Business Administration (BBA)",
     "program_description": "BBA under SVFTM is a 3-year professional undergraduate program that deals with Business Management. BBA course covers management and business principles and also highlights the importance of internships during the final semester of the course. BBA syllabus aims to impart knowledge through practical experience in the form of case studies, projects, presentations, industrial visits, and interaction with experts from the industry.\n\nAfter doing BBA, depending upon your aptitude, interest, and skill set, you can work in the following areas:\n\n- Entrepreneurship\n- Finance & Accounting Management\n- HR Management\n- Marketing Management\n- Supply Chain Management\n- Tourism Management",
     "fees": "To Be Disclosed",
     "duration": "3 years",
@@ -2401,13 +2401,13 @@ const data = [
 {
     "id": 24,
     "course_name": "Business Studies",
-    event_type: "BusinessStudies",
+   " event_type": "BusinessStudies",
     "header": {
         "title": "MASTER OF COMMERCE",
         "subtitle": "ADVANCING ACCOUNTING EXPERTISE",
         "background_image": "../Courses/Business/commerce/mcom.jpg"
     },
-    "program_name": "M.Com",
+    "program_name": "Master of Commerce (M.Com)",
     "program_description": "M.Com, Master of Commerce, is a postgraduate course in accounting with a duration of 2 years divided into 4 semesters. The main aim of the course is to provide in-depth knowledge to students in advanced accounting and commerce and prepare them for better future prospects. Students opting for M.Com are taught professional skills that help them land better placement opportunities. M.Com graduates can explore careers in the BFSI sector, start a career in teaching as a commerce teacher, or pursue further studies such as a PhD to become college lecturers. M.Com graduates also have numerous corporate job opportunities and government job opportunities.",
     "fees": "15,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -2465,7 +2465,7 @@ const data = [
         "subtitle": "EXPLORING THE WORLD OF COMMERCE",
         "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
     },
-    "program_name": "B.Com",
+    "program_name": "Bachelor of Commerce (B.Com)",
     "program_description": "B.Com, offered by SVFTM, is a 3-year undergraduate program that delves into various aspects of commerce and business. It covers subjects such as accounting, economics, finance, and management. The program emphasizes practical learning through internships, case studies, and projects, preparing students for diverse career opportunities in the fields of commerce, finance, and business management.\n\nUpon completion of B.Com, students can pursue careers in:\n\n- Accounting\n- Finance\n- Banking\n- Business Analysis\n- Marketing\n- Entrepreneurship",
     "fees": "20,000/- INR Per Semester",
     "duration": "3 years",
@@ -2526,7 +2526,7 @@ const data = [
         "subtitle": "EXPLORING THE WORLD OF MATHEMATICAL SCIENCES",
         "background_image": "../Courses/Science/Maths/header.avif"
     },
-    "program_name": "Master of Science (M.Sc.) in Mathematics",
+    "program_name": "M.Sc. in Mathematics",
     "program_description": "Master of Science (M.Sc.) in Mathematics offers a comprehensive study of various branches of mathematics including Pure Mathematics, Applied Mathematics, Mathematical Modeling, and Computational Mathematics. The program is designed to provide students with a deep understanding of mathematical theories, methods, and applications. Expert faculty members guide students through advanced topics and help them develop problem-solving skills. Students have the opportunity to engage in research projects, seminars, and practical applications to explore the diverse applications of mathematics in various fields.",
     "fees": "18,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -2578,7 +2578,7 @@ const data = [
         "subtitle": "EXPLORING THE FRONTIERS OF PHYSICS",
         "background_image": "../Courses/Science/Physics/header.avif"
     },
-    "program_name": "Master of Science (M.Sc.) in Physics",
+    "program_name": "M.Sc. in Physics",
     "program_description": "The Master of Science (M.Sc.) in Physics program is designed to prepare students for a research career in academia or industry by introducing advanced ideas and techniques applicable in various research areas. Emphasis is placed on developing a deep understanding of physics principles and concepts, along with proficiency in experimentation to explore both theoretical and experimental dimensions of physics. The program aims to equip students with high-level theoretical knowledge to tackle complex problems in industrial fields and pursue further academic achievements through research.",
     "fees": "18,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -2630,7 +2630,7 @@ const data = [
         "subtitle": "EXPLORING THE FUNDAMENTALS OF CHEMISTRY",
         "background_image": "../Courses/Science/Chemistry/header.avif"
     },
-    "program_name": "Master of Science (M.Sc.) in Chemistry",
+    "program_name": "M.Sc. in Chemistry",
     "program_description": "Master of Science (M.Sc.) in Chemistry offers a wide range of courses including Inorganic Chemistry, Organic Chemistry, Medicinal Chemistry, Supramolecular Chemistry, etc. Experts from Pure and Applied Chemistry domain will teach the courses, and students will develop a thorough understanding of fundamentals and experimental concepts of Chemistry. There will be opportunity for the students to participate in an extensive and varied seminar programme and gain experience in a large variety of projects.",
     "fees": "18,000/- INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -2677,12 +2677,12 @@ const data = [
     "id": 40,
     "course_name": "Basic Science",
     "header": {
-        "title": "BACHELOR OF SCIENCE (B.Sc) IN NON-MEDICAL",
+        "title": "B.Sc. IN NON-MEDICAL",
         "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
         "background_image": "../Courses/Science/Non-Medical/header.avif"
     },
     "program_name": "B.Sc. in Non-Medical",
-    "program_description": "The Bachelor of Science (B.Sc) (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
+    "program_description": "The B.Sc. (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
     "fees": "15,000/- INR Per Semester",
     "duration": "3 Years",
     "major_tracks": [
@@ -2740,7 +2740,7 @@ const data = [
         "subtitle": "EDUCATING FOR TOMORROW'S LEADERS",
         "background_image": "../Courses/Education/Masters/teaching.avif"
     },
-    "program_name": "Master of Education",
+    "program_name": "Master of Education (M.Ed.)",
     "program_description": "The M.Ed or Master of Education is a 2-year post-graduate educational degree that can be completed within a maximum time span of 4 years. The M.Ed course structure is designed for potential educators and provides in-depth knowledge in the field of education and teaching. The candidates can go for a job as a professor or a teacher in higher-level education after completing a degree in M.Ed. Apart from it, the students can also opt for higher studies after M.Ed which will open more career opportunities for them with high paying jobs.",
     "fees": "27,500 INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -2798,7 +2798,7 @@ const data = [
         "subtitle": "SHAPING FUTURE EDUCATORS",
         "background_image": "../Courses/Education/Bachelor/expertise.avif"
     },
-    "program_name": "Bachelor of Education",
+    "program_name": "Bachelor of Education (B.Ed)",
     "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
     "fees": "32,500 INR Per Semester",
     "duration": "2 Years (Semester System)",
@@ -2913,8 +2913,8 @@ const data = [
         "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
         "background_image": "../Courses/Education/BA/comms.avif"
     },
-    "program_name": "Bachelor of Arts",
-    "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to Bachelor of Science (B.Sc) programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
+    "program_name": "Bachelor of Arts (B.A.)",
+    "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to B.Sc. programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
     "fees": "15,000 INR Per Semester",
     "duration": "3 Years (Semester System)",
     "major_tracks": [
@@ -3512,12 +3512,12 @@ const data = [
         "course_name": "Computer Applications",
         event_type: "Engineering",
         "header": {
-            "title": "Bachelor of Science (B.Sc) in Information Technology",
+            "title": "B.Sc. in Information Technology",
             "subtitle": "BUILDING THE FUTURE OF IT",
             "background_image": "../Courses/ComputerApp/BscIt/data.avif"
         },
         "program_name": "B.Sc Information Technology",
-        "program_description": "B.Sc. IT (Bachelor of Science (B.Sc) in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+        "program_description": "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
         "fees": "20,000 INR per semester",
         "duration": "3 Years (Semester System)",
         "major_tracks": [
