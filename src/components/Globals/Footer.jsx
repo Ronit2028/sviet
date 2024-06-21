@@ -67,6 +67,8 @@ const Footer = () => {
                             <li><Link href="/admissions">Scholarship</Link></li>
                             <li><Link href="/refund-policy">Refund Policy</Link></li>
                             <li><a href="https://play.google.com/store/apps/details?id=com.giindia.www.g5myconnect&hl=en_IN">ERP APP</a></li>
+                            <li><Link href="/privacypolicy">Privacy Policy</Link></li>
+                            <li><Link href="/terms&conditions">Terms & Conditions </Link></li>
                             {/* <li><a href="#">NSS Registration</a></li> */}
                         </ul>
                     </div>
