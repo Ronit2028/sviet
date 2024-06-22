@@ -31,7 +31,7 @@ function TestimonialCard({
             <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'>
                 <Typography
                     color="blue-gray"
-                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto "
+                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto text-justify"
                 >
                     &quot;{title}&quot;
                 </Typography>
@@ -64,7 +64,7 @@ const testimonials = [
     {
         title: "As an international student at SVGOI, I found the faculty to be exceptionally supportive. The campus is vibrant, and the diverse student body made me feel at home. The facilities are top-notch, and I particularly enjoyed the cultural exchange programs.",
         client: "Chinonso Okafor",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "https://sviet.ac.in/wp-content/uploads/2020/07/Tata.jpg",
         studentImage: "https://utfs.io/f/dfd119d6-c31e-4a1a-bc99-7025cc0bd82c-r8134l.jpg"
     },
@@ -78,7 +78,7 @@ const testimonials = [
     {
         title: "The program provided me with the skills and knowledge needed to excel in the field of software development. Highly recommended!",
         client: "Adaeze Chukwu",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "https://sviet.ac.in/wp-content/uploads/2020/07/First-Lady.jpg",
         studentImage: "https://utfs.io/f/979ff15a-0111-4efc-b054-824350b1a676-r8134k.jpg"
     },
@@ -92,7 +92,7 @@ const testimonials = [
     {
         title: "Studying at SVGOI has been an enriching experience. The professors are knowledgeable and approachable, and the practical learning approach helped me gain valuable skills. The campus life is engaging with numerous clubs and activities that cater to various interests.",
         client: "Omolara Adebayo",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "Image URL 5",
         studentImage: "https://utfs.io/f/a8b0ca85-b5f5-43db-a070-bb708ade5307-r8135c.jpg"
     },
@@ -106,7 +106,7 @@ const testimonials = [
     {
         title: "The learning environment at SVGOI is outstanding. The exposure to different teaching methodologies and the chance to work on real-world projects have been invaluable. The friendships I've formed and the support from the faculty have made my experience memorable.",
         client: "Funmilayo Adewale",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "Image URL 7",
         studentImage: "https://utfs.io/f/029f4ebc-cda7-45f7-ba22-7defaf35ab44-r8135a.jpg"
     },
@@ -120,7 +120,7 @@ const testimonials = [
     {
         title: "SVGOI has a wonderful community that embraces diversity. The academic programs are challenging but rewarding, and the support system for international students is excellent. The campus is safe and has everything you need for a comfortable stay.",
         client: "Ifunanya Okeke",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "Image URL 9",
         studentImage: "https://utfs.io/f/a8b0ca85-b5f5-43db-a070-bb708ade5307-r8135c.jpg"
     },
@@ -134,7 +134,7 @@ const testimonials = [
     {
         title: "SVGOI has provided me with a comprehensive education that combines both practical and theoretical knowledge. The faculty's dedication to student success is truly commendable, always going the extra mile to ensure we understand the material. The campus itself is modern and well-equipped, providing a conducive environment for learning. I have also benefited greatly from the various workshops and seminars that are regularly organized. These have expanded my horizons and enhanced my academic experience.",
         client: "Amina Balogun",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "Image URL 11",
         studentImage: "https://utfs.io/f/979ff15a-0111-4efc-b054-824350b1a676-r8134k.jpg"
     },
@@ -148,7 +148,7 @@ const testimonials = [
     {
         title: "The diverse student body and inclusive campus culture at SVGOI have made my educational journey enriching and enjoyable. I have had the opportunity to meet and collaborate with students from various backgrounds, which has broadened my perspective. The university organizes numerous cultural events and activities, fostering a sense of community and belonging. The learning environment is stimulating and encourages open dialogue and exchange of ideas. This diversity has been a key factor in my positive experience.",
         client: "Olufemi Adekunle",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineerr",
         img: "Image URL 13",
         studentImage: "https://utfs.io/f/dafb8398-8de1-43aa-b68d-bb62eb1f2c22-r8134h.jpg"
     },
@@ -162,7 +162,7 @@ const testimonials = [
     {
         title: "The faculty at SVGOI are not only experts in their fields but also approachable and supportive. This has made my academic experience very positive and encouraging. They are always willing to provide additional help outside of class hours and are genuinely interested in our success. The personalized attention and mentoring have been invaluable. Their passion for teaching and commitment to student development are evident in their engaging lectures and interactive sessions.",
         client: "Bamidele Akinola",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "Image URL 15",
         studentImage: "https://utfs.io/f/c745024d-60ea-4233-900b-66baf46ad67e-r8134o.jpg"
     },
@@ -176,7 +176,7 @@ const testimonials = [
     {
         title: "SVGOI's curriculum is designed to be both challenging and flexible, allowing me to pursue my academic interests in depth. The courses are well-structured, providing a solid foundation in my field of study. I have had the opportunity to take elective courses that align with my career goals. The academic advisors are always available to guide us in making informed decisions. This flexibility has enabled me to tailor my education to suit my aspirations.",
         client: "Tobechukwu Okeke",
-        clientInfo: "Software Developer",
+        clientInfo: "Software Engineer",
         img: "Image URL 17",
         studentImage: "https://utfs.io/f/9cd25a39-4cb5-415c-a454-449dfeb0052b-r8135d.jpg"
     },
