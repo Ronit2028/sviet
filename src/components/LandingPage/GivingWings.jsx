@@ -102,6 +102,8 @@ const GivingWings = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
+        autoplay: true, // Add this line
+        autoplaySpeed: 3000, // Add this line (speed in milliseconds)
         responsive: [
             {
                 breakpoint: 1024,
@@ -122,11 +124,14 @@ const GivingWings = () => {
             }
         ]
     };
+    
     const settings2 = {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
+        autoplay: true, // Add this line
+        autoplaySpeed: 3000, // Add this line (speed in milliseconds)
         responsive: [
             {
                 breakpoint: 1024,
@@ -147,6 +152,7 @@ const GivingWings = () => {
             }
         ]
     };
+    
 
     return (
         <div className='py-6 h-auto lg:h-[120vh] flex items-center bg-gray-100'>
@@ -182,7 +188,7 @@ const GivingWings = () => {
                                     <div className="border rounded-md h-[50vh] " style={{ backgroundImage: `url(${info.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                                         <div className="w-full h-full bg-[#00000048] flex flex-col justify-between text-white p-5 ">
                                             <h2 className="text-xl font-semibold">{info.category}</h2>
-                                            <p className="mt-2 text-lg font-semibold">{info.description}</p>
+                                            <p className="mt-2 text-lg font-semibold ">{info.description}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -260,7 +266,7 @@ const GivingWings = () => {
                                         <div className=''>
                                             <h2 className="text-xl font-semibold">{info.company}</h2>
                                             <p className='text-sm font-medium pt-3'>{info.date}</p>
-                                            <p className="mt-2 text-xs">{info.details}</p>
+                                            <p className="mt-2 text-xs text-justify">{info.details}</p>
                                         </div>
                                         <div>
                                             <button className=' text-[#fea700] font-medium rounded-sm flex items-center gap-1'>Know More <ChevronDoubleRightIcon className='h-4 w-4 font-bold' /></button>

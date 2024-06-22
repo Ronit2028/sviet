@@ -138,7 +138,7 @@ const IndustrialExposure = () => {
                                     <div className='bg-[#00000099]  p-6 text-white flex flex-col justify-end h-full'>
                                         <div className="">
                                             <h3 className='text-2xl font-meium py-4'>{reason.title}</h3>
-                                            <p>{reason.description}</p>
+                                            <p className='text-justify'>{reason.description}</p>
                                         </div>
                                     </div>
                                 </div>

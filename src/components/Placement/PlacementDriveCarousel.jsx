@@ -147,7 +147,7 @@ const PlacementDriveCarousel = () => {
                                                 <p className="text-lg md:text-xl font-semibold mb-3">
                                                     {event.name}
                                                 </p>
-                                                <p className='text-sm md:text-md pb-6 line-clamp-4'>
+                                                <p className='text-sm md:text-md pb-6 line-clamp-4 text-justify'>
                                                     {event.overview}
                                                 </p>
                                             </div>
