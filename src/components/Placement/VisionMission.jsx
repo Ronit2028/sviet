@@ -72,8 +72,8 @@ const VisionMission = () => {
                                         <i className={reason.iconClass}></i>
                                     </div>
                                     <div className="ml-3">
-                                        <h3 className='text-2xl font-meium py-4'>{reason.title}</h3>
-                                        <p>{reason.description}</p>
+                                        <h3 className='text-2xl font-meium py-4 '>{reason.title}</h3>
+                                        <p className='text-justify'>{reason.description}</p>
                                     </div>
                                 </div>
                             </div>
