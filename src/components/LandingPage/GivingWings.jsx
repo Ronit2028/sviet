@@ -155,7 +155,7 @@ const GivingWings = () => {
     
 
     return (
-        <div className='py-6 h-auto lg:h-[120vh] flex items-center bg-gray-100'>
+        <div className='py-8 lg:py-8 h-auto lg:h-[120vh] flex items-center bg-gray-100'>
             <div className='w-10/12 mx-auto'>
                 <div className='mt-7'>
                     <Typography

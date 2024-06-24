@@ -135,7 +135,7 @@ const PlacementDriveCarousel = () => {
             <div className="w-full h-auto md:h-[100vh] flex justify-center items-center bg-[#00112deb] text-white py-10 overflow-hidden">
                 <div className="w-10/12 py-6 flex flex-col flex-wrap-reverse md:flex-row">
                     <div className="w-full lg:w-2/3">
-                        <Slider {...settings} className="w-full py-8 md:py-12]">
+                        <Slider {...settings} className="w-full py-8 md:py-12">
                             {events.map((event, index) => (
                                 <div key={index} className="w-[95%] mx-auto px-2 h-full ">
                                     <div className="event-card rounded-md shadow-md bg-white text-[#00112d] h-[60vh]  flex flex-col justify-between">

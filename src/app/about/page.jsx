@@ -18,11 +18,12 @@ const page = () => {
       <AboutUs />
       <CampusExpirience />
       <MissionVission />
+      < ManagementDesk />
       {/* <Charts /> */}
       {/* <LeadingCompanies /> */}
       {/* <MulitilpleCharts /> */}
       <CulturalDiversity />
-      < ManagementDesk />
+      
       <Infra />
     </main>
   )

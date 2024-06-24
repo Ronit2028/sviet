@@ -21,9 +21,9 @@ const page = () => {
       <Department />
       <VisionMission />
       {/* <EventCarousel /> */}
-      <PlacementDriveCarousel/>
       <Charts />
      <MulitilpleCharts/>
+     <PlacementDriveCarousel/>
       <IndustrailExposure/>
       <Gallery/>
       <Testimonials/>

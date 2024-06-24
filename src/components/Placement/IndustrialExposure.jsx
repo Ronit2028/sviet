@@ -120,7 +120,7 @@ const IndustrialExposure = () => {
     };
 
     return (
-        <div className='text-white py-12'>
+        <div className='text-white py-4'>
             <div className="w-full h-full bg-[#00112d] py-12">
                 <div className="w-10/12 mx-auto py-12">
                     <p className='text-3xl font-medium pb-3'>
