@@ -169,7 +169,7 @@ const PlacementDriveCarousel = () => {
                         <p className="text-xl pb-4 font-semibold">
                         Stepping into Your Future with Confidence!
                         </p>
-                        <p className="mb-4">
+                        <p className="mb-4 text-justify">
                         Our placement drives open doors to top-tier companies, providing students with invaluable opportunities to kickstart their careers and achieve professional success.
                         </p>
                         {/* <button className='bg-[#fea700] text-white font-lg p-2 w-fit mt-3 rounded-md'>Know More</button> */}
