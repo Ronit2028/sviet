@@ -78,7 +78,7 @@ const EventCarousel = () => {
                                                 <p className="text-lg md:text-xl font-semibold mb-3">
                                                     {event.name}
                                                 </p>
-                                                <p className='text-sm md:text-md pb-6 line-clamp-4'>
+                                                <p className='text-sm md:text-md pb-6 line-clamp-4 text-justify'>
                                                     {event.overview}
                                                 </p>
                                             </div>
@@ -100,7 +100,7 @@ const EventCarousel = () => {
                         <p className="text-xl pb-4 font-semibold">
                             Immerse Yourself in a Vibrant Tapestry of Campus Life, Where Every Moment Counts!
                         </p>
-                        <p className="mb-4">
+                        <p className="mb-4 text-justify">
                             Our events showcase the spirit of innovation, collaboration, and excellence, nurturing talents
                             and fostering growth in a dynamic learning environment.
                         </p>

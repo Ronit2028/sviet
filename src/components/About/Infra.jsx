@@ -34,7 +34,7 @@ const Infra = () => {
     return (
         <section className="text-gray-600 body-font h-full">
             <div className="container px-5 py-24 mx-auto">
-                <div className="flex flex-wrap w-full mb-20">
+                <div className="flex flex-col flex-wrap w-full mb-12 px-6">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <div className="flex mb-5 items-center">
                             <span className="border-l-2 border-[#ff9602] h-6 mr-3"></span>
@@ -42,7 +42,7 @@ const Infra = () => {
                         </div>
                         <h1 className="text-3xl font-semibold mb-8">A perfect blend of <span className='text-[#ff9602] text-4xl py-3 block'>Nature and Architecture</span></h1>
                     </div>
-                    <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">The SVGOI Campus stands as a beacon of intellectual enrichment, hosting a diverse cosmopolitan community of over 20,000 students from across the globe. Together, they immerse themselves in the vibrant academic tapestry that SVGOI offers. Embark on this journey today and embrace the dynamic atmosphere awaiting you</p>
+                    <p className=" w-full leading-relaxed text-gray-500 text-justify ">The SVGOI Campus stands as a beacon of intellectual enrichment, hosting a diverse cosmopolitan community of over 20,000 students from across the globe. Together, they immerse themselves in the vibrant academic tapestry that SVGOI offers. Embark on this journey today and embrace the dynamic atmosphere awaiting you</p>
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {infraData.map((item, index) => (
