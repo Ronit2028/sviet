@@ -3,6 +3,7 @@ import React from 'react'
 import success from "@/assets/LandingPage/success.jpg"
 
 import Link from 'next/link';
+import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid';
 
 const ChartYourPath = () => {
   const chartYourPathContent = [
@@ -25,11 +26,11 @@ const ChartYourPath = () => {
   ];
   return (
     <div style={{backgroundImage:`url(${success.src})`, backgroundSize:"cover", backgroundPosition:"center center", backgroundAttachment:"fixed"}}>
-      <div className='bg-[#00112ded] h-auto lg:h-[100vh] text-white py-10 lg:mt-[-200px] md:mt-auto flex items-center'>
+      <div className='bg-[#00112ded] h-auto lg:h-[100vh] text-white py-10 lg:mt-[-160px] md:mt-auto flex items-center'>
         <div className="w-10/12 mx-auto ">
-          <p className='text-4xl font-semibold'>
+          {/* <p className='text-4xl font-semibold'>
             Be <span className='text-[#fea700]'>Future Ready</span>
-          </p>
+          </p> */}
           <div className='flex flex-wrap justify-between'>
             <p className='text-4xl mt-2 font-semibold'>
 
@@ -54,8 +55,21 @@ const ChartYourPath = () => {
                 <p className='text-sm mb-5 text-justify'>
                   {data.description}
                 </p>
+                
               </div>
             ))}
+            <div>
+            <button className='bg-[#fea700] text-white text-xl px-2 ml-12  py-1 rounded-md h-[40%] w-[73%] '>Apply Now</button>
+            <p className='text-2xl font-semibold ml-12 mt-4 flex'>
+            Why choose <span className='text-[#fea700] pl-2'>SVGOI </span>
+            <ChevronDoubleRightIcon className='h-6 w-6 font-bold mt-1 ml-2 text-[#fea700]' />
+          </p>
+          
+            </div>
+            <Link href="/advantages">
+            <button className=' bg-gray-100 text-[#fea700]  text-xl px-2 ml-12 py-1  rounded-md h-[40%] w-[77%] hover:bg-white hover:font-medium transition duration-400 ease-in-out'>Explore More</button>
+            </Link>
+            
           </div>
         </div>
       </div>

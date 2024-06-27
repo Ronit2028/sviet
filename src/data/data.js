@@ -2018,7 +2018,7 @@ const data = [
     "program_name": "B.Sc. in Medical Laboratory Science",
     "program_description": "B.Sc Medical Laboratory Science is a 3-year undergraduate program in healthcare professional course. The aim is to teach students about Lab science and make them professionals in the field. Working as a lab scientist requires professional skills, and our research-based program provides extensive training to students in all required skills. This course covers areas of diagnosis, treatment, and prevention of disease through the use of Laboratory science. Experienced faculty members impart professional skills to students to work proficiently in challenging situations. The college has established world-class infrastructure equipped with modern equipment and laboratories, ranked as the best in North India. The paramedical college is also ranked as number one in placement in North India. Graduates of B.Sc Medical Laboratory Science can work as professional laboratory scientists in medical colleges/hospitals, and can also become managerial supervisors or teachers.",
     "fees": "25,000/- INR Per Semester",
-    "duration": "4 Years (Semester System)",
+    "duration": "3 Years (Semester System)",
     "major_tracks": [
         "Laboratory Scientist",
         "Managerial Supervisor",
@@ -2461,12 +2461,12 @@ const data = [
     "course_name": "Business Studies",
     "event_type": "BusinessStudies",
     "header": {
-        "title": "BACHELOR OF COMMERCE",
+        "title": "BACHELOR OF COMMERCE (HONOURS)",
         "subtitle": "EXPLORING THE WORLD OF COMMERCE",
         "background_image": "../Courses/Business/BBA/bbaHeader.jpg"
     },
-    "program_name": "Bachelor of Commerce (B.Com)",
-    "program_description": "B.Com, offered by SVFTM, is a 3-year undergraduate program that delves into various aspects of commerce and business. It covers subjects such as accounting, economics, finance, and management. The program emphasizes practical learning through internships, case studies, and projects, preparing students for diverse career opportunities in the fields of commerce, finance, and business management.\n\nUpon completion of B.Com, students can pursue careers in:\n\n- Accounting\n- Finance\n- Banking\n- Business Analysis\n- Marketing\n- Entrepreneurship",
+    "program_name": "Bachelor of Commerce (B.Com) Honours",
+    "program_description": "B.Com Honours, offered by SVFTM, is a 3-year undergraduate program that delves deeper into various aspects of commerce and business. It covers advanced subjects such as accounting, economics, finance, and management. The program emphasizes practical learning through internships, case studies, and projects, preparing students for diverse career opportunities in the fields of commerce, finance, and business management.\n\nUpon completion of B.Com Honours, students can pursue careers in:\n\n- Accounting\n- Finance\n- Banking\n- Business Analysis\n- Marketing\n- Entrepreneurship",
     "fees": "20,000/- INR Per Semester",
     "duration": "3 years",
     "major_tracks": [
@@ -2502,21 +2502,22 @@ const data = [
     "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
     "program_highlights": [
         "Comprehensive undergraduate program in commerce",
-        "Covers accounting, finance, economics, and management",
+        "Covers advanced accounting, finance, economics, and management",
         "Emphasizes practical learning through internships and projects",
         "Prepares students for careers in accounting, finance, banking, marketing, and entrepreneurship",
         "Opportunities to work in various industries and sectors",
         "Three-year duration with a focus on practical learning"
     ],
     "affiliation": {
-        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "affiliated_to": "Affiliated To Punjabi University",
         "approved_by": "Approved by AICTE"
     },
     "eligibility_criteria": {
-        "eligibility": "To be eligible for the B.Com program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
+        "eligibility": "To be eligible for the B.Com Honours program, candidates must have completed their 10+2 or equivalent examination from a recognized board."
     },
     "labs": []
 },
+
    // BASIC SCIENCES
    {
     "id": 38,

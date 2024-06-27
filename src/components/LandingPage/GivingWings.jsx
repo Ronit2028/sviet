@@ -54,44 +54,52 @@ const GivingWings = () => {
 
     const placementDriveInformation = [
         {
-            company: "IDS INFOTECH LTD",
-            date: "Feb 4, 2024",
-            details: "This is the information for B.Pharmacy 2024 passing out students that IDS INFOTECH LTD is conducting a Placement Drive. All the eligible students can register themselves up to 29.01.2024. Date of placement drive is 7th Feb. 2024 at SVIET Campus."
+            "company": "IDS INFOTECH LTD",
+            "date": "Feb 4, 2024",
+            "details": "This is the information for B.Pharmacy 2024 passing out students that IDS INFOTECH LTD is conducting a Placement Drive.  "
+            //Date of placement drive is 7th Feb. 2024 at SVIET Campus. All the eligible students can register themselves up to 29.01.2024.
         },
         {
-            company: "Aimil Ayouthveda ltd",
-            date: "Feb 4, 2024",
-            details: "This is the information for B.Pharmacy 2024 passing out students that Aimil Ayouthveda ltd is conducting a Placement Drive. Date of placement drive is 8th Feb. 2024 at SVIET Campus."
+            "company": "Aimil Ayouthveda ltd",
+            "date": "Feb 4, 2024",
+            "details": "This is the information for B.Pharmacy 2024 passing out students that Aimil Ayouthveda ltd is conducting a Placement Drive."
+            // Date of placement drive is 8th Feb. 2024 at SVIET Campus.
         },
         {
             "company": "Ultratech",
             "date": "Confirm after registrations",
-            "details": "Ultratech is hiring BBA, MBA 2024 & 2025 students for Vendor management and Purchase positions in Rajpura. Interview: PI Round, HR Round. Salary: 20k/month. Register by 6th May 2024. Offline mode."
+            "details": "Ultratech is hiring BBA, MBA 2024 & 2025 students for Vendor management and Purchase positions in Rajpura. Interview: PI Round, HR Round."
+            // Salary: 20k/month. Register by 6th May 2024. Offline mode.
         },
         {
             "company": "McKinley Rice",
             "date": "Confirm after registrations",
-            "details": "McKinley Rice is hiring for Sales Intern, Business Development Executive, MERN Developer, and Social Media Executive roles in Noida. Interview: Preliminary Assessment, Core Assessment, HR Round. Salary: 6 LPA. Register by 31st May 2024. Online mode."
+            "details": "McKinley Rice is hiring for Sales Intern, Business Development Executive, MERN Developer, and Social Media Executive roles in Noida. "
+            //Interview: Preliminary Assessment, Core Assessment, HR Round. Salary: 6 LPA. Register by 31st May 2024. Online mode.
         },
         {
             "company": "Shinedezign Infonet Pvt Ltd",
             "date": "Confirm after registration",
-            "details": "Shinedezign Infonet is hiring for Content Writer, SEO, QA Fresher’s in Mohali. Interview: Online test, Personal Interview, HR Round. Salary: Stipend 6 months: 10k/month, then up to 20-35k gross. Register by 3rd June 2024. Online mode."
+            "details": "Shinedezign Infonet is hiring for Content Writer, SEO, QA Fresher’s in Mohali. Interview: Online test, Personal Interview, HR Round. "
+            //Salary: Stipend 6 months: 10k/month, then up to 20-35k gross. Register by 3rd June 2024. Online mode.
         },
         {
             "company": "Penthara Technologies",
             "date": "Confirm after registrations",
-            "details": "Penthara Technologies is hiring for Cloud Administrator Intern, Project Management Intern, Graphic Designer Intern roles in Mohali. Interview: Online test, PI Round. Salary: 15k to 25k/month during internship, then 4 LPA to 6.6 LPA. Register by 4th June 2024. Online mode."
+            "details": "Penthara Technologies is hiring for Cloud Administrator Intern, Project Management Intern, Graphic Designer Intern roles in Mohali. "
+            //Interview: Online test, PI Round. Salary: 15k to 25k/month during internship, then 4 LPA to 6.6 LPA. Register by 4th June 2024. Online mode.
         },
         {
             "company": "Ellocent Labs IT Solutions Pvt. Ltd.",
             "date": "Confirm after registrations",
-            "details": "Ellocent Labs is conducting a Placement Drive for B. Tech CSE 2024 and B. Tech CSE (Super 60) 2025 students. Job location: Mohali. Positions: Web Developer, Business Development Executive, Content Writers. Interview: Written Test, One to One Interview. Salary: Up to 15k/month during 3-month training, then up to 3 LPA. Register by 5th May 2024. Offline mode. 18-month bond required."
+            "details": "Ellocent Labs is conducting a Placement Drive for B. Tech CSE 2024 and B. Tech CSE (Super 60) 2025 students. Job location: Mohali. "
+            //Positions: Web Developer, Business Development Executive, Content Writers. Interview: Written Test, One to One Interview. Salary: Up to 15k/month during 3-month training, then up to 3 LPA. Register by 5th May 2024. Offline mode. 18-month bond required.
         },
         {
             "company": "rtCamp",
             "date": "20th May 2024 onwards",
-            "details": "rtCamp is conducting a Placement Drive for B. Tech CSE, MCA, BCA, MBA (2024 & 2025). Positions: Software Engineer (Trainee), Business Development Executive, Technical Project Coordinator. Job: Work from home. Salary: 50k/month for 6 months, then 12-18 LPA. Register by 4th May 2024. Perks: MacBook, health insurance, work from anywhere. Selection: Quiz, Assignment, Interview."
+            "details": "rtCamp is conducting a Placement Drive for B. Tech CSE, MCA, BCA, MBA (2024 & 2025). Positions: Software Engineer (Trainee), Business Development Executive, Technical Project Coordinator. "
+            //Job: Work from home. Salary: 50k/month for 6 months, then 12-18 LPA. Register by 4th May 2024. Perks: MacBook, health insurance, work from anywhere. Selection: Quiz, Assignment, Interview.
         }
     ];
 
@@ -266,7 +274,7 @@ const GivingWings = () => {
                                         <div className=''>
                                             <h2 className="text-xl font-semibold">{info.company}</h2>
                                             <p className='text-sm font-medium pt-3'>{info.date}</p>
-                                            <p className="mt-2 text-xs text-justify">{info.details}</p>
+                                            <p className="mt-2 text-xs text-justify " >{info.details}</p>
                                         </div>
                                         <div>
                                             <button className=' text-[#fea700] font-medium rounded-sm flex items-center gap-1'>Know More <ChevronDoubleRightIcon className='h-4 w-4 font-bold' /></button>
