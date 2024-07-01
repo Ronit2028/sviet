@@ -2045,7 +2045,7 @@ const data = [
         "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 45%. For reserved category candidates, a minimum of 40% in Physics, Chemistry, and Mathematics, or medical with Mathematics with at least 40% is required."
     },
     "affiliation": {
-        "affiliated_to": "Affiliated To Swami Vivekanand Paramedical College",
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
         "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
