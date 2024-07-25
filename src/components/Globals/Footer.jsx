@@ -16,6 +16,7 @@ const Footer = () => {
                         <div className="address">
                             <div className="locate mb-4 text-sm font-extralight">- LOCATE US</div>
                             <div className="uni-name text-lg mt-5 mb-4">Swami Vivekanand Institute of Engineering and Technology</div>
+                            <div className="uni-name text-lg mt-5 mb-4">Promoted By : Raghunath Rai Memorial Trust</div>
                             <div className="uni-address text-sm font-light mb-2">Village- Ramnagar Near Banur, Tehsil- Rajpura, District- Patiala</div>
                         </div>
                         <div className="uni-contact ext-sm font-light mb-2">
