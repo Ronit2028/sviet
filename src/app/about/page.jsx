@@ -1,7 +1,7 @@
 import React from 'react'
-import Charts from '../../components/About/Charts';
-import MulitilpleCharts from '../../components/About/MulitipleCharts'
-import LeadingCompanies from '../../components/About/LeadingCompanies'
+// import Charts from '../../components/About/Charts';
+// import MulitilpleCharts from '../../components/About/MulitipleCharts'
+// import LeadingCompanies from '../../components/About/LeadingCompanies'
 import CulturalDiversity from '../../components/About/CulturalDiversity'
 import Infra from '../../components/About/Infra'
 import AboutUs from '../../components/About/AboutUs'
@@ -18,11 +18,12 @@ const page = () => {
       <AboutUs />
       <CampusExpirience />
       <MissionVission />
-      <Charts />
-      <LeadingCompanies />
-      <MulitilpleCharts />
-      <CulturalDiversity />
       < ManagementDesk />
+      {/* <Charts /> */}
+      {/* <LeadingCompanies /> */}
+      {/* <MulitilpleCharts /> */}
+      <CulturalDiversity />
+      
       <Infra />
     </main>
   )

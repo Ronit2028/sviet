@@ -105,7 +105,7 @@ const Carousel = () => {
                     </div>
                 ))}
             </Slider>
-            <div className="w-11/12 mx-auto">
+            {/* <div className="w-11/12 mx-auto">
             <h2 className="text-2xl mt-10 font-semibold mb-4">Contact Us :</h2>
             <div className="w-full  flex gap-3 items-center">
                 <div className="flex items-center mb-2">
@@ -117,7 +117,7 @@ const Carousel = () => {
                     <a href="mailto:Dia@sviet.ac.in" className="text-md md:text-lg">Dia@sviet.ac.in</a>
                 </div>
             </div>
-            </div>
+            </div> */}
         </div>
     );
 };

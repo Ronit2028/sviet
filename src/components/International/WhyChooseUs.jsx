@@ -57,7 +57,7 @@ const WhyChooseUs = () => {
     return (
         <div className='text-white'>
             <div className="w-full h-full bg-[#00112d] py-12">
-                <div className="w-10/12 mx-auto py-12">
+                <div className="w-10/12 mx-auto py-12 flex flex-col  ">
                     <p className='text-3xl font-medium pb-3'>
                         Why Choose Us
                     </p>
@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
 
                     {/* React Slick Carousel */}
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 py-12 ">
                         {reasons.map((reason, index) => (
                             <div key={index} className='w-full flex p-3'>
                                 <div className="bg-white flex items-center h-full rounded-md text-[#00112d] p-8 w-full">
@@ -83,11 +83,11 @@ const WhyChooseUs = () => {
                         ))}
                     </div>
 
-                    <div className='flex justify-end gap-2'>
+                    {/* <div className='flex justify-end gap-2'>
                         <button className='bg-[#fea700] h-7 w-7 rounded-md'><i className='fa fa-arrow-left'></i></button>
                         <button className='bg-[#fea700] h-7 w-7 rounded-md'><i className='fa fa-arrow-right'></i></button>
 
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@ const SVIETinMedia = () => {
                     Latest News and Insights
                 </p>
 
-                <p className='text-md text-gray-800 mt-3'>
+                <p className='text-md text-gray-800 mt-3 text-justify'>
                     Stay updated with our dynamic campus life, groundbreaking research endeavors, student achievements, and collaborations with industry leaders. Whether it's a campus event, academic breakthrough, or student success story, our media section captures the essence of SVIET's journey towards excellence.
                 </p>
                 <button className='text-lg text-white rounded-md bg-[#fea700] w-fit p-2 mt-5'>Know More</button>

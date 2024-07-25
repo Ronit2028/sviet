@@ -14,7 +14,7 @@ const Page = ({ params }) => {
             programs: {
                 "M.Tech": {
                     "specializations": [
-                        "Computer Science Engineering",
+                        "Computer Science Engineering ",
                         "Electronics & Communications Engineering",
                         "Mechanical Engineering"
                     ]

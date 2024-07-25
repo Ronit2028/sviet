@@ -49,7 +49,7 @@ const PlacementOverview = () => {
                             <p className="text-4xl mb-6 font-semibold">
                                 Placement Overview
                             </p>
-                            <p className="text-sm my-6">
+                            <p className="text-sm my-6 text-justify">
                                 Under the guidance of our trained faculty and with the support of our alumni network from different parts of the globe, we have been supplementing the careers of students. Be it preparation for government & defense services, getting a dream job at MNC’s, or starting up your own venture, SVGOI gives you the right direction towards a successful career track.
                             </p>
                         </div>

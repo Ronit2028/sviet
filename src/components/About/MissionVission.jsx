@@ -58,7 +58,7 @@ const MissionVission = () => {
             <h1 className="text-lg font-bold">OUR PHILOSPHY</h1>
           </div>
           <h1 className="text-lg md:text-3xl font-semibold mb-8  ">Our principles and   <span className='text-[#016db6] text-4xl md:text-7xl md:py-3 block'> convictions</span></h1>
-          <p>To become a leading global educational institution, SVGOI is committed to revolutionizing education, nurturing luminaries and innovators, and advancing knowledge for society and industry. Our goal is to create extraordinary talent across various disciplines, shaping the leaders of tomorrow.</p>
+          <p className='text-justify'>To become a leading global educational institution, SVGOI is committed to revolutionizing education, nurturing luminaries and innovators, and advancing knowledge for society and industry. Our goal is to create extraordinary talent across various disciplines, shaping the leaders of tomorrow.</p>
         </div>
         <div className="w-1/2 h-96 hidden md:block"> <Image className='' src={img} /></div>
       </div>

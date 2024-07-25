@@ -30,7 +30,7 @@ function TestimonialCard({
             <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'>
                 <Typography
                     color="blue-gray"
-                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto"
+                    className="lg:mb-20 mb-4 text-md lg:text-xl font-bold my-auto text-justify"
                 >
                     &quot;{title}&quot;
                 </Typography>
