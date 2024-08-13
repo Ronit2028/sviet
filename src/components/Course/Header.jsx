@@ -17,7 +17,7 @@ const Header = ({ courseName, backgroundImage, title, subTitle }) => {
                     <p className='text-md w-1/2 border-l-4 border-[#fea700] pl-2'>
                         {subTitle}
                     </p>
-                    <Link href="https://www.admission.sviet.ac.in">
+                    <Link href="https://admission.sviet.ac.in/">
                         <button className='bg-[#fea700] text-white px-2 py-1'>Apply Now</button>
                     </Link>
                 </div>
