@@ -103,7 +103,7 @@
 // };
 
 // export default Gallery;
-"use client"
+"use client";
 import React from "react";
 import styled, { keyframes, css } from "styled-components";
 
@@ -179,33 +179,43 @@ const AppContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 768px) {
+    height: 80vh;
+  }
 `;
 
 const Wrapper = styled.div`
-  width: 10/12;
+  width: 80%;
   height: fit-content;
 
   display: flex;
-  align-items: left;
+  align-items: flex-start;
   justify-content: center;
   flex-direction: column;
 `;
 
 const Text = styled.div`
-  
   margin-bottom: 10px;
   color: black;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
 `;
 
 const Note = styled.div`
- 
   margin-bottom: 40px;
   color: black;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 const Marquee = styled.div`
   display: flex;
-  width: 1200px;
+  width: 100%;
   overflow: hidden;
   user-select: none;
 
@@ -216,6 +226,16 @@ const Marquee = styled.div`
     hsl(0 0% 0% / 1) 90%,
     hsl(0 0% 0% / 0)
   );
+
+  @media (max-width: 768px) {
+    mask-image: linear-gradient(
+      to right,
+      hsl(0 0% 0% / 0),
+      hsl(0 0% 0% / 1) 20%,
+      hsl(0 0% 0% / 1) 80%,
+      hsl(0 0% 0% / 0)
+    );
+  }
 `;
 
 const scrollX = keyframes`
@@ -252,6 +272,11 @@ const ImageGroup = styled.div`
   place-items: center;
   width: clamp(10rem, 1rem + 40vmin, 30rem);
   padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10);
+
+  @media (max-width: 768px) {
+    width: clamp(8rem, 1rem + 20vmin, 15rem);
+    padding: calc(clamp(8rem, 1rem + 20vmin, 15rem) / 10);
+  }
 `;
 
 const Image = styled.img`
@@ -262,4 +287,8 @@ const Image = styled.img`
   aspect-ratio: 16/9;
   padding: 5px 20px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  @media (max-width: 768px) {
+    padding: 3px 10px;
+  }
 `;

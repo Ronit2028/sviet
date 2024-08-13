@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react'
 import Header from "@/components/LandingPage/Header"
 import GivingWings from "@/components/LandingPage/GivingWings"
 import PlacementOverview from "@/components/LandingPage/PlacementOverview"
+import Placement from '@/components/Placement/Placement';
 import Unlock from "@/components/LandingPage/Unlock"
 import ChartYourPath from "@/components/LandingPage/ChartYourPath"
 import SVIETinMedia from "@/components/LandingPage/SVIETinMedia"
@@ -51,7 +52,8 @@ export default function Home() {
         </div>
       )}
       <GivingWings />
-      <PlacementOverview />
+      {/* <PlacementOverview /> */}
+      <Placement />
       <Unlock />
       <ChartYourPath />
       <SVIETinMedia />

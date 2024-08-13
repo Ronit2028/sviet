@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Department = () => {
     return (
-        <div className='py-12 w-10/12 mx-auto'>
+        <div className='py-12 w-10/12 mx-auto lg:mt-[-120px]'>
 
             <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-8 md:gap-4 gap-3 py-12'>
                 <div className='flex flex-col justify-center'>

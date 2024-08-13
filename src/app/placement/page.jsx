@@ -12,12 +12,14 @@ import Testimonials from '@/components/LandingPage/Testimonials'
 import MulitilpleCharts from '../../components/About/MulitipleCharts'
 import PlacementDriveCarousel from '@/components/Placement/PlacementDriveCarousel'
 import Charts from '../../components/About/Charts';
+import Placement from '@/components/Placement/Placement';
 const page = () => {
   return (
     <div>
       <Header />
       <Overview />
-      <PlacementOverview />
+      {/* <PlacementOverview /> */}
+      <Placement/>
       <Department />
       <VisionMission />
       {/* <EventCarousel /> */}
