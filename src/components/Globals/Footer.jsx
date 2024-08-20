@@ -52,7 +52,7 @@ const Footer = () => {
                             {/* <li><Link href="/about">Career at SVGOI</Link></li> */}
                             {/* <li><Link href="/about">Recognitions Approvals</Link></li> */}
                             {/* <li><a href="#">Video Gallery</a></li> */}
-                            <li><a href="https://drive.google.com/drive/folders/1Z5x76AQUJEdBp1o-rH4cHMYg3coY1lDu">Photo Gallery</a></li>
+                            <li><a href="/gallery">Photo Gallery</a></li>
                             <li><Link href="/contact-us">Grievances/Enquiry</Link></li>
                             <li><a href="https://drive.google.com/drive/folders/1zn_0Wid35r5DyfnCOsxcTrd0ZcZJ2FP1">Final Year 2023 Group Pictures</a></li>
                             <li><a href="https://www.sviet.org.in">NAAC</a></li>
