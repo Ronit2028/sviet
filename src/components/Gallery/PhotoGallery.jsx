@@ -142,45 +142,24 @@ const PhotoGallery = ({ type }) => {
             description: "Convocation 14 emerged as a hallmark of academic excellence and inspirational milestones.",
             gallery: "https://drive.google.com/drive/folders/1ak54oiw-Fdi0vC9qL22HovIyU_yByaEi"
         },
-        // {
-        //     id: 8,
-        //     image: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-goog/events/WhatsApp%2520Image%25202023-05-23%2520at%25205.28.55%2520PM%2520%25282%2529.jpeg",
-        //     event_name: "Techathon2.0",
-        //     description: "Google Cloud",
-        //     gallery: "https://www.linkedin.com/in/cherishsantoshi/"
-        // },
-        // {
-        //     id: 9,
-        //     image: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-goog/events/WhatsApp%2520Image%25202023-05-23%2520at%25205.28.55%2520PM%2520%25282%2529.jpeg",
-        //     event_name: "Techathon2.0",
-        //     description: "Google Cloud",
-        //     gallery: "https://www.linkedin.com/in/cherishsantoshi/"
-        // },
-        // {
-        //     id: 10,
-        //     image: "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_face,h_200,q_auto:good,w_200/v1/gcs/platform-data-goog/events/WhatsApp%2520Image%25202023-05-23%2520at%25205.28.55%2520PM%2520%25282%2529.jpeg",
-        //     event_name: "Techathon2.0",
-        //     description: "Google Cloud",
-        //     gallery: "https://www.linkedin.com/in/cherishsantoshi/"
-        // }
     ];
     
 
     return (
-        <div className='mt-20 mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 gap-y-20 mx-20'>
+        <div className='mt-20 mb-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 gap-y-20 px-4 sm:px-8 md:px-16 lg:px-20'>
             {speakers.map((organizer) => (
-                <div key={organizer.id} className='bg-white rounded-md shadow-md p-6 h-full flex gap-3 items-center'>
+                <div key={organizer.id} className='bg-white rounded-md shadow-md p-4 sm:p-6 flex flex-col sm:flex-row gap-3 items-center'>
                     <img 
                         src={organizer.image} 
-                        className='h-[150px] w-[150px] rounded-sm' 
+                        className='h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] rounded-sm object-cover' 
                         alt={organizer.event_name} // Improved alt text
                     />
-                    <div>
+                    <div className='text-center sm:text-left'>
                         <div className='mb-2'>
-                            <p className="text-lg font-bold">
-                                {organizer.name}
+                            <p className="text-lg font-bold lg:mb-2 ">
+                                {organizer.event_name}
                             </p>
-                            <p className="text-sm font-semibold text-justify">
+                            <p className="text-sm font-semibold lg:text-justify ">
                                 {organizer.description}
                             </p>
                         </div>
@@ -188,11 +167,11 @@ const PhotoGallery = ({ type }) => {
                             href={organizer.gallery} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="text-md no-underline font-semibold text-yellow-600 flex items-center "
+                            className="text-md no-underline font-semibold text-[#fea700]  flex justify-center sm:justify-start items-center"
                         >
-                            View Gallery <ChevronDoubleRightIcon className='h-4 w-4 font-bold mt-[2px]' />
+                            View Gallery <ChevronDoubleRightIcon className='h-4 w-4 font-bold mt-[2px] ml-1' />
                         </a>
-                        <p className="text-white  w-fit text-sm bg-yellow-600 rounded-md p-1 my-2">{type}</p>
+                        <p className="text-white w-fit text-sm bg-[#fea700]  rounded-md p-1 my-2 mx-auto sm:mx-0">{type}</p>
                     </div>
                 </div>
             ))}
