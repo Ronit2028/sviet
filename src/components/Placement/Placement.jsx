@@ -203,11 +203,11 @@ export default function Placement() {
 
   return (
     <div className="bg-zinc-50 pl-4">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-4 lg:px-8">
         <div className="flex flex-wrap min-h-screen">
           <div className="w-full lg:w-2/12 p-4 pt-4 flex flex-col justify-between mb-6 lg:my-6">
             <div>
-              <h2 className="text-2xl md:text-3xl lg:text-[29px] font-bold">
+              <h2 className="text-2xl md:text-[25px] lg:text-[27px] font-bold">
                 TRANSFORMING DREAMS INTO REALITY
               </h2>
               <p className="bg-yellow-500 text-white inline-block px-2 py-1 mt-2">
@@ -245,7 +245,7 @@ export default function Placement() {
               <img
                 src={alumni.image.src}
                 alt="Alumni Logo"
-                className="my-4 mt-8 h-auto w-auto "
+                className="my-4 mt-8 h-auto w-auto"
               />
               <p className="text-4xl font-bold">{alumni.package}</p>
             </div>
@@ -267,11 +267,11 @@ export default function Placement() {
                 >
                   <div className="flex flex-col justify-between h-full">
                     <p className="font-bold text-[19px]">{student.name}</p>
-                    <div className="flex flex-col ">
+                    <div className="flex flex-col">
                       <img
                         src={student.logo.src}
                         alt="Student Logo"
-                        className="h-20 w-[85px] mb-2"
+                        className="h-20 w-[85px] mb-2 object-contain"
                       />
                       <p className="font-bold text-2xl">{student.package}</p>
                     </div>
@@ -295,13 +295,13 @@ export default function Placement() {
                     backgroundRepeat: "no-repeat",
                   }}
                 >
-                  <div className="flex flex-col  justify-between h-full">
-                    <p className="font-bold text-[20px]">{student.name}</p>
-                    <div className="flex flex-col ">
+                  <div className="flex flex-col justify-between h-full">
+                    <p className="font-bold text-[19px]">{student.name}</p>
+                    <div className="flex flex-col">
                       <img
                         src={student.logo.src}
                         alt="Student Logo"
-                        className="h-20 w-[95px] mb-2"
+                        className="h-20 w-[85px] mb-2 object-contain"
                       />
                       <p className="font-bold text-2xl">{student.package}</p>
                     </div>
