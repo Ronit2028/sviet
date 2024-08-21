@@ -241,7 +241,7 @@ export default function Placement() {
             }}
           >
             <div className="text-left">
-              <p className="font-bold text-[26px]">{alumni.name}</p>
+              <p className="font-bold text-[25px]">{alumni.name}</p>
               <img
                 src={alumni.image.src}
                 alt="Alumni Logo"
