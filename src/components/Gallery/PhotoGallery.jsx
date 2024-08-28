@@ -87,91 +87,124 @@
 
 // export default PhotoGallery
 
-
-import React from 'react'
+import React from 'react';
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid';
 
 const PhotoGallery = ({ type }) => {
-    const speakers = [
+    const galleries = [
         {
             id: 1,
-            image: "https://utfs.io/f/96dd0f23-861d-427d-8c1f-ab1ee953ad13-cot3tk.webp",
-            event_name: "Teej",
-            description: "Celebrating the vibrant festival of Teej with various cultural activities.",
-            gallery: "https://drive.google.com/drive/folders/1RemCuvpUxX_pWbV5AmXEoZmf2VPzB1Nj "
+            image: "https://utfs.io/f/a2b3518f-f8ab-4a5b-b5b5-93125c1f5509-dyxwz9.jpg",
+            event_name: "Applied Sciences",
+            description: "A gallery showcasing the Applied Sciences event through engaging photos.",
+            gallery: "https://drive.google.com/drive/folders/1WQ5a7_P_7F_6iKSfWptOr5QzREXfurND"
         },
         {
             id: 2,
-            image: "https://utfs.io/f/2e3a643e-c8c3-4e11-b7ef-5e6c947bfba9-869kq6.webp",
-            event_name: "Independence Day'24",
-            description: "Commemorating Independence Day with patriotic events and speeches.",
-            gallery: "https://drive.google.com/drive/folders/1PzmHPe0oiqN684MRSDfwXh8N3SI_djyF"
+            image: "https://utfs.io/f/fe06744e-ad97-4060-83b2-3a3c3255b5d9-2fq5wp.webp",
+            event_name: "Computer Application",
+            description: "Photos from the Computer Application event, featuring key moments and highlights.",
+            gallery: "https://drive.google.com/drive/folders/1hGhqU3Y0hUnMaLr-u2HFI2d7f6ozmjJv"
         },
         {
             id: 3,
-            image: "https://utfs.io/f/55cf797c-3716-4916-b775-0a61c0cbc09c-ls62sd.jpg",
-            event_name: "Techathon2.0",
-            description: "Techathon 2.0 emerged as a dynamic fusion of innovation and entertainment.",
-            gallery: "https://drive.google.com/drive/folders/1IqmUhyinq7CjRaz9T-TRHiu3tJDfZJ4Y"
+            image: "https://utfs.io/f/db9bb4f9-5f2a-486a-b24e-c6a29435366a-w384cm.jpg",
+            event_name: "Festivals",
+            description: "A vibrant collection of images from the Festivals event, capturing the energy and spirit.",
+            gallery: "https://drive.google.com/drive/folders/1zU-sPLzkIMs8AQSG-A9Wcn3k0xxymXDF"
         },
         {
             id: 4,
-            image: "https://utfs.io/f/9a08b157-a1bd-4310-b37e-b1582b2a156c-inzo76.jpg",
-            event_name: "Global Future Summit 2k24",
-            description: "Uniquely focused on the evolving dynamics between industry trends and human resources strategies.",
-            gallery: "https://drive.google.com/drive/folders/1g6wboDF2C4qJ-4RxPE7uwW_d43Nt8FHW"
+            image: "https://utfs.io/f/ad8fe976-1465-45fc-8e3e-47fb03683c31-6yxgx9.jpg",
+            event_name: "Hotel Management",
+            description: "Visuals highlighting key moments from the Hotel Management event and its discussions.",
+            gallery: "https://drive.google.com/drive/folders/1VPVrYjp0UozIHaZ2zq8EBAZzZbbF2sJy"
         },
         {
             id: 5,
-            image: "https://utfs.io/f/da745ae4-7fbe-4c73-9475-bfbfd1fc7ba7-pq03ce.jpg",
-            event_name: "Lohri",
-            description: "Lohri celebrates the harvest season with bonfires and festive traditions.",
-            gallery: "https://drive.google.com/drive/folders/1bJlP8W-MMveS2YTroCIPQVULvJugQSER"
+            image: "https://utfs.io/f/a0e87531-3145-4e21-a148-9a9ccfea56ba-41dn1d.jpg",
+            event_name: "International Department",
+            description: "Photos capturing the International Department event, showcasing global interactions.",
+            gallery: "https://drive.google.com/drive/folders/1Gcx2qjZuaM9EuuaEUX-LVqkXwZAU5FyQ"
         },
         {
             id: 6,
             image: "https://utfs.io/f/d77d2e93-bb44-4f3d-8b8b-70651ff5f997-dgdqel.webp",
-            event_name: "Spontania 2k24",
-            description: "Spontania 2K24 lit up the cultural scene with its vibrant and spirited celebration.",
-            gallery: "https://drive.google.com/drive/folders/1rycy6DO7xXKkvS7uMNJoXLgLHxIAfilT"
+            event_name: "Major Events",
+            description: "Highlights from Major Events, featuring the most memorable moments.",
+            gallery: "https://drive.google.com/drive/folders/1kvSaVWFz3ryMdbtAqEHqLujgv39sGmpb"
         },
         {
             id: 7,
-            image: "https://utfs.io/f/2ca3c7f5-4ab9-477d-8664-eef268e4ca3b-amrkfi.jpg",
-            event_name: "Covocation 14th",
-            description: "Convocation 14 emerged as a hallmark of academic excellence and inspirational milestones.",
-            gallery: "https://drive.google.com/drive/folders/1ak54oiw-Fdi0vC9qL22HovIyU_yByaEi"
+            image: "https://utfs.io/f/d2c8a46f-9ca9-438b-83ed-9ecf8faaa39e-h50yev.jpg",
+            event_name: "MBA",
+            description: "A collection of images from the MBA event, showcasing key presentations and interactions.",
+            gallery: "https://drive.google.com/drive/folders/1hvJhAlE4nCj5pjJqe1qulztwbKSJqBuy"
+        },
+        {
+            id: 8,
+            image: "https://utfs.io/f/9a0f7feb-b766-42ad-a171-7f0fd5cd9d27-74edaw.webp",
+            event_name: "Paramedical Sciences",
+            description: "Photos from the Paramedical Sciences event, highlighting academic and practical sessions.",
+            gallery: "https://drive.google.com/drive/folders/1e0_Pat6UDCMw1CU0ZsQVTI6PeLlZBrR1"
+        },
+        {
+            id: 9,
+            image: "https://utfs.io/f/b7c865ef-f8a1-4cfc-9780-015320f8a6ba-qwm3k7.jpg",
+            event_name: "Pharmacy",
+            description: "A gallery of images from the Pharmacy event, showcasing educational and interactive sessions.",
+            gallery: "https://drive.google.com/drive/folders/1ac1Ge73BHwvahFCcjoPIRwA0dK1sYNfo"
+        },
+        {
+            id: 10,
+            image: "https://utfs.io/f/f3179493-2246-445d-9fcf-77eb59db9293-x2mjo0.jpeg",
+            event_name: "Sports",
+            description: "Dynamic images from the Sports event, capturing the action and excitement.",
+            gallery: "https://drive.google.com/drive/folders/1jEwfTiQ_mAOZjyd01qfVqgrCwWWdaYZD"
+        },
+        {
+            id: 11,
+            image: "https://utfs.io/f/fb2f55ae-d5e4-4dac-af03-1a1e0280be12-lku8wk.jpg",
+            event_name: "Super 60",
+            description: "Highlights from the Super 60 event, showcasing key achievements and moments.",
+            gallery: "https://drive.google.com/drive/folders/1XFstOdtlzKnrh-7rTm7_xDpl2uGX7WP_"
+        },
+        {
+            id: 12,
+            image: "https://utfs.io/f/4e6ea4f6-7eb8-4c00-af72-4b34097df548-26ylxr.jpg",
+            event_name: "T&P",
+            description: "Visuals from the T&P event, focusing on training and placement activities.",
+            gallery: "https://drive.google.com/drive/folders/1WIyELewRoDhgCP3GNmgQXCg4o3BvJyTt"
         },
     ];
-    
 
     return (
         <div className='mt-20 mb-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 gap-y-20 px-4 sm:px-8 md:px-16 lg:px-20'>
-            {speakers.map((organizer) => (
-                <div key={organizer.id} className='bg-white rounded-md shadow-md p-4 sm:p-6 flex flex-col sm:flex-row gap-3 items-center'>
+            {galleries.map((gallery) => (
+                <div key={gallery.id} className='bg-white rounded-md shadow-md p-4 sm:p-6 flex flex-col sm:flex-row gap-3 items-center'>
                     <img 
-                        src={organizer.image} 
+                        src={gallery.image} 
                         className='h-[120px] w-[120px] sm:h-[150px] sm:w-[150px] rounded-sm object-cover' 
-                        alt={organizer.event_name} // Improved alt text
+                        alt={gallery.event_name} // Improved alt text
                     />
                     <div className='text-center sm:text-left'>
                         <div className='mb-2'>
-                            <p className="text-lg font-bold lg:mb-2 ">
-                                {organizer.event_name}
+                            <p className="text-lg font-bold lg:mb-2">
+                                {gallery.event_name}
                             </p>
-                            <p className="text-sm font-semibold lg:text-justify ">
-                                {organizer.description}
+                            <p className="text-sm font-semibold lg:text-justify">
+                                {gallery.description}
                             </p>
                         </div>
                         <a 
-                            href={organizer.gallery} 
+                            href={gallery.gallery} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="text-md no-underline font-semibold text-[#fea700]  flex justify-center sm:justify-start items-center"
+                            className="text-md no-underline font-semibold text-[#fea700] flex justify-center sm:justify-start items-center"
                         >
                             View Gallery <ChevronDoubleRightIcon className='h-4 w-4 font-bold mt-[2px] ml-1' />
                         </a>
-                        <p className="text-white w-fit text-sm bg-[#fea700]  rounded-md p-1 my-2 mx-auto sm:mx-0">{type}</p>
+                        <p className="text-white w-fit text-sm bg-[#fea700] rounded-md p-1 my-2 mx-auto sm:mx-0">{type}</p>
                     </div>
                 </div>
             ))}
