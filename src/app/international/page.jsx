@@ -9,6 +9,7 @@ import Director from '@/components/International/Director'
 import Updates from '@/components/International/Updates'
 import Help from '@/components/International/Help'
 import StudentsSpeak  from '../../components/International/StudentSpeak'
+import EarnWhileLearn  from '../../components/International/EarnWhileLearn'
 
 const page = () => {
   return (
@@ -19,7 +20,9 @@ const page = () => {
       <WhyChooseUs />
       <Help />
       <Activities />
+      
       <Director />
+      <EarnWhileLearn/>
       {/* <Updates /> */}
       <StudentsSpeak/>
 
