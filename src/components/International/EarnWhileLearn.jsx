@@ -193,7 +193,7 @@ const testimonials = [
 ];
 
 const TestimonialCard = ({ index, name, course, country, feedback, headerImage }) => (
-    <div className="event-card rounded-md shadow-md bg-white text-[#00112d] h-[60vh] flex flex-col justify-between">
+    <div className="event-card rounded-md shadow-md bg-white text-[#00112d] h-[85vh] flex flex-col justify-between">
         <div
             className="image-section h-1/2"
             style={{
@@ -206,7 +206,7 @@ const TestimonialCard = ({ index, name, course, country, feedback, headerImage }
         <div className="text-section my-auto p-6 h-1/2 flex flex-col justify-between">
             <div>
                 <p className="text-lg md:text-xl font-semibold mb-3">{name}</p>
-                <p className="text-sm md:text-md pb-6 line-clamp-4 text-justify">{feedback}</p>
+                <p className="text-sm md:text-md pb-6  text-justify">{feedback}</p>
             </div>
             <div className="flex justify-between">
                 <p className="text-sm font-semibold text-[#fea700]">{course}, {country}</p>
