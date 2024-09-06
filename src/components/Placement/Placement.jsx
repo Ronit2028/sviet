@@ -464,7 +464,7 @@ import img26 from "../../assets/placement/students/11.jpg";
 import img27 from "../../assets/placement/students/12.jpg";
 import img28 from "../../assets/placement/students/13.jpg";
 import img29 from "../../assets/placement/students/14.jpg";
-import img31 from "../../assets/placement/students/16.jpg";
+import img31 from "../../assets/placement/students/16.png";
 
 export default function Placement() {
   const alumni = {
