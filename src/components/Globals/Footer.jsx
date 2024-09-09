@@ -41,6 +41,7 @@ const Footer = () => {
                             <li><Link href="/svgoi-brochure.pdf">E-Brochure</Link></li>
                             <li><a href="https://admission.sviet.ac.in/">How to Apply</a></li>
                             <li><a href="http://svietiti.in/index.html">SVIET - ITI</a></li>
+                            <li><Link href="/careers">Careers</Link></li>
                            
                         </ul>
                     </div>
