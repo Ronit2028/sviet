@@ -1,5 +1,182 @@
 const events = [
   {
+    "id": 19,
+    "headerImage": "https://utfs.io/f/nsz3ps3WUZRL7ac5bSyZPFew0cpClJ4f9O3RUWHjaDvbq6AN",
+    "name": "Elevate 2024",
+    "logo": "https://utfs.io/f/nsz3ps3WUZRLEZsvLgBBM7OtXkEVLdzS3GjAiCmRITsrocxW",
+    "date": "11th - 13th September 2024",
+    "venue": "SVIET Campus, Chandigarh",
+    "overview": "Elevate 2024 is a 3-day induction program designed to inspire and empower the next generation of students at SVIET. Featuring captivating panel discussions, startup showcases, and thought leadership sessions, Elevate provides a platform for students to connect with industry experts and gain valuable insights into their academic and professional journeys.",
+    "photogallery": "https://drive.google.com/drive/folders/14k6RVCfVimh_ZEOZUKzuINLGxaVuYfHU?usp=sharing",
+    
+      "speakers": [
+        {
+          "id": 1,
+          "image": "https://utfs.io/f/nsz3ps3WUZRLEZsvLgBBM7OtXkEVLdzS3GjAiCmRITsrocxW",
+          "name": "Ashneer Grover",
+          "company": "BharatPe",
+          "designation": "Co-Founder",
+          "bio": "Ashneer Grover, co-founder of BharatPe, is a visionary in fintech, known for disrupting traditional payment systems."
+        },
+        
+        {
+          "id": 2,
+          "image": "https://utfs.io/f/nsz3ps3WUZRLfQH3o855DMmwulAEzVI0Hb4NKoTFOCeRP8Bn",
+          "name": "Rajshree Bhargava",
+          "company": "StartUp Punjab",
+          "designation": "CEO",
+          "bio": "Rajshree Bhargava, as CEO of StartUp Punjab, fosters innovation by guiding startups to reach their full potential."
+        },
+        {
+          "id": 3,
+          "image": "https://utfs.io/f/8c508aaf-f2d4-4145-9b42-f81ca7cfe896-hce9d1.jpg",
+          "name": "Dr. Anupam Goel",
+          "company": "MAX Healthcare",
+          "designation": "Senior Consultant",
+          "bio": "Dr. Anupam Goel, a leader in healthcare innovation, specializes in bringing tech-driven solutions to the medical field."
+        },
+        {
+          "id": 4,
+          "image": "https://utfs.io/f/nsz3ps3WUZRLBKRxlzlFsB95pVzeqWcviwuo2XMdrxfTItHU",
+          "name": "Shallu Narula",
+          "company": "Entrepreneur",
+          "designation": "Founder",
+          "bio": "Shallu Narula is an experienced entrepreneur with a passion for creating successful business ventures from scratch."
+        },
+        {
+          "id": 5,
+          "image": "https://utfs.io/f/nsz3ps3WUZRLO3LoAB8sFCew9LRU1ja8yKlG34EnABdrZuHO",
+          "name": "Gaurav Garg",
+          "company": "IIFL",
+          "designation": "Wealth Manager",
+          "bio": "Gaurav Garg is a seasoned wealth manager helping individuals and organizations navigate financial markets."
+        },
+        {
+          "id": 6,
+          "image": "https://utfs.io/f/nsz3ps3WUZRLvX5HXvgRGLdWO9iDhEe7Yb86THlKusI1o2Vy",
+          "name": "Milind Kwatra",
+          "company": "DonateKart",
+          "designation": "Founder & CEO",
+          "bio": "Milind Kwatra revolutionized charity and giving in India by co-founding DonateKart, a platform that bridges the gap between donors and causes."
+        },
+        {
+          "id": 7,
+          "image": "https://utfs.io/f/nsz3ps3WUZRLvX5HXvgRGLdWO9iDhEe7Yb86THlKusI1o2Vy",
+          "name": "Mr. Mukesh Jain",
+          "company": "Startup Mentor",
+          "designation": "Advisor & Investor",
+          "bio": "MJ Mukesh Jain is a leading mentor and advisor in the startup space, offering strategic insight for scaling businesses."
+        },
+        {
+          "id": 8,
+          "image": "https://utfs.io/f/cb3ae61b-dff7-46ac-b86b-cf5863088c02-1wmw85.jpg",
+          "name": "Udayveer Singh",
+          "company": "Google Developer Expert",
+          "designation": "Lead",
+          "bio": "Udayveer Singh is a prominent Google Developer Expert with deep expertise in cloud technologies and machine learning."
+        },
+        {
+          "id": 9,
+          "image": "https://utfs.io/f/62e2420d-5ba4-419a-a672-6779861e40d8-1wmw88.jpg",
+          "name": "Ashwani Kumar",
+          "company": "Tech Community Lead",
+          "designation": "Lead",
+          "bio": "Ashwani Kumar is a tech leader and community advocate, known for his contributions to open-source projects."
+        },
+        {
+          "id": 10,
+          "image": "https://utfs.io/f/a23983f4-85db-4ca7-972f-894996e31865-1wmw84.jpg",
+          "name": "Simar Preet Singh",
+          "company": "AI Enthusiast",
+          "designation": "Founder",
+          "bio": "Simar Preet Singh is an AI enthusiast and founder, pushing the boundaries of artificial intelligence in practical applications."
+        },
+        {
+          "id": 11,
+          "image": "https://utfs.io/f/d23796e0-0616-49b3-963d-bbcb2b20da9e-1wmw86.jpg",
+          "name": "Veer Pratap Singh",
+          "company": "Software Developer",
+          "designation": "Tech Lead",
+          "bio": "Veer Pratap Singh leads tech teams in building cutting-edge software solutions for global clients."
+        },
+        {
+          "id": 12,
+          "image": "https://utfs.io/f/03990114-0217-4a08-9ce6-9c33a24782e7-1wmw83.jpg",
+          "name": "Gaurav Madaan",
+          "company": "Tech Educator",
+          "designation": "Founder",
+          "bio": "Gaurav Madaan is an educator and entrepreneur focused on bridging the gap between education and technology."
+        },
+        {
+          "id": 13,
+          "image": "https://utfs.io/f/d028fb2c-e717-4a56-ac0f-6533cea6ce30-1wmw87.jpg",
+          "name": "Ankur Gill",
+          "company": "GDSC Mentor",
+          "designation": "Mentor",
+          "bio": "Ankur Gill, as a GDSC mentor, has played a pivotal role in nurturing young tech talent and guiding them toward success."
+        },
+        {
+          "id": 14,
+          "image": "https://utfs.io/f/d87c19b7-6f7c-45b4-ba58-f00331ea9514-hce9d4.jpg",
+          "name": "Vishwa Mohan",
+          "company": "TechStars",
+          "designation": "Managing Director",
+          "bio": "Vishwa Mohan brings decades of experience in early-stage investments and mentorship, supporting budding entrepreneurs to scale their ideas."
+        },
+        {
+          "id": 15,
+          "image": "https://utfs.io/f/99efffda-b14d-49e3-bee2-a7d554fa851e-tt8n1j.jpg",
+          "name": "Shubham Garg",
+          "company": "SVIET",
+          "designation": "Director of Placement",
+          "bio": "Shubham Garg, the Director of Placement at SVIET, helps students land their dream jobs while shaping futures at Alliance International School."
+        },
+        
+        {
+          "id": 17,
+          "image": "https://utfs.io/f/2087d9a4-9175-4270-801c-2b9d18677bb6-hce9dq.jpg",
+          "name": "Dr. Ripudaman Gaur",
+          "company": "Research & Innovation",
+          "designation": "Director",
+          "bio": "Dr. Ripudaman Gaur is the Director of Research & Innovation, focusing on driving cutting-edge research and creating impactful innovations."
+        },
+        {
+          "id": 18,
+          "image": "https://utfs.io/f/0cd144c5-423e-4ef7-ad08-4f45a3f9ed03-hce9d0.jpg",
+          "name": "Shilpa Dadhwal",
+          "company": "Corporate Trainer",
+          "designation": "Lead Trainer",
+          "bio": "Shilpa Dadhwal is a leading corporate trainer, specializing in leadership development and organizational effectiveness."
+        },
+        {
+          "id": 19,
+          "image": "https://utfs.io/f/96dc8d38-e810-45bf-9536-71d631662c5c-hce9cy.jpg",
+          "name": "Sanjeev Demra",
+          "company": "Industry Expert",
+          "designation": "Consultant",
+          "bio": "Sanjeev Demra is a seasoned industry expert providing consultancy services to firms in finance, manufacturing, and strategy."
+        },
+        {
+          "id": 20,
+          "image": "https://utfs.io/f/89dba291-ba1b-4bf9-bfcd-efca942a2d66-hce9cx.jpg",
+          "name": "Ankush Sharma",
+          "company": "Innovator & Educator",
+          "designation": "Founder",
+          "bio": "Ankush Sharma is an innovator and educator, helping startups leverage technology for educational advancements."
+        },
+        {
+          "id": 21,
+          "image": "https://utfs.io/f/nsz3ps3WUZRL7vYF8YyZPFew0cpClJ4f9O3RUWHjaDvbq6AN",
+          "name": "Vivek Atray",
+          "company": "Motivational Speaker",
+          "designation": "Ex-Bureaucrat & Author",
+          "bio": "Vivek Atray, an ex-bureaucrat and author, is a renowned motivational speaker inspiring people to live happier and more meaningful lives."
+        }
+      ]
+    
+    
+  },
+  {
     id: 1,
     headerImage: "https://utfs.io/f/55cf797c-3716-4916-b775-0a61c0cbc09c-ls62sd.jpg",
     name: "Techathon 2.0",
@@ -352,6 +529,184 @@ const events = [
         bio: "Yatin is a Project Engineer by profession having 3+ years of experience in corporate field. Learning new technology and implementing them is his goal. Along with his daily life, he also try to give back to the society by sharing information to peers."
       }]
   },
+  // {
+  //   "id": 19,
+  //   "headerImage": "https://utfs.io/f/nsz3ps3WUZRL7ac5bSyZPFew0cpClJ4f9O3RUWHjaDvbq6AN",
+  //   "name": "Elevate 2024",
+  //   "logo": "https://utfs.io/f/nsz3ps3WUZRLEZsvLgBBM7OtXkEVLdzS3GjAiCmRITsrocxW",
+  //   "date": "11th - 13th September 2024",
+  //   "venue": "SVIET Campus, Chandigarh",
+  //   "overview": "Elevate 2024 is a 3-day induction program designed to inspire and empower the next generation of students at SVIET. Featuring captivating panel discussions, startup showcases, and thought leadership sessions, Elevate provides a platform for students to connect with industry experts and gain valuable insights into their academic and professional journeys.",
+  //   "photogallery": "https://drive.google.com/drive/folders/14k6RVCfVimh_ZEOZUKzuINLGxaVuYfHU?usp=sharing",
+    
+  //     "speakers": [
+  //       {
+  //         "id": 1,
+  //         "image": "https://utfs.io/f/nsz3ps3WUZRLEZsvLgBBM7OtXkEVLdzS3GjAiCmRITsrocxW",
+  //         "name": "Ashneer Grover",
+  //         "company": "BharatPe",
+  //         "designation": "Co-Founder",
+  //         "bio": "Ashneer Grover, co-founder of BharatPe, is a visionary in fintech, known for disrupting traditional payment systems."
+  //       },
+        
+  //       {
+  //         "id": 2,
+  //         "image": "https://utfs.io/f/nsz3ps3WUZRLfQH3o855DMmwulAEzVI0Hb4NKoTFOCeRP8Bn",
+  //         "name": "Rajshree Bhargava",
+  //         "company": "StartUp Punjab",
+  //         "designation": "CEO",
+  //         "bio": "Rajshree Bhargava, as CEO of StartUp Punjab, fosters innovation by guiding startups to reach their full potential."
+  //       },
+  //       {
+  //         "id": 3,
+  //         "image": "https://utfs.io/f/8c508aaf-f2d4-4145-9b42-f81ca7cfe896-hce9d1.jpg",
+  //         "name": "Dr. Anupam Goel",
+  //         "company": "MAX Healthcare",
+  //         "designation": "Senior Consultant",
+  //         "bio": "Dr. Anupam Goel, a leader in healthcare innovation, specializes in bringing tech-driven solutions to the medical field."
+  //       },
+  //       {
+  //         "id": 4,
+  //         "image": "https://utfs.io/f/nsz3ps3WUZRLBKRxlzlFsB95pVzeqWcviwuo2XMdrxfTItHU",
+  //         "name": "Shallu Narula",
+  //         "company": "Entrepreneur",
+  //         "designation": "Founder",
+  //         "bio": "Shallu Narula is an experienced entrepreneur with a passion for creating successful business ventures from scratch."
+  //       },
+  //       {
+  //         "id": 5,
+  //         "image": "https://utfs.io/f/nsz3ps3WUZRLO3LoAB8sFCew9LRU1ja8yKlG34EnABdrZuHO",
+  //         "name": "Gaurav Garg",
+  //         "company": "IIFL",
+  //         "designation": "Wealth Manager",
+  //         "bio": "Gaurav Garg is a seasoned wealth manager helping individuals and organizations navigate financial markets."
+  //       },
+  //       {
+  //         "id": 6,
+  //         "image": "https://utfs.io/f/nsz3ps3WUZRLvX5HXvgRGLdWO9iDhEe7Yb86THlKusI1o2Vy",
+  //         "name": "Milind Kwatra",
+  //         "company": "DonateKart",
+  //         "designation": "Founder & CEO",
+  //         "bio": "Milind Kwatra revolutionized charity and giving in India by co-founding DonateKart, a platform that bridges the gap between donors and causes."
+  //       },
+  //       {
+  //         "id": 7,
+  //         "image": "https://utfs.io/f/nsz3ps3WUZRLvX5HXvgRGLdWO9iDhEe7Yb86THlKusI1o2Vy",
+  //         "name": "Mr. Mukesh Jain",
+  //         "company": "Startup Mentor",
+  //         "designation": "Advisor & Investor",
+  //         "bio": "MJ Mukesh Jain is a leading mentor and advisor in the startup space, offering strategic insight for scaling businesses."
+  //       },
+  //       {
+  //         "id": 8,
+  //         "image": "https://utfs.io/f/cb3ae61b-dff7-46ac-b86b-cf5863088c02-1wmw85.jpg",
+  //         "name": "Udayveer Singh",
+  //         "company": "Google Developer Expert",
+  //         "designation": "Lead",
+  //         "bio": "Udayveer Singh is a prominent Google Developer Expert with deep expertise in cloud technologies and machine learning."
+  //       },
+  //       {
+  //         "id": 9,
+  //         "image": "https://utfs.io/f/62e2420d-5ba4-419a-a672-6779861e40d8-1wmw88.jpg",
+  //         "name": "Ashwani Kumar",
+  //         "company": "Tech Community Lead",
+  //         "designation": "Lead",
+  //         "bio": "Ashwani Kumar is a tech leader and community advocate, known for his contributions to open-source projects."
+  //       },
+  //       {
+  //         "id": 10,
+  //         "image": "https://utfs.io/f/a23983f4-85db-4ca7-972f-894996e31865-1wmw84.jpg",
+  //         "name": "Simar Preet Singh",
+  //         "company": "AI Enthusiast",
+  //         "designation": "Founder",
+  //         "bio": "Simar Preet Singh is an AI enthusiast and founder, pushing the boundaries of artificial intelligence in practical applications."
+  //       },
+  //       {
+  //         "id": 11,
+  //         "image": "https://utfs.io/f/d23796e0-0616-49b3-963d-bbcb2b20da9e-1wmw86.jpg",
+  //         "name": "Veer Pratap Singh",
+  //         "company": "Software Developer",
+  //         "designation": "Tech Lead",
+  //         "bio": "Veer Pratap Singh leads tech teams in building cutting-edge software solutions for global clients."
+  //       },
+  //       {
+  //         "id": 12,
+  //         "image": "https://utfs.io/f/03990114-0217-4a08-9ce6-9c33a24782e7-1wmw83.jpg",
+  //         "name": "Gaurav Madaan",
+  //         "company": "Tech Educator",
+  //         "designation": "Founder",
+  //         "bio": "Gaurav Madaan is an educator and entrepreneur focused on bridging the gap between education and technology."
+  //       },
+  //       {
+  //         "id": 13,
+  //         "image": "https://utfs.io/f/d028fb2c-e717-4a56-ac0f-6533cea6ce30-1wmw87.jpg",
+  //         "name": "Ankur Gill",
+  //         "company": "GDSC Mentor",
+  //         "designation": "Mentor",
+  //         "bio": "Ankur Gill, as a GDSC mentor, has played a pivotal role in nurturing young tech talent and guiding them toward success."
+  //       },
+  //       {
+  //         "id": 14,
+  //         "image": "https://utfs.io/f/d87c19b7-6f7c-45b4-ba58-f00331ea9514-hce9d4.jpg",
+  //         "name": "Vishwa Mohan",
+  //         "company": "TechStars",
+  //         "designation": "Managing Director",
+  //         "bio": "Vishwa Mohan brings decades of experience in early-stage investments and mentorship, supporting budding entrepreneurs to scale their ideas."
+  //       },
+  //       {
+  //         "id": 15,
+  //         "image": "https://utfs.io/f/99efffda-b14d-49e3-bee2-a7d554fa851e-tt8n1j.jpg",
+  //         "name": "Shubham Garg",
+  //         "company": "SVIET",
+  //         "designation": "Director of Placement",
+  //         "bio": "Shubham Garg, the Director of Placement at SVIET, helps students land their dream jobs while shaping futures at Alliance International School."
+  //       },
+        
+  //       {
+  //         "id": 17,
+  //         "image": "https://utfs.io/f/2087d9a4-9175-4270-801c-2b9d18677bb6-hce9dq.jpg",
+  //         "name": "Dr. Ripudaman Gaur",
+  //         "company": "Research & Innovation",
+  //         "designation": "Director",
+  //         "bio": "Dr. Ripudaman Gaur is the Director of Research & Innovation, focusing on driving cutting-edge research and creating impactful innovations."
+  //       },
+  //       {
+  //         "id": 18,
+  //         "image": "https://utfs.io/f/0cd144c5-423e-4ef7-ad08-4f45a3f9ed03-hce9d0.jpg",
+  //         "name": "Shilpa Dadhwal",
+  //         "company": "Corporate Trainer",
+  //         "designation": "Lead Trainer",
+  //         "bio": "Shilpa Dadhwal is a leading corporate trainer, specializing in leadership development and organizational effectiveness."
+  //       },
+  //       {
+  //         "id": 19,
+  //         "image": "https://utfs.io/f/96dc8d38-e810-45bf-9536-71d631662c5c-hce9cy.jpg",
+  //         "name": "Sanjeev Demra",
+  //         "company": "Industry Expert",
+  //         "designation": "Consultant",
+  //         "bio": "Sanjeev Demra is a seasoned industry expert providing consultancy services to firms in finance, manufacturing, and strategy."
+  //       },
+  //       {
+  //         "id": 20,
+  //         "image": "https://utfs.io/f/89dba291-ba1b-4bf9-bfcd-efca942a2d66-hce9cx.jpg",
+  //         "name": "Ankush Sharma",
+  //         "company": "Innovator & Educator",
+  //         "designation": "Founder",
+  //         "bio": "Ankush Sharma is an innovator and educator, helping startups leverage technology for educational advancements."
+  //       },
+  //       {
+  //         "id": 21,
+  //         "image": "https://utfs.io/f/nsz3ps3WUZRL7vYF8YyZPFew0cpClJ4f9O3RUWHjaDvbq6AN",
+  //         "name": "Vivek Atray",
+  //         "company": "Motivational Speaker",
+  //         "designation": "Ex-Bureaucrat & Author",
+  //         "bio": "Vivek Atray, an ex-bureaucrat and author, is a renowned motivational speaker inspiring people to live happier and more meaningful lives."
+  //       }
+  //     ]
+    
+    
+  // }
+  
 
 ]
 
