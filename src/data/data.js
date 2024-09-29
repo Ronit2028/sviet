@@ -3758,13 +3758,13 @@ const data = [
 
     //ITI
     {
-        "id": 999,
+        "id": 60,
         "course_name": "ITI",
-        "event_type": "ITI",
+        "event_type": "Engineering",
         "header": {
             "title": "WELDER CERTIFICATION PROGRAM (WELDER)",
             "subtitle": "BUILDING THE FUTURE IN METAL",
-            "background_image": "../Courses/Welder/header.jpg"
+            "background_image": "https://utfs.io/f/1V3V2P4kpAumIiVpUpR21jqluvKkFoRaDpPfCGTtxewIs74z"
         },
         "program_name": "Welder Certification Program",
         "program_description": "The Welder Certification Program at SVGOI equips students with the skills and knowledge required to excel in the field of welding. This program covers various welding techniques, safety procedures, and industry standards. Students gain hands-on experience through practical training sessions and workshops conducted by experienced welders. The curriculum focuses on developing proficiency in different types of welding processes, including MIG, TIG, and stick welding, to prepare graduates for diverse welding applications across industries.",
@@ -3779,29 +3779,29 @@ const data = [
             {
                 "title": "Certified Welder",
                 "desc": "Demonstrate proficiency in various welding techniques and processes.",
-                "image": "../Courses/Welder/certified_welder.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumm1z8xrD2prEbC7OkVZGhPtxlqaunXTvJiBsM"
             },
             {
                 "title": "Welding Technician",
                 "desc": "Perform welding operations and maintenance tasks in industrial settings.",
-                "image": "../Courses/Welder/welding_technician.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumnhviqqA1z8WShHVuacLDIv5XR0itPqOklGMb"
             },
             {
                 "title": "Fabrication Specialist",
                 "desc": "Fabricate metal structures and components using advanced welding methods.",
-                "image": "../Courses/Welder/fabrication_specialist.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumIiVpUpR21jqluvKkFoRaDpPfCGTtxewIs74z"
             }
         ],
         "labs": [
             {
                 "title": "Welding Workshop",
                 "description": "Hands-on training in welding techniques and equipment operation.",
-                "image": "../Courses/Welder/welding_workshop.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumnhviqqA1z8WShHVuacLDIv5XR0itPqOklGMb"
             },
             {
                 "title": "Safety Training",
                 "description": "Learn safety protocols and procedures for welding operations.",
-                "image": "../Courses/Welder/safety_training.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAuma3tIOwuqYuBgVRlAkHZebycN59qvW6rTdJwU"
             }
         ],
         "eligibility_criteria": {
@@ -3821,13 +3821,13 @@ const data = [
         ]
     },
     {
-        "id": 99999,
+        "id": 61,
         "course_name": "ITI",
-        "event_type": "ITI",
+        "event_type": "Engineering",
         "header": {
             "title": "PLUMBING CERTIFICATION PROGRAM (PLUMBER)",
             "subtitle": "BUILDING THE FUTURE IN PIPEWORK",
-            "background_image": "../Courses/Plumber/header.jpg"
+            "background_image": "https://utfs.io/f/1V3V2P4kpAumbbhve9SVDWL2mqUCMHoirweBvNz5EsX03bOc"
         },
         "program_name": "Plumbing Certification Program",
         "program_description": "The Plumbing Certification Program at SVGOI provides comprehensive training in plumbing techniques and practices. Students learn about pipe installation, repair, and maintenance for residential, commercial, and industrial buildings. The curriculum covers plumbing codes, safety regulations, and sustainable plumbing practices. Practical training sessions and workshops enable students to develop the skills necessary for a successful career as a professional plumber.",
@@ -3842,29 +3842,29 @@ const data = [
             {
                 "title": "Certified Plumber",
                 "desc": "Demonstrate proficiency in pipe installation, repair, and maintenance.",
-                "image": "../Courses/Plumber/certified_plumber.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumT1B7qD6itj04AFlILkGvbdQPE8uOqWpHYsUK"
             },
             {
                 "title": "Plumbing Technician",
                 "desc": "Perform plumbing installations and repairs in residential, commercial, and industrial settings.",
-                "image": "../Courses/Plumber/plumbing_technician.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumbbhve9SVDWL2mqUCMHoirweBvNz5EsX03bOc"
             },
             {
                 "title": "Maintenance Specialist",
                 "desc": "Implement preventive maintenance programs and troubleshoot plumbing issues.",
-                "image": "../Courses/Plumber/maintenance_specialist.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumRcWurekmu2iQAmoaFD3d9eMskP7J6LXV4IRl"
             }
         ],
         "labs": [
             {
                 "title": "Plumbing Workshop",
                 "description": "Hands-on training in pipe installation and repair techniques.",
-                "image": "../Courses/Plumber/plumbing_workshop.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumT1B7qD6itj04AFlILkGvbdQPE8uOqWpHYsUK"
             },
             {
                 "title": "Safety Training",
                 "description": "Learn safety protocols and procedures for plumbing operations.",
-                "image": "../Courses/Plumber/safety_training.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAumRcWurekmu2iQAmoaFD3d9eMskP7J6LXV4IRl"
             }
         ],
         "eligibility_criteria": {
@@ -3884,13 +3884,13 @@ const data = [
         ]
     },
     {
-        "id": 999999,
+        "id": 62,
         "course_name": "ITI",
-        "event_type": "ITI",
+        "event_type": "Engineering",
         "header": {
             "title": "COMPUTER OPERATOR AND PROGRAMMING ASSISTANT (COPA)",
             "subtitle": "EMBRACING THE DIGITAL FUTURE",
-            "background_image": "../Courses/COPA/header.jpg"      
+            "background_image": "../Courses/MTech/cse/Header.jpg"      
         },
         "program_name": "Computer Operator and Programming Assistant",
         "program_description": "The Computer Operator and Programming Assistant (COPA) program at SVGOI prepares students for careers in the IT industry. Students learn essential computer skills, including typing, data entry, and office software applications. The curriculum also covers programming fundamentals, database management, and web development. Practical exercises and projects enable students to develop proficiency in various programming languages and software tools, preparing them for entry-level positions as computer operators, data entry operators, and junior programmers.",
@@ -3908,29 +3908,29 @@ const data = [
             {
                 "title": "Computer Operator",
                 "desc": "Perform basic computer operations such as data entry, file management, and document processing.",
-                "image": "../Courses/COPA/computer_operator.jpg"
+                "image": "https://utfs.io/f/1V3V2P4kpAum3uLmOOwG5iRg3yAkdO07cshDnUBISQJ9XTCe"
             },
             {
                 "title": "Data Entry Operator",
                 "desc": "Enter and update data in databases, spreadsheets, and other digital formats with accuracy and efficiency.",
-                "image": "../Courses/COPA/data_entry_operator.jpg"
+                "image": "https://utfs.io/f/nsz3ps3WUZRLQj2JOlHc7ILkp3Shaeo8Ds0FjqiG5UAfE41R"
             },
             {
                 "title": "Junior Programmer",
                 "desc": "Write, test, and debug code under the guidance of senior programmers, contributing to software development projects.",
-                "image": "../Courses/COPA/junior_programmer.jpg"
+                "image": "https://utfs.io/f/nsz3ps3WUZRL7uOX80yZPFew0cpClJ4f9O3RUWHjaDvbq6AN"
             }
         ],
         "labs": [
             {
                 "title": "Computer Lab",
                 "description": "Access to computers equipped with relevant software for practicing typing, data entry, and programming exercises.",
-                "image": "../Courses/COPA/computer_lab.jpg"
+                "image": "../Courses/BTech/cse/lab/networking.jpg"
             },
             {
                 "title": "Programming Workshop",
                 "description": "Hands-on sessions to learn programming languages and develop software applications.",
-                "image": "../Courses/COPA/programming_workshop.jpg"
+                "image": "https://utfs.io/f/nsz3ps3WUZRL7uOX80yZPFew0cpClJ4f9O3RUWHjaDvbq6AN"
             }
         ],
         "eligibility_criteria": {
