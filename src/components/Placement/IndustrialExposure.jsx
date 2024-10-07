@@ -62,6 +62,46 @@ const IndustrialExposure = () => {
         //     img: img8.src
         // },
         {
+            title: "Kandhari Beverages Pvt. Limited",
+            description: "On 3rd September 2024, SVIET Commerce and Management students visited Kandhari Beverages Pvt. Ltd. to learn about plant operations, from procurement to packaging. Thanks to the team for their guidance and for addressing student queries.",
+            img: "https://utfs.io/f/1V3V2P4kpAumDlHvXuac3imC02hJzTjuAPrdk64eXYnEVlBg"
+        },
+        {
+            title: "the Capitol Complex, Chandigarh",
+            description: "First-year law students from SVCL visited the Capitol Complex, Chandigarh, exploring key landmarks like the Punjab Legislative Assembly and the Punjab & Haryana High Court. This hands-on experience deepened their understanding of architecture, governance, and the legal system.",
+            img: "https://utfs.io/f/1V3V2P4kpAumr2Hslx1tqLi810a5BU7mZyDEfnuXpQgMYRIT"
+        },
+        {
+            title: " RDC Plant, Mohali",
+            description: "On 6th September 2024, 35 B.Tech Civil Engineering students visited the RDC Plant, Mohali, with two faculty members. This industrial visit provided practical insights into ready-mix concrete production and quality control, bridging the gap between classroom learning and real-world applications.",
+            img: "https://utfs.io/f/1V3V2P4kpAumI1FBk4R21jqluvKkFoRaDpPfCGTtxewIs74z"
+        },
+        {
+            title: " Grazitti Interactive",
+            description: "The Department of Computer Applications organized an industrial visit to Grazitti Interactive in Panchkula for MCA students (Batch 2023 and 2024). This visit provided industry exposure, helping students gain insights into real-world applications and interact with professionals.",
+            img: "https://utfs.io/f/1V3V2P4kpAumhiGryqj1xiCWTIEqDGVAyUHtNgve4dfROn83"
+        },
+        {
+            title: "Pisoft Informatics Pvt. Ltd.",
+            description: "Our Super 60 Batch 2023 had an enriching industrial visit to Pisoft Informatics, gaining insights into IT and software development. They explored cutting-edge technologies, learned from industry experts, and saw how innovative solutions are created.",
+            img: "https://utfs.io/f/1V3V2P4kpAumL0d1brpJTjhB1safN9YzRtPmg236DXq5uS4C"
+        },
+        {
+            title: "Punjab Institute of Medical Sciences",
+            description: "Hands-on learning in action! BSc MLS 5th Sem and DMLT 3rd Sem students from the Department of Paramedical Sciences visited the Punjab Institute of Medical Sciences, Jalandhar.",
+            img: "https://utfs.io/f/1V3V2P4kpAumLYfvLDpJTjhB1safN9YzRtPmg236DXq5uS4C"
+        },
+        {
+            title: "Guru Nanak Group of Industries, Rajpura",
+            description: "They visited Guru Nanak Group of Industries, Rajpura today. Along with two faculty members, 25 students explored advanced techniques like CNC Milling Machines and modern casting processes. ",
+            img: "https://utfs.io/f/1V3V2P4kpAum7E7dQyCMctTlLnUsdGg6eRqzSorOXmFha9xE"
+        },
+        {
+            title: "HF Super Chanakya Dairy Products",
+            description: "On 9th August 2024, 42 Commerce and Management students visited HF Super Chanakya Dairy Products. Guided by Mr. Vivek Saxena and Mr. Bhawar Singh Shekhawat, they gained insights into production and operations.",
+            img: "https://utfs.io/f/1V3V2P4kpAumCa51NnAi6EeD1wHIp3zVSgTXJyWtuZ2hdcix"
+        },
+        {
             title: "Survey camp in Manali",
             description: "Students of B.Tech Civil Engineering | Batch 2022 enjoyed an educational survey camp in Manali, applying classroom knowledge in real-world settings. Here's a glimpse of their journey and efforts!  ",
             img: img12.src
@@ -83,7 +123,7 @@ const IndustrialExposure = () => {
         },
         {
             title: "Green Concrete R.M.C Plant",
-            description: "TThe Civil Engineering Department arranged a visit to the Green Concrete R.M.C Plant in Tangori, Mohali, for firsthand experience in concrete production and sustainability.",
+            description: "The Civil Engineering Department arranged a visit to the Green Concrete R.M.C Plant in Tangori, Mohali, for firsthand experience in concrete production and sustainability.",
             img: img10.src
         },
         
@@ -96,7 +136,7 @@ const IndustrialExposure = () => {
 
     // Settings for React Slick Carousel
     const settings = {
-        infinite: false,
+        infinite: true,
         dots: true,
         autoplay: true,
         arrows: false,
@@ -133,12 +173,12 @@ const IndustrialExposure = () => {
                     {/* React Slick Carousel */}
                     <Slider {...settings}>
                         {reasons.map((reason, index) => (
-                            <div key={index} className='mt-6 h-[50vh] lg:h-[50vh] flex items-center p-3'>
+                            <div key={index} className='mt-6 h-[52vh] lg:h-[52vh] flex items-center p-2'>
                                 <div className="bg-white h-full  rounded-md text-[#00112d]" style={{ backgroundImage: `url(${reason.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                                     <div className='bg-[#00000099]  p-6 text-white flex flex-col justify-end h-full'>
                                         <div className="">
-                                            <h3 className='text-2xl font-meium py-4'>{reason.title}</h3>
-                                            <p className='text-justify'>{reason.description}</p>
+                                            <h3 className='text-2xl font-meium '>{reason.title}</h3>
+                                            <p className='text-justify text-[14px] font-light'>{reason.description}</p>
                                         </div>
                                     </div>
                                 </div>

@@ -36,60 +36,86 @@ const PlacementDriveCarousel = () => {
 
     const events =[
         {
-            id: 1,
+            "id": 1,
+            "headerImage": "https://utfs.io/f/1V3V2P4kpAumJrwVw8xviyu6xWXKJ2tVo5vgeS7mwpHlNsha",
+            "name": "24x7 Software, Pune - On-Campus Placement Drive",
+            "date": "28 September 2024",
+            "venue": "SVIET Campus",
+            "overview": "Training & Placement Cells, SVIET successfully organized an on-campus placement drive for B.Tech CSE Batch 2025, in collaboration with 24x7 Software, Pune. With over 70 students participating.",
+            instagramUrl: "https://www.instagram.com/p/DAdWqXYyDox/?igsh=MTRhNWJuNmpueDlydA=="
+          },
+          {
+            "id": 2,
+            "headerImage": "https://utfs.io/f/1V3V2P4kpAum9f113voJQ5AcTPoua6UY3sS7XMiGqmnIVwtL",
+            "name": "Skillkart Placement Drive - SVIET",
+            "date": "04st October 2024",
+            "venue": "SVIET Campus",
+            "overview": "The Skillkart Placement Drive at SVIET was a huge success! With over 60+ enthusiastic students from B.Tech (CSE), BCA, MCA, BBA, B.Com, and MBA (Batch 2025) participating, the day was filled with excitement and opportunities.",
+            instagramUrl: "https://www.instagram.com/p/DAqREI4yUDv/?igsh=MnR0NXp5ZHp0eTdj"
+          },
+        {
+            id: 3,
             headerImage: img1.src,
             name: "Aimil Ayouthveda Ltd",
             date: "08th February 2024",
             venue: "SVIET Campus",
             overview: "Aimil Ayouthveda Ltd. conducted a dynamic campus placement drive today at SVGOI for the B.Pharm 2024 batch, with 30 enthusiastic participants.The event showcased a fusion of talent and ambition, setting the stage for promising opportunities in the pharmaceutical industry.",
+            instagramUrl: "https://www.instagram.com/p/C3FbcjYLm6Z/?igsh=aW5samthendqOXcy"
         },
         {
-            id: 2,
+            id: 4,
             headerImage: img2.src,
             name: "Ocean Technologies Pvt. Ltd.",
             date: "01st December 2023",
             venue: "SVIET Campus",
             overview: "Ocean Technologies Pvt. Ltd. makes waves at SVIET campus recruitment drive!Exciting opportunities unfolded for B.Tech and diploma students in EE, ME, CSE, ECE, Civil, and MBA (2024) batches. ",
+            instagramUrl: "https://www.instagram.com/p/C1KYpX5yTIE/?igsh=MmFmNTN0bmtsYjNh"
+             
         },
         {
-            id: 3,
+            id: 5,
             headerImage: img8.src,
             name: "Click Labs",
             date: "22nd March 2024",
             venue: "SVIET Campus",
             overview: "SVGOI organized a successful placement drive today for the students of MBA and Super60 | Batch 2025 passing out by reputed company Click Labs!",
+            instagramUrl: "https://www.instagram.com/p/C40vGTJycu5/?igsh=MXF1bGh5ZnRmOTllYQ== "
         },
         {
-            id: 4,
+            id: 6,
             headerImage: img4.src,
             name: "Value Prospect Consulting",
             date: "04th April 2024",
             venue: "SVIET Campus",
             overview: "Value Prospect Consulting's Campus Drive at SVIET: 15 Students Land Dream Jobs! Mr. Pratik guides candidates through a rigorous 4-phase selection process. A big opportunity for the 2023, 2024, and 2025 batches.",
+            instagramUrl: "https://www.instagram.com/value_prospect_consulting"
         },
         {
-            id: 5,
+            id: 7,
             headerImage: img3.src,
             name: "Placement Day",
             date: "16th May 2024",
             venue: "SVIET Campus",
             overview: "After an incredible Placement Day event at SVIET, we're thrilled to have hosted over 200 students from various colleges and universities across different states, including Govt polytechnic colleges in Khuni Majra, Meham, and Kaithal, as well as esteemed institutions like Punjabi University Patiala and Shaheed Bhagat Singh State University Ferozpur. The energy was contagious as graduates and diploma holders explored exciting job prospects with top companies like #Eclerx, #JustDial, Motherson, Dixon, and more. HR representatives were highly impressed by the quality education provided by our institute. SVGOI, Banur extends heartfelt congratulations to all the selected students! Here's to the beginning of promising career journeys for our future leaders.",
+            instagramUrl: "https://www.instagram.com/p/C7BshZDyrv2/?igsh=a2JzOGNqcG01YXlv "
         },
         {
-            id: 6,
+            id: 8,
             headerImage: img5.src,
             name: "Global Futures Summit 2024",
             date: "23rd March 2024",
             venue: "SVIET Campus",
             overview: "Dive into our industry panel session covering market trends and cutting-edge technology! These snapshots capture the dynamic exchange between industry and academia, shaping tomorrow's tech leaders. Join the fusion of insights from both sectors! ",
+            instagramUrl: "https://www.instagram.com/p/C42iClgrE8_/?igsh=bGFiN3NudWZjYW4x "
         },
         {
-            id: 7,
+            id: 9,
             headerImage: img6.src,
             name: "Pharma Career Fair 2024",
             date: "09th February 2024",
             venue: "SVIET Campus",
             overview: "Today was an incredible day at SVGOI's Pharma Career Fair 2024! Students had the chance to explore various job opportunities, network with industry leaders, and learn valuable insights about the pharmaceutical industry. The event was buzzing with excitement as students engaged in enlightening conversations during the interview rounds, guided by the lamp of opportunity. It was a day filled with hope, connections, and the promise of a bright future in pharmaceutical careers. Stay tuned for more exciting events and opportunities from SVGOI. Your journey to success starts here! ",
+            instagramUrl: "https://www.instagram.com/p/C3ITPrnL7el/?igsh=eXFncXM0cXZydDRq"
         },
        
 
@@ -155,8 +181,9 @@ const PlacementDriveCarousel = () => {
                                                 <p className="text-sm font-semibold text-[#fea700]">
                                                     {event.date}
                                                 </p>
-                                                
-                                                    <button className='rounded-md bg-[#fea700] text-white p-2 h-7 w-7 flex justify-center items-center'><i className='fa fa-arrow-right'></i></button>
+                                                <Link href={event.instagramUrl} target="_blank">
+                                                <button className='rounded-md bg-[#fea700] text-white p-2 h-7 w-7 flex justify-center items-center'><i className='fa fa-arrow-right'></i></button></Link>
+                                                    
                                                   </div>
                                         </div>
                                     </div>

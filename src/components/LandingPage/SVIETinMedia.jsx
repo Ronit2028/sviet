@@ -9,6 +9,14 @@ const SVIETinMedia = () => {
 
     const mediaUpdates = [
         {
+            "imageUrl": "https://utfs.io/f/1V3V2P4kpAumPXozXKdZ89C4GnNKHTXFvruVyAOm6ZwU2Sib",
+            "name": "Elevate 2024: Launching Future",
+            "type": "Induction Program",
+            "desc": "Elevate 2024, the 3-day induction program at SVIET, welcomed new students with opportunities for growth and inspiration. The event featured cultural programs, panel discussions with startup and industry leaders, and interactive sessions designed to guide students on their journey towards success.",
+            "date": "September 11-13, 2024"
+          },
+          
+        {
             imageUrl: "https://utfs.io/f/f265baa5-de33-44b9-a5f3-73cbdff7e0cc-mbjn4f.png",
             name: "Spontania 2K24",
             type: "Annual Cultural Fest",
