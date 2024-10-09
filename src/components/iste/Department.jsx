@@ -30,6 +30,7 @@ const cards = [
         name: "Dr. Shivani Guleria",
         description: `As the Head of the Civil Engineering Department, I am committed to fostering an environment that promotes innovation, creativity, and excellence in our students. Our mission is to equip students with the technical skills and practical knowledge required for successful careers in civil engineering, while also preparing them to contribute to the infrastructure and development of society. We aim to build future leaders who are not only proficient in their field but also conscious of the role civil engineers play in sustainable development.`,
         image: hodImage
+        
     },
 ];
 
