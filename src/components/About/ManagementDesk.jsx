@@ -139,6 +139,7 @@ export default function MulCharts() {
             focusOnSelect={true}
             vertical={true}
             arrows={false}
+            
           >
             {desk.map((member, index) => (
               <div key={index} className="px-4 py-2 w-full h-full">

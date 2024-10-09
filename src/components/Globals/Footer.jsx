@@ -57,6 +57,7 @@ const Footer = () => {
                             <li><Link href="/contact-us">Grievances/Enquiry</Link></li>
                             <li><a href="https://drive.google.com/drive/folders/1zn_0Wid35r5DyfnCOsxcTrd0ZcZJ2FP1">Final Year 2023 Group Pictures</a></li>
                             <li><a href="https://www.sviet.org.in">NAAC</a></li>
+                            <li><Link href="/iste">ISTE Sviet Chapter</Link></li>
                         </ul>
                     </div>
                     {/* Resources section */}
