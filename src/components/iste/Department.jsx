@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Image from 'next/image';
 
 // Import images (assuming they are correctly imported or paths provided)
-import hodImage from '@/assets/placement/hod.jpg'; // Replace with actual path
+import hodImage from '../../assets/iste/Picsart_24-10-07_16-17-04-984.jpg'; // Replace with actual path
 import img3 from "../../assets/About/Managemwnt/vishal-sir2.jpg"
 import img7 from "../../assets/About/Managemwnt/ankur-sir2.jpg" // Replace with actual path
 
