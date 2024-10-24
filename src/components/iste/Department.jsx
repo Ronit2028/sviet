@@ -14,13 +14,13 @@ import img7 from "../../assets/About/Managemwnt/ankur-sir2.jpg" // Replace with 
 // Your cards data
 const cards = [
     {
-        title: "Leadership and Vision from the Desk of the Faculty Adviser",
+        title: "Guiding Excellence: Leadership Behind the Scenes",
         name: "Er. Ankur Gill",
         description: `As the Director of Operations at ISTE Swami Vivekanand Institute of Engineering and Technology, I am passionately committed to cultivating an environment of excellence, innovation, and growth within our institution. My focus is on delivering exceptional educational experiences and creating opportunities for our students to excel in their academic and professional pursuits. I am privileged to collaborate with a dedicated team of professionals who share a profound passion for academic advancement and student success. Our mission at ISTE SVIET is to empower students with the knowledge, skills, and values necessary to thrive in an ever-changing world. Together, we aspire to establish a dynamic ecosystem where creativity flourishes, ideas are nurtured, and aspirations are transformed into reality. I firmly believe that, with your unwavering support and commitment, ISTE Swami Vivekanand Institute of Engineering and Technology will continue to achieve remarkable milestones and uphold its reputation for excellence and distinction.`,
         image: img7
     },
     {
-        title: "Leadership and Strategy from the Desk of the Faculty Adviser",
+        title: "Strategic Vision: Leadership Working Behind the Scenes",
         name: "Er. Vishal Garg",
         description: `As the Director of Administration at ISTE Swami Vivekanand Institute of Engineering and Technology, I oversee the operational framework that enables our institute to run efficiently and effectively. My role is to ensure that our students and faculty have access to the best resources, facilities, and support systems, enabling them to thrive in an environment conducive to learning and innovation. Together, we are building an institution that stands at the forefront of educational excellence, with a focus on leadership, sustainability, and continuous improvement.`,
         image: img3
@@ -63,7 +63,7 @@ const DepartmentCarousel = () => {
         speed: 500,
         slidesToShow: 1, // Show one slide at a time due to the grid layout
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
     };
 
     return (
