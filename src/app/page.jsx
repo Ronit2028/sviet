@@ -13,6 +13,7 @@ import Testimonials from "@/components/LandingPage/Testimonials"
 import EventCarousel from "@/components/LandingPage/EventCarousel"
 import FeaturesSection16 from '@/components/LandingPage/FeaturesSection16'
 import BookReleaseWidget from '@/components/Globals/BookReleaseWidget'
+import HackathonPopup from '@/components/LandingPage/HackathonPopup'
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -35,6 +36,10 @@ export default function Home() {
   return (
 
     <main>
+    
+      <HackathonPopup/>
+     
+      
       <Header />
       <button className='bg-[#fea700] text-white px-2 py-1 fixed end-0 top-1/2 transform -translate-y-1/2 rotate-90' onClick={handleEnquireClick}>
         Enquire Now
@@ -47,6 +52,7 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
+            
             <BookReleaseWidget />
           </div>
         </div>

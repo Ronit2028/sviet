@@ -10,6 +10,7 @@ import Link from 'next/link';
 import backdrop from '@/assets/LandingPage/backdrop.jpg'
 import backdrop2 from '@/assets/LandingPage/backdrop-2.jpg'
 import backdrop3 from '@/assets/LandingPage/banner-3.jpg'
+import backdrop4 from '@/assets/landingPage/rdg.jpg'
 
 
 
@@ -29,6 +30,28 @@ const Header = () => {
     };
     console.log("Hello")
     const sectionData = [
+        <div key={0} className="h-auto md:h-[100vh] text-white flex items-center" style={{ backgroundImage: `url(${backdrop4.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
+  <div className="w-full h-full flex items-center py-12 bg-[#00000095]">
+    <div className="w-10/12 mx-auto flex flex-wrap items-center">
+      <div className="w-full md:w-1/2 py-12">
+        <p className="text-2xl lg:text-3xl font-bold w-4/5 mb-3 pb-3">
+          BharatTechXperience 2.0: Igniting the Future of Innovation and Technology
+        </p>
+        <p className="text-md lg:text-lg font-medium mt-3 mb-3 pb-3">
+          Join us in an immersive journey of tech exploration and groundbreaking solutions at BharatTechXperience 2.0, where minds meet to innovate for a sustainable tomorrow
+        </p>
+        <div className="flex gap-3 flex-wrap">
+          <Link href="https://bharat-tech.vercel.app/">
+            <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">Register Now</button>
+          </Link>
+          <Link href="/bharattechxperience-brochure.pdf">
+            <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">Download Brochure</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>,
         <div key={0} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
             <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>

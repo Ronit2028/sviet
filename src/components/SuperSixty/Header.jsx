@@ -14,7 +14,7 @@ const Header = () => {
             Programming for a Better Future, Today
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, aspernatur. lorem20
+          Programming is not just about writing code. It's about solving problems and creating possibilities
           </p>
         </div>
       </div>
