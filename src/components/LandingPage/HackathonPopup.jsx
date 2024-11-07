@@ -193,7 +193,7 @@ export default function HackathonPopup() {
                   className="flex justify-center"
                 >
                   <Link
-                    href="https://bharat-tech.vercel.app/"
+                    href="https://bharat-tech-xperience.theuniques.in/"
                     className="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium transition-all bg-[#fea700] rounded-full hover:bg-orange-600 text-white"
                   >
                     <span className="relative">Register Now</span>

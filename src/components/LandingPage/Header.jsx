@@ -41,7 +41,7 @@ const Header = () => {
           Join us in an immersive journey of tech exploration and groundbreaking solutions at BharatTechXperience 2.0, where minds meet to innovate for a sustainable tomorrow
         </p>
         <div className="flex gap-3 flex-wrap">
-          <Link href="https://bharat-tech.vercel.app/">
+          <Link href="https://bharat-tech-xperience.theuniques.in/">
             <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">Register Now</button>
           </Link>
           <Link href="/bharattechxperience-brochure.pdf">
