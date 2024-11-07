@@ -10,7 +10,7 @@ import Link from 'next/link';
 import backdrop from '@/assets/LandingPage/backdrop.jpg'
 import backdrop2 from '@/assets/LandingPage/backdrop-2.jpg'
 import backdrop3 from '@/assets/LandingPage/banner-3.jpg'
-import backdrop4 from '@/assets/landingPage/rdg.jpg'
+import backdrop4 from '@/assets/LandingPage/rdg.jpg'
 
 
 
