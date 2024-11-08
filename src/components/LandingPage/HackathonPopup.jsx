@@ -48,7 +48,7 @@ export default function HackathonPopup() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 flex items-end justify-end p-4 mr-16 bg-opacity-50"
+          className="fixed inset-0 z-40 flex items-start lg:mt-28  justify-end p-4 mr-16 bg-opacity-50 "
         >
           <motion.div
             className="relative w-full max-w-2xl overflow-hidden"
@@ -56,7 +56,7 @@ export default function HackathonPopup() {
             animate={{ scale: 1, y: 0 }}
             exit={{ scale: 0.8, y: 50 }}
           >
-            <div className="relative bg-black rounded-2xl overflow-hidden border border-gray-700 shadow-2xl">
+            <div className="relative bg-black rounded-2xl overflow-hidden border border-gray-700 shadow-2xl lg:h-[450px]">
               {/* Animated background */}
               <div className="absolute inset-0 overflow-hidden">
                 <motion.div
@@ -114,7 +114,7 @@ export default function HackathonPopup() {
                     </h2>
                     {/* <Globe className="text-blue-400 animate-spin-slow" size={32} /> */}
                   </div>
-                  <p className="text-gray-300 text-center">~Where Innovation Meets Tradition</p>
+                  <p className="text-gray-300 text-center lg:mt-[-20px]">~Where Innovation Meets Tradition</p>
                 </motion.div>
 
                 <motion.div
@@ -123,7 +123,7 @@ export default function HackathonPopup() {
                   transition={{ delay: 0.2 }}
                   className="text-center"
                 >
-                  <p className="text-lg text-gray-300">
+                  <p className="text-lg text-gray-300 lg:mt-[-20px]">
                     Empower Your Tech Dreams: Register for Bharat Tech Xperience Hackathon
                   </p>
                 </motion.div>
@@ -133,7 +133,7 @@ export default function HackathonPopup() {
                   initial={{ opacity: 0, scale: 0.5 }}
                   animate={{ opacity: 1, scale: 1 }}
                   transition={{ delay: 0.3 }}
-                  className="relative w-full p-6 rounded-xl bg-gray-900/80 backdrop-blur-sm overflow-hidden"
+                  className="relative w-full px-6 py-2 rounded-xl bg-gray-900/80 backdrop-blur-sm overflow-hidden"
                 >
                   {/* Background stars */}
                   {[...Array(20)].map((_, i) => (
@@ -151,7 +151,7 @@ export default function HackathonPopup() {
                   <motion.h3
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
-                    className="text-center text-xl text-gray-400 mb-4"
+                    className="text-center text-xl text-gray-400 mb-2"
                   >
                     STARTS IN
                   </motion.h3>

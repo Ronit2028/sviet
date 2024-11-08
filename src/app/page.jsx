@@ -14,6 +14,8 @@ import EventCarousel from "@/components/LandingPage/EventCarousel"
 import FeaturesSection16 from '@/components/LandingPage/FeaturesSection16'
 import BookReleaseWidget from '@/components/Globals/BookReleaseWidget'
 import HackathonPopup from '@/components/LandingPage/HackathonPopup'
+import EducationFairPopup from '@/components/LandingPage/EducationFairPopup'
+
 export default function Home() {
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -36,8 +38,10 @@ export default function Home() {
   return (
 
     <main>
-    
-      <HackathonPopup/>
+     <div>
+      <EducationFairPopup />
+      <HackathonPopup />
+    </div>
      
       
       <Header />
