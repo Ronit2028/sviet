@@ -17,7 +17,6 @@ import initiative from '@/assets/LandingPage/Chandigarh/GivingWings/init.jpg'
 import sporting from '@/assets/LandingPage/sports.webp'
 import international from '@/assets/LandingPage/Chandigarh/GivingWings/international.webp'
 import bannerImage from '@/assets/LandingPage/Chandigarh/GivingWings/banner.jpg'
-
 const GivingWings = () => {
     const collegeInformation = [
         {
@@ -53,6 +52,13 @@ const GivingWings = () => {
     ];
 
     const placementDriveInformation = [
+        {
+            "company": "TD Arora Feed Mills",
+            "date": "Nov 14, 2024",
+            "details": "This is information for MBA and BCA 2025 passing out students that TD Arora Feed Mills is conducting a placement drive.",
+            "link":"/TD_Arora_Feed_Mills.PDF"
+          },
+          
         {
             "company": "IDS INFOTECH LTD",
             "date": "Feb 4, 2024",
@@ -266,7 +272,7 @@ const GivingWings = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="w-full md:w-1/2">
+                    {/* <div className="w-full md:w-1/2">
                         <Slider {...settings2}>
                             {placementDriveInformation.map((info, index) => (
                                 <div key={index} className='lg:px-2 lg:mt-0 mt-6 h-full'>
@@ -283,7 +289,33 @@ const GivingWings = () => {
                                 </div>
                             ))}
                         </Slider>
-                    </div>
+                    </div> */}
+                    <div className="w-full md:w-1/2">
+  <Slider {...settings2}>
+    {placementDriveInformation.map((info, index) => (
+      <div key={index} className="lg:px-2 lg:mt-0 mt-6 h-full">
+        <div className="p-5 rounded-md flex flex-col h-[25vh] justify-between bg-white">
+          <div>
+            <h2 className="text-xl font-semibold">{info.company}</h2>
+            <p className="text-sm font-medium pt-3">{info.date}</p>
+            <p className="mt-2 text-xs text-justify">{info.details}</p>
+          </div>
+          <div>
+            <a 
+              href={info.link} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-[#fea700] font-medium rounded-sm flex items-center gap-1 cursor-pointer"
+            >
+              Know More <ChevronDoubleRightIcon className="h-4 w-4 font-bold" />
+            </a>
+          </div>
+        </div>
+      </div>
+    ))}
+  </Slider>
+</div>
+
                 </div>
             </div>
         </div>

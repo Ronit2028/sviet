@@ -40,7 +40,7 @@ export default function Home() {
     <main>
      <div>
       <EducationFairPopup />
-      <HackathonPopup />
+      {/* <HackathonPopup /> */}
     </div>
      
       
