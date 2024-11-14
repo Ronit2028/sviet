@@ -10,28 +10,28 @@ const SixtyAdv = () => {
     {
       title: "Specialized Curriculum",
       description: "The Super 60 Batch offers a specialized curriculum tailored to nurture and develop the talents of high-performing students.",
-      img: "https://media.licdn.com/dms/image/D5622AQETz9OJpgGVxg/feedshare-shrink_1280/0/1711544471819?e=1714608000&v=beta&t=lfHm9DOo2nGSq4b0v5OVzINHquEBigAyBtt6D0Rq0OY"
+      img: "https://utfs.io/f/nsz3ps3WUZRLzyYF026w5nBJDbr081ZY6IPvhC2OLgpSAqyo"
     },
     {
       title: "Exclusive Mentorship",
       description: "Students in the Super 60 Batch receive exclusive mentorship from top faculty members and industry experts, providing personalized guidance and support.",
-      img: "https://media.licdn.com/dms/image/D5622AQEy3qR8fcm0DQ/feedshare-shrink_2048_1536/0/1710241348417?e=1714608000&v=beta&t=IIz-2THOtDBUeARGRSulJRELm9CAm7Dd8mrbDnNKKP8"
+      img: "https://utfs.io/f/nsz3ps3WUZRLPhjwLml9grXehIqHVNuKBUE0LskYT2MDi3Zv"
     },
     {
       title: "Internship Opportunities",
       description: "Super 60 students gain priority access to coveted internship opportunities with leading companies, enhancing their practical skills and industry experience.",
-      img: "https://media.licdn.com/dms/image/D5622AQFXeS2BULDI1w/feedshare-shrink_1280/0/1706596179363?e=1714608000&v=beta&t=AC2AR6UHla_lU8iu-16ZHvKvH0CR9nM_dQQTl992m-M",
+      img: "https://utfs.io/f/0c57147f-d3a4-417c-bb71-280b3ced13b9-ks8lvh.00.11_af922b7e.jpg",
     },
     {
       title: "Career Development Programs",
       description: "The Super 60 Batch offers specialized career development programs designed to equip students with the skills and knowledge needed to excel in their chosen fields.",
-      img: "https://media.licdn.com/dms/image/D4D22AQG7W77Uudum7w/feedshare-shrink_2048_1536/0/1697104141024?e=1714608000&v=beta&t=tzujD0EfIbxyPGJNO8qdjvoYyJmHbS7ENjmMeFO15qw"
+      img: "https://utfs.io/f/9a08b157-a1bd-4310-b37e-b1582b2a156c-inzo76.jpg"
     }
 ];
 
   // Settings for React Slick Carousel
   const settings = {
-    infinite: false,
+    infinite: true,
     dots: true,
     autoplay: true,
     arrows: false,
@@ -72,8 +72,8 @@ const SixtyAdv = () => {
                 <div className="bg-white h-full  rounded-md text-[#00112d]" style={{ backgroundImage: `url(${reason.img})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                   <div className='bg-[#00000099]  p-6 text-white flex flex-col justify-end h-full'>
                     <div className="">
-                      <h3 className='text-2xl font-meium py-4'>{reason.title}</h3>
-                      <p>{reason.description}</p>
+                      <h3 className='text-2xl font-meium py-4 '>{reason.title}</h3>
+                      <p className='text-justify'>{reason.description}</p>
                     </div>
                   </div>
                 </div>
