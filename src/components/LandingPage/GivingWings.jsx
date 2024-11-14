@@ -50,14 +50,14 @@ const GivingWings = () => {
             description: "Special batches like TheUniques, SUPER-60 and ALLIED-30 assure 100% placement for students."
         }
     ];       
-    
+
 
     const placementDriveInformation = [
         {
             "company": "TD Arora Feed Mills",
             "date": "Nov 14, 2024",
             "details": "This is information for MBA and BCA 2025 passing out students that TD Arora Feed Mills is conducting a placement drive.",
-            "link":"/TD_Arora_Feed_Mills.PDF"
+            "link":"/TD_Arora_Feed_Mills.pdf"
           },
           
         {
