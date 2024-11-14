@@ -49,7 +49,8 @@ const GivingWings = () => {
             img: initiative.src,
             description: "Special batches like TheUniques, SUPER-60 and ALLIED-30 assure 100% placement for students."
         }
-    ];
+    ];       
+    
 
     const placementDriveInformation = [
         {
