@@ -265,11 +265,11 @@ const GivingWings = () => {
                     <div className="w-full md:w-1/2 text-white" style={{ backgroundImage: `url(${bannerImage.src})`, backgroundSize: "cover", backgroundPosition: "center center", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
                         <div className=' p-6 py-10 rounded-md flex flex-col justify-center w-full h-full bg-[#00112d91]'>
                             <p className='text-lg lg:text-2xl font-semibold mb-3'>
-                                Bringing the World to SVGOI
+                            Latest Updates & Announcements from SVGOI
 
                             </p>
                             <p className='text-sm lg:text-lg'>
-                            Discover the latest career opportunities with our insightful guidance, propelling you towards success in today's dynamic job market.
+                            Stay Updated on Admissions, Campus Events, Career Openings, and Exciting Placement Drives to Shape Your Future!
                             </p>
                         </div>
                     </div>
