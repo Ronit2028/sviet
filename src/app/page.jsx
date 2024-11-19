@@ -38,10 +38,10 @@ export default function Home() {
   return (
 
     <main>
-     <div>
+     {/* <div>
       <EducationFairPopup />
-      {/* <HackathonPopup /> */}
-    </div>
+      <HackathonPopup />
+    </div> */}
      
       
       <Header />
