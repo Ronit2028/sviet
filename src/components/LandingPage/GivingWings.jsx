@@ -54,6 +54,18 @@ const GivingWings = () => {
 
     const placementDriveInformation = [
         {
+            "company": "Ucertify Noida",
+            "date": "Confirm after registrations",
+            "details": "This is information for B. tech CSE, MCA 2025 Passing out Batch Students only that uCertify is conducting a placement drive.",
+            "link":"/ucertify noida.pdf"
+          },
+          {
+            "company": "Smart Data Enterprises",
+            "date": "Confirm after registrations",
+            "details": "This is information For B.Tech CSE, MCA, MBA(HR/Marketing) (2025 Passing out Batch Students) Students that Smart Data Enterprises (I) Ltd is conducting a placement drive.",
+            "link":"/Smart Data Enterprises.pdf"
+          },
+        {
             "company": "TD Arora Feed Mills",
             "date": "Nov 14, 2024",
             "details": "This is information for MBA and BCA 2025 passing out students that TD Arora Feed Mills is conducting a placement drive.",

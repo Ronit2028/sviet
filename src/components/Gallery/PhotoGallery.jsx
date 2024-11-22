@@ -93,131 +93,136 @@ import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid';
 const PhotoGallery = ({ type }) => {
     const galleries = [
         {
-            id: 1,
-            image: "https://utfs.io/f/f6b3783c-66de-4f32-a72b-9041fcc8472e-nm33wo.jpg",
-            event_name: "Admission Cell",
-            description: "Highlights from the Admission Cell event, featuring key interactions and moments.",
-            gallery: "https://drive.google.com/drive/folders/1iprDi-RduS1pYOmbnPR_BMniMvxEpyXp"
+            "id": 1,
+            "image": "https://utfs.io/f/f6b3783c-66de-4f32-a72b-9041fcc8472e-nm33wo.jpg",
+            "event_name": "Departments",
+            "description": "Snapshots from our departmental showcases, celebrating academic achievements and innovation.",
+            "gallery": "https://drive.google.com/drive/folders/1IIP7lgNbfdF4d0u6S_Vk-cfayPKsbPcp"
         },
         {
-            id: 2,
-            image: "https://utfs.io/f/a2b3518f-f8ab-4a5b-b5b5-93125c1f5509-dyxwz9.jpg",
-            event_name: "Applied Sciences",
-            description: "A gallery showcasing the Applied Sciences event through engaging photos.",
-            gallery: "https://drive.google.com/drive/folders/1WQ5a7_P_7F_6iKSfWptOr5QzREXfurND"
+            "id": 5,
+            "image": "https://utfs.io/f/db9bb4f9-5f2a-486a-b24e-c6a29435366a-w384cm.jpg",
+            "event_name": "Cultural Activities",
+            "description": "Relive the vibrant performances and cultural expressions that brought our campus alive.",
+            "gallery": "https://drive.google.com/drive/folders/1zU-sPLzkIMs8AQSG-A9Wcn3k0xxymXDF"
         },
         {
-            id: 3,
-            image: "https://utfs.io/f/fe06744e-ad97-4060-83b2-3a3c3255b5d9-2fq5wp.webp",
-            event_name: "Computer Application",
-            description: "Photos from the Computer Application event, featuring key moments and highlights.",
-            gallery: "https://drive.google.com/drive/folders/1hGhqU3Y0hUnMaLr-u2HFI2d7f6ozmjJv"
+            "id": 8,
+            "image": "https://utfs.io/f/d77d2e93-bb44-4f3d-8b8b-70651ff5f997-dgdqel.webp",
+            "event_name": "Events",
+            "description": "Memorable highlights from key events, capturing the excitement and engagement.",
+            "gallery": "https://drive.google.com/drive/folders/1rHGvNO9euB-YFSZEoSklV5W5EG9_1imP"
         },
         {
-            id: 4,
-            image: "https://utfs.io/f/a4b1c9a2-8777-4540-8e54-be2b2b311df6-rhz8j6.jpg",
-            event_name: "End Batch Pics",
-            description: "Highlights from the End Batch event, featuring memorable moments and activities.",
-            gallery: "https://drive.google.com/drive/folders/1q-SAZbnmSmu-x0TqMdni71nrrWr-3uR-"
+            "id": 14,
+            "image": "https://utfs.io/f/a72c45ff-5623-43b0-b64f-c7062d359205-nm33wo.jpg",
+            "event_name": "Campus Vibes",
+            "description": "A vibrant showcase of campus life, featuring candid moments and unique interactions.",
+            "gallery": "https://drive.google.com/drive/folders/1FqT3_5G8SLRbF1A6b_gz3He70_p9XJtv"
         },
         {
-            id: 5,
-            image: "https://utfs.io/f/db9bb4f9-5f2a-486a-b24e-c6a29435366a-w384cm.jpg",
-            event_name: "Festivals",
-            description: "A vibrant collection of images from the Festivals event, capturing the energy and spirit.",
-            gallery: "https://drive.google.com/drive/folders/1zU-sPLzkIMs8AQSG-A9Wcn3k0xxymXDF"
+            "id": 16,
+            "image": "https://utfs.io/f/f3179493-2246-445d-9fcf-77eb59db9293-x2mjo0.jpeg",
+            "event_name": "Sports",
+            "description": "Action-packed shots from our sports events, highlighting athleticism and teamwork.",
+            "gallery": "https://drive.google.com/drive/folders/1jEwfTiQ_mAOZjyd01qfVqgrCwWWdaYZD"
         },
         {
-            id: 6,
-            image: "https://utfs.io/f/ad8fe976-1465-45fc-8e3e-47fb03683c31-6yxgx9.jpg",
-            event_name: "Hotel Management",
-            description: "Visuals highlighting key moments from the Hotel Management event and its discussions.",
-            gallery: "https://drive.google.com/drive/folders/1VPVrYjp0UozIHaZ2zq8EBAZzZbbF2sJy"
-        },
-        {
-            id: 7,
-            image: "https://utfs.io/f/a0e87531-3145-4e21-a148-9a9ccfea56ba-41dn1d.jpg",
-            event_name: "International Department",
-            description: "Photos capturing the International Department event, showcasing global interactions.",
-            gallery: "https://drive.google.com/drive/folders/1Gcx2qjZuaM9EuuaEUX-LVqkXwZAU5FyQ"
-        },
-        {
-            id: 8,
-            image: "https://utfs.io/f/d77d2e93-bb44-4f3d-8b8b-70651ff5f997-dgdqel.webp",
-            event_name: "Major Events",
-            description: "Highlights from Major Events, featuring the most memorable moments.",
-            gallery: "https://drive.google.com/drive/folders/1kvSaVWFz3ryMdbtAqEHqLujgv39sGmpb"
-        },
-        {
-            id: 9,
-            image: "https://utfs.io/f/248bd660-bd89-48f9-a460-ffc3667458fa-nm33wo.jpg",
-            event_name: "Mom",
-            description: "Highlights from the Mom event, featuring key moments and special memories.",
-            gallery: "https://drive.google.com/drive/folders/1YjCrrzThetMmjQQ4_QBlgspCf_CJfEo5"
-        },
-        {
-            id: 10,
-            image: "https://utfs.io/f/d2c8a46f-9ca9-438b-83ed-9ecf8faaa39e-h50yev.jpg",
-            event_name: "MBA",
-            description: "A collection of images from the MBA event, showcasing key presentations and interactions.",
-            gallery: "https://drive.google.com/drive/folders/1hvJhAlE4nCj5pjJqe1qulztwbKSJqBuy"
-        },
-        {
-            id: 11,
-            image: "https://utfs.io/f/9a0f7feb-b766-42ad-a171-7f0fd5cd9d27-74edaw.webp",
-            event_name: "Paramedical Sciences",
-            description: "Photos from the Paramedical Sciences event, highlighting academic and practical sessions.",
-            gallery: "https://drive.google.com/drive/folders/1e0_Pat6UDCMw1CU0ZsQVTI6PeLlZBrR1"
-        },
-        {
-            id: 12,
-            image: "https://utfs.io/f/b7c865ef-f8a1-4cfc-9780-015320f8a6ba-qwm3k7.jpg",
-            event_name: "Pharmacy",
-            description: "A gallery of images from the Pharmacy event, showcasing educational and interactive sessions.",
-            gallery: "https://drive.google.com/drive/folders/1ac1Ge73BHwvahFCcjoPIRwA0dK1sYNfo"
-        },
-        {
-            id: 13,
-            image: "https://utfs.io/f/1252c9c2-3d91-4c17-ac43-6f88d806b249-jlo1ag.jpg",
-            event_name: "Radio Imaging Technology",
-            description: "Photos from the Radio Imaging Technology event, highlighting key moments and sessions.",
-            gallery: "https://drive.google.com/drive/folders/1moyMNb7Qix0UDHJi1t65FNcc-a3bUM6y"
-        },
-        {
-            id: 14,
-            image: "https://utfs.io/f/a72c45ff-5623-43b0-b64f-c7062d359205-nm33wo.jpg",
-            event_name: "Random 24",
-            description: "A gallery of random event photos, showcasing various interactions and moments.",
-            gallery: "https://drive.google.com/drive/folders/1UYEYYtA8fuW1yZbPCZI8Mr4FnWK3Ys9u"
-        },
-        {
-            id: 15,
-            image: "https://utfs.io/f/1765a327-6659-4f3e-8236-277dfd3d62b2-nm33wo.jpg",
-            event_name: "Reels 2024",
-            description: "Photos from Reels 2024, capturing key moments and activities.",
-            gallery: "https://drive.google.com/drive/folders/1UHMNK0Z_OZ8H7SbCms0CuBr780IWAqzT"
-        },
-        {
-            id: 16,
-            image: "https://utfs.io/f/f3179493-2246-445d-9fcf-77eb59db9293-x2mjo0.jpeg",
-            event_name: "Sports",
-            description: "Dynamic images from the Sports event, capturing the action and excitement.",
-            gallery: "https://drive.google.com/drive/folders/1jEwfTiQ_mAOZjyd01qfVqgrCwWWdaYZD"
-        },
-        {
-            id: 17,
-            image: "https://utfs.io/f/fb2f55ae-d5e4-4dac-af03-1a1e0280be12-lku8wk.jpg",
-            event_name: "Super 60",
-            description: "Highlights from the Super 60 event, showcasing key achievements and moments.",
-            gallery: "https://drive.google.com/drive/folders/1XFstOdtlzKnrh-7rTm7_xDpl2uGX7WP_"
-        },
-        {
-            id: 18,
-            image: "https://utfs.io/f/4e6ea4f6-7eb8-4c00-af72-4b34097df548-26ylxr.jpg",
-            event_name: "T&P",
-            description: "Visuals from the T&P event, focusing on training and placement activities.",
-            gallery: "https://drive.google.com/drive/folders/1WIyELewRoDhgCP3GNmgQXCg4o3BvJyTt"
+            "id": 18,
+            "image": "https://utfs.io/f/4e6ea4f6-7eb8-4c00-af72-4b34097df548-26ylxr.jpg",
+            "event_name": "T&P",
+            "description": "Capturing the essence of our Training & Placement activities, showcasing career-building opportunities.",
+            "gallery": "https://drive.google.com/drive/folders/1WIyELewRoDhgCP3GNmgQXCg4o3BvJyTt"
         }
+        // {
+        //     id: 2,
+        //     image: "https://utfs.io/f/a2b3518f-f8ab-4a5b-b5b5-93125c1f5509-dyxwz9.jpg",
+        //     event_name: "Applied Sciences",
+        //     description: "A gallery showcasing the Applied Sciences event through engaging photos.",
+        //     gallery: "https://drive.google.com/drive/folders/1WQ5a7_P_7F_6iKSfWptOr5QzREXfurND"
+        // },
+        // {
+        //     id: 3,
+        //     image: "https://utfs.io/f/fe06744e-ad97-4060-83b2-3a3c3255b5d9-2fq5wp.webp",
+        //     event_name: "Computer Application",
+        //     description: "Photos from the Computer Application event, featuring key moments and highlights.",
+        //     gallery: "https://drive.google.com/drive/folders/1hGhqU3Y0hUnMaLr-u2HFI2d7f6ozmjJv"
+        // },
+        // {
+        //     id: 4,
+        //     image: "https://utfs.io/f/a4b1c9a2-8777-4540-8e54-be2b2b311df6-rhz8j6.jpg",
+        //     event_name: "End Batch Pics",
+        //     description: "Highlights from the End Batch event, featuring memorable moments and activities.",
+        //     gallery: "https://drive.google.com/drive/folders/1q-SAZbnmSmu-x0TqMdni71nrrWr-3uR-"
+        // },
+        
+        // {
+        //     id: 6,
+        //     image: "https://utfs.io/f/ad8fe976-1465-45fc-8e3e-47fb03683c31-6yxgx9.jpg",
+        //     event_name: "Hotel Management",
+        //     description: "Visuals highlighting key moments from the Hotel Management event and its discussions.",
+        //     gallery: "https://drive.google.com/drive/folders/1VPVrYjp0UozIHaZ2zq8EBAZzZbbF2sJy"
+        // },
+        // {
+        //     id: 7,
+        //     image: "https://utfs.io/f/a0e87531-3145-4e21-a148-9a9ccfea56ba-41dn1d.jpg",
+        //     event_name: "International Department",
+        //     description: "Photos capturing the International Department event, showcasing global interactions.",
+        //     gallery: "https://drive.google.com/drive/folders/1Gcx2qjZuaM9EuuaEUX-LVqkXwZAU5FyQ"
+        // },
+        
+        // {
+        //     id: 9,
+        //     image: "https://utfs.io/f/248bd660-bd89-48f9-a460-ffc3667458fa-nm33wo.jpg",
+        //     event_name: "Mom",
+        //     description: "Highlights from the Mom event, featuring key moments and special memories.",
+        //     gallery: "https://drive.google.com/drive/folders/1YjCrrzThetMmjQQ4_QBlgspCf_CJfEo5"
+        // },
+        // {
+        //     id: 10,
+        //     image: "https://utfs.io/f/d2c8a46f-9ca9-438b-83ed-9ecf8faaa39e-h50yev.jpg",
+        //     event_name: "MBA",
+        //     description: "A collection of images from the MBA event, showcasing key presentations and interactions.",
+        //     gallery: "https://drive.google.com/drive/folders/1hvJhAlE4nCj5pjJqe1qulztwbKSJqBuy"
+        // },
+        // {
+        //     id: 11,
+        //     image: "https://utfs.io/f/9a0f7feb-b766-42ad-a171-7f0fd5cd9d27-74edaw.webp",
+        //     event_name: "Paramedical Sciences",
+        //     description: "Photos from the Paramedical Sciences event, highlighting academic and practical sessions.",
+        //     gallery: "https://drive.google.com/drive/folders/1e0_Pat6UDCMw1CU0ZsQVTI6PeLlZBrR1"
+        // },
+        // {
+        //     id: 12,
+        //     image: "https://utfs.io/f/b7c865ef-f8a1-4cfc-9780-015320f8a6ba-qwm3k7.jpg",
+        //     event_name: "Pharmacy",
+        //     description: "A gallery of images from the Pharmacy event, showcasing educational and interactive sessions.",
+        //     gallery: "https://drive.google.com/drive/folders/1ac1Ge73BHwvahFCcjoPIRwA0dK1sYNfo"
+        // },
+        // {
+        //     id: 13,
+        //     image: "https://utfs.io/f/1252c9c2-3d91-4c17-ac43-6f88d806b249-jlo1ag.jpg",
+        //     event_name: "Radio Imaging Technology",
+        //     description: "Photos from the Radio Imaging Technology event, highlighting key moments and sessions.",
+        //     gallery: "https://drive.google.com/drive/folders/1moyMNb7Qix0UDHJi1t65FNcc-a3bUM6y"
+        // },
+        
+        // {
+        //     id: 15,
+        //     image: "https://utfs.io/f/1765a327-6659-4f3e-8236-277dfd3d62b2-nm33wo.jpg",
+        //     event_name: "Reels 2024",
+        //     description: "Photos from Reels 2024, capturing key moments and activities.",
+        //     gallery: "https://drive.google.com/drive/folders/1UHMNK0Z_OZ8H7SbCms0CuBr780IWAqzT"
+        // },
+        
+        // {
+        //     id: 17,
+        //     image: "https://utfs.io/f/fb2f55ae-d5e4-4dac-af03-1a1e0280be12-lku8wk.jpg",
+        //     event_name: "Super 60",
+        //     description: "Highlights from the Super 60 event, showcasing key achievements and moments.",
+        //     gallery: "https://drive.google.com/drive/folders/1XFstOdtlzKnrh-7rTm7_xDpl2uGX7WP_"
+        // },
+        
     ];
     
     return (

@@ -59,7 +59,9 @@ const ChartYourPath = () => {
               </div>
             ))}
             <div>
+            <Link href="https://admission.sviet.ac.in/"> 
             <button className='bg-[#fea700] text-white text-xl px-2 ml-12  py-1 rounded-md h-[40%] w-[73%] '>Apply Now</button>
+            </Link>
             <p className='text-2xl font-semibold ml-12 mt-4 flex'>
             Why choose <span className='text-[#fea700] pl-2'>SVGOI </span>
             <ChevronDoubleRightIcon className='h-6 w-6 font-bold mt-1 ml-2 text-[#fea700]' />
