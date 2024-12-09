@@ -191,7 +191,7 @@ const placementDriveInformation = [
   {
     company: "Step2gen Technologies Pvt Ltd",
     date: "Dec 05 2024",
-    details: "This is information for B. Tech CSE (Non super 60 & Super 60 only), MCA  (2025 Passing out Batch Students only) that Step2gen Technologies is conducting a placement drive.",
+    details: "This is information for B. Tech CSE (Non super 60 & Super 60 only), MCA  (2025 Passing out Batch Students only) that Step2gen Technologies Pvt. Ltd is conducting a placement drive.",
     link: "/step.pdf",
   },
   {
