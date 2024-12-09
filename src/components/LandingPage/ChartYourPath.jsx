@@ -112,7 +112,7 @@ const ChartYourPath = () => {
       title: "We are International",
       description: "Our international collaborations open doors to global opportunities, offering exposure through exchange programs and partnerships with prestigious institutions worldwide.",
       link: "/international",
-      image: "https://sviet.org.in/wp-content/uploads/IMG_1545-scaled-1.jpg",
+      image: "https://utfs.io/f/d77d2e93-bb44-4f3d-8b8b-70651ff5f997-dgdqel.webp",
       overlay: "bg-blue-600",
       badge: "bg-blue-500"
     },
