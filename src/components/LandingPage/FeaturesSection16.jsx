@@ -20,15 +20,15 @@ export function FeatureSection16() {
         </Typography>
         <Typography
           color="blue-gray"
-          className="mb-4 !text-2xl font-bold lg:!text-4xl"
+          className="mb-4 !text-2xl font-bold lg:!text-4xl max-w-3xl mx-auto"
         >
-          Explore Why Chandigarh
+          Chandigarh: The Gateway to Excellence with SVIET
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto max-w-lg !text-gray-500"
+          className="mx-auto max-w-3xl !text-gray-500"
         >
-          Discover the unique features that make Chandigarh an ideal destination for education and growth.
+         Discover why Chandigarh is the perfect place to ignite your potential—offering a vibrant culture, endless opportunities, and an environment that nurtures success, just like SVIET!
         </Typography>
       </div>
       <div className="mb-8 container mx-auto grid lg:gap-x-8 gap-y-8 grid-cols-1 lg:grid-cols-3">

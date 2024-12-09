@@ -42,8 +42,8 @@ const SVIETinMedia = () => {
     };
 
     return (
-        <div className='py-12 my-10 w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5'>
-            <div className="py-10 w-full flex flex-col justify-center">
+        <div className='py-12 my-7 w-10/12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-5'>
+            <div className="py-10 w-full flex flex-col justify-start">
                 <p className="text-4xl pb-3 mb-3 font-semibold">
                     <span className="text-[#fea700]">
                         Discover  </span> the
@@ -51,10 +51,13 @@ const SVIETinMedia = () => {
                     Latest News and Insights
                 </p>
 
-                <p className='text-md text-gray-800 mt-3 text-justify'>
-                    Stay updated with our dynamic campus life, groundbreaking research endeavors, student achievements, and collaborations with industry leaders. Whether it's a campus event, academic breakthrough, or student success story, our media section captures the essence of SVIET's journey towards excellence.
+                <p className='text-md text-gray-800 mt-4 text-justify max-w-lg'>
+                Immerse yourself in the vibrant world of SVIET, where every day brings new milestones and stories of inspiration. From dynamic campus events to groundbreaking research and impactful student achievements, we showcase the essence of our thriving academic community.
+
+
                 </p>
-                <button className='text-lg text-white rounded-md bg-[#fea700] w-fit p-2 mt-5'>Know More</button>
+                <p className='text-md text-gray-800 mt-4 text-justify max-w-lg'>Explore our collaborations with industry leaders, celebrate academic breakthroughs, and witness the success stories that define SVIET’s journey towards excellence. Stay updated and be part of our ever-evolving narrative!</p>
+                <button className='text-lg text-white rounded-md bg-[#fea700] w-fit p-2 mt-10'>Know More</button>
             </div>
             <div className="w-full ">
                 <Slider {...settings}>

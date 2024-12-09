@@ -53,7 +53,7 @@ const Header = () => {
 //   </div>
 // </div>,
         <div key={0} className='h-auto md:h-[100vh] text-white flex items-center' style={{ backgroundImage: `url(${backdrop.src})`, backgroundSize: "cover", backgroundRepeat: "no-repeat", backgroundPosition: "center center" }}>
-            <div className='w-full h-full  flex items-center py-12 bg-[#00000095]'>
+            <div className='w-full h-full  flex items-center py-12 bg-[#00000095] '>
                 <div className='w-10/12 mx-auto flex flex-wrap items-center'>
                     <div className='w-full md:w-1/2 py-12'>
                         <p className='text-2xl lg:text-4xl font-bold w-4/5 mb-3 pb-3'>

@@ -26,7 +26,7 @@ function TestimonialCard({
     studentImage,
 }) {
     return (
-        <Card shadow={false} className="bg-gray-100/50 rounded-2xl p-6 py-6 w-[95%] h-[40vh] lg:h-[40vh] flex flex-col justify-between">
+        <Card shadow={false} className="bg-gray-100/50 shadow-md rounded-2xl p-6 py-6 w-[95%] h-[40vh] lg:h-[40vh] flex flex-col justify-between">
             <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'>
                 <Typography
                     color="blue-gray"
@@ -114,22 +114,22 @@ export function TestimonialSectionCarousel() {
     };
 
     return (
-        <section className="px-8 py-10 lg:py-28">
+        <section className="px-8 py-8 lg:py-10">
             <div className="w-10/12 mx-auto">
                 <Typography
                     variant="h2"
                     color="blue-gray"
-                    className="mb-4 !text-2xl lg:!text-4xl"
+                    className=" mt-8 mb-4 !text-2xl lg:!text-4xl"
                 >
                     Our Students Speak
                 </Typography>
                 <Typography
                     variant="lead"
-                    className="max-w-3xl !text-gray-500 mb-10 lg:mb-20"
+                    className="max-w-3xl !text-gray-500 mb-4 lg:mb-4"
                 >
                     Our Reviews Speak for Us
                 </Typography>
-                <Slider {...settings} className="py-12">
+                <Slider {...settings} className="py-8">
                     {testimonials.map((props, key) => (
                         <TestimonialCard key={key} {...props} />
                     ))}

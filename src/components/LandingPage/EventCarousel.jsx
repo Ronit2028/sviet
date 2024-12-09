@@ -96,8 +96,8 @@ const EventCarousel = () => {
                         </Slider>
                     </div>
                     <div className="text-start w-full lg:w-1/3 flex flex-col  lg:pl-16 justify-center  md:p-6">
-                        <h1 className="lg:text-5xl  text-3xl font-normal mb-4">Events & Happenings</h1>
-                        <p className="text-xl pb-4 font-semibold">
+                        <h1 className="lg:text-5xl  text-3xl font-normal mb-4">Events and Happenings</h1>
+                        <p className="text-xl pb-4 font-semibold text-justify">
                             Immerse Yourself in a Vibrant Tapestry of Campus Life, Where Every Moment Counts!
                         </p>
                         <p className="mb-4 text-justify">
