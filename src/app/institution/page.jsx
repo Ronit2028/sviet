@@ -5,7 +5,7 @@
 import React, { useState, useMemo } from 'react'
 import { motion } from 'framer-motion'
 import { Search, ChevronRight } from 'lucide-react'
-import Header from '@/components/institution/Header'
+import Header from '@/components/Institution/Header'
 
 
 
