@@ -26,7 +26,7 @@ function TestimonialCard({
     studentImage,
 }) {
     return (
-        <Card shadow={false} className="bg-gray-100/50 shadow-md rounded-2xl p-6 py-6 w-[95%] h-[40vh] lg:h-[40vh] flex flex-col justify-between">
+        <Card shadow={false} className="bg-gray-100 shadow-lg rounded-2xl p-6 py-6 w-[95%] h-[40vh] lg:h-[40vh] flex flex-col justify-between">
             <CardHeader color="transparent" floated={false} shadow={false} className='flex items-center'>
                 <Typography
                     color="blue-gray"

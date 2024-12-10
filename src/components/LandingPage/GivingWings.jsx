@@ -709,6 +709,18 @@ const Card = ({ className, ...props }) => (
 
   const placementDriveInformation = [
     {
+      company: "Bayatree Infocom",
+      date: "Dec 05 2024",
+      details: "This is information For B.Tech CSE (Super 60 & Non super 60), MCA 2025 Passing out Batch Students only) throughout Students that BayaTree Infocom (P) Ltd. is conducting a placement drive.",
+      link: "/Bayatree.pdf",
+    },
+    {
+      company: "Simson Softwares",
+      date: "Dec 05 2024",
+      details: "This is information for B. Tech CSE (Super 60 & Non super 60) (2025 batch passing out)  throughout Students that Simson Softwares Pvt. Ltd. is conducting a placement drive.",
+      link: "/Simson.pdf",
+    },
+    {
       company: "Step2gen Technologies Pvt Ltd",
       date: "Dec 05 2024",
       details: "This is information for B. Tech CSE (Non super 60 & Super 60 only), MCA  (2025 Passing out Batch Students only) that Step2gen Technologies is conducting a placement drive.",

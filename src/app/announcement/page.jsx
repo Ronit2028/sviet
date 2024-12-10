@@ -189,6 +189,18 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    company: "Bayatree Infocom",
+    date: "Confirm after registrations",
+    details: "This is information For B.Tech CSE (Super 60 & Non super 60), MCA 2025 Passing out Batch Students only) throughout Students that BayaTree Infocom (P) Ltd. is conducting a placement drive.",
+    link: "/Bayatree.pdf",
+  },
+  {
+    company: "Simson Softwares",
+    date: "Confirm after registrations",
+    details: "This is information for B. Tech CSE (Super 60 & Non super 60) (2025 batch passing out)  throughout Students that Simson Softwares Pvt. Ltd. is conducting a placement drive.",
+    link: "/Simson.pdf",
+  },
+  {
     company: "Step2gen Technologies Pvt Ltd",
     date: "Dec 05 2024",
     details: "This is information for B. Tech CSE (Non super 60 & Super 60 only), MCA  (2025 Passing out Batch Students only) that Step2gen Technologies Pvt. Ltd is conducting a placement drive.",
@@ -281,7 +293,7 @@ const Announcement = () => {
   const sortedAnnouncements = useMemo(() => {
     return [...placementDriveInformation].sort((a, b) => {
       if (a.date === "Confirm after registrations" || a.date === "Confirm after registration") return 1
-      if (b.date === "Confirm after registrations" || b.date === "Confirm after registration") return -1
+      if (b.date === "Confirm after registrations" || b.date === "Confirm after registration") return 1
       return new Date(b.date).getTime() - new Date(a.date).getTime()
     })
   }, [])
