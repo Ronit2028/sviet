@@ -189,6 +189,12 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    company: "Hitachi Astemo Gurugram Powertrain Systems Pvt. Ltd",
+    date: "Confirm after registrations",
+    details: "This is information •For Diploma ME & EE & ECE 2025 Passing out Batch Students only. throughout Students that Hitachi Astemo Gurugram Powertrain Systems Pvt. Ltd is conducting a placement drive.",
+    link: "/Hitachi.pdf",
+  },
+  {
     company: "Bayatree Infocom",
     date: "Confirm after registrations",
     details: "This is information For B.Tech CSE (Super 60 & Non super 60), MCA 2025 Passing out Batch Students only) throughout Students that BayaTree Infocom (P) Ltd. is conducting a placement drive.",
