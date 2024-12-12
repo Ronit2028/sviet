@@ -39,7 +39,7 @@ const Page = ({ params }) => {
                     ]
                 }
             },
-            committee:"/SVIET/SVIET Committees.pdf",
+            committee:"/SVIET/sviet-committee.pdf",
             md:"/SVIET/Mandatory-Disclosure-SVIET-1.pdf",
 
         },
@@ -290,7 +290,7 @@ const Page = ({ params }) => {
             <InstitutionHeader institute={institute ? institute.name : 'Unknown'} category={institute.category} />
             <InstitutionBestProgramm description={institute.description} />
             <InstitutionCourse programs={institute.programs} committee={institute.committee} md={institute.md} />
-            
+
         </>
     );
 };
