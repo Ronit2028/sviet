@@ -710,6 +710,12 @@ const Card = ({ className, ...props }) => (
 
   const placementDriveInformation = [
     {
+      company: "Vibcare Pharma Pvt. Ltd.",
+      date: "Confirm after registrations",
+      details: "This is information For B. pharmacy, BBA  2025 Passing out Batch Students only throughout Students that Vibcare Pharma Pvt. Ltd. is conducting a placement drive.",
+      link: "/Vibcare.pdf",
+    },
+    {
       company: "Hitachi Astemo Gurugram Powertrain Systems Pvt. Ltd",
       date: "Confirm after registrations",
       details: "This is information •For Diploma ME & EE & ECE 2025 Passing out Batch Students only. throughout Students that Hitachi Astemo Gurugram Powertrain Systems Pvt. Ltd is conducting a placement drive.",
