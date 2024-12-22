@@ -702,6 +702,7 @@ import initiative from "@/assets/LandingPage/Chandigarh/GivingWings/init.jpg";
 import sporting from "@/assets/LandingPage/sports.webp";
 import international from "@/assets/LandingPage/Chandigarh/GivingWings/international.webp";
 import bannerImage from "@/assets/LandingPage/Chandigarh/GivingWings/banner.jpg";
+import AboutUs from '../../components/LandingPage/AboutUs'
 
 const Card = ({ className, ...props }) => (
   <div className={`rounded-sm shadow-lg ${className}`} {...props} />
@@ -1053,7 +1054,7 @@ const GivingWings = () => {
             </div>
           </Card>
         </div>
-
+        <AboutUs />
         <div className="mt-16">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -1103,39 +1104,39 @@ const GivingWings = () => {
               <div className="w-full grid grid-cols-2 gap-5 lg:pt-0 pt-12">
                 <Card className="bg-white p-5 flex flex-col justify-center">
                   <p className="text-4xl mb-3 font-semibold">
-                    <CountUp end={3000} duration={2.5} />
+                    <CountUp end={35000} duration={2.5} suffix=" +" />
                   </p>
                   <p className="text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                    Offer Letters
+                  International Students
                   </p>
-                  <p className="font-medium mb-3 text-sm">Every Year</p>
+                  {/* <p className="font-medium mb-3 text-sm">Every Year</p> */}
                 </Card>
                 <Card className="bg-[#fea700] text-white p-5 flex flex-col justify-center">
                   <p className="text-4xl mb-3 font-semibold">
-                    <CountUp end={50} duration={2.5} suffix=" LPA" />
+                    <CountUp end={50000} duration={2.5} suffix=" +" />
                   </p>
                   <p className="text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                    Highest Package
+                  Full time students
                   </p>
-                  <p className="font-medium mb-3 text-sm">Offered</p>
+                  {/* <p className="font-medium mb-3 text-sm">Offered</p> */}
                 </Card>
                 <Card className="bg-[#fea700] text-white p-5 flex flex-col justify-center">
                   <p className="text-4xl mb-3 font-semibold">
-                    <CountUp end={350} duration={2.5} />
+                    <CountUp end={28} duration={2.5} />
                   </p>
                   <p className="text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                    Companies
+                    States
                   </p>
-                  <p className="font-medium mb-3 text-sm">Visit Per year</p>
+                  {/* <p className="font-medium mb-3 text-sm">Visit Per year</p> */}
                 </Card>
                 <Card className="bg-white p-5 flex flex-col justify-center">
                   <p className="text-4xl mb-3 font-semibold">
-                    <CountUp end={12000} duration={2.5} />
+                    <CountUp end={75} duration={2.5} suffix=" +"/>
                   </p>
                   <p className="text-lg font-medium py-1 w-fit mb-2 rounded-sm">
-                    Dreams
+                  Nationalities
                   </p>
-                  <p className="font-medium mb-3 text-sm">Fulfilled</p>
+                  {/* <p className="font-medium mb-3 text-sm">Fulfilled</p> */}
                 </Card>
               </div>
             </div>
