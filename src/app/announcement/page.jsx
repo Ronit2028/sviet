@@ -189,6 +189,12 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    company: "Pontika Aerotech Ltd.",
+    date: "Confirm after registrations",
+    details: "This is information for MBA, B. pharmacy 2025 Passing out Batch Students only. that Pontika Aerotech Ltd. is conducting a placement drive.",
+    link: "/Pontika.pdf",
+  },
+  {
     company: "Vibcare Pharma Pvt. Ltd.",
     date: "Confirm after registrations",
     details: "This is information For B. pharmacy, BBA  2025 Passing out Batch Students only throughout Students that Vibcare Pharma Pvt. Ltd. is conducting a placement drive.",

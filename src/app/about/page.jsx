@@ -9,7 +9,7 @@ import ManagementDesk from '../../components/About/ManagementDesk'
 import CampusExpirience from '../../components/About/CampusExpirience'
 import AboutHeader from '../../components/About/AboutHeader'
 import MissionVission from '../../components/About/MissionVission'
-
+import CurrentInitiative from '../../components/About/CurrentInitiative'
 
 const page = () => {
   return (
@@ -17,6 +17,7 @@ const page = () => {
       <AboutHeader />
       <AboutUs />
       <CampusExpirience />
+      <CurrentInitiative />
       <MissionVission />
       < ManagementDesk />
       {/* <Charts /> */}

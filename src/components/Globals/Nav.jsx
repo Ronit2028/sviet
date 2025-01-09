@@ -752,16 +752,19 @@ const navListAboutItems = [
     title: "What Is SVGOI",
     description:
       "We are committed to providing quality education and holistic development to our students, we strive to create an environment conducive to learning and innovation.",
+      link: "/about",
   },
   {
-    title: "Our Flag Bearers",
+    title: "From the Desk of Management",
     description:
       "They are dedicated professionals who are passionate about shaping the future of our students.",
+      link: "/management",
   },
   {
     title: "Our Vision and Mission",
     description:
       "Our vision is to be a global leader in education, research, and innovation.",
+      link: "/about",
   },
 ];
 
@@ -881,11 +884,67 @@ const navListGalleryItems = [
   },
 ];
 
+// function NavListAbout() {
+//   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+//   const renderItems = navListAboutItems.map(({ title, description }) => (
+//     <a href="/about" key={title}>
+//       <MenuItem>
+//         <Typography variant="h6" color="blue-gray" className="mb-1">
+//           {title}
+//         </Typography>
+//         <Typography variant="small" color="gray" className="font-normal">
+//           {description}
+//         </Typography>
+//       </MenuItem>
+//     </a>
+//   ));
+
+//   return (
+//     <React.Fragment>
+//       <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
+//         <MenuHandler>
+//           <Typography as="a" href="#" variant="small" className="font-normal text-md focus:bg-white">
+//             <MenuItem className="hidden items-center gap-2 font-medium text-blue-gray-900 lg:flex lg:rounded-full">
+//               <UserCircleIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+//               About{" "}
+//               <ChevronDownIcon
+//                 strokeWidth={2}
+//                 className={`h-3 w-3 transition-transform ${isMenuOpen ? "rotate-180" : ""
+//                   }`}
+//               />
+//             </MenuItem>
+//           </Typography>
+//         </MenuHandler>
+//         <MenuList className="hidden w-[36rem] grid-cols-7 gap-3 overflow-visible lg:grid">
+//           <Card
+//             color="blue"
+//             shadow={false}
+//             variant="gradient"
+//             className="col-span-3 grid h-full w-full place-items-center rounded-md"
+//           >
+//             <img src={about.src} alt="" srcSet="" />
+//           </Card>
+//           <ul className="col-span-4 flex w-full flex-col gap-1">
+//             {renderItems}
+//           </ul>
+//         </MenuList>
+//       </Menu>
+
+//       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
+//         <Link href="/about" className="flex items-center gap-2">
+//           <UserCircleIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
+//           About{" "}
+//         </Link>
+//       </MenuItem>
+//     </React.Fragment>
+//   );
+// }
 function NavListAbout() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const renderItems = navListAboutItems.map(({ title, description }) => (
-    <a href="/about" key={title}>
+  const renderItems = navListAboutItems.map(({ title, description, link }) => (
+    <a href={link} key={title}>
       <MenuItem>
         <Typography variant="h6" color="blue-gray" className="mb-1">
           {title}
@@ -901,14 +960,19 @@ function NavListAbout() {
     <React.Fragment>
       <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
         <MenuHandler>
-          <Typography as="a" href="#" variant="small" className="font-normal text-md focus:bg-white">
+          <Typography
+            as="a"
+            href="#"
+            variant="small"
+            className="font-normal text-md focus:bg-white"
+          >
             <MenuItem className="hidden items-center gap-2 font-medium text-blue-gray-900 lg:flex lg:rounded-full">
-              <UserCircleIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-              About{" "}
+              <UserCircleIcon className="h-[20px] w-[20px] text-blue-gray-500" /> About{" "}
               <ChevronDownIcon
                 strokeWidth={2}
-                className={`h-3 w-3 transition-transform ${isMenuOpen ? "rotate-180" : ""
-                  }`}
+                className={`h-3 w-3 transition-transform ${
+                  isMenuOpen ? "rotate-180" : ""
+                }`}
               />
             </MenuItem>
           </Typography>
@@ -922,21 +986,21 @@ function NavListAbout() {
           >
             <img src={about.src} alt="" srcSet="" />
           </Card>
-          <ul className="col-span-4 flex w-full flex-col gap-1">
-            {renderItems}
-          </ul>
+          <ul className="col-span-4 flex w-full flex-col gap-1">{renderItems}</ul>
         </MenuList>
       </Menu>
 
+      {/* Mobile View */}
       <MenuItem className="flex items-center gap-2 font-medium text-blue-gray-900 lg:hidden">
-        <Link href="/about" className="flex items-center gap-2">
-          <UserCircleIcon className="h-[20px] w-[20px] text-blue-gray-500" />{" "}
-          About{" "}
-        </Link>
+        <a href="/about" className="flex items-center gap-2">
+          <UserCircleIcon className="h-[20px] w-[20px] text-blue-gray-500" /> About{" "}
+        </a>
       </MenuItem>
     </React.Fragment>
   );
 }
+
+export default NavListAbout;
 
 function NavListPrograms() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);

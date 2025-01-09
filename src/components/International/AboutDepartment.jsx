@@ -17,7 +17,7 @@ const AboutDepartment = () => {
                         <p className="text-justify pt-6">
                             The Department of Interantional Affairs at SVGOI ensures that all the problems of these students will be sorted. Students seeking help can reach out to this department and can get help in terms of hostel and amenities, finding work, assistance in documentation, activities. We promise to sort all of the problems of the international students in a quick time, so that they have a comfortable stay in India.
                         </p>
-                        <Link href='/Int Fee structure.pdf'>
+                        <Link href='/int fee-structure.pdf'>
            <button className='bg-[#fea700] text-white rounded-md px-2 py-1 mt-10'>
                 Download Fee Structure
             </button>

@@ -1,317 +1,6 @@
 const data = [
-    // M.TECH
-    {
-        "id": 6,
-        "course_name": "M.Tech",
-        event_type: "Engineering",
-        "header": {
-            "title": "Master in Computer Science & Engineering ",
-            "subtitle": "IGNITE INNOVATION AND RESEARCH",
-            "background_image": "../Courses/MTech/cse/Header.jpg"
-
-        },
-        "program_name": "M.Tech in Computer Science and Engineering (M.Tech CSE)",
-        "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
-        "fees": "37,500/-INR Per Semester",
-        "duration": "2 years",
-        "major_tracks": [
-            "Data Science",
-            "Software Development",
-            "Machine Learning",
-            "Cloud Computing",
-            "Networking"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Data Scientist",
-                "desc": "M.Tech CSE graduates specializing in artificial intelligence (AI) can work as AI engineers, developing AI-based systems, algorithms, and models for various applications.",
-                "image": "../Courses/MTech/cse/data.jpg"
-            },
-            {
-                "title": "Intelligence Engineer",
-                "desc": "Graduates can pursue research roles, working in research organizations, universities, or corporate R&D labs, contributing to advancements in computer science and engineering through innovative research.",
-                "image": "../Courses/MTech/cse/intelligence.avif"
-            },
-            {
-                "title": "Research Scientist",
-                "desc": "With their strong technical skills and domain knowledge, M.Tech CSE graduates can work as technology consultants, providing expert advice and solutions to businesses on implementing and optimizing technology systems.",
-                "image": "../Courses/MTech/cse/research.jpg"
-            },
-            {
-                "title": "Cybersecurity Analyst",
-                "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
-                "image": "../Courses/Mtech/cse/cybersecurity.avif"
-            }
-        ],
-
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
-        },
-        "affiliation": {
-            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-            "approved_by": "Approved by AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Advanced Education: Specialization in computer science and engineering.",
-            "Theoretical and Practical Knowledge: Deeper understanding of core concepts and hands-on experience.",
-            "Specialized Areas: Focus on areas like algorithms, data structures, software engineering, artificial intelligence, machine learning, etc.",
-            "Research Opportunities: Opportunities for research and development.",
-            "Flexible Curriculum: Combination of core and elective courses.",
-            "Thesis Component: Option to conduct research and make original contributions.",
-            "Industry Relevance: Curriculum designed to meet industry demands.",
-            "Career Advancement: Preparation for advanced careers in technology and academia."
-        ],
-        "labs": [
-            {
-                "title": "Networking Lab",
-                "description": "Explore networking concepts and protocols in a hands-on environment.",
-                "image": "../Courses/BTech/cse/lab/networking.jpg"
-            },
-            {
-                "title": "Database Management Lab",
-                "description": "Practice database design, implementation, and management techniques.",
-                "image": "../Courses/BTech/cse/lab/database.jpg"
-            },
-            {
-                "title": "Software Development Lab",
-                "description": "Develop and test software applications using industry-standard tools and methodologies.",
-                "image": "../Courses/BTech/cse/lab/development.jpg"
-            }
-        ]
-    },
-    {
-        "id": 7,
-        "course_name": "M.Tech",
-        event_type: "Engineering",
-        "header": {
-            "title": "M.Tech - Electronics & Communication Engineering",
-            "subtitle": "ELEVATE YOUR EXPERTISE IN",
-            "background_image": "../Courses/MTech/ee/Header.jpg"
-        },
-        "program_name": "M.Tech in Electronics & Communication Engineering (M.Tech ECE)",
-        "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Power Systems",
-            "Renewable Energy",
-            "Control Systems",
-            "Electronics",
-            "Communication"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Research Scientist",
-                "desc": "With your technical expertise and management skills, you can take up roles as a project manager. You would be responsible for leading and coordinating teams, managing budgets and timelines, and ensuring the successful execution of projects in the electronics and communication domain.",
-                "image": "../Courses/MTech/ee/research.jpg"
-            },
-            {
-                "title": "Electronics Engineer",
-                "desc": "You can work as an electronics engineer, designing, developing, and testing electronic components, devices, and systems. This can include working on circuit design, PCB layout, embedded systems, and product development.",
-                "image": "../Courses/MTech/ee/electronics.jpg"
-            },
-            {
-                "title": "Communication Engineer",
-                "desc": "With expertise in communication systems, you can work on designing and implementing wireless and wired communication networks, protocols, and technologies. This can involve working with telecommunications companies, network providers, or in the research and development of communication systems.",
-                "image": "../Courses/MTech/ee/comms.jpg"
-            },
-            {
-                "title": "VLSI Design Engineer",
-                "desc": "Very Large-Scale Integration (VLSI) design engineers are responsible for designing and testing integrated circuits and chips. You can work in the semiconductor industry, designing and optimizing complex digital and analog integrated circuits.",
-                "image": "../Courses/MTech/ee/vlsi.jpg"
-            },
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
-        },
-        "affiliation": {
-            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-            "approved_by": "Approved by AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Advanced Knowledge and Skills: Specialization in electronics and communication engineering.",
-            "Wide Range of Subjects: Covering areas such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more.",
-            "Theoretical Study and Practical Experience: Combining coursework, laboratory work, and research projects.",
-            "Focus on Advanced Technologies: Learning about industry-standard tools and methodologies.",
-            "Problem-Solving and Research Skills: Developing critical thinking and research abilities.",
-            "Career Opportunities: Preparation for careers in electronics and communication engineering and technological innovation."
-        ],
-        "labs": [
-            {
-                "title": "Digital Signal Processing Lab",
-                "description": "Experiment with digital signal processing techniques and algorithms.",
-                "image": "../Courses/BTech/ece/lab/signal.jpg"
-            },
-            {
-                "title": "Microelectronics Lab",
-                "description": "Design and fabricate microelectronic devices and circuits.",
-                "image": "../Courses/BTech/ece/lab/process.jpg"
-            },
-            {
-                "title": "VLSI Design Lab",
-                "description": "Design and simulate Very Large Scale Integration (VLSI) circuits.",
-                "image": "../Courses/BTech/ece/lab/electron.jpg"
-            }
-        ]
-    },
-    {
-        "id": 8,
-        "course_name": "M.Tech",
-        event_type: "Engineering",
-        "header": {
-            "title": "M.Tech - Civil Engineering",
-            "subtitle": "BUILD THE FUTURE WITH",
-            "background_image": "../Courses/MTech/civil/header.avif"
-        },
-        "program_name": "M.Tech in Civil Engineering (M.Tech Civil)",
-        "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
-        "fees": "TBD (To Be Disclosed)",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Structural Engineering",
-            "Geotechnical Engineering",
-            "Transportation Engineering",
-            "Environmental Engineering",
-            "Construction Management"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Structural Engineer",
-                "desc": "Master the skills to design and analyze structural elements and systems for various types of infrastructure projects.",
-                "image": "../Courses/MTech/civil/structural.avif"
-            },
-            {
-                "title": "Geotechnical Engineer",
-                "desc": "Specialize in soil mechanics and foundation engineering to ensure the stability and safety of civil structures.",
-                "image": "../Courses/MTech/civil/geo.jpg"
-            },
-            {
-                "title": "Transportation Engineer",
-                "desc": "Design efficient transportation systems and infrastructure to meet the growing demands of urban and rural areas.",
-                "image": "../Courses/MTech/civil/transport.jpg"
-            },
-            {
-                "title": "Construction Manager",
-                "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
-                "image": "../Courses/MTech/civil/manager.avif"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
-        },
-        "affiliation": {
-            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-            "approved_by": "Approved by AICTE"
-        },
-        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Specialized Education: Focus on various fields of civil engineering including structural, geotechnical, transportation, and environmental engineering.",
-            "Practical Experience: Hands-on training through laboratory work, field visits, and project assignments.",
-            "Application of Engineering Principles: Use modern tools and technologies to solve complex problems in civil engineering.",
-            "Sustainable Development: Emphasize sustainable practices and solutions for infrastructure development and environmental protection.",
-            "Career Opportunities: Prepare graduates for careers in design, construction, project management, research, and consultancy."
-        ],
-        "labs": [
-            {
-                "title": "Structural Engineering Lab",
-                "description": "Experiment with structural elements and systems to understand their behavior and performance.",
-                "image": "../Courses/BTech/civil/lab/structural.jpg"
-            },
-            {
-                "title": "Geotechnical Engineering Lab",
-                "description": "Study soil properties and behavior to assess the stability and bearing capacity of foundations.",
-                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
-            },
-            {
-                "title": "Transportation Engineering Lab",
-                "description": "Analyze traffic flow, design road networks, and evaluate transportation systems.",
-                "image": "../Courses/BTech/civil/lab/transport.jpg"
-            }
-        ]
-    },
-    {
-        "id": 499,
-        "course_name": "M.Tech",
-        "event_type": "Engineering",
-        "header": {
-            "title": "Mechanical Engineering",
-            "subtitle": "ADVANCE YOUR EXPERTISE WITH",
-            "background_image": "../Courses/BTech/me/MEheader.jpg"
-        },
-        "program_name": "M.Tech in Mechanical Engineering (M.Tech ME)",
-        "program_description": "M.Tech in ME refers to Master of Technology in Mechanical Engineering. It is a postgraduate degree program that focuses on the advanced study of mechanical systems, their design, analysis, and optimization. Students pursuing M.Tech ME gain an in-depth understanding of core engineering principles, mathematics, and physics, along with specialized knowledge in areas such as advanced thermodynamics, computational fluid dynamics, advanced materials science, mechanics, and machine design. The program equips students with the skills required to design, analyze, and develop complex mechanical systems, ranging from engines and machinery to power plants and robotics. It emphasizes advanced problem-solving, critical thinking, and hands-on experience through laboratory work, research projects, and internships. Students learn how to apply engineering principles to address complex real-world challenges, optimize performance, and enhance efficiency. Throughout the M.Tech ME program, students also develop strong computational and analytical skills, using advanced software tools and simulations to model and analyze mechanical systems. They gain practical knowledge through workshops, industrial visits, and industry collaborations, fostering a deeper understanding of industry practices and standards. Overall, M.Tech ME provides a solid foundation in advanced mechanical engineering principles and prepares students for a wide range of career opportunities in the dynamic field of engineering and technology.",
-        "fees": "75,000 INR",
-        "duration": "2 Years",
-        "major_tracks": [
-            "Advanced Thermodynamics",
-            "Computational Fluid Dynamics",
-            "Advanced Materials Science",
-            "Mechanics",
-            "Machine Design"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Mechanical Engineer",
-                "desc": "Develop expertise in designing, analyzing, and manufacturing advanced mechanical systems and components.",
-                "image": "../Courses/BTech/me/mec.png"
-            },
-            {
-                "title": "Product Design Engineer",
-                "desc": "Specialize in creating innovative and functional designs for advanced mechanical products and systems.",
-                "image": "../Courses/BTech/me/prd.png"
-            },
-            {
-                "title": "Manufacturing Engineer",
-                "desc": "Focus on optimizing advanced production processes, reducing costs, and ensuring product quality in various industries.",
-                "image": "../Courses/BTech/me/image.png"
-            },
-            {
-                "title": "Quality Engineer",
-                "desc": "Maintain product quality and adherence to standards through the development and implementation of advanced quality control processes and inspections.",
-                "image": "../Courses/BTech/me/quality.png"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Students who have completed a B.Tech degree in Mechanical Engineering or a related field with a minimum of 60% marks or equivalent CGPA."
-        },
-        "affiliation": {
-            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-            "approved_by": "Approved by AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "program_highlights": [
-            "Advanced Learning: In-depth understanding of mechanical engineering principles.",
-            "Research Focus: Comprehensive research projects and thesis work.",
-            "Industry Ready: Six-month industry internship for real-world experience.",
-            "Global Exposure: National and international immersion programs.",
-            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
-            "Beyond Academics: Essential skill development through workshops.",
-            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
-            "Expert Learning: Renowned faculty and industry guest speakers.",
-            "Master the Latest Technologies: In-demand skills in advanced thermodynamics, computational fluid dynamics, advanced materials science, mechanics, machine design, and more."
-        ],
-        "labs": [
-            {
-                "title": "Thermodynamics Lab",
-                "description": "Experiment with advanced thermodynamic principles and study heat transfer phenomena.",
-                "image": "../Courses/BTech/me/lab/thermo.jpg"
-            },
-            {
-                "title": "Machine Design Lab",
-                "description": "Apply advanced engineering design principles to create and analyze complex machine components.",
-                "image": "../Courses/BTech/me/lab/machine.jpg"
-            },
-            {
-                "title": "Robotics Lab",
-                "description": "Design and program advanced robotic systems to perform various tasks and operations.",
-                "image": "../Courses/BTech/me/lab/robotics.jpg"
-            }
-        ]
-    },
-    // B.TECH
-    {
+      // B.TECH
+      {
         "id": 1,
         // for key
         "course_name": "B.Tech",
@@ -712,8 +401,399 @@ const data = [
             }
         ]
     },
+    
+    // M.TECH
+    {
+        "id": 6,
+        "course_name": "M.Tech",
+        event_type: "Engineering",
+        "header": {
+            "title": "Master in Computer Science & Engineering ",
+            "subtitle": "IGNITE INNOVATION AND RESEARCH",
+            "background_image": "../Courses/MTech/cse/Header.jpg"
+
+        },
+        "program_name": "M.Tech in Computer Science and Engineering (M.Tech CSE)",
+        "program_description": "M.Tech in Computer Science and Engineering (CSE) is a postgraduate program that offers advanced education and specialization in the field of computer science and engineering. It is designed to provide students with a deeper understanding of the theoretical and practical aspects of computer science, as well as specialized knowledge in areas such as algorithms, data structures, software engineering, artificial intelligence, machine learning, and more. The M.Tech CSE program is suitable for individuals who have a strong foundation in computer science and wish to enhance their expertise in specific areas or pursue research and development opportunities. It equips students with the necessary skills and knowledge to tackle complex challenges in the field of computer science and contribute to advancements in technology. The curriculum of an M.Tech CSE program typically includes a combination of core courses, elective courses, and a research or thesis component. Core courses cover fundamental topics in computer science and engineering, while elective courses allow students to specialize in specific areas based on their interests and career goals. The research or thesis component gives students the opportunity to conduct in-depth research in a chosen area and make original contributions to the field.",
+        "fees": "37,500/-INR Per Semester",
+        "duration": "2 years",
+        "major_tracks": [
+            "Data Science",
+            "Software Development",
+            "Machine Learning",
+            "Cloud Computing",
+            "Networking"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Data Scientist",
+                "desc": "M.Tech CSE graduates specializing in artificial intelligence (AI) can work as AI engineers, developing AI-based systems, algorithms, and models for various applications.",
+                "image": "../Courses/MTech/cse/data.jpg"
+            },
+            {
+                "title": "Intelligence Engineer",
+                "desc": "Graduates can pursue research roles, working in research organizations, universities, or corporate R&D labs, contributing to advancements in computer science and engineering through innovative research.",
+                "image": "../Courses/MTech/cse/intelligence.avif"
+            },
+            {
+                "title": "Research Scientist",
+                "desc": "With their strong technical skills and domain knowledge, M.Tech CSE graduates can work as technology consultants, providing expert advice and solutions to businesses on implementing and optimizing technology systems.",
+                "image": "../Courses/MTech/cse/research.jpg"
+            },
+            {
+                "title": "Cybersecurity Analyst",
+                "desc": "M.Tech CSE graduates can work as systems architects, designing and overseeing the development of complex computer systems and networks.",
+                "image": "../Courses/Mtech/cse/cybersecurity.avif"
+            }
+        ],
+
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have a Bachelor's degree in Computer Science and Engineering or a related field with a minimum aggregate of 50% marks (45% for reserved categories) from a recognized university."
+        },
+        "affiliation": {
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
+        },
+        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Advanced Education: Specialization in computer science and engineering.",
+            "Theoretical and Practical Knowledge: Deeper understanding of core concepts and hands-on experience.",
+            "Specialized Areas: Focus on areas like algorithms, data structures, software engineering, artificial intelligence, machine learning, etc.",
+            "Research Opportunities: Opportunities for research and development.",
+            "Flexible Curriculum: Combination of core and elective courses.",
+            "Thesis Component: Option to conduct research and make original contributions.",
+            "Industry Relevance: Curriculum designed to meet industry demands.",
+            "Career Advancement: Preparation for advanced careers in technology and academia."
+        ],
+        "labs": [
+            {
+                "title": "Networking Lab",
+                "description": "Explore networking concepts and protocols in a hands-on environment.",
+                "image": "../Courses/BTech/cse/lab/networking.jpg"
+            },
+            {
+                "title": "Database Management Lab",
+                "description": "Practice database design, implementation, and management techniques.",
+                "image": "../Courses/BTech/cse/lab/database.jpg"
+            },
+            {
+                "title": "Software Development Lab",
+                "description": "Develop and test software applications using industry-standard tools and methodologies.",
+                "image": "../Courses/BTech/cse/lab/development.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "course_name": "M.Tech",
+        event_type: "Engineering",
+        "header": {
+            "title": "M.Tech - Electronics & Communication Engineering",
+            "subtitle": "ELEVATE YOUR EXPERTISE IN",
+            "background_image": "../Courses/MTech/ee/Header.jpg"
+        },
+        "program_name": "M.Tech in Electronics & Communication Engineering (M.Tech ECE)",
+        "program_description": "M.Tech in ECE refers to a Master of Technology in Electronics and Communication Engineering. It is a postgraduate program that provides advanced knowledge and skills in the field of electronics and communication. The M.Tech ECE program typically covers a wide range of subjects such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more. The coursework combines theoretical study, practical laboratory work, and research projects. During the program, students gain a deeper understanding of the principles, concepts, and applications of electronics and communication engineering. They learn about advanced technologies, design methodologies, and tools used in the industry. The curriculum also focuses on problem-solving, critical thinking, and research skills. Overall, M.Tech ECE equips students with the knowledge and expertise to pursue careers in the rapidly advancing field of electronics and communication engineering and contribute to technological advancements and innovation.",
+        "fees": "TBD (To Be Disclosed)",
+        "duration": "2 Years",
+        "major_tracks": [
+            "Power Systems",
+            "Renewable Energy",
+            "Control Systems",
+            "Electronics",
+            "Communication"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Research Scientist",
+                "desc": "With your technical expertise and management skills, you can take up roles as a project manager. You would be responsible for leading and coordinating teams, managing budgets and timelines, and ensuring the successful execution of projects in the electronics and communication domain.",
+                "image": "../Courses/MTech/ee/research.jpg"
+            },
+            {
+                "title": "Electronics Engineer",
+                "desc": "You can work as an electronics engineer, designing, developing, and testing electronic components, devices, and systems. This can include working on circuit design, PCB layout, embedded systems, and product development.",
+                "image": "../Courses/MTech/ee/electronics.jpg"
+            },
+            {
+                "title": "Communication Engineer",
+                "desc": "With expertise in communication systems, you can work on designing and implementing wireless and wired communication networks, protocols, and technologies. This can involve working with telecommunications companies, network providers, or in the research and development of communication systems.",
+                "image": "../Courses/MTech/ee/comms.jpg"
+            },
+            {
+                "title": "VLSI Design Engineer",
+                "desc": "Very Large-Scale Integration (VLSI) design engineers are responsible for designing and testing integrated circuits and chips. You can work in the semiconductor industry, designing and optimizing complex digital and analog integrated circuits.",
+                "image": "../Courses/MTech/ee/vlsi.jpg"
+            },
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates who have passed B.E/B.Tech with at least 50% (45% in case of reserved category) marks in aggregate and valid GATE Score shall be eligible to apply for M.Tech Course. Admission for 85% Seats for residents of Punjab and 15% seats for outsiders shall be made strictly on the basis of valid GATE score."
+        },
+        "affiliation": {
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
+        },
+        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Advanced Knowledge and Skills: Specialization in electronics and communication engineering.",
+            "Wide Range of Subjects: Covering areas such as digital signal processing, microelectronics, VLSI design, communication systems, microwave engineering, embedded systems, and more.",
+            "Theoretical Study and Practical Experience: Combining coursework, laboratory work, and research projects.",
+            "Focus on Advanced Technologies: Learning about industry-standard tools and methodologies.",
+            "Problem-Solving and Research Skills: Developing critical thinking and research abilities.",
+            "Career Opportunities: Preparation for careers in electronics and communication engineering and technological innovation."
+        ],
+        "labs": [
+            {
+                "title": "Digital Signal Processing Lab",
+                "description": "Experiment with digital signal processing techniques and algorithms.",
+                "image": "../Courses/BTech/ece/lab/signal.jpg"
+            },
+            {
+                "title": "Microelectronics Lab",
+                "description": "Design and fabricate microelectronic devices and circuits.",
+                "image": "../Courses/BTech/ece/lab/process.jpg"
+            },
+            {
+                "title": "VLSI Design Lab",
+                "description": "Design and simulate Very Large Scale Integration (VLSI) circuits.",
+                "image": "../Courses/BTech/ece/lab/electron.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "course_name": "M.Tech",
+        event_type: "Engineering",
+        "header": {
+            "title": "M.Tech - Civil Engineering",
+            "subtitle": "BUILD THE FUTURE WITH",
+            "background_image": "../Courses/MTech/civil/header.avif"
+        },
+        "program_name": "M.Tech in Civil Engineering (M.Tech Civil)",
+        "program_description": "M.Tech in Civil Engineering is a postgraduate program that offers specialized education and training in various fields of civil engineering. It focuses on advanced concepts and techniques related to the planning, design, construction, and maintenance of infrastructure projects such as buildings, bridges, roads, dams, and water supply systems. The curriculum covers a wide range of subjects including structural engineering, geotechnical engineering, transportation engineering, environmental engineering, and construction management. Students gain practical experience through laboratory work, field visits, and project assignments. The program emphasizes the application of engineering principles, mathematical analysis, and modern tools and technologies to solve complex problems in civil engineering. Graduates of M.Tech Civil Engineering are equipped with the knowledge and skills to address current and future challenges in the field, contribute to sustainable development, and make significant contributions to society.",
+        "fees": "TBD (To Be Disclosed)",
+        "duration": "2 Years",
+        "major_tracks": [
+            "Structural Engineering",
+            "Geotechnical Engineering",
+            "Transportation Engineering",
+            "Environmental Engineering",
+            "Construction Management"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Structural Engineer",
+                "desc": "Master the skills to design and analyze structural elements and systems for various types of infrastructure projects.",
+                "image": "../Courses/MTech/civil/structural.avif"
+            },
+            {
+                "title": "Geotechnical Engineer",
+                "desc": "Specialize in soil mechanics and foundation engineering to ensure the stability and safety of civil structures.",
+                "image": "../Courses/MTech/civil/geo.jpg"
+            },
+            {
+                "title": "Transportation Engineer",
+                "desc": "Design efficient transportation systems and infrastructure to meet the growing demands of urban and rural areas.",
+                "image": "../Courses/MTech/civil/transport.jpg"
+            },
+            {
+                "title": "Construction Manager",
+                "desc": "Oversee construction projects from planning to execution, ensuring quality, safety, and adherence to schedules and budgets.",
+                "image": "../Courses/MTech/civil/manager.avif"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Candidates must have a Bachelor's degree in Civil Engineering or a related field with at least 50% marks (45% for reserved category) in aggregate from a recognized university."
+        },
+        "affiliation": {
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
+        },
+        "mode_of_admission": "Admission is typically based on entrance exams and/or academic performance. Candidates must apply through the designated admission portal.",
+        "program_highlights": [
+            "Specialized Education: Focus on various fields of civil engineering including structural, geotechnical, transportation, and environmental engineering.",
+            "Practical Experience: Hands-on training through laboratory work, field visits, and project assignments.",
+            "Application of Engineering Principles: Use modern tools and technologies to solve complex problems in civil engineering.",
+            "Sustainable Development: Emphasize sustainable practices and solutions for infrastructure development and environmental protection.",
+            "Career Opportunities: Prepare graduates for careers in design, construction, project management, research, and consultancy."
+        ],
+        "labs": [
+            {
+                "title": "Structural Engineering Lab",
+                "description": "Experiment with structural elements and systems to understand their behavior and performance.",
+                "image": "../Courses/BTech/civil/lab/structural.jpg"
+            },
+            {
+                "title": "Geotechnical Engineering Lab",
+                "description": "Study soil properties and behavior to assess the stability and bearing capacity of foundations.",
+                "image": "../Courses/BTech/civil/lab/geometrical.jpg"
+            },
+            {
+                "title": "Transportation Engineering Lab",
+                "description": "Analyze traffic flow, design road networks, and evaluate transportation systems.",
+                "image": "../Courses/BTech/civil/lab/transport.jpg"
+            }
+        ]
+    },
+    {
+        "id": 499,
+        "course_name": "M.Tech",
+        "event_type": "Engineering",
+        "header": {
+            "title": "Mechanical Engineering",
+            "subtitle": "ADVANCE YOUR EXPERTISE WITH",
+            "background_image": "../Courses/BTech/me/MEheader.jpg"
+        },
+        "program_name": "M.Tech in Mechanical Engineering (M.Tech ME)",
+        "program_description": "M.Tech in ME refers to Master of Technology in Mechanical Engineering. It is a postgraduate degree program that focuses on the advanced study of mechanical systems, their design, analysis, and optimization. Students pursuing M.Tech ME gain an in-depth understanding of core engineering principles, mathematics, and physics, along with specialized knowledge in areas such as advanced thermodynamics, computational fluid dynamics, advanced materials science, mechanics, and machine design. The program equips students with the skills required to design, analyze, and develop complex mechanical systems, ranging from engines and machinery to power plants and robotics. It emphasizes advanced problem-solving, critical thinking, and hands-on experience through laboratory work, research projects, and internships. Students learn how to apply engineering principles to address complex real-world challenges, optimize performance, and enhance efficiency. Throughout the M.Tech ME program, students also develop strong computational and analytical skills, using advanced software tools and simulations to model and analyze mechanical systems. They gain practical knowledge through workshops, industrial visits, and industry collaborations, fostering a deeper understanding of industry practices and standards. Overall, M.Tech ME provides a solid foundation in advanced mechanical engineering principles and prepares students for a wide range of career opportunities in the dynamic field of engineering and technology.",
+        "fees": "75,000 INR",
+        "duration": "2 Years",
+        "major_tracks": [
+            "Advanced Thermodynamics",
+            "Computational Fluid Dynamics",
+            "Advanced Materials Science",
+            "Mechanics",
+            "Machine Design"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Mechanical Engineer",
+                "desc": "Develop expertise in designing, analyzing, and manufacturing advanced mechanical systems and components.",
+                "image": "../Courses/BTech/me/mec.png"
+            },
+            {
+                "title": "Product Design Engineer",
+                "desc": "Specialize in creating innovative and functional designs for advanced mechanical products and systems.",
+                "image": "../Courses/BTech/me/prd.png"
+            },
+            {
+                "title": "Manufacturing Engineer",
+                "desc": "Focus on optimizing advanced production processes, reducing costs, and ensuring product quality in various industries.",
+                "image": "../Courses/BTech/me/image.png"
+            },
+            {
+                "title": "Quality Engineer",
+                "desc": "Maintain product quality and adherence to standards through the development and implementation of advanced quality control processes and inspections.",
+                "image": "../Courses/BTech/me/quality.png"
+            }
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Students who have completed a B.Tech degree in Mechanical Engineering or a related field with a minimum of 60% marks or equivalent CGPA."
+        },
+        "affiliation": {
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
+        },
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+        "program_highlights": [
+            "Advanced Learning: In-depth understanding of mechanical engineering principles.",
+            "Research Focus: Comprehensive research projects and thesis work.",
+            "Industry Ready: Six-month industry internship for real-world experience.",
+            "Global Exposure: National and international immersion programs.",
+            "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
+            "Beyond Academics: Essential skill development through workshops.",
+            "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
+            "Expert Learning: Renowned faculty and industry guest speakers.",
+            "Master the Latest Technologies: In-demand skills in advanced thermodynamics, computational fluid dynamics, advanced materials science, mechanics, machine design, and more."
+        ],
+        "labs": [
+            {
+                "title": "Thermodynamics Lab",
+                "description": "Experiment with advanced thermodynamic principles and study heat transfer phenomena.",
+                "image": "../Courses/BTech/me/lab/thermo.jpg"
+            },
+            {
+                "title": "Machine Design Lab",
+                "description": "Apply advanced engineering design principles to create and analyze complex machine components.",
+                "image": "../Courses/BTech/me/lab/machine.jpg"
+            },
+            {
+                "title": "Robotics Lab",
+                "description": "Design and program advanced robotic systems to perform various tasks and operations.",
+                "image": "../Courses/BTech/me/lab/robotics.jpg"
+            }
+        ]
+    },
 
   // PHARMACY
+  {
+    "id": 13,
+    "course_name": "Pharmacy",
+    
+    event_type: "Pharmacy",
+    "header": {
+        "title": "Bachelor of Pharmacy ",
+        "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
+        "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
+    },
+    "program_name": "Bachelor of Pharmacy (B.Pharm)",
+    "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
+    "fees": "52000/- INR Per Semester",
+    "duration": "4 years",
+    "major_tracks": [
+        "Customs Officer",
+        "Analytical Chemist",
+        "Drug Inspector",
+        "Drug Analyst"
+    ],
+    "program_outcomes": [
+        {
+            "title": "R&D Scientist",
+            "desc": "Conduct research and development activities in pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/rd.jpg"
+        },
+        {
+            "title": "Drug Inspector",
+            "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
+            "image": "../Courses/pharmacy/pharm/drug.jpg"
+        },
+        {
+            "title": "Quality Assurance",
+            "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
+            "image": "../Courses/pharmacy/pharm/qua.jpg"
+        },
+        {
+            "title": "Pharmacist",
+            "desc": "Dispense medications and provide patient education on drug usage and side effects.",
+            "image": "../Courses/pharmacy/pharm/pharma.jpg"
+        }
+    ],
+    "labs": [
+        {
+            "title": "Research Lab",
+            "description": "Conduct research activities related to pharmaceuticals.",
+            "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
+        },
+        {
+            "title": "Practical Lab",
+            "description": "Engage in hands-on practical experiments and learning.",
+            "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
+        },
+        {
+            "title": "QA Lab",
+            "description": "Perform quality assurance tests and analysis.",
+            "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
+        },
+        {
+            "title": "Pharma Chemistry Lab",
+            "description": "Study pharmaceutical chemistry and its applications.",
+            "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by PCI "
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Practical Exposure: Hands-on training in pharmaceutical practices.",
+        "Industry Internship: Gain real-world experience through industry internships.",
+        "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
+        "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
+    ]
+},
   {
     "id": 16,
     "course_name": "Pharmacy",
@@ -868,85 +948,7 @@ const data = [
         "Specialized Learning: Focused tracks in Pharmaceutical Analysis, Pharmacology, Pharmaceutics, and Quality Assurance."
     ]
 },
-    {
-        "id": 13,
-        "course_name": "Pharmacy",
-        
-        event_type: "Pharmacy",
-        "header": {
-            "title": "Bachelor of Pharmacy ",
-            "subtitle": "EMPOWERING THE HEALTHCARE HEROES",
-            "background_image": "../Courses/pharmacy/pharm/Bpharma.jpg"
-        },
-        "program_name": "Bachelor of Pharmacy (B.Pharm)",
-        "program_description": "In SVGOI, SVCP is a pioneer institution in the field of Pharmaceutical Education and Research in Punjab since 2005. The Institute comprises of every element desired for the academic and professional excellence. Our mission is to build leaders through holistic, transformative, and innovative learning in the pharmaceutical sector. Bachelor of Pharmacy is a 4 Year Graduate program program in which students study the methods and process of formulating dosage forms and dispensing of medicines. Scope of Course After B. Pharmacy course, students are offered various employment opportunities in the government and public sector. They can open their own pharmacy stores by registering themselves under State Pharmacy Council. Students can find equal jobs in both public and private sectors such as Technical Pharmacy, Clinical Pharmacy, Medical Dispensing Store, Health Centers, and Food & Drug Administration among others. Practicing pharmacists will have the opportunity to review the case notes or prescriptions in their practice setting and able to identify and resolve the drug related problems. This will ensure the improved patient care and decreases the unnecessary health care expenditure. B. Pharmacy graduates have opportunity to provide various patient care services to improve the patient’s health in community settings through counselling, health screening services, and other education programs. In hospital settings, pharmacists can ensure appropriate dispensing, education to patient, and provide all hospital pharmacy services including clinical pharmacy services such as drug information and ADR reporting. Candidate can go for higher studies after completing graduation in pharmacy. He/She can pursue M. Pharmacy or Pharm. D degrees.",
-        "fees": "52000/- INR Per Semester",
-        "duration": "4 years",
-        "major_tracks": [
-            "Customs Officer",
-            "Analytical Chemist",
-            "Drug Inspector",
-            "Drug Analyst"
-        ],
-        "program_outcomes": [
-            {
-                "title": "R&D Scientist",
-                "desc": "Conduct research and development activities in pharmaceuticals.",
-                "image": "../Courses/pharmacy/pharm/rd.jpg"
-            },
-            {
-                "title": "Drug Inspector",
-                "desc": "Inspect and regulate the quality and safety of pharmaceutical products.",
-                "image": "../Courses/pharmacy/pharm/drug.jpg"
-            },
-            {
-                "title": "Quality Assurance",
-                "desc": "Ensure compliance with quality standards and regulations in pharmaceutical manufacturing.",
-                "image": "../Courses/pharmacy/pharm/qua.jpg"
-            },
-            {
-                "title": "Pharmacist",
-                "desc": "Dispense medications and provide patient education on drug usage and side effects.",
-                "image": "../Courses/pharmacy/pharm/pharma.jpg"
-            }
-        ],
-        "labs": [
-            {
-                "title": "Research Lab",
-                "description": "Conduct research activities related to pharmaceuticals.",
-                "image": "../Courses/pharmacy/pharm/lab/researchLab.jpg"
-            },
-            {
-                "title": "Practical Lab",
-                "description": "Engage in hands-on practical experiments and learning.",
-                "image": "../Courses/pharmacy/pharm/lab/practical.jpg"
-            },
-            {
-                "title": "QA Lab",
-                "description": "Perform quality assurance tests and analysis.",
-                "image": "../Courses/pharmacy/pharm/lab/QA.jpg"
-            },
-            {
-                "title": "Pharma Chemistry Lab",
-                "description": "Study pharmaceutical chemistry and its applications.",
-                "image": "../Courses/pharmacy/pharm/lab/chemistry.jpg"
-            }
-        ],
-        "eligibility_criteria": {
-            "eligibility": "Must have passed 10+2 examination by a respective state/central government authorities recognized as equivalent to 10+2 examination by the Association of Indian Universities (AIU) with English as one of the subjects and (P.C.M) and or Biology (P.C.B/P.C.M.B.) as optional subjects individually. Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examinations."
-        },
-        "affiliation": {
-            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-            "approved_by": "Approved by PCI "
-        },
-        "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-        "program_highlights": [
-            "Practical Exposure: Hands-on training in pharmaceutical practices.",
-            "Industry Internship: Gain real-world experience through industry internships.",
-            "Professional Networking: Opportunities to connect with professionals in the pharmaceutical field.",
-            "Research Opportunities: Engage in research activities to explore advancements in pharmaceutical sciences."
-        ]
-    },
+  
 {
     "id": 15,
     "course_name": "Pharmacy",
@@ -1253,82 +1255,7 @@ const data = [
 
 
  // HOTEL MANAGEMENT
- {
-    "id": 18,
-    "course_name": "HM",
-    event_type: "Hotel-Management",
-    "header": {
-        "title": "Master of Hotel Management & Catering Technology (MHMCT)",
-        "subtitle": "ELEVATING HOSPITALITY MANAGEMENT",
-        "background_image": "../Courses/HM/mhmct/Mhmct.jpg"
-    },
-    "program_name": "Master of Hotel Management & Catering Technology (MHMCT)",
-    "program_description": "The Master of Hotel Management & Catering Technology (MHMCT), is a two years postgraduate Hospitality Management Degree course in India. It’s a service-oriented course, which develops the human service resource to fulfill the requirements of the Hospitality Industry. This postgraduate course is designed to enhance the professional management tactics used in the hospitality sector. It also inculcates the necessary entrepreneurship skills in candidates so that they can run their own business in the near future in case any candidate decides to go the other way rather than working on a job. The course is suitable for those candidates who want to increase their knowledge for accelerating their career by exploring and acquiring a critical understanding of the Hospitality Industry. The course is designed to provide managerial positions to the students.",
-    "fees": "27,500/- INR Per Semester",
-    "duration": "2 Years",
-    "major_tracks": [
-        "Event Manager",
-        "Hospitality Consultant",
-        "Hotel Manger",
-        "Front Office Manager",
-        "Housekeeping Manager",
-    ],
-    "program_outcomes": [
-        {
-            "title": "Hospitality Manager",
-            "desc": "Develop skills to manage and oversee various operations within the hospitality industry.",
-            "image": "../Courses/HM/mhmct/man.jpg"
-        },
-        {
-            "title": "Event Planner",
-            "desc": "Learn to plan and execute events, conferences, and functions within the hospitality sector.",
-            "image": "../Courses/HM/mhmct/event.jpg"
-        },
-        {
-            "title": "Food and Beverage Manager",
-            "desc": "Master the management of food and beverage operations in hotels, restaurants, and other hospitality establishments.",
-            "image": "../Courses/HM/mhmct/food.jpg"
-        },
-        {
-            "title": "Chef",
-            "desc": " Excel in overseeing food and beverage operations within hotels, restaurants, and hospitality venues.",
-            "image": "../Courses/HM/mhmct/chef.avif"
-        },
-    ],
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-    "program_highlights": [
-        "Two-year postgraduate degree focusing on hospitality management",
-        "Enhancement of professional management tactics",
-        "Inculcation of entrepreneurship skills",
-        "Preparation for managerial positions in the hospitality industry",
-        "Hands-on experience in managing various hospitality operations",
-        "Opportunities for career advancement and entrepreneurship"
-    ],
-    "eligibility_criteria": {
-        "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-        "approved_by": "Approved by AICTE"
-    },
-    "labs": [
-        {
-            "title": "Hospitality Management Lab",
-            "description": "Gain hands-on experience in managing various aspects of hospitality operations.",
-            "image": "../Courses/HM/mhmct/lab/management.jpg"
-        },
-        {
-            "title": "Culinary Arts Lab",
-            "description": "Practice culinary skills and techniques in a professional kitchen environment.",
-            "image": "../Courses/HM/mhmct/lab/arts.jpg"
-        },
-        {
-            "title": "Event Planning Lab",
-            "description": "Plan and organize events, conferences, and functions to develop event management skills.",
-            "image": "../Courses/HM/mhmct/lab/planning.jpg"
-        }
-    ],
-},
+
 {
     "id": 17,
     "course_name": "HM",
@@ -1564,287 +1491,85 @@ const data = [
     ],
 
 },
+{
+    "id": 18,
+    "course_name": "HM",
+    event_type: "Hotel-Management",
+    "header": {
+        "title": "Master of Hotel Management & Catering Technology (MHMCT)",
+        "subtitle": "ELEVATING HOSPITALITY MANAGEMENT",
+        "background_image": "../Courses/HM/mhmct/Mhmct.jpg"
+    },
+    "program_name": "Master of Hotel Management & Catering Technology (MHMCT)",
+    "program_description": "The Master of Hotel Management & Catering Technology (MHMCT), is a two years postgraduate Hospitality Management Degree course in India. It’s a service-oriented course, which develops the human service resource to fulfill the requirements of the Hospitality Industry. This postgraduate course is designed to enhance the professional management tactics used in the hospitality sector. It also inculcates the necessary entrepreneurship skills in candidates so that they can run their own business in the near future in case any candidate decides to go the other way rather than working on a job. The course is suitable for those candidates who want to increase their knowledge for accelerating their career by exploring and acquiring a critical understanding of the Hospitality Industry. The course is designed to provide managerial positions to the students.",
+    "fees": "27,500/- INR Per Semester",
+    "duration": "2 Years",
+    "major_tracks": [
+        "Event Manager",
+        "Hospitality Consultant",
+        "Hotel Manger",
+        "Front Office Manager",
+        "Housekeeping Manager",
+    ],
+    "program_outcomes": [
+        {
+            "title": "Hospitality Manager",
+            "desc": "Develop skills to manage and oversee various operations within the hospitality industry.",
+            "image": "../Courses/HM/mhmct/man.jpg"
+        },
+        {
+            "title": "Event Planner",
+            "desc": "Learn to plan and execute events, conferences, and functions within the hospitality sector.",
+            "image": "../Courses/HM/mhmct/event.jpg"
+        },
+        {
+            "title": "Food and Beverage Manager",
+            "desc": "Master the management of food and beverage operations in hotels, restaurants, and other hospitality establishments.",
+            "image": "../Courses/HM/mhmct/food.jpg"
+        },
+        {
+            "title": "Chef",
+            "desc": " Excel in overseeing food and beverage operations within hotels, restaurants, and hospitality venues.",
+            "image": "../Courses/HM/mhmct/chef.avif"
+        },
+    ],
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Two-year postgraduate degree focusing on hospitality management",
+        "Enhancement of professional management tactics",
+        "Inculcation of entrepreneurship skills",
+        "Preparation for managerial positions in the hospitality industry",
+        "Hands-on experience in managing various hospitality operations",
+        "Opportunities for career advancement and entrepreneurship"
+    ],
+    "eligibility_criteria": {
+        "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
+    },
+    "labs": [
+        {
+            "title": "Hospitality Management Lab",
+            "description": "Gain hands-on experience in managing various aspects of hospitality operations.",
+            "image": "../Courses/HM/mhmct/lab/management.jpg"
+        },
+        {
+            "title": "Culinary Arts Lab",
+            "description": "Practice culinary skills and techniques in a professional kitchen environment.",
+            "image": "../Courses/HM/mhmct/lab/arts.jpg"
+        },
+        {
+            "title": "Event Planning Lab",
+            "description": "Plan and organize events, conferences, and functions to develop event management skills.",
+            "image": "../Courses/HM/mhmct/lab/planning.jpg"
+        }
+    ],
+},
 
    // PARAMEDICAL
- {
-    "id": 2666,
-    "course_name": "Paramedical",
-    "header": {
-        "title": "M.Sc in Anesthesia and Operation Theatre Technology ",
-        "subtitle": "ELEVATING OPERATION THEATRE EXPERTISE",
-        "background_image": "../Courses/paramedical/Anesthesia/anesthesia.jpg"
-    },
-    "program_name": "M.Sc in Anesthesia and Operation Theatre Technology",
-    "program_description": "Master of Science in Anesthesia and Operation Theatre Technology is a master’s degree level course in Operation Theatre technology. This course equips students with high-level skills to handle operation theatre preparation in case of emergencies. It is designed to provide advanced skills to assist and handle the preparation of operation theatres, enabling students to become experienced anesthesiologists. Experienced teachers facilitate learning, ensuring clear understanding of concepts. The course is based on research methodology, supported by world-class advanced medical labs situated on campus at Swami Vivekanand Paramedical College. After completing this program, students can work professionally as anesthesiologists and handle responsibilities as assistants in emergency situations.",
-    "fees": "32,000/- INR Per Semester",
-    "duration": "2 Years (Semester System)",
-    "major_tracks": [
-        "Emergency Anesthesia",
-        "Operation Theatre Management"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Experienced Anesthesiologist",
-            "desc": "Acquire advanced skills to function effectively as an experienced anesthesiologist.",
-            "image": "../Courses/paramedical/Anesthesia/experience.jpg"
-        },
-        {
-            "title": "Operation Theatre Expert",
-            "desc": "Master the techniques and procedures involved in operation theatre management.",
-            "image": "../Courses/paramedical/Anesthesia/operation.jpg"
-        },
-        {
-            "title": "Emergency Response Specialist",
-            "desc": "Develop the ability to handle emergency situations in operation theatres with efficiency and precision.",
-            "image": "../Courses/paramedical/Anesthesia/emergency.jpg"
-        },
-        {
-            "title": "Anesthesia and Operation Theatre Technologist",
-            "desc": "Gain expertise in anesthesia administration and operation theatre technology to support medical procedures effectively.",
-            "image": "../Courses/paramedical/Anesthesia/technologist.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have completed B.Sc. in Anesthesia & Operation Theatre Technology."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-    "program_highlights": [
-        "Hands-on training in anesthesia techniques.",
-        "Simulation exercises for emergency scenarios.",
-        "Clinical rotations in leading hospitals.",
-        "Internship in operation theatre management.",
-        "Workshops on patient safety and care."
-    ],
-
-},
-{
-    "id": 25,
-    "course_name": "Paramedical",
-    "header": {
-        "title": "M.Sc in Medical Laboratory Science - Clinical Biochemistry  ",
-        "subtitle": "Elevating Laboratory Leadership",
-        "background_image": "../Courses/paramedical/MLS/mls.jpg"
-    },
-    "program_name": "M.Sc in Medical Laboratory Science - Clinical Biochemistry",
-    "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
-    "fees": "32,000/- INR Per Semester",
-    "duration": "2 Years (Semester System)",
-    "major_tracks": [
-        "Clinical Research",
-        "Diagnostic Sciences"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Clinical Scientist",
-            "desc": "Develop advanced skills in medical laboratory science and become leaders in the field as clinical scientists.",
-            "image": "../Courses/paramedical/MLS/clinic.jpg"
-        },
-        {
-            "title": "Researcher",
-            "desc": "Conduct research in medical laboratory science and contribute to advancements in healthcare.",
-            "image": "../Courses/paramedical/MLS/research.jpg"
-        },
-        {
-            "title": "Educator",
-            "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
-            "image": "../Courses/paramedical/MLS/educator.jpg"
-        },
-        {
-            "title": "Paramedical Professional",
-            "desc": "Provide essential support in medical settings, assisting healthcare professionals in patient care and emergency response.",
-            "image": "../Courses/paramedical/MLS/professional.jpg"
-        }
-    ],
-
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-    "program_highlights": [
-        "Hands-on learning through laboratory experiments.",
-        "Advanced research opportunities in biochemistry.",
-        "Clinical exposure in top medical institutions.",
-        "Internship in renowned diagnostic centers.",
-        "Professional development workshops."
-    ],
-
-},
-{
-    "id": 29,
-    "course_name": "Paramedical",
-    "header": {
-        "title": "M.Sc IN Medical Laboratory Science - Medical Microbiology  ",
-        "subtitle": "Experts in Medical Diagnostics",
-        "background_image": "../Courses/paramedical/Optometry/header.avif"
-    },
-    "program_name": "M.Sc in Medical Laboratory Science - Medical Microbiology",
-    "program_description": "M.Sc. MLS - Medical Microbiology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program delves into the advanced study of microorganisms and their impact on human health. Students interested in diagnostic microbiology, infectious diseases, and laboratory management will find this program highly beneficial. The curriculum encompasses theoretical knowledge and practical skills essential for proficiency in medical microbiology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in clinical laboratories, research institutions, and healthcare settings.",
-    "fees": "60,000/- INR Per Semester",
-    "duration": "2 Years (Semester System)",
-    "major_tracks": [
-        "Clinical Microbiologist",
-        "Diagnostic Laboratory Manager",
-        "Infection Control Specialist",
-        "Research Scientist"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Clinical Microbiologist",
-            "desc": "Gain expertise in diagnosing infectious diseases through microbiological techniques.",
-            "image": "../Courses/paramedical/Optometry/optician.jpg"
-        },
-        {
-            "title": "Diagnostic Laboratory Manager",
-            "desc": "Develop skills to manage and supervise diagnostic laboratories efficiently.",
-            "image": "../Courses/paramedical/Optometry/optometrist.jpg"
-        },
-        {
-            "title": "Infection Control Specialist",
-            "desc": "Learn to implement and oversee infection control measures in healthcare settings.",
-            "image": "../Courses/paramedical/Optometry/refractionist.jpg"
-        },
-        {
-            "title": "Research Scientist",
-            "desc": "Conduct advanced research on microorganisms to contribute to medical science.",
-            "image": "../Courses/paramedical/Optometry/assistant.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-    "program_highlights": [
-        "Advanced training in microbiological diagnostic techniques.",
-        "Clinical rotations in microbiology labs.",
-        "Internship in hospital and diagnostic laboratories.",
-        "Workshops on cutting-edge microbiological research.",
-        "Hands-on experience with advanced laboratory equipment."
-    ]
-},
-{
-    "id": 30,
-    "course_name": "Paramedical",
-    "header": {
-        "title": "MASTER OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
-        "subtitle": "ADVANCED MEDICAL IMAGING PROFESSIONALS",
-        "background_image": "../Courses/paramedical/RadioImaging/header.avif"
-    },
-    "program_name": "M.Sc. in Radio Imaging Technology",
-    "program_description": "M.Sc. in Radio Imaging Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This course provides advanced education and training in medical imaging techniques, preparing students for professional roles in radiology departments. The program covers various imaging modalities including X-ray, MRI, CT scan, and ultrasound. The curriculum is designed to provide both theoretical knowledge and practical skills essential for excellence in the field of radiology. Swami Vivekanand Paramedical College is equipped with state-of-the-art infrastructure and modern laboratories, making it the best choice for aspiring radiology professionals in North India. The college boasts the highest placement rate in the region, ensuring successful career prospects for graduates.",
-    "fees": "60,000/- INR Per Semester",
-    "duration": "2 Years (Semester System)",
-    "major_tracks": [
-        "Radiology Technologist",
-        "MRI Technologist",
-        "CT Scan Technologist",
-        "Ultrasound Technologist"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Radiology Technologist",
-            "desc": "Acquire skills to perform and interpret various radiographic procedures.",
-            "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
-        },
-        {
-            "title": "MRI Technologist",
-            "desc": "Learn to operate MRI machines and conduct magnetic resonance imaging scans.",
-            "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
-        },
-        {
-            "title": "CT Scan Technologist",
-            "desc": "Develop expertise in performing CT scans and analyzing cross-sectional images.",
-            "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
-        },
-        {
-            "title": "Ultrasound Technologist",
-            "desc": "Gain proficiency in using ultrasound equipment to conduct diagnostic procedures.",
-            "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-    "program_highlights": [
-        "Advanced training in various medical imaging techniques.",
-        "Clinical rotations in radiology departments.",
-        "Internship in diagnostic imaging centers.",
-        "Workshops on advanced imaging technologies.",
-        "Hands-on experience with state-of-the-art radiology equipment."
-    ]
-},
-{
-    "id": 330,
-    "course_name": "Paramedical",
-    "header": {
-        "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY ",
-        "subtitle": "EXPERTS IN CARDIAC CARE",
-        "background_image": "../Courses/paramedical/radiology/radiology.jpg"
-    },
-    "program_name": "M.Sc. in Cardiac Care Technology",
-    "program_description": "M.Sc. CCT - Cardiac Care Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program focuses on advanced cardiac care, including diagnosis, treatment, and management of heart diseases. Students interested in cardiac diagnostics, interventional cardiology, and cardiac rehabilitation will find this program highly beneficial. The curriculum includes both theoretical knowledge and practical skills essential for proficiency in cardiac care technology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern cardiac diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in cardiac care units, research institutions, and healthcare settings.",
-    "fees": "70,000/- INR Per Semester",
-    "duration": "2 Years (Semester System)",
-    "major_tracks": [
-        "Cardiac Care Technologist",
-        "Cardiac Diagnostics Specialist",
-        "Interventional Cardiology Technologist",
-        "Cardiac Rehabilitation Specialist"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Cardiac Care Technologist",
-            "desc": "Gain expertise in providing advanced cardiac care and support in clinical settings.",
-            "image": "../Courses/paramedical/radiology/technician.jpg"
-        },
-        {
-            "title": "Cardiac Diagnostics Specialist",
-            "desc": "Develop skills in diagnosing cardiac conditions using advanced diagnostic equipment.",
-            "image": "../Courses/paramedical/radiology/educator.jpg"
-        },
-        {
-            "title": "Interventional Cardiology Technologist",
-            "desc": "Learn to assist in interventional cardiology procedures and cardiac catheterization.",
-            "image": "../Courses/paramedical/radiology/image.jpg"
-        },
-        {
-            "title": "Cardiac Rehabilitation Specialist",
-            "desc": "Acquire expertise in designing and implementing cardiac rehabilitation programs.",
-            "image": "../Courses/paramedical/radiology/image.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-    "program_highlights": [
-        "Advanced training in cardiac care techniques.",
-        "Clinical rotations in cardiac care units.",
-        "Internship in hospital and cardiac care departments.",
-        "Workshops on cutting-edge cardiac research.",
-        "Hands-on experience with advanced cardiac diagnostic equipment."
-    ]
-},
+ 
 {
     "id": 34,
     "course_name": "Paramedical",
@@ -2214,66 +1939,288 @@ const data = [
     ],
 
 },
-
-  // BUSINESS STUDIES
-  {
-    "id": 21,
-    "course_name": "Business Studies",
-    event_type: "BusinessStudies",
+{
+    "id": 2666,
+    "course_name": "Paramedical",
     "header": {
-        "title": "MASTERS OF BUSINESS ADMINISTRATION",
-        "subtitle": "ELEVATING BUSINESS ACUMEN",
-        "background_image": "../Courses/Business/MBA/mba.jpg"
+        "title": "M.Sc in Anesthesia and Operation Theatre Technology ",
+        "subtitle": "ELEVATING OPERATION THEATRE EXPERTISE",
+        "background_image": "../Courses/paramedical/Anesthesia/anesthesia.jpg"
     },
-    "program_name": "Masters of Business Administration (MBA)",
-    "program_description": "MBA stands for Master of Business Administration, which is a graduate degree that focuses on developing the knowledge and skills required to succeed in a business or management career. The MBA degree is one of the most popular and widely recognized graduate degrees globally, and it is designed to provide students with a broad understanding of business and management practices. The MBA program typically covers a range of topics, including accounting, finance, marketing, management, organizational behavior, economics, and operations management. The curriculum may also include specialized courses in areas such as entrepreneurship, international business, healthcare management, or sustainability. An MBA degree can lead to a wide range of career opportunities, including management positions in various industries such as finance, consulting, marketing, healthcare, and technology. It can also provide individuals with the skills and knowledge needed to start their own businesses or pursue entrepreneurial ventures. In summary, an MBA degree is a versatile and valuable credential that can open doors to a wide range of career opportunities and provide individuals with the knowledge and skills needed to succeed in the business world.",
-    "fees": "40,000/- INR Per Semester",
-    "duration": "2 years",
+    "program_name": "M.Sc in Anesthesia and Operation Theatre Technology",
+    "program_description": "Master of Science in Anesthesia and Operation Theatre Technology is a master’s degree level course in Operation Theatre technology. This course equips students with high-level skills to handle operation theatre preparation in case of emergencies. It is designed to provide advanced skills to assist and handle the preparation of operation theatres, enabling students to become experienced anesthesiologists. Experienced teachers facilitate learning, ensuring clear understanding of concepts. The course is based on research methodology, supported by world-class advanced medical labs situated on campus at Swami Vivekanand Paramedical College. After completing this program, students can work professionally as anesthesiologists and handle responsibilities as assistants in emergency situations.",
+    "fees": "32,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
     "major_tracks": [
-        "Business Development Manager",
-        "Financial Manager",
-        "and few more"
+        "Emergency Anesthesia",
+        "Operation Theatre Management"
     ],
     "program_outcomes": [
         {
-            "title": "Marketing Manager",
-            "desc": "Lead marketing initiatives and strategies for organizations.",
-            "image": "../Courses/Business/MBA/marketing.jpg"
+            "title": "Experienced Anesthesiologist",
+            "desc": "Acquire advanced skills to function effectively as an experienced anesthesiologist.",
+            "image": "../Courses/paramedical/Anesthesia/experience.jpg"
         },
         {
-            "title": "Operations Manager",
-            "desc": "Oversee and manage day-to-day operations of businesses.",
-            "image": "../Courses/Business/MBA/operations.jpg"
+            "title": "Operation Theatre Expert",
+            "desc": "Master the techniques and procedures involved in operation theatre management.",
+            "image": "../Courses/paramedical/Anesthesia/operation.jpg"
         },
         {
-            "title": "Entrepreneur",
-            "desc": "Start and manage their own business ventures.",
-            "image": "../Courses/Business/MBA/entrepreneur.jpg"
+            "title": "Emergency Response Specialist",
+            "desc": "Develop the ability to handle emergency situations in operation theatres with efficiency and precision.",
+            "image": "../Courses/paramedical/Anesthesia/emergency.jpg"
         },
         {
-            "title": "Human Resource Manager",
-            "desc": "Manage human resources and personnel within organizations.",
-            "image": "../Courses/Business/MBA/human.jpg"
+            "title": "Anesthesia and Operation Theatre Technologist",
+            "desc": "Gain expertise in anesthesia administration and operation theatre technology to support medical procedures effectively.",
+            "image": "../Courses/paramedical/Anesthesia/technologist.jpg"
         }
     ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed B.Sc. in Anesthesia & Operation Theatre Technology."
+    },
     "affiliation": {
-        "affiliated_to": "Affiliated To IKPTU, Jalandhar",
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
         "approved_by": "Approved by AICTE"
     },
-    "eligibility_criteria": {
-        "eligibility": "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
-    },
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
-        "Graduate degree focusing on business and management skills",
-        "Comprehensive curriculum covering accounting, finance, marketing, and operations management",
-        "Specialized courses in areas such as entrepreneurship and international business",
-        "Preparation for management positions in finance, consulting, marketing, healthcare, and technology sectors",
-        "Opportunities to start own businesses or pursue entrepreneurial ventures",
-        "Versatile and valuable credential for a wide range of career opportunities"
+        "Hands-on training in anesthesia techniques.",
+        "Simulation exercises for emergency scenarios.",
+        "Clinical rotations in leading hospitals.",
+        "Internship in operation theatre management.",
+        "Workshops on patient safety and care."
     ],
-    "labs": [],
+
 },
+{
+    "id": 25,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "M.Sc in Medical Laboratory Science - Clinical Biochemistry  ",
+        "subtitle": "Elevating Laboratory Leadership",
+        "background_image": "../Courses/paramedical/MLS/mls.jpg"
+    },
+    "program_name": "M.Sc in Medical Laboratory Science - Clinical Biochemistry",
+    "program_description": "Masters in Medical Lab Science is a master’s degree level course in Lab science. This program allows students to level up their skills and gain advanced skills in medical lab science to elevate their career and become leaders in the medical laboratory profession as clinical scientists. The program is designed to provide students with all the elements of medical laboratory science required for their profession. It is based on research methodology, supported by world-class advanced medical labs situated on campus. Swami Vivekanand Paramedical College houses all the advanced equipment required for study and research. After completing this program, students can pursue a Ph.D. or start their career as clinical practitioners, or join institutes as part of research facilities.",
+    "fees": "32,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Clinical Research",
+        "Diagnostic Sciences"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Clinical Scientist",
+            "desc": "Develop advanced skills in medical laboratory science and become leaders in the field as clinical scientists.",
+            "image": "../Courses/paramedical/MLS/clinic.jpg"
+        },
+        {
+            "title": "Researcher",
+            "desc": "Conduct research in medical laboratory science and contribute to advancements in healthcare.",
+            "image": "../Courses/paramedical/MLS/research.jpg"
+        },
+        {
+            "title": "Educator",
+            "desc": "Share knowledge and expertise by teaching medical laboratory science at educational institutions.",
+            "image": "../Courses/paramedical/MLS/educator.jpg"
+        },
+        {
+            "title": "Paramedical Professional",
+            "desc": "Provide essential support in medical settings, assisting healthcare professionals in patient care and emergency response.",
+            "image": "../Courses/paramedical/MLS/professional.jpg"
+        }
+    ],
+
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed B.Sc. in Medical Laboratory Technology. Candidates who have passed B.Sc. in Medical, Life Sciences & Applied Life Sciences, Medicine, or Zoology can also apply."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Hands-on learning through laboratory experiments.",
+        "Advanced research opportunities in biochemistry.",
+        "Clinical exposure in top medical institutions.",
+        "Internship in renowned diagnostic centers.",
+        "Professional development workshops."
+    ],
+
+},
+{
+    "id": 29,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "M.Sc IN Medical Laboratory Science - Medical Microbiology  ",
+        "subtitle": "Experts in Medical Diagnostics",
+        "background_image": "../Courses/paramedical/Optometry/header.avif"
+    },
+    "program_name": "M.Sc in Medical Laboratory Science - Medical Microbiology",
+    "program_description": "M.Sc. MLS - Medical Microbiology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program delves into the advanced study of microorganisms and their impact on human health. Students interested in diagnostic microbiology, infectious diseases, and laboratory management will find this program highly beneficial. The curriculum encompasses theoretical knowledge and practical skills essential for proficiency in medical microbiology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in clinical laboratories, research institutions, and healthcare settings.",
+    "fees": "60,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Clinical Microbiologist",
+        "Diagnostic Laboratory Manager",
+        "Infection Control Specialist",
+        "Research Scientist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Clinical Microbiologist",
+            "desc": "Gain expertise in diagnosing infectious diseases through microbiological techniques.",
+            "image": "../Courses/paramedical/Optometry/optician.jpg"
+        },
+        {
+            "title": "Diagnostic Laboratory Manager",
+            "desc": "Develop skills to manage and supervise diagnostic laboratories efficiently.",
+            "image": "../Courses/paramedical/Optometry/optometrist.jpg"
+        },
+        {
+            "title": "Infection Control Specialist",
+            "desc": "Learn to implement and oversee infection control measures in healthcare settings.",
+            "image": "../Courses/paramedical/Optometry/refractionist.jpg"
+        },
+        {
+            "title": "Research Scientist",
+            "desc": "Conduct advanced research on microorganisms to contribute to medical science.",
+            "image": "../Courses/paramedical/Optometry/assistant.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a B.Sc. in Medical Laboratory Science, Microbiology, or related field from a recognized University."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Advanced training in microbiological diagnostic techniques.",
+        "Clinical rotations in microbiology labs.",
+        "Internship in hospital and diagnostic laboratories.",
+        "Workshops on cutting-edge microbiological research.",
+        "Hands-on experience with advanced laboratory equipment."
+    ]
+},
+{
+    "id": 30,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "MASTER OF SCIENCE IN RADIO IMAGING TECHNOLOGY",
+        "subtitle": "ADVANCED MEDICAL IMAGING PROFESSIONALS",
+        "background_image": "../Courses/paramedical/RadioImaging/header.avif"
+    },
+    "program_name": "M.Sc. in Radio Imaging Technology",
+    "program_description": "M.Sc. in Radio Imaging Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This course provides advanced education and training in medical imaging techniques, preparing students for professional roles in radiology departments. The program covers various imaging modalities including X-ray, MRI, CT scan, and ultrasound. The curriculum is designed to provide both theoretical knowledge and practical skills essential for excellence in the field of radiology. Swami Vivekanand Paramedical College is equipped with state-of-the-art infrastructure and modern laboratories, making it the best choice for aspiring radiology professionals in North India. The college boasts the highest placement rate in the region, ensuring successful career prospects for graduates.",
+    "fees": "60,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Radiology Technologist",
+        "MRI Technologist",
+        "CT Scan Technologist",
+        "Ultrasound Technologist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Radiology Technologist",
+            "desc": "Acquire skills to perform and interpret various radiographic procedures.",
+            "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+        },
+        {
+            "title": "MRI Technologist",
+            "desc": "Learn to operate MRI machines and conduct magnetic resonance imaging scans.",
+            "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+        },
+        {
+            "title": "CT Scan Technologist",
+            "desc": "Develop expertise in performing CT scans and analyzing cross-sectional images.",
+            "image": "../Courses/paramedical/Anasthesia/assistant.jpg"
+        },
+        {
+            "title": "Ultrasound Technologist",
+            "desc": "Gain proficiency in using ultrasound equipment to conduct diagnostic procedures.",
+            "image": "../Courses/paramedical/Anasthesia/anasthesia.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a B.Sc. in Radio Imaging Technology or a related field from a recognized University."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Advanced training in various medical imaging techniques.",
+        "Clinical rotations in radiology departments.",
+        "Internship in diagnostic imaging centers.",
+        "Workshops on advanced imaging technologies.",
+        "Hands-on experience with state-of-the-art radiology equipment."
+    ]
+},
+{
+    "id": 330,
+    "course_name": "Paramedical",
+    "header": {
+        "title": "MASTER OF SCIENCE IN CARDIAC CARE TECHNOLOGY ",
+        "subtitle": "EXPERTS IN CARDIAC CARE",
+        "background_image": "../Courses/paramedical/radiology/radiology.jpg"
+    },
+    "program_name": "M.Sc. in Cardiac Care Technology",
+    "program_description": "M.Sc. CCT - Cardiac Care Technology is a 2-year postgraduate degree program offered by Swami Vivekanand Paramedical College. This program focuses on advanced cardiac care, including diagnosis, treatment, and management of heart diseases. Students interested in cardiac diagnostics, interventional cardiology, and cardiac rehabilitation will find this program highly beneficial. The curriculum includes both theoretical knowledge and practical skills essential for proficiency in cardiac care technology. With access to state-of-the-art infrastructure and laboratories, students gain hands-on experience in modern cardiac diagnostic techniques. Swami Vivekanand Paramedical College, renowned for its top-tier infrastructure and highest placement rate in North India, ensures graduates are well-prepared for careers in cardiac care units, research institutions, and healthcare settings.",
+    "fees": "70,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Cardiac Care Technologist",
+        "Cardiac Diagnostics Specialist",
+        "Interventional Cardiology Technologist",
+        "Cardiac Rehabilitation Specialist"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Cardiac Care Technologist",
+            "desc": "Gain expertise in providing advanced cardiac care and support in clinical settings.",
+            "image": "../Courses/paramedical/radiology/technician.jpg"
+        },
+        {
+            "title": "Cardiac Diagnostics Specialist",
+            "desc": "Develop skills in diagnosing cardiac conditions using advanced diagnostic equipment.",
+            "image": "../Courses/paramedical/radiology/educator.jpg"
+        },
+        {
+            "title": "Interventional Cardiology Technologist",
+            "desc": "Learn to assist in interventional cardiology procedures and cardiac catheterization.",
+            "image": "../Courses/paramedical/radiology/image.jpg"
+        },
+        {
+            "title": "Cardiac Rehabilitation Specialist",
+            "desc": "Acquire expertise in designing and implementing cardiac rehabilitation programs.",
+            "image": "../Courses/paramedical/radiology/image.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have a B.Sc. in Cardiac Care Technology, Medical Laboratory Science, or a related field from a recognized University."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To MRSPTU, Bathinda",
+        "approved_by": "Approved by AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Advanced training in cardiac care techniques.",
+        "Clinical rotations in cardiac care units.",
+        "Internship in hospital and cardiac care departments.",
+        "Workshops on cutting-edge cardiac research.",
+        "Hands-on experience with advanced cardiac diagnostic equipment."
+    ]
+},
+
+  // BUSINESS STUDIES
+
 {
     "id": 22,
     "course_name": "Business Studies",
@@ -2335,6 +2282,64 @@ const data = [
     ],
     "labs": []
 
+},
+{
+    "id": 21,
+    "course_name": "Business Studies",
+    event_type: "BusinessStudies",
+    "header": {
+        "title": "MASTERS OF BUSINESS ADMINISTRATION",
+        "subtitle": "ELEVATING BUSINESS ACUMEN",
+        "background_image": "../Courses/Business/MBA/mba.jpg"
+    },
+    "program_name": "Masters of Business Administration (MBA)",
+    "program_description": "MBA stands for Master of Business Administration, which is a graduate degree that focuses on developing the knowledge and skills required to succeed in a business or management career. The MBA degree is one of the most popular and widely recognized graduate degrees globally, and it is designed to provide students with a broad understanding of business and management practices. The MBA program typically covers a range of topics, including accounting, finance, marketing, management, organizational behavior, economics, and operations management. The curriculum may also include specialized courses in areas such as entrepreneurship, international business, healthcare management, or sustainability. An MBA degree can lead to a wide range of career opportunities, including management positions in various industries such as finance, consulting, marketing, healthcare, and technology. It can also provide individuals with the skills and knowledge needed to start their own businesses or pursue entrepreneurial ventures. In summary, an MBA degree is a versatile and valuable credential that can open doors to a wide range of career opportunities and provide individuals with the knowledge and skills needed to succeed in the business world.",
+    "fees": "40,000/- INR Per Semester",
+    "duration": "2 years",
+    "major_tracks": [
+        "Business Development Manager",
+        "Financial Manager",
+        "and few more"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Marketing Manager",
+            "desc": "Lead marketing initiatives and strategies for organizations.",
+            "image": "../Courses/Business/MBA/marketing.jpg"
+        },
+        {
+            "title": "Operations Manager",
+            "desc": "Oversee and manage day-to-day operations of businesses.",
+            "image": "../Courses/Business/MBA/operations.jpg"
+        },
+        {
+            "title": "Entrepreneur",
+            "desc": "Start and manage their own business ventures.",
+            "image": "../Courses/Business/MBA/entrepreneur.jpg"
+        },
+        {
+            "title": "Human Resource Manager",
+            "desc": "Manage human resources and personnel within organizations.",
+            "image": "../Courses/Business/MBA/human.jpg"
+        }
+    ],
+    "affiliation": {
+        "affiliated_to": "Affiliated To IKPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
+    },
+    "eligibility_criteria": {
+        "eligibility": "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade."
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Graduate degree focusing on business and management skills",
+        "Comprehensive curriculum covering accounting, finance, marketing, and operations management",
+        "Specialized courses in areas such as entrepreneurship and international business",
+        "Preparation for management positions in finance, consulting, marketing, healthcare, and technology sectors",
+        "Opportunities to start own businesses or pursue entrepreneurial ventures",
+        "Versatile and valuable credential for a wide range of career opportunities"
+    ],
+    "labs": [],
 },
 // {
 //     "id": 23,
@@ -2398,64 +2403,7 @@ const data = [
 //     },
 //     "labs": []
 // },
-{
-    "id": 24,
-    "course_name": "Business Studies",
-   " event_type": "BusinessStudies",
-    "header": {
-        "title": "MASTER OF COMMERCE",
-        "subtitle": "ADVANCING ACCOUNTING EXPERTISE",
-        "background_image": "../Courses/Business/commerce/mcom.jpg"
-    },
-    "program_name": "Master of Commerce (M.Com)",
-    "program_description": "M.Com, Master of Commerce, is a postgraduate course in accounting with a duration of 2 years divided into 4 semesters. The main aim of the course is to provide in-depth knowledge to students in advanced accounting and commerce and prepare them for better future prospects. Students opting for M.Com are taught professional skills that help them land better placement opportunities. M.Com graduates can explore careers in the BFSI sector, start a career in teaching as a commerce teacher, or pursue further studies such as a PhD to become college lecturers. M.Com graduates also have numerous corporate job opportunities and government job opportunities.",
-    "fees": "15,000/- INR Per Semester",
-    "duration": "2 Years (Semester System)",
-    "major_tracks": [
-        "Advanced Accounting",
-        "Financial Management",
-        "Commerce Education"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Advanced Accounting Expert",
-            "desc": "Develop expertise in advanced accounting principles and practices.",
-            "image": "../Courses/Business/commerce/advance.jpg"
-        },
-        {
-            "title": "Finance Specialist",
-            "desc": "Gain specialized knowledge in finance and financial management.",
-            "image": "../Courses/Business/commerce/finance.jpg"
-        },
-        {
-            "title": "Commerce Educator",
-            "desc": "Prepare for a career in teaching commerce subjects at educational institutions.",
-            "image": "../Courses/Business/commerce/commerec.jpg"
-        },
-        {
-            "title": "Corporate Professional",
-            "desc": "Explore various corporate job opportunities in accounting, finance, and related fields.",
-            "image": "../Courses/Business/commerce/corporate.jpg"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Candidates must have completed B.Com with at least 50% marks and have the relevant subject as one of the subjects based on merit in qualifying exams."
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
-    "program_highlights": [
-        "Postgraduate course focusing on accounting expertise",
-        "Duration of 2 years divided into 4 semesters",
-        "Prepares students for better future prospects in accounting and commerce",
-        "Professional skills development for better placement opportunities",
-        "Multiple career paths including BFSI sector, teaching, further studies, corporate jobs, and government opportunities",
-        "Emphasis on in-depth knowledge and practical application"
-    ],
-    "labs": []
-},
+
 {
     "id": 23,
     "course_name": "Business Studies",
@@ -2517,8 +2465,122 @@ const data = [
     },
     "labs": []
 },
+{
+    "id": 24,
+    "course_name": "Business Studies",
+   " event_type": "BusinessStudies",
+    "header": {
+        "title": "MASTER OF COMMERCE",
+        "subtitle": "ADVANCING ACCOUNTING EXPERTISE",
+        "background_image": "../Courses/Business/commerce/mcom.jpg"
+    },
+    "program_name": "Master of Commerce (M.Com)",
+    "program_description": "M.Com, Master of Commerce, is a postgraduate course in accounting with a duration of 2 years divided into 4 semesters. The main aim of the course is to provide in-depth knowledge to students in advanced accounting and commerce and prepare them for better future prospects. Students opting for M.Com are taught professional skills that help them land better placement opportunities. M.Com graduates can explore careers in the BFSI sector, start a career in teaching as a commerce teacher, or pursue further studies such as a PhD to become college lecturers. M.Com graduates also have numerous corporate job opportunities and government job opportunities.",
+    "fees": "15,000/- INR Per Semester",
+    "duration": "2 Years (Semester System)",
+    "major_tracks": [
+        "Advanced Accounting",
+        "Financial Management",
+        "Commerce Education"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Advanced Accounting Expert",
+            "desc": "Develop expertise in advanced accounting principles and practices.",
+            "image": "../Courses/Business/commerce/advance.jpg"
+        },
+        {
+            "title": "Finance Specialist",
+            "desc": "Gain specialized knowledge in finance and financial management.",
+            "image": "../Courses/Business/commerce/finance.jpg"
+        },
+        {
+            "title": "Commerce Educator",
+            "desc": "Prepare for a career in teaching commerce subjects at educational institutions.",
+            "image": "../Courses/Business/commerce/commerec.jpg"
+        },
+        {
+            "title": "Corporate Professional",
+            "desc": "Explore various corporate job opportunities in accounting, finance, and related fields.",
+            "image": "../Courses/Business/commerce/corporate.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed B.Com with at least 50% marks and have the relevant subject as one of the subjects based on merit in qualifying exams."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To  IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
+    },
+    "mode_of_admission": "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
+    "program_highlights": [
+        "Postgraduate course focusing on accounting expertise",
+        "Duration of 2 years divided into 4 semesters",
+        "Prepares students for better future prospects in accounting and commerce",
+        "Professional skills development for better placement opportunities",
+        "Multiple career paths including BFSI sector, teaching, further studies, corporate jobs, and government opportunities",
+        "Emphasis on in-depth knowledge and practical application"
+    ],
+    "labs": []
+},
 
    // BASIC SCIENCES
+   {
+    "id": 40,
+    "course_name": "Basic Science",
+    "header": {
+        "title": "B.Sc. IN NON-MEDICAL",
+        "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
+        "background_image": "../Courses/Science/Non-Medical/header.avif"
+    },
+    "program_name": "B.Sc. in Non-Medical",
+    "program_description": "The B.Sc. (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
+    "fees": "15,000/- INR Per Semester",
+    "duration": "3 Years",
+    "major_tracks": [
+        "Application Development",
+        "Computer Systems Management",
+        "Mathematical Modeling",
+        "Data Analysis and Interpretation"
+    ],
+    "program_outcomes": [
+        {
+            "title": "Application Development Skills",
+            "desc": "Develop skills in application development for computer systems.",
+            "image": "../Courses/Science/Non-Medical/app.jpg"
+        },
+        {
+            "title": "Computer Operations Proficiency",
+            "desc": "Gain proficiency in computer operations and system management.",
+            "image": "../Courses/Science/Non-Medical/operations.avif"
+        },
+        {
+            "title": "Problem-solving Abilities",
+            "desc": "Enhance problem-solving abilities through mathematical and scientific principles.",
+            "image": "../Courses/Science/Non-Medical/problem.jpg"
+        },
+        {
+            "title": "Research and Analysis Skills",
+            "desc": "Acquire research and analysis skills for exploring advancements in computer applications.",
+            "image": "../Courses/Science/Non-Medical/research.jpg"
+        }
+    ],
+    "eligibility_criteria": {
+        "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Math, or in medical with Math with at least 45%. For reserved category, minimum 40% in Physics, Chemistry, and Math, or in medical with Math with at least 40%."
+    },
+    "affiliation": {
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+        "Specialized study of computer applications and services",
+        "Emphasis on technological implementation of computer systems",
+        "Opportunities for research and practical applications",
+        "Development of problem-solving and analysis skills"
+    ],
+    "labs": []
+},
    {
     "id": 38,
     "course_name": "Basic Science",
@@ -2674,65 +2736,66 @@ const data = [
     ],
 
 },
-{
-    "id": 40,
-    "course_name": "Basic Science",
+
+
+   // EDUCATION
+   {
+    "id": 43,
+    "course_name": "Education",
     "header": {
-        "title": "B.Sc. IN NON-MEDICAL",
-        "subtitle": "EXPLORING COMPUTER APPLICATIONS AND SERVICES",
-        "background_image": "../Courses/Science/Non-Medical/header.avif"
+        "title": "Bachelor of Education",
+        "subtitle": "SHAPING FUTURE EDUCATORS",
+        "background_image": "../Courses/Education/Bachelor/expertise.avif"
     },
-    "program_name": "B.Sc. in Non-Medical",
-    "program_description": "The B.Sc. (B.Sc.) in Non-Medical is a 3-year undergraduate program focusing on specialized study of computer applications and services. It emphasizes the technological implementation of computer systems and aims to create quality professionals and research fellows needed across various sectors. The curriculum covers subjects such as Microbiology, Environmental Science & Health, Physics, Mathematics, Chemistry, Computer Science, and Computer Applications.",
-    "fees": "15,000/- INR Per Semester",
-    "duration": "3 Years",
+    "program_name": "Bachelor of Education (B.Ed)",
+    "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
+    "fees": "32,500 INR Per Semester",
+    "duration": "2 Years (Semester System)",
     "major_tracks": [
-        "Application Development",
-        "Computer Systems Management",
-        "Mathematical Modeling",
-        "Data Analysis and Interpretation"
+        "Theory",
+        "Research",
+        "Leadership",
+        "Training and Internship"
     ],
     "program_outcomes": [
         {
-            "title": "Application Development Skills",
-            "desc": "Develop skills in application development for computer systems.",
-            "image": "../Courses/Science/Non-Medical/app.jpg"
+            "title": "Pedagogical Expertise",
+            "desc": "Develop pedagogical skills to effectively plan, deliver, and assess instruction in diverse educational contexts, catering to the needs of learners.",
+            "image": "../Courses/Education/Bachelor/expertise.avif"
         },
         {
-            "title": "Computer Operations Proficiency",
-            "desc": "Gain proficiency in computer operations and system management.",
-            "image": "../Courses/Science/Non-Medical/operations.avif"
+            "title": "Research Proficiency",
+            "desc": "Acquire research skills to critically analyze educational issues, conduct empirical studies, and contribute to the advancement of educational knowledge and practices.",
+            "image": "../Courses/Education/Bachelor/research.jpg"
         },
         {
-            "title": "Problem-solving Abilities",
-            "desc": "Enhance problem-solving abilities through mathematical and scientific principles.",
-            "image": "../Courses/Science/Non-Medical/problem.jpg"
+            "title": "Leadership Development",
+            "desc": "Enhance leadership abilities to lead and manage educational initiatives, collaborate with stakeholders, and promote positive change within educational institutions.",
+            "image": "../Courses/Education/Masters/leadership.jpg"
         },
         {
-            "title": "Research and Analysis Skills",
-            "desc": "Acquire research and analysis skills for exploring advancements in computer applications.",
-            "image": "../Courses/Science/Non-Medical/research.jpg"
+            "title": "Teaching Training and Internship",
+            "desc": "Undergo teaching training and internship experiences to apply theoretical knowledge in real-world educational settings, gaining practical teaching skills and experience.",
+            "image": "../Courses/Education/Bachelor/training.avif"
         }
     ],
     "eligibility_criteria": {
-        "eligibility": "Candidates must have completed 10th and 12th in non-medical with at least 45% in Physics, Chemistry, and Math, or in medical with Math with at least 45%. For reserved category, minimum 40% in Physics, Chemistry, and Math, or in medical with Math with at least 40%."
+        "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
     },
     "affiliation": {
-        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-        "approved_by": "Approved by AICTE"
+        "affiliated_to": "Affiliated To Punjabi University, Patiala",
+        "approved_by": "NCTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
-        "Specialized study of computer applications and services",
-        "Emphasis on technological implementation of computer systems",
-        "Opportunities for research and practical applications",
-        "Development of problem-solving and analysis skills"
+        "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
+        "5000+ Offer Letters",
+        "250+ Companies Visited Every Year",
+        "43 Lakh Highest Package",
+        "25000+ Global Alumni Reach"
     ],
     "labs": []
 },
-
-   // EDUCATION
-
    {
     "id": 41,
     "course_name": "Education",
@@ -2792,51 +2855,51 @@ const data = [
     "labs": []
 },
 {
-    "id": 43,
+    "id": 44,
     "course_name": "Education",
     "header": {
-        "title": "Bachelor of Education",
-        "subtitle": "SHAPING FUTURE EDUCATORS",
-        "background_image": "../Courses/Education/Bachelor/expertise.avif"
+        "title": "Bachelor of Arts",
+        "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
+        "background_image": "../Courses/Education/BA/comms.avif"
     },
-    "program_name": "Bachelor of Education (B.Ed)",
-    "program_description": "This course has been designed for those aspirants who are interested in pursuing a career in teaching and other related fields. For teaching in high schools and higher primary schools, a B.Ed degree is a must in India. At present, the need for trained teachers is very high as a lot of schools are building day-by-day. To become a successful professional in the teaching field, one should have a minimum qualification in Bachelor of Education (B.Ed). After completing B.Ed., you have a huge scope to get a job in private as well as government schools with a good salary package. The salary depends upon the post you are holding in the school. Interested candidates can also pursue higher studies in this field. Master of Education (M.Ed.) is the postgraduate higher specialized course that students can pursue after the completion of B.Ed. You can also do a Ph.D. after the completion of M.Ed.",
-    "fees": "32,500 INR Per Semester",
-    "duration": "2 Years (Semester System)",
+    "program_name": "Bachelor of Arts (B.A.)",
+    "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to B.Sc. programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
+    "fees": "15,000 INR Per Semester",
+    "duration": "3 Years (Semester System)",
     "major_tracks": [
-        "Theory",
-        "Research",
-        "Leadership",
-        "Training and Internship"
+        "Social Sciences",
+        "Literature",
+        "Science & Philosophy",
+        "Psychology"
     ],
     "program_outcomes": [
         {
-            "title": "Pedagogical Expertise",
-            "desc": "Develop pedagogical skills to effectively plan, deliver, and assess instruction in diverse educational contexts, catering to the needs of learners.",
-            "image": "../Courses/Education/Bachelor/expertise.avif"
+            "title": "Critical Thinking Skills",
+            "desc": "Develop critical thinking skills to analyze and evaluate complex ideas, arguments, and theories in various disciplines within the humanities and social sciences.",
+            "image": "../Courses/Education/BA/thinking.avif"
+        },
+        {
+            "title": "Effective Communication",
+            "desc": "Enhance communication skills through written and oral expression, enabling effective interaction and expression of ideas in diverse contexts and audiences.",
+            "image": "../Courses/Education/BA/comms.avif"
         },
         {
             "title": "Research Proficiency",
-            "desc": "Acquire research skills to critically analyze educational issues, conduct empirical studies, and contribute to the advancement of educational knowledge and practices.",
+            "desc": "Acquire research skills to gather, interpret, and synthesize information from multiple sources, facilitating independent inquiry and scholarly exploration.",
             "image": "../Courses/Education/Bachelor/research.jpg"
         },
         {
-            "title": "Leadership Development",
-            "desc": "Enhance leadership abilities to lead and manage educational initiatives, collaborate with stakeholders, and promote positive change within educational institutions.",
-            "image": "../Courses/Education/Masters/leadership.jpg"
-        },
-        {
-            "title": "Teaching Training and Internship",
-            "desc": "Undergo teaching training and internship experiences to apply theoretical knowledge in real-world educational settings, gaining practical teaching skills and experience.",
-            "image": "../Courses/Education/Bachelor/training.avif"
+            "title": "Cultural Awareness",
+            "desc": "Develop cultural awareness and sensitivity to appreciate and understand diverse perspectives, traditions, and values across different societies and cultures.",
+            "image": "../Courses/Education/BA/cultural.avif"
         }
     ],
     "eligibility_criteria": {
-        "eligibility": "The candidate must have pursued a Bachelor’s degree and/or a Master’s degree in Science/Humanities/Social Sciences/Commerce/Home Science/B.B.A/B.C.A/any equivalent degree. The candidate must have passed the qualifying degree examination with a minimum aggregate of 50% (45% for the reserved candidates)."
+        "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
     },
     "affiliation": {
-        "affiliated_to": "Affiliated To Punjabi University, Patiala",
-        "approved_by": "NCTE"
+        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+        "approved_by": "Approved by AICTE"
     },
     "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
     "program_highlights": [
@@ -2906,63 +2969,7 @@ const data = [
     "labs": []
 },
 
-{
-    "id": 44,
-    "course_name": "Education",
-    "header": {
-        "title": "Bachelor of Arts",
-        "subtitle": "EXPLORING HUMANITIES AND SOCIAL SCIENCES",
-        "background_image": "../Courses/Education/BA/comms.avif"
-    },
-    "program_name": "Bachelor of Arts (B.A.)",
-    "program_description": "Bachelor of Arts (B.A.) programs typically focus on the liberal arts, humanities, and social science subjects, as opposed to B.Sc. programs, which focus on subjects related to math, science, and technology. Bachelor of Arts programs are sometimes confused with Bachelor of Fine Arts programs, which include fine arts majors such as dance, theater, painting, sculpture, and acting. B.A. programs typically take three years to complete and may be offered in a variety of formats including on-campus, online, hybrid, and distance learning. The large scope of employment for all aspirants of BA course is reflected in a large number of sectors of interest for BA courses graduates as is enlisted below: Advertising, Law, Advertising, Broadcast, Library and Information Science, Business Process Outsourcing Units, Policing, Civil Services, Professional Writing, Community Service, and Public Administration.",
-    "fees": "15,000 INR Per Semester",
-    "duration": "3 Years (Semester System)",
-    "major_tracks": [
-        "Social Sciences",
-        "Literature",
-        "Science & Philosophy",
-        "Psychology"
-    ],
-    "program_outcomes": [
-        {
-            "title": "Critical Thinking Skills",
-            "desc": "Develop critical thinking skills to analyze and evaluate complex ideas, arguments, and theories in various disciplines within the humanities and social sciences.",
-            "image": "../Courses/Education/BA/thinking.avif"
-        },
-        {
-            "title": "Effective Communication",
-            "desc": "Enhance communication skills through written and oral expression, enabling effective interaction and expression of ideas in diverse contexts and audiences.",
-            "image": "../Courses/Education/BA/comms.avif"
-        },
-        {
-            "title": "Research Proficiency",
-            "desc": "Acquire research skills to gather, interpret, and synthesize information from multiple sources, facilitating independent inquiry and scholarly exploration.",
-            "image": "../Courses/Education/Bachelor/research.jpg"
-        },
-        {
-            "title": "Cultural Awareness",
-            "desc": "Develop cultural awareness and sensitivity to appreciate and understand diverse perspectives, traditions, and values across different societies and cultures.",
-            "image": "../Courses/Education/BA/cultural.avif"
-        }
-    ],
-    "eligibility_criteria": {
-        "eligibility": "Pass in BA/ B.Sc/ B.Com/ BT/ B.Ed with a minimum of 50% aggregate (45% for the reserved candidates)"
-    },
-    "affiliation": {
-        "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
-        "approved_by": "Approved by AICTE"
-    },
-    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-    "program_highlights": [
-        "Best College in Placements: Recordbreaking placements done in 2020, SVGOI has been a favorite institute for fortune companies to visit and provide job offers. With the highest package of 43 lacs, SVGOI has been helping the students realize their dreams.",
-        "5000+ Offer Letters",
-        "250+ Companies Visited Every Year",
-        "43 Lakh Highest Package",
-        "25000+ Global Alumni Reach"
-    ],
-    "labs": []
-},
+
 
     // DIPLOMA
     {
@@ -3328,60 +3335,63 @@ const data = [
 
     // COMPUTER APPLICATION
     {
-        "id": 45,
+        "id": 48,
         "course_name": "Computer Applications",
         event_type: "Engineering",
         "header": {
-            "title": "Master of Computer Application",
-            "subtitle": "SHAPING FUTURE TECH LEADERS",
-            "background_image": "../Courses/ComputerApp/MCA/cloud.avif"
+            "title": "B.Sc. in Information Technology",
+            "subtitle": "BUILDING THE FUTURE OF IT",
+            "background_image": "../Courses/ComputerApp/BscIt/data.avif"
         },
-        "program_name": "MCA",
-        "program_description": "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
-        "fees": "32,000 INR Per Semester",
-        "duration": "2 Years (Semester System)",
+        "program_name": "B.Sc Information Technology",
+        "program_description": "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+        "fees": "20,000 INR per semester",
+        "duration": "3 Years (Semester System)",
         "major_tracks": [
-            "Data Science",
             "Software Development",
-            "Machine Learning",
-            "Cloud Computing",
-            "Networking"
+            "Database Management",
+            "Network Administration",
+            "Cybersecurity",
+            "Web Development"
         ],
         "program_outcomes": [
             {
-                "title": "Data Scientist",
-                "desc": "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
-                "image": "../Courses/ComputerApp/MCA/data.avif"
-            },
-            {
                 "title": "Software Developer",
-                "desc": "Develop expertise in software development using modern programming languages and frameworks.",
+                "desc": "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
                 "image": "../Courses/ComputerApp/MCA/software.avif"
             },
             {
-                "title": "Cloud Engineer",
-                "desc": "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
-                "image": "../Courses/ComputerApp/MCA/cloud.avif"
+                "title": "Database Administrator",
+                "desc": "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
+                "image": "../Courses/ComputerApp/BscIt/data.avif"
             },
             {
                 "title": "Network Administrator",
-                "desc": "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
-                "image": "../Courses/ComputerApp/MCA/network.avif"
+                "desc": "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
+                "image": "../Courses/ComputerApp/BscIt/network.avif"
+            },
+            {
+                "title": "Cybersecurity Specialist",
+                "desc": "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
+                "image": "../Courses/ComputerApp/BscIt/cyber.avif"
             },
         ],
+        "program_highlights": [
+            "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
+            "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
+            "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
+            "Expert Faculty: Learn from experienced faculty members and industry experts.",
+            "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
+            "Flexible Learning: Convenient class timings and online resources for flexible learning."
+        ],
         "eligibility_criteria": {
-            "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category."
+            "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
         },
         "affiliation": {
-            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "affiliated_to": "Affiliated To MRSPTU, Bathinda",
             "approved_by": "Approved by AICTE"
         },
-        "program_highlights": [
-            "Specialized study of computer applications and services",
-            "Emphasis on technological implementation of computer systems",
-            "Opportunities for research and practical applications",
-            "Development of problem-solving and analysis skills"
-        ],
+        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
         "labs": []
     },
     {
@@ -3447,6 +3457,63 @@ const data = [
         "labs": []
     },
     {
+        "id": 45,
+        "course_name": "Computer Applications",
+        event_type: "Engineering",
+        "header": {
+            "title": "Master of Computer Application",
+            "subtitle": "SHAPING FUTURE TECH LEADERS",
+            "background_image": "../Courses/ComputerApp/MCA/cloud.avif"
+        },
+        "program_name": "MCA",
+        "program_description": "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
+        "fees": "32,000 INR Per Semester",
+        "duration": "2 Years (Semester System)",
+        "major_tracks": [
+            "Data Science",
+            "Software Development",
+            "Machine Learning",
+            "Cloud Computing",
+            "Networking"
+        ],
+        "program_outcomes": [
+            {
+                "title": "Data Scientist",
+                "desc": "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
+                "image": "../Courses/ComputerApp/MCA/data.avif"
+            },
+            {
+                "title": "Software Developer",
+                "desc": "Develop expertise in software development using modern programming languages and frameworks.",
+                "image": "../Courses/ComputerApp/MCA/software.avif"
+            },
+            {
+                "title": "Cloud Engineer",
+                "desc": "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
+                "image": "../Courses/ComputerApp/MCA/cloud.avif"
+            },
+            {
+                "title": "Network Administrator",
+                "desc": "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
+                "image": "../Courses/ComputerApp/MCA/network.avif"
+            },
+        ],
+        "eligibility_criteria": {
+            "eligibility": "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category."
+        },
+        "affiliation": {
+            "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+            "approved_by": "Approved by AICTE"
+        },
+        "program_highlights": [
+            "Specialized study of computer applications and services",
+            "Emphasis on technological implementation of computer systems",
+            "Opportunities for research and practical applications",
+            "Development of problem-solving and analysis skills"
+        ],
+        "labs": []
+    },
+    {
         "id": 47,
         "course_name": "Computer Applications",
         event_type: "Engineering",
@@ -3508,66 +3575,7 @@ const data = [
         ],
         "labs": []
     },
-    {
-        "id": 48,
-        "course_name": "Computer Applications",
-        event_type: "Engineering",
-        "header": {
-            "title": "B.Sc. in Information Technology",
-            "subtitle": "BUILDING THE FUTURE OF IT",
-            "background_image": "../Courses/ComputerApp/BscIt/data.avif"
-        },
-        "program_name": "B.Sc Information Technology",
-        "program_description": "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
-        "fees": "20,000 INR per semester",
-        "duration": "3 Years (Semester System)",
-        "major_tracks": [
-            "Software Development",
-            "Database Management",
-            "Network Administration",
-            "Cybersecurity",
-            "Web Development"
-        ],
-        "program_outcomes": [
-            {
-                "title": "Software Developer",
-                "desc": "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
-                "image": "../Courses/ComputerApp/MCA/software.avif"
-            },
-            {
-                "title": "Database Administrator",
-                "desc": "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
-                "image": "../Courses/ComputerApp/BscIt/data.avif"
-            },
-            {
-                "title": "Network Administrator",
-                "desc": "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
-                "image": "../Courses/ComputerApp/BscIt/network.avif"
-            },
-            {
-                "title": "Cybersecurity Specialist",
-                "desc": "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
-                "image": "../Courses/ComputerApp/BscIt/cyber.avif"
-            },
-        ],
-        "program_highlights": [
-            "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
-            "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
-            "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
-            "Expert Faculty: Learn from experienced faculty members and industry experts.",
-            "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
-            "Flexible Learning: Convenient class timings and online resources for flexible learning."
-        ],
-        "eligibility_criteria": {
-            "eligibility": "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category"
-        },
-        "affiliation": {
-            "affiliated_to": "Affiliated To MRSPTU, Bathinda",
-            "approved_by": "Approved by AICTE"
-        },
-        "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
-        "labs": []
-    },
+   
 
     //Nursing
     {

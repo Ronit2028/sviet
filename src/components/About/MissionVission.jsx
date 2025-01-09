@@ -119,7 +119,18 @@ const MissionVission = () => {
           </div>
           <div className="md:w-1/3 h-full flex justify-center  "><h1 className='md:text-5xl text-2xl  font-semibold text-center'> VISION</h1></div>
         </div>
+        {/* <div className="flex flex-col mt-12">
+          <div className="flex mb-2 md:mb-5 items-center">
+            <span className="border-l-2 border-[#ff9602] h-6 mr-3"></span>
+            <h1 className="text-lg font-bold">OUR MOTTO</h1>
+          </div>
+          <h2 className="text-2xl md:text-4xl font-semibold mb-4">Educating students to become job creators, not job seekers.</h2>
+         
+          
+        </div> */}
       </div>
+      
+      
     </>
   );
 };
