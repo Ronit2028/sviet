@@ -20,7 +20,7 @@ export default function HackathonPopup() {
   }, [])
 
   useEffect(() => {
-    const targetDate = new Date('2024-11-16T10:00:00').getTime()
+    const targetDate = new Date('2025-02-08T09:00:00').getTime()
 
     const interval = setInterval(() => {
       const now = new Date().getTime()
@@ -110,11 +110,11 @@ export default function HackathonPopup() {
                     {/* <Rocket className="text-[#fea700]" size={32} /> */}
                     <h2 className="text-4xl font-bold">
                       <span className="text-white">Bharat-tech-Xperience </span>
-                      <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fea700] to-orange-600"> Hackathon</span>
+                      <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#fea700] to-orange-600"> 2.0</span>
                     </h2>
                     {/* <Globe className="text-blue-400 animate-spin-slow" size={32} /> */}
                   </div>
-                  <p className="text-gray-300 text-center lg:mt-[-20px]">~Where Innovation Meets Tradition</p>
+                  <p className="text-gray-300 text-center lg:mt-[-20px]">~National Level Hackathon</p>
                 </motion.div>
 
                 <motion.div
@@ -193,7 +193,7 @@ export default function HackathonPopup() {
                   className="flex justify-center"
                 >
                   <Link
-                    href="https://bharat-tech-xperience.theuniques.in/"
+                    href="https://bharat-tech-xperience.theuniques.in/register"
                     className="group relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium transition-all bg-[#fea700] rounded-full hover:bg-orange-600 text-white"
                   >
                     <span className="relative">Register Now</span>

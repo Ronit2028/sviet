@@ -89,6 +89,7 @@ import Testimonials from "@/components/LandingPage/Testimonials";
 import EventCarousel from "@/components/LandingPage/EventCarousel";
 import FeaturesSection16 from "@/components/LandingPage/FeaturesSection16";
 import BookReleaseWidget from "@/components/Globals/BookReleaseWidget";
+import HackathonPopup from '@/components/LandingPage/HackathonPopup'
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -124,7 +125,7 @@ export default function Home() {
       >
         Enquire Now
       </button>
-
+      <HackathonPopup />
       {/* Modal */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
