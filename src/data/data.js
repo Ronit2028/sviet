@@ -1457,7 +1457,7 @@ const data = [
     ],
 
     "eligibility_criteria": {
-        "eligibility": "Candidates who have completed 12th from Arts, Science or Commerce from any recognized institution"
+        "eligibility": "Candidates who have completed 10+2 examination with Science (Medical / Non-Medical) or its equivalent examination in any stream conducted by a recognized Board / University / Council."
     },
     "affiliation": {
         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
@@ -1543,7 +1543,7 @@ const data = [
         "Opportunities for career advancement and entrepreneurship"
     ],
     "eligibility_criteria": {
-        "eligibility": "The candidate has to complete a bachelor degree in Hotel Management like Bachelor (BHMCT) or any bachelor degree with relevant subjects in order to apply for the master program. Candidates need to score a minimum aggregate 55% marks; potential candidates matching the threshold are eligible to take admission in Master’s Degree Course."
+        "eligibility": "Passing of bachelor's degree in any stream from a University recognized by UGC."
     },
     "affiliation": {
         "affiliated_to": "Affiliated To IKGPTU, Jalandhar",

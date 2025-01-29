@@ -39,7 +39,7 @@ const Page = ({ params }) => {
                     ]
                 }
             },
-            committee:"/SVIET/sviet-committee.pdf",
+            committee:"/SVIET/SVIET Committees.pdf",
             md:"/SVIET/Mandatory-Disclosure-SVIET-1.pdf",
 
         },

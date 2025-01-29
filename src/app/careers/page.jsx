@@ -139,7 +139,7 @@ function Careers() {
         <h3 className="bg-gray-200 px-6 py-3 text-lg font-semibold">How to Apply</h3>
         <div className="p-6">
           <p>
-            To apply for any of the positions listed above, please email your CV and a cover letter to <strong>careers@sviet.ac.in</strong> with the subject line mentioning the job title you are applying for.
+            To apply for any of the positions listed above, please email your CV and a cover letter to <strong>career@sviet.ac.in</strong> with the subject line mentioning the job title you are applying for.
           </p>
         </div>
       </div>
