@@ -189,6 +189,18 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    company: "Kandhari beverages",
+    date: "Confirm after registrations",
+    details: "This is information for B. tech Civil (2025 passing out Batch Students only.) thatKandhari beverages is conducting a placement drive.",
+    link: "/Kandhari.pdf",
+  },
+  {
+    company: "Karvi Solutions",
+    date: "Confirm after registrations",
+    details: "This is information for B. tech CSE, ECE, MBA, BCA, MCA (2025 passing out Batch Students only.) that Karvi Solutions is conducting a placement drive.",
+    link: "/Karvi-Solutions.pdf",
+  },
+  {
     company: "Pontika Aerotech Ltd.",
     date: "Confirm after registrations",
     details: "This is information for MBA, B. pharmacy 2025 Passing out Batch Students only. that Pontika Aerotech Ltd. is conducting a placement drive.",
