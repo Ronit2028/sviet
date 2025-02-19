@@ -1318,6 +1318,262 @@ const data = [
   //     ]
   // },
 
+   // COMPUTER APPLICATION
+   {
+    id: 48,
+    course_name: "Computer Applications",
+    event_type: "Engineering",
+    header: {
+      title: "B.Sc. in Information Technology",
+      subtitle: "BUILDING THE FUTURE OF IT",
+      background_image: "../Courses/ComputerApp/BscIt/data.avif",
+    },
+    program_name: "B.Sc Information Technology",
+    program_description:
+      "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+    fees: "20,000 INR per semester",
+    duration: "3 Years (Semester System)",
+    major_tracks: [
+      "Software Development",
+      "Database Management",
+      "Network Administration",
+      "Cybersecurity",
+      "Web Development",
+    ],
+    program_outcomes: [
+      {
+        title: "Software Developer",
+        desc: "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
+        image: "../Courses/ComputerApp/MCA/software.avif",
+      },
+      {
+        title: "Database Administrator",
+        desc: "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
+        image: "../Courses/ComputerApp/BscIt/data.avif",
+      },
+      {
+        title: "Network Administrator",
+        desc: "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
+        image: "../Courses/ComputerApp/BscIt/network.avif",
+      },
+      {
+        title: "Cybersecurity Specialist",
+        desc: "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
+        image: "../Courses/ComputerApp/BscIt/cyber.avif",
+      },
+    ],
+    program_highlights: [
+      "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
+      "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
+      "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
+      "Expert Faculty: Learn from experienced faculty members and industry experts.",
+      "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
+      "Flexible Learning: Convenient class timings and online resources for flexible learning.",
+    ],
+    eligibility_criteria: {
+      eligibility:
+        "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category",
+    },
+    affiliation: {
+      affiliated_to: "Affiliated To MRSPTU, Bathinda",
+      approved_by: "Approved by AICTE",
+    },
+    mode_of_admission:
+      "For admissions, visit the portal to register/login and proceed with the admission application.",
+    labs: [],
+  },
+  {
+    id: 46,
+    course_name: "Computer Applications",
+    " event_type": "Engineering",
+    header: {
+      title: "Bachelor of Computer Application",
+      subtitle: "UNLOCK YOUR POTENTIAL IN IT",
+      background_image: "../Courses/ComputerApp/MCA/software.avif",
+    },
+    program_name: "BCA",
+    program_description:
+      "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
+    fees: "Rs. 22000/- INR per semester",
+    duration: "3 Years (Semester System)",
+    major_tracks: [
+      "Software Development",
+      "Web Development",
+      "Database Administration",
+      "Network Engineering",
+    ],
+    program_outcomes: [
+      {
+        title: "Software Developer",
+        desc: "Become proficient in software development using various programming languages and tools.",
+        image: "../Courses/ComputerApp/MCA/software.avif",
+      },
+      {
+        title: "Web Developer",
+        desc: "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
+        image: "../Courses/ComputerApp/BCA/web.avif",
+      },
+      {
+        title: "Database Administrator",
+        desc: "Learn database design, implementation, and management techniques.",
+        image: "../Courses/ComputerApp/BCA/data.jpg",
+      },
+      {
+        title: "Network Engineer",
+        desc: "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
+        image: "../Courses/ComputerApp/BCA/network.avif",
+      },
+    ],
+    eligibility_criteria: {
+      eligibility:
+        "10+2 with at least 45% and for reserved category minimum 40%",
+    },
+    affiliation: {
+      affiliated_to: [
+        " IKGPTU, Jalandhar/ MRSPTU, Bathinda/Punjabi University, Patiala",
+      ],
+      approved_by: "Approved by AICTE",
+    },
+    mode_of_admission:
+      "For admissions, visit the portal to register/login and proceed with the admission application.",
+    program_highlights: [
+      "Learn by Doing: Hands-on learning through case studies and projects.",
+      "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
+      "Industry Ready: Six-month industry internship for real-world experience.",
+      "Global Exposure: National and international immersion programs.",
+      "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
+      "Beyond Academics: Essential skill development through workshops.",
+      "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
+      "Expert Learning: Renowned faculty and industry guest speakers.",
+      "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more.",
+    ],
+    labs: [],
+  },
+  {
+    id: 45,
+    course_name: "Computer Applications",
+    event_type: "Engineering",
+    header: {
+      title: "Master of Computer Application",
+      subtitle: "SHAPING FUTURE TECH LEADERS",
+      background_image: "../Courses/ComputerApp/MCA/cloud.avif",
+    },
+    program_name: "MCA",
+    program_description:
+      "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
+    fees: "32,000 INR Per Semester",
+    duration: "2 Years (Semester System)",
+    major_tracks: [
+      "Data Science",
+      "Software Development",
+      "Machine Learning",
+      "Cloud Computing",
+      "Networking",
+    ],
+    program_outcomes: [
+      {
+        title: "Data Scientist",
+        desc: "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
+        image: "../Courses/ComputerApp/MCA/data.avif",
+      },
+      {
+        title: "Software Developer",
+        desc: "Develop expertise in software development using modern programming languages and frameworks.",
+        image: "../Courses/ComputerApp/MCA/software.avif",
+      },
+      {
+        title: "Cloud Engineer",
+        desc: "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
+        image: "../Courses/ComputerApp/MCA/cloud.avif",
+      },
+      {
+        title: "Network Administrator",
+        desc: "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
+        image: "../Courses/ComputerApp/MCA/network.avif",
+      },
+    ],
+    eligibility_criteria: {
+      eligibility:
+        "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category.",
+    },
+    affiliation: {
+      affiliated_to: "Affiliated To IKGPTU, Jalandhar",
+      approved_by: "Approved by AICTE",
+    },
+    program_highlights: [
+      "Specialized study of computer applications and services",
+      "Emphasis on technological implementation of computer systems",
+      "Opportunities for research and practical applications",
+      "Development of problem-solving and analysis skills",
+    ],
+    labs: [],
+  },
+  {
+    id: 47,
+    course_name: "Computer Applications",
+    event_type: "Engineering",
+    header: {
+      title: "Post Graduate Diploma in Computer Applications",
+      subtitle: "UNLEASH YOUR POTENTIAL IN IT",
+      background_image: "../Courses/BTech/cse/data.jpg",
+    },
+    program_name: "PGDCA",
+    program_description:
+      "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
+    fees: "Rs. 12000/- INR per semester",
+    duration: "1 Year (Semester System)",
+    major_tracks: [
+      "Software Engineer",
+      "Computer Programmer & Analyst",
+      "Interface Engineer",
+      "Java Developer",
+      "Project Manager",
+      "Information Security Analyst",
+      "IT Consultant",
+    ],
+    program_outcomes: [
+      {
+        title: "Software Engineer",
+        desc: "Acquire skills to design and develop software applications according to industry standards.",
+        image: "../Courses/ComputerApp/MCA/software.avif",
+      },
+      {
+        title: "Computer Programmer & Analyst",
+        desc: "Learn programming languages and analytical techniques to develop efficient computer programs.",
+        image: "../Courses/ComputerApp/pgdca/programmer.avif",
+      },
+      {
+        title: "Information Security Analyst",
+        desc: "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
+        image: "../Courses/ComputerApp/pgdca/security.avif",
+      },
+      {
+        title: "IT Consultant",
+        desc: "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
+        image: "../Courses/ComputerApp/pgdca/consultant.avif",
+      },
+    ],
+    eligibility_criteria: {
+      eligibility:
+        "Graduation in any discipline with at least 50% and for reserved category minimum 45%",
+    },
+    affiliation: {
+      affiliated_to: "Affiliated To  IKGPTU, Jalandhar",
+      approved_by: "Approved by AICTE",
+    },
+    mode_of_admission:
+      "For admissions, visit the portal to register/login and proceed with the admission application.",
+    program_highlights: [
+      "Practical Oriented Curriculum: Emphasis on hands-on learning and real-world projects.",
+      "Industry-Relevant Skills: Develop skills and knowledge demanded by the IT industry.",
+      "Experienced Faculty: Learn from experienced faculty members and industry experts.",
+      "Internship Opportunities: Gain practical experience through internships in reputed organizations.",
+      "Career Support: Access to career guidance and placement assistance.",
+      "Flexible Learning: Convenient class timings and online resources for flexible learning.",
+    ],
+    labs: [],
+  },
+
   // HOTEL MANAGEMENT
 
   {
@@ -2432,7 +2688,8 @@ const data = [
     },
     eligibility_criteria: {
       eligibility:
-        "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade.",
+        // "Students who have completed the 12th grade with physics, chemistry and maths/biology with 45% marks in case of general category and 40% marks in case of sc category can apply. The Management Quota requires students to pass the Sviet EEE Examination and have a minimum 65% mark in each of the three science subjects in the 12th grade.",
+        "Passing of Bachelor Degree of minimum 3 years with at least 50% marks (45% marks in case of reserved category) in the qualifying examination from the University recognised by the UGC.",
     },
     mode_of_admission:
       "Admission is typically based on merit or entrance exams conducted by the institution. Candidates must apply through the designated admission portal.",
@@ -2636,261 +2893,7 @@ const data = [
   },
 
   
-  // COMPUTER APPLICATION
-  {
-    id: 48,
-    course_name: "Computer Applications",
-    event_type: "Engineering",
-    header: {
-      title: "B.Sc. in Information Technology",
-      subtitle: "BUILDING THE FUTURE OF IT",
-      background_image: "../Courses/ComputerApp/BscIt/data.avif",
-    },
-    program_name: "B.Sc Information Technology",
-    program_description:
-      "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
-    fees: "20,000 INR per semester",
-    duration: "3 Years (Semester System)",
-    major_tracks: [
-      "Software Development",
-      "Database Management",
-      "Network Administration",
-      "Cybersecurity",
-      "Web Development",
-    ],
-    program_outcomes: [
-      {
-        title: "Software Developer",
-        desc: "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
-        image: "../Courses/ComputerApp/MCA/software.avif",
-      },
-      {
-        title: "Database Administrator",
-        desc: "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
-        image: "../Courses/ComputerApp/BscIt/data.avif",
-      },
-      {
-        title: "Network Administrator",
-        desc: "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
-        image: "../Courses/ComputerApp/BscIt/network.avif",
-      },
-      {
-        title: "Cybersecurity Specialist",
-        desc: "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
-        image: "../Courses/ComputerApp/BscIt/cyber.avif",
-      },
-    ],
-    program_highlights: [
-      "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
-      "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
-      "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
-      "Expert Faculty: Learn from experienced faculty members and industry experts.",
-      "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
-      "Flexible Learning: Convenient class timings and online resources for flexible learning.",
-    ],
-    eligibility_criteria: {
-      eligibility:
-        "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category",
-    },
-    affiliation: {
-      affiliated_to: "Affiliated To MRSPTU, Bathinda",
-      approved_by: "Approved by AICTE",
-    },
-    mode_of_admission:
-      "For admissions, visit the portal to register/login and proceed with the admission application.",
-    labs: [],
-  },
-  {
-    id: 46,
-    course_name: "Computer Applications",
-    " event_type": "Engineering",
-    header: {
-      title: "Bachelor of Computer Application",
-      subtitle: "UNLOCK YOUR POTENTIAL IN IT",
-      background_image: "../Courses/ComputerApp/MCA/software.avif",
-    },
-    program_name: "BCA",
-    program_description:
-      "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
-    fees: "Rs. 22000/- INR per semester",
-    duration: "3 Years (Semester System)",
-    major_tracks: [
-      "Software Development",
-      "Web Development",
-      "Database Administration",
-      "Network Engineering",
-    ],
-    program_outcomes: [
-      {
-        title: "Software Developer",
-        desc: "Become proficient in software development using various programming languages and tools.",
-        image: "../Courses/ComputerApp/MCA/software.avif",
-      },
-      {
-        title: "Web Developer",
-        desc: "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
-        image: "../Courses/ComputerApp/BCA/web.avif",
-      },
-      {
-        title: "Database Administrator",
-        desc: "Learn database design, implementation, and management techniques.",
-        image: "../Courses/ComputerApp/BCA/data.jpg",
-      },
-      {
-        title: "Network Engineer",
-        desc: "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
-        image: "../Courses/ComputerApp/BCA/network.avif",
-      },
-    ],
-    eligibility_criteria: {
-      eligibility:
-        "10+2 with at least 45% and for reserved category minimum 40%",
-    },
-    affiliation: {
-      affiliated_to: [
-        " IKGPTU, Jalandhar/ MRSPTU, Bathinda/Punjabi University, Patiala",
-      ],
-      approved_by: "Approved by AICTE",
-    },
-    mode_of_admission:
-      "For admissions, visit the portal to register/login and proceed with the admission application.",
-    program_highlights: [
-      "Learn by Doing: Hands-on learning through case studies and projects.",
-      "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
-      "Industry Ready: Six-month industry internship for real-world experience.",
-      "Global Exposure: National and international immersion programs.",
-      "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
-      "Beyond Academics: Essential skill development through workshops.",
-      "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
-      "Expert Learning: Renowned faculty and industry guest speakers.",
-      "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more.",
-    ],
-    labs: [],
-  },
-  {
-    id: 45,
-    course_name: "Computer Applications",
-    event_type: "Engineering",
-    header: {
-      title: "Master of Computer Application",
-      subtitle: "SHAPING FUTURE TECH LEADERS",
-      background_image: "../Courses/ComputerApp/MCA/cloud.avif",
-    },
-    program_name: "MCA",
-    program_description:
-      "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
-    fees: "32,000 INR Per Semester",
-    duration: "2 Years (Semester System)",
-    major_tracks: [
-      "Data Science",
-      "Software Development",
-      "Machine Learning",
-      "Cloud Computing",
-      "Networking",
-    ],
-    program_outcomes: [
-      {
-        title: "Data Scientist",
-        desc: "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
-        image: "../Courses/ComputerApp/MCA/data.avif",
-      },
-      {
-        title: "Software Developer",
-        desc: "Develop expertise in software development using modern programming languages and frameworks.",
-        image: "../Courses/ComputerApp/MCA/software.avif",
-      },
-      {
-        title: "Cloud Engineer",
-        desc: "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
-        image: "../Courses/ComputerApp/MCA/cloud.avif",
-      },
-      {
-        title: "Network Administrator",
-        desc: "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
-        image: "../Courses/ComputerApp/MCA/network.avif",
-      },
-    ],
-    eligibility_criteria: {
-      eligibility:
-        "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category.",
-    },
-    affiliation: {
-      affiliated_to: "Affiliated To IKGPTU, Jalandhar",
-      approved_by: "Approved by AICTE",
-    },
-    program_highlights: [
-      "Specialized study of computer applications and services",
-      "Emphasis on technological implementation of computer systems",
-      "Opportunities for research and practical applications",
-      "Development of problem-solving and analysis skills",
-    ],
-    labs: [],
-  },
-  {
-    id: 47,
-    course_name: "Computer Applications",
-    event_type: "Engineering",
-    header: {
-      title: "Post Graduate Diploma in Computer Applications",
-      subtitle: "UNLEASH YOUR POTENTIAL IN IT",
-      background_image: "../Courses/BTech/cse/data.jpg",
-    },
-    program_name: "PGDCA",
-    program_description:
-      "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
-    fees: "Rs. 12000/- INR per semester",
-    duration: "1 Year (Semester System)",
-    major_tracks: [
-      "Software Engineer",
-      "Computer Programmer & Analyst",
-      "Interface Engineer",
-      "Java Developer",
-      "Project Manager",
-      "Information Security Analyst",
-      "IT Consultant",
-    ],
-    program_outcomes: [
-      {
-        title: "Software Engineer",
-        desc: "Acquire skills to design and develop software applications according to industry standards.",
-        image: "../Courses/ComputerApp/MCA/software.avif",
-      },
-      {
-        title: "Computer Programmer & Analyst",
-        desc: "Learn programming languages and analytical techniques to develop efficient computer programs.",
-        image: "../Courses/ComputerApp/pgdca/programmer.avif",
-      },
-      {
-        title: "Information Security Analyst",
-        desc: "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
-        image: "../Courses/ComputerApp/pgdca/security.avif",
-      },
-      {
-        title: "IT Consultant",
-        desc: "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
-        image: "../Courses/ComputerApp/pgdca/consultant.avif",
-      },
-    ],
-    eligibility_criteria: {
-      eligibility:
-        "Graduation in any discipline with at least 50% and for reserved category minimum 45%",
-    },
-    affiliation: {
-      affiliated_to: "Affiliated To  IKGPTU, Jalandhar",
-      approved_by: "Approved by AICTE",
-    },
-    mode_of_admission:
-      "For admissions, visit the portal to register/login and proceed with the admission application.",
-    program_highlights: [
-      "Practical Oriented Curriculum: Emphasis on hands-on learning and real-world projects.",
-      "Industry-Relevant Skills: Develop skills and knowledge demanded by the IT industry.",
-      "Experienced Faculty: Learn from experienced faculty members and industry experts.",
-      "Internship Opportunities: Gain practical experience through internships in reputed organizations.",
-      "Career Support: Access to career guidance and placement assistance.",
-      "Flexible Learning: Convenient class timings and online resources for flexible learning.",
-    ],
-    labs: [],
-  },
+ 
   
   // BASIC SCIENCES
   {

@@ -37,7 +37,7 @@ const Overview = ({ programOverview, majorTracks, duration, programName, fees, b
                         <p className="text-2xl font-medium mb-5">Fees :</p>
                         <div className='flex flex-wrap justify-between'>
                             {/* <p className='text-3xl font-medium'>{fees}</p> */}
-                            <Link href="/fee-structure2.pdf">
+                            <Link href="/FEE-STRUCTURE-2025.pdf">
                                 <button className='bg-[#fea700] text-white text-xl px-2 py-1 rounded-md '>Download Fee Structure <i className='fa fa-arrow-right ml-1'></i></button>
                             </Link>
                         </div>
