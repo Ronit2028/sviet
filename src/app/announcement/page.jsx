@@ -189,6 +189,12 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    company: "Black Apple Technolgoies",
+    date: "Confirm after registrations",
+    details: "This is information for B. Tech CSE , ECE , MBA 2025 Passing out Batch Students only) that Black Apple Technolgoies is conducting a placement drive.",
+    link: "/Black-Apple-Tech.pdf",
+  },
+  {
     company: "Kandhari beverages",
     date: "Confirm after registrations",
     details: "This is information for B. tech Civil (2025 passing out Batch Students only.) thatKandhari beverages is conducting a placement drive.",

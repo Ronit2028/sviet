@@ -103,6 +103,27 @@ export default function Home() {
     return () => clearTimeout(timeout);
   }, []);
 
+  //track id
+  useEffect(() => {
+    // Inject the tracking script dynamically
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.async = true;
+    script.src = "https://track.nopaperforms.com/js/track.js";
+
+    // Define the tracking parameters
+    window.npf_d = "https://admission.sviet.ac.in";
+    window.npf_c = "5151";
+    window.npf_m = "1";
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script); // Cleanup the script when component unmounts
+    };
+  }, []);
+  //end track id
+
   const handleEnquireClick = () => {
     setShowModal(true);
   };
