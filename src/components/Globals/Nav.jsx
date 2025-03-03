@@ -1449,9 +1449,10 @@ export function ComplexNavbar() {
           <div className="hidden lg:flex justify-end w-full border-b-2 py-3">
             <div className="w-1/3 flex items-center  justify-end gap-2">
               <span className="text-sm font-semibold">Get Social:</span>
-              <a href="https://www.facebook.com/svietofficial/"><i className="fab fa-facebook mx-1"></i></a>
-              <a href="https://www.instagram.com/svietofficial/?hl=en"><i className="fab fa-instagram mx-1"></i></a>
-              <a href="https://www.linkedin.com/company/swami-vivekanand-institute-of-engineering-and-technology/"><i className="fab fa-linkedin mx-1"></i></a>
+              <a href="https://www.youtube.com/@svietchandigarh3067"><i className="fab fa-youtube mx-1 text-[#FF0000]"></i></a>
+              <a href="https://www.facebook.com/svietofficial/"><i className="fab fa-facebook mx-1 text-[#1877F2]"></i></a>
+              <a href="https://www.instagram.com/svietofficial/?hl=en"><i className="fab fa-instagram mx-1 text-[#E4405F]"></i></a>
+              <a href="https://www.linkedin.com/company/swami-vivekanand-institute-of-engineering-and-technology/"><i className="fab fa-linkedin mx-1 text-[#0077B5]"></i></a>
               <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsvietofficial"><i className="fab fa-twitter mx-1"></i></a>
             </div>
             <div className="w-1/3 flex items-center text-sm font-semibold justify-end gap-2 pr-6 md:ml-6">

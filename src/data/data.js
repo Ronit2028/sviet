@@ -867,8 +867,16 @@ const data = [
       "Process Control",
       "Manufacturing",
       "Quality Control",
-      "Medical Representative",
+
       "Retail/Wholesale Pharmacy Outlet",
+      "Clinical Pharmacist",
+      "Hospital Pharmacy Director",
+      "Hospital Staff Pharmacist",
+      "Medical Writer",
+      "Pharmaceutical Advisor",
+      "Medical Safety Physician",
+      "Supply Logistics leader",
+      "Drug Safety Associate",
     ],
     program_outcomes: [
       {
@@ -1318,70 +1326,8 @@ const data = [
   //     ]
   // },
 
-   // COMPUTER APPLICATION
-   {
-    id: 48,
-    course_name: "Computer Applications",
-    event_type: "Engineering",
-    header: {
-      title: "B.Sc. in Information Technology",
-      subtitle: "BUILDING THE FUTURE OF IT",
-      background_image: "../Courses/ComputerApp/BscIt/data.avif",
-    },
-    program_name: "B.Sc Information Technology",
-    program_description:
-      "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
-    fees: "20,000 INR per semester",
-    duration: "3 Years (Semester System)",
-    major_tracks: [
-      "Software Development",
-      "Database Management",
-      "Network Administration",
-      "Cybersecurity",
-      "Web Development",
-    ],
-    program_outcomes: [
-      {
-        title: "Software Developer",
-        desc: "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
-        image: "../Courses/ComputerApp/MCA/software.avif",
-      },
-      {
-        title: "Database Administrator",
-        desc: "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
-        image: "../Courses/ComputerApp/BscIt/data.avif",
-      },
-      {
-        title: "Network Administrator",
-        desc: "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
-        image: "../Courses/ComputerApp/BscIt/network.avif",
-      },
-      {
-        title: "Cybersecurity Specialist",
-        desc: "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
-        image: "../Courses/ComputerApp/BscIt/cyber.avif",
-      },
-    ],
-    program_highlights: [
-      "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
-      "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
-      "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
-      "Expert Faculty: Learn from experienced faculty members and industry experts.",
-      "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
-      "Flexible Learning: Convenient class timings and online resources for flexible learning.",
-    ],
-    eligibility_criteria: {
-      eligibility:
-        "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category",
-    },
-    affiliation: {
-      affiliated_to: "Affiliated To MRSPTU, Bathinda",
-      approved_by: "Approved by AICTE",
-    },
-    mode_of_admission:
-      "For admissions, visit the portal to register/login and proceed with the admission application.",
-    labs: [],
-  },
+  // COMPUTER APPLICATION
+
   {
     id: 46,
     course_name: "Computer Applications",
@@ -1506,6 +1452,69 @@ const data = [
       "Opportunities for research and practical applications",
       "Development of problem-solving and analysis skills",
     ],
+    labs: [],
+  },
+  {
+    id: 48,
+    course_name: "Computer Applications",
+    event_type: "Engineering",
+    header: {
+      title: "B.Sc. in Information Technology",
+      subtitle: "BUILDING THE FUTURE OF IT",
+      background_image: "../Courses/ComputerApp/BscIt/data.avif",
+    },
+    program_name: "B.Sc Information Technology",
+    program_description:
+      "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+    fees: "20,000 INR per semester",
+    duration: "3 Years (Semester System)",
+    major_tracks: [
+      "Software Development",
+      "Database Management",
+      "Network Administration",
+      "Cybersecurity",
+      "Web Development",
+    ],
+    program_outcomes: [
+      {
+        title: "Software Developer",
+        desc: "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
+        image: "../Courses/ComputerApp/MCA/software.avif",
+      },
+      {
+        title: "Database Administrator",
+        desc: "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
+        image: "../Courses/ComputerApp/BscIt/data.avif",
+      },
+      {
+        title: "Network Administrator",
+        desc: "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
+        image: "../Courses/ComputerApp/BscIt/network.avif",
+      },
+      {
+        title: "Cybersecurity Specialist",
+        desc: "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
+        image: "../Courses/ComputerApp/BscIt/cyber.avif",
+      },
+    ],
+    program_highlights: [
+      "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
+      "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
+      "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
+      "Expert Faculty: Learn from experienced faculty members and industry experts.",
+      "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
+      "Flexible Learning: Convenient class timings and online resources for flexible learning.",
+    ],
+    eligibility_criteria: {
+      eligibility:
+        "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category",
+    },
+    affiliation: {
+      affiliated_to: "Affiliated To MRSPTU, Bathinda",
+      approved_by: "Approved by AICTE",
+    },
+    mode_of_admission:
+      "For admissions, visit the portal to register/login and proceed with the admission application.",
     labs: [],
   },
   {
@@ -2892,9 +2901,6 @@ const data = [
     labs: [],
   },
 
-  
- 
-  
   // BASIC SCIENCES
   {
     id: 40,
@@ -3117,7 +3123,6 @@ const data = [
       "Development of problem-solving skills through practical experience",
     ],
   },
-
 
   // EDUCATION
   {
@@ -3361,7 +3366,129 @@ const data = [
     ],
     labs: [],
   },
-
+  // LAW
+  {
+    id: 35,
+    course_name: "Law",
+    event_type: "law",
+    header: {
+      title: "BACHELOR OF LAW (LL.B.)",
+      subtitle: "DELIVERING JUSTICE FOR A BETTER SOCIETY",
+      background_image: "../Courses/Law/Bachelors/header.avif",
+    },
+    program_name: "Bachelor of Law",
+    program_description:
+      "The Bachelor of Law program produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty of Law endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. For students to pursue this three year unitary program, they need to have pursued a graduation in any of the related fields of study. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting, and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained and skilled faculties as well as expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
+    fees: "30,000/- INR Per Semester",
+    duration: "3 Years (Semester System)",
+    major_tracks: [
+      "Corporate Lawyer",
+      "In-House Counsel",
+      "Mergers and Acquisitions Attorney",
+      "Securities Lawyer",
+      "Compliance Officer",
+    ],
+    program_outcomes: [
+      {
+        title: "Legal Advisor",
+        desc: "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
+        image: "../Courses/Law/Bachelors/advisor.jpg",
+      },
+      {
+        title: "Cyber Law Specialist",
+        desc: "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
+        image: "../Courses/Law/Bachelors/cyberl.jpg",
+      },
+      {
+        title: "Legal Analyst",
+        desc: "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
+        image: "../Courses/Law/Bachelors/analyst.jpg",
+      },
+      {
+        title: "Litigation Attorney",
+        desc: "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
+        image: "../Courses/Law/Bachelors/attorney.avif",
+      },
+    ],
+    eligibility_criteria: {
+      eligibility:
+        "Bar Council of India may from time to time, stipulate the minimum percentage of marks.",
+    },
+    affiliation: {
+      affiliated_to: "Affiliated To Punjabi University, Patiala",
+      approved_by: "Approved by BCI",
+    },
+    mode_of_admission:
+      "For admissions, visit the portal to register/login and proceed with the admission application.",
+    program_highlights: [
+      "Comprehensive understanding of legal theories and principles",
+      "Practical training through moot court competitions, parliamentary debates, and legal aid clinics",
+      "Preparation for careers as corporate lawyers, legal advisors, and cyber law specialists",
+      "Faculty led by highly trained legal experts",
+    ],
+    labs: [],
+  },
+  {
+    id: 36,
+    course_name: "Law",
+    event_type: "law",
+    header: {
+      title: "BACHELOR OF ARTS + BACHELOR OF LAW (B.A.LL.B.) ",
+      subtitle: "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
+      background_image: "../Courses/Law/LLB/header.avif",
+    },
+    program_name: "Bachelor of Arts + Bachelor of Law",
+    program_description:
+      "The Bachelor of Arts + Bachelor of Law is a five-year law program which seeks to develop the student's understanding of Arts related subjects while pursuing law. The Faculty of Law produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. While pursuing this program, students will be exposed to various aspects of the Field of Arts while at the same time studying law. They will study arts fundamentals such as Political Science, Economics and International Relations, amongst others. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained skilled faculties and expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
+    fees: "30,000/- INR Per Semester",
+    duration: "5 Years (Semester System)",
+    major_tracks: [
+      "Corporate Lawyer",
+      "In-House Counsel",
+      "Mergers and Acquisitions Attorney",
+      "Securities Lawyer",
+      "Compliance Officer",
+    ],
+    program_outcomes: [
+      {
+        title: "Legal Advisor",
+        desc: "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
+        image: "../Courses/Law/Bachelors/advisor.jpg",
+      },
+      {
+        title: "Cyber Law Specialist",
+        desc: "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
+        image: "../Courses/Law/Bachelors/cyberl.jpg",
+      },
+      {
+        title: "Legal Analyst",
+        desc: "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
+        image: "../Courses/Law/Bachelors/analyst.jpg",
+      },
+      {
+        title: "Litigation Attorney",
+        desc: "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
+        image: "../Courses/Law/Bachelors/attorney.avif",
+      },
+    ],
+    eligibility_criteria: {
+      eligibility:
+        "Bar Council of India may from time to time, stipulate the minimum percentage of marks not below 45% of the total marks in case of general category applicants, 42% for OBC category* and 40% of the total marks in case of SC and ST applicants, to be obtained for the qualifying examination, such as +2 Examination in case of Integrated Five Years’ course or Degree course in any discipline for Three years’ LL.B. course, for the purpose of applying for and getting admitted into a Law Degree Program of any recognized University in either of the streams.",
+    },
+    affiliation: {
+      affiliated_to: "Affiliated To Punjabi University, Patiala",
+      approved_by: "Approved by BCI ",
+    },
+    mode_of_admission:
+      "For admissions, visit the portal to register/login and proceed with the admission application.",
+    program_highlights: [
+      "Five-year integrated program combining arts and law education",
+      "Exposure to arts subjects such as Political Science, Economics, and International Relations",
+      "Preparation for legal careers with comprehensive understanding of legal theories and practical training",
+      "Faculty led by highly trained legal experts",
+    ],
+    labs: [],
+  },
   // DIPLOMA
   {
     id: 9,
@@ -3750,260 +3877,260 @@ const data = [
   },
 
   // COMPUTER APPLICATION
-//   {
-//     id: 48,
-//     course_name: "Computer Applications",
-//     event_type: "Engineering",
-//     header: {
-//       title: "B.Sc. in Information Technology",
-//       subtitle: "BUILDING THE FUTURE OF IT",
-//       background_image: "../Courses/ComputerApp/BscIt/data.avif",
-//     },
-//     program_name: "B.Sc Information Technology",
-//     program_description:
-//       "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
-//     fees: "20,000 INR per semester",
-//     duration: "3 Years (Semester System)",
-//     major_tracks: [
-//       "Software Development",
-//       "Database Management",
-//       "Network Administration",
-//       "Cybersecurity",
-//       "Web Development",
-//     ],
-//     program_outcomes: [
-//       {
-//         title: "Software Developer",
-//         desc: "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
-//         image: "../Courses/ComputerApp/MCA/software.avif",
-//       },
-//       {
-//         title: "Database Administrator",
-//         desc: "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
-//         image: "../Courses/ComputerApp/BscIt/data.avif",
-//       },
-//       {
-//         title: "Network Administrator",
-//         desc: "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
-//         image: "../Courses/ComputerApp/BscIt/network.avif",
-//       },
-//       {
-//         title: "Cybersecurity Specialist",
-//         desc: "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
-//         image: "../Courses/ComputerApp/BscIt/cyber.avif",
-//       },
-//     ],
-//     program_highlights: [
-//       "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
-//       "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
-//       "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
-//       "Expert Faculty: Learn from experienced faculty members and industry experts.",
-//       "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
-//       "Flexible Learning: Convenient class timings and online resources for flexible learning.",
-//     ],
-//     eligibility_criteria: {
-//       eligibility:
-//         "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category",
-//     },
-//     affiliation: {
-//       affiliated_to: "Affiliated To MRSPTU, Bathinda",
-//       approved_by: "Approved by AICTE",
-//     },
-//     mode_of_admission:
-//       "For admissions, visit the portal to register/login and proceed with the admission application.",
-//     labs: [],
-//   },
-//   {
-//     id: 46,
-//     course_name: "Computer Applications",
-//     " event_type": "Engineering",
-//     header: {
-//       title: "Bachelor of Computer Application",
-//       subtitle: "UNLOCK YOUR POTENTIAL IN IT",
-//       background_image: "../Courses/ComputerApp/MCA/software.avif",
-//     },
-//     program_name: "BCA",
-//     program_description:
-//       "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
-//     fees: "Rs. 22000/- INR per semester",
-//     duration: "3 Years (Semester System)",
-//     major_tracks: [
-//       "Software Development",
-//       "Web Development",
-//       "Database Administration",
-//       "Network Engineering",
-//     ],
-//     program_outcomes: [
-//       {
-//         title: "Software Developer",
-//         desc: "Become proficient in software development using various programming languages and tools.",
-//         image: "../Courses/ComputerApp/MCA/software.avif",
-//       },
-//       {
-//         title: "Web Developer",
-//         desc: "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
-//         image: "../Courses/ComputerApp/BCA/web.avif",
-//       },
-//       {
-//         title: "Database Administrator",
-//         desc: "Learn database design, implementation, and management techniques.",
-//         image: "../Courses/ComputerApp/BCA/data.jpg",
-//       },
-//       {
-//         title: "Network Engineer",
-//         desc: "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
-//         image: "../Courses/ComputerApp/BCA/network.avif",
-//       },
-//     ],
-//     eligibility_criteria: {
-//       eligibility:
-//         "10+2 with at least 45% and for reserved category minimum 40%",
-//     },
-//     affiliation: {
-//       affiliated_to: [
-//         " IKGPTU, Jalandhar/ MRSPTU, Bathinda/Punjabi University, Patiala",
-//       ],
-//       approved_by: "Approved by AICTE",
-//     },
-//     mode_of_admission:
-//       "For admissions, visit the portal to register/login and proceed with the admission application.",
-//     program_highlights: [
-//       "Learn by Doing: Hands-on learning through case studies and projects.",
-//       "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
-//       "Industry Ready: Six-month industry internship for real-world experience.",
-//       "Global Exposure: National and international immersion programs.",
-//       "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
-//       "Beyond Academics: Essential skill development through workshops.",
-//       "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
-//       "Expert Learning: Renowned faculty and industry guest speakers.",
-//       "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more.",
-//     ],
-//     labs: [],
-//   },
-//   {
-//     id: 45,
-//     course_name: "Computer Applications",
-//     event_type: "Engineering",
-//     header: {
-//       title: "Master of Computer Application",
-//       subtitle: "SHAPING FUTURE TECH LEADERS",
-//       background_image: "../Courses/ComputerApp/MCA/cloud.avif",
-//     },
-//     program_name: "MCA",
-//     program_description:
-//       "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
-//     fees: "32,000 INR Per Semester",
-//     duration: "2 Years (Semester System)",
-//     major_tracks: [
-//       "Data Science",
-//       "Software Development",
-//       "Machine Learning",
-//       "Cloud Computing",
-//       "Networking",
-//     ],
-//     program_outcomes: [
-//       {
-//         title: "Data Scientist",
-//         desc: "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
-//         image: "../Courses/ComputerApp/MCA/data.avif",
-//       },
-//       {
-//         title: "Software Developer",
-//         desc: "Develop expertise in software development using modern programming languages and frameworks.",
-//         image: "../Courses/ComputerApp/MCA/software.avif",
-//       },
-//       {
-//         title: "Cloud Engineer",
-//         desc: "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
-//         image: "../Courses/ComputerApp/MCA/cloud.avif",
-//       },
-//       {
-//         title: "Network Administrator",
-//         desc: "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
-//         image: "../Courses/ComputerApp/MCA/network.avif",
-//       },
-//     ],
-//     eligibility_criteria: {
-//       eligibility:
-//         "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category.",
-//     },
-//     affiliation: {
-//       affiliated_to: "Affiliated To IKGPTU, Jalandhar",
-//       approved_by: "Approved by AICTE",
-//     },
-//     program_highlights: [
-//       "Specialized study of computer applications and services",
-//       "Emphasis on technological implementation of computer systems",
-//       "Opportunities for research and practical applications",
-//       "Development of problem-solving and analysis skills",
-//     ],
-//     labs: [],
-//   },
-//   {
-//     id: 47,
-//     course_name: "Computer Applications",
-//     event_type: "Engineering",
-//     header: {
-//       title: "Post Graduate Diploma in Computer Applications",
-//       subtitle: "UNLEASH YOUR POTENTIAL IN IT",
-//       background_image: "../Courses/BTech/cse/data.jpg",
-//     },
-//     program_name: "PGDCA",
-//     program_description:
-//       "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
-//     fees: "Rs. 12000/- INR per semester",
-//     duration: "1 Year (Semester System)",
-//     major_tracks: [
-//       "Software Engineer",
-//       "Computer Programmer & Analyst",
-//       "Interface Engineer",
-//       "Java Developer",
-//       "Project Manager",
-//       "Information Security Analyst",
-//       "IT Consultant",
-//     ],
-//     program_outcomes: [
-//       {
-//         title: "Software Engineer",
-//         desc: "Acquire skills to design and develop software applications according to industry standards.",
-//         image: "../Courses/ComputerApp/MCA/software.avif",
-//       },
-//       {
-//         title: "Computer Programmer & Analyst",
-//         desc: "Learn programming languages and analytical techniques to develop efficient computer programs.",
-//         image: "../Courses/ComputerApp/pgdca/programmer.avif",
-//       },
-//       {
-//         title: "Information Security Analyst",
-//         desc: "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
-//         image: "../Courses/ComputerApp/pgdca/security.avif",
-//       },
-//       {
-//         title: "IT Consultant",
-//         desc: "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
-//         image: "../Courses/ComputerApp/pgdca/consultant.avif",
-//       },
-//     ],
-//     eligibility_criteria: {
-//       eligibility:
-//         "Graduation in any discipline with at least 50% and for reserved category minimum 45%",
-//     },
-//     affiliation: {
-//       affiliated_to: "Affiliated To  IKGPTU, Jalandhar",
-//       approved_by: "Approved by AICTE",
-//     },
-//     mode_of_admission:
-//       "For admissions, visit the portal to register/login and proceed with the admission application.",
-//     program_highlights: [
-//       "Practical Oriented Curriculum: Emphasis on hands-on learning and real-world projects.",
-//       "Industry-Relevant Skills: Develop skills and knowledge demanded by the IT industry.",
-//       "Experienced Faculty: Learn from experienced faculty members and industry experts.",
-//       "Internship Opportunities: Gain practical experience through internships in reputed organizations.",
-//       "Career Support: Access to career guidance and placement assistance.",
-//       "Flexible Learning: Convenient class timings and online resources for flexible learning.",
-//     ],
-//     labs: [],
-//   },
+  //   {
+  //     id: 48,
+  //     course_name: "Computer Applications",
+  //     event_type: "Engineering",
+  //     header: {
+  //       title: "B.Sc. in Information Technology",
+  //       subtitle: "BUILDING THE FUTURE OF IT",
+  //       background_image: "../Courses/ComputerApp/BscIt/data.avif",
+  //     },
+  //     program_name: "B.Sc Information Technology",
+  //     program_description:
+  //       "B.Sc. IT (B.Sc. in Information Technology) is an undergraduate degree program that focuses on various aspects of information technology, including computer science, software development, database management, networking, and computer hardware. This program provides students with a strong foundation in computer science and information technology principles, along with practical skills that are highly demanded in the IT industry.",
+  //     fees: "20,000 INR per semester",
+  //     duration: "3 Years (Semester System)",
+  //     major_tracks: [
+  //       "Software Development",
+  //       "Database Management",
+  //       "Network Administration",
+  //       "Cybersecurity",
+  //       "Web Development",
+  //     ],
+  //     program_outcomes: [
+  //       {
+  //         title: "Software Developer",
+  //         desc: "Acquire skills to design, develop, and maintain software applications using various programming languages and frameworks.",
+  //         image: "../Courses/ComputerApp/MCA/software.avif",
+  //       },
+  //       {
+  //         title: "Database Administrator",
+  //         desc: "Learn to design, implement, and manage database systems to store, retrieve, and manipulate data efficiently.",
+  //         image: "../Courses/ComputerApp/BscIt/data.avif",
+  //       },
+  //       {
+  //         title: "Network Administrator",
+  //         desc: "Gain expertise in managing computer networks, including installation, configuration, maintenance, and troubleshooting.",
+  //         image: "../Courses/ComputerApp/BscIt/network.avif",
+  //       },
+  //       {
+  //         title: "Cybersecurity Specialist",
+  //         desc: "Develop skills to protect computer systems, networks, and data from cyber threats, attacks, and vulnerabilities.",
+  //         image: "../Courses/ComputerApp/BscIt/cyber.avif",
+  //       },
+  //     ],
+  //     program_highlights: [
+  //       "Comprehensive Curriculum: Covering a wide range of IT topics and technologies.",
+  //       "Practical Experience: Hands-on projects, lab work, and internships for real-world exposure.",
+  //       "Industry-Relevant Skills: Develop skills that are in high demand in the IT industry.",
+  //       "Expert Faculty: Learn from experienced faculty members and industry experts.",
+  //       "Career Opportunities: Multiple career paths in software development, database management, network administration, cybersecurity, and web development.",
+  //       "Flexible Learning: Convenient class timings and online resources for flexible learning.",
+  //     ],
+  //     eligibility_criteria: {
+  //       eligibility:
+  //         "12th grade with physics, chemistry, and maths/biology with 45% marks in case of general category and 40% marks in case of sc category",
+  //     },
+  //     affiliation: {
+  //       affiliated_to: "Affiliated To MRSPTU, Bathinda",
+  //       approved_by: "Approved by AICTE",
+  //     },
+  //     mode_of_admission:
+  //       "For admissions, visit the portal to register/login and proceed with the admission application.",
+  //     labs: [],
+  //   },
+  //   {
+  //     id: 46,
+  //     course_name: "Computer Applications",
+  //     " event_type": "Engineering",
+  //     header: {
+  //       title: "Bachelor of Computer Application",
+  //       subtitle: "UNLOCK YOUR POTENTIAL IN IT",
+  //       background_image: "../Courses/ComputerApp/MCA/software.avif",
+  //     },
+  //     program_name: "BCA",
+  //     program_description:
+  //       "Bachelor of Computer Application (BCA) is an undergraduate degree course that offers a blend of theoretical and practical knowledge in computer applications. This program provides students with in-depth understanding and extensive knowledge about various aspects of computer applications, making them proficient in IT sector roles such as programmer or software developer.",
+  //     fees: "Rs. 22000/- INR per semester",
+  //     duration: "3 Years (Semester System)",
+  //     major_tracks: [
+  //       "Software Development",
+  //       "Web Development",
+  //       "Database Administration",
+  //       "Network Engineering",
+  //     ],
+  //     program_outcomes: [
+  //       {
+  //         title: "Software Developer",
+  //         desc: "Become proficient in software development using various programming languages and tools.",
+  //         image: "../Courses/ComputerApp/MCA/software.avif",
+  //       },
+  //       {
+  //         title: "Web Developer",
+  //         desc: "Develop skills in web development technologies such as HTML, CSS, JavaScript, and frameworks like React and Angular.",
+  //         image: "../Courses/ComputerApp/BCA/web.avif",
+  //       },
+  //       {
+  //         title: "Database Administrator",
+  //         desc: "Learn database design, implementation, and management techniques.",
+  //         image: "../Courses/ComputerApp/BCA/data.jpg",
+  //       },
+  //       {
+  //         title: "Network Engineer",
+  //         desc: "Understand network infrastructure, protocols, and security measures to design, implement, and maintain computer networks.",
+  //         image: "../Courses/ComputerApp/BCA/network.avif",
+  //       },
+  //     ],
+  //     eligibility_criteria: {
+  //       eligibility:
+  //         "10+2 with at least 45% and for reserved category minimum 40%",
+  //     },
+  //     affiliation: {
+  //       affiliated_to: [
+  //         " IKGPTU, Jalandhar/ MRSPTU, Bathinda/Punjabi University, Patiala",
+  //       ],
+  //       approved_by: "Approved by AICTE",
+  //     },
+  //     mode_of_admission:
+  //       "For admissions, visit the portal to register/login and proceed with the admission application.",
+  //     program_highlights: [
+  //       "Learn by Doing: Hands-on learning through case studies and projects.",
+  //       "Advanced Labs: State-of-the-art labs with cutting-edge technology.",
+  //       "Industry Ready: Six-month industry internship for real-world experience.",
+  //       "Global Exposure: National and international immersion programs.",
+  //       "Industry Connections: Dedicated industry-academia partnerships for internship and placement opportunities.",
+  //       "Beyond Academics: Essential skill development through workshops.",
+  //       "Entrepreneurship Support: On-campus incubator for entrepreneurial opportunities.",
+  //       "Expert Learning: Renowned faculty and industry guest speakers.",
+  //       "Master the Latest Technologies: In-demand skills in mobile app development, full-stack development, internet technologies, IoT, data science, cybersecurity, and more.",
+  //     ],
+  //     labs: [],
+  //   },
+  //   {
+  //     id: 45,
+  //     course_name: "Computer Applications",
+  //     event_type: "Engineering",
+  //     header: {
+  //       title: "Master of Computer Application",
+  //       subtitle: "SHAPING FUTURE TECH LEADERS",
+  //       background_image: "../Courses/ComputerApp/MCA/cloud.avif",
+  //     },
+  //     program_name: "MCA",
+  //     program_description:
+  //       "The Master of Computer Application (MCA) is a postgraduate program designed to train students in various aspects of computer programs, application software, computer architecture, operating systems, and more. This 2-year program is ideal for candidates seeking to deepen their understanding of computer application development through the study of modern programming languages. The curriculum includes a blend of theoretical knowledge and practical skills, enabling students to work with tools for developing advanced applications.",
+  //     fees: "32,000 INR Per Semester",
+  //     duration: "2 Years (Semester System)",
+  //     major_tracks: [
+  //       "Data Science",
+  //       "Software Development",
+  //       "Machine Learning",
+  //       "Cloud Computing",
+  //       "Networking",
+  //     ],
+  //     program_outcomes: [
+  //       {
+  //         title: "Data Scientist",
+  //         desc: "Master data analysis, data mining, and machine learning techniques to extract insights and make data-driven decisions.",
+  //         image: "../Courses/ComputerApp/MCA/data.avif",
+  //       },
+  //       {
+  //         title: "Software Developer",
+  //         desc: "Develop expertise in software development using modern programming languages and frameworks.",
+  //         image: "../Courses/ComputerApp/MCA/software.avif",
+  //       },
+  //       {
+  //         title: "Cloud Engineer",
+  //         desc: "Learn to design, deploy, and manage cloud-based solutions for scalability, reliability, and security.",
+  //         image: "../Courses/ComputerApp/MCA/cloud.avif",
+  //       },
+  //       {
+  //         title: "Network Administrator",
+  //         desc: "Gain proficiency in managing computer networks, ensuring smooth operation and security.",
+  //         image: "../Courses/ComputerApp/MCA/network.avif",
+  //       },
+  //     ],
+  //     eligibility_criteria: {
+  //       eligibility:
+  //         "Minimum 45% marks in 10+2 in any relevant stream with English as a mandatory subject and Minimum 40% marks in 10+2 for reserved category.",
+  //     },
+  //     affiliation: {
+  //       affiliated_to: "Affiliated To IKGPTU, Jalandhar",
+  //       approved_by: "Approved by AICTE",
+  //     },
+  //     program_highlights: [
+  //       "Specialized study of computer applications and services",
+  //       "Emphasis on technological implementation of computer systems",
+  //       "Opportunities for research and practical applications",
+  //       "Development of problem-solving and analysis skills",
+  //     ],
+  //     labs: [],
+  //   },
+  //   {
+  //     id: 47,
+  //     course_name: "Computer Applications",
+  //     event_type: "Engineering",
+  //     header: {
+  //       title: "Post Graduate Diploma in Computer Applications",
+  //       subtitle: "UNLEASH YOUR POTENTIAL IN IT",
+  //       background_image: "../Courses/BTech/cse/data.jpg",
+  //     },
+  //     program_name: "PGDCA",
+  //     program_description:
+  //       "The Post Graduate Diploma in Computer Applications (PGDCA) is designed for graduate students interested in developing computer applications in fields like banking, insurance, and accounting. This diploma program equips candidates with the necessary skills to thrive in the professional world and secure well-paying jobs. PGDCA offers a smarter choice for undergraduate candidates due to its lower saturation level compared to other professional degree courses like M.Tech, MCA, or MBA.",
+  //     fees: "Rs. 12000/- INR per semester",
+  //     duration: "1 Year (Semester System)",
+  //     major_tracks: [
+  //       "Software Engineer",
+  //       "Computer Programmer & Analyst",
+  //       "Interface Engineer",
+  //       "Java Developer",
+  //       "Project Manager",
+  //       "Information Security Analyst",
+  //       "IT Consultant",
+  //     ],
+  //     program_outcomes: [
+  //       {
+  //         title: "Software Engineer",
+  //         desc: "Acquire skills to design and develop software applications according to industry standards.",
+  //         image: "../Courses/ComputerApp/MCA/software.avif",
+  //       },
+  //       {
+  //         title: "Computer Programmer & Analyst",
+  //         desc: "Learn programming languages and analytical techniques to develop efficient computer programs.",
+  //         image: "../Courses/ComputerApp/pgdca/programmer.avif",
+  //       },
+  //       {
+  //         title: "Information Security Analyst",
+  //         desc: "Learn techniques to protect computer systems and networks from security breaches and cyberattacks.",
+  //         image: "../Courses/ComputerApp/pgdca/security.avif",
+  //       },
+  //       {
+  //         title: "IT Consultant",
+  //         desc: "Develop expertise in advising organizations on how to use information technology to meet their business objectives.",
+  //         image: "../Courses/ComputerApp/pgdca/consultant.avif",
+  //       },
+  //     ],
+  //     eligibility_criteria: {
+  //       eligibility:
+  //         "Graduation in any discipline with at least 50% and for reserved category minimum 45%",
+  //     },
+  //     affiliation: {
+  //       affiliated_to: "Affiliated To  IKGPTU, Jalandhar",
+  //       approved_by: "Approved by AICTE",
+  //     },
+  //     mode_of_admission:
+  //       "For admissions, visit the portal to register/login and proceed with the admission application.",
+  //     program_highlights: [
+  //       "Practical Oriented Curriculum: Emphasis on hands-on learning and real-world projects.",
+  //       "Industry-Relevant Skills: Develop skills and knowledge demanded by the IT industry.",
+  //       "Experienced Faculty: Learn from experienced faculty members and industry experts.",
+  //       "Internship Opportunities: Gain practical experience through internships in reputed organizations.",
+  //       "Career Support: Access to career guidance and placement assistance.",
+  //       "Flexible Learning: Convenient class timings and online resources for flexible learning.",
+  //     ],
+  //     labs: [],
+  //   },
 
   //Nursing
   {
@@ -4075,129 +4202,6 @@ const data = [
       "Ethical and compassionate patient care",
       "Preparation for a rewarding career in the healthcare sector",
     ],
-  },
-  // LAW
-  {
-    id: 35,
-    course_name: "Law",
-    event_type: "law",
-    header: {
-      title: "BACHELOR OF LAW (LL.B.)",
-      subtitle: "DELIVERING JUSTICE FOR A BETTER SOCIETY",
-      background_image: "../Courses/Law/Bachelors/header.avif",
-    },
-    program_name: "Bachelor of Law",
-    program_description:
-      "The Bachelor of Law program produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty of Law endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. For students to pursue this three year unitary program, they need to have pursued a graduation in any of the related fields of study. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting, and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained and skilled faculties as well as expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
-    fees: "30,000/- INR Per Semester",
-    duration: "3 Years (Semester System)",
-    major_tracks: [
-      "Corporate Lawyer",
-      "In-House Counsel",
-      "Mergers and Acquisitions Attorney",
-      "Securities Lawyer",
-      "Compliance Officer",
-    ],
-    program_outcomes: [
-      {
-        title: "Legal Advisor",
-        desc: "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
-        image: "../Courses/Law/Bachelors/advisor.jpg",
-      },
-      {
-        title: "Cyber Law Specialist",
-        desc: "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
-        image: "../Courses/Law/Bachelors/cyberl.jpg",
-      },
-      {
-        title: "Legal Analyst",
-        desc: "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
-        image: "../Courses/Law/Bachelors/analyst.jpg",
-      },
-      {
-        title: "Litigation Attorney",
-        desc: "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
-        image: "../Courses/Law/Bachelors/attorney.avif",
-      },
-    ],
-    eligibility_criteria: {
-      eligibility:
-        "Bar Council of India may from time to time, stipulate the minimum percentage of marks.",
-    },
-    affiliation: {
-      affiliated_to: "Affiliated To Punjabi University, Patiala",
-      approved_by: "Approved by BCI",
-    },
-    mode_of_admission:
-      "For admissions, visit the portal to register/login and proceed with the admission application.",
-    program_highlights: [
-      "Comprehensive understanding of legal theories and principles",
-      "Practical training through moot court competitions, parliamentary debates, and legal aid clinics",
-      "Preparation for careers as corporate lawyers, legal advisors, and cyber law specialists",
-      "Faculty led by highly trained legal experts",
-    ],
-    labs: [],
-  },
-  {
-    id: 36,
-    course_name: "Law",
-    event_type: "law",
-    header: {
-      title: "BACHELOR OF ARTS + BACHELOR OF LAW (B.A.LL.B.) ",
-      subtitle: "DEVELOPING ARTISTIC MINDS FOR LEGAL EXCELLENCE",
-      background_image: "../Courses/Law/LLB/header.avif",
-    },
-    program_name: "Bachelor of Arts + Bachelor of Law",
-    program_description:
-      "The Bachelor of Arts + Bachelor of Law is a five-year law program which seeks to develop the student's understanding of Arts related subjects while pursuing law. The Faculty of Law produces and develops capable individuals who are nurtured in the art of justice delivery and who apply the principles of law for the welfare of the society. The Faculty endeavours to provide the fundamental understanding of legal education by equipping students with the relevant skillsets and abilities which are vital for ensuring the prevalence of law and order within the nation. While pursuing this program, students will be exposed to various aspects of the Field of Arts while at the same time studying law. They will study arts fundamentals such as Political Science, Economics and International Relations, amongst others. The program is strategically designed to impart within the students a comprehensive understanding of the theoretical and practical philosophies of law. As part of the curriculum, this program exposes students to various forms of practical training exercises such as moot court competitions, parliamentary debates, drafting and legal aid clinics. The curriculum explores subjects such as jurisprudence and legal theory, law of torts, constitutional law, criminal procedure code and civil procedure code amongst others. The program is conducted by highly trained skilled faculties and expert legal resources who train students on the fundamentals of legal education in preparation of their careers as legal practitioners.",
-    fees: "30,000/- INR Per Semester",
-    duration: "5 Years (Semester System)",
-    major_tracks: [
-      "Corporate Lawyer",
-      "In-House Counsel",
-      "Mergers and Acquisitions Attorney",
-      "Securities Lawyer",
-      "Compliance Officer",
-    ],
-    program_outcomes: [
-      {
-        title: "Legal Advisor",
-        desc: "Provide expert legal advice and guidance to individuals, businesses, or organizations on various legal matters.",
-        image: "../Courses/Law/Bachelors/advisor.jpg",
-      },
-      {
-        title: "Cyber Law Specialist",
-        desc: "Specialize in legal issues related to the internet, digital technologies, and online activities, including data privacy, cybercrime, and electronic commerce.",
-        image: "../Courses/Law/Bachelors/cyberl.jpg",
-      },
-      {
-        title: "Legal Analyst",
-        desc: "Analyze legal documents, statutes, and case law to provide insights and recommendations for legal strategies and decision-making.",
-        image: "../Courses/Law/Bachelors/analyst.jpg",
-      },
-      {
-        title: "Litigation Attorney",
-        desc: "Represent clients in civil and criminal legal proceedings, including trials, hearings, and appeals, to protect their rights and interests.",
-        image: "../Courses/Law/Bachelors/attorney.avif",
-      },
-    ],
-    eligibility_criteria: {
-      eligibility:
-        "Bar Council of India may from time to time, stipulate the minimum percentage of marks not below 45% of the total marks in case of general category applicants, 42% for OBC category* and 40% of the total marks in case of SC and ST applicants, to be obtained for the qualifying examination, such as +2 Examination in case of Integrated Five Years’ course or Degree course in any discipline for Three years’ LL.B. course, for the purpose of applying for and getting admitted into a Law Degree Program of any recognized University in either of the streams.",
-    },
-    affiliation: {
-      affiliated_to: "Affiliated To Punjabi University, Patiala",
-      approved_by: "Approved by BCI ",
-    },
-    mode_of_admission:
-      "For admissions, visit the portal to register/login and proceed with the admission application.",
-    program_highlights: [
-      "Five-year integrated program combining arts and law education",
-      "Exposure to arts subjects such as Political Science, Economics, and International Relations",
-      "Preparation for legal careers with comprehensive understanding of legal theories and practical training",
-      "Faculty led by highly trained legal experts",
-    ],
-    labs: [],
   },
 
   //ITI
