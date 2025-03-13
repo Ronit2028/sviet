@@ -63,6 +63,7 @@ const Page = ({ params }) => {
 
                 }
             },
+            
             committee:"/SVCP/Mandatory-Disclosure-SVCP.pdf",
             md:"/SVCP/Mandatory-Disclosure-SVIET.pdf",
 
