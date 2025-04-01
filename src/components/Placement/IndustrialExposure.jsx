@@ -62,6 +62,11 @@ const IndustrialExposure = () => {
         //     img: img8.src
         // },
         {
+            "title": "Wonder System Pvt. Ltd.",
+            "description": "On 28th March 2025, the ECE/EE Department organized an enriching industrial visit to Wonder System Pvt. Ltd., offering students real-world insights and hands-on experience in the industry. Learning beyond classrooms, shaping future innovators!",
+            "img": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumGHFUrHIoeyaO1d7xYQMuBsK0zrR9WmSiLvEN"
+          },
+        {
             title: "Kandhari Beverages Pvt. Limited",
             description: "On 3rd September 2024, SVIET Commerce and Management students visited Kandhari Beverages Pvt. Ltd. to learn about plant operations, from procurement to packaging. Thanks to the team for their guidance and for addressing student queries.",
             img: "https://utfs.io/f/1V3V2P4kpAumDlHvXuac3imC02hJzTjuAPrdk64eXYnEVlBg"

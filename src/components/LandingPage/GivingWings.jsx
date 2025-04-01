@@ -710,6 +710,18 @@ const Card = ({ className, ...props }) => (
 
   const placementDriveInformation = [
     {
+      "company": "Tirupati Group",
+      "date": "Confirm after registrations",
+      "details": "Tirupati Group is conducting a campus placement drive for B. Pharmacy 2025 batch students for the Production Trainee role. Salary: 1.71 LPA. Interview process: PI & HR Round. ",
+      "link": "/Tirupati-Group-Drive.pdf",
+    },
+    {
+      "company": "Cadila Pharmaceuticals Ltd.",
+      "date": "Confirm after registrations",
+      "details": "Cadila Pharmaceuticals Ltd. is conducting a campus placement drive for B. Pharmacy 2025 batch students for the Field Officer role. Salary: 2.40 LPA.",
+      "link": "/Cadila-Pharmaceuticals-Drive.pdf",
+    },
+    {
       company: "Black Apple Technolgoies",
       date: "Confirm after registrations",
       details: "This is information for B. Tech CSE , ECE , MBA 2025 Passing out Batch Students only) that Black Apple Technolgoies is conducting a placement drive.",
