@@ -132,7 +132,7 @@ const PhotoGallery = ({ type }) => {
             "image": "https://utfs.io/f/4e6ea4f6-7eb8-4c00-af72-4b34097df548-26ylxr.jpg",
             "event_name": "T&P",
             "description": "Capturing the essence of our Training & Placement activities, showcasing career-building opportunities.",
-            "gallery": "https://drive.google.com/drive/folders/1WIyELewRoDhgCP3GNmgQXCg4o3BvJyTt"
+            "gallery": "https://drive.google.com/drive/u/4/folders/1eyOsRmG-2m9zz7BE8-T5z3DAw7SVf4yw"
         }
         // {
         //     id: 2,
