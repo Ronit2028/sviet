@@ -97,35 +97,35 @@ const PhotoGallery = ({ type }) => {
             "image": "https://utfs.io/f/f6b3783c-66de-4f32-a72b-9041fcc8472e-nm33wo.jpg",
             "event_name": "Departments",
             "description": "Snapshots from our departmental showcases, celebrating academic achievements and innovation.",
-            "gallery": "https://drive.google.com/drive/folders/1IIP7lgNbfdF4d0u6S_Vk-cfayPKsbPcp"
+            "gallery": "https://drive.google.com/drive/u/4/folders/1s0AUtKrv9oUoCgotsB1nQaVsl-pHRp-q"
         },
         {
             "id": 5,
             "image": "https://utfs.io/f/db9bb4f9-5f2a-486a-b24e-c6a29435366a-w384cm.jpg",
             "event_name": "Cultural Activities",
             "description": "Relive the vibrant performances and cultural expressions that brought our campus alive.",
-            "gallery": "https://drive.google.com/drive/folders/1zU-sPLzkIMs8AQSG-A9Wcn3k0xxymXDF"
+            "gallery": "https://drive.google.com/drive/u/4/folders/1LQS2kFNZsnlt9NG-_Kwt6t3r5c49HR4L"
         },
         {
             "id": 8,
             "image": "https://utfs.io/f/d77d2e93-bb44-4f3d-8b8b-70651ff5f997-dgdqel.webp",
             "event_name": "Events",
             "description": "Memorable highlights from key events, capturing the excitement and engagement.",
-            "gallery": "https://drive.google.com/drive/folders/1rHGvNO9euB-YFSZEoSklV5W5EG9_1imP"
+            "gallery": "https://drive.google.com/drive/u/4/folders/1hVAhmkpLa8CEGVtI5-fTI1iMlumByxPQ"
         },
         {
             "id": 14,
             "image": "https://utfs.io/f/a72c45ff-5623-43b0-b64f-c7062d359205-nm33wo.jpg",
             "event_name": "Campus Vibes",
             "description": "A vibrant showcase of campus life, featuring candid moments and unique interactions.",
-            "gallery": "https://drive.google.com/drive/folders/1FqT3_5G8SLRbF1A6b_gz3He70_p9XJtv"
+            "gallery": "https://drive.google.com/drive/u/4/folders/1kBBTxL_jS2YUtk2Cp-eECgHwSlAN7ju_"
         },
         {
             "id": 16,
             "image": "https://utfs.io/f/f3179493-2246-445d-9fcf-77eb59db9293-x2mjo0.jpeg",
             "event_name": "Sports",
             "description": "Action-packed shots from our sports events, highlighting athleticism and teamwork.",
-            "gallery": "https://drive.google.com/drive/folders/1jEwfTiQ_mAOZjyd01qfVqgrCwWWdaYZD"
+            "gallery": "https://drive.google.com/drive/u/4/folders/1Tgem_IXYdBdM9drUl3Pa3kwPquBMy631"
         },
         {
             "id": 18,
