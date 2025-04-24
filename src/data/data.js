@@ -87,6 +87,85 @@ const data = [
     ],
   },
   {
+    "id": 2,
+    "course_name": "B.Tech",
+    "event_type": "Engineering",
+    "header": {
+      "title": "Artificial Intelligence",
+      "subtitle": "EMPOWERING THE FUTURE WITH THINKING MACHINES",
+      "background_image": "../Courses/BTech/cse/CSEheader.jpg"
+    },
+    "program_name": "B.Tech Artificial Intelligence",
+    "program_description": "B.Tech in Artificial Intelligence is a futuristic program designed to prepare students to build intelligent systems that mimic human thinking. The course emphasizes core areas such as knowledge representation, reasoning, cognitive computing, perception, and robotics. With a strong computational foundation, this 4-year undergraduate program blends theory with real-world problem-solving through project-based learning and industrial exposure. Students are trained to think critically and develop AI-based applications that impact sectors like healthcare, finance, education, and automation.",
+    "fees": "45,000 INR",
+    "duration": "4 Years",
+    "major_tracks": [
+      "Cognitive Computing",
+      "Knowledge Representation",
+      "Expert Systems",
+      "Perception and Vision",
+      "AI Ethics and Governance"
+    ],
+    "program_outcomes": [
+      {
+        "title": "AI Specialist",
+        "desc": "Design and build intelligent systems that solve complex problems by simulating human intelligence and behavior.",
+        "image": "../Courses/BTech/cse/web.jpg"
+      },
+      {
+        "title": "Cognitive Systems Developer",
+        "desc": "Create systems capable of understanding and learning from data like humans do, using symbolic AI and reasoning techniques.",
+        "image": "../Courses/BTech/cse/network.jpg"
+      },
+      {
+        "title": "AI Product Manager",
+        "desc": "Lead the development and deployment of AI-powered products with strategic vision and problem-solving capabilities.",
+        "image": "../Courses/BTech/cse/data.jpg"
+      },
+      {
+        "title": "AI Research Analyst",
+        "desc": "Conduct cutting-edge research in artificial intelligence, exploring emerging domains like AGI, neural-symbolic systems, and more.",
+        "image": "../Courses/BTech/cse/system.jpg"
+      }
+    ],
+    "eligibility_criteria": {
+      "eligibility": "Students who have completed the 12th grade with physics, chemistry, and mathematics/biology with a minimum of 45% marks in case of general category."
+    },
+    "affiliation": {
+      "affiliated_to": "Affiliated To IKGPTU, Jalandhar",
+      "approved_by": "Approved by AICTE"
+    },
+    "mode_of_admission": "For admissions, visit the portal to register/login and proceed with the admission application.",
+    "program_highlights": [
+      "Learn by Doing: Hands-on learning through case studies and real-world AI projects.",
+      "Advanced Labs: Explore AI algorithms in high-performance labs.",
+      "Real-Time Applications: Build AI systems that simulate perception and decision-making.",
+      "Ethical AI: Understand the societal impact of AI and responsible innovation.",
+      "Innovation Hub: Incubate AI startup ideas with mentorship and funding.",
+      "Expert Learning: Sessions from leading AI researchers and tech innovators.",
+      "Interdisciplinary Learning: Combine AI with psychology, neuroscience, and linguistics.",
+      "AI in Action: Projects in areas like intelligent automation, smart cities, and virtual assistants."
+    ],
+    "labs": [
+      {
+        "title": "AI Simulation Lab",
+        "description": "Work on AI-based simulation models replicating human decision-making processes.",
+        "image": "../Courses/BTech/cse/lab/networking.jpg"
+      },
+      {
+        "title": "Cognitive Computing Lab",
+        "description": "Implement intelligent systems that learn and adapt based on experiences.",
+        "image": "../Courses/BTech/cse/lab/database.jpg"
+      },
+      {
+        "title": "AI Application Lab",
+        "description": "Develop AI applications for diverse sectors like finance, healthcare, and robotics.",
+        "image": "../Courses/BTech/cse/lab/development.jpg"
+      }
+    ]
+  },
+  
+  {
     id: 5,
     course_name: "B.Tech",
     event_type: "Engineering",

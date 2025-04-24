@@ -173,7 +173,7 @@ const Header = () => {
                   Apply Now
                 </button>
               </Link>
-              <Link href="/svgoi-brochure.pdf">
+              <Link href="/SVIET-Brochure-2025.pdf">
                 <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">
                   Download Brochure
                 </button>
