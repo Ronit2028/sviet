@@ -33,7 +33,7 @@ const Header = () => {
         data.append(key, formData[key]);
       }
 
-      const res = await fetch("/api/sendEmail/admission", {
+      const res = await fetch("/api/sendEmail/admission1", {
         method: "POST",
         body: data,
       });
@@ -205,7 +205,7 @@ const Header = () => {
                 Submit
               </button>
               <a
-                href="https://wa.me/+919386122005" // Replace with your actual WhatsApp number
+                href="https://wa.me/+917280012223" // Replace with your actual WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#25D366] text-white text-lg px-4 py-2 rounded-md w-full hover:bg-[#128C7E] transition-all duration-300"
