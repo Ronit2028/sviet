@@ -33,7 +33,7 @@ const Header = () => {
         data.append(key, formData[key]);
       }
 
-      const res = await fetch("/api/sendEmail/admission1", {
+      const res = await fetch("/api/sendEmail/admission4", {
         method: "POST",
         body: data,
       });
@@ -109,7 +109,7 @@ const Header = () => {
                 it secures the honorable rank of 104 in NIRF 2021.
               </p>
               <div className="flex gap-3 flex-wrap">
-                <Link href="https://sviet.ac.in/admission-bihar2/">
+                <Link href="https://sviet.ac.in/admission-bihar4/">
                   <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">
                     Apply Now
                   </button>
@@ -205,7 +205,7 @@ const Header = () => {
                 Submit
               </button>
               <a
-                href="https://wa.me/+917280012223" // Replace with your actual WhatsApp number
+                href="https://wa.me/+919709267700" // Replace with your actual WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 bg-[#25D366] text-white text-lg px-4 py-2 rounded-md w-full hover:bg-[#128C7E] transition-all duration-300"

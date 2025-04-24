@@ -109,7 +109,7 @@ const Header = () => {
                 it secures the honorable rank of 104 in NIRF 2021.
               </p>
               <div className="flex gap-3 flex-wrap">
-                <Link href="https://sviet.ac.in/admission-bihar/">
+                <Link href="https://sviet.ac.in/admission-bihar2/">
                   <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">
                     Apply Now
                   </button>
