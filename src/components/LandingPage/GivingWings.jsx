@@ -1104,7 +1104,7 @@ const GivingWings = () => {
             transition={{ duration: 0.5 }}
             className="text-4xl font-bold  mb-4"
           >
-            Giving Wings To Your Career
+            Career Placement Overview
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
