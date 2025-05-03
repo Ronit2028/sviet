@@ -9,7 +9,7 @@ import ApplicationProcess from '@/components/admissions/ApplicationProcess'
 import ChartYourPath from '@/components/LandingPage/ChartYourPath'
 import SvietAdmissionsGuidelines from '@/components/admissions/SvietAdmissionsGuidelines'
 import TestimonialSection16 from '@/components/LandingPage/Testimonials'
-import StoryWheel from '@/components/admission-bihar3/StoryWheel'
+
 
 const page = () => {
   return (
@@ -23,7 +23,7 @@ const page = () => {
       <SvietAdmissionsGuidelines/>
       <Scholarship/>
       <TestimonialSection16/>
-      <StoryWheel/>
+     
     </div>
   )
 }
