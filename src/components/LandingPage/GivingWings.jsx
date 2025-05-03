@@ -710,6 +710,24 @@ const Card = ({ className, ...props }) => (
 
   const placementDriveInformation = [
     {
+      "company": "GMH ORGANICS",
+      "date": "Confirm after registrations",
+      "details": "This is information For BCA, BBA, MBA (2025 passing out Batch Students only.) that GMH ORGANICS is conducting a placement drive.",
+      "link": "/GMH_Organics.pdf",
+    },
+    {
+      "company": "Semlon Remedies",
+      "date": "Confirm after registrations",
+      "details": "This is information For B. pharmacy (2025 passing out Batch Students only) that Semlon Remedies Pvt. Ltd. is conducting a placement drive.",
+      "link": "/Semlon_Remedies.pdf",
+    },
+    {
+      "company": "Drishti IAS",
+      "date": "Confirm after registrations",
+      "details": "This is information For B. tech CSE, BCA, MCA, BBA, MBA (2025 passing out Batch Students only) that Drishti IAS is conducting a placement drive. ",
+      "link": "/Drishti_IAS.pdf",
+    },
+    {
       "company": "Tirupati Group",
       "date": "Confirm after registrations",
       "details": "Tirupati Group is conducting a campus placement drive for B. Pharmacy 2025 batch students for the Production Trainee role. Salary: 1.71 LPA. Interview process: PI & HR Round. ",
