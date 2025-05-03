@@ -1,6 +1,28 @@
+"use client"
 import React from 'react'
 
 const Mentors = ({speakers, type}) => {
+    const getInitials = (name) => {
+        return name
+            .split(' ')
+            .map(word => word[0])
+            .join('')
+            .toUpperCase()
+            .slice(0, 2);
+    }
+
+    // Function to generate random background color
+    const getRandomColor = (name) => {
+        const colors = [
+            
+            'bg-yellow-500',
+            'bg-blue-500',
+            
+        ];
+        const index = name.length % colors.length;
+        return colors[index];
+    }
+
     const organizers = [
         {
             id: 1,
@@ -64,7 +86,26 @@ const Mentors = ({speakers, type}) => {
         <div className=' mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
             {speakers.map((organizer, index) => (
                 <div key={index} className='bg-white rounded-md shadow-md p-6 h-full flex gap-3 items-center'>
-                    <img src={organizer.image} className='h-[100px] w-[100px] rounded-full' alt="" />
+                    {/* <img src={organizer.image} className='h-[100px] w-[100px] rounded-full' alt="" /> */}
+                    {organizer.image ? (
+                        <img 
+                            src={organizer.image} 
+                            className='h-[100px] w-[100px] rounded-full object-cover'
+                            alt={organizer.name}
+                            onError={(e) => {
+                                e.target.style.display = 'none';
+                                e.target.nextSibling.style.display = 'flex';
+                            }}
+                        />
+                    ) : null}
+                    <div 
+                        className={`h-[100px] w-[100px] rounded-full text-white text-2xl font-bold 
+                            ${getRandomColor(organizer.name)} 
+                            ${organizer.image ? 'hidden' : 'flex'} 
+                            items-center justify-center`}
+                    >
+                        {getInitials(organizer.name)}
+                    </div>
                     <div>
                         <div className='mb-2'>
                             <p className="text-lg font-bold">

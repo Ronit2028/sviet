@@ -79,7 +79,7 @@ const EventCarousel = () => {
                                                     {event.name}
                                                 </p>
                                                 <p className='text-sm md:text-md pb-6 line-clamp-4 text-justify'>
-                                                    {event.overview}
+                                                    {event.overview .slice(0, 250)}...
                                                 </p>
                                             </div>
                                             <div className='flex justify-between'>

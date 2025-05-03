@@ -1,6 +1,442 @@
 const events = [
   {
-    "id": 19,
+    id: 1,
+    headerImage: "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumIyCbVLR21jqluvKkFoRaDpPfCGTtxewIs74z",
+    name: "Spontania 2025",
+    logo: "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumIyCbVLR21jqluvKkFoRaDpPfCGTtxewIs74z",
+    date: "April 15-17, 2025",
+    venue: "SVIET Campus",
+    overview: "Spontania 2025, the flagship cultural extravaganza of SVIET, is set to captivate hearts with its vibrant three-day celebration of art, culture, and talent. With participation from over 600 students across departments, this cultural fest promises an unforgettable experience featuring dance competitions, musical performances, theatrical displays, and various cultural showcases. The event aims to provide a platform for students to express their creativity, build lasting connections, and create memorable moments in their college journey.",
+    photogallery: "https://drive.google.com/drive/u/4/folders/151lMVmfcBn5tF6Q3mXa63TmS7Nqrpnj7",
+    speakers: [
+      {
+        id: 1,
+        image: "",
+        name: "Ms. Neena Mittal",
+        company: "Punjab Legislative Assembly",
+        designation: "MLA Rajpura",
+        bio: "Ms. Neena Mittal, a distinguished political leader and MLA from Rajpura, brings her vast experience in public service and cultural development to inspire the next generation."
+      },
+      {
+        id: 2,
+        image: "",
+        name: "Sh. Kultar Singh Sandhwan",
+        company: "Punjab Vidhan Sabha",
+        designation: "Hon'ble Speaker",
+        bio: "As the Hon'ble Speaker of Punjab Vidhan Sabha, Sh. Kultar Singh Sandhwan brings legislative wisdom and leadership to inspire the next generation of leaders."
+      },
+    ]
+  },
+  {
+    "id": 2,
+    "headerImage": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumpKvXrQ6ntRyaQormsAvUSgqZTJcibOuXfBWd",
+    "name": "Global Futures Summit 2.0 - Industry & HR Perspectives 2025",
+    "logo": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumGmR8Ob9IoeyaO1d7xYQMuBsK0zrR9WmSiLvE",
+    "date": "8th March 2025",
+    "venue": "SVIET Auditorium, Chandigarh",
+    "overview": "Global Futures Summit 2.0 is a premier industry-academia collaboration event designed to bridge the gap between students, professionals, and industry leaders. Hosted at Swami Vivekanand Institute of Engineering and Technology (SVIET), this summit serves as a catalyst for discussions on workforce trends, industry expectations, and career growth in an evolving job landscape.",
+    "photogallery": "https://drive.google.com/drive/u/4/folders/1rj0GD5CZJxu71WzLT587LnwnnDlYHOBf",
+    "speakers": [
+      {
+        "id": 1,
+        "image": "",
+        "name": "Ms. Sonia Aswani",
+        "company": "Google, Hyderabad",
+        "designation": "Senior Staffing Lead",
+        "bio": "Ms. Sonia Aswani, Senior Staffing Lead at Google, Hyderabad, brings extensive experience in recruitment and talent acquisition in the tech industry."
+      },
+      {
+        "id": 2,
+        "image": "",
+        "name": "Vani Matta",
+        "company": "Accenture",
+        "designation": "Senior Analyst, Talent Acquisition & Management",
+        "bio": "Vani Matta, Senior Analyst at Accenture, specializes in talent acquisition and management, helping shape the workforce of tomorrow."
+      },
+      {
+        "id": 3,
+        "image": "",
+        "name": "Ms. Parul Kataria",
+        "company": "Lenskart",
+        "designation": "Talent Acquisition",
+        "bio": "Ms. Parul Kataria leads talent acquisition at Lenskart, bringing innovative strategies to attract and retain top talent."
+      },
+      {
+        "id": 4,
+        "image": "",
+        "name": "Aashi Sharma",
+        "company": "Worked at InsuranceDekho and Housing.com",
+        "designation": "HR Consultant",
+        "bio": "Aashi Sharma, HR Consultant, has worked with leading firms like InsuranceDekho and Housing.com, shaping HR strategies and culture."
+      },
+      {
+        "id": 5,
+        "image": "",
+        "name": "Sonali Varshney",
+        "company": "HCL Tech",
+        "designation": "HR Executive",
+        "bio": "Sonali Varshney, HR Executive at HCL Tech, works on shaping the HR policies that promote organizational growth and employee well-being."
+      },
+      {
+        "id": 6,
+        "image": "",
+        "name": "Dhruv Pratap Singh",
+        "company": "Swaraj By Mahindra",
+        "designation": "Dy.GM-HR",
+        "bio": "Dhruv Pratap Singh, Deputy General Manager at Swaraj By Mahindra, brings expertise in human resources and organizational development."
+      },
+      {
+        "id": 7,
+        "image": "",
+        "name": "Sanjeev Kumar Mehra",
+        "company": "Aplicar",
+        "designation": "Head Of HR",
+        "bio": "Sanjeev Kumar Mehra, Head of HR at Aplicar, is responsible for leading HR strategies and driving talent management at the organization."
+      },
+      {
+        "id": 8,
+        "image": "",
+        "name": "Ms. Nikita Kaur",
+        "company": "Fortis Healthcare",
+        "designation": "Sr.HR",
+        "bio": "Ms. Nikita Kaur, Senior HR professional at Fortis Healthcare, is passionate about talent management and driving a positive workplace culture."
+      },
+      {
+        "id": 9,
+        "image": "",
+        "name": "Mr. Sandeep Kumar Rajput",
+        "company": "Royal Orchid & Regenta Hotels",
+        "designation": "Vice President- Sales",
+        "bio": "Mr. Sandeep Kumar Rajput, Vice President of Sales at Royal Orchid & Regenta Hotels, excels in building relationships and driving revenue."
+      },
+      {
+        "id": 10,
+        "image": "",
+        "name": "PVS Balasubramanyam",
+        "company": "IRA Automation Private Limited",
+        "designation": "Chief Executive Officer",
+        "bio": "PVS Balasubramanyam, CEO at IRA Automation Private Limited, is known for his contributions to industrial automation and technological innovation."
+      },
+      {
+        "id": 11,
+        "image": "",
+        "name": "Mr. Arvind Singh",
+        "company": "TCS",
+        "designation": "Project Release Manager",
+        "bio": "Arvind Singh, Project Release Manager at TCS, leads projects that enable seamless execution and delivery in tech environments."
+      },
+      {
+        "id": 12,
+        "image": "",
+        "name": "Mr. Bala Krishna",
+        "company": "BPS, Hyderabad",
+        "designation": "Expert & Training Consultant in Game Development Industry",
+        "bio": "Mr. Bala Krishna is a seasoned expert and training consultant specializing in the game development industry."
+      },
+      {
+        "id": 13,
+        "image": "",
+        "name": "Surbhi Kumar",
+        "company": "HCLTech",
+        "designation": "Manager, People Partner & Talent Development",
+        "bio": "Surbhi Kumar is a talent development manager at HCLTech, where she focuses on shaping organizational culture and developing people strategies."
+      },
+      {
+        "id": 14,
+        "image": "",
+        "name": "Mr. Prateek Kumar",
+        "company": "Larsen & Toubro",
+        "designation": "Head – P&M, FGD and TS &OE",
+        "bio": "Mr. Prateek Kumar, Head of P&M, FGD and TS &OE at Larsen & Toubro, excels in project management and strategic business solutions."
+      },
+      {
+        "id": 15,
+        "image": "",
+        "name": "Vinay Chaturvedi",
+        "company": "Royal Orchid & Regenta Hotels",
+        "designation": "Speaker",
+        "bio": "Vinay Chaturvedi is a senior professional with vast experience in hospitality and sales management at Royal Orchid & Regenta Hotels."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "headerImage": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumPkm0NoZ89C4GnNKHTXFvruVyAOm6ZwU2Sibo",
+    "name": "Bharat TechXperience 2.0",
+    "logo": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAum9SyRH7oJQ5AcTPoua6UY3sS7XMiGqmnIVwtL",
+    "date": "8th March 2025",
+    "venue": "SVIET Auditorium, Chandigarh",
+    "overview": "Bharat TechXperience 2.0 is a premier national-level 30-hour hackathon that brings together tech enthusiasts, innovators, and problem solvers to create cutting-edge solutions for real-world challenges. The event features workshops, mentorship, and networking opportunities, fostering a comprehensive ecosystem for innovation. With a prize pool worth ₹1,00,000, it celebrates creativity, collaboration, and the transformative power of technology.",
+    "photogallery": "https://drive.google.com/drive/u/4/folders/1lWHSPUZCaDPiQxXBFG-JtJCBP62jMacW",
+    "speakers": [
+      {
+        "id": 1,
+        "image": "",
+        "name": "Vikram R Singh",
+        "company": "Antier Solutions",
+        "designation": "Global CEO",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 2,
+        "image": "",
+        "name": "Shashi Pal",
+        "company": "Antier Solutions",
+        "designation": "COO",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 3,
+        "image": "",
+        "name": "Devdutta Sarma",
+        "company": "Larsen & Toubro",
+        "designation": "Head HR",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 4,
+        "image": "",
+        "name": "Kapil Narula",
+        "company": "Caelius Consulting",
+        "designation": "Senior Manager",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 5,
+        "image": "",
+        "name": "Dr Bhanu Pratap Singh",
+        "company": "IGNOU",
+        "designation": "Senior Regional Director",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 6,
+        "image": "",
+        "name": "Jaswant Singh",
+        "company": "Larsen & Toubro",
+        "designation": "Branch Manager",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 7,
+        "image": "",
+        "name": "Vishal Sharma",
+        "company": "ASB Academy",
+        "designation": "Head - Learning & Development",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 8,
+        "image": "",
+        "name": "Amanpreet Kaur",
+        "company": "Intellisense Technology",
+        "designation": "Mobile App Developer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 9,
+        "image": "",
+        "name": "Mr. Veer Pratap Singh",
+        "company": "Antier Solutions",
+        "designation": "Tech Lead",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 10,
+        "image": "",
+        "name": "Mansi Lakra",
+        "company": "Antier Solutions",
+        "designation": "Blockchain Consultant",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 11,
+        "image": "",
+        "name": "Udayveer Singh",
+        "company": "StreamNFT",
+        "designation": "Senior Blockchain Engineer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 12,
+        "image": "",
+        "name": "Mr. Simar Preet Singh",
+        "company": "Redaptive, Inc.",
+        "designation": "Front-end Engineer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 13,
+        "image": "",
+        "name": "Pranav Singh Parmar",
+        "company": "iapp Technology LLP",
+        "designation": "Mobile App Developer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 14,
+        "image": "",
+        "name": "Suraj Mani",
+        "company": "TFUG Jalandhar",
+        "designation": "Community Organiser",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 15,
+        "image": "",
+        "name": "Viswateja Yetukuri",
+        "company": "Antier Solutions",
+        "designation": "Senior Blockchain Developer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 16,
+        "image": "",
+        "name": "Loveleen Kaur",
+        "company": "Astrotalk",
+        "designation": "Senior Software Engineer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 17,
+        "image": "",
+        "name": "Pranav Kumar",
+        "company": "Nagarro",
+        "designation": "Senior Engineer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 18,
+        "image": "",
+        "name": "Santosh Kumar Mishra",
+        "company": "Microsoft",
+        "designation": "Software Engineer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 19,
+        "image": "",
+        "name": "Saumya Awasthi",
+        "company": "Kigen",
+        "designation": "Software Engineer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 20,
+        "image": "",
+        "name": "Anish Giri",
+        "company": "Fidelity Investments",
+        "designation": "Senior Frontend Developer",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 21,
+        "image": "",
+        "name": "Pankaj Judge",
+        "company": "Chai Thela",
+        "designation": "Founder",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 22,
+        "image": "",
+        "name": "Aditya Garg",
+        "company": "Shure Audio Technologies",
+        "designation": "Associate Consultant",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 23,
+        "image": "",
+        "name": "Mankesh Dadhwal",
+        "company": "Caelius Consulting",
+        "designation": "Co-Founder & COO",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      },
+      {
+        "id": 24,
+        "image": "",
+        "name": "Gourav Mahipal",
+        "company": "Veritos Infosolutions Pvt. Ltd.",
+        "designation": "Managing Director",
+        "profile": "",
+        "twitter": "",
+        "linkedin": "",
+        "bio": ""
+      }
+    ]
+  },  
+  {
+    "id": 4,
     "headerImage": "https://utfs.io/f/nsz3ps3WUZRL7ac5bSyZPFew0cpClJ4f9O3RUWHjaDvbq6AN",
     "name": "Elevate 2024",
     "logo": "https://utfs.io/f/nsz3ps3WUZRLEZsvLgBBM7OtXkEVLdzS3GjAiCmRITsrocxW",
@@ -177,7 +613,7 @@ const events = [
     
   },
   {
-    id: 1,
+    id: 5,
     headerImage: "https://utfs.io/f/55cf797c-3716-4916-b775-0a61c0cbc09c-ls62sd.jpg",
     name: "Techathon 2.0",
     logo:"https://pbs.twimg.com/media/GFy64P5WgAAcug4.jpg",
@@ -210,7 +646,7 @@ const events = [
       }]
   },
   {
-    id: 2,
+    id: 6,
     logo:"https://pbs.twimg.com/media/GIh0LfGXQAEcKFh.jpg",
     headerImage: "https://utfs.io/f/d77d2e93-bb44-4f3d-8b8b-70651ff5f997-dgdqel.webp",
     name: "Spontania 2k24",
@@ -254,7 +690,7 @@ const events = [
       }]
   },
   {
-    id: 3,
+    id: 7,
     headerImage: "https://utfs.io/f/9a08b157-a1bd-4310-b37e-b1582b2a156c-inzo76.jpg",
     name: "Global Futures Summit 2024",
     logo: "https://media.licdn.com/dms/image/D4E22AQHG3lpve4KsoA/feedshare-shrink_1280/0/1710927341125?e=1715212800&v=beta&t=3Xj3TaewuFj1Lgo7luHp8duirsCX7vLgiDmUjg2uQFw",
@@ -378,7 +814,7 @@ const events = [
     ],
   },
   {
-    id: 4,
+    id: 8,
     headerImage: "https://utfs.io/f/36d33b9b-2102-48ec-ba02-efa13a96c611-jfpc21.webp",
     name: "Parichay 2k23",
     logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ufC4AkfxZ34QDOsozBHK9N-X4DxPOcV77SFVWRFlsQ&s",
@@ -403,7 +839,7 @@ const events = [
     ],
   },
   {
-    id: 5,
+    id: 9,
     headerImage: "https://utfs.io/f/db9bb4f9-5f2a-486a-b24e-c6a29435366a-w384cm.jpg",
     name: "IKGPTU Youth Fest 2023",
     logo:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWRpf9jp7uTiXPzmEOT90HYz7JsW0cEYgEyyqCWO_zIQ&s",
@@ -450,7 +886,7 @@ const events = [
     ],
   },
   {
-    id: 6,
+    id: 10,
     headerImage: "https://utfs.io/f/0c57147f-d3a4-417c-bb71-280b3ced13b9-ks8lvh.00.11_af922b7e.jpg",
     name: "Google Ideate",
     logo: "https://google-ideate-ideathon.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fe42010dbd6fd4e8ba4686665f50e7a64%2Fassets%2Ffavicon%2F76.jpeg&w=768&q=75",
@@ -497,7 +933,7 @@ const events = [
     ],
   },
   {
-    id: 18,
+    id: 11,
     headerImage: "https://utfs.io/f/e7c0f77c-7315-4b1d-b9de-ac3030eb842e-6hvi1d.webp",
     name: "Convocation 14th",
     logo:"https://scontent.faip1-1.fna.fbcdn.net/v/t39.30808-6/438878175_865935622244132_1187202176504504856_n.jpg?stp=dst-jpg_p960x960&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Un5xo0o6ktwAb5ATt47&_nc_ht=scontent.faip1-1.fna&oh=00_AfB6ZkqM5mELp-DwQ92biNWzyuAZ4sGOj80c3ePHHMVVQQ&oe=662DD7CD",

@@ -9,6 +9,14 @@ const SVIETinMedia = () => {
 
     const mediaUpdates = [
         {
+            "imageUrl": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumDAfu8Cc3imC02hJzTjuAPrdk64eXYnEVlBgZ",
+            "name": "Spontania 2025",
+            "type": "Cultural Fest",
+            "desc": "Spontania 2025, the 3-day vibrant cultural fest at SVIET, witnessed participation from over 600 students across various departments. The event featured energetic dance and singing performances, engaging competitions, and guest appearances, creating an atmosphere of joy, unity, and celebration.",
+            "date": "April 15-17, 2025"
+          },
+          
+        {
             "imageUrl": "https://utfs.io/f/1V3V2P4kpAumPXozXKdZ89C4GnNKHTXFvruVyAOm6ZwU2Sib",
             "name": "Elevate 2024: Launching Future",
             "type": "Induction Program",

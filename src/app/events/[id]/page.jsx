@@ -13,6 +13,16 @@ const page = ({ params }) => {
     const id  = params.id
     const event = events.find(singleEvent => singleEvent.id === parseInt(id))
     console.log(event)
+    // if (!event) {
+    //     return (
+    //         <div className="min-h-screen flex items-center justify-center">
+    //             <div className="text-center">
+    //                 <h1 className="text-4xl font-bold text-black mb-4">Event Not Found</h1>
+    //                 <p className="text-gray-600">The event you're looking for doesn't exist.</p>
+    //             </div>
+    //         </div>
+    //     )
+    // }
     return (
         <div key={event.id} className='bg-gray-100 pb-12'>
             <Header header={event.headerImage} />
