@@ -87,7 +87,7 @@ const data = [
     ],
   },
   {
-    "id": 2,
+    "id": 51,
     "course_name": "B.Tech",
     "event_type": "Engineering",
     "header": {
@@ -4213,7 +4213,7 @@ const data = [
 
   //Nursing
   {
-    id: 13333,
+    id: 133,
     course_name: "Nursing",
     event_type: "Nursing",
     header: {
