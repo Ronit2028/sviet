@@ -2066,7 +2066,7 @@ const data = [
     ],
   },
   {
-    id: 27,
+    id: 277,
     course_name: "Paramedical",
     header: {
       title: "B.Sc. IN RADIO IMAGING TECHNOLOGY",
@@ -2120,7 +2120,7 @@ const data = [
     ],
   },
   {
-    id: 28,
+    id: 288,
     course_name: "Paramedical",
     header: {
       title: "B.Sc. IN OPERATION THEATRE TECHNOLOGY",
@@ -2169,7 +2169,7 @@ const data = [
     ],
   },
   {
-    id: 31,
+    id: 311,
     course_name: "Paramedical",
     header: {
       title: "B.Sc. IN MEDICAL LABORATORY SCIENCE",
@@ -2218,7 +2218,7 @@ const data = [
     ],
   },
   {
-    id: 30,
+    id: 300,
     course_name: "Paramedical",
     header: {
       title: "B.Sc. IN ANESTHESIA",
@@ -2262,7 +2262,7 @@ const data = [
     ],
   },
   {
-    id: 29,
+    id: 299,
     course_name: "Paramedical",
     header: {
       title: "B.Sc. IN OPTOMETRY",
