@@ -92,7 +92,7 @@ function Careers() {
           Current Openings
         </h3>
         <div className="p-6">
-          <ul className="list-disc list-inside">
+          {/* <ul className="list-disc list-inside">
             <li>
               <strong>
                 Head of Department (Computer Science & Engineering)
@@ -116,6 +116,43 @@ function Careers() {
             <li>
               <strong>Academics Coordinator</strong>
             </li>
+          </ul> */}
+          <ul className="list-disc list-inside">
+            <li>
+              <strong>Assistant Professor Pharmacy</strong>
+            </li>
+            <li>
+              <strong>Assistant Professor Electrical Engineering</strong>
+            </li>
+            <li>
+              <strong>Assistant Professor Maths</strong>
+            </li>
+            <li>
+              <strong>Assistant Professor English</strong>
+            </li>
+            <li>
+              <strong>Assistant Professor Physics</strong>
+            </li>
+            <li>
+              <strong>Assistant Professor Chemistry</strong>
+            </li>
+            <li>
+              <strong>Assistant Professor M.Tech CSE</strong>
+            </li>
+            <li>
+              <strong>Assistant Professor BCA/MCA</strong>
+            </li>
+            <li>
+              <strong>
+                Assistant Professor M.Tech CSE (Artificial Intelligence)
+              </strong>
+            </li>
+            <li>
+              <strong>Soft Skills Trainer</strong>
+            </li>
+            <li>
+              <strong>Aptitude Trainer</strong>
+            </li>
           </ul>
         </div>
       </div>
@@ -136,10 +173,14 @@ function Careers() {
         </div>
       </div>
       <div className="border rounded-lg overflow-hidden mb-8">
-        <h3 className="bg-gray-200 px-6 py-3 text-lg font-semibold">How to Apply</h3>
+        <h3 className="bg-gray-200 px-6 py-3 text-lg font-semibold">
+          How to Apply
+        </h3>
         <div className="p-6">
           <p>
-            To apply for any of the positions listed above, please email your CV and a cover letter to <strong>career@sviet.ac.in</strong> with the subject line mentioning the job title you are applying for.
+            To apply for any of the positions listed above, please email your CV
+            and a cover letter to <strong>career@sviet.ac.in</strong> with the
+            subject line mentioning the job title you are applying for.
           </p>
         </div>
       </div>
