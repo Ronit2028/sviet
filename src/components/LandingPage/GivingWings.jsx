@@ -710,6 +710,18 @@ const Card = ({ className, ...props }) => (
 
   const placementDriveInformation = [
     {
+      "company": "STELLARAA EDUTECH",
+      "date": "Confirm after registrations",
+      "details": "This is information For B. tech CSE, BCA, MCA, BBA, MBA (2025 passing out Batch Students only.) that STELLARAA EDUTECH is conducting a placement drive.",
+      "link": "/Stellaraa_Edutech.pdf",
+    },
+    {
+      "company": "NowFloats",
+      "date": "Confirm after registrations",
+      "details": "This is information For B. tech CSE, BCA, MCA, BBA, MBA (2025 passing out Batch Students only.) & BBA, MBA(2026 Passing out) that NowFloats is conducting a placement drive.",
+      "link": "/NowFloats.pdf",
+    },
+    {
       "company": "GMH ORGANICS",
       "date": "Confirm after registrations",
       "details": "This is information For BCA, BBA, MBA (2025 passing out Batch Students only.) that GMH ORGANICS is conducting a placement drive.",
