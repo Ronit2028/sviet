@@ -45,9 +45,13 @@ export default function RootLayout({
             <i className="fab fa-whatsapp"></i>
           </a>
         
-          <div className="">
-            <Chatbot />
-          </div>
+            <div>
+            {!["/admission-bihar", "/admission-bihar1", "/admission-bihar2", "/admission-bihar3", "/admission-bihar4", "/admission-bihar5", "/admission-bihar6", "/admission-bihar7", "/admission-bihar8"].includes(
+              typeof window !== "undefined" ? window.location.pathname : ""
+            ) && (
+              <Chatbot />
+            )}
+            </div>
         </div>
         <Footer />
       </body>
