@@ -24,13 +24,13 @@ const SVIETinMedia = () => {
             "date": "September 11-13, 2024"
           },
           
-        {
-            imageUrl: "https://utfs.io/f/f265baa5-de33-44b9-a5f3-73cbdff7e0cc-mbjn4f.png",
-            name: "Spontania 2K24",
-            type: "Annual Cultural Fest",
-            desc: "Trending Now: Spontania 2024 Grabs Media Spotlight!Keep your eyes peeled for ongoing media reports from the Spontania 2024! There's always something new on the horizon. Join SVIET and be part of the change!",
-            date: "April 13-14, 2024"
-        },
+        // {
+        //     imageUrl: "https://utfs.io/f/f265baa5-de33-44b9-a5f3-73cbdff7e0cc-mbjn4f.png",
+        //     name: "Spontania 2K24",
+        //     type: "Annual Cultural Fest",
+        //     desc: "Trending Now: Spontania 2024 Grabs Media Spotlight!Keep your eyes peeled for ongoing media reports from the Spontania 2024! There's always something new on the horizon. Join SVIET and be part of the change!",
+        //     date: "April 13-14, 2024"
+        // },
         {
             imageUrl: "https://utfs.io/f/ac77c3d6-12fc-4a14-9808-a8e99f92e291-mbjn2n.png",
             name: "Global Future Summit 2024",

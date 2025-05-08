@@ -45,6 +45,7 @@ const Page = ({ params }) => {
 
         },
         {
+
             id: 2, name: "Swami Vivekanand College of Pharmacy (SVCP)",
             description: "Swami Vivekanand College of Pharmacy (SVCP) is a premier institution of Pharmaceutical Education and Research in the region, approved by All India Council of Technical Education India (AICTE) and Pharmacy Council of India (PCI). The institute has covered a long and glorious journey of 11 years. In its travelogue, the Institute crossed multiple milestones and continues to head ahead towards the well-defined goals. SVCP takes the advantage of our position as the oldest college of pharmacy in the region to offer an undergraduate and postgraduate pharmacy curriculum that is one of the most innovative in today’s scenario. Our program emphasizes communication skills, problem-solving ability, and a collaborative approach to providing patient-focused health care."
 
@@ -68,6 +69,18 @@ const Page = ({ params }) => {
             md:"/SVCP/Mandatory-Disclosure-SVCP.pdf",
 
         },
+        {
+            "id": 11,
+            "name": "Swami Vivekanand Institute of Pharmacy",
+            "description": "Swami Vivekanand Institute of Pharmacy is committed to delivering excellence in pharmaceutical education, research, and training. With state-of-the-art infrastructure and experienced faculty, the institute aims to nurture future pharmacists who are ethical, competent, and industry-ready. The curriculum focuses on a blend of theoretical knowledge and hands-on practical skills, ensuring students are well-prepared for dynamic careers in the pharmaceutical sector.",
+            "category": "Pharmacy",
+            "programs": {
+              "Bachelor in Pharmacy (B.Pharma)": {}
+            },
+            committee:"/SVCP/Committees.pdf",
+            md:"/SVCP/Mandatory-Disclosure-SVCP.pdf",
+          },
+          
         {
             id: 3, name: "Swami Vivekanand Faculty of Information Technology & Business Management (SVFIT & BM)",
             description: "Amongst the leading Business Management Institutes of North India, Swami Vivekanand Faculty of Information Technology & Business Management (SVFITBM) provides management education with innovative applied research, and practice to educate business leaders of tomorrow to the students who are opting for the various graduate courses under Punjabi University, Patiala that includes BBA, BCA, B.Com, B.Sc (Non-Med.) and B.A. Graduates at SVFITBM, make a difference by creating real value for society. The Institute emphasizes to focus on a holistic multi-disciplinary, and multi-cultural approach to learning."

@@ -103,7 +103,7 @@ const ChartYourPath = () => {
       title: "Milestone Placement Packages",
       description: " SVIET takes pride in its robust placement track record, with top recruiters ensuring bright futures for our students across diverse industries.",
       link: "/placement",
-      image: "https://utfs.io/f/1V3V2P4kpAumJrwVw8xviyu6xWXKJ2tVo5vgeS7mwpHlNsha",
+      image: "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAum4AMbkrRxnuBQDwqki5StcHL06KrMghUGEalm",
       overlay: "bg-red-600",
       badge: "bg-red-500"
     },
@@ -112,7 +112,7 @@ const ChartYourPath = () => {
       title: "We are International",
       description: "Our international collaborations open doors to global opportunities, offering exposure through exchange programs and partnerships with prestigious institutions worldwide.",
       link: "/international",
-      image: "https://sviet.org.in/wp-content/uploads/IMG_1545-scaled-1.jpg",
+      image: "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAum62mD9AFtYkXDQV3xwMmdzE6iugCS4bW9e720",
       overlay: "bg-blue-600",
       badge: "bg-blue-500"
     },
@@ -121,7 +121,7 @@ const ChartYourPath = () => {
       title: "Academic Excellence",
       description: "State-of-the-art facilities and dedicated faculty mentors supporting your educational journey",
       link: "/super-sixty",
-      image: "https://utfs.io/f/1V3V2P4kpAumCa51NnAi6EeD1wHIp3zVSgTXJyWtuZ2hdcix",
+      image: "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAuma6ZEjdqYuBgVRlAkHZebycN59qvW6rTdJwUL",
       overlay: "bg-emerald-600",
       badge: "bg-emerald-500"
     },

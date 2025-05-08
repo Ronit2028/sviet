@@ -55,6 +55,7 @@ const CourseList = () => {
     const swamiVivekanandInstitutes = [
         { id: 1, name: "Swami Vivekanand Institute of Engineering and Technology (SVIET)", category: "Engineering and Technology" },
         { id: 2, name: "Swami Vivekanand College of Pharmacy (SVCP)", category: "Pharmacy" },
+        {id: 11, name: "Swami Vivekanand Institute of Pharmacy (SVIP)", category: "Pharmacy" },
         { id: 3, name: "Swami Vivekanand Faculty of Information Technology & Business Management (SVFIT & BM)", category: "Information Technology & Business Management" },
         { id: 4, name: "Swami Vivekanand Faculty of Technology and Management (SVFTM)", category: "Technology and Management" },
         { id: 5, name: "Swami Vivekanand College of Education(SVCE)", category: "Education" },
@@ -62,7 +63,8 @@ const CourseList = () => {
         { id: 7, name: "Swami Vivekanand Industrial Training Center (SVITC)", category: "Industrial Training" },
         { id: 8, name: "Swami Vivekanand College of Management & Technology (SVCMT)", category: "Management & Technology" },
         // { id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)", category: "Paramedical" },
-        { id: 10, name: "Swami Vivekanand College of Law", category: "Law" }
+        { id: 10, name: "Swami Vivekanand College of Law", category: "Law" },
+        
     ];
 
     return (
