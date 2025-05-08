@@ -45,7 +45,7 @@ const Overview = ({ programOverview, majorTracks, duration, programName, fees, b
                     <div className='pb-7 mb-7 border-b-2 flex justify-between flex-wrap'>
                         <div className='flex flex-wrap gap-2 items-center'>
                             <p className='text-lg font-medium'>Download Brochure :</p>
-                            <Link href="/svgoi-brochure.pdf">
+                            <Link href="/SVIET-Brochure-2025.pdf">
                                 <button className='bg-[#fea700] text-white text-lg px-2 py-1 rounded-md hover:rounded-full transition'><i className='fa fa-download'></i></button>
                             </Link>     </div>
                         {/* <div className='flex flex-wrap gap-2 items-center'>
