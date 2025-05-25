@@ -68,7 +68,7 @@ const Footer = () => {
                         <ul className="leading-loose text-sm font-light">
                             <li><a href="https://forms.gle/M5d3NdLz3y5Gkrbk6">NCC Registration</a></li>
                             <li><Link href="/advantages">SVGOI Advantages</Link></li>
-                            <li><a href="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumHshQeylIhc4kFWTUs6obV79KrivaxPgzmfpA">RNR Scholarship</a></li>
+                            <li><a href="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumXRxmHO2YwQAC3BxfPnoR46m9tK5uUkNerSOE">RNR Scholarship</a></li>
                             <li><Link href="/contact-us">Contact-us</Link></li>
                             <li><Link href="/admissions">Scholarship</Link></li>
                             <li><Link href="/refund-policy">Refund Policy</Link></li>
