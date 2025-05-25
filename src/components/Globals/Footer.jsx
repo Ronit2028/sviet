@@ -60,7 +60,7 @@ const Footer = () => {
                             <li><Link href="/iste">ISTE Sviet Chapter</Link></li>
                         </ul>
 
-                        
+
                     </div>
                     {/* Resources section */}
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-8 p-6">
@@ -99,3 +99,9 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
