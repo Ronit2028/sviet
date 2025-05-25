@@ -59,6 +59,8 @@ const Footer = () => {
                             <li><a href="https://www.sviet.org.in">NAAC</a></li>
                             <li><Link href="/iste">ISTE Sviet Chapter</Link></li>
                         </ul>
+
+                        
                     </div>
                     {/* Resources section */}
                     <div className="w-full md:w-1/2 lg:w-1/4 mb-8 p-6">
