@@ -35,7 +35,7 @@ export async function POST(req) {
 
     const mailOptions = {
       from: `"Admission Portal" <${email}>`,
-      to: "guptaniraj915@gmail.com",
+      to: "new_admissions@sviet.ac.in",
       subject: "New Admission Enquiry Submission",
       html: `
         <h2>Admission Enquiry Details</h2>
