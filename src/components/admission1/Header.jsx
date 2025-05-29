@@ -1,9 +1,10 @@
 "use client";
-import { FaWhatsapp } from "react-icons/fa"; 
 import React, { useState } from "react";
 import Link from "next/link";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Image from "next/image";
+import logo from "../../assets/Brand/Logo.webp"; // Adjust the path as necessary
 
 const Header = () => {
   const [formData, setFormData] = useState({
@@ -85,6 +86,9 @@ const Header = () => {
   return (
     <>
       <ToastContainer />
+    <div className="bg-white text-black py-6 pl-8">
+      <Image src={logo} alt="SVIET Logo" height={200} width={200}/>
+    </div>
       <div className="relative h-auto md:h-[100vh] text-white overflow-hidden">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
@@ -100,25 +104,35 @@ const Header = () => {
         </video>
         <div className="relative w-full h-full flex items-center py-12 bg-black bg-opacity-50">
           <div className="w-10/12 mx-auto flex flex-wrap items-start justify-between">
-            <div className="w-full md:w-1/2 py-12">
+            <div className="w-full md:w-1/2 py-12 mt-20">
               <p className="text-2xl lg:text-4xl font-bold w-4/5 mb-3 pb-3">
-                Nurturing Excellence Since 2004: A Legacy of Quality Education.
+                B.Tech in Artificial Intelligence
               </p>
               <p className="text-md lg:text-lg font-semibold mt-3 mb-3 pb-3">
-                SVGOI, a beacon of academic distinction, proudly stands tall as
-                it secures the honorable rank of 104 in NIRF 2021.
+                Empowering the Next Generation to Build a Smarter, AI-Driven
+                Future
               </p>
+              <p className="text-sm lg:text-base font-normal text-justify  mb-3">
+                Our B.Tech program in Artificial Intelligence is designed to
+                equip students with a strong foundation in machine learning,
+                data science, robotics, and intelligent systems. With a
+                future-focused curriculum, industry-driven projects, and access
+                to advanced tools and technologies, students gain practical
+                skills and theoretical knowledge needed to innovate and lead in
+                the world of AI.
+              </p>
+
               <div className="flex gap-3 flex-wrap">
                 <Link href="https://sviet.ac.in/admission1/">
                   <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">
                     Apply Now
                   </button>
                 </Link>
-                <Link href="/SVIET-Brochure-2025.pdf">
+                {/* <Link href="/SVIET-Brochure-2025.pdf">
                   <button className="bg-[#fea700] text-white text-xl px-2 py-1 rounded-md">
                     Download Brochure
                   </button>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -184,7 +198,9 @@ const Header = () => {
               >
                 <option value="">Select Course *</option>
                 <option value="Computer Science">Computer Science</option>
-                <option value="Artificial Intelligence">Artificial Intelligence</option>
+                <option value="Artificial Intelligence">
+                  Artificial Intelligence
+                </option>
                 {/* <option value="Diploma">Diploma</option>
                 <option value="Doctorate">Doctorate</option> */}
               </select>
@@ -204,7 +220,7 @@ const Header = () => {
               >
                 Submit
               </button>
-              <a
+              {/* <a
                 href="https://wa.me/+919467476931" // Replace with your actual WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
@@ -212,7 +228,7 @@ const Header = () => {
               >
                 <FaWhatsapp className="text-xl" />
                 Contact on WhatsApp
-              </a>
+              </a> */}
             </form>
           </div>
         </div>
