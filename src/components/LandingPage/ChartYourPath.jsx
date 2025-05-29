@@ -85,10 +85,12 @@
 import React from 'react'
 import success from "@/assets/LandingPage/success.jpg"
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { BookOpen, GraduationCap, Globe2, Building2 } from 'lucide-react'
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/solid'
 
 const ChartYourPath = () => {
+   const pathname = usePathname();
   const Card = ({ className, children, ...props }) => {
     return (
       <div className={`rounded-lg overflow-hidden ${className}`} {...props}>
@@ -159,11 +161,13 @@ const ChartYourPath = () => {
               Chart <span className='text-[#fea700] font-bold'>Your Path</span> To Success To SVIET
             </p>
             <div className='flex gap-3'>
-              <Link href="https://admission.sviet.ac.in/">
-                <button className="bg-[#fea700] hover:bg-[#fea700]/90 text-white text-xl px-4 py-2 rounded">
-                  Apply Now
-                </button>
-              </Link>
+              {pathname !== "/admission1" && (
+                <Link href="https://admission.sviet.ac.in/">
+                  <button className="bg-[#fea700] hover:bg-[#fea700]/90 text-white text-xl px-4 py-2 rounded">
+                    Apply Now
+                  </button>
+                </Link>
+              )}
             </div>
             <p className='max-w-5xl text-justify mt-6 text-gray-100/90'>
               At SVIET, we believe in empowering students to transform aspirations into achievements. With a commitment to academic excellence, cutting-edge infrastructure, and a nurturing environment, we provide the perfect launchpad for your ambitions.
@@ -219,11 +223,14 @@ const ChartYourPath = () => {
                 At SVGOI, we don't just educate—we inspire, nurture, and empower. With a focus on holistic development, industry-aligned curricula, and state-of-the-art facilities, we create an environment where students can unlock their true potential.
               </p>
             </div>
-            <Link href="/advantages" className="mt-4 md:mt-0">
+            <div>
+              {pathname !== "/admission1" && (
+                <Link href="/advantages" className="mt-4 md:mt-0">
               <button className="bg-[#fea700] hover:bg-[#fea700]/90 text-white text-xl px-6 py-3 rounded">
                 Learn More
               </button>
-            </Link>
+            </Link>)}
+            </div>
           </div>
         </div>
       </div>

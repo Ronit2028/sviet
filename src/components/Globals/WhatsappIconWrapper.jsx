@@ -20,7 +20,7 @@ const WhatsappIconWrapper = () => {
       "/admission-bihar8",
       "/admission-bihar9",
       "/admission-bihar10",
-      "admission1"
+      "/admission1"
     ];
     if (!excludedPaths.includes(currentPath)) {
       setShowIcon(true);
