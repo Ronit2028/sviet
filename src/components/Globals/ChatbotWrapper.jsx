@@ -21,6 +21,7 @@ const ChatbotWrapper = () => {
       "/admission-bihar8",
       "/admission-bihar9",
       "/admission-bihar10",
+      "admission1"
     ];
 
     if (!excludedPaths.includes(currentPath)) {
