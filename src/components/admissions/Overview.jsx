@@ -157,12 +157,14 @@
 // }
 
 // export default Overview
-
+"use client"
 import React from 'react';
 import image from '@/assets/sviet-web/tseg.webp';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation'
 
 const Overview = () => {
+    const pathname = usePathname();
     return (
         <div className="py-12 my-10 w-10/12 mx-auto flex flex-wrap lg:flex-nowrap">
             {/* Text Section */}
@@ -175,11 +177,15 @@ const Overview = () => {
                 <p className="text-justify">
                     Experience a world of opportunities at SVGOI, where we boast a vibrant campus spanning over 25 acres and house a diverse faculty of over 250 professionals. With a global alumni network exceeding 25,000 and over 1,000 international students, we've garnered recognition through 25+ national and international awards.
                 </p>
+                <div>
+              {pathname !== "/admission1" && (
                 <Link href="https://admission.sviet.ac.in/">
                     <button className="text-lg text-white rounded-md bg-[#fea700] px-6 py-2 mt-5">
                         Apply Now
                     </button>
                 </Link>
+                )}
+            </div>
             </div>
 
             {/* Statistics Section */}

@@ -18,6 +18,8 @@ const Header = () => {
     message: "",
   });
 
+  const [showThankYou, setShowThankYou] = useState(false);
+
   const handleChange = (e) => {
     const { name, value, files } = e.target;
     setFormData((prev) => ({
@@ -50,7 +52,6 @@ const Header = () => {
           pauseOnHover: true,
           draggable: true,
         });
-        // Reset form after successful submission
         setFormData({
           name: "",
           email: "",
@@ -61,6 +62,7 @@ const Header = () => {
           program: "",
           message: "",
         });
+        setShowThankYou(true);
       } else {
         toast.error(result.message || "Something went wrong", {
           position: "top-right",
@@ -86,9 +88,45 @@ const Header = () => {
   return (
     <>
       <ToastContainer />
-    <div className="bg-white text-black py-6 pl-8">
-      <Image src={logo} alt="SVIET Logo" height={200} width={200}/>
-    </div>
+      {showThankYou && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 max-w-md w-full text-center relative">
+            <button
+              className="absolute top-3 right-3 text-gray-500 hover:text-gray-800 text-2xl"
+              onClick={() => setShowThankYou(false)}
+              aria-label="Close"
+            >
+              &times;
+            </button>
+            <div className="flex flex-col items-center">
+              <svg
+                className="w-16 h-16 text-green-500 mb-4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="#d1fae5"/>
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2l4-4" />
+              </svg>
+              <h2 className="text-2xl font-bold mb-2 text-gray-800">Thank You!</h2>
+              <p className="text-gray-600 mb-4">
+                Your enquiry has been submitted successfully.<br />
+                We appreciate your interest and will get back to you soon.
+              </p>
+              <button
+                className="mt-2 px-6 py-2 bg-[#fea700] text-white rounded-lg font-semibold hover:bg-yellow-600 transition"
+                onClick={() => setShowThankYou(false)}
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      <div className="bg-white text-black py-6 pl-8">
+        <Image src={logo} alt="SVIET Logo" height={200} width={200}/>
+      </div>
       <div className="relative h-auto md:h-[100vh] text-white overflow-hidden">
         <video
           className="absolute top-0 left-0 w-full h-full object-cover"
