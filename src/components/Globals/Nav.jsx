@@ -1436,17 +1436,23 @@ export function ComplexNavbar() {
   }, []);
 
   return (
-    <Navbar className="mx-auto p-2 lg:pl-6  text-gray-800" fullWidth={true}>
+    <Navbar className="mx-auto p-2 lg:pl-6 text-gray-800" fullWidth={true}>
       <div className="relative mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography
           as="a"
           href="/"
           className="mr-4 w-[200px] ml-2 cursor-pointer py-1.5 font-medium"
         >
-          <Image src={logo} className="w-[100px] md:w-[250px]" />
+          <Image src={logo} className="w-[100px] md:w-[200px] h-auto" alt="SVIET Logo" />
         </Typography>
         <div className="flex flex-col flex-1">
-          <div className="hidden lg:flex justify-end w-full border-b-2 py-3">
+          <div className="hidden lg:flex justify-end w-full py-3">
+            <div className="w-1/3 flex items-center justify-start gap-2 pr-6 md:ml-6">
+              <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumVWT9dp3gFkCwLrRjtm2nJhzUIixOYXBA8NDb" alt="" className="w-20 h-20" />
+              <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAummUzKFoD2prEbC7OkVZGhPtxlqaunXTvJiBsM" alt="" className="w-20 h-20" />
+              <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumnh7FhvA1z8WShHVuacLDIv5XR0itPqOklGMb" alt="" className="w-20 h-20" />
+              <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAum2eRQteWvT53OZ1aHF8mkfdPiU0cDoMlRG9zL" alt="" className="w-20 h-20" />
+            </div>
             <div className="w-1/3 flex items-center  justify-end gap-2">
               <span className="text-sm font-semibold">Get Social:</span>
               <a href="https://www.youtube.com/@svietchandigarh3067"><i className="fab fa-youtube mx-1 text-[#FF0000]"></i></a>
@@ -1469,12 +1475,10 @@ export function ComplexNavbar() {
               </Link>
             </div>
           </div>
-
-          <div className="hidden lg:block w-full ">
+          <div className="hidden lg:block w-full mt-[-15px] border-t-2 ">
             <NavList />
           </div>
         </div>
-
         <div className="flex justify-end">
           <IconButton
             size="sm"
@@ -1487,7 +1491,6 @@ export function ComplexNavbar() {
           </IconButton>
         </div>
       </div>
-
       <MobileNav open={isNavOpen} className="overflow-scroll">
         <NavList />
       </MobileNav>

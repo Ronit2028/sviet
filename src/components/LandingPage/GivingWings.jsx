@@ -710,6 +710,18 @@ const Card = ({ className, ...props }) => (
 
   const placementDriveInformation = [
     {
+    "company": "Reliance Retail Ltd.",
+    "date": "Confirm after registrations",
+    "details": "This is information •For BBA, B.com, MBA (2025 & 2026 passing out Batch Students only). that Reliance Retail Ltd is conducting a placement drive.",
+    "link": "/Reliance_Retail.pdf",
+  },
+  {
+    "company": "Higgs Healthcare",
+    "date": "7th june 2025",
+    "details": "This is information •For B. pharmacy (2025 passing out Batch Students only.) that Higgs Healthcare is conducting a placement drive.",
+    "link": "/Higgs_Healthcare.pdf",
+  },
+    {
       "company": "STELLARAA EDUTECH",
       "date": "Confirm after registrations",
       "details": "This is information For B. tech CSE, BCA, MCA, BBA, MBA (2025 passing out Batch Students only.) that STELLARAA EDUTECH is conducting a placement drive.",
