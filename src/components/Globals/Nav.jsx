@@ -1448,7 +1448,7 @@ export function ComplexNavbar() {
         <div className="flex flex-col flex-1">
           <div className="hidden lg:flex justify-end w-full py-3">
             <div className="w-1/3 flex items-center justify-start gap-2 pr-6 md:ml-6">
-              <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumVWT9dp3gFkCwLrRjtm2nJhzUIixOYXBA8NDb" alt="" className="w-20 h-20" />
+              {/* <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumVWT9dp3gFkCwLrRjtm2nJhzUIixOYXBA8NDb" alt="" className="w-20 h-20" /> */}
               <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAummUzKFoD2prEbC7OkVZGhPtxlqaunXTvJiBsM" alt="" className="w-20 h-20" />
               <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumnh7FhvA1z8WShHVuacLDIv5XR0itPqOklGMb" alt="" className="w-20 h-20" />
               <img src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAum2eRQteWvT53OZ1aHF8mkfdPiU0cDoMlRG9zL" alt="" className="w-20 h-20" />
