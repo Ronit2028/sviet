@@ -99,7 +99,7 @@ const inter = Raleway({ subsets: ["latin"] });
 import Loading from "./loading";
 
 export const metadata: Metadata = {
-  title: "SVIET | Best Private Engineering College in North India",
+  title: "SVGOI | Best Institution in North India",
   description: "Be Future Ready",
   icons: {
     icon: "./icon.png",
