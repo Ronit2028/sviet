@@ -710,6 +710,12 @@ const Card = ({ className, ...props }) => (
 
   const placementDriveInformation = [
     {
+    "company": "Shinedezign Infonet Pvt. Ltd.",
+    "date": "Confirm after registrations",
+    "details": "This is information •For MBA (HR) 2025 passing out Batch Students that Shinedezign Infonet Pvt Ltd, Mohali is conducting a placement drive.",
+    "link": "/Shinedezign_Infonet.pdf",
+  },
+    {
     "company": "Reliance Retail Ltd.",
     "date": "Confirm after registrations",
     "details": "This is information •For BBA, B.com, MBA (2025 & 2026 passing out Batch Students only). that Reliance Retail Ltd is conducting a placement drive.",
