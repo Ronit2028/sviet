@@ -189,6 +189,12 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    "company": "Crowne Plaza",
+    "date": "Confirm after registrations",
+    "details": "This is information For HM 2026 Passing out Batch Students only that Crowne Plaza Greater Noida is conducting a placement drive.",
+    "link": "/Crown-Plaza.pdf",
+  },
+  {
     "company": "Park Plaza Ludhiana",
     "date": "Confirm after registrations",
     "details": "This is information •For HM 2026 Passing out Batch Students only. that Park Plaza Ludhiana is conducting a placement drive.",
