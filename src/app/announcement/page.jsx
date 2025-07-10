@@ -189,6 +189,12 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    "company": "Genotis Pharmaceuticals Pvt Ltd",
+    "date": "Confirm after registrations",
+    "details": "This is information •For B. pharmacy (2025 passing out Batch Students only) that Genotis Pharmaceuticals Pvt Ltd Greater Chandigarh , Ambala is conducting a placement drive.",
+    "link": "/Genotis-Pharmaceuticals.pdf",
+  },
+  {
     "company": "Crowne Plaza",
     "date": "Confirm after registrations",
     "details": "This is information For HM 2026 Passing out Batch Students only that Crowne Plaza Greater Noida is conducting a placement drive.",
