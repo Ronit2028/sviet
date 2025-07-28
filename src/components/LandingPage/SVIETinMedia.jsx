@@ -9,6 +9,13 @@ const SVIETinMedia = () => {
 
     const mediaUpdates = [
         {
+  "imageUrl": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumRT8raJmu2iQAmoaFD3d9eMskP7J6LXV4IRly",
+  "name": "1st International Graduation Ceremony",
+  "type": "Academic Event",
+  "desc": "History was made as we hosted our 1st International Graduation Ceremony, honoring the achievements of our global scholars. With proud hearts, we celebrated not just degrees, but dreams, diversity, and determination. Here's to new beginnings, international bonds, and a future led by knowledge!",
+  "date": "July 18, 2025"
+},
+        {
             "imageUrl": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumxMajYDWn96rMwa3N4fR0hndkIVipFyKUB8bH",
             "name": "Spontania 2025",
             "type": "Cultural Fest",
