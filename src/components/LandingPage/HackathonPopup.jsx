@@ -221,12 +221,19 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { X, Settings, Calendar, MapPin, BookOpen, Users2 } from "lucide-react"
+import { X, Settings, Calendar, MapPin, BookOpen, Users2, Rocket, Star, Trophy, Users, Gift, Zap } from "lucide-react"
 import Link from "next/link"
 
 export default function HackathonPopup() {
   const [isVisible, setIsVisible] = useState(false)
+  const [isElevateVisible, setIsElevateVisible] = useState(false)
   const [timeLeft, setTimeLeft] = useState({
+    days: 0,
+    hours: 0,
+    minutes: 0,
+    seconds: 0,
+  })
+  const [elevateTimeLeft, setElevateTimeLeft] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
@@ -235,14 +242,21 @@ export default function HackathonPopup() {
 
   useEffect(() => {
     const timer = setTimeout(() => setIsVisible(true), 2000)
-    return () => clearTimeout(timer)
+    const elevateTimer = setTimeout(() => setIsElevateVisible(true), 3000)
+    return () => {
+      clearTimeout(timer)
+      clearTimeout(elevateTimer)
+    }
   }, [])
 
   useEffect(() => {
     const targetDate = new Date("2025-09-01T09:00:00").getTime()
+    const elevateTargetDate = new Date("2025-09-11T09:00:00").getTime()
+    
     const interval = setInterval(() => {
       const now = new Date().getTime()
       const difference = targetDate - now
+      const elevateDifference = elevateTargetDate - now
 
       setTimeLeft({
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
@@ -251,7 +265,14 @@ export default function HackathonPopup() {
         seconds: Math.floor((difference % (1000 * 60)) / 1000),
       })
 
-      if (difference < 0) {
+      setElevateTimeLeft({
+        days: Math.floor(elevateDifference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor((elevateDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+        minutes: Math.floor((elevateDifference % (1000 * 60 * 60)) / (1000 * 60)),
+        seconds: Math.floor((elevateDifference % (1000 * 60)) / 1000),
+      })
+
+      if (difference < 0 && elevateDifference < 0) {
         clearInterval(interval)
       }
     }, 1000)
@@ -260,19 +281,228 @@ export default function HackathonPopup() {
   }, [])
 
   return (
-    <AnimatePresence>
+    <>
+      {/* ELEVATE 2025 Popup - Larger */}
+      <AnimatePresence>
+        {isElevateVisible && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-50 flex items-center justify-center p-2"
+          >
+            <motion.div
+              className="relative w-full max-w-sm md:max-w-md overflow-hidden"
+              initial={{ scale: 0.7, y: 50, opacity: 0 }}
+              animate={{ scale: 1, y: 0, opacity: 1 }}
+              exit={{ scale: 0.7, y: 50, opacity: 0 }}
+              transition={{ type: "spring", damping: 25, stiffness: 300 }}
+            >
+              <div className="relative bg-[#1a5f5f] rounded-2xl overflow-hidden shadow-2xl border border-teal-200">
+                {/* Animated background */}
+                <div className="absolute inset-0 overflow-hidden">
+                  <motion.div
+                    className="absolute inset-0 opacity-15"
+                    animate={{ rotate: [0, 360] }}
+                    transition={{ duration: 60, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
+                    style={{
+                      backgroundImage: "radial-gradient(circle, #ffffff 1px, transparent 1px)",
+                      backgroundSize: "30px 30px",
+                    }}
+                  />
+                  {[...Array(6)].map((_, i) => (
+                    <motion.div
+                      key={i}
+                      className="absolute w-1 h-1 bg-yellow-300/30 rounded-full"
+                      animate={{
+                        y: [0, -40, 0],
+                        opacity: [0.3, 0.6, 0.3],
+                        scale: [1, 1.2, 1],
+                      }}
+                      transition={{
+                        duration: 4 + Math.random() * 2,
+                        repeat: Number.POSITIVE_INFINITY,
+                        delay: Math.random() * 2,
+                      }}
+                      style={{
+                        top: `${20 + Math.random() * 60}%`,
+                        left: `${10 + Math.random() * 80}%`,
+                      }}
+                    />
+                  ))}
+                </div>
+
+                {/* Close button */}
+                <motion.button
+                  onClick={() => setIsElevateVisible(false)}
+                  className="absolute top-2 right-2 text-white/80 hover:text-white transition-all z-20 bg-white/20 backdrop-blur-sm rounded-full p-1.5 shadow-lg hover:shadow-xl hover:scale-110"
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  <X size={16} />
+                </motion.button>
+
+                <div className="relative p-3 space-y-3">
+                  {/* Header */}
+                  <motion.div
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    className="text-center space-y-2"
+                  >
+                    <div className="flex items-center justify-center space-x-3">
+                      <motion.div
+                        className="relative"
+                        
+                      >
+                        <div className="">
+                          <img
+                            src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumFf6XYTJbL95YayPfxuDQMFsXlC0oBImU6z28"
+                            alt="ELEVATE 2025"
+                            className="w-full h-24 object-cover"
+                          />
+                        </div>
+                       
+                      </motion.div>
+                    </div>
+
+                    <div className="space-y-1 ">
+                      <motion.h1 
+                        className="text-2xl md:text-3xl font-bold text-white leading-tight "
+                        animate={{ scale: [1, 1.02, 1] }}
+                        transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
+                      >
+                        <span className="text-yellow-300">ELEVATE</span>
+                        <span className="text-orange-300 ml-2">2.0</span>
+                      </motion.h1>
+                      <h2 className="text-lg md:text-xl text-white/90 font-semibold">
+                        LAUNCHING FUTURE
+                      </h2>
+                      <p className="text-sm text-white/80">
+                        INDUCTION PROGRAM
+                      </p>
+                      <div className="flex items-center justify-center space-x-4 text-white/70 text-xs">
+                        <span className="flex items-center"><Trophy className="w-3 h-3 mr-1" />OPPORTUNITIES</span>
+                        <span className="flex items-center"><Star className="w-3 h-3 mr-1" />GROWTH</span>
+                        <span className="flex items-center"><Zap className="w-3 h-3 mr-1" />INSPIRATION</span>
+                      </div>
+                    </div>
+                  </motion.div>
+
+                  {/* Event Details */}
+                  <motion.div
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.1 }}
+                    className="grid grid-cols-2 gap-2"
+                  >
+                    <div className="flex items-center space-x-2 bg-white/10 p-2 rounded-lg backdrop-blur-sm">
+                      <Calendar className="w-4 h-4 text-yellow-300" />
+                      <div>
+                        <p className="font-bold text-white text-sm">11 SEPT</p>
+                        <p className="text-white/70 text-xs">2025</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center space-x-2 bg-white/10 p-2 rounded-lg backdrop-blur-sm">
+                      <MapPin className="w-4 h-4 text-green-300" />
+                      <div>
+                        <p className="font-bold text-white text-sm">SVIET Campus</p>
+                        <p className="text-white/70 text-xs">Punjab</p>
+                      </div>
+                    </div>
+                  </motion.div>
+
+                  {/* Celebrity Speaker */}
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.2 }}
+                    className="bg-white/15 p-3 rounded-xl backdrop-blur-sm flex items-center gap-3"
+                  >
+                    <div className="flex-1 text-left">
+                      <h3 className="text-white/80 text-sm ">Welcoming our</h3>
+                      <h2 className="text-lg md:text-xl font-bold text-yellow-300 ">CELEBRITY SPEAKER</h2>
+                      <div className="text-white">
+                        <h4 className="text-lg font-bold">Aman Gupta</h4>
+                        <p className="text-white/80 text-sm">Co-founder boAt</p>
+                        <p className="text-white/70 text-xs">Shark at Shark Tank INDIA</p>
+                      </div>
+                    </div>
+                    <div className="flex-shrink-0">
+                      <img
+                        src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumuImaRrzGDN7MfW9sTV1IA0zrSZwixYbo25LP"
+                        alt="Aman Gupta"
+                        className="w-32 h-32 md:w-32 md:h-32 rounded-full object-cover border-2 border-yellow-300/50"
+                      />
+                    </div>
+                  </motion.div>
+
+                  {/* Countdown */}
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.9 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: 0.3 }}
+                    className="bg-white/10 p-3 rounded-xl backdrop-blur-sm"
+                  >
+                    <h3 className="text-center text-white/80 text-sm mb-2 font-semibold">EVENT STARTS IN</h3>
+                    <div className="grid grid-cols-4 gap-2">
+                      {[
+                        { label: "Days", value: elevateTimeLeft.days, color: "text-yellow-300", bg: "bg-yellow-400/20" },
+                        { label: "Hours", value: elevateTimeLeft.hours, color: "text-green-300", bg: "bg-green-400/20" },
+                        { label: "Minutes", value: elevateTimeLeft.minutes, color: "text-blue-300", bg: "bg-blue-400/20" },
+                        { label: "Seconds", value: elevateTimeLeft.seconds, color: "text-pink-300", bg: "bg-pink-400/20" },
+                      ].map((item) => (
+                        <motion.div
+                          key={item.label}
+                          className={`flex flex-col items-center justify-center p-2 rounded-lg ${item.bg}`}
+                          animate={{ scale: [1, 1.02, 1] }}
+                          transition={{ duration: 1, repeat: Number.POSITIVE_INFINITY, repeatDelay: 2 }}
+                        >
+                          <span className={`text-lg md:text-xl font-bold font-mono ${item.color}`}>
+                            {String(item.value).padStart(2, "0")}
+                          </span>
+                          <span className="text-white/70 text-xs font-medium">{item.label}</span>
+                        </motion.div>
+                      ))}
+                    </div>
+                  </motion.div>
+
+                  {/* CTA Buttons */}
+                  <motion.div
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.4 }}
+                    className="flex flex-col sm:flex-row gap-2 justify-center"
+                  >
+                    <Link
+                      href="#register"
+                      className="group relative inline-flex items-center justify-center px-6 py-2 font-bold text-sm bg-gradient-to-r from-yellow-400 to-orange-500 text-black rounded-full hover:from-yellow-300 hover:to-orange-400 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
+                    >
+                      <Users className="w-4 h-4 mr-1" />
+                      Register Now
+                    </Link>
+                    
+                  </motion.div>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* VLSI Popup - Smaller */}
+      <AnimatePresence>
       {isVisible && (
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          className="fixed inset-0 z-50 flex items-start lg:mt-32 justify-end p-4 mt-8 sm:p-4"
+          className="fixed bottom-4 right-4 z-40"
         >
           <motion.div
-            className="relative w-full max-w-xs sm:max-w-sm overflow-hidden"
-            initial={{ scale: 0.7, y: 100, opacity: 0 }}
-            animate={{ scale: 1, y: 0, opacity: 1 }}
-            exit={{ scale: 0.7, y: 100, opacity: 0 }}
+            className="relative w-80 max-w-xs overflow-hidden"
+            initial={{ scale: 0.7, x: 100, opacity: 0 }}
+            animate={{ scale: 1, x: 0, opacity: 1 }}
+            exit={{ scale: 0.7, x: 100, opacity: 0 }}
             transition={{ type: "spring", damping: 25, stiffness: 300 }}
           >
             <div className="relative bg-white rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
@@ -519,5 +749,6 @@ export default function HackathonPopup() {
         </motion.div>
       )}
     </AnimatePresence>
+    </>
   )
 }
