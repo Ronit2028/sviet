@@ -171,7 +171,7 @@ const EventCarousel = () => {
                             </div> */}
                             
                             <a 
-                                href="https://www.instagram.com/sviet_official" 
+                                href="https://www.instagram.com/svietofficial/" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                                 className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold py-3 px-6 rounded-full w-fit transition-all duration-300 transform hover:scale-105 flex items-center gap-2"
