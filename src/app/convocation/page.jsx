@@ -587,7 +587,7 @@ const ConvocationLandingPage = () => {
             >
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                  src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumY0djFrbtjEUG1hRlbryNkzHodgPJ7acmI8ue" 
                   alt="Graduation ceremony celebration" 
                   className="w-full h-[480px] object-cover"
                 />
