@@ -307,14 +307,14 @@ const ConvocationLandingPage = () => {
         </div>
 
         {/* Main Content */}
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-12">
+        <div className="relative z-10 w-11/12 max-w-7xl mx-auto px-6">
           <div
             className={`space-y-8 transform transition-all duration-1000 ease-out ${
               isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
             {/* Event Badge */}
-            <div className="mx-auto mb-2 mt-28">
+            <div className=" mb-2 mt-28">
               <div className="inline-flex items-center px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/10 text-white text-sm font-medium animate-float">
                 <span className="w-4 h-4 mr-2 text-[#fea700]">🎓</span>
                 <span>Celebrating Excellence - Building Bright Futures</span>
