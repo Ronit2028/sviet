@@ -18,7 +18,6 @@ export async function POST(req) {
     const designation = formData.get("designation");
     const photograph = formData.get("photograph");
     const degreeFile = formData.get("degreeFile");
-    const paymentProof = formData.get("paymentProof");
     const consentForComing = formData.get("consentForComing");
 
     let attachments = [];

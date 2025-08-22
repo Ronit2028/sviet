@@ -260,7 +260,6 @@ const ConvocationLandingPage = () => {
           designation: "",
           photograph: null,
           degreeFile: null,
-          paymentProof: null,
           consentForComing: "",
         });
       } else {
@@ -918,7 +917,7 @@ const ConvocationLandingPage = () => {
                 </div>
 
                 {/* Payment Proof */}
-                <div className="bg-amber-50 p-4 rounded-xl border-2 border-amber-200">
+                {/* <div className="bg-amber-50 p-4 rounded-xl border-2 border-amber-200">
                   <label className="block text-lg font-semibold text-gray-700 mb-3">
                     Registration Fee Rs: 1000/- (Upload Payment Proof) *
                   </label>
@@ -942,7 +941,7 @@ const ConvocationLandingPage = () => {
                     accept=".pdf,.jpg,.jpeg,.png"
                   />
                   <p className="text-sm text-gray-500 mt-2">Upload 1 supported file. Max 10 MB.</p>
-                </div>
+                </div> */}
 
                 {/* Consent */}
                 <div>
