@@ -19,7 +19,6 @@ export async function POST(req) {
     const photograph = formData.get("photograph");
     const degreeFile = formData.get("degreeFile");
     const consentForComing = formData.get("consentForComing");
-
     let attachments = [];
 
     // Handle photograph upload
@@ -41,13 +40,13 @@ export async function POST(req) {
     }
 
     // Handle payment proof upload
-    if (paymentProof && typeof paymentProof === "object") {
-      const buffer = Buffer.from(await paymentProof.arrayBuffer());
-      attachments.push({
-        filename: `payment_proof_${fullName}_${paymentProof.name}`,
-        content: buffer,
-      });
-    }
+    // if (paymentProof && typeof paymentProof === "object") {
+    //   const buffer = Buffer.from(await paymentProof.arrayBuffer());
+    //   attachments.push({
+    //     filename: `payment_proof_${fullName}_${paymentProof.name}`,
+    //     content: buffer,
+    //   });
+    // }
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -133,7 +132,6 @@ export async function POST(req) {
               <ul style="margin: 0; padding-left: 20px;">
                 <li>Passport Size Photograph: ${photograph ? '✅ Attached' : '❌ Not provided'}</li>
                 <li>Degree Certificate: ${degreeFile ? '✅ Attached' : '❌ Not provided'}</li>
-                <li>Payment Proof (₹1000): ${paymentProof ? '✅ Attached' : '❌ Not provided'}</li>
               </ul>
             </div>
 
