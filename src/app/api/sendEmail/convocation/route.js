@@ -58,7 +58,7 @@ export async function POST(req) {
 
     const mailOptions = {
       from: `"Convocation Registration" ${email}`,
-      to: "guptaniraj915@gmail.com",
+      to: "hodcivil@sviet.ac.in",
       subject: `15th Convocation Registration - ${fullName} (${rollNumber})`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
