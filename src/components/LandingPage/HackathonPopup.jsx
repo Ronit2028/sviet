@@ -250,7 +250,7 @@ export default function HackathonPopup() {
   }, [])
 
   useEffect(() => {
-    const targetDate = new Date("2025-09-01T09:00:00").getTime()
+    const targetDate = new Date("2025-09-13T09:00:00").getTime()
     const elevateTargetDate = new Date("2025-09-11T09:00:00").getTime()
     
     const interval = setInterval(() => {
@@ -474,7 +474,7 @@ export default function HackathonPopup() {
                     className="flex flex-col sm:flex-row gap-2 justify-center"
                   >
                     <Link
-                      href="#register"
+                      href="https://elevate2025.theuniques.in/"
                       className="group relative inline-flex items-center justify-center px-6 py-2 font-bold text-sm bg-gradient-to-r from-yellow-400 to-orange-500 text-black rounded-full hover:from-yellow-300 hover:to-orange-400 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
                     >
                       <Users className="w-4 h-4 mr-1" />
@@ -634,7 +634,7 @@ export default function HackathonPopup() {
                   <div className="flex items-center space-x-1 bg-blue-50 p-2 rounded-lg">
                     <Calendar className="w-3 h-3 text-blue-600 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-gray-800">01-06 Sept</p>
+                      <p className="font-medium text-gray-800">08-13 Sept</p>
                       <p className="text-gray-600 text-xs">2025</p>
                     </div>
                   </div>
