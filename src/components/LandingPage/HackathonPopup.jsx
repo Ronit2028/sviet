@@ -478,7 +478,7 @@ export default function HackathonPopup() {
                       className="group relative inline-flex items-center justify-center px-6 py-2 font-bold text-sm bg-gradient-to-r from-yellow-400 to-orange-500 text-black rounded-full hover:from-yellow-300 hover:to-orange-400 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all"
                     >
                       <Users className="w-4 h-4 mr-1" />
-                      Register Now
+                      Know More
                     </Link>
                     
                   </motion.div>
