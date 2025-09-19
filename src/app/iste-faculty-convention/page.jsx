@@ -1,8 +1,8 @@
 "use client"
 
-
 import { useState, useEffect, useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
+import { Upload, User, Mail, Phone, Building, FileText, Award, Users, Calendar, MapPin } from "lucide-react"
 
 export default function page() {
   return (
@@ -10,155 +10,95 @@ export default function page() {
       <HeroSection />
       <StatsSection />
       <AboutSection />
-      <PanelSection title="Panel of Experts" subtitle="Coming Soon" />
+      <EsteemedPanelistSection />
       <WhyJoinUsSection />
-      <PanelSection title="Workshop Sessions" subtitle="Coming Soon" />
-      <TestimonialsSection />
+      <GuestCarouselSection />
       <RegistrationSection />
-      <ContactSection />
+      {/* <ContactSection /> */}
     </main>
   )
 }
 
 const HeroSection = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const { scrollY } = useScroll()
   const y = useTransform(scrollY, [0, 500], [0, 150])
 
-  useEffect(() => {
-    const handleMouseMove = (e) => {
-      setMousePosition({ x: e.clientX, y: e.clientY })
-    }
-    window.addEventListener("mousemove", handleMouseMove)
-    return () => window.removeEventListener("mousemove", handleMouseMove)
-  }, [])
-
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-[#1B9B7C] via-[#0F7A5C] to-[#0A5D47]">
-      {/* Animated Background Shapes */}
+    <section className="relative h-screen flex items-center justify-start overflow-hidden bg-gradient-to-br from-[#1B9B7C] via-[#0F7A5C] to-[#0A5D47] px-6 md:px-12">
+      {/* Background Shapes */}
       <div className="absolute inset-0">
         {/* Floating Circles */}
-        {[...Array(20)].map((_, i) => (
-          <motion.div
+        {[...Array(10)].map((_, i) => (
+          <div
             key={i}
             className="absolute rounded-full bg-white/10 backdrop-blur-sm"
             style={{
-              width: Math.random() * 100 + 20,
-              height: Math.random() * 100 + 20,
+              width: Math.random() * 80 + 20,
+              height: Math.random() * 80 + 20,
               left: `${Math.random() * 100}%`,
               top: `${Math.random() * 100}%`,
-            }}
-            animate={{
-              y: [0, -30, 0],
-              x: [0, Math.random() * 20 - 10, 0],
-              scale: [1, 1.1, 1],
-            }}
-            transition={{
-              duration: Math.random() * 3 + 2,
-              repeat: Number.POSITIVE_INFINITY,
-              ease: "easeInOut",
-              delay: Math.random() * 2,
             }}
           />
         ))}
 
-        {/* Geometric Shapes */}
-        <motion.div
-          className="absolute top-20 left-20 w-32 h-32 border-2 border-white/20 rotate-45"
-          animate={{ rotate: [45, 405] }}
-          transition={{ duration: 20, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-        />
-        <motion.div
-          className="absolute bottom-20 right-20 w-24 h-24 bg-white/10 rounded-full"
-          animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
-          transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
-        />
+        {/* Square Pattern */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#ffffff1a_1px,transparent_1px)] bg-[length:30px_30px] opacity-80 z-10" />
 
-        {/* Light Rays */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent transform -skew-x-12 animate-pulse" />
+        {/* Static Shapes */}
+        <div className="absolute top-10 left-10 w-24 h-24 bg-white/20 rounded-lg rotate-45" />
       </div>
-
-      {/* Mouse Follower Light */}
-      <motion.div
-        className="absolute w-96 h-96 rounded-full bg-gradient-radial from-white/20 to-transparent pointer-events-none"
-        style={{
-          x: mousePosition.x - 192,
-          y: mousePosition.y - 192,
-        }}
-        transition={{ type: "spring", damping: 30, stiffness: 200 }}
-      />
 
       {/* Content */}
       <motion.div
-        className="relative z-20 text-center text-white px-4 max-w-6xl mx-auto"
+        className="mx-4 relative z-20 text-left text-white max-w-4xl"
         style={{ y }}
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        <motion.div
-          className="mb-8"
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.8 }}
-        >
-          <div className="w-24 h-24 mx-auto mb-6 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm">
-            <span className="text-3xl font-bold">ISTE</span>
-          </div>
-        </motion.div>
-
         <motion.h1
-          className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 text-balance leading-tight"
+          className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
           ISTE Faculty Convention &<br />
-          <span className="text-white/90">National Seminar</span>
+          <span className="text-white/90">Education-Industry Leaders Summit 2025</span>
         </motion.h1>
 
-        <motion.p
-          className="text-xl md:text-2xl mb-6 text-balance text-white/90 max-w-4xl mx-auto"
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 1.2 }}
-        >
-          Role of Technical Institutions under New National Education Policy
-        </motion.p>
-
         <motion.div
-          className="text-lg md:text-xl mb-10 space-y-3 text-white/80"
+          className="text-md md:text-lg mb-10 space-y-3 text-white/80"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1.4 }}
         >
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 items-start">
             <div className="flex items-center gap-2">
-              <span className="text-2xl">📅</span>
-              <span>7–8 June 2023</span>
+              <Calendar className="w-6 h-6" />
+              <span>Oct 11, 2025</span>
             </div>
             <div className="flex items-center gap-2">
-              <span className="text-2xl">📍</span>
-              <span>Parala Maharaja Engineering College, Odisha</span>
+              <MapPin className="w-6 h-6" />
+              <span>SVIET, Chandigarh</span>
             </div>
           </div>
         </motion.div>
 
         <motion.div
-          className="flex flex-col sm:flex-row gap-6 justify-center items-center"
+          className="flex flex-col sm:flex-row gap-6"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 1.6 }}
         >
           <motion.button
-            className="px-10 py-4 bg-white text-[#1B9B7C] font-bold text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
+            className="px-8 py-3 bg-white text-[#1B9B7C] font-bold text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
             whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,255,255,0.3)" }}
             whileTap={{ scale: 0.95 }}
           >
             Register Now
           </motion.button>
           <motion.button
-            className="px-10 py-4 border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-[#1B9B7C] transition-all duration-300"
+            className="px-8 py-3 border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-[#1B9B7C] transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
@@ -166,31 +106,16 @@ const HeroSection = () => {
           </motion.button>
         </motion.div>
       </motion.div>
-
-      {/* Scroll Indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white cursor-pointer"
-        animate={{ y: [0, 10, 0] }}
-        transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-      >
-        <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-          <motion.div
-            className="w-1 h-3 bg-white rounded-full mt-2"
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-          />
-        </div>
-      </motion.div>
     </section>
   )
 }
 
 const StatsSection = () => {
   const stats = [
-    { number: 128500, label: "Technical Teachers" },
-    { number: 535000, label: "Student Members" },
-    { number: 2740, label: "Institutions" },
-    { number: 19, label: "State Sections" },
+    { number: 15, label: "Keynote Speakers", icon: Users },
+    { number: 600, label: "Student Members", icon: User },
+    { number: 25, label: "Institutions", icon: Building },
+    { number: 30, label: "Prestigious Awards", icon: Award },
   ]
 
   return (
@@ -200,7 +125,7 @@ const StatsSection = () => {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#1B9B7C_1px,transparent_1px)] bg-[length:50px_50px]" />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="w-11/12 mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div
           className="text-center mb-16"
           initial={{ opacity: 0, y: 30 }}
@@ -208,15 +133,17 @@ const StatsSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">ISTE by Numbers</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Join India's largest community of technical educators and students
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Faculty Convention at a Glance
+          </h2>
+          <p className="text-sm sm:text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
+            Be part of our institution's vibrant network of technical educators and learners.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-12">
           {stats.map((stat, index) => (
-            <StatItem key={index} number={stat.number} label={stat.label} delay={index * 200} />
+            <StatItem key={index} number={stat.number} label={stat.label} icon={stat.icon} delay={index * 200} />
           ))}
         </div>
       </div>
@@ -224,7 +151,7 @@ const StatsSection = () => {
   )
 }
 
-const StatItem = ({ number, label, delay }) => {
+const StatItem = ({ number, label, delay, icon: Icon }) => {
   const [count, setCount] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
   const ref = useRef(null)
@@ -268,16 +195,14 @@ const StatItem = ({ number, label, delay }) => {
       transition={{ duration: 0.6, delay: delay / 1000 }}
       viewport={{ once: true }}
     >
-      {/* Glowing Background */}
-      <motion.div
-        className="absolute inset-0 bg-gradient-to-br from-[#1B9B7C]/20 to-transparent rounded-2xl blur-xl"
-        animate={{ scale: [1, 1.1, 1], opacity: [0.3, 0.6, 0.3] }}
-        transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
-      />
-
-      <div className="relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300">
-        <div className="text-4xl md:text-5xl font-bold text-[#1B9B7C] mb-2">{count.toLocaleString()}+</div>
-        <div className="text-sm md:text-base text-gray-600 font-medium">{label}</div>
+      <div className="relative bg-white rounded-2xl px-6 py-4 shadow-lg hover:shadow-xl transition-all duration-300 border border-[#1B9B7C]/10">
+        <div className="flex flex-col items-center gap-2">
+          <div className="p-3 bg-[#1B9B7C]/10 rounded-full">
+            <Icon className="w-6 h-6 text-[#1B9B7C]" />
+          </div>
+          <div className="text-4xl md:text-5xl font-bold text-[#1B9B7C] mb-2">{count.toLocaleString()}+</div>
+          <div className="text-sm font-semibold md:text-base text-gray-600">{label}</div>
+        </div>
       </div>
     </motion.div>
   )
@@ -285,7 +210,7 @@ const StatItem = ({ number, label, delay }) => {
 
 const AboutSection = () => {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-16 bg-white relative overflow-hidden">
       {/* Floating Shapes */}
       <div className="absolute inset-0">
         <motion.div
@@ -300,27 +225,27 @@ const AboutSection = () => {
         />
       </div>
 
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="w-11/12 container mx-auto px-4 relative z-10">
+        {/* Heading */}
         <motion.div
-          className="text-center mb-16"
+          className="text-left mb-12 "
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           <div className="inline-block px-4 py-2 bg-[#1B9B7C] text-white rounded-full text-sm font-medium mb-4">
-            ABOUT ISTE
+            ABOUT THE EVENT
           </div>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-balance">
-            Indian Society for Technical Education
-          </h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            The leading national professional organization for educators and students in technical education, fostering
-            innovation and excellence across India.
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">ISTE Faculty Convention</h2>
+          <p className="max-w-4xl text-lg text-gray-600 leading-relaxed">
+            A premier gathering of academicians, educators, and professionals from Punjab, Chandigarh, Himachal Pradesh,
+            and J&K to explore challenges and opportunities in technical education & institutional management.
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-start">
+          {/* Left Image */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -329,16 +254,17 @@ const AboutSection = () => {
           >
             <div className="relative">
               <img
-                src="/placeholder-5rtul.png"
-                alt="ISTE Conference"
-                className="w-full h-auto rounded-2xl shadow-2xl"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-qrY1HSnrLCuYC_Dko4Akvx_kChjA21ylUQ&s"
+                alt="ISTE Faculty Convention"
+                className="w-full h-[550px] rounded-2xl shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1B9B7C]/20 to-transparent rounded-2xl" />
             </div>
           </motion.div>
 
+          {/* Right Content */}
           <motion.div
-            className="space-y-8"
+            className="space-y-6"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
@@ -346,25 +272,39 @@ const AboutSection = () => {
           >
             {[
               {
-                title: "Leading Organization",
+                title: "About ISTE",
                 description:
-                  "ISTE is India's premier professional society for technical education with over 535,000 members.",
-                icon: "🏛️",
+                  "India's leading professional society with 5.3+ lakh members, dedicated to advancing engineering & technical education nationwide.",
+                icon: FileText,
               },
               {
-                title: "National Impact",
-                description: "Connecting 2,740+ institutions across 19 state sections to advance technical education.",
-                icon: "🌟",
+                title: "About SVIET",
+                description:
+                  "NAAC Accredited, industry-focused institute under SVGOI, known for global collaborations, top placements, and skill-based education.",
+                icon: Building,
               },
               {
-                title: "Future Focus",
-                description: "Exploring NEP-2020 implementation and the future of engineering education in India.",
-                icon: "🚀",
+                title: "Convention Highlights",
+                description:
+                  "Expert panels, thematic sessions, and dynamic discussions on NEP-2020, innovation, and institutional management.",
+                icon: Users,
+              },
+              {
+                title: "Who Can Attend",
+                description:
+                  "Faculty of Engineering Colleges and Polytechnics across all branches of Engineering & Technology.",
+                icon: User,
+              },
+              {
+                title: "Best Teacher Award",
+                description:
+                  "Nomination through Head of Institution. All registered participants receive a certificate of participation.",
+                icon: Award,
               },
             ].map((item, index) => (
               <motion.div
                 key={index}
-                className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-gradient-to-br from-gray-50 to-white px-6 py-2 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-[#1B9B7C]/10"
                 whileHover={{ scale: 1.02, y: -5 }}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -372,10 +312,12 @@ const AboutSection = () => {
                 viewport={{ once: true }}
               >
                 <div className="flex items-start gap-4">
-                  <div className="text-3xl">{item.icon}</div>
+                  <div className="p-2 bg-[#1B9B7C]/10 rounded-lg">
+                    <item.icon className="w-6 h-6 text-[#1B9B7C]" />
+                  </div>
                   <div>
-                    <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                    <p className="text-gray-600 leading-relaxed">{item.description}</p>
+                    <h3 className="text-lg font-bold text-[#1B9B7C]">{item.title}</h3>
+                    <p className="text-gray-600 leading-relaxed text-sm">{item.description}</p>
                   </div>
                 </div>
               </motion.div>
@@ -387,81 +329,123 @@ const AboutSection = () => {
   )
 }
 
-const PanelSection = ({ title, subtitle }) => {
-  const isExpertPanel = title.includes("Experts")
+const EsteemedPanelistSection = ({ panelists = [] }) => {
+  const defaultPanelists = [
+    {
+      name: "Dr. John Doe",
+      designation: "Professor, ABC University",
+      description: "Expert in AI and Machine Learning.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Jane Smith",
+      designation: "Head of Department, XYZ College",
+      description: "Specialist in Data Science and Analytics.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Emily Johnson",
+      designation: "Senior Lecturer, LMN Institute",
+      description: "Researcher in Cloud Computing and IoT.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Michael Brown",
+      designation: "Dean, PQR University",
+      description: "Pioneer in Robotics and Automation.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Sarah Wilson",
+      designation: "Lecturer, UVW College",
+      description: "Specialist in Cybersecurity and Blockchain.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. David Lee",
+      designation: "Researcher, XYZ Institute",
+      description: "Expert in Quantum Computing.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Anna White",
+      designation: "Professor, DEF University",
+      description: "Specialist in Renewable Energy.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Chris Green",
+      designation: "Head of Department, GHI College",
+      description: "Expert in Big Data and Analytics.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Laura Black",
+      designation: "Senior Lecturer, JKL Institute",
+      description: "Researcher in Artificial Intelligence Ethics.",
+      image: "https://via.placeholder.com/150",
+    },
+    {
+      name: "Dr. Mark Taylor",
+      designation: "Professor, MNO University",
+      description: "Specialist in Software Engineering.",
+      image: "https://via.placeholder.com/150",
+    },
+  ]
+
+  const displayPanelists = panelists.length > 0 ? panelists : defaultPanelists
+  const [currentSlide, setCurrentSlide] = useState(0)
 
   return (
-    <section
-      className={`py-20 relative overflow-hidden ${isExpertPanel ? "bg-gradient-to-br from-[#1B9B7C] to-[#0F7A5C]" : "bg-gradient-to-br from-purple-600 to-indigo-700"}`}
-    >
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0">
-        {[...Array(15)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute rounded-full bg-white/10"
-            style={{
-              width: Math.random() * 60 + 20,
-              height: Math.random() * 60 + 20,
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-            }}
-            animate={{
-              y: [0, -20, 0],
-              opacity: [0.3, 0.7, 0.3],
-              scale: [1, 1.2, 1],
-            }}
-            transition={{
-              duration: Math.random() * 4 + 3,
-              repeat: Number.POSITIVE_INFINITY,
-              delay: Math.random() * 2,
-            }}
-          />
-        ))}
-      </div>
-
-      <div className="container mx-auto px-4 relative z-10">
+    <section className="py-20 relative overflow-hidden bg-white">
+      <div className="w-11/12 container mx-auto px-4 relative z-10">
         <motion.div
-          className="max-w-4xl mx-auto text-center"
+          className=" mb-12 text-left px-4"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <motion.h2
-            className="text-3xl md:text-4xl font-bold text-white mb-6"
-            animate={{ scale: [1, 1.02, 1] }}
-            transition={{ duration: 3, repeat: Number.POSITIVE_INFINITY }}
-          >
-            {title}
-          </motion.h2>
-
-          <motion.div
-            className="inline-block px-8 py-3 bg-white/20 backdrop-blur-sm text-white rounded-full text-lg font-semibold mb-6"
-            animate={{
-              boxShadow: [
-                "0 0 20px rgba(255,255,255,0.3)",
-                "0 0 40px rgba(255,255,255,0.5)",
-                "0 0 20px rgba(255,255,255,0.3)",
-              ],
-            }}
-            transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-          >
-            {subtitle}
-          </motion.div>
-
-          <motion.p
-            className="text-lg text-white/90 leading-relaxed max-w-2xl mx-auto"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.3 }}
-            viewport={{ once: true }}
-          >
-            {isExpertPanel
-              ? "Distinguished speakers and industry leaders will share their insights on the future of technical education."
-              : "Interactive workshops designed to enhance your teaching methodologies and research capabilities."}
-          </motion.p>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1B9B7C] mb-4">Our Esteemed Panelists</h2>
+          <p className="text-gray-600 text-lg ">
+            Meet the distinguished panelists who are shaping the future of technical education.
+          </p>
         </motion.div>
+
+        {/* Panelists Slider */}
+        <div className="relative">
+          <div className="overflow-hidden">
+            <div
+              className="flex transition-transform duration-500 ease-in-out"
+              style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+            >
+              {displayPanelists.map((panelist, index) => (
+                <div key={index} className="flex-shrink-0 w-full md:w-1/3 px-4">
+                  <div className="bg-white rounded-lg p-6 border border-[#1B9B7C]/20 shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <img
+                      src={panelist.image || "/placeholder.svg"}
+                      alt={panelist.name}
+                      className="w-full h-56 object-cover rounded-md mb-4"
+                    />
+                    <h3 className="text-xl font-bold text-gray-900 mb-2">{panelist.name}</h3>
+                    <p className="text-md font-semibold text-[#1B9B7C] mb-1">{panelist.designation}</p>
+                    <p className="text-gray-600 text-sm">{panelist.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+          {/* Indicators */}
+          <div className="flex justify-center mt-4 space-x-2">
+            {displayPanelists.map((_, index) => (
+              <button
+                key={index}
+                className={`w-3 h-3 rounded-full transition-colors duration-300 ${currentSlide === index ? "bg-[#1B9B7C]" : "bg-gray-300"}`}
+                onClick={() => setCurrentSlide(index)}
+              />
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   )
@@ -472,50 +456,40 @@ const WhyJoinUsSection = () => {
     {
       title: "Networking with leading academicians",
       description: "Connect with top educators and researchers from across India",
-      icon: "🤝",
-      color: "from-blue-500 to-cyan-500",
+      icon: Users,
     },
     {
       title: "Present your research paper",
       description: "Showcase your innovative work to a distinguished audience",
-      icon: "📊",
-      color: "from-green-500 to-emerald-500",
+      icon: FileText,
     },
     {
       title: "Gain ISTE recognition & awards",
       description: "Receive recognition for excellence in technical education",
-      icon: "🏆",
-      color: "from-yellow-500 to-orange-500",
+      icon: Award,
     },
     {
       title: "Explore NEP-2020 opportunities",
       description: "Understand implementation strategies for the new education policy",
-      icon: "🚀",
-      color: "from-purple-500 to-pink-500",
+      icon: Building,
     },
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
-      {/* Background Animation */}
-      <div className="absolute inset-0">
+    <section className="py-20 bg-gradient-to-br from-[#1B9B7C]/5 to-white relative overflow-hidden">
+      <div className="w-11/12 mx-auto container px-4 relative z-10">
         <motion.div
-          className="absolute inset-0 bg-gradient-to-r from-[#1B9B7C]/5 via-transparent to-[#1B9B7C]/5"
-          animate={{ x: ["-100%", "100%"] }}
-          transition={{ duration: 10, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-        />
-      </div>
-
-      <div className="container mx-auto px-4 relative z-10">
-        <motion.div
-          className="text-center mb-16"
+          className=" mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Why Join Us?</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          {/* <div className="inline-block px-6 py-3 bg-[#1B9B7C] text-white rounded-full text-sm font-medium mb-6">
+            WHY JOIN US
+          </div> */}
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1B9B7C] mb-6">Why Join Us</h2>
+          <p className="text-lg text-gray-600 max-w-3xl leading-relaxed">
             Discover the benefits of participating in India's premier technical education convention
           </p>
         </motion.div>
@@ -531,22 +505,16 @@ const WhyJoinUsSection = () => {
               viewport={{ once: true }}
               whileHover={{ y: -10 }}
             >
-              <div className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-full">
-                {/* Gradient Background on Hover */}
-                <motion.div
-                  className={`absolute inset-0 bg-gradient-to-br ${reason.color} opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300`}
-                />
-
+              <div className="bg-white px-8 py-4 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 h-full border border-[#1B9B7C]/10 group-hover:border-[#1B9B7C]/30">
                 <div className="relative z-10">
-                  <div className="text-4xl mb-4">{reason.icon}</div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-3 group-hover:text-[#1B9B7C] transition-colors duration-300">
+                  <div className="w-16 h-16 bg-[#1B9B7C]/10 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-[#1B9B7C]/20 transition-colors duration-300">
+                    <reason.icon className="w-8 h-8 text-[#1B9B7C]" />
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-[#1B9B7C] transition-colors duration-300">
                     {reason.title}
                   </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{reason.description}</p>
+                  <p className="text-gray-600 leading-relaxed">{reason.description}</p>
                 </div>
-
-                {/* Hover Effect Border */}
-                <motion.div className="absolute inset-0 border-2 border-transparent group-hover:border-[#1B9B7C]/30 rounded-2xl transition-colors duration-300" />
               </div>
             </motion.div>
           ))}
@@ -556,193 +524,114 @@ const WhyJoinUsSection = () => {
   )
 }
 
-const TestimonialsSection = () => {
-  const testimonials = [
+const GuestCarouselSection = () => {
+  const guests = [
     {
       name: "Dr. Rajesh Kumar",
-      position: "Professor, IIT Delhi",
-      content:
-        "ISTE conventions provide invaluable networking opportunities and insights into the latest educational trends.",
-      image: "/placeholder-5rtul.png",
+      position: "Director, ISTE National",
+      description:
+        "Leading expert in technical education policy and implementation with over 25 years of experience in academic administration.",
+      image: "/placeholder-pv585.png",
+      expertise: "Education Policy & Administration",
     },
     {
       name: "Prof. Priya Sharma",
-      position: "Dean, NIT Kurukshetra",
-      content: "The quality of research presentations and panel discussions at ISTE events is exceptional.",
-      image: "/placeholder-5rtul.png",
+      position: "Vice Chancellor, Technical University",
+      description:
+        "Renowned researcher in engineering education and innovation, pioneering new methodologies in technical skill development.",
+      image: "/professional-indian-female-professor.jpg",
+      expertise: "Engineering Education & Innovation",
     },
     {
       name: "Dr. Amit Patel",
-      position: "Director, VJTI Mumbai",
-      content: "ISTE has been instrumental in shaping my career in technical education and research.",
-      image: "/placeholder-5rtul.png",
+      position: "Chairman, AICTE",
+      description:
+        "Visionary leader in technical education governance, instrumental in implementing NEP-2020 across engineering institutions.",
+      image: "/placeholder-ngp7z.png",
+      expertise: "Technical Education Governance",
+    },
+    {
+      name: "Dr. Sunita Verma",
+      position: "Dean, Research & Development",
+      description:
+        "Expert in industry-academia collaboration and research commercialization, fostering innovation ecosystems in technical education.",
+      image: "/indian-female-researcher.png",
+      expertise: "Industry-Academia Collaboration",
     },
   ]
 
-  return (
-    <section className="py-20 bg-gradient-to-br from-[#1B9B7C]/5 to-white relative overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0">
-        {[...Array(10)].map((_, i) => (
-          <motion.div
-            key={i}
-            className="absolute rounded-full bg-[#1B9B7C]/10"
-            style={{
-              width: Math.random() * 40 + 20,
-              height: Math.random() * 40 + 20,
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-            }}
-            animate={{
-              y: [0, -15, 0],
-              opacity: [0.3, 0.6, 0.3],
-            }}
-            transition={{
-              duration: Math.random() * 3 + 2,
-              repeat: Number.POSITIVE_INFINITY,
-              delay: Math.random() * 2,
-            }}
-          />
-        ))}
-      </div>
+  const [currentGuest, setCurrentGuest] = useState(0)
 
-      <div className="container mx-auto px-4 relative z-10">
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentGuest((prev) => (prev + 1) % guests.length)
+    }, 5000)
+    return () => clearInterval(timer)
+  }, [])
+
+  return (
+    <section className="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
+      <div className="w-11/12 container mx-auto px-4 relative z-10">
         <motion.div
-          className="text-center mb-16"
+          className="mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">What Educators Say</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Hear from distinguished faculty members about their ISTE experience
+          <div className="inline-block px-6 py-3 bg-[#1B9B7C] text-white rounded-full text-sm font-medium mb-6">
+            DISTINGUISHED GUESTS
+          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Meet Our Esteemed Guests</h2>
+          <p className="text-lg text-gray-600 max-w-3xl  leading-relaxed">
+            Learn from industry leaders and academic pioneers who are shaping the future of technical education
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <motion.div
-              key={index}
-              className="bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300"
-              initial={{ opacity: 0, y: 50 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              viewport={{ once: true }}
-              whileHover={{ y: -5 }}
-            >
-              <div className="flex items-center mb-4">
-                <img
-                  src={testimonial.image || "/placeholder.svg"}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover mr-4"
-                />
-                <div>
-                  <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                  <p className="text-sm text-[#1B9B7C]">{testimonial.position}</p>
-                </div>
-              </div>
-              <p className="text-gray-600 italic">"{testimonial.content}"</p>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  )
-}
-
-const ContactSection = () => {
-  return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800 text-white relative overflow-hidden">
-      {/* Background Animation */}
-      <div className="absolute inset-0">
-        <motion.div
-          className="absolute inset-0 bg-gradient-to-r from-[#1B9B7C]/20 via-transparent to-[#1B9B7C]/20"
-          animate={{ x: ["-100%", "100%"] }}
-          transition={{ duration: 15, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
-        />
-      </div>
-
-      <div className="container mx-auto px-4 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Get in Touch</h2>
-            <p className="text-lg text-gray-300 mb-8">
-              Have questions about the convention? We're here to help you with registration and event details.
-            </p>
-
-            <div className="space-y-4">
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-[#1B9B7C] rounded-full flex items-center justify-center">
-                  <span className="text-xl">📧</span>
-                </div>
-                <div>
-                  <p className="font-semibold">Email</p>
-                  <p className="text-gray-300">convention@iste.org</p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-[#1B9B7C] rounded-full flex items-center justify-center">
-                  <span className="text-xl">📞</span>
-                </div>
-                <div>
-                  <p className="font-semibold">Phone</p>
-                  <p className="text-gray-300">+91-11-2337-9851</p>
-                </div>
-              </div>
-
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-[#1B9B7C] rounded-full flex items-center justify-center">
-                  <span className="text-xl">📍</span>
-                </div>
-                <div>
-                  <p className="font-semibold">Venue</p>
-                  <p className="text-gray-300">Parala Maharaja Engineering College, Odisha</p>
-                </div>
-              </div>
+        <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-[#1B9B7C]/10">
+          <div className="grid lg:grid-cols-2 gap-0">
+            {/* Image Section */}
+            <div className="relative h-96 lg:h-[70vh]">
+              <img
+                src={guests[currentGuest].image || "/placeholder.svg"}
+                alt={guests[currentGuest].name}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1B9B7C]/20 to-transparent" />
             </div>
-          </motion.div>
 
-          <motion.div
-            className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <h3 className="text-2xl font-bold mb-6">Quick Inquiry</h3>
-            <form className="space-y-4">
-              <input
-                type="text"
-                placeholder="Your Name"
-                className="w-full p-4 bg-white/20 border border-white/30 rounded-xl text-white placeholder-white/70 focus:outline-none focus:border-[#1B9B7C]"
-              />
-              <input
-                type="email"
-                placeholder="Your Email"
-                className="w-full p-4 bg-white/20 border border-white/30 rounded-xl text-white placeholder-white/70 focus:outline-none focus:border-[#1B9B7C]"
-              />
-              <textarea
-                placeholder="Your Message"
-                rows={4}
-                className="w-full p-4 bg-white/20 border border-white/30 rounded-xl text-white placeholder-white/70 focus:outline-none focus:border-[#1B9B7C] resize-none"
-              />
-              <motion.button
-                type="submit"
-                className="w-full p-4 bg-[#1B9B7C] text-white font-bold rounded-xl hover:bg-[#0F7A5C] transition-colors duration-300"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
+            {/* Content Section */}
+            <div className="p-6 md:p-12 flex flex-col justify-center">
+              <motion.div
+                key={currentGuest}
+                initial={{ opacity: 0, x: 50 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5 }}
               >
-                Send Message
-              </motion.button>
-            </form>
-          </motion.div>
+                <div className="inline-block px-4 py-2 bg-[#1B9B7C]/10 text-[#1B9B7C] rounded-full text-sm font-medium mb-4">
+                  {guests[currentGuest].expertise}
+                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">{guests[currentGuest].name}</h3>
+                <p className="text-lg font-semibold text-[#1B9B7C] mb-4">{guests[currentGuest].position}</p>
+                <p className="text-gray-600 leading-relaxed text-base md:text-lg mb-6">
+                  {guests[currentGuest].description}
+                </p>
+
+                {/* Navigation Dots */}
+                <div className="flex gap-2 justify-center md:justify-start">
+                  {guests.map((_, index) => (
+                    <button
+                      key={index}
+                      className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                        currentGuest === index ? "bg-[#1B9B7C] scale-125" : "bg-gray-300 hover:bg-gray-400"
+                      }`}
+                      onClick={() => setCurrentGuest(index)}
+                    />
+                  ))}
+                </div>
+              </motion.div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -750,417 +639,639 @@ const ContactSection = () => {
 }
 
 const RegistrationSection = () => {
-  const [submitted, setSubmitted] = useState(false)
-  const [showModal, setShowModal] = useState(false)
   const [formData, setFormData] = useState({
-    nominatedTeacher: "",
-    qualification: "",
+    fullName: "",
+    email: "",
+    phone: "",
+    institution: "",
     designation: "",
     department: "",
-    instituteAddress: "",
-    dateOfBirth: "",
+    qualification: "",
+    experience: "",
+    researchArea: "",
     isteMembership: "",
-    academicExperience: "",
-    industryExperience: "",
-    achievements: "",
-    mobileNo: "",
-    email: "",
-    principalSignature: "",
+    paperPresentation: "",
+    paperTitle: "",
+    accommodationRequired: "",
+    dietaryPreferences: "",
+    emergencyContact: "",
+    emergencyPhone: "",
+    photograph: null,
+    idProof: null,
   })
+  const [errors, setErrors] = useState({})
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitted, setSubmitted] = useState(false)
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    setSubmitted(true)
-    setShowModal(true)
+  const validateForm = () => {
+    const newErrors = {}
+
+    if (!formData.fullName.trim()) newErrors.fullName = "Full name is required"
+    if (!formData.email.trim()) {
+      newErrors.email = "Email is required"
+    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+      newErrors.email = "Email is invalid"
+    }
+    if (!formData.phone.trim()) {
+      newErrors.phone = "Phone number is required"
+    } else if (!/^\d{10}$/.test(formData.phone.replace(/\D/g, ""))) {
+      newErrors.phone = "Phone number must be 10 digits"
+    }
+    if (!formData.institution.trim()) newErrors.institution = "Institution is required"
+    if (!formData.designation.trim()) newErrors.designation = "Designation is required"
+    if (!formData.department.trim()) newErrors.department = "Department is required"
+    if (!formData.qualification.trim()) newErrors.qualification = "Qualification is required"
+    if (!formData.experience.trim()) newErrors.experience = "Experience is required"
+    if (!formData.researchArea.trim()) newErrors.researchArea = "Research area is required"
+    if (!formData.paperPresentation) newErrors.paperPresentation = "Please select if you want to present a paper"
+    if (formData.paperPresentation === "yes" && !formData.paperTitle.trim()) {
+      newErrors.paperTitle = "Paper title is required if presenting"
+    }
+    if (!formData.accommodationRequired) newErrors.accommodationRequired = "Please select accommodation preference"
+    if (!formData.photograph) newErrors.photograph = "Photograph is required"
+    if (!formData.idProof) newErrors.idProof = "ID proof is required"
+
+    setErrors(newErrors)
+    return Object.keys(newErrors).length === 0
   }
 
-  const registrationSteps = [
-    "Form Submission",
-    "Document Verification",
-    "Principal Approval",
-    "ISTE Review",
-    "Confirmation Email",
-  ]
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    if (!validateForm()) return
 
-  if (submitted && showModal) {
-    return (
-      <>
-        {/* Modal Backdrop */}
-        <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center p-4">
-          <motion.div
-            className="bg-white rounded-2xl p-8 max-w-2xl w-full max-h-[90vh] overflow-y-auto"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="text-center mb-8">
-              <motion.div
-                className="w-20 h-20 bg-[#1B9B7C] rounded-full flex items-center justify-center mx-auto mb-6"
-                animate={{ scale: [1, 1.1, 1] }}
-                transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
-              >
-                <span className="text-3xl text-white">✅</span>
-              </motion.div>
-              <h2 className="text-3xl font-bold mb-4 text-gray-900">Registration Submitted!</h2>
-              <p className="text-lg text-gray-600 mb-8">
-                Your ISTE Best Teacher Award nomination has been successfully submitted.
-              </p>
-            </div>
+    setIsSubmitting(true)
+    
+    try {
+      const formDataToSend = new FormData()
+      
+      // Append all form fields
+      Object.keys(formData).forEach(key => {
+        if (formData[key] !== null && formData[key] !== '') {
+          formDataToSend.append(key, formData[key])
+        }
+      })
 
-            <div className="mb-8">
-              <h3 className="text-xl font-semibold mb-4 text-gray-900">Next Steps:</h3>
-              <div className="space-y-4">
-                {registrationSteps.map((step, index) => (
-                  <motion.div
-                    key={index}
-                    className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl"
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                  >
-                    <div className="w-8 h-8 bg-[#1B9B7C] text-white rounded-full flex items-center justify-center text-sm font-bold">
-                      {index + 1}
-                    </div>
-                    <span className="text-gray-700">{step}</span>
-                  </motion.div>
-                ))}
-              </div>
-            </div>
+      console.log('Submitting form data:', Object.fromEntries(formDataToSend.entries()))
 
-            <div className="bg-[#1B9B7C]/10 p-6 rounded-xl mb-6">
-              <h4 className="font-semibold text-gray-900 mb-2">Important Information:</h4>
-              <ul className="text-sm text-gray-700 space-y-1">
-                <li>• You will receive a confirmation email within 24 hours</li>
-                <li>• Document verification will be completed within 3-5 business days</li>
-                <li>• Award ceremony will be held on October 25, 2024</li>
-                <li>• Winners will be notified 1 week before the event</li>
-              </ul>
-            </div>
+      const response = await fetch('/api/sendEmail/iste-faculty', {
+        method: 'POST',
+        body: formDataToSend,
+      })
 
-            <div className="flex gap-4">
-              <motion.button
-                onClick={() => {
-                  setSubmitted(false)
-                  setShowModal(false)
-                  setFormData({
-                    nominatedTeacher: "",
-                    qualification: "",
-                    designation: "",
-                    department: "",
-                    instituteAddress: "",
-                    dateOfBirth: "",
-                    isteMembership: "",
-                    academicExperience: "",
-                    industryExperience: "",
-                    achievements: "",
-                    mobileNo: "",
-                    email: "",
-                    principalSignature: "",
-                  })
-                }}
-                className="flex-1 px-6 py-3 bg-gray-200 text-gray-700 font-semibold rounded-xl hover:bg-gray-300 transition-colors duration-300"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Submit Another
-              </motion.button>
-              <motion.button
-                onClick={() => setShowModal(false)}
-                className="flex-1 px-6 py-3 bg-[#1B9B7C] text-white font-semibold rounded-xl hover:bg-[#0F7A5C] transition-colors duration-300"
-                whileHover={{ scale: 1.02 }}
-                whileTap={{ scale: 0.98 }}
-              >
-                Close
-              </motion.button>
-            </div>
-          </motion.div>
-        </div>
+      const result = await response.json()
+      console.log('API response:', result)
 
-        {/* Background Section */}
-        <section className="py-20 bg-[#1B9B7C] relative overflow-hidden">
-          <div className="container mx-auto px-4">
-            <div className="max-w-2xl mx-auto text-center text-white">
-              <h2 className="text-3xl font-bold mb-4">Thank You!</h2>
-              <p className="text-lg">Your registration has been processed successfully.</p>
-            </div>
-          </div>
-        </section>
-      </>
-    )
+      if (result.success) {
+        setSubmitted(true)
+        // Reset form
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          institution: "",
+          designation: "",
+          department: "",
+          qualification: "",
+          experience: "",
+          researchArea: "",
+          isteMembership: "",
+          paperPresentation: "",
+          paperTitle: "",
+          accommodationRequired: "",
+          dietaryPreferences: "",
+          emergencyContact: "",
+          emergencyPhone: "",
+          photograph: null,
+          idProof: null,
+        })
+      } else {
+        alert(`Error: ${result.message}`)
+      }
+    } catch (error) {
+      console.error('Submission error:', error)
+      alert('Failed to submit registration. Please try again.')
+    }
+    
+    setIsSubmitting(false)
+  }
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target
+    setFormData((prev) => ({ ...prev, [name]: value }))
+    if (errors[name]) {
+      setErrors((prev) => ({ ...prev, [name]: "" }))
+    }
+  }
+
+  const handleFileChange = (e) => {
+    const { name } = e.target
+    const file = e.target.files[0]
+    if (file) {
+      if (file.size > 5 * 1024 * 1024) {
+        setErrors((prev) => ({ ...prev, [name]: "File size must be less than 5MB" }))
+        return
+      }
+      if (name === "photograph" && !file.type.startsWith("image/")) {
+        setErrors((prev) => ({ ...prev, [name]: "Please select an image file" }))
+        return
+      }
+      if (name === "idProof" && !file.type.startsWith("image/") && file.type !== "application/pdf") {
+        setErrors((prev) => ({ ...prev, [name]: "Please select an image or PDF file" }))
+        return
+      }
+      setFormData((prev) => ({ ...prev, [name]: file }))
+      setErrors((prev) => ({ ...prev, [name]: "" }))
+    }
   }
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-50 to-white relative overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute inset-0">
+    <section className="py-20 bg-gradient-to-br from-[#1B9B7C]/5 to-white relative overflow-hidden">
+      <div className="w-11/12 container mx-auto px-4 relative z-10">
         <motion.div
-          className="absolute top-10 right-10 w-40 h-40 bg-[#1B9B7C]/10 rounded-full"
-          animate={{ scale: [1, 1.2, 1], rotate: [0, 180, 360] }}
-          transition={{ duration: 8, repeat: Number.POSITIVE_INFINITY }}
-        />
-      </div>
-
-      <div className="container mx-auto px-4 relative z-10">
-        <motion.div
-          className="text-center mb-12"
+          className=" mb-16"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">ISTE Best Teacher Award - 2024</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Nominate outstanding faculty members for recognition at the ISTE Faculty Convention
+          
+          <h2 className="text-4xl md:text-5xl font-bold text-[#1B9B7C] mb-6">Register Now</h2>
+          <p className="text-lg text-gray-600 max-w-3xl  leading-relaxed">
+            Join us for this prestigious convention and be part of the technical education revolution
           </p>
         </motion.div>
 
-        <motion.div
-          className="max-w-5xl mx-auto w-10/12"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          viewport={{ once: true }}
-        >
-          <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
-            {/* Header */}
-            <div className="bg-[#1B9B7C] p-6 text-center">
-              <h3 className="text-2xl font-bold text-white">Nomination Form</h3>
-              <p className="text-white/90 mt-2">One nomination from each Chapter</p>
+        <div className="">
+          <div className="bg-white rounded-lg shadow-2xl border border-[#1B9B7C]/20 overflow-hidden">
+            <div className="bg-gradient-to-r from-[#1B9B7C] to-[#0F7A5C] text-white p-6">
+              <h3 className="text-2xl font-bold text-center mb-2">Faculty Registration Form</h3>
+              <p className="text-white/90 text-center">
+                Please fill in all required information to complete your registration
+              </p>
             </div>
 
-            <form onSubmit={handleSubmit} className="p-8 space-y-6 bg-white">
-              <div className="grid md:grid-cols-2 gap-6">
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.1 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Name of Nominated Teacher *</label>
-                  <input
-                    type="text"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.nominatedTeacher}
-                    onChange={(e) => setFormData({ ...formData, nominatedTeacher: e.target.value })}
-                  />
-                </motion.div>
+            <div className="p-8">
+              {submitted ? (
+                <div className="text-center py-12">
+                  <div className="w-20 h-20 bg-[#1B9B7C] rounded-full flex items-center justify-center mx-auto mb-6">
+                    <span className="text-3xl text-white">✅</span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">Registration Successful!</h3>
+                  <p className="text-gray-600 mb-8">
+                    Thank you for registering for the ISTE Faculty Convention. You will receive a confirmation email shortly.
+                  </p>
+                  
+                  {/* Timeline */}
+                  <div className="max-w-2xl mx-auto mb-8">
+                    <h4 className="text-lg font-semibold text-gray-900 mb-6">What happens next?</h4>
+                    <div className="space-y-4">
+                      {[
+                        { step: 1, title: "Email Confirmation", desc: "You'll receive a confirmation email within 5 minutes", status: "completed" },
+                        { step: 2, title: "Application Review", desc: "Our team will review your application within 24 hours", status: "pending" },
+                        { step: 3, title: "Approval Notification", desc: "You'll receive approval confirmation within 2-3 days", status: "pending" },
+                        { step: 4, title: "Event Details", desc: "Detailed schedule and venue information will be shared", status: "pending" },
+                        { step: 5, title: "Convention Day", desc: "Join us on October 11, 2025 at SVIET, Chandigarh", status: "pending" }
+                      ].map((item, index) => (
+                        <div key={index} className="flex items-start gap-4 text-left">
+                          <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
+                            item.status === 'completed' ? 'bg-[#1B9B7C] text-white' : 'bg-gray-200 text-gray-600'
+                          }`}>
+                            {item.status === 'completed' ? '✓' : item.step}
+                          </div>
+                          <div className="flex-1">
+                            <h5 className="font-semibold text-gray-900">{item.title}</h5>
+                            <p className="text-sm text-gray-600">{item.desc}</p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <button
+                    onClick={() => setSubmitted(false)}
+                    className="bg-[#1B9B7C] hover:bg-[#0F7A5C] text-white py-2 px-6 rounded-lg transition-colors duration-300"
+                  >
+                    Register Another Faculty
+                  </button>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="space-y-6">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <label htmlFor="fullName" className="text-gray-700 font-medium flex items-center gap-2">
+                        <User className="w-4 h-4 text-[#1B9B7C]" />
+                        Full Name *
+                      </label>
+                      <input
+                        id="fullName"
+                        name="fullName"
+                        value={formData.fullName}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.fullName ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="Enter your full name"
+                      />
+                      {errors.fullName && <p className="text-red-500 text-sm">{errors.fullName}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Highest Qualification *</label>
-                  <input
-                    type="text"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.qualification}
-                    onChange={(e) => setFormData({ ...formData, qualification: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="email" className="text-gray-700 font-medium flex items-center gap-2">
+                        <Mail className="w-4 h-4 text-[#1B9B7C]" />
+                        Email Address *
+                      </label>
+                      <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        value={formData.email}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.email ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="Enter your email address"
+                      />
+                      {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.3 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Designation *</label>
-                  <input
-                    type="text"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.designation}
-                    onChange={(e) => setFormData({ ...formData, designation: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="phone" className="text-gray-700 font-medium flex items-center gap-2">
+                        <Phone className="w-4 h-4 text-[#1B9B7C]" />
+                        Phone Number *
+                      </label>
+                      <input
+                        id="phone"
+                        name="phone"
+                        value={formData.phone}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.phone ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="Enter your phone number"
+                      />
+                      {errors.phone && <p className="text-red-500 text-sm">{errors.phone}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.4 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Department *</label>
-                  <input
-                    type="text"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.department}
-                    onChange={(e) => setFormData({ ...formData, department: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="institution" className="text-gray-700 font-medium flex items-center gap-2">
+                        <Building className="w-4 h-4 text-[#1B9B7C]" />
+                        Institution *
+                      </label>
+                      <input
+                        id="institution"
+                        name="institution"
+                        value={formData.institution}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.institution ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="Enter your institution name"
+                      />
+                      {errors.institution && <p className="text-red-500 text-sm">{errors.institution}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.5 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Date of Birth *</label>
-                  <input
-                    type="date"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.dateOfBirth}
-                    onChange={(e) => setFormData({ ...formData, dateOfBirth: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="designation" className="text-gray-700 font-medium">
+                        Designation *
+                      </label>
+                      <input
+                        id="designation"
+                        name="designation"
+                        value={formData.designation}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.designation ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="e.g., Professor, Associate Professor"
+                      />
+                      {errors.designation && <p className="text-red-500 text-sm">{errors.designation}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.6 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">ISTE Life Membership No.</label>
-                  <input
-                    type="text"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    value={formData.isteMembership}
-                    onChange={(e) => setFormData({ ...formData, isteMembership: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="department" className="text-gray-700 font-medium">
+                        Department *
+                      </label>
+                      <input
+                        id="department"
+                        name="department"
+                        value={formData.department}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.department ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="e.g., Computer Science, Mechanical"
+                      />
+                      {errors.department && <p className="text-red-500 text-sm">{errors.department}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.7 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Academic Experience *</label>
-                  <input
-                    type="text"
-                    placeholder="e.g., 4 yrs 6 months"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.academicExperience}
-                    onChange={(e) => setFormData({ ...formData, academicExperience: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="qualification" className="text-gray-700 font-medium">
+                        Highest Qualification *
+                      </label>
+                      <input
+                        id="qualification"
+                        name="qualification"
+                        value={formData.qualification}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.qualification ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="e.g., Ph.D., M.Tech, M.E."
+                      />
+                      {errors.qualification && <p className="text-red-500 text-sm">{errors.qualification}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.8 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Industry Experience</label>
-                  <input
-                    type="text"
-                    placeholder="e.g., 1 yr 0 months"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    value={formData.industryExperience}
-                    onChange={(e) => setFormData({ ...formData, industryExperience: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="experience" className="text-gray-700 font-medium">
+                        Years of Experience *
+                      </label>
+                      <input
+                        id="experience"
+                        name="experience"
+                        value={formData.experience}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.experience ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="Enter years of experience"
+                      />
+                      {errors.experience && <p className="text-red-500 text-sm">{errors.experience}</p>}
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 0.9 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Mobile No. *</label>
-                  <input
-                    type="tel"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.mobileNo}
-                    onChange={(e) => setFormData({ ...formData, mobileNo: e.target.value })}
-                  />
-                </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="isteMembership" className="text-gray-700 font-medium">
+                        ISTE Membership Number
+                      </label>
+                      <input
+                        id="isteMembership"
+                        name="isteMembership"
+                        value={formData.isteMembership}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border-2 border-gray-200 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors"
+                        placeholder="Enter ISTE membership number (if any)"
+                      />
+                    </div>
 
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6, delay: 1.0 }}
-                  viewport={{ once: true }}
-                >
-                  <label className="block text-sm font-semibold text-gray-700 mb-2">Email ID *</label>
-                  <input
-                    type="email"
-                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900"
-                    required
-                    value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  />
-                </motion.div>
-              </div>
+                    <div className="space-y-2">
+                      <label htmlFor="emergencyContact" className="text-gray-700 font-medium">
+                        Emergency Contact Name
+                      </label>
+                      <input
+                        id="emergencyContact"
+                        name="emergencyContact"
+                        value={formData.emergencyContact}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border-2 border-gray-200 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors"
+                        placeholder="Emergency contact person name"
+                      />
+                    </div>
 
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 1.1 }}
-                viewport={{ once: true }}
-              >
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Address of Institute where working *
-                </label>
-                <textarea
-                  rows={3}
-                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900 resize-none"
-                  required
-                  value={formData.instituteAddress}
-                  onChange={(e) => setFormData({ ...formData, instituteAddress: e.target.value })}
-                />
-              </motion.div>
+                    <div className="space-y-2">
+                      <label htmlFor="emergencyPhone" className="text-gray-700 font-medium">
+                        Emergency Contact Phone
+                      </label>
+                      <input
+                        id="emergencyPhone"
+                        name="emergencyPhone"
+                        value={formData.emergencyPhone}
+                        onChange={handleInputChange}
+                        className="w-full px-3 py-2 border-2 border-gray-200 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors"
+                        placeholder="Emergency contact phone number"
+                      />
+                    </div>
+                  </div>
 
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 1.2 }}
-                viewport={{ once: true }}
-              >
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Salient Achievements in session 2023-24 *
-                </label>
-                <textarea
-                  rows={4}
-                  placeholder="Publications, Awards, Research work, Administrative roles, etc."
-                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900 resize-none"
-                  required
-                  value={formData.achievements}
-                  onChange={(e) => setFormData({ ...formData, achievements: e.target.value })}
-                />
-              </motion.div>
+                  <div className="space-y-2">
+                    <label htmlFor="researchArea" className="text-gray-700 font-medium">
+                      Salient Achievement in session 2024-25 *
+                    </label>
+                    <textarea
+                      id="researchArea"
+                      name="researchArea"
+                      value={formData.researchArea}
+                      onChange={handleInputChange}
+                      rows={3}
+                      className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors resize-none ${errors.researchArea ? "border-red-500" : "border-gray-200"}`}
+                      placeholder="Describe your research area or specialization"
+                    />
+                    {errors.researchArea && <p className="text-red-500 text-sm">{errors.researchArea}</p>}
+                  </div>
 
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.6, delay: 1.3 }}
-                viewport={{ once: true }}
-              >
-                <label className="block text-sm font-semibold text-gray-700 mb-2">Principal's Recommendation *</label>
-                <textarea
-                  rows={3}
-                  placeholder="Certificate of recommendation from Principal"
-                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-[#1B9B7C] focus:outline-none transition-colors duration-300 bg-white text-gray-900 resize-none"
-                  required
-                  value={formData.principalSignature}
-                  onChange={(e) => setFormData({ ...formData, principalSignature: e.target.value })}
-                />
-              </motion.div>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <label className="text-gray-700 font-medium">
+                        Want to Present a Paper? *
+                      </label>
+                      <div className="flex gap-4">
+                        <label className="flex items-center">
+                          <input
+                            type="radio"
+                            name="paperPresentation"
+                            value="yes"
+                            checked={formData.paperPresentation === "yes"}
+                            onChange={handleInputChange}
+                            className="mr-2"
+                          />
+                          Yes
+                        </label>
+                        <label className="flex items-center">
+                          <input
+                            type="radio"
+                            name="paperPresentation"
+                            value="no"
+                            checked={formData.paperPresentation === "no"}
+                            onChange={handleInputChange}
+                            className="mr-2"
+                          />
+                          No
+                        </label>
+                      </div>
+                      {errors.paperPresentation && <p className="text-red-500 text-sm">{errors.paperPresentation}</p>}
+                    </div>
 
-              <motion.button
-                type="submit"
-                className="w-full p-4 bg-[#1B9B7C] text-white font-bold text-lg rounded-xl hover:bg-[#0F7A5C] hover:shadow-lg transition-all duration-300"
-                whileHover={{ scale: 1.02, y: -2 }}
-                whileTap={{ scale: 0.98 }}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 1.4 }}
-                viewport={{ once: true }}
-              >
-                Submit Nomination
-              </motion.button>
-            </form>
+                    <div className="space-y-2">
+                      <label className="text-gray-700 font-medium">
+                        Accommodation Required? *
+                      </label>
+                      <div className="flex gap-4">
+                        <label className="flex items-center">
+                          <input
+                            type="radio"
+                            name="accommodationRequired"
+                            value="yes"
+                            checked={formData.accommodationRequired === "yes"}
+                            onChange={handleInputChange}
+                            className="mr-2"
+                          />
+                          Yes
+                        </label>
+                        <label className="flex items-center">
+                          <input
+                            type="radio"
+                            name="accommodationRequired"
+                            value="no"
+                            checked={formData.accommodationRequired === "no"}
+                            onChange={handleInputChange}
+                            className="mr-2"
+                          />
+                          No
+                        </label>
+                      </div>
+                      {errors.accommodationRequired && <p className="text-red-500 text-sm">{errors.accommodationRequired}</p>}
+                    </div>
+                  </div>
+
+                  {formData.paperPresentation === "yes" && (
+                    <div className="space-y-2">
+                      <label htmlFor="paperTitle" className="text-gray-700 font-medium">
+                        Paper Title *
+                      </label>
+                      <input
+                        id="paperTitle"
+                        name="paperTitle"
+                        value={formData.paperTitle}
+                        onChange={handleInputChange}
+                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.paperTitle ? "border-red-500" : "border-gray-200"}`}
+                        placeholder="Enter your paper title"
+                      />
+                      {errors.paperTitle && <p className="text-red-500 text-sm">{errors.paperTitle}</p>}
+                    </div>
+                  )}
+
+                  <div className="space-y-2">
+                    <label htmlFor="dietaryPreferences" className="text-gray-700 font-medium">
+                      Dietary Preferences
+                    </label>
+                    <select
+                      id="dietaryPreferences"
+                      name="dietaryPreferences"
+                      value={formData.dietaryPreferences}
+                      onChange={handleInputChange}
+                      className="w-full px-3 py-2 border-2 border-gray-200 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors"
+                    >
+                      <option value="">Select dietary preference</option>
+                      <option value="vegetarian">Vegetarian</option>
+                      <option value="non-vegetarian">Non-Vegetarian</option>
+                      <option value="vegan">Vegan</option>
+                      <option value="jain">Jain</option>
+                    </select>
+                  </div>
+
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <label htmlFor="photograph" className="text-gray-700 font-medium flex items-center gap-2">
+                        <Upload className="w-4 h-4 text-[#1B9B7C]" />
+                        Photograph *
+                      </label>
+                      <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-[#1B9B7C] transition-colors duration-300">
+                        <input
+                          id="photograph"
+                          name="photograph"
+                          type="file"
+                          accept="image/*"
+                          onChange={handleFileChange}
+                          className="hidden"
+                        />
+                        <label htmlFor="photograph" className="cursor-pointer">
+                          <Upload className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                          <p className="text-gray-600">Click to upload photograph</p>
+                          <p className="text-sm text-gray-400">PNG, JPG up to 5MB</p>
+                        </label>
+                        {formData.photograph && (
+                          <p className="text-[#1B9B7C] mt-2 font-medium">{formData.photograph.name}</p>
+                        )}
+                      </div>
+                      {errors.photograph && <p className="text-red-500 text-sm">{errors.photograph}</p>}
+                    </div>
+
+                    <div className="space-y-2">
+                      <label htmlFor="idProof" className="text-gray-700 font-medium flex items-center gap-2">
+                        <Upload className="w-4 h-4 text-[#1B9B7C]" />
+                        Nomination Letter *
+                      </label>
+                      <div className="border-2 border-dashed border-gray-300 rounded-lg p-6 text-center hover:border-[#1B9B7C] transition-colors duration-300">
+                        <input
+                          id="idProof"
+                          name="idProof"
+                          type="file"
+                          accept="image/*,.pdf"
+                          onChange={handleFileChange}
+                          className="hidden"
+                        />
+                        <label htmlFor="idProof" className="cursor-pointer">
+                          <Upload className="w-8 h-8 text-gray-400 mx-auto mb-2" />
+                          <p className="text-gray-600">Click to upload Letter</p>
+                          <p className="text-sm text-gray-400">Nomination Letter from the head of Institution(PDF/Image up to 5MB)</p>
+                        </label>
+                        {formData.idProof && (
+                          <p className="text-[#1B9B7C] mt-2 font-medium">{formData.idProof.name}</p>
+                        )}
+                      </div>
+                      {errors.idProof && <p className="text-red-500 text-sm">{errors.idProof}</p>}
+                    </div>
+                  </div>
+
+                  <button
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full bg-[#1B9B7C] hover:bg-[#0F7A5C] disabled:opacity-50 disabled:cursor-not-allowed text-white py-3 px-4 text-lg font-semibold rounded-lg transition-colors duration-300"
+                  >
+                    {isSubmitting ? "Submitting..." : "Register Now"}
+                  </button>
+                </form>
+              )}
+            </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   )
 }
+
+// const ContactSection = () => {
+//   return (
+//     <section className="py-12 bg-gradient-to-br from-[#1B9B7C] to-[#0F7A5C] text-white relative overflow-hidden">
+//       {/* Background Pattern */}
+//       <div className="absolute inset-0 opacity-10">
+//         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#ffffff_1px,transparent_1px)] bg-[length:50px_50px]" />
+//       </div>
+
+//       <div className="container mx-auto px-4 relative z-10">
+//         <motion.div
+//           className="text-center max-w-4xl mx-auto"
+//           initial={{ opacity: 0, y: 30 }}
+//           whileInView={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.8 }}
+//           viewport={{ once: true }}
+//         >
+//           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Join Us?</h2>
+//           <p className="text-lg text-white/90 mb-8 leading-relaxed">
+//             Don't miss this opportunity to be part of India's premier technical education convention. Register now and
+//             connect with leading academicians and industry experts.
+//           </p>
+
+          
+
+//           <div className="grid md:grid-cols-3 gap-8 text-center">
+//             {[
+//               {
+//                 icon: Mail,
+//                 title: "Email",
+//                 content: "convention@sviet.ac.in",
+//               },
+//               {
+//                 icon: Phone,
+//                 title: "Phone",
+//                 content: "+91 98765 43210",
+//               },
+//               {
+//                 icon: MapPin,
+//                 title: "Venue",
+//                 content: "SVIET, Chandigarh",
+//               },
+//             ].map((contact, index) => (
+//               <motion.div
+//                 key={index}
+//                 className="flex flex-col items-center"
+//                 initial={{ opacity: 0, y: 20 }}
+//                 whileInView={{ opacity: 1, y: 0 }}
+//                 transition={{ duration: 0.6, delay: index * 0.1 }}
+//                 viewport={{ once: true }}
+//               >
+//                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-3">
+//                   <contact.icon className="w-6 h-6 text-white" />
+//                 </div>
+//                 <h3 className="font-semibold text-white/90 mb-1">{contact.title}</h3>
+//                 <p className="text-white font-medium">{contact.content}</p>
+//               </motion.div>
+//             ))}
+//           </div>
+//         </motion.div>
+//       </div>
+//     </section>
+//   )
+// }
