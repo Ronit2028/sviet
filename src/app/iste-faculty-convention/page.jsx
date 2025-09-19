@@ -141,7 +141,7 @@ const StatsSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 gap-6 sm:gap-8 md:gap-12">
           {stats.map((stat, index) => (
             <StatItem key={index} number={stat.number} label={stat.label} icon={stat.icon} delay={index * 200} />
           ))}
@@ -228,7 +228,7 @@ const AboutSection = () => {
       <div className="w-11/12 container mx-auto px-4 relative z-10">
         {/* Heading */}
         <motion.div
-          className="text-left mb-12 "
+          className="lg:text-left text-center mb-12 "
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -238,7 +238,7 @@ const AboutSection = () => {
             ABOUT THE EVENT
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">ISTE Faculty Convention</h2>
-          <p className="max-w-4xl text-lg text-gray-600 leading-relaxed">
+          <p className="max-w-4xl lg:text-lg text-sm text-gray-600 leading-relaxed">
             A premier gathering of academicians, educators, and professionals from Punjab, Chandigarh, Himachal Pradesh,
             and J&K to explore challenges and opportunities in technical education & institutional management.
           </p>
@@ -256,7 +256,7 @@ const AboutSection = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-qrY1HSnrLCuYC_Dko4Akvx_kChjA21ylUQ&s"
                 alt="ISTE Faculty Convention"
-                className="w-full h-[550px] rounded-2xl shadow-2xl"
+                className="w-full lg:h-[550px] rounded-2xl shadow-2xl"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#1B9B7C]/20 to-transparent rounded-2xl" />
             </div>
@@ -400,14 +400,14 @@ const EsteemedPanelistSection = ({ panelists = [] }) => {
     <section className="py-20 relative overflow-hidden bg-white">
       <div className="w-11/12 container mx-auto px-4 relative z-10">
         <motion.div
-          className=" mb-12 text-left px-4"
+          className=" mb-12 lg:text-left text-center px-4"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-[#1B9B7C] mb-4">Our Esteemed Panelists</h2>
-          <p className="text-gray-600 text-lg ">
+          <p className="text-gray-600 lg:text-lg text-sm">
             Meet the distinguished panelists who are shaping the future of technical education.
           </p>
         </motion.div>
@@ -420,7 +420,7 @@ const EsteemedPanelistSection = ({ panelists = [] }) => {
               style={{ transform: `translateX(-${currentSlide * 100}%)` }}
             >
               {displayPanelists.map((panelist, index) => (
-                <div key={index} className="flex-shrink-0 w-full md:w-1/3 px-4">
+                <div key={index} className="flex-shrink-0 w-full md:w-1/2 lg:w-1/3 px-4">
                   <div className="bg-white rounded-lg p-6 border border-[#1B9B7C]/20 shadow-md hover:shadow-lg transition-shadow duration-300">
                     <img
                       src={panelist.image || "/placeholder.svg"}
@@ -488,8 +488,8 @@ const WhyJoinUsSection = () => {
           {/* <div className="inline-block px-6 py-3 bg-[#1B9B7C] text-white rounded-full text-sm font-medium mb-6">
             WHY JOIN US
           </div> */}
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1B9B7C] mb-6">Why Join Us</h2>
-          <p className="text-lg text-gray-600 max-w-3xl leading-relaxed">
+          <h2 className="text-4xl md:text-5xl lg:text-left text-center font-bold text-[#1B9B7C] mb-6">Why Join Us</h2>
+          <p className="lg:text-lg lg:text-left text-center text-sm text-gray-600 max-w-3xl leading-relaxed">
             Discover the benefits of participating in India's premier technical education convention
           </p>
         </motion.div>
