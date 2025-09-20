@@ -94,6 +94,11 @@ const HeroSection = () => {
             className="px-8 py-3 bg-white text-[#1B9B7C] font-bold text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
             whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(255,255,255,0.3)" }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              document.getElementById('registration')?.scrollIntoView({ 
+                behavior: 'smooth' 
+              });
+            }}
           >
             Register Now
           </motion.button>
@@ -101,6 +106,11 @@ const HeroSection = () => {
             className="px-8 py-3 border-2 border-white text-white font-bold text-lg rounded-full hover:bg-white hover:text-[#1B9B7C] transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              document.getElementById('about')?.scrollIntoView({ 
+                behavior: 'smooth' 
+              });
+            }}
           >
             Know More
           </motion.button>
@@ -210,7 +220,7 @@ const StatItem = ({ number, label, delay, icon: Icon }) => {
 
 const AboutSection = () => {
   return (
-    <section className="py-16 bg-white relative overflow-hidden">
+    <section id="about" className="py-16 bg-white relative overflow-hidden">
       {/* Floating Shapes */}
       <div className="absolute inset-0">
         <motion.div
@@ -254,7 +264,7 @@ const AboutSection = () => {
           >
             <div className="relative">
               <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-qrY1HSnrLCuYC_Dko4Akvx_kChjA21ylUQ&s"
+                src="https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumKiFHnF0DQkEFIRNZ5MqBjLvotuhOKYrSbUGT"
                 alt="ISTE Faculty Convention"
                 className="w-full lg:h-[550px] rounded-2xl shadow-2xl"
               />
@@ -331,66 +341,30 @@ const AboutSection = () => {
 
 const EsteemedPanelistSection = ({ panelists = [] }) => {
   const defaultPanelists = [
-    {
-      name: "Dr. John Doe",
-      designation: "Professor, ABC University",
-      description: "Expert in AI and Machine Learning.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Jane Smith",
-      designation: "Head of Department, XYZ College",
-      description: "Specialist in Data Science and Analytics.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Emily Johnson",
-      designation: "Senior Lecturer, LMN Institute",
-      description: "Researcher in Cloud Computing and IoT.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Michael Brown",
-      designation: "Dean, PQR University",
-      description: "Pioneer in Robotics and Automation.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Sarah Wilson",
-      designation: "Lecturer, UVW College",
-      description: "Specialist in Cybersecurity and Blockchain.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. David Lee",
-      designation: "Researcher, XYZ Institute",
-      description: "Expert in Quantum Computing.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Anna White",
-      designation: "Professor, DEF University",
-      description: "Specialist in Renewable Energy.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Chris Green",
-      designation: "Head of Department, GHI College",
-      description: "Expert in Big Data and Analytics.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Laura Black",
-      designation: "Senior Lecturer, JKL Institute",
-      description: "Researcher in Artificial Intelligence Ethics.",
-      image: "https://via.placeholder.com/150",
-    },
-    {
-      name: "Dr. Mark Taylor",
-      designation: "Professor, MNO University",
-      description: "Specialist in Software Engineering.",
-      image: "https://via.placeholder.com/150",
-    },
+  {
+    "name": "Dr Shailendra Singh Bhadauria",
+    "designation": "Associate Professor, Department of Industrial & Production Engineering, NIT Jalandhar",
+    "description": "Researcher and faculty in solid mechanics, fracture mechanics, finite element analysis and related areas (works at NIT Jalandhar).",
+    "image": "https://departments.nitj.ac.in/dept/ipe/Faculty/<profile-page-with-photo>"
+  },
+  {
+    "name": "Dr Anurag Kumar Tiwari",
+    "designation": "Assistant Professor (Grade-I), Department of Chemical Engineering / Center for Energy and Environment, NIT Jalandhar",
+    "description": "Faculty and researcher working on nanomaterials, micro/nanoscale transport, CFD, and energy & environmental engineering topics (profile at NIT Jalandhar).",
+    "image": "https://departments.nitj.ac.in/dept/ch/Faculty/<profile-page-with-photo>"
+  },
+  {
+    "name": "Dr Harpal Thethi",
+    "designation": "Professor / Executive Dean — Corporate Relations & Placements (Lovely Professional University) / Former Mission10X Chair Professor (KIIT)",
+    "description": "Academic leader focused on industry–institution partnerships, placements and employability programs; associated with LPU (and has held leadership roles at KIIT and other institutes).",
+    "image": "https://lpu.in/ or https://theorg.com/org/lovely-professional-university/org-chart/dr-harpal-thethi"
+  },
+  {
+    "name": "Dr Manpreet Singh Manna",
+    "designation": "Vice Chancellor, Chandigarh University (also associated with SLIET / former AICTE Director and SWAYAM founder-director)",
+    "description": "Senior academic administrator with extensive experience in engineering education, academic administration, AICTE initiatives and research; life member of ISTE and other professional bodies.",
+    "image": "https://drmsmanna.com/ (personal site) or profile pages at Chandigarh University / SLIET"
+  },
   ]
 
   const displayPanelists = panelists.length > 0 ? panelists : defaultPanelists
@@ -526,38 +500,28 @@ const WhyJoinUsSection = () => {
 
 const GuestCarouselSection = () => {
   const guests = [
-    {
-      name: "Dr. Rajesh Kumar",
-      position: "Director, ISTE National",
-      description:
-        "Leading expert in technical education policy and implementation with over 25 years of experience in academic administration.",
-      image: "/placeholder-pv585.png",
-      expertise: "Education Policy & Administration",
-    },
-    {
-      name: "Prof. Priya Sharma",
-      position: "Vice Chancellor, Technical University",
-      description:
-        "Renowned researcher in engineering education and innovation, pioneering new methodologies in technical skill development.",
-      image: "/professional-indian-female-professor.jpg",
-      expertise: "Engineering Education & Innovation",
-    },
-    {
-      name: "Dr. Amit Patel",
-      position: "Chairman, AICTE",
-      description:
-        "Visionary leader in technical education governance, instrumental in implementing NEP-2020 across engineering institutions.",
-      image: "/placeholder-ngp7z.png",
-      expertise: "Technical Education Governance",
-    },
-    {
-      name: "Dr. Sunita Verma",
-      position: "Dean, Research & Development",
-      description:
-        "Expert in industry-academia collaboration and research commercialization, fostering innovation ecosystems in technical education.",
-      image: "/indian-female-researcher.png",
-      expertise: "Industry-Academia Collaboration",
-    },
+   {
+    "name": "Dr. Pratapsinh Kakasaheb Desai",
+    "position": "President, ISTE (New Delhi)",
+    "description": "Mechanical Engineering & Education reform specialist; President of the Indian Society for Technical Education. PhD from Shivaji University (Kolhapur); active in designing prosthesis research and advocating for technical teacher welfare. :contentReference[oaicite:0]{index=0}",
+    "image": "/placeholder-pk-desai.png",
+    "expertise": "ISTE Governance & Educational Policy"
+  },
+  {
+    "name": "Dr. R. P. Singh Suker-Chakia",
+    "position": "Chairman, ISTE Section (Punjab, Chandigarh, Himachal Pradesh & J&K)",
+    "description": "Experienced academic leader, serving as Chairman of the ISTE section covering Punjab, Chandigarh, Himachal Pradesh and Jammu & Kashmir; involved in awards, conventions and technical education promotion in that region.",
+    "image": "/placeholder-rp-singh-sukerchakia.png",
+    "expertise": "Technical Education Leadership"
+  },
+  
+  {
+    "name": "Dr. Surjit Kumar Gandhi",
+    "position": "Secretary, ISTE (Punjab, Chandigarh, Himachal Pradesh & J&K)",
+    "description": "Long-serving academician and administrator; Secretary of the ISTE section for Punjab, Chandigarh, Himachal Pradesh & J&K. Principal at PCTE Institute of Engineering & Technology, Ludhiana. :contentReference[oaicite:1]{index=1}",
+    "image": "/placeholder-sk-gandhi.png",
+    "expertise": "Technical Education Administration"
+  },
   ]
 
   const [currentGuest, setCurrentGuest] = useState(0)
@@ -648,14 +612,8 @@ const RegistrationSection = () => {
     department: "",
     qualification: "",
     experience: "",
-    researchArea: "",
+    salientAchievements: "",
     isteMembership: "",
-    paperPresentation: "",
-    paperTitle: "",
-    accommodationRequired: "",
-    dietaryPreferences: "",
-    emergencyContact: "",
-    emergencyPhone: "",
     photograph: null,
     idProof: null,
   })
@@ -682,12 +640,7 @@ const RegistrationSection = () => {
     if (!formData.department.trim()) newErrors.department = "Department is required"
     if (!formData.qualification.trim()) newErrors.qualification = "Qualification is required"
     if (!formData.experience.trim()) newErrors.experience = "Experience is required"
-    if (!formData.researchArea.trim()) newErrors.researchArea = "Research area is required"
-    if (!formData.paperPresentation) newErrors.paperPresentation = "Please select if you want to present a paper"
-    if (formData.paperPresentation === "yes" && !formData.paperTitle.trim()) {
-      newErrors.paperTitle = "Paper title is required if presenting"
-    }
-    if (!formData.accommodationRequired) newErrors.accommodationRequired = "Please select accommodation preference"
+    if (!formData.salientAchievements.trim()) newErrors.salientAchievements = "Salient Achievement is required"
     if (!formData.photograph) newErrors.photograph = "Photograph is required"
     if (!formData.idProof) newErrors.idProof = "ID proof is required"
 
@@ -718,6 +671,10 @@ const RegistrationSection = () => {
         body: formDataToSend,
       })
 
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+
       const result = await response.json()
       console.log('API response:', result)
 
@@ -733,23 +690,23 @@ const RegistrationSection = () => {
           department: "",
           qualification: "",
           experience: "",
-          researchArea: "",
+          salientAchievements: "",
           isteMembership: "",
-          paperPresentation: "",
-          paperTitle: "",
-          accommodationRequired: "",
-          dietaryPreferences: "",
-          emergencyContact: "",
-          emergencyPhone: "",
           photograph: null,
           idProof: null,
         })
       } else {
-        alert(`Error: ${result.message}`)
+        alert(`Error: ${result.message || 'Form submission failed. Please check all required fields and try again.'}`)
       }
     } catch (error) {
       console.error('Submission error:', error)
-      alert('Failed to submit registration. Please try again.')
+      if (error.message.includes('HTTP error')) {
+        alert('Server error occurred. Please try again later.')
+      } else if (error.message.includes('Failed to fetch')) {
+        alert('Network error. Please check your internet connection and try again.')
+      } else {
+        alert('Failed to submit registration. Please check all required fields and try again.')
+      }
     }
     
     setIsSubmitting(false)
@@ -785,7 +742,7 @@ const RegistrationSection = () => {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-br from-[#1B9B7C]/5 to-white relative overflow-hidden">
+    <section id="registration" className="py-20 bg-gradient-to-br from-[#1B9B7C]/5 to-white relative overflow-hidden">
       <div className="w-11/12 container mx-auto px-4 relative z-10">
         <motion.div
           className=" mb-16"
@@ -995,150 +952,22 @@ const RegistrationSection = () => {
                         placeholder="Enter ISTE membership number (if any)"
                       />
                     </div>
-
-                    <div className="space-y-2">
-                      <label htmlFor="emergencyContact" className="text-gray-700 font-medium">
-                        Emergency Contact Name
-                      </label>
-                      <input
-                        id="emergencyContact"
-                        name="emergencyContact"
-                        value={formData.emergencyContact}
-                        onChange={handleInputChange}
-                        className="w-full px-3 py-2 border-2 border-gray-200 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors"
-                        placeholder="Emergency contact person name"
-                      />
-                    </div>
-
-                    <div className="space-y-2">
-                      <label htmlFor="emergencyPhone" className="text-gray-700 font-medium">
-                        Emergency Contact Phone
-                      </label>
-                      <input
-                        id="emergencyPhone"
-                        name="emergencyPhone"
-                        value={formData.emergencyPhone}
-                        onChange={handleInputChange}
-                        className="w-full px-3 py-2 border-2 border-gray-200 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors"
-                        placeholder="Emergency contact phone number"
-                      />
-                    </div>
                   </div>
 
                   <div className="space-y-2">
-                    <label htmlFor="researchArea" className="text-gray-700 font-medium">
+                    <label htmlFor="salientAchievements" className="text-gray-700 font-medium">
                       Salient Achievement in session 2024-25 *
                     </label>
                     <textarea
-                      id="researchArea"
-                      name="researchArea"
-                      value={formData.researchArea}
+                      id="salientAchievements"
+                      name="salientAchievements"
+                      value={formData.salientAchievements}
                       onChange={handleInputChange}
                       rows={3}
-                      className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors resize-none ${errors.researchArea ? "border-red-500" : "border-gray-200"}`}
-                      placeholder="Describe your research area or specialization"
+                      className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors resize-none ${errors.salientAchievements ? "border-red-500" : "border-gray-200"}`}
+                      placeholder="Describe your salient achievement in session 2024-25"
                     />
-                    {errors.researchArea && <p className="text-red-500 text-sm">{errors.researchArea}</p>}
-                  </div>
-
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div className="space-y-2">
-                      <label className="text-gray-700 font-medium">
-                        Want to Present a Paper? *
-                      </label>
-                      <div className="flex gap-4">
-                        <label className="flex items-center">
-                          <input
-                            type="radio"
-                            name="paperPresentation"
-                            value="yes"
-                            checked={formData.paperPresentation === "yes"}
-                            onChange={handleInputChange}
-                            className="mr-2"
-                          />
-                          Yes
-                        </label>
-                        <label className="flex items-center">
-                          <input
-                            type="radio"
-                            name="paperPresentation"
-                            value="no"
-                            checked={formData.paperPresentation === "no"}
-                            onChange={handleInputChange}
-                            className="mr-2"
-                          />
-                          No
-                        </label>
-                      </div>
-                      {errors.paperPresentation && <p className="text-red-500 text-sm">{errors.paperPresentation}</p>}
-                    </div>
-
-                    <div className="space-y-2">
-                      <label className="text-gray-700 font-medium">
-                        Accommodation Required? *
-                      </label>
-                      <div className="flex gap-4">
-                        <label className="flex items-center">
-                          <input
-                            type="radio"
-                            name="accommodationRequired"
-                            value="yes"
-                            checked={formData.accommodationRequired === "yes"}
-                            onChange={handleInputChange}
-                            className="mr-2"
-                          />
-                          Yes
-                        </label>
-                        <label className="flex items-center">
-                          <input
-                            type="radio"
-                            name="accommodationRequired"
-                            value="no"
-                            checked={formData.accommodationRequired === "no"}
-                            onChange={handleInputChange}
-                            className="mr-2"
-                          />
-                          No
-                        </label>
-                      </div>
-                      {errors.accommodationRequired && <p className="text-red-500 text-sm">{errors.accommodationRequired}</p>}
-                    </div>
-                  </div>
-
-                  {formData.paperPresentation === "yes" && (
-                    <div className="space-y-2">
-                      <label htmlFor="paperTitle" className="text-gray-700 font-medium">
-                        Paper Title *
-                      </label>
-                      <input
-                        id="paperTitle"
-                        name="paperTitle"
-                        value={formData.paperTitle}
-                        onChange={handleInputChange}
-                        className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors ${errors.paperTitle ? "border-red-500" : "border-gray-200"}`}
-                        placeholder="Enter your paper title"
-                      />
-                      {errors.paperTitle && <p className="text-red-500 text-sm">{errors.paperTitle}</p>}
-                    </div>
-                  )}
-
-                  <div className="space-y-2">
-                    <label htmlFor="dietaryPreferences" className="text-gray-700 font-medium">
-                      Dietary Preferences
-                    </label>
-                    <select
-                      id="dietaryPreferences"
-                      name="dietaryPreferences"
-                      value={formData.dietaryPreferences}
-                      onChange={handleInputChange}
-                      className="w-full px-3 py-2 border-2 border-gray-200 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors"
-                    >
-                      <option value="">Select dietary preference</option>
-                      <option value="vegetarian">Vegetarian</option>
-                      <option value="non-vegetarian">Non-Vegetarian</option>
-                      <option value="vegan">Vegan</option>
-                      <option value="jain">Jain</option>
-                    </select>
+                    {errors.salientAchievements && <p className="text-red-500 text-sm">{errors.salientAchievements}</p>}
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-6">

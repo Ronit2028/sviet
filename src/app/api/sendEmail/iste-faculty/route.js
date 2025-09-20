@@ -20,22 +20,31 @@ export async function POST(req) {
     const department = formData.get("department");
     const qualification = formData.get("qualification");
     const experience = formData.get("experience");
-    const researchArea = formData.get("researchArea");
+    const salientAchievements = formData.get("salientAchievements");
     const isteMembership = formData.get("isteMembership");
-    const paperPresentation = formData.get("paperPresentation");
-    const paperTitle = formData.get("paperTitle");
-    const accommodationRequired = formData.get("accommodationRequired");
-    const dietaryPreferences = formData.get("dietaryPreferences");
-    const emergencyContact = formData.get("emergencyContact");
-    const emergencyPhone = formData.get("emergencyPhone");
     const photograph = formData.get("photograph");
     const idProof = formData.get("idProof");
 
     // Validate required fields
-    if (!fullName || !email || !phone || !institution || !designation) {
+    if (!fullName || !email || !phone || !institution || !designation || 
+        !department || !qualification || !experience || !salientAchievements ||
+        !photograph || !idProof) {
       console.log("Validation failed - missing required fields");
+      const missingFields = [];
+      if (!fullName) missingFields.push("Full Name");
+      if (!email) missingFields.push("Email");
+      if (!phone) missingFields.push("Phone");
+      if (!institution) missingFields.push("Institution");
+      if (!designation) missingFields.push("Designation");
+      if (!department) missingFields.push("Department");
+      if (!qualification) missingFields.push("Qualification");
+      if (!experience) missingFields.push("Experience");
+      if (!salientAchievements) missingFields.push("Salient Achievements");
+      if (!photograph) missingFields.push("Photograph");
+      if (!idProof) missingFields.push("ID Proof");
+      
       return Response.json({ 
-        message: "Missing required fields", 
+        message: `Missing required fields: ${missingFields.join(", ")}`, 
         success: false 
       }, { status: 400 });
     }
@@ -72,7 +81,7 @@ export async function POST(req) {
 
     const mailOptions = {
       from: `"ISTE Faculty Convention Registration" ${email}`,
-      to: "hodcivil@sviet.ac.in",
+      to: "guptaniraj915@gmail.com",
       subject: `ISTE Faculty Convention Registration - ${fullName} (${institution})`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f9f9f9;">
@@ -119,42 +128,12 @@ export async function POST(req) {
                 <td style="padding: 12px; border: 1px solid #ddd;">${experience}</td>
               </tr>
               <tr style="background-color: #f8f9fa;">
-                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Research Area:</td>
-                <td style="padding: 12px; border: 1px solid #ddd;">${researchArea}</td>
+                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Salient Achievement (2024-25):</td>
+                <td style="padding: 12px; border: 1px solid #ddd;">${salientAchievements}</td>
               </tr>
               <tr>
                 <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">ISTE Membership No.:</td>
                 <td style="padding: 12px; border: 1px solid #ddd;">${isteMembership || 'Not provided'}</td>
-              </tr>
-              <tr style="background-color: #f8f9fa;">
-                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Paper Presentation:</td>
-                <td style="padding: 12px; border: 1px solid #ddd; color: ${paperPresentation === 'yes' ? '#28a745' : '#dc3545'}; font-weight: bold;">
-                  ${paperPresentation === 'yes' ? 'YES' : 'NO'}
-                </td>
-              </tr>
-              ${paperTitle ? `
-              <tr>
-                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Paper Title:</td>
-                <td style="padding: 12px; border: 1px solid #ddd;">${paperTitle}</td>
-              </tr>
-              ` : ''}
-              <tr style="background-color: #f8f9fa;">
-                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Accommodation Required:</td>
-                <td style="padding: 12px; border: 1px solid #ddd; color: ${accommodationRequired === 'yes' ? '#28a745' : '#dc3545'}; font-weight: bold;">
-                  ${accommodationRequired === 'yes' ? 'YES' : 'NO'}
-                </td>
-              </tr>
-              <tr>
-                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Dietary Preferences:</td>
-                <td style="padding: 12px; border: 1px solid #ddd;">${dietaryPreferences || 'Not specified'}</td>
-              </tr>
-              <tr style="background-color: #f8f9fa;">
-                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Emergency Contact:</td>
-                <td style="padding: 12px; border: 1px solid #ddd;">${emergencyContact || 'Not provided'}</td>
-              </tr>
-              <tr>
-                <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Emergency Phone:</td>
-                <td style="padding: 12px; border: 1px solid #ddd;">${emergencyPhone || 'Not provided'}</td>
               </tr>
             </table>
 
@@ -214,9 +193,7 @@ export async function POST(req) {
               <h4 style="margin: 0 0 10px 0; color: #1B9B7C;">Your Registration Details:</h4>
               <p style="margin: 5px 0;"><strong>Institution:</strong> ${institution}</p>
               <p style="margin: 5px 0;"><strong>Designation:</strong> ${designation}</p>
-              <p style="margin: 5px 0;"><strong>Research Area:</strong> ${researchArea}</p>
-              <p style="margin: 5px 0;"><strong>Paper Presentation:</strong> ${paperPresentation === 'yes' ? 'Yes ✅' : 'No ❌'}</p>
-              <p style="margin: 5px 0;"><strong>Accommodation:</strong> ${accommodationRequired === 'yes' ? 'Required ✅' : 'Not Required ❌'}</p>
+              <p style="margin: 5px 0;"><strong>Salient Achievement:</strong> ${salientAchievements}</p>
             </div>
 
             <p style="line-height: 1.6; color: #333;">

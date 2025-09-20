@@ -1,0 +1,51 @@
+# Query: researchArea
+# ContextLines: 1
+
+17 results - 3 files
+
+sviet\src\app\api\sendEmail\iste-faculty\route.js:
+   22      const experience = formData.get("experience");
+   23:     const researchArea = formData.get("researchArea");
+   24      const isteMembership = formData.get("isteMembership");
+
+  116                  <td style="padding: 12px; border: 1px solid #ddd; font-weight: bold;">Salient Achievement:</td>
+  117:                 <td style="padding: 12px; border: 1px solid #ddd;">${researchArea}</td>
+  118                </tr>
+
+  180                <p style="margin: 5px 0;"><strong>Designation:</strong> ${designation}</p>
+  181:               <p style="margin: 5px 0;"><strong>Salient Achievement:</strong> ${researchArea}</p>
+  182              </div>
+
+sviet\src\app\api\sendEmail\iste-faculty\test-route.js:
+  23      const experience = formData.get("experience");
+  24:     const researchArea = formData.get("researchArea");
+  25      const isteMembership = formData.get("isteMembership");
+
+sviet\src\app\iste-faculty-convention\page.jsx:
+   660      experience: "",
+   661:     researchArea: "",
+   662      isteMembership: "",
+
+   688      if (!formData.experience.trim()) newErrors.experience = "Experience is required"
+   689:     if (!formData.researchArea.trim()) newErrors.researchArea = "Research area is required"
+   690      if (!formData.photograph) newErrors.photograph = "Photograph is required"
+
+   734            experience: "",
+   735:           researchArea: "",
+   736            isteMembership: "",
+
+   993                    <div className="space-y-2">
+   994:                     <label htmlFor="researchArea" className="text-gray-700 font-medium">
+   995                        Salient Achievement in session 2024-25 *
+
+   997                      <textarea
+   998:                       id="researchArea"
+   999:                       name="researchArea"
+  1000:                       value={formData.researchArea}
+  1001                        onChange={handleInputChange}
+  1002                        rows={3}
+  1003:                       className={`w-full px-3 py-2 border-2 rounded-md focus:outline-none focus:border-[#1B9B7C] transition-colors resize-none ${errors.researchArea ? "border-red-500" : "border-gray-200"}`}
+  1004                        placeholder="Describe your research area or specialization"
+  1005                      />
+  1006:                     {errors.researchArea && <p className="text-red-500 text-sm">{errors.researchArea}</p>}
+  1007                    </div>
