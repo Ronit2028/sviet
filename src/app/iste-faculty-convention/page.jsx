@@ -1024,6 +1024,31 @@ const RegistrationSection = () => {
                     </div>
                   </div>
 
+                  {/* Nomination Letter Example */}
+                  <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
+                    <div className="flex items-center gap-3">
+                      <div className="p-2 bg-blue-100 rounded-full">
+                        <FileText className="w-5 h-5 text-[#1B9B7C]" />
+                      </div>
+                      <div className="flex-1">
+                        <h4 className="font-semibold text-gray-900 mb-1">Need help with the nomination letter?</h4>
+                        <p className="text-sm text-gray-600 mb-2">Download our sample nomination letter format for reference.</p>
+                        <a
+                          href="/ISTE-Best-Faculty-Nomination-Form.pdf"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 text-[#1B9B7C] hover:text-[#1B9B7C]/80 font-medium text-sm transition-colors duration-300"
+                        >
+                          <FileText className="w-4 h-4" />
+                          Download Nomination Letter Example
+                          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+
                   <button
                     type="submit"
                     disabled={isSubmitting}

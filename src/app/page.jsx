@@ -146,7 +146,7 @@ export default function Home() {
       >
         Enquire Now
       </button>
-      {/* <HackathonPopup /> */}
+      <HackathonPopup />
       {/* Modal */}
       {showModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
