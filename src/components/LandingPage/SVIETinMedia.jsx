@@ -9,6 +9,13 @@ const SVIETinMedia = () => {
 
     const mediaUpdates = [
         {
+  "imageUrl": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumCl4aQei6EeD1wHIp3zVSgTXJyWtuZ2hdcixR",
+  "name": "15th Graduation Ceremony",
+  "type": "Academic Event",
+  "desc": "Marking a milestone of excellence, our 15th Graduation Ceremony was a proud moment where we celebrated the perseverance and accomplishments of our graduating class. With joy and inspiration, we honored years of hard work, cherished memories, and the bright futures awaiting our graduates. A tradition of success continues to grow stronger each year.",
+  "date": "Sept. 20, 2025"
+},
+        {
   "imageUrl": "https://bmnmsbiymz.ufs.sh/f/1V3V2P4kpAumRT8raJmu2iQAmoaFD3d9eMskP7J6LXV4IRly",
   "name": "1st International Graduation Ceremony",
   "type": "Academic Event",
