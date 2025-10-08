@@ -1,3 +1,6 @@
+
+
+
 "use client"
 
 import { useState, useEffect, useRef } from "react"
@@ -14,7 +17,6 @@ export default function page() {
       <WhyJoinUsSection />
       <GuestCarouselSection />
       <RegistrationSection />
-      {/* <ContactSection /> */}
     </main>
   )
 }
@@ -342,28 +344,82 @@ const AboutSection = () => {
 const EsteemedPanelistSection = ({ panelists = [] }) => {
   const defaultPanelists = [
   {
-    "name": "Dr Shailendra Singh Bhadauria",
-    "designation": "Associate Professor, Department of Industrial & Production Engineering, NIT Jalandhar",
-    "description": "Researcher and faculty in solid mechanics, fracture mechanics, finite element analysis and related areas (works at NIT Jalandhar).",
-    "image": "https://departments.nitj.ac.in/dept/ipe/Faculty/<profile-page-with-photo>"
+    "name": "Dr. Manpreet Singh Manna",
+    "designation": "Vice Chancellor at Chandigarh University, Director at AICTE, and Founder of SWAYAM",
+    "description": "A visionary educationist dedicated to advancing digital learning and fostering innovation in higher education across India.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5S2j4wLOmAU9E4d6BWLwPhfueiF7aZlbNoXVy"
   },
   {
-    "name": "Dr Anurag Kumar Tiwari",
-    "designation": "Assistant Professor (Grade-I), Department of Chemical Engineering / Center for Energy and Environment, NIT Jalandhar",
-    "description": "Faculty and researcher working on nanomaterials, micro/nanoscale transport, CFD, and energy & environmental engineering topics (profile at NIT Jalandhar).",
-    "image": "https://departments.nitj.ac.in/dept/ch/Faculty/<profile-page-with-photo>"
+    "name": "Prof Rajeev Ahuja",
+    "designation": " Director of IIT Ropar",
+    "description": "A distinguished researcher and academic leader committed to promoting innovation, research excellence, and technological advancement in higher education.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5hj5uJQNdx4bWp0UlI1ZKuzEFvVsLw7JfMokX"
   },
   {
     "name": "Dr Harpal Thethi",
-    "designation": "Professor / Executive Dean — Corporate Relations & Placements (Lovely Professional University) / Former Mission10X Chair Professor (KIIT)",
-    "description": "Academic leader focused on industry–institution partnerships, placements and employability programs; associated with LPU (and has held leadership roles at KIIT and other institutes).",
-    "image": "https://lpu.in/ or https://theorg.com/org/lovely-professional-university/org-chart/dr-harpal-thethi"
+    "designation": "Executive Dean—Corporate Relations & Campus Placements, and leader of one of India's largest Early Career ecosystems at LPU ",
+    "description": "A dynamic leader dedicated to bridging academia and industry, empowering students through strong corporate relations and transformative career opportunities.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5h9ht18Ndx4bWp0UlI1ZKuzEFvVsLw7JfMokX"
   },
   {
-    "name": "Dr Manpreet Singh Manna",
-    "designation": "Vice Chancellor, Chandigarh University (also associated with SLIET / former AICTE Director and SWAYAM founder-director)",
-    "description": "Senior academic administrator with extensive experience in engineering education, academic administration, AICTE initiatives and research; life member of ISTE and other professional bodies.",
-    "image": "https://drmsmanna.com/ (personal site) or profile pages at Chandigarh University / SLIET"
+    "name": "Dr. RK Garg ",
+    "designation": "Former Director of NIT Arunachal Pradesh and former Director Incharge of NIT Jalandhar",
+    "description": "An accomplished academic and administrator known for his impactful leadership and contributions to strengthening technical education in India.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5qMvmZU9avH4S0MZTogxLPtUlVr3wpcjD6WEI"
+  },
+  {
+    "name": "Dr Vikrant Sharma ",
+    "designation": " Dean of the School of Engineering, Design and Automation (E), and Faculty of Computational Science at GNA University, Punjab",
+    "description": "A passionate academic leader fostering innovation, research, and excellence in engineering and computational sciences.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5YLZRLFkdqrAaPiXWyjJwRgVxh49pENQmO51K"
+  },
+  {
+    "name": "Dr. Deep Kamal Kaur",
+    "designation": "Professor & Head (Department of Engineering & Technology, Guru Nanak Dev University Regional Campus, Jalandhar)",
+    "description": "An inspiring educator and researcher dedicated to nurturing technical talent and advancing innovation in engineering and technology.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5aDtCsPUFuAOBhrIx01FH8lfKbENY7GjSgspL"
+  },
+  {
+    "name": "Prof. Buta Singh Sidhu",
+    "designation": "Former Vice Chancellor of (MRSPTU) Bathinda",
+    "description": "A respected academic visionary recognized for his leadership in advancing technical education and institutional growth.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5tQDzt1EyKp7vbuh4aZnGcCs8ARDxHFO2LY0S"
+  },
+  {
+    "name": "Vishal Takiar",
+    "designation": "Lead Consultant at @Infosys and an IT Veteran with 19+ years of experience across major firms like IBM, HCL, and EVRY India",
+    "description": "A seasoned IT professional with extensive expertise in consulting, technology strategy, and enterprise solutions across global organizations.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5QVypljUA0Cpb4ysi61TzJLRaW735foPjv8GS"
+  },
+  {
+    "name": "Dr. Rohit Khokher",
+    "designation": "Academic Dean, Professor, and Chief Technology Officer (CTO) at Vidya Prakashan Mandir Pvt. Ltd., New Delhi ",
+    "description": "An innovative academic and tech leader dedicated to integrating education with cutting-edge technology and research-driven practices.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5R0ALKsZkKnwR8l6UzsrYTODtvBCQJGu5PZeW"
+  },
+  {
+    "name": "Ashish Mehta",
+    "designation": "COO- Innovation Mission Punjab",
+    "description": "A strategic leader driving innovation and transformative initiatives to advance technology and development in Punjab.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5fQn4NcszhxnBRpFS0Z73O2W1YsivobXAcldt"
+  },
+  {
+    "name": "Er. Ankur Gill ",
+    "designation": "Director Operations SVGOI & Founder - Godigitiy Nexus",
+    "description": "A visionary leader and entrepreneur focused on operational excellence and fostering digital innovation.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX59bwj096eo7ImuETdUDV8Of45P3xMqvt1jAQk"
+  },
+  {
+    "name": "Vikram R Singh",
+    "designation": "CEO Antier | Scaling AI-powered Web3 infrastructure globally | Driving tokenization, CBDCs & digital trust",
+    "description": "A pioneering entrepreneur driving global adoption of AI-powered Web3 solutions, tokenization, and digital trust initiatives.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5L3nkBfV4dQjwtUe75ApxbP68hlkFNKnGZIqT"
+  },
+  {
+    "name": "G Kalyani",
+    "designation": "Head – Operations, delivery and Content production – L&T EduTech",
+    "description": "A dynamic leader specializing in operations, content production, and delivering impactful educational technology solutions.",
+    "image": "https://1kga789wdc.ufs.sh/f/lJZn16SaUVX5QMvsa5UA0Cpb4ysi61TzJLRaW735foPjv8GS"
   },
   ]
 
@@ -399,7 +455,7 @@ const EsteemedPanelistSection = ({ panelists = [] }) => {
                     <img
                       src={panelist.image || "/placeholder.svg"}
                       alt={panelist.name}
-                      className="w-full h-56 object-cover rounded-md mb-4"
+                      className="w-full h-96 object-cover rounded-md mb-4"
                     />
                     <h3 className="text-xl font-bold text-gray-900 mb-2">{panelist.name}</h3>
                     <p className="text-md font-semibold text-[#1B9B7C] mb-1">{panelist.designation}</p>
@@ -504,14 +560,14 @@ const GuestCarouselSection = () => {
     "name": "Dr. Pratapsinh Kakasaheb Desai",
     "position": "President, ISTE (New Delhi)",
     "description": "Mechanical Engineering & Education reform specialist; President of the Indian Society for Technical Education. PhD from Shivaji University (Kolhapur); active in designing prosthesis research and advocating for technical teacher welfare. :contentReference[oaicite:0]{index=0}",
-    "image": "/placeholder-pk-desai.png",
+    "image": "https://gvu57hqxi3.ufs.sh/f/FOd38ztMu1Uwf32MDOoZaYjGzJ3x9SRPtpmlFydgsQMqB7ev",
     "expertise": "ISTE Governance & Educational Policy"
   },
   {
     "name": "Dr. R. P. Singh Suker-Chakia",
     "position": "Chairman, ISTE Section (Punjab, Chandigarh, Himachal Pradesh & J&K)",
     "description": "Experienced academic leader, serving as Chairman of the ISTE section covering Punjab, Chandigarh, Himachal Pradesh and Jammu & Kashmir; involved in awards, conventions and technical education promotion in that region.",
-    "image": "/placeholder-rp-singh-sukerchakia.png",
+    "image": "https://gvu57hqxi3.ufs.sh/f/FOd38ztMu1UwyGmvbWzkKG2MfRw0rnep5z84kEl1ANBiSCTF",
     "expertise": "Technical Education Leadership"
   },
   
@@ -519,10 +575,10 @@ const GuestCarouselSection = () => {
     "name": "Dr. Surjit Kumar Gandhi",
     "position": "Secretary, ISTE (Punjab, Chandigarh, Himachal Pradesh & J&K)",
     "description": "Long-serving academician and administrator; Secretary of the ISTE section for Punjab, Chandigarh, Himachal Pradesh & J&K. Principal at PCTE Institute of Engineering & Technology, Ludhiana. :contentReference[oaicite:1]{index=1}",
-    "image": "/placeholder-sk-gandhi.png",
+    "image": "https://gvu57hqxi3.ufs.sh/f/FOd38ztMu1Uw9NQrilvgnO69h0GCWXZDqcsxfQLUul1HaPRV",
     "expertise": "Technical Education Administration"
   },
-  ]
+]
 
   const [currentGuest, setCurrentGuest] = useState(0)
 
@@ -1031,7 +1087,7 @@ const RegistrationSection = () => {
                         <FileText className="w-5 h-5 text-[#1B9B7C]" />
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-semibold text-gray-900 mb-1">Need help with the nomination letter?</h4>
+                        <h4 className="font-semibold text-gray-900 mb-1">If you need help with the nomination letter?</h4>
                         <p className="text-sm text-gray-600 mb-2">Download our sample nomination letter format for reference.</p>
                         <a
                           href="/ISTE-Best-Faculty-Nomination-Form.pdf"
@@ -1065,67 +1121,3 @@ const RegistrationSection = () => {
     </section>
   )
 }
-
-// const ContactSection = () => {
-//   return (
-//     <section className="py-12 bg-gradient-to-br from-[#1B9B7C] to-[#0F7A5C] text-white relative overflow-hidden">
-//       {/* Background Pattern */}
-//       <div className="absolute inset-0 opacity-10">
-//         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,#ffffff_1px,transparent_1px)] bg-[length:50px_50px]" />
-//       </div>
-
-//       <div className="container mx-auto px-4 relative z-10">
-//         <motion.div
-//           className="text-center max-w-4xl mx-auto"
-//           initial={{ opacity: 0, y: 30 }}
-//           whileInView={{ opacity: 1, y: 0 }}
-//           transition={{ duration: 0.8 }}
-//           viewport={{ once: true }}
-//         >
-//           <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to Join Us?</h2>
-//           <p className="text-lg text-white/90 mb-8 leading-relaxed">
-//             Don't miss this opportunity to be part of India's premier technical education convention. Register now and
-//             connect with leading academicians and industry experts.
-//           </p>
-
-          
-
-//           <div className="grid md:grid-cols-3 gap-8 text-center">
-//             {[
-//               {
-//                 icon: Mail,
-//                 title: "Email",
-//                 content: "convention@sviet.ac.in",
-//               },
-//               {
-//                 icon: Phone,
-//                 title: "Phone",
-//                 content: "+91 98765 43210",
-//               },
-//               {
-//                 icon: MapPin,
-//                 title: "Venue",
-//                 content: "SVIET, Chandigarh",
-//               },
-//             ].map((contact, index) => (
-//               <motion.div
-//                 key={index}
-//                 className="flex flex-col items-center"
-//                 initial={{ opacity: 0, y: 20 }}
-//                 whileInView={{ opacity: 1, y: 0 }}
-//                 transition={{ duration: 0.6, delay: index * 0.1 }}
-//                 viewport={{ once: true }}
-//               >
-//                 <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center mb-3">
-//                   <contact.icon className="w-6 h-6 text-white" />
-//                 </div>
-//                 <h3 className="font-semibold text-white/90 mb-1">{contact.title}</h3>
-//                 <p className="text-white font-medium">{contact.content}</p>
-//               </motion.div>
-//             ))}
-//           </div>
-//         </motion.div>
-//       </div>
-//     </section>
-//   )
-// }
