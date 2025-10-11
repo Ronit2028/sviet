@@ -1127,7 +1127,8 @@
 
 import React, { useState, useEffect } from 'react';
 
-const page = () => {
+
+const Page = () => {
   const [formData, setFormData] = useState({
     fullName: '',
     email: '',
@@ -1168,7 +1169,7 @@ const page = () => {
       newErrors.email = 'Email is invalid';
     }
 
-    
+
     if (!formData.phoneNumber.trim()) {
       newErrors.phoneNumber = 'Phone Number is required';
     } else if (!/^\d{10}$/.test(formData.phoneNumber)) {
@@ -1281,6 +1282,8 @@ const page = () => {
               <img
                 src="https://instasize.com/api/image/be19fb64b8da186ab435a7264e45104d8c193de31265973f6362a48eb7fe33a5.png"
                 alt="ISTE"
+                width={80}
+                height={80}
                 className="w-20 h-20 object-contain"
               />
             </div>
@@ -1441,4 +1444,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
