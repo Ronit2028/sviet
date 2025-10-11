@@ -1168,6 +1168,7 @@ const page = () => {
       newErrors.email = 'Email is invalid';
     }
 
+    
     if (!formData.phoneNumber.trim()) {
       newErrors.phoneNumber = 'Phone Number is required';
     } else if (!/^\d{10}$/.test(formData.phoneNumber)) {
