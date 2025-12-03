@@ -124,15 +124,15 @@ const EventCarousel = () => {
                         <div className="w-full lg:w-2/3 h-40 ">
                             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 mb-6">
                                 <h2 className="text-2xl md:text-3xl font-bold mb-4 text-[#fea700]">
-                                    Elevate 2.0 – Launching Future 2025!
+                                    DevFest Chandigarh 2025 — A Day of Innovation, Learning & Community!
                                 </h2>
                                 <p className="text-sm mb-6 text-gray-300">
                                     Presenting A celebration of vision, innovation, and inspiration that brought together leaders, dreamers, and changemakers under one roof.
                                 </p>
                                 <div className="relative w-full h-60 rounded-lg overflow-hidden shadow-2xl">
                                     <iframe
-                                        src="https://www.youtube.com/embed/CdVYnEzQ67o?si=6ZjPidyemgzChjn_"
-                                        title="1st International Convocation Ceremony - SVGOI"
+                                        src="https://www.youtube.com/embed/edELEHK4SVE?si=9qvJ2m6vXZP5YmTb"
+                                        title="DevFest Chandigarh 2025 brought together 500+ developers from 30+ colleges, making it one of the region’s most energetic tech gatherings!"
                                         className="w-full h-full object-contain"
                                         frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

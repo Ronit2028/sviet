@@ -189,6 +189,30 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    "company": "Circular regarding academic activities of 1st year",
+    "date": "As per academic schedule",
+    "details": "This circular contains important information regarding the academic activities, schedules, and guidelines for 1st year students.",
+    "link": "/Circular-regarding-academic-activities-of-1st-year.pdf"
+  },
+  {
+    "company": "MST-2 Notice for Students",
+    "date": "As per examination schedule",
+    "details": "This notice provides instructions and important information for students appearing in MST-2 examinations.",
+    "link": "/MST-2-Notice-for-Students.pdf"
+  },
+  {
+    "company": "MST-2 Notice for Faculty",
+    "date": "As per examination schedule",
+    "details": "This notice contains MST-2 responsibilities, invigilation duties, and instructions for all faculty members.",
+    "link": "/MST-2-Notice-for-Faculty.pdf"
+  },
+  {
+    "company": "Registration Notice for AI Impact Summit",
+    "date": "Registration open — last date mentioned inside PDF",
+    "details": "This notice provides information regarding student registration for the AI Impact Summit, including eligibility and event details.",
+    "link": "/AI-Impact-Summit-Registration-Notice.pdf"
+  },
+  {
     "company": "Genotis Pharmaceuticals Pvt Ltd",
     "date": "Confirm after registrations",
     "details": "This is information •For B. pharmacy (2025 passing out Batch Students only) that Genotis Pharmaceuticals Pvt Ltd Greater Chandigarh , Ambala is conducting a placement drive.",
