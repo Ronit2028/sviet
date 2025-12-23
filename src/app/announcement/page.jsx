@@ -189,6 +189,24 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+    "company": "Notice regarding Library opening on Saturdays and Sundays",
+    "date": "23-12-2025",
+    "details": "This notice informs students that the Library in the Administration Block will remain open on all Saturdays and Sundays in addition to regular working days from 09:00 AM to 04:40 PM for academic use.",
+    "link": "/Notice-Library-Open-on-Weekends.pdf"
+  },
+  {
+    "company": "Office Order for deputation of Library staff on weekends",
+    "date": "23-12-2025",
+    "details": "This office order lists the library staff members deputed on rotational duty to ensure smooth functioning of the Library on Saturdays and Sundays along with regular working days.",
+    "link": "/Office-Order-Library-Staff-Weekend-Duty.pdf"
+  },
+  {
+    "company": "Notice regarding Christmas Day celebration",
+    "date": "23-12-2025",
+    "details": "This notice invites faculty members, staff, and students to participate in the Christmas Day celebration organized by the Department of International Affairs and Cultural Affairs on 25th December 2025 at 12:00 PM in the Campus Auditorium.",
+    "link": "/Notice-Christmas-Day-Celebration-2025.pdf"
+  },
+  {
     "company": "Circular regarding academic activities of 1st year",
     "date": "As per academic schedule",
     "details": "This circular contains important information regarding the academic activities, schedules, and guidelines for 1st year students.",
