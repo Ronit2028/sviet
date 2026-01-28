@@ -1085,7 +1085,7 @@ const data = [
         "Must have a Bachelor's degree in Pharmacy (B.Pharm) from an institution approved by the Pharmacy Council of India with a minimum aggregate score of 55%. Any other qualification recognized by the Pharmacy Council of India as equivalent to a B.Pharm degree is also eligible.",
     },
     affiliation: {
-      affiliated_to: "Affiliated To IKGPTU, Jalandhar",
+      affiliated_to: "Affiliated To IKGPTU, Jalandhar & MRSPTU, Bathinda",
       approved_by: "Approved by PCI",
     },
     mode_of_admission:
@@ -3385,6 +3385,125 @@ const data = [
     ],
     labs: [],
   },
+  {
+  id: 98,
+  course_name: "Education",
+  header: {
+    title: "B.A. in Computer Science",
+    subtitle: "COMPUTING WITH ARTS & SOCIAL SCIENCES",
+    background_image: "../Courses/Education/Bachelor/expertise.avif",
+  },
+  program_name: "Bachelor of Arts (Computer Science)",
+  program_description:
+    "Bachelor of Arts in Computer Science is a 3-year undergraduate program that blends computer science fundamentals with arts and social science subjects. The course focuses on computing concepts such as programming, systems, and data along with communication skills, history, and social understanding. It helps students develop problem-solving abilities for both technological and societal challenges while nurturing creativity and overall personality development. This interdisciplinary approach prepares students for diverse roles in IT, analytics, and digital services.",
+  fees: "15,000 INR Per Semester",
+  duration: "3 Years (Semester System)",
+  major_tracks: [
+    "Computer Programming",
+    "Data Analysis",
+    "System Administration",
+    "Communication & Social Skills",
+  ],
+  program_outcomes: [
+    {
+      title: "Technical Proficiency",
+      desc: "Gain strong foundational knowledge in computer systems, programming, and software applications used in modern technology environments.",
+      image: "../Courses/Education/BA/cultural.avif",
+    },
+    {
+      title: "Problem Solving Skills",
+      desc: "Develop analytical and logical thinking skills to address real-world challenges in technology and social sectors.",
+      image: "../Courses/Education/BA/thinking.avif",
+    },
+    {
+      title: "Communication & Creativity",
+      desc: "Enhance communication, teamwork, and creative thinking skills through the integration of arts and humanities with technology.",
+      image: "../Courses/Education/Bachelor/research.jpg",
+    },
+    {
+      title: "Career Readiness",
+      desc: "Prepare for diverse career opportunities in IT, analytics, and digital services with practical and interdisciplinary learning.",
+      image: "../Courses/Education/BA/research.jpg",
+    },
+  ],
+  eligibility_criteria: {
+    eligibility: "Passed 10+2 in any stream from a recognized board",
+  },
+  affiliation: {
+    affiliated_to: "Affiliated To MRSPTU",
+    approved_by: "Approved by AICTE",
+  },
+  mode_of_admission:
+    "For admissions, visit the portal to register/login and proceed with the admission application.",
+  program_highlights: [
+    "Interdisciplinary curriculum combining IT and humanities",
+    "Career-focused computer science foundation",
+    "Strong emphasis on communication and social skills",
+    "Opportunities in IT, analytics, and digital services",
+    "Industry-oriented learning approach",
+  ],
+  labs: [],
+},
+{
+  id: 99,
+  course_name: "Education",
+  header: {
+    title: "B.Sc. in Mass Communication & Journalism",
+    subtitle: "MEDIA, JOURNALISM & DIGITAL COMMUNICATION",
+    background_image: "../Courses/Education/Bachelor/expertise.avif",
+  },
+  program_name: "B.Sc Mass Communication & Journalism",
+  program_description:
+    "B.Sc Mass Communication & Journalism is a 3-year undergraduate program that focuses on media studies, journalism practices, and communication theories. The course equips students with technical and creative skills in reporting, content creation, digital media, video production, and broadcasting. It prepares students to work across print, electronic, and digital media platforms while developing ethical journalism practices and effective communication abilities.",
+  fees: "15,000 INR Per Semester",
+  duration: "3 Years (Semester System)",
+  major_tracks: [
+    "Journalism & Reporting",
+    "Digital Media Production",
+    "Advertising & Public Relations",
+    "Broadcast Media",
+  ],
+  program_outcomes: [
+    {
+      title: "Media Literacy",
+      desc: "Develop a strong understanding of media theories, ethics, and the role of journalism in society.",
+      image: "../Courses/Education/Bachelor/research.jpg",
+    },
+    {
+      title: "Content Creation Skills",
+      desc: "Gain hands-on experience in writing, editing, video production, and digital storytelling across media platforms.",
+      image: "../Courses/Education/BA/cultural.avif",
+    },
+    {
+      title: "Professional Communication",
+      desc: "Build effective verbal and written communication skills essential for journalism, advertising, and public relations.",
+      image: "../Courses/Education/BA/comms.avif",
+    },
+    {
+      title: "Industry Readiness",
+      desc: "Prepare for careers in journalism, broadcasting, advertising, and digital media with industry-relevant skills.",
+      image: "../Courses/Education/BA/thinking.avif",
+    },
+  ],
+  eligibility_criteria: {
+    eligibility: "Passed 10+2 in any stream from a recognized board",
+  },
+  affiliation: {
+    affiliated_to: "Affiliated To IKGPTU, Jalandhar",
+    approved_by: "Approved by AICTE",
+  },
+  mode_of_admission:
+    "For admissions, visit the portal to register/login and proceed with the admission application.",
+  program_highlights: [
+    "Industry-oriented journalism curriculum",
+    "Hands-on training in digital and broadcast media",
+    "Career opportunities across media and communication sectors",
+    "Focus on ethical journalism and storytelling",
+    "Strong foundation in advertising and public relations",
+  ],
+  labs: [],
+},
+
   {
     id: 42,
     course_name: "Education",

@@ -22,6 +22,7 @@ const Page = ({ params }) => {
                 "B.Tech": {
                     "specializations": [
                         "Computer Science Engineering",
+                        "Artificial Intelligence",
                         "Electronics & Communications Engineering",
                         "Electrical Engineering",
                         "Civil Engineering",
