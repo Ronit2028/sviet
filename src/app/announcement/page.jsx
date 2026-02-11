@@ -189,6 +189,24 @@ import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
   {
+  "company": "Notice regarding Workshop on Effective Sales and Marketing Strategies for Start-ups",
+  "date": "10-02-2026",
+  "details": "This notice informs students of the Department of Business Administration under Swami Vivekanand Institute of Engineering & Technology that a workshop on 'Effective Sales and Marketing Strategies for Start-ups' is being organized under the aegis of IIC. The session will be delivered by Mr. Gourav Kumar Gupta, Founder & CEO, Tech CADD, on 12th February 2026 at 11:00 AM in Seminar Hall, Block-F.",
+  "link": "/Notice-Workshop-Effective-Sales-Marketing-Strategies-12-02-2026.pdf"
+},
+  {
+  "company": "Notice regarding Lift Timings for Girls' Hostel (Block I)",
+  "date": "03-02-2026",
+  "details": "This notice informs all residents of the Girls' Hostel (Block I) at Swami Vivekanand Group of Institutes that the lift facility may be used only during the following timings: Monday to Friday from 08:00 AM to 05:00 PM, and Saturday and Sunday from 09:00 AM to 04:00 PM. Students are directed to strictly adhere to the mentioned timings to ensure safety, smooth functioning, and proper maintenance of the lift.",
+  "link": "/Notice-regarding-Lift-Timings-Girls-Hostel-03-02-2026.pdf"
+},
+  {
+  "company": "Circular regarding Cloth Donation Camp by NSS Unit",
+  "date": "02-02-2026",
+  "details": "This circular informs all HODs, faculty members, staff, and students of Swami Vivekanand Group of Institutes that the NSS Unit, in collaboration with the Department of Civil Engineering, is organizing a Cloth Donation Camp on 13th February 2026 (Friday) at Village Khera Gajju, Tehsil Rajpura, starting from 10:00 AM onwards. Donated clothes can be deposited in the Cloth Donation Box placed in the Admin Block.",
+  "link": "/Circular-regarding-Cloth-Donation-Camp-13-02-2026.pdf"
+},
+  {
     "company": "Notice regarding Workshop on Sponsored Seed Grant Proposal Writing",
     "date": "21-01-2026",
     "details": "This notice informs faculty members of Swami Vivekanand College of Pharmacy about a workshop on Sponsored Seed Grant Proposal Writing to be held on 22nd January 2026 in the Research Lab, Block F. The workshop aims to provide practical guidance on drafting competitive grant proposals and strengthening research funding capabilities.",
