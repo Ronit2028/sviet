@@ -188,6 +188,12 @@ import { Search, Calendar, ChevronRight } from 'lucide-react'
 import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
+   {
+  "company": "Campus Placement Drive - Grazitti Interactive",
+  "date": "09-02-2026",
+  "details": "Swami Vivekanand Group of Institutes is organizing a campus placement drive for Grazitti Interactive at SVIET, Banur. The job location is Panchkula IT Park for the position of Software Developer. Eligible candidates are B.Tech (CSE/IT) 2026 passing out batch students with a minimum CGPA of 7.0 and a 2-year service agreement. The placement drive will be held on 12th February 2026 through offline mode at the company premises. The interview process includes Group Discussion, Technical Interview, and HR Final Round. Salary offered is ₹15,000 per month during 6 months of training, followed by a CTC of ₹4,00,000 – ₹5,00,000 per annum based on assessment grading. Registration is mandatory before 10-02-2026 through the provided link.",
+  "link": "/Grazitti-Interactive.pdf"
+},
   {
   "company": "Notice regarding Workshop on Effective Sales and Marketing Strategies for Start-ups",
   "date": "10-02-2026",
