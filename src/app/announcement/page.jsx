@@ -188,6 +188,30 @@ import { Search, Calendar, ChevronRight } from 'lucide-react'
 import Header from '@/components/Announcement/Header'
 
 const placementDriveInformation = [
+  {
+  "company": "Notice regarding Super-60 Entrance Test for B.Tech 1st Year",
+  "date": "20-02-2026",
+  "details": "SVGOI will conduct the Super-60 entrance test for B.Tech 1st year (2025 batch) on 27th February 2026 in H Block followed by interviews for qualified students on 6th March 2026. Students must register before 25-02-2026 via QR code. The notice includes syllabus covering logical reasoning, quantitative aptitude, English proficiency, problem solving and basic programming knowledge. The test duration is 90 minutes for 100 marks.",
+  "link": "/Notice-Super-60-Entrance-Test.pdf"
+},
+  {
+  "company": "Notice regarding Event Wise Faculty and Student Coordinators for INKSPIRE 1.0",
+  "date": "18-02-2026",
+  "details": "This notice lists faculty and student coordinators appointed for various events of INKSPIRE 1.0 scheduled on 26th–27th February 2026. Coordinators are instructed to manage planning, communication, event execution, coordination with judges, handling on-spot issues, and ensuring smooth conduct of all activities. Leadership, accountability and coordination are expected from all coordinators.",
+  "link": "/Notice-INKSPIRE-Coordinators.pdf"
+},
+  {
+  "company": "Notice regarding INKSPIRE 1.0 Literary Event",
+  "date": "17-02-2026",
+  "details": "SVGOI announces the Grand Literary Event INKSPIRE 1.0 scheduled on 26th–27th February 2026. Students must deposit Rs. 100 and register via QR code before 22-02-2026. The notice includes a detailed points table for each event and announces cash prizes of Rs. 21,000 for Overall Winner and Rs. 11,000 for First Runner-up. Scores will contribute to the annual event Spontania.",
+  "link": "/Notice-INKSPIRE-1.0-Event.pdf"
+},
+  {
+  "company": "Notice regarding Grand Literary Event",
+  "date": "13-02-2026",
+  "details": "This notice informs all students of SVGOI that the Department of Career Advancement (DCA), in collaboration with the Department of Cultural Affairs, is organizing a Grand Literary Event on 26th–27th February 2026. Activities include debate, group discussion, poetry challenge, mystery in the library, ad mad show, talk show, quiz, poster making and other literary competitions. Students must deposit Rs. 100 for participation and register via QR code before 17-02-2026. Attractive cash prizes and certificates will be awarded and scores will contribute to the annual event Spontania.",
+  "link": "/Notice-Grand-Literary-Event.pdf"
+},
    {
   "company": "Campus Placement Drive - Grazitti Interactive",
   "date": "09-02-2026",
