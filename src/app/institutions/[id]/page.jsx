@@ -265,7 +265,7 @@ const Page = ({ params }) => {
                     ]
                 }
             },
-            committee:"/SVCMT/SVCMT Committees.pdf",
+            committee:"/SVCMT/COMMITTEES.pdf",
             md:"/SVCMT/Mandatory Disclosure SVCMT updated.pdf",
         },
         // {
