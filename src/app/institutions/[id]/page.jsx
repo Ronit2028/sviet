@@ -266,7 +266,7 @@ const Page = ({ params }) => {
                 }
             },
             committee:"/SVCMT/COMMITTEES.pdf",
-            md:"/SVCMT/Mandatory Disclosure SVCMT updated.pdf",
+            md:"/SVCMT/Mandatory-Disclosure-SVCMT.pdf",
         },
         // {
         //     id: 9, name: "Swami Vivekanand Paramedical College (SVPMC)",

@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { X, Calendar, MapPin, Users, GraduationCap } from "lucide-react"
+import { X, Calendar, MapPin, Users, GraduationCap, ArrowRight } from "lucide-react"
 import Link from "next/link"
 
 export default function HackathonPopup() {
@@ -22,11 +22,11 @@ export default function HackathonPopup() {
   }, [])
 
   useEffect(() => {
-    const isteTargetDate = new Date("2025-10-11T09:00:00").getTime()
+    const isteTargetDate = new Date("2026-03-27T09:00:00").getTime()
 
-    const interval = setInterval(() => {
-      const now = new Date().getTime()
-      const isteDifference = isteTargetDate - now
+    const updateCountdown = () => {
+      const now = Date.now()
+      const isteDifference = Math.max(isteTargetDate - now, 0)
 
       setIsteTimeLeft({
         days: Math.floor(isteDifference / (1000 * 60 * 60 * 24)),
@@ -35,7 +35,14 @@ export default function HackathonPopup() {
         seconds: Math.floor((isteDifference % (1000 * 60)) / 1000),
       })
 
-      if (isteDifference < 0) {
+      return isteDifference
+    }
+
+    updateCountdown()
+
+    const interval = setInterval(() => {
+      const remaining = updateCountdown()
+      if (remaining === 0) {
         clearInterval(interval)
       }
     }, 1000)
@@ -61,11 +68,13 @@ export default function HackathonPopup() {
                 animate={{ rotate: [0, 360] }}
                 transition={{ duration: 40, repeat: Number.POSITIVE_INFINITY, ease: "linear" }}
                 style={{
-                  backgroundImage: "radial-gradient(circle, #ffffff 1px, transparent 1px)",
-                  backgroundSize: "30px 30px",
+                  backgroundImage: "radial-gradient(circle, #59b027 2px, transparent 1px)",
+                  backgroundSize: "40px 40px",
                 }}
               />
             </div>
+          {/* Change main gradient to match color codes */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[#015e7f] to-[#59b027] opacity-90" />
 
             {/* Close button */}
             <motion.button
@@ -85,17 +94,21 @@ export default function HackathonPopup() {
                 transition={{ delay: 0.1 }}
                 className="text-center"
               >
-                <div className="flex items-center justify-center mb-3">
+                <div className="flex items-center justify-center mb-3 gap-3">
+                  {/* Logo space - use provided link */}
+                  <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <img src="https://14wgjdss3w.ufs.sh/f/ImvjWigzci0ZNDvh2KR0FJk7qfALO9bXtyBHPwUDp1Yg35ZE" alt="Logo" className="w-10 h-10 object-contain" />
+                  </div>
                   <motion.div
-                    className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center backdrop-blur-sm"
+                    className="w-12 h-12 bg-[#015e7f]/80 rounded-full flex items-center justify-center backdrop-blur-sm"
                     animate={{ scale: [1, 1.1, 1] }}
                     transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
                   >
                     <GraduationCap className="w-6 h-6 text-white" />
                   </motion.div>
                 </div>
-                <h1 className="text-xl md:text-2xl font-bold text-white mb-1">ISTE Faculty Convention</h1>
-                <p className="text-white/80 text-sm">🚀 Shape the Future of Technical Education</p>
+                <h1 className="text-xl md:text-2xl font-bold text-white mb-1">International Conference on AI & Pharmacy</h1>
+                <p className="text-white/80 text-sm">🚀 Shape the Future of Pharmacy</p>
               </motion.div>
 
               {/* Event Info */}
@@ -107,8 +120,8 @@ export default function HackathonPopup() {
               >
                 <div className="bg-white/15 p-3 rounded-xl backdrop-blur-sm text-center">
                   <Calendar className="w-4 h-4 text-white mx-auto mb-1" />
-                  <p className="text-white font-semibold text-sm">Oct 11, 2025</p>
-                  <p className="text-white/70 text-xs">3 Days</p>
+                  <p className="text-white font-semibold text-sm">March 27, 2026</p>
+                  <p className="text-white/70 text-xs">2 Days</p>
                 </div>
                 <div className="bg-white/15 p-3 rounded-xl backdrop-blur-sm text-center">
                   <MapPin className="w-4 h-4 text-white mx-auto mb-1" />
@@ -124,7 +137,7 @@ export default function HackathonPopup() {
                 transition={{ delay: 0.4 }}
                 className="bg-white/15 p-3 rounded-xl backdrop-blur-sm"
               >
-                <p className="text-center text-white/90 text-xs mb-2 font-semibold">⏰ REGISTRATION ENDS IN</p>
+                <p className="text-center text-white/90 text-xs mb-2 font-semibold">⏰ EVENT STARTS IN</p>
                 <div className="grid grid-cols-4 gap-1.5">
                   {[
                     { label: "Days", value: isteTimeLeft.days },
@@ -155,11 +168,13 @@ export default function HackathonPopup() {
               {/* CTA Button */}
               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.5 }}>
                 <Link
-                  href="/iste-faculty-convention"
-                  className="w-full bg-white text-[#1B9B7C] px-4 py-2.5 rounded-full font-bold text-sm text-center hover:bg-gray-100 transition-all shadow-lg flex items-center justify-center"
+                  href="https://sviet.ac.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full bg-white text-[#015e7f] px-4 py-2.5 rounded-full font-bold text-sm text-center hover:bg-[#59b027]/90 transition-all shadow-lg flex items-center justify-center"
                 >
-                  <Users className="w-4 h-4 mr-2" />
-                  Register Now
+                  <ArrowRight className="w-4 h-4 mr-2" />
+                  Visit Site
                 </Link>
               </motion.div>
             </div>
