@@ -168,7 +168,7 @@ export default function HackathonPopup() {
               {/* CTA Button */}
               <motion.div initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.5 }}>
                 <Link
-                  href="https://sviet.ac.in/"
+                  href="https://icaip.sviet.org.in/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-white text-[#015e7f] px-4 py-2.5 rounded-full font-bold text-sm text-center hover:bg-[#59b027]/90 transition-all shadow-lg flex items-center justify-center"
