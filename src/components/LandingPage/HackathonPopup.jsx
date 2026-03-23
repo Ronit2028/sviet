@@ -101,7 +101,7 @@ const LoadingPopup = () => {
                     <span className="!text-lg !font-bold !text-white !tabular-nums !leading-none azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>
                       {String(item.value).padStart(2, "0")}
                     </span>
-                    <span className="!text-[8px] !uppercase !tracking-tighter !text-red-400 !mt-1">{item.label}</span>
+                    <span className="!text-[8px] !uppercase !tracking-tighter !text-red-400 !mt-1" style={{fontFamily: "Azonix"}}>{item.label}</span>
                   </div>
                 ))}
               </div>
