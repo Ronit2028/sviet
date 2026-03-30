@@ -49,7 +49,7 @@ const Footer = () => {
                 Swami Vivekanand Institute of Engineering and Technology
               </div>
               <div className="uni-name text-lg mt-5 mb-4">
-                Promoted By : Raghunath Rai Memorial Trust
+                Promoted By : Shri Raghu Nath Rai Memorial Educational & Charitable Trust
               </div>
               <div className="uni-address text-sm font-light mb-2">
                 Village- Ramnagar Near Banur, Tehsil- Rajpura, District- Patiala
@@ -198,6 +198,12 @@ const Footer = () => {
               <p>Toll Free: 1800 120 1200</p>
             </li>
           </ul>
+          <div className="mt-4 border-t border-gray-800 pt-4 text-center text-xs font-light tracking-wide text-gray-400">
+  <p>
+    &copy; {new Date().getFullYear()} Shri Raghu Nath Rai Memorial Educational & Charitable Trust Run by Swami Vivekanand Institute of Engineering & Technology (SVIET)
+  </p>
+  
+</div>
         </div>
       </div>
     </footer>
