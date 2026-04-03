@@ -198,6 +198,21 @@ const Footer = () => {
               <p>Toll Free: 1800 120 1200</p>
             </li>
           </ul>
+          <div className="mt-3 flex items-center justify-center gap-2 text-[10px] font-light text-gray-500">
+            <img
+              src={logoDark.src}
+              alt="SVIET logo"
+              className="h-4 w-auto opacity-70"
+            />
+            <a
+              href="https://autono.in/?code=SVIET,%20Banur"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline-offset-2 hover:underline"
+            >
+              Verification reference URL
+            </a>
+          </div>
           <div className="mt-4 border-t border-gray-800 pt-4 text-center text-xs font-light tracking-wide text-gray-400">
   <p>
     &copy; {new Date().getFullYear()} Shri Raghu Nath Rai Memorial Educational & Charitable Trust Run by Swami Vivekanand Institute of Engineering & Technology (SVIET)
