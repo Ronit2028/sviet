@@ -5,6 +5,11 @@ import { motion, AnimatePresence } from "motion/react";
 import { X, Trophy, Timer, ArrowRight } from "lucide-react";
 
 const LoadingPopup = () => {
+  const eventName = "Spontania 2026";
+  const eventSubtitle = "Annual Cultural Fest";
+  const eventDateLabel = "17th & 18th April 2K26";
+  const countdownLabel = "Countdown To 17th April 2026";
+
   const [isVisible, setIsVisible] = useState(false);
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -13,8 +18,8 @@ const LoadingPopup = () => {
     seconds: 0,
   });
 
-  // Set target date to April 3rd, 2026
-  const targetDate = new Date("2026-04-03T00:00:00");
+  // Countdown starts from 17th April 2026, 12:00 AM IST (Day 1).
+  const targetDate = new Date("2026-04-17T00:00:00+05:30");
 
   useEffect(() => {
     // Show popup after a short delay on load
@@ -52,43 +57,58 @@ const LoadingPopup = () => {
           animate={{ opacity: 1, scale: 1, y: 0, x: 0 }}
           exit={{ opacity: 0, scale: 0.5, y: 20, x: 20 }}
           transition={{ type: "spring", damping: 25, stiffness: 200 }}
-          className="!fixed !bottom-6 !right-6 !z-[9999] !w-[320px] !md:w-[400px] !overflow-hidden !rounded-2xl !border !border-red-500/30 !bg-black/80 !backdrop-blur-xl !shadow-[0_0_40px_rgba(180,0,0,0.4)]"
+          className="!fixed !bottom-6 !right-6 !z-[9999] !w-[320px] !md:w-[400px] !overflow-hidden !rounded-2xl !border !border-orange-400/40 !bg-black/85 !backdrop-blur-xl !shadow-[0_0_40px_rgba(255,85,0,0.35)]"
         >
           {/* Background Image with Overlay */}
           <div className="!absolute !inset-0 !z-0">
             <img
               src="https://14wgjdss3w.ufs.sh/f/ImvjWigzci0ZHEeI46NoMfvUTQAwGnLKdhFm283Zep6jW7Ja"
               alt="Popup Background"
-              className="!h-full !w-full !object-cover !opacity-35"
+              className="!h-full !w-full !object-cover !opacity-25"
             />
-            <div className="!absolute !inset-0 !bg-gradient-to-t !from-black !via-black/40 !to-transparent" />
+            <div className="!absolute !inset-0 !bg-gradient-to-t !from-black !via-black/70 !to-black/10" />
+            <div className="!absolute !inset-0 !bg-[radial-gradient(circle_at_20%_90%,rgba(255,0,0,0.35),transparent_55%),radial-gradient(circle_at_85%_10%,rgba(255,132,0,0.25),transparent_45%)]" />
           </div>
 
           {/* Close Button */}
           <button
             onClick={closePopup}
-            className="!absolute !top-3 !right-3 !z-20 !rounded-full !bg-white/10 !p-1.5 !text-white/70 !transition-colors hover:!bg-red-600 hover:!text-white"
+            className="!absolute !top-3 !right-3 !z-20 !rounded-full !bg-white/10 !p-1.5 !text-white/70 !transition-colors hover:!bg-orange-500 hover:!text-white"
           >
             <X size={18} />
           </button>
 
           <div className="!relative !z-10 !p-6">
+            <div className="!mb-3 !inline-flex !rounded-full !border !border-yellow-300/40 !bg-yellow-400/15 !px-3 !py-1 !text-[10px] !font-semibold !uppercase !tracking-wider !text-yellow-200">
+              {eventDateLabel}
+            </div>
+
             {/* Header / Prize Pool */}
             <div className="!mb-4 !flex !items-center !gap-3">
-              <div className="!flex !h-10 !w-10 !items-center !justify-center !rounded-lg !bg-red-600/20 !text-red-500 !shadow-[0_0_15px_rgba(220,38,38,0.3)]">
+              <div className="!flex !h-10 !w-10 !items-center !justify-center !rounded-lg !bg-orange-500/20 !text-yellow-300 !shadow-[0_0_15px_rgba(251,146,60,0.35)]">
                 <Trophy size={20} />
               </div>
               <div>
-                <p className="!text-[14px] !font-bold !uppercase !tracking-widest !text-red-500 azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>Bharat Tech Xperience 3.0</p>
-                <h3 className="!text-xl !font-black !text-white md:!text-2xl azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>₹5,00,000+</h3>
+                <p className="!text-[12px] !font-bold !uppercase !tracking-widest !text-orange-300 azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>
+                  {eventSubtitle}
+                </p>
+                <h3 className="!text-xl !font-black !text-white md:!text-2xl azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>
+                  {eventName}
+                </h3>
               </div>
+            </div>
+
+            <div className="!mb-4 !rounded-lg !border !border-red-400/25 !bg-red-950/30 !p-3 !text-[11px] !font-semibold !tracking-wide !text-orange-100">
+              1 Lakh Prizes • 50+ Competitions • 100+ Challengers
             </div>
 
             {/* Countdown */}
             <div className="!mb-6">
               <div className="!mb-2 !flex !items-center !gap-2 !text-white/50">
                 <Timer size={14} className="!animate-pulse" />
-                <span className="!text-[10px] !font-medium !uppercase !tracking-wider" style={{fontFamily: "Azonix"}}>The Hunt Starts In</span>
+                <span className="!text-[10px] !font-medium !uppercase !tracking-wider" style={{ fontFamily: "Azonix" }}>
+                  {countdownLabel}
+                </span>
               </div>
               <div className="!grid !grid-cols-4 !gap-2">
                 {[
@@ -97,34 +117,45 @@ const LoadingPopup = () => {
                   { label: "Min", value: timeLeft.minutes },
                   { label: "Sec", value: timeLeft.seconds },
                 ].map((item, i) => (
-                  <div key={i} className="!flex !flex-col !items-center !rounded-lg !bg-red-950/30 !p-2 !border !border-red-500/10">
+                  <div key={i} className="!flex !flex-col !items-center !rounded-lg !bg-orange-950/25 !p-2 !border !border-orange-300/20">
                     <span className="!text-lg !font-bold !text-white !tabular-nums !leading-none azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>
                       {String(item.value).padStart(2, "0")}
                     </span>
-                    <span className="!text-[8px] !uppercase !tracking-tighter !text-red-400 !mt-1" style={{fontFamily: "Azonix"}}>{item.label}</span>
+                    <span className="!mt-1 !text-[8px] !uppercase !tracking-tighter !text-orange-300" style={{ fontFamily: "Azonix" }}>
+                      {item.label}
+                    </span>
                   </div>
                 ))}
               </div>
             </div>
+
+            <p className="!mb-3 !text-[11px] !font-semibold !uppercase !tracking-wide !text-yellow-100/90">
+              17th April: Live Performance By Sharvi Yadav
+            </p>
+            <p className="!mb-5 !text-[11px] !font-semibold !uppercase !tracking-wide !text-yellow-100/90">
+              18th April: DJ Night
+            </p>
 
             {/* CTA Button */}
             <motion.button
               // whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               onClick={() => window.open("https://bharattech-xperience.theuniques.in/register", "_blank")}
-              className="!group !flex !w-full !items-center !justify-center gap-x-3 !rounded-md !cursor-pointer !bg-red-600 !px-5 !py-3 !font-bold !text-white !shadow-[0_0_20px_rgba(220,38,38,0.4)] !transition-all hover:!bg-red-500 hover:!shadow-[0_0_30px_rgba(220,38,38,0.6)]"
+              className="!group !flex !w-full !cursor-pointer !items-center !justify-center !gap-x-3 !rounded-md !bg-gradient-to-r !from-red-600 !to-orange-500 !px-5 !py-3 !font-bold !text-white !shadow-[0_0_20px_rgba(249,115,22,0.45)] !transition-all hover:!from-red-500 hover:!to-amber-500 hover:!shadow-[0_0_30px_rgba(251,146,60,0.65)]"
             >
-              <span className="azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>REGISTER NOW</span>
+              <span className="azonix-font" style={{ fontFamily: "Azonix, sans-serif" }}>
+                REGISTER NOW
+              </span>
               <ArrowRight size={18} className="!transition-transform group-hover:!translate-x-1" />
             </motion.button>
             
-            <p className="!mt-3 !text-center !text-[10px] !text-white/40 !uppercase !tracking-widest" style={{fontFamily: "Azonix"}}>
-              Limited Slots Available
+            <p className="!mt-3 !text-center !text-[10px] !uppercase !tracking-widest !text-white/60" style={{ fontFamily: "Azonix" }}>
+              Last Date For Registration Was 10th April 2026
             </p>
           </div>
 
           {/* Decorative Corner */}
-          <div className="!absolute !-bottom-1 !-left-1 !h-8 !w-8 !rounded-tr-3xl !border-t !border-r !border-red-600/50" />
+          <div className="!absolute !-bottom-1 !-left-1 !h-8 !w-8 !rounded-tr-3xl !border-t !border-r !border-orange-400/60" />
           
           <style dangerouslySetInnerHTML={{ __html: `
             @import url('https://fonts.cdnfonts.com/css/azonix');
