@@ -99,8 +99,28 @@ const inter = Raleway({ subsets: ["latin"] });
 import Loading from "./loading";
 
 export const metadata: Metadata = {
-  title: "SVGOI | Best Institution in North India",
+  metadataBase: new URL("https://www.sviet.ac.in"),
+  title: {
+    default: "SVGOI | Best Institution in North India",
+    template: "%s | SVGOI",
+  },
   description: "Be Future Ready",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "SVGOI | Best Institution in North India",
+    description: "Be Future Ready",
+    url: "https://www.sviet.ac.in",
+    siteName: "SVGOI",
+    type: "website",
+    locale: "en_IN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "SVGOI | Best Institution in North India",
+    description: "Be Future Ready",
+  },
   icons: {
     icon: "./icon.png",
   },

@@ -1443,7 +1443,7 @@ export function ComplexNavbar() {
           href="/"
           className="mr-4 w-[200px] ml-2 cursor-pointer py-1.5 font-medium"
         >
-          <Image src={logo} className="w-[100px] md:w-[200px] h-auto" alt="SVIET Logo" />
+          <Image src={logo} className="w-[100px] md:w-[200px] h-auto" alt="SVGOI Logo" />
         </Typography>
         <div className="flex flex-col flex-1">
           <div className="hidden lg:flex justify-end w-full py-3">

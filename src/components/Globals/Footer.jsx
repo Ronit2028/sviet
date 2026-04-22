@@ -201,7 +201,7 @@ const Footer = () => {
           <div className="mt-3 flex items-center justify-center gap-2 text-[10px] font-light text-gray-500">
             <img
               src={logoDark.src}
-              alt="SVIET logo"
+              alt="SVGOI logo"
               className="h-4 w-auto opacity-70"
             />
             <a

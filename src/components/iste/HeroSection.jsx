@@ -61,7 +61,7 @@ const HeroSection = () => {
           </div>
           <div className="w-full">
             <div className='object-cover h-64 w-full '>
-              <Image src={logo} alt="ISTE SVIET Logo" className='w-10/12 lg:w-1/2 mx-auto mt-[-59px]' />
+              <Image src={logo} alt="ISTE SVGOI Logo" className='w-10/12 lg:w-1/2 mx-auto mt-[-59px]' />
             </div>
           </div>
         </div>

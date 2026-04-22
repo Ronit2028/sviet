@@ -125,7 +125,7 @@ const Header = () => {
         </div>
       )}
       <div className="bg-white text-black py-6 pl-8">
-        <Image src={logo} alt="SVIET Logo" height={200} width={200}/>
+        <Image src={logo} alt="SVGOI Logo" height={200} width={200}/>
       </div>
       <div className="relative h-auto md:h-[100vh] text-white overflow-hidden">
         <video
