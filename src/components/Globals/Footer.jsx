@@ -97,6 +97,9 @@ const Footer = () => {
               <li>
                 <Link href="/careers">Careers</Link>
               </li>
+              <li>
+                <Link href="/research">Research</Link>
+              </li>
             </ul>
           </div>
           {/* Academics section */}
