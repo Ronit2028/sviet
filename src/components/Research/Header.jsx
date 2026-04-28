@@ -1,6 +1,6 @@
 import React from "react";
 
-const RESEARCH_HERO_VIDEO_URL = "https://www.youtube.com/embed/dQw4w9WgXcQ";
+const RESEARCH_HERO_VIDEO_URL = "https://youtu.be/03zrCv0nJ2s";
 
 const Header = () => {
   return (
